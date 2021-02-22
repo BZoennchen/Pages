@@ -1,0 +1,13 @@
+{
+  "name": "P5Collection",
+  "projects": [
+    "sierpinsky",
+    "voronoi",
+    "flowers",
+    "rotation",
+    "lonelyTriangle",
+    "randomWalk",
+    "pso",
+    "collisions"
+  ]
+}
