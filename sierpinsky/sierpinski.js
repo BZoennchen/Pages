@@ -81,11 +81,12 @@ const sierpinksi = (sketch) => {
 					let center1 = curve[i].getIncenter();
 					let center2 = curve[i + 1].getIncenter();
 					//fill(i%255, 200, 200);
-					if (curve.length < 255) {
-						pg.stroke(sketch.ceil(i * 255 / curve.length), 200, 150);
-					} else {
-						pg.stroke(i % 255, 200, 150);
-					}
+					//if (curve.length < 255) {
+					pg.stroke(sketch.ceil(i * 255 / curve.length), 200, 150);
+					//pg.stroke(i, 200, 150);
+					//} else {
+					//	pg.stroke(i % 255, 200, 150);
+					//}
 					pg.line(center1.x, center1.y, center2.x, center2.y);
 				}
 			}
