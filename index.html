@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>sierpinsky</title>
+
+	<script src="../libraries/p5.js"></script>
+	<script src="../libraries/p5.dom.js"></script>
+	<script src="../libraries/p5.sound.js"></script>
+	
+	<script src="./sierpinsky/triangle.js"></script>
+	<script src="./sierpinsky/line.js"></script>
+	<script src="./sierpinsky/sierpinski.js"></script>
+
+	<script src="./voronoi/vector.js"></script>
+	<script src="./voronoi/face.js"></script>
+	<script src="./voronoi/voronoi.js"></script>
+
+	<style>
+		body {
+            margin:0;
+			margin-left:45px;
+			padding:0;
+		}
+		canvas {
+			margin:auto;
+            width: 500;
+            height: 500;
+		}
+	</style>
+	
+</head>
+<body>
+    <h1>Algorithm Visualization</h1>
+    
+	<h2>Sierpiński's Space Filling Curve</h1>
+	<p>Some random text!</p>
+	<div id = "p5-sierpinksi"></div>
+
+	<h2>Discrete Voronoi Diagram</h1>
+	<div id = "p5-voronoi"></div>
+</body>
+</html>
