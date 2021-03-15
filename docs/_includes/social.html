@@ -1,0 +1,37 @@
+{%- assign social = site.minima.social_links -%}
+
+{%- if social.github -%}<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if social.youtube_channel -%}<a rel="me" href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>{%- endif -%}
+<div style="float: right;">
+<a rel="me" href="http://www.vadere.org/" title="Vadere">
+    <svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    id="svg2"
+    viewBox="0 0 357 76"
+    height="16"
+    width="76">
+   <defs
+      id="defs4" />
+   <g
+      transform="translate(0,-308.26825)"
+      id="layer1">
+     <text
+        id="text2987"
+        y="360.68182"
+        x="7.1984715"
+        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+        xml:space="preserve"><tspan
+          style="font-size:72px;line-height:67%;font-family:sans-serif;fill:#828282"
+          y="360.68182"
+          x="7.1984715"
+          id="tspan2989">VADERE</tspan></text>
+   </g>
+ </svg>
+</a>
+</div>
