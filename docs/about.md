@@ -7,9 +7,9 @@ permalink: /about/
 
 <div><img style="float: right;height:145px;" src="{{ site.baseurl }}{% link /assets/images/BZoennchen.JPG %}" alt="Photo"></div>
 
-Hello! I'm Benedikt, a Senior Teaching Assistance at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) at the Faculty of Informatics and Mathematics. 
+Hello! I'm Benedikt, an Advisor for Computer Science Education at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) at the Faculty of Informatics and Mathematics. 
 I graduated from the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) with a Master's degree in computer science in 2016.
-I continued my academic journey by joining a PhD program in Computer Science in the field of Pedestrian Dynamics. 
+Afterwards, I continued my academic journey by joining a PhD program in Computer Science in the field of Pedestrian Dynamics. 
 During that time, I worked at the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich. 
 Right now, I am waiting for the acceptance of my committed doctoral thesis.
 
@@ -19,6 +19,5 @@ Therfore, it is no surprise that I am drawn to programming art in the form of mu
 For me, computer science is a door into a world of self-determination, creativity, imagination, beauty, and freedom; in short, a world open for play - to steal some words from the great actor and comedian [Robin Williams](https://en.wikipedia.org/wiki/Robin_Williams).
 
 In essence, teaching in the domain of computer science should be an invitation to this playful world.
-Since it is so useful today, we concluded that programming should be as important as one's secondary language.
+Since it is so useful today, we concluded that programming should be known to everyone.
 However, I firmly believe it can and must be more than useful, especially while learning it!
-This belief might be the reason why I enjoy thinking about inspiring and engaging teaching methods for computer science; to show others that it is more than just useful.

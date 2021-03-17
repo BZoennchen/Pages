@@ -21,10 +21,6 @@ class GeometryUtils {
             GeometryUtils.intersectLine(p1X, p1Y, p2X, p2Y, pX, pY, qX, qY);
     }
 
-    static intersectHalfLines(pX, pY, qX, qY, p1X, p1Y, p2X, p2Y) {
-        return GeometryUtils.intersectHalfLineWithLine(pX, pY, qX, qY, p1X, p1Y, p2X, p2Y) && GeometryUtils.intersectHalfLineWithLine(p1X, p1Y, p2X, p2Y, pX, pY, qX, qY);
-    }
-
     /**
      * Tests if the half-line-segment starting at p in the direction (q-p) intersects the line-segment (p1,p2).
      */
