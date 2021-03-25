@@ -1,3 +1,5 @@
 ---
-layout: post
+layout: posts
+title: Posts
+permalink: /posts/
 ---
