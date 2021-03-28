@@ -210,6 +210,8 @@ There are many other parts of the **cslang**, and if you want to get started, I 
 
 Let us create the most simple sound possible: a sine wave.
 First, we define a function that can be seen as a process called *unit generator* (``UGen``) that starts when we call ``play()``.
+There are hundred of different ``UGens``s, they basically spit out real numbers over time.
+For example ``SineOsc`` samples a sine wave.
 
 ```supercollider
 ~sine = {arg freq=200; SinOsc.ar(freq, mul: 0.2)};
@@ -363,7 +365,7 @@ We can change all arguments during the ``Synth`` lifetime.
 ~sinewaves.set(\amp, 0.2);
 ```
 
-### Envelope (finite UGens)
+### Envelopes (finite UGens)
 
 So far, we had to start and stop the sound by hand.
 However, if we want to design a musical instrument, we want to manipulate the amplitude over time.
