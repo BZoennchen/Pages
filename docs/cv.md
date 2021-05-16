@@ -73,13 +73,13 @@ Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation<br>
 **Winter 2019/20** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/), Garching, Germany<br>
 *Machine Learning in Crowd Modeling and Simulation* (Master), Guest Lecturer<br>
 
-**Winter 2016/17** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany, Garching, Germany<br>
+**Winter 2016/17** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Linear Algebra* (Bachelor), Lecturer<br>
 
-**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany, Garching, Germany<br>
+**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Scientific Computing* (Bachelor), Lecturer<br>
 
-**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany, Garching, Germany<br>
+**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
 
 ## Research Interests

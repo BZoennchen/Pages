@@ -66,4 +66,9 @@ const collisions = (sketch) => {
 	};
 };
 
-let collisionsP5 = new p5(collisions, document.getElementById('p5-collisions'));
+document.addEventListener("DOMContentLoaded", function () {
+	let divCollision = document.getElementById('p5-collisions');
+	if (divCollision != null) {
+		let collisionsP5 = new p5(collisions, document.getElementById('p5-collisions'));
+	}
+});

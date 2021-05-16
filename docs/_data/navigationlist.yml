@@ -1,0 +1,17 @@
+docs_list_title: Navigation
+docs:
+
+- title: About
+  url: /P5Collection/about/
+
+- title: Posts
+  url: /P5Collection/posts/
+
+- title: P5js
+  url: /P5Collection/p5collection/
+
+- title: CV
+  url: /P5Collection/cv/
+
+- title: Contact
+  url: /P5Collection/contact/

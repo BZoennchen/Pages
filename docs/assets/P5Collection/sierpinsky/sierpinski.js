@@ -103,4 +103,9 @@ const sierpinksi = (sketch) => {
 	};
 };
 
-let sierpinksiP5 = new p5(sierpinksi, document.getElementById('p5-sierpinksi'));
+document.addEventListener("DOMContentLoaded", function () {
+	let divSierpinski = document.getElementById('p5-sierpinksi');
+	if (divSierpinski != null) {
+		let sierpinksiP5 = new p5(sierpinksi, document.getElementById('p5-sierpinksi'));
+	}
+});

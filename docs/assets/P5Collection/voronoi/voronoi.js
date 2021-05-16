@@ -87,4 +87,9 @@ const voronoi = (sketch) => {
 	}
 }
 
-let vornoinP5 = new p5(voronoi, document.getElementById('p5-voronoi'));
+document.addEventListener("DOMContentLoaded", function () {
+	let divVoronoi = document.getElementById('p5-voronoi');
+	if (divVoronoi != null) {
+		let vornoinP5 = new p5(voronoi, document.getElementById('p5-voronoi'));
+	}
+});

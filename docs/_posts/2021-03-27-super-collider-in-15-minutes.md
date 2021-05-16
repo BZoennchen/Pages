@@ -5,9 +5,11 @@ title:  "Sound design with SuperCollider"
 
 In the past, I did a 15-minute introduction for [SuperCollider (SC)](https://supercollider.github.io/) for students at my University.
 Likewise to Sonic Pi's introduction, I will repeat everything I talked about and give some additional insights.
+
 [SC](https://supercollider.github.io/) can be used in many very different ways, such as algorithmic composition, sound design, research, and more.
 In the following, I concentrate on sound design.
-Note that there is a strong connection between [Sonic Pi (SP)](https://sonic-pi.net/) and [SC](https://supercollider.github.io/) since [SP](https://sonic-pi.net/) uses [SC](https://supercollider.github.io/) to generate sound, that is, [SP](https://sonic-pi.net/) is used to implement a rhythm, but the actual sound comes from ``Synth``s defined by [SP](https://sonic-pi.net/) or samples.
+
+Note that there is a strong connection between [Sonic Pi (SP)](https://sonic-pi.net/) and [SC](https://supercollider.github.io/) since [SP](https://sonic-pi.net/) uses [SC](https://supercollider.github.io/) to generate sound, that is, [SP](https://sonic-pi.net/) is used to implement a rhythm, but the actual sound comes from ``Synth``s defined by [SC](https://supercollider.github.io/) or samples.
 Therefore, [SC](https://supercollider.github.io/) and [SP](https://sonic-pi.net/) can go hand in hand.
 I also want to stress that one can implement rhythm and play samples using [SC](https://supercollider.github.io/), but a lot more code is required because [SC](https://supercollider.github.io/) is much more low-level, i.e., more control but less rapid development.
 
