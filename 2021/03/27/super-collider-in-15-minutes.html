@@ -10,19 +10,19 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights." />
 <meta property="og:description" content="In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights." />
-<link rel="canonical" href="/P5Collection/2021/03/27/super-collider-in-15-minutes.html" />
-<meta property="og:url" content="/P5Collection/2021/03/27/super-collider-in-15-minutes.html" />
+<link rel="canonical" href="/Pages/2021/03/27/super-collider-in-15-minutes.html" />
+<meta property="og:url" content="/Pages/2021/03/27/super-collider-in-15-minutes.html" />
 <meta property="og:site_name" content="Benedikt Zönnchen" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-03-27T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sound design with SuperCollider" />
 <script type="application/ld+json">
-{"description":"In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.","mainEntityOfPage":{"@type":"WebPage","@id":"/P5Collection/2021/03/27/super-collider-in-15-minutes.html"},"headline":"Sound design with SuperCollider","dateModified":"2021-03-27T00:00:00+01:00","datePublished":"2021-03-27T00:00:00+01:00","url":"/P5Collection/2021/03/27/super-collider-in-15-minutes.html","author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.","mainEntityOfPage":{"@type":"WebPage","@id":"/Pages/2021/03/27/super-collider-in-15-minutes.html"},"headline":"Sound design with SuperCollider","dateModified":"2021-03-27T00:00:00+01:00","datePublished":"2021-03-27T00:00:00+01:00","url":"/Pages/2021/03/27/super-collider-in-15-minutes.html","author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/P5Collection/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/P5Collection/feed.xml" title="Benedikt Zönnchen" /></head>
+<link rel="stylesheet" href="/Pages/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/Pages/feed.xml" title="Benedikt Zönnchen" /></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><body><header class="site-header">
-    <div class="wrapper"><a class="site-title" rel="author" href="/P5Collection/">Benedikt Zönnchen</a><nav class="site-nav">
+    <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Benedikt Zönnchen</a><nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
             <span class="menu-icon">
@@ -45,7 +45,7 @@
               <a class="page-link" href="/Pages/contact/">Contact</a>
               
 
-            <!--<a class="page-link" href="/P5Collection/about/">About</a><a class="page-link" href="/P5Collection/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/P5Collection/contact/">Contact</a><a class="page-link" href="/P5Collection/cv/">CV</a><a class="page-link" href="/P5Collection/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/P5Collection/p5collection/">P5Collection</a><a class="page-link" href="/P5Collection/posts/">Posts</a><a class="page-link" href="/P5Collection/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/P5Collection/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/P5Collection/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
+            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/p5collection/">P5Collection</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
           </div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
@@ -417,7 +417,7 @@ In the following, I define an envelope (which I think of as a finite <code class
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span> <span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]))}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.6</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div><img style="height:300px;" src="/P5Collection/assets/images/envelope-plot.png" alt="Env" /></div>
+<div><img style="height:300px;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
 
 <p>The envelope starts at <code class="language-plaintext highlighter-rouge">0</code>, increases to <code class="language-plaintext highlighter-rouge">1</code> during <code class="language-plaintext highlighter-rouge">0.1</code> seconds, drops to <code class="language-plaintext highlighter-rouge">0.4</code> in <code class="language-plaintext highlighter-rouge">0.4</code> seconds, and then drops to <code class="language-plaintext highlighter-rouge">0</code> in <code class="language-plaintext highlighter-rouge">0.1</code> seconds.
 The <code class="language-plaintext highlighter-rouge">curve</code> argument influences curvature of the segments.
@@ -443,8 +443,8 @@ It can be best understood by plotting the result while playing around with the v
 
 <p>Let’s plot the sound with and without multiplied by the envelop:</p>
 
-<div><img style="height:300px;" src="/P5Collection/assets/images/synth-plot.png" alt="Synth" /></div>
-<div><img style="height:300px;" src="/P5Collection/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
+<div><img style="height:300px;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
+<div><img style="height:300px;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
 
 <p>The following code generates the plot.</p>
 
@@ -495,15 +495,15 @@ If you want to use <strong>sclang</strong> a good starting point is to look into
 <p>To get a better feeling of what is possible, copy the following <a href="http://sccode.org/1-5bF">code</a> and execute it in the IDE.
 The piece was composed by <a href="https://www.youtube.com/user/elifieldsteel">Eli Fieldsteel</a> and makes use of <a href="https://en.wikipedia.org/wiki/Wavetable_synthesis#:~:text=Wavetable%20synthesis%20is%20fundamentally%20based,selects%20the%20single%20cycle%20waveform.">wavetable synthesis</a>.</p>
 
-  </div><a class="u-url" href="/P5Collection/2021/03/27/super-collider-in-15-minutes.html" hidden></a>
+  </div><a class="u-url" href="/Pages/2021/03/27/super-collider-in-15-minutes.html" hidden></a>
 </article>
 
       </div>
     </main><footer class="site-footer h-card">
-    <data class="u-url" href="/P5Collection/"></data>
+    <data class="u-url" href="/Pages/"></data>
   
     <div class="wrapper">
-      <div class="social-links"><a rel="me" href="https://github.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/P5Collection/assets/minima-social-icons.svg#github"></use></svg></a><a rel="me" href="https://twitter.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/P5Collection/assets/minima-social-icons.svg#twitter"></use></svg></a><a rel="me" href="https://www.youtube.com/channel/UCFqv61UVSmI0h_az5cLV5gQ" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/P5Collection/assets/minima-social-icons.svg#youtube"></use></svg></a><div style="float: right;">
+      <div class="social-links"><a rel="me" href="https://github.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#github"></use></svg></a><a rel="me" href="https://twitter.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#twitter"></use></svg></a><a rel="me" href="https://www.youtube.com/channel/UCFqv61UVSmI0h_az5cLV5gQ" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#youtube"></use></svg></a><div style="float: right;">
 <a rel="me" href="http://www.vadere.org/" title="Vadere">
     <svg
     xmlns:dc="http://purl.org/dc/elements/1.1/"
