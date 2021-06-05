@@ -1,4 +1,15 @@
 desc "Build _site/"
+task :drafts do
+  puts "\n Remove site"
+  status = system("rm -r ./_site ")
+  puts "\n## Building site with drafts"
+  status = system("bundle exec jekyll build . --drafts")
+  puts status ? "Success" : "Failed"
+  puts "\n## Serving a site build at #{Time.now.utc}"
+  status = system("bundle exec jekyll serve . --drafts")
+end
+
+desc "Build _site/"
 task :build do
   puts "\n Remove site"
   status = system("rm -r ./_site ")
