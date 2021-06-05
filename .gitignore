@@ -1,6 +1,22 @@
-*.DS_Store
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+#builds, log/preferences files
+target/
+*.out
+*.preferences.xml
+
+#IntelliJ
+.idea/
+*.iml
+
+#Eclipse
+.settings/
+.metadata/
+.classpath
+.project
+
+#deprecated: can potentially be removed
+bin/
+libs/
+.jekyll-cache/
+
+#mac osx files
+.DS_Store
