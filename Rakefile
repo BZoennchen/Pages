@@ -1,5 +1,7 @@
 desc "Build _site/"
 task :build do
+  puts "\n Remove site"
+  status = system("rm -r ./_site ")
   puts "\n## Building site"
   status = system("bundle exec jekyll build .")
   puts status ? "Success" : "Failed"
