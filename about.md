@@ -16,7 +16,7 @@ Right now, I am waiting for the acceptance of my committed doctoral thesis.
 Apart from modeling and simulating pedestrian streams, I am interested in algorithms and their expressiveness in a more general sense.
 I want to explore computer coding as an art form in itself and as a musical instrument that generates new forms of expressions.
 Therfore, it is no surprise that I am drawn to programming art in the form of music using [Sonic Pi](https://sonic-pi.net/) and [SuperCollider](https://supercollider.github.io/) or animations using [Processing](https://processing.org/), [P5js](https://p5js.org/) and mors recently [Manim](https://www.manim.community/).
-For me, computer science is a door into a world of self-determination, creativity, imagination, beauty, and freedom; in short, a world open for play - to steal some words from the great actor and comedian [Robin Williams](https://en.wikipedia.org/wiki/Robin_Williams).
+For me, computer science is a door into a world of self-determination, creativity, imagination, beauty, and freedom; in short, a world open for play - to use some words from the great actor and comedian [Robin Williams](https://en.wikipedia.org/wiki/Robin_Williams).
 
 In essence, teaching in the domain of computer science should be an invitation to this playful world.
 Since it is so useful today, we concluded that programming should be known to everyone.

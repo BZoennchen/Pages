@@ -3,7 +3,7 @@ layout: post
 title:  "PhD Defense"
 ---
 
-Today, I just wanna note that I finally finished my academic journey on the 21$^{st}$ of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.
+Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.
 
 The following text is from the preface of the thesis and describes my personal struggles during and my perspective on the journey.
 

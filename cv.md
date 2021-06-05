@@ -24,7 +24,7 @@ Computer Science (M.Sc.)<br>
 
 **10/2010 - 09/2013** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 Computer Science (B.Sc.)<br>
-*Thesis:* Navigation um Gruppen und Schlangenbildung durch dynamische Anpassung der Reisegeschwindigkeit im Fast Marching Algorithmus ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
+*Thesis:* Navigation Around Pedestrian Groups and Queueing using a Dynamic Adaption of Travelling Times in the Fast Marching Algorithm ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
 
 ## Publications
 
@@ -97,10 +97,14 @@ In *Transportation Research Procedia*,<br>
 + Philosophy in Films
 + Chess
 
-## Scholarships
+## Scholarships / Awards
 
-**04/2012 - 05/2016** German Academic Scholarship Foundation (Studienstiftung des deutschen Volkes)
+**04/2012 - 05/2016** <br>
+[German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung des deutschen Volkes)<br>
 
-**06/2012 - 05/2016** Max Weber-Program of the State of Bavaria (Max Weber-Programm Bayern)
+**06/2012 - 05/2016** <br>
+[Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home) (Max Weber-Programm Bayern)<br>
 
-**2013** RiMEA  sponsorship award
+**2013** <br>
+[RiMEA sponsorship award](https://rimea.de/de/rimea-award/)<br>
+Valedictorian (Best Graduate of the Academic year 2013, Informatics and Mathematics MUAS)
