@@ -13,7 +13,7 @@ Senior Advisor for Computer Science Education,<br>
 
 ## Academic Education
 
-**03/2016 - 08/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
+**03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
 Computer Science (Dr.rer.nat.) (defended at the 21$^{st}$ of Mai 2021)<br>
 *Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
@@ -98,6 +98,9 @@ In *Transportation Research Procedia*,<br>
 + Chess
 
 ## Scholarships
+
 **04/2012 - 05/2016** German Academic Scholarship Foundation (Studienstiftung des deutschen Volkes)
+
 **06/2012 - 05/2016** Max Weber-Program of the State of Bavaria (Max Weber-Programm Bayern)
+
 **2013** RiMEA  sponsorship award
