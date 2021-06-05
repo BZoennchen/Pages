@@ -27,43 +27,43 @@ Computer Science (B.Sc.)<br>
 
 ## Publications
 
+**2020** | **Benedikt Zönnchen** and Gerta Köster <br>
+GPGPU Computing for Microscopic Pedestrian Simulation<br>
+In *Parallel Computing: Technology Trends*<br>
+[DOI: 10.3233/APC200029](https://doi.org/10.3233/APC200029)
+
+**2020** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster <br>
+Vadere -- A Simulation Framework to Compare Locomotion Models<br>
+In *Traffic and Granular Flow 2019*<br>
+[DOI: 10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41)
+
 **2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster <br>
 Vadere: an open-source simulation framework to promote interdisciplinary understanding<br>
-*Collective Dynamics*, [DOI: 10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21)
+In *Collective Dynamics*, <br>
+[DOI: 10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21)
+
+**2019** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster <br>
+Towards Faster Navigation Algorithms on Floor Fields<br>
+In *Traffic and Granular Flow '17*,<br>
+[DOI: 10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34)
 
 **2018** | **Benedikt Zönnchen** and Gerta Köster <br>
 A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation<br>
-*Journal of Computational Science*, [DOI: 10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009)
+In *Journal of Computational Science*,<br>
+[DOI: 10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009)
 
-## Conferences
-
-**2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster <br>
-Vadere -- A Simulation Framework to Compare Locomotion Models<br>
-*International Conference on Traffic and Granular Flow '19*<br>
-[DOI: 10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41)
-
-**2019** | **Benedikt Zönnchen** and Gerta Köster <br>
-GPGPU Computing for Microscopic Pedestrian Simulation<br>
-*Parallel Computing Conference*<br>
-[DOI: 10.3233/APC200029](https://doi.org/10.3233/APC200029)
-
-**2017** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster <br>
-Towards Faster Navigation Algorithms on Floor Fields<br>
-*International Conference on Traffic and Granular Flow '17*<br>
-[DOI: 10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34)
+**2016** | Gerta Köster and **Benedikt Zönnchen**<br>
+A Queuing Model Based On Social Attitudes<br>
+In *Traffic and Granular Flow '15*,<br>
+[DOI: 10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25)
 
 **2016** | **Benedikt Zönnchen** and Gerta Köster <br>
 Detecting Arbitrarily Shaped Queues Using the Fast Marching Method<br>
 *8th International Conference on Pedestrian and Evacuation Dynamics*
 
-**2015** | Gerta Köster and **Benedikt Zönnchen**<br>
-A Queuing Model Based On Social Attitudes<br>
-*8th International Conference on Pedestrian and Evacuation Dynamics*<br>
-[DOI: 10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25)
-
 **2014** | Gerta Köster and **Benedikt Zönnchen**<br>
 Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation<br>
-*7th International Conference on Pedestrian and Evacuation Dynamics*<br>
+*Transportation Research Procedia*<br>
 [DOI: 10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029)
 
 ## Teaching
