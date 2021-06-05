@@ -8,7 +8,8 @@ permalink: /cv/
 ## Experience
 
 **08/2020 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
-Senior Advisor for Computer Science Education
+Senior Advisor for Computer Science Education,<br>
+*CSplus and plusCS education*
 
 ## Academic Education
 
@@ -82,17 +83,21 @@ Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation<br>
 **Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
 
-## Research Interests
+## Fields of Interests
 + Modelling and Simulation of Pedestrian Dynamics
 + Mesh Generation and its Application
-+ Design of Efficient and Parallel as well as Online- and Approximation Algorithms
-+ Algorithm visualization
-+ Formal Methods, Automata Theory, and Functional Programming
-+ Open Courses
++ Design of Efficient and Parallel Algorithms
++ Automata Theory
++ Free Education
++ Algorithmic Art (Processing, P5js, SuperCollider, Sonic Pi)
++ Algorithm Visualization
 
 ## Other Interests
-+ Algorithmic Art (Processing, P5js, Sonic Pi, SuperCollider)
 + Film Criticism and Analysis
-+ Philosophy And Movies
++ Philosophy in Films
 + Chess
-           
+
+## Scholarships
+**04/2012 - 05/2016** German Academic Scholarship Foundation (Studienstiftung des deutschen Volkes)
+**06/2012 - 05/2016** Max Weber-Program of the State of Bavaria (Max Weber-Programm Bayern)
+**2013** RiMEA  sponsorship award
