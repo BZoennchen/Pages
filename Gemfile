@@ -36,5 +36,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 #plugins: ['jekyll/scholar']
 
-scholar:
-  style: modern-language-association
+#scholar:
+#  style: modern-language-association
