@@ -3,11 +3,11 @@ layout: post
 title:  "Informatics - A Love Letter"
 ---
 
-> The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural. - Peter J. Denning
+> The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural. - Peter J. Denning {% cite denning:2005 %}
 
 For me personally, computer science is an empowering discipline - it is part of the emanzipation of man. It’s engineering quality can directly empower our fragile and limited body and mind. But its magic goes beyond practical usefulness. Similar to mathematics, its beauty can be discovered in an abstract world. This platonian world consists of phantastic imaginative objects we can recognize, build and play with. In it the problems of man are absent. There is no morality, no judgement, no conflict, no othering but harmony to enjoy, complex structures to discover, riddles to unravel and a logic-based creativity to get lost to.
 
-{% bibliography --file default %}
+
 
 Computer science or informatics is a discipline that is both engineering and formal science.
 
@@ -76,3 +76,7 @@ Both terms **computer science** as well as **informatics** highlight different a
 ### Computer Science
 
 The term **computer science** emphasis the importance of computational machines and computation itself. Through that lense
+
+## References
+
+{% bibliography --cited_in_order %}

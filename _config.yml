@@ -50,7 +50,7 @@ defaults:
     image: false
 
 scholar:
-  style: modern-language-association
+  style: physical-review-d
 
 # Exclude from processing.
 # The following items will not be processed, by default.
