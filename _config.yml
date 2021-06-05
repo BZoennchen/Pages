@@ -42,14 +42,12 @@ author:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-scholar
+  - jekyll-email-protect
 defaults:
   - scope:
     path: "assets/files"
     image: false
-
-plugins: 
-  - jekyll-scholar
-  - jekyll-email-protect
 
 scholar:
   style: modern-language-association

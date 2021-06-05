@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # {{ page.title }}
 
-<div><img style="float: right;height:145px;" src="{{ site.baseurl }}{% link /assets/images/BZoennchen.JPG %}" alt="Photo"></div>
+<div><img style="float: right;height:145px;" src="{% link /assets/images/BZoennchen.JPG %}" alt="Photo"></div>
 
 Hello! I'm Benedikt, an Advisor for Computer Science Education at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) at the Faculty of Informatics and Mathematics. 
 I graduated from the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) with a Master's degree in computer science in 2016.

@@ -25,7 +25,8 @@ gem "jekyll-email-protect"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "github-pages", "~> 212"
+  gem 'jekyll'
+  #gem "github-pages", "~> 212"
   gem "jekyll-scholar"
   gem "jekyll-email-protect"
   gem "jekyll-twitter-plugin"

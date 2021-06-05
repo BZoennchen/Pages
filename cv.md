@@ -3,7 +3,7 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-# Curriculum Vitae ([pdf]({{ site.baseurl }}{% link /assets/files/CV.pdf %}))
+# Curriculum Vitae ([pdf]({% link /assets/files/CV.pdf %}))
 
 ## Experience
 
@@ -19,11 +19,11 @@ Computer Science (Dr.rer.nat.) (dissertation submitted)<br>
 
 **10/2013 - 02/2016** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany<br>
 Computer Science (M.Sc.)<br>
-*Thesis:* Implementation of an Efficient Equivalence Test for Sequential and Linear Tree-to-Word Transducers ([pdf]({{ site.baseurl }}{% link /assets/files/master-thesis.pdf %}))
+*Thesis:* Implementation of an Efficient Equivalence Test for Sequential and Linear Tree-to-Word Transducers ([pdf]({% link /assets/files/master-thesis.pdf %}))
 
 **10/2010 - 09/2013** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 Computer Science (B.Sc.)<br>
-*Thesis:* Navigation um Gruppen und Schlangenbildung durch dynamische Anpassung der Reisegeschwindigkeit im Fast Marching Algorithmus ([pdf]({{ site.baseurl }}{% link /assets/files/bachelor-thesis.pdf %}))
+*Thesis:* Navigation um Gruppen und Schlangenbildung durch dynamische Anpassung der Reisegeschwindigkeit im Fast Marching Algorithmus ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
 
 ## Publications
 

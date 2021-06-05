@@ -2,16 +2,16 @@ docs_list_title: Navigation
 docs:
 
 - title: About
-  url: /Pages/about/
+  url: /about/
 
 - title: Posts
-  url: /Pages/posts/
+  url: /posts/
 
 - title: P5js
-  url: /Pages/p5collection/
+  url: /p5collection/
 
 - title: CV
-  url: /Pages/cv/
+  url: /cv/
 
 - title: Contact
-  url: /Pages/contact/
+  url: /contact/
