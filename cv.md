@@ -38,7 +38,7 @@ In *Traffic and Granular Flow 2019*<br>
 [DOI: 10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41)
 
 **2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster <br>
-Vadere: an open-source simulation framework to promote interdisciplinary understanding<br>
+Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding<br>
 In *Collective Dynamics*, <br>
 [DOI: 10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21)
 
