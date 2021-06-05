@@ -6,8 +6,8 @@ permalink: /contact/
 # {{ page.title }}
 
 **E-mail:** 
-+ {{ 'benedikt.zoennchen@web.de' | encode_email }}
-+ {{ 'zoennchen.benedikt@hm.edu' | encode_email }} ([MUAS](https://www.cs.hm.edu/en/home/index.en.html))
++ <a href="mailto:{{ 'benedikt.zoennchen@web.de' | encode_email }}" title="General">General contact</a> 
++ <a href="mailto:{{ 'zoennchen.benedikt@hm.edu' | encode_email }}" title="General">MUAS contact</a> ([MUAS](https://www.cs.hm.edu/en/home/index.en.html))
 
 **PGP key:** [7D66E2E6.asc]({{ site.baseurl }}{% link /assets/files/7D66E2E6.asc %})
 
