@@ -6,8 +6,8 @@ permalink: /contact/
 # {{ page.title }}
 
 **E-mail:** 
-+ <benedikt.zoennchen@web.de>
-+ <zoennchen.benedikt@hm.edu> ([MUAS](https://www.cs.hm.edu/en/home/index.en.html))
++ {{ 'benedikt.zoennchen@web.de' | encode_email }}
++ {{ 'zoennchen.benedikt@hm.edu' | encode_email }} ([MUAS](https://www.cs.hm.edu/en/home/index.en.html))
 
 **PGP key:** [7D66E2E6.asc]({{ site.baseurl }}{% link /assets/files/7D66E2E6.asc %})
 

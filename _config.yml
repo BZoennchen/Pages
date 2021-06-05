@@ -48,7 +48,8 @@ defaults:
     image: false
 
 plugins: 
-  - jekyll/scholar
+  - jekyll-scholar
+  - jekyll-email-protect
 
 scholar:
   style: modern-language-association
