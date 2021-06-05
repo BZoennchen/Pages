@@ -47,6 +47,12 @@ defaults:
     path: "assets/files"
     image: false
 
+plugins: 
+  - jekyll/scholar
+
+scholar:
+  style: modern-language-association
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
