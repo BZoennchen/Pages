@@ -13,8 +13,8 @@ Senior Advisor for Computer Science Education,<br>
 
 ## Academic Education
 
-**03/2016 - today** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
-Computer Science (Dr.rer.nat.) (dissertation submitted)<br>
+**03/2016 - 08/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
+Computer Science (Dr.rer.nat.) (defended at the 21$^{st}$ of Mai 2021)<br>
 *Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
 
@@ -28,43 +28,43 @@ Computer Science (B.Sc.)<br>
 
 ## Publications
 
-**2020** | **Benedikt Zönnchen** and Gerta Köster <br>
-GPGPU Computing for Microscopic Pedestrian Simulation<br>
-In *Parallel Computing: Technology Trends*<br>
+**2020** | **Benedikt Zönnchen** and Gerta Köster,<br>
+GPGPU Computing for Microscopic Pedestrian Simulation.<br>
+In *Parallel Computing: Technology Trends*,<br>
 [DOI: 10.3233/APC200029](https://doi.org/10.3233/APC200029)
 
-**2020** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster <br>
-Vadere -- A Simulation Framework to Compare Locomotion Models<br>
+**2020** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster,<br>
+Vadere -- A Simulation Framework to Compare Locomotion Models,<br>
 In *Traffic and Granular Flow 2019*<br>
 [DOI: 10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41)
 
-**2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster <br>
-Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding<br>
+**2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster,<br>
+Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding,<br>
 In *Collective Dynamics*, <br>
 [DOI: 10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21)
 
-**2019** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster <br>
-Towards Faster Navigation Algorithms on Floor Fields<br>
+**2019** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster,<br>
+Towards Faster Navigation Algorithms on Floor Fields,<br>
 In *Traffic and Granular Flow '17*,<br>
 [DOI: 10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34)
 
-**2018** | **Benedikt Zönnchen** and Gerta Köster <br>
-A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation<br>
+**2018** | **Benedikt Zönnchen** and Gerta Köster,<br>
+A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation,<br>
 In *Journal of Computational Science*,<br>
 [DOI: 10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009)
 
-**2016** | Gerta Köster and **Benedikt Zönnchen**<br>
+**2016** | Gerta Köster and **Benedikt Zönnchen**,<br>
 A Queuing Model Based On Social Attitudes<br>
 In *Traffic and Granular Flow '15*,<br>
 [DOI: 10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25)
 
-**2016** | **Benedikt Zönnchen** and Gerta Köster <br>
-Detecting Arbitrarily Shaped Queues Using the Fast Marching Method<br>
+**2016** | **Benedikt Zönnchen** and Gerta Köster,<br>
+Detecting Arbitrarily Shaped Queues Using the Fast Marching Method,<br>
 *8th International Conference on Pedestrian and Evacuation Dynamics*
 
-**2014** | Gerta Köster and **Benedikt Zönnchen**<br>
-Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation<br>
-*Transportation Research Procedia*<br>
+**2014** | Gerta Köster and **Benedikt Zönnchen**,<br>
+Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation,<br>
+In *Transportation Research Procedia*,<br>
 [DOI: 10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029)
 
 ## Teaching
