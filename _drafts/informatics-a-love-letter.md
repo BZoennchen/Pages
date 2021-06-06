@@ -3,10 +3,105 @@ layout: post
 title:  "Informatics - A Love Letter"
 ---
 
-> The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural. - Peter J. Denning {% cite denning:2005 %}
+>"The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural."<br> - Peter J. Denning {% cite denning:2005 %}
 
-For me personally, computer science is an empowering discipline - it is part of the emanzipation of man. It’s engineering quality can directly empower our fragile and limited body and mind. But its magic goes beyond practical usefulness. Similar to mathematics, its beauty can be discovered in an abstract world. This platonian world consists of phantastic imaginative objects we can recognize, build and play with. In it the problems of man are absent. There is no morality, no judgement, no conflict, no othering but harmony to enjoy, complex structures to discover, riddles to unravel and a logic-based creativity to get lost to.
+For me personally, informatics is an empowering discipline - it is part of the emanzipation of men. 
+It’s engineering quality can directly enable our fragile and limited body and mind. 
+But its magic goes beyond practical use.
+Similar to mathematics, its beauty can also be discovered in an abstract world. 
+This platonian world consists of phantastic imaginative objects we can recognize, build and play with. 
+In it, the problems of men are absent. 
+There is no morality, no judgement, no conflict, no othering but harmony to enjoy, complex structures to discover, riddles to unravel and a logic-based creativity to get lost in.
 
+**Informatics is an art:**
+In popular culture, coding is often portrayed as something conspicuously 'nerdy' and alienating.
+A usually white nerdy man writes his code by typing seamlessly and rapidly into a black terminal.
+He never stops, he never interacts with other beings, and he never leaves his desk or draws a pen.
+Of course, everything works perfectly on the first try and no one else seems to have any clue what's going on.
+Intellectually, the programmer stands above everyone else, he is some sort of super hero, a mad scientist or introverted weirdo - only so important to do the necessary work and to enable the 'real' hero.
+This toxic depiction of software developers (and introverted people) is wrong, dated and was never accurate in the first place.
+
+Writing programs can feel like building your own world that follows rules you invent and define.
+Very simple entities accumulate to something bigger, something interconnected.
+The degree of freedom and creativity this process of creation offers, can be hardly explained or understood if one never experienced it first-hand.
+
+But in no way does programming starts in isolation at the computer and in no way can we do it seamlessly.
+It is neither a pure analytical nor a pure experimental process.
+Like writing an interesting story, it is a struggle, always!
+If it isn't, we or someone else already formed the necessary and correct thoughts to solve the puzzle.
+In that case we do not create but translate.
+
+One of the most phascinating fact is that, in the end, everything comes down to simple symbol manipulations which we call information processes.
+Software developers scoop, transform, and use information.
+They design data structures and algorithms like architects draw construction plans.
+Additionally, they have the power to build, combine, reuse and extend those objects of structured information.
+
+In contrast to most other engineers, software developers can make use of a highly flexible and versatile resource.
+Information can be easily exchanged among peers, reshaped, conceptually described and analysed.
+In fact, it manipulates itself, since any program is nothing more than well-structured information.
+Like many other meterialized ideas, structured information arises from human thoughts, they are the result of a mental exercise.
+But the transformation of thoughts into objects of structured information is immediate.
+It is like writing a poem.
+Therefore, it can be a quite personal as well as connecting experience to read the code, i.e. thoughts, of someone else.
+Over the time, one learns to appreciate good code - its structure, aesthetic, modularity, level of abstraction, simplicity, consistency, and elegance.
+
+And if we look beyond the code, beyond ideas written down in text snippets, prgrams are written to be executed.
+And those programs can serve of almost any domain.
+They control robots, harvest semantic information, control networks of devices, simulate the real world and other, virtual worlds.
+They establish channels of communication, send messages with the speed of light across the earth, compose and play music, and constantly search for structures in an rapidly increasing number of data points.
+
+The interconnected world of information processes of today never forgets anything.
+Incessantly, it sucks up data and floods our private and public spaces with it.
+It is like a magical beast that can create amazing wonders but can also cause devastating destructions - sometimes it appears as a lovely creature, and sometimes it embodies a frightening monster.
+We have to deal with it!
+Discovering, studying, useing, invluencing and extending it, is exciting as well as necessary.
+It is partly one of our duties, but we should not encounter this beast alone!
+
+**Informatics establishes and studies formality:**
+As a software engineer I want to build large architectures that process information.
+In the world of physical objects we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse and behave in an expected way.
+But how can we specify and verify structured information?
+
+We need formal methods, that is, a particular kind of mathematically rigorous techniques for the specification, development and verification of software and hardware systems.
+I was never hooked by the purpose of formal methods.
+Instead, I found them intrinsically fascinating!
+It was just enough to discover those formal thus clear defined objects.
+Again, it is very hard to explain this attraction.
+
+You start by a set of unambiguous definitions: the alphabet, a word over the alphabet, a tuple of a set of stats, a transition function and so on.
+And you begin to construct slightly more and more powerful objects while analysing the properties of these objects.
+You always try to keep their power controllable, such that, their properties can be computed in a reasonable amount of time.
+
+You begin to recognize the equivalence of objects from completely different fields such as logic and automata theory.
+And you form beautiful proofs about very abstract thus general statements of your formally constructed world.
+
+
+
+
+
+
+
+
+
+It has grown so much and evolved into a partly lovely, partly frightening beast which we have to keep in check.
+
+I saw students, that did not match any of these characterizations, evolve into excellent computer scientists.
+Certainly 
+
+Our digital world is discrete and constructive, it brings representations of our imaginative objects to life.
+
+
+As a matter of fact this world cosnist of processes of simple symbol manipulations.
+
+
+ works is by automated symbol manipulation 
+The level of control is 
+that manipulate information 
+
+Computer science is formality.
+Computer science is science.
+
+**Informatics is a science:**
 
 
 Computer science or informatics is a discipline that is both engineering and formal science.
