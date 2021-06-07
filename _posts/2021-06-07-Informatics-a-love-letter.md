@@ -260,7 +260,7 @@ Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$$.
 $$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ follows from Eq. \eqref{eq:halt:2} which implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does halts, compare Eq. \eqref{eq:halt:1}.
 But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqref{eq:halt:2}, $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$ which leads to a contradiction.
 
-Since $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does lead to a paradox, but the construction of $$\hat{\mathcal{H}}$$ is correct if exists $$\mathcal{H}$$, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
+Since $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does lead to a paradox, but the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
 
 ### References
 
