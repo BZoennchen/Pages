@@ -42,9 +42,9 @@ They design data structures, and algorithms like architects draw construction pl
 Additionally, they have the power to build, combine, reuse and extend those objects of structured information.
 They command machines of blind obedience.
 The degree of control translates to a form of power and self-determination absent in the physical world.
-As Linus Torvalds rightfully noted
+As Linus Torvalds rightfully noted:
 
->"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics you are supposed to figure out how the world is made up, in computer science you create the world. Within the confines of the computer, you are the creator. You get utimately control everything that happens. If you are good enough, you can be God on a small scale." - Linus Torvalds
+>"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimately control everything that happens. If you are good enough, you can be God on a small scale." - Linus Torvalds
 
 In contrast to most other kinds of engineers, software developers can use a highly flexible and versatile resource.
 Information can be easily exchanged among peers, reshaped, conceptually described, and analyzed.
@@ -63,10 +63,10 @@ They establish communication channels, send messages with the speed of light acr
 However, in the end, functionality is second to being exciting or pretty.
 Even coding itself is secondary.
 Figuring out how things work is the real deal.
-Since everything is self-consistent and logical, you can go on and go on and never stop exploring.
+Since everything is self-consistent and logical, you can go on and on and never stop exploring.
 It is an endless stream too immense for one lifetime.
-You are not even bound to some external logic; you can make up your own as long as it is consistent.
-This consistency is a bright contrast to the social and political world - it's like going home to a place where you can find some truth within the bounds of this world.
+And you are not even bound to some external logic; you can make up your own as long as it is consistent.
+This consistency is a bright contrast to the social and political world - it's like going home to a place where everything comprehensible, a place where you can find some truth within the bounds of its rules.
 
 ## Informatics is a Science
 
@@ -105,7 +105,7 @@ And we know that we can not be better than that.
 Consequently, in the worst case, sorting cards requires always at least $$c \cdot n\log(n)$$ steps where $$c$$ is some constant independent of $$n$$.
 Isn't that captivating that we know this!
 
-Then there is the still **unanswered** question if solving a Sudoku is as hard as checking a Sudoku of it?
+Then there is the still **unanswered** question if solving a Sudoku is as hard as checking a solution of it?
 We call this 
 
 $$\mathcal{NP} \stackrel{?}{=} \mathcal{P}$$ 
@@ -119,6 +119,7 @@ If nature does compute, we might even study its very, very basic principles!
 Doesn't it feel so much harder to solve a Sudoku than checking its solution?
 Isn't there a fundamental difference?
 Or isn't finding a proof much harder than understanding it.
+
 Finding a solution involves what we call creativity and intuition.
 But checking it is a rather automatable process.
 So if we reframe the question, we may ask for the complexity of creativity!
@@ -126,13 +127,13 @@ Since hundreds of publications falsely claimed to have solved the question, it s
 
 What a fascinating question to tackle!
 Clearly, this is science.
-It is not natural science but similar mathematics, formal sciences.
+It is not natural science but similar to mathematics, a formal science.
 
 Eventually, you encounter another significant problem: the *Halting problem*.
 It states that there will never be a program (definable as a Turing Machine) that can test for an arbitrary program that it halts.
 To understand the theorem and its proof in-dept feels groundbreaking and infinitely satisfying.
 If you understand how computers, i.e., *Turing Machines*, work, the proof is simple and beautiful.
-You can find it in the appendix of this article.
+You can find a sketch of it in the appendix of this article.
 
 ## The Evolution of Informatics
 
@@ -162,7 +163,7 @@ Informatics can still be regarded as relatively young compared to other well-est
 * and linguistic, 
 
 and the list goes on.
-The problem of artificial intelligence (AI) brings informatics more and more in touch with human sciences such as
+The problem of artificial intelligence (AI) brings informatics more and more in touch with humanities such as
 
 * philosophy,
 * psychology,
@@ -198,7 +199,8 @@ Theoretical informatics cooled down, but there are still many critical questions
 Despite this abundant variety, being a computer scientist is more than being an expert in one specific field.
 It is more than knowing how to build large software systems, manage networks, process data and establish a secure infrastructure.
 **It is a way of thinking!** And no, we do not think like computers but embrace the curiosity naturally given to us human beings.
-We renew the playing child within us and let it go wild to solve riddles for no particular reason. I think that is one of the most human things to do.
+We renew the playing child within us and let it go wild to solve riddles for no particular reason. 
+And I think that is one of the most human things to do.
 
 ### A New Perspective on Information
 
