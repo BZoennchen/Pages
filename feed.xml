@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-08T01:02:07+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/07/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-07T00:00:00+02:00</published><updated>2021-06-07T00:00:00+02:00</updated><id>/Pages/2021/06/07/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/07/Informatics-a-love-letter.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-08T13:23:04+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/08/Informatics-a-love-letter.html">&lt;blockquote&gt;
   &lt;p&gt;“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.”&lt;br /&gt; - Peter J. Denning &lt;a class=&quot;citation&quot; href=&quot;#denning:2005&quot;&gt; [1]&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -134,9 +134,6 @@ You can find it in the appendix of this article.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-evolution-of-informatics&quot;&gt;The Evolution of Informatics&lt;/h2&gt;
 
-&lt;p&gt;As you may noticed I call &lt;strong&gt;computer science&lt;/strong&gt; by the European term &lt;strong&gt;informatics&lt;/strong&gt; and not only because I am from Europe but also because the term leans more towards &lt;strong&gt;information&lt;/strong&gt; instead of &lt;strong&gt;computation&lt;/strong&gt;.
-Information manipulation is computation but it emphasises a more abstract broader definition of computation.&lt;/p&gt;
-
 &lt;h3 id=&quot;roots-of-informatics&quot;&gt;Roots of Informatics&lt;/h3&gt;
 
 &lt;p&gt;It is kind of funny that historically, informatics first struggled for recognition on a global scale.
@@ -173,7 +170,7 @@ The problem of artificial intelligence (AI) brings informatics more and more in 
   &lt;li&gt;and neurosciences.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;do-classical-computer-scientists-still-exists&quot;&gt;Do Classical Computer Scientists still exists?&lt;/h3&gt;
+&lt;h3 id=&quot;the-disappearance-of-classical-informatics&quot;&gt;The Disappearance of ‘Classical’ Informatics?&lt;/h3&gt;
 
 &lt;p&gt;Within the field of informatics, there are a lot of branches one can pursue, for example:&lt;/p&gt;
 
@@ -206,6 +203,66 @@ Theoretical informatics cooled down, but there are still many critical questions
 It is more than knowing how to build large software systems, manage networks, process data and establish a secure infrastructure.
 &lt;strong&gt;It is a way of thinking!&lt;/strong&gt; And no, we do not think like computers but embrace the curiosity naturally given to us human beings.
 We renew the playing child within us and let it go wild to solve riddles for no particular reason. I think that is one of the most human things to do.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-new-perspective-on-information&quot;&gt;A New Perspective on Information&lt;/h3&gt;
+
+&lt;p&gt;In this little supplementary section, I want to talk about the resource we are working with: information.&lt;/p&gt;
+
+&lt;p&gt;As you may notice, I call &lt;strong&gt;computer science&lt;/strong&gt; by the European term &lt;strong&gt;informatics&lt;/strong&gt;.
+But not only because I am from Europe but also because the term leans more towards &lt;strong&gt;information&lt;/strong&gt; instead of &lt;strong&gt;computation&lt;/strong&gt;.
+Information manipulation is computation, but it emphasizes a more abstract broader definition of computation.&lt;/p&gt;
+
+&lt;p&gt;Information, as we understand it is the elimination of uncertainties but on a purely &lt;strong&gt;syntactical&lt;/strong&gt; level.
+This notion dates back to 1948 and was defined by Claude E. Shannon in &lt;em&gt;A Mathematical Theory of Communication&lt;/em&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Frequently the messages have meaning; that is they refer to or are correleted according to some system with certain physical or conceptual entities.
+These smenatic aspects of communication are irrelevant to the engineering problem.
+The significant aspect is that the actual message is one selected from a set of possible messages.
+The system must be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design.” &lt;br /&gt;- Claude E. Shannon &lt;a class=&quot;citation&quot; href=&quot;#shannon:1948&quot;&gt; [2]&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the humanities, researchers have a completely different understanding of information.
+They discuss cognition, representations, referencing, and interpretation in the context of information.
+What does a symbol mean, and what effect, behavior, or interpretation does it has?
+How does data transform into information, and how do we harvest knowledge and wisdom?&lt;/p&gt;
+
+&lt;p&gt;For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
+But it seems inappropriate if we discuss today’s information-driven society.&lt;/p&gt;
+
+&lt;p&gt;Nowadays, We can rapidly collect unimaginable amounts of information.
+It can be processed automatically and checked for higher-level patterns that would not be discernible without technology.
+We constantly transform information into a machine-readable format, which makes it, in turn, quantifiable.
+But is there information that is not machine-readable, and do we dismiss it?&lt;/p&gt;
+
+&lt;p&gt;Futhermore, the interconnected world of information processes of today never forgets anything.
+Incessantly, it sucks up data and floods our private and public spaces with it.
+It is like a magical beast that can create amazing miracles but can also cause devastating destructions - sometimes it appears as a lovely creature, and sometimes it embodies a frightening monster.
+We have to deal with it!
+It is our creation - an artificial intelligence that already evaluates, categorizes, interprets, and generates information on its own.
+It has to include the semantics of information. 
+Otherwise, it would be difficult to call it &lt;em&gt;artificial intelligence&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since we left the task of pure information transformation a long time ago, we need the perspective of the humanities - we have to think beyond pure syntax.
+In fact, we have to reconsider the term &lt;em&gt;information&lt;/em&gt;, at least in our discipline.
+For example, Ulrich states:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Where data are the raw facts of the world, information is then data ‘with meaning’.
+When ‘data’ acquires context-dependent meaning and relevance, it becomes information. 
+Furthermore, we obviously expect information to represent valid knowledge on which users can rely for rational action. &lt;br /&gt;- W. Ulrich &lt;a class=&quot;citation&quot; href=&quot;#ulrich:2001&quot;&gt; [3]&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;But even this definition seems problematic.
+Is there even something like simple brute facts of the world?
+All data seem to be already gathered and processed.
+Therefore, information can not simply be the injection of meaning into data because data already has meaning.
+It is more like that the individual degree of significance differs.
+What might be meaningful to me might be utterly meaningless to you.&lt;/p&gt;
+
+&lt;p&gt;Of course, we can not answer this question of an adequate definition here.
+But to disregard it entirely and leave the design of interconnected information processes solely to the technicians would be a mistake.
+Discovering, studying, using, influencing, and extending our interconnected world of information processing, is exciting as well as necessary.
+It is part of our duties, but we should no longer encounter this beast alone.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -264,7 +321,9 @@ But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqr
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;denning:2005&quot;&gt;[1]P. J. Denning, &lt;i&gt;Is Computer Science Science?&lt;/i&gt;, Commun. ACM &lt;b&gt;48&lt;/b&gt;, 27 (2005).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><summary type="html">“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” - Peter J. Denning  [1]</summary></entry><entry><title type="html">PhD Defense</title><link href="/Pages/2021/06/05/phd-defense.html" rel="alternate" type="text/html" title="PhD Defense" /><published>2021-06-05T00:00:00+02:00</published><updated>2021-06-05T00:00:00+02:00</updated><id>/Pages/2021/06/05/phd-defense</id><content type="html" xml:base="/Pages/2021/06/05/phd-defense.html">&lt;p&gt;Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;denning:2005&quot;&gt;[1]P. J. Denning, &lt;i&gt;Is Computer Science Science?&lt;/i&gt;, Commun. ACM &lt;b&gt;48&lt;/b&gt;, 27 (2005).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;shannon:1948&quot;&gt;[2]C. E. Shannon, &lt;i&gt;A Mathematical Theory of Communication.&lt;/i&gt;, Bell Syst. Tech. J. &lt;b&gt;27&lt;/b&gt;, 379 (1948).&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;ulrich:2001&quot;&gt;[3]W. Ulrich, &lt;i&gt;A Philosophical Staircase for Information Systems Definition&lt;/i&gt;, in (2001).&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><summary type="html">“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” - Peter J. Denning  [3]</summary></entry><entry><title type="html">PhD Defense</title><link href="/Pages/2021/06/05/phd-defense.html" rel="alternate" type="text/html" title="PhD Defense" /><published>2021-06-05T00:00:00+02:00</published><updated>2021-06-05T00:00:00+02:00</updated><id>/Pages/2021/06/05/phd-defense</id><content type="html" xml:base="/Pages/2021/06/05/phd-defense.html">&lt;p&gt;Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.&lt;/p&gt;
 
 &lt;p&gt;The following text is from the preface of the thesis and describes my personal struggles during and my perspective on the journey.&lt;/p&gt;
 
