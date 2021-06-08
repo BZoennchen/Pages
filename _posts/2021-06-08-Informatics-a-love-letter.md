@@ -136,9 +136,6 @@ You can find it in the appendix of this article.
 
 ## The Evolution of Informatics
 
-As you may noticed I call **computer science** by the European term **informatics** and not only because I am from Europe but also because the term leans more towards **information** instead of **computation**.
-Information manipulation is computation but it emphasises a more abstract broader definition of computation.
-
 ### Roots of Informatics
 
 It is kind of funny that historically, informatics first struggled for recognition on a global scale.
@@ -171,7 +168,7 @@ The problem of artificial intelligence (AI) brings informatics more and more in 
 * psychology,
 * and neurosciences.
 
-### Do Classical Computer Scientists still exists?
+### The Disappearance of 'Classical' Informatics?
 
 Within the field of informatics, there are a lot of branches one can pursue, for example:
 
@@ -202,6 +199,62 @@ Despite this abundant variety, being a computer scientist is more than being an 
 It is more than knowing how to build large software systems, manage networks, process data and establish a secure infrastructure.
 **It is a way of thinking!** And no, we do not think like computers but embrace the curiosity naturally given to us human beings.
 We renew the playing child within us and let it go wild to solve riddles for no particular reason. I think that is one of the most human things to do.
+
+### A New Perspective on Information
+
+In this little supplementary section, I want to talk about the resource we are working with: information.
+
+As you may notice, I call **computer science** by the European term **informatics**.
+But not only because I am from Europe but also because the term leans more towards **information** instead of **computation**.
+Information manipulation is computation, but it emphasizes a more abstract broader definition of computation.
+
+Information, as we understand it is the elimination of uncertainties but on a purely **syntactical** level.
+This notion dates back to 1948 and was defined by Claude E. Shannon in *A Mathematical Theory of Communication*:
+
+>"Frequently the messages have meaning; that is they refer to or are correleted according to some system with certain physical or conceptual entities.
+These smenatic aspects of communication are irrelevant to the engineering problem.
+The significant aspect is that the actual message is one selected from a set of possible messages.
+The system must be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design." <br>- Claude E. Shannon {% cite shannon:1948 %}
+
+In the humanities, researchers have a completely different understanding of information.
+They discuss cognition, representations, referencing, and interpretation in the context of information.
+What does a symbol mean, and what effect, behavior, or interpretation does it has?
+How does data transform into information, and how do we harvest knowledge and wisdom?
+
+For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
+But it seems inappropriate if we discuss today's information-driven society.
+
+Nowadays, We can rapidly collect unimaginable amounts of information.
+It can be processed automatically and checked for higher-level patterns that would not be discernible without technology.
+We constantly transform information into a machine-readable format, which makes it, in turn, quantifiable.
+But is there information that is not machine-readable, and do we dismiss it?
+
+Futhermore, the interconnected world of information processes of today never forgets anything.
+Incessantly, it sucks up data and floods our private and public spaces with it.
+It is like a magical beast that can create amazing miracles but can also cause devastating destructions - sometimes it appears as a lovely creature, and sometimes it embodies a frightening monster.
+We have to deal with it!
+It is our creation - an artificial intelligence that already evaluates, categorizes, interprets, and generates information on its own.
+It has to include the semantics of information. 
+Otherwise, it would be difficult to call it *artificial intelligence*.
+
+Since we left the task of pure information transformation a long time ago, we need the perspective of the humanities - we have to think beyond pure syntax.
+In fact, we have to reconsider the term *information*, at least in our discipline.
+For example, Ulrich states:
+>Where data are the raw facts of the world, information is then data 'with meaning'.
+When 'data' acquires context-dependent meaning and relevance, it becomes information. 
+Furthermore, we obviously expect information to represent valid knowledge on which users can rely for rational action. <br>- W. Ulrich {% cite ulrich:2001 %}
+
+But even this definition seems problematic.
+Is there even something like simple brute facts of the world?
+All data seem to be already gathered and processed.
+Therefore, information can not simply be the injection of meaning into data because data already has meaning.
+It is more like that the individual degree of significance differs.
+What might be meaningful to me might be utterly meaningless to you.
+
+Of course, we can not answer this question of an adequate definition here.
+But to disregard it entirely and leave the design of interconnected information processes solely to the technicians would be a mistake.
+Discovering, studying, using, influencing, and extending our interconnected world of information processing, is exciting as well as necessary.
+It is part of our duties, but we should no longer encounter this beast alone.
 
 ---------------
 
