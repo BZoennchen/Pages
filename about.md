@@ -17,7 +17,7 @@ The problem is strongly connected to solving the [eikonal equation](https://en.w
 Furthermore, I introduced parallelism to the so-called optimal steps models, an important class of microscopic simulation models.
 As a consequence, I was able to run large-scale simulations using the GPU.
 I did my PhD at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html).
-During that time, I worked as a software developer on the open-source framework for pedestrian simulation [Vadere](vadere.org) at the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich as a developer for the simulation software.
+During that time, I worked as a software developer on the open-source framework for pedestrian simulation [Vadere](http:/www.vadere.org) at the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich as a developer for the simulation software.
 
 Apart from modeling and simulating pedestrian streams, I am interested in algorithms and their expressiveness in a more general sense.
 I want to explore computer coding as an art form in itself and as a musical instrument that generates new forms of expression.
