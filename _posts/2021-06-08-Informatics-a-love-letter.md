@@ -12,14 +12,13 @@ This Platonian world consists of fantastic, imaginative objects we can recognize
 In it, the problems of men are absent. 
 There is no morality, no judgment, no conflict, no othering but harmony to enjoy, complex structures to discover, riddles to unravel, and logic-based creativity to get lost in.
 
-
 ## Informatics is an Art
 
 In popular culture, coding is often portrayed as something conspicuously 'nerdy' and alienating.
 A usually white 'creepy' man writes his code by typing seamlessly and rapidly into a black terminal.
 He never stops, he never interacts with other beings, and he never leaves his desk.
 Of course, everything works perfectly on the first try, and no one else seems to have any clue what's going on.
-Intellectually, the programmer stands above everyone else; he is a genius, mad scientist, or introverted weirdo - only so important to do the necessary work and enable the 'real' hero.
+Intellectually, the programmer stands above everyone else; he is a genius, a mad scientist, or introverted weirdo - only so important to do the necessary work and enable the 'real' hero.
 This toxic depiction of software developers (and introverted people) is wrong, dated, and was never accurate in the first place.
 
 From the outside, coding looks like the most boring thing on Earth.
@@ -31,7 +30,7 @@ Elementary entities accumulate to something bigger, something interconnected.
 The degree of freedom and creativity this process of creation offers can hardly be explained or understood if one never experienced it first-hand.
 
 In no way does programming start in isolation at the computer, and in no way can we do it seamlessly.
-It is neither a pure analytical nor a purely experimental process.
+It is neither a purely analytical nor a purely experimental process.
 Like writing an interesting story, it is a struggle, always!
 If it isn't, we or someone else already solved the puzzle - the exciting part has been gone.
 In that case, we do not create but translate.
@@ -44,7 +43,7 @@ They command machines of blind obedience.
 The degree of control translates to a form of power and self-determination absent in the physical world.
 As Linus Torvalds rightfully noted:
 
->"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimately control everything that happens. If you are good enough, you can be God on a small scale." - Linus Torvalds
+>"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale." - Linus Torvalds
 
 In contrast to most other kinds of engineers, software developers can use a highly flexible and versatile resource.
 Information can be easily exchanged among peers, reshaped, conceptually described, and analyzed.
@@ -64,9 +63,9 @@ However, in the end, functionality is second to being exciting or pretty.
 Even coding itself is secondary.
 Figuring out how things work is the real deal.
 Since everything is self-consistent and logical, you can go on and on and never stop exploring.
-It is an endless stream too immense for one lifetime.
+It is an endless stream, too immense for one lifetime.
 And you are not even bound to some external logic; you can make up your own as long as it is consistent.
-This consistency is a bright contrast to the social and political world - it's like going home to a place where everything comprehensible, a place where you can find some truth within the bounds of its rules.
+This consistency is a bright contrast to the social and political world - it's like going home to a place where everything is comprehensible, a place where you can find some truth within the bounds of its rules.
 
 ## Informatics is a Science
 
@@ -79,7 +78,7 @@ Is sorting cards equally *hard* as solving a Sudoku?
 Here we enter yet another world, a formal one!
 
 Of course, those two worlds are never entirely separated.
-Formal methods and objects, like the Turing Machine, the Lambda Calculus, Logic, Grammars, and Automata are the mathematical backbones of informatics.
+Formal methods and objects, like the Turing Machine, the Lambda Calculus, logic, grammars, and automata are the mathematical backbones of informatics.
 They are a particular kind of mathematically rigorous description of information manipulation (computation).
 By analyzing those objects, we get to the very fundamental and interesting questions.
 I was never hooked by the purpose of formal methods in software development (verification and specification).
@@ -98,10 +97,10 @@ At some point, you arrive at a formal model of any digital computer, that is, th
 Since you now have this gift, this formal model, you can analyze it in a highly abstract way.
 You can define what a computer at least requires to be *Turing-complete*, i.e., to be a computer.
 You can define what *computable* is, and you can even measure how many steps it takes to solve a class of problems.
-You start analyzing the *complexity* of problems, such as sorting cards or Sudoku.
+You start analyzing the *complexity* of problems, such as sorting cards or solving a Sudoku.
 
 For example, sorting cards (on a *Turing-complete* model) requires $$\mathcal{O}(n\log(n))$$ steps, where $$n$$ is the number of cards.
-And we know that we can not be better than that.
+And we know that we can not do better than that.
 Consequently, in the worst case, sorting cards requires always at least $$c \cdot n\log(n)$$ steps where $$c$$ is some constant independent of $$n$$.
 Isn't that captivating that we know this!
 
@@ -220,7 +219,7 @@ The system must be designed to operate for each possible selection, not just the
 
 In the humanities, researchers have a completely different understanding of information.
 They discuss cognition, representations, referencing, and interpretation in the context of information.
-What does a symbol mean, and what effect, behavior, or interpretation does it has?
+What does a symbol mean, and what effect, or interpretation does it has?
 How does data transform into information, and how do we harvest knowledge and wisdom?
 
 For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
