@@ -159,10 +159,10 @@ Informatics can still be regarded as relatively young compared to other well-est
 * scientific computing,
 * computational science,
 * information theory,
-* and linguistic, 
+* and linguistics, 
 
 and the list goes on.
-The problem of artificial intelligence (AI) brings informatics more and more in touch with humanities such as
+The problem of artificial intelligence (AI) brings informatics more and more in touch with the humanities such as
 
 * philosophy,
 * psychology,
@@ -225,7 +225,7 @@ How does data transform into information, and how do we harvest knowledge and wi
 For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
 But it seems inappropriate if we discuss today's information-driven society.
 
-Nowadays, We can rapidly collect unimaginable amounts of information.
+Nowadays, we can rapidly collect unimaginable amounts of information.
 It can be processed automatically and checked for higher-level patterns that would not be discernible without technology.
 We constantly transform information into a machine-readable format, which makes it, in turn, quantifiable.
 But is there information that is not machine-readable, and do we dismiss it?
@@ -285,7 +285,7 @@ $$
 \end{equation}
 $$
 
-Now we construct a new *Turing Machine* $$\hat{\mathcal{H}}$$.
+We construct a new *Turing Machine* $$\hat{\mathcal{H}}$$.
 $$\hat{\mathcal{H}}$$ is a slight modification of $$\mathcal{H}$$.
 It does almost the opposite.
 $$\hat{\mathcal{H}}$$ halts and outputs 1 if and only if $$\mathcal{H}$$ outputs 0.
@@ -301,8 +301,9 @@ $$
 \end{equation}
 $$
 
-Now we execute $$\hat{\mathcal{H}}$$ by feeding it to itself, that is, $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ and the result:
+Now we execute $$\hat{\mathcal{H}}$$ by feeding it to itself, that is, $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ and analyse the result:
 
+**It outputs 1:**
 Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1$$.
 Following Eq. \eqref{eq:halt:2} gives us $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$.
 But by following Eq. \eqref{eq:halt:1} this implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt.
@@ -310,11 +311,14 @@ After all, $$\mathcal{H}$$ outputs 0.
 Thus, it recognizes that the analyzed program $$\hat{\mathcal{H}}$$ does not halt.
 But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ which leads to a contradiction.
 
+**It outputs 0:**
 Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$$.
 $$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ follows from Eq. \eqref{eq:halt:2} which implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does halts, compare Eq. \eqref{eq:halt:1}.
 But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqref{eq:halt:2}, $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$ which leads to a contradiction.
 
-Since $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does lead to a paradox, but the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
+In any case $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ leads to a paradox!
+However, the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists.
+Therefore, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
 
 ### References
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-09T09:07:21+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/08/Informatics-a-love-letter.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-09T12:20:10+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/08/Informatics-a-love-letter.html">&lt;blockquote&gt;
   &lt;p&gt;“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.”&lt;br /&gt; - Peter J. Denning &lt;a class=&quot;citation&quot; href=&quot;#denning:2005&quot;&gt; [1]&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -159,11 +159,11 @@ In 1992, the Department of Informatics split up from the Department of Mathemati
   &lt;li&gt;scientific computing,&lt;/li&gt;
   &lt;li&gt;computational science,&lt;/li&gt;
   &lt;li&gt;information theory,&lt;/li&gt;
-  &lt;li&gt;and linguistic,&lt;/li&gt;
+  &lt;li&gt;and linguistics,&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;and the list goes on.
-The problem of artificial intelligence (AI) brings informatics more and more in touch with humanities such as&lt;/p&gt;
+The problem of artificial intelligence (AI) brings informatics more and more in touch with the humanities such as&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;philosophy,&lt;/li&gt;
@@ -232,7 +232,7 @@ How does data transform into information, and how do we harvest knowledge and wi
 &lt;p&gt;For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
 But it seems inappropriate if we discuss today’s information-driven society.&lt;/p&gt;
 
-&lt;p&gt;Nowadays, We can rapidly collect unimaginable amounts of information.
+&lt;p&gt;Nowadays, we can rapidly collect unimaginable amounts of information.
 It can be processed automatically and checked for higher-level patterns that would not be discernible without technology.
 We constantly transform information into a machine-readable format, which makes it, in turn, quantifiable.
 But is there information that is not machine-readable, and do we dismiss it?&lt;/p&gt;
@@ -292,7 +292,7 @@ So we ‘feed’ the program \(\mathcal{T}\) with itself, that is, its own descr
 \end{cases}
 \end{equation}\]
 
-&lt;p&gt;Now we construct a new &lt;em&gt;Turing Machine&lt;/em&gt; \(\hat{\mathcal{H}}\).
+&lt;p&gt;We construct a new &lt;em&gt;Turing Machine&lt;/em&gt; \(\hat{\mathcal{H}}\).
 \(\hat{\mathcal{H}}\) is a slight modification of \(\mathcal{H}\).
 It does almost the opposite.
 \(\hat{\mathcal{H}}\) halts and outputs 1 if and only if \(\mathcal{H}\) outputs 0.
@@ -306,20 +306,24 @@ Furthermore, \(\hat{\mathcal{H}}\) does not halt if \(\mathcal{H}\) outputs 1.&l
 \end{cases}
 \end{equation}\]
 
-&lt;p&gt;Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and the result:&lt;/p&gt;
+&lt;p&gt;Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:&lt;/p&gt;
 
-&lt;p&gt;Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1\).
+&lt;p&gt;&lt;strong&gt;It outputs 1:&lt;/strong&gt;
+Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1\).
 Following Eq. \eqref{eq:halt:2} gives us \(\mathcal{H}(\hat{\mathcal{H}}) = 0\).
 But by following Eq. \eqref{eq:halt:1} this implies that \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does not halt.
 After all, \(\mathcal{H}\) outputs 0.
 Thus, it recognizes that the analyzed program \(\hat{\mathcal{H}}\) does not halt.
 But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does not halt, it follows by Eq. \eqref{eq:halt:2} that \(\mathcal{H}(\hat{\mathcal{H}}) = 1\) which leads to a contradiction.&lt;/p&gt;
 
-&lt;p&gt;Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}\).
+&lt;p&gt;&lt;strong&gt;It outputs 0:&lt;/strong&gt;
+Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}\).
 \(\mathcal{H}(\hat{\mathcal{H}}) = 1\) follows from Eq. \eqref{eq:halt:2} which implies that \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does halts, compare Eq. \eqref{eq:halt:1}.
 But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqref{eq:halt:2}, \(\mathcal{H}(\hat{\mathcal{H}}) = 0\) which leads to a contradiction.&lt;/p&gt;
 
-&lt;p&gt;Since \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does lead to a paradox, but the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists, it follows that our assumption is wrong and \(\hat{\mathcal{H}}\) can not exists!&lt;/p&gt;
+&lt;p&gt;In any case \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) leads to a paradox!
+However, the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists.
+Therefore, it follows that our assumption is wrong and \(\hat{\mathcal{H}}\) can not exists!&lt;/p&gt;
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 
