@@ -267,6 +267,8 @@ Let me try to give you the intuition of the *Halting problem*.
 For simplicity reasons, I will not explicitly distinguish between a *Turing Machine* $$\mathcal{T}$$ and its description (often noted by $$\alpha_\mathcal{T}$$).
 So when a *Turing Machine* gets as input another *Turing Machine*, I mean its description (source code).
 
+#### Proof
+
 Let us assume there is a *Turing Machine* $$\mathcal{H}$$ that takes an arbitrary *Turing Machine* $$\mathcal{T}$$ as input.
 $$\mathcal{H}(\mathcal{T})$$ outputs 1 if $$\mathcal{T}(\mathcal{T})$$ halts, otherwise it outputs 0.
 So if such a program exists, $$\mathcal{H}$$ is the program that solves the *Halting problem*, and $$\mathcal{T}$$ is an arbitrary program.
@@ -301,6 +303,9 @@ $$
 \end{equation}
 $$
 
+<br>
+<div><img style="display:block;margin:auto;;height:200px;" src="{% link /assets/images/halting-problem.png %}" alt="Halting Proglem"></div>
+<br>
 Now we execute $$\hat{\mathcal{H}}$$ by feeding it to itself, that is, $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ and analyse the result:
 
 **It outputs 1:**
@@ -319,6 +324,39 @@ But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqr
 In any case $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ leads to a paradox!
 However, the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists.
 Therefore, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
+
+#### Meaning
+
+The *Halting problem* is strongly connected to the question of **decidability**.
+It asks if, for some problem or statement, an algorithm or a proof solves the problem in a finite number of steps or proves the statement.
+As we saw, the *Halting problem* is **undecidable**!
+Any *Turing-complete* machine or system is **undecidable**, and there are many such systems!
+For example:
+
++ complex quantum systems,
++ the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life),
++ airline ticketing systems
++ the card game Magic, 
++ and, of course, almost any programming language is *Turing-complete*.
+
+There are three essential properties for a desirable mathematical system, and we may think they are fulfilled naturally.
+But as it turns out, this is not the case.
+We would like to have a system that is
+
+1. **complete**: any statement of the system can be proven or disproven
+2. **consistent**: a statement can not be proven and disproven at the same time
+3. and **decidable**: an algorithm (proof) requires a finite number of steps to prove or disprove any statement
+
+[Kurt Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del) showed that any decently functional mathematical system is either **incomplete** or **inconsistent**.
+Later, he also showed that even if such a system is **consistent**, this can not be proven within the system.
+After [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) found a computation model, the *Turing Machine*, he showed that
+
+1. many problems / systems are *Turing-complete*
+2. all those systems are **undecidable**.
+
+This revelation crushed the mathematical landscape and ended the dream of David Hilbert and others to establish a solid mathematical foundation.
+Sadly, [Kurt Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del), as well as [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing), one of the most brilliant minds, died tragically.
+
 
 ### References
 
