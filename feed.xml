@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-09T12:20:10+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/08/Informatics-a-love-letter.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2021-06-12T01:03:05+02:00</updated><id>/Pages/feed.xml</id><title type="html">Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Informatics - A Love Letter</title><link href="/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="/Pages/2021/06/08/Informatics-a-love-letter.html">&lt;blockquote&gt;
   &lt;p&gt;“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.”&lt;br /&gt; - Peter J. Denning &lt;a class=&quot;citation&quot; href=&quot;#denning:2005&quot;&gt; [1]&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -276,6 +276,8 @@ It is part of our duties, but we should no longer encounter this beast alone.&lt
 For simplicity reasons, I will not explicitly distinguish between a &lt;em&gt;Turing Machine&lt;/em&gt; \(\mathcal{T}\) and its description (often noted by \(\alpha_\mathcal{T}\)).
 So when a &lt;em&gt;Turing Machine&lt;/em&gt; gets as input another &lt;em&gt;Turing Machine&lt;/em&gt;, I mean its description (source code).&lt;/p&gt;
 
+&lt;h4 id=&quot;proof&quot;&gt;Proof&lt;/h4&gt;
+
 &lt;p&gt;Let us assume there is a &lt;em&gt;Turing Machine&lt;/em&gt; \(\mathcal{H}\) that takes an arbitrary &lt;em&gt;Turing Machine&lt;/em&gt; \(\mathcal{T}\) as input.
 \(\mathcal{H}(\mathcal{T})\) outputs 1 if \(\mathcal{T}(\mathcal{T})\) halts, otherwise it outputs 0.
 So if such a program exists, \(\mathcal{H}\) is the program that solves the &lt;em&gt;Halting problem&lt;/em&gt;, and \(\mathcal{T}\) is an arbitrary program.
@@ -306,7 +308,10 @@ Furthermore, \(\hat{\mathcal{H}}\) does not halt if \(\mathcal{H}\) outputs 1.&l
 \end{cases}
 \end{equation}\]
 
-&lt;p&gt;Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div&gt;&lt;img style=&quot;display:block;margin:auto;;height:200px;&quot; src=&quot;/Pages/assets/images/halting-problem.png&quot; alt=&quot;Halting Proglem&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;It outputs 1:&lt;/strong&gt;
 Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1\).
@@ -324,6 +329,44 @@ But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqr
 &lt;p&gt;In any case \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) leads to a paradox!
 However, the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists.
 Therefore, it follows that our assumption is wrong and \(\hat{\mathcal{H}}\) can not exists!&lt;/p&gt;
+
+&lt;h4 id=&quot;meaning&quot;&gt;Meaning&lt;/h4&gt;
+
+&lt;p&gt;The &lt;em&gt;Halting problem&lt;/em&gt; is strongly connected to the question of &lt;strong&gt;decidability&lt;/strong&gt;.
+It asks if, for some problem or statement, an algorithm or a proof solves the problem in a finite number of steps or proves the statement.
+As we saw, the &lt;em&gt;Halting problem&lt;/em&gt; is &lt;strong&gt;undecidable&lt;/strong&gt;!
+Any &lt;em&gt;Turing-complete&lt;/em&gt; machine or system is &lt;strong&gt;undecidable&lt;/strong&gt;, and there are many such systems!
+For example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;complex quantum systems,&lt;/li&gt;
+  &lt;li&gt;the &lt;a href=&quot;https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life&quot;&gt;Game of Life&lt;/a&gt;,&lt;/li&gt;
+  &lt;li&gt;airline ticketing systems&lt;/li&gt;
+  &lt;li&gt;the card game Magic,&lt;/li&gt;
+  &lt;li&gt;and, of course, almost any programming language is &lt;em&gt;Turing-complete&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are three essential properties for a desirable mathematical system, and we may think they are fulfilled naturally.
+But as it turns out, this is not the case.
+We would like to have a system that is&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;complete&lt;/strong&gt;: any statement of the system can be proven or disproven&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;consistent&lt;/strong&gt;: a statement can not be proven and disproven at the same time&lt;/li&gt;
+  &lt;li&gt;and &lt;strong&gt;decidable&lt;/strong&gt;: an algorithm (proof) requires a finite number of steps to prove or disprove any statement&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Kurt_G%C3%B6del&quot;&gt;Kurt Gödel&lt;/a&gt; showed that any decently functional mathematical system is either &lt;strong&gt;incomplete&lt;/strong&gt; or &lt;strong&gt;inconsistent&lt;/strong&gt;.
+Later, he also showed that even if such a system is &lt;strong&gt;consistent&lt;/strong&gt;, this can not be proven within the system.
+After &lt;a href=&quot;https://en.wikipedia.org/wiki/Alan_Turing&quot;&gt;Alan Turing&lt;/a&gt; found a computation model, the &lt;em&gt;Turing Machine&lt;/em&gt;, he showed that&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;many problems / systems are &lt;em&gt;Turing-complete&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;all those systems are &lt;strong&gt;undecidable&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This revelation crushed the mathematical landscape and ended the dream of David Hilbert and others to establish a solid mathematical foundation.
+Sadly, &lt;a href=&quot;https://en.wikipedia.org/wiki/Kurt_G%C3%B6del&quot;&gt;Kurt Gödel&lt;/a&gt;, as well as &lt;a href=&quot;https://en.wikipedia.org/wiki/Alan_Turing&quot;&gt;Alan Turing&lt;/a&gt;, one of the most brilliant minds, died tragically.&lt;/p&gt;
 
 &lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
 

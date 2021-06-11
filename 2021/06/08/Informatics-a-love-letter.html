@@ -338,6 +338,8 @@ It is part of our duties, but we should no longer encounter this beast alone.</p
 For simplicity reasons, I will not explicitly distinguish between a <em>Turing Machine</em> \(\mathcal{T}\) and its description (often noted by \(\alpha_\mathcal{T}\)).
 So when a <em>Turing Machine</em> gets as input another <em>Turing Machine</em>, I mean its description (source code).</p>
 
+<h4 id="proof">Proof</h4>
+
 <p>Let us assume there is a <em>Turing Machine</em> \(\mathcal{H}\) that takes an arbitrary <em>Turing Machine</em> \(\mathcal{T}\) as input.
 \(\mathcal{H}(\mathcal{T})\) outputs 1 if \(\mathcal{T}(\mathcal{T})\) halts, otherwise it outputs 0.
 So if such a program exists, \(\mathcal{H}\) is the program that solves the <em>Halting problem</em>, and \(\mathcal{T}\) is an arbitrary program.
@@ -368,7 +370,10 @@ Furthermore, \(\hat{\mathcal{H}}\) does not halt if \(\mathcal{H}\) outputs 1.</
 \end{cases}
 \end{equation}\]
 
-<p>Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:</p>
+<p><br /></p>
+<div><img style="display:block;margin:auto;;height:200px;" src="/Pages/assets/images/halting-problem.png" alt="Halting Proglem" /></div>
+<p><br />
+Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:</p>
 
 <p><strong>It outputs 1:</strong>
 Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1\).
@@ -386,6 +391,44 @@ But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqr
 <p>In any case \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) leads to a paradox!
 However, the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists.
 Therefore, it follows that our assumption is wrong and \(\hat{\mathcal{H}}\) can not exists!</p>
+
+<h4 id="meaning">Meaning</h4>
+
+<p>The <em>Halting problem</em> is strongly connected to the question of <strong>decidability</strong>.
+It asks if, for some problem or statement, an algorithm or a proof solves the problem in a finite number of steps or proves the statement.
+As we saw, the <em>Halting problem</em> is <strong>undecidable</strong>!
+Any <em>Turing-complete</em> machine or system is <strong>undecidable</strong>, and there are many such systems!
+For example:</p>
+
+<ul>
+  <li>complex quantum systems,</li>
+  <li>the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>,</li>
+  <li>airline ticketing systems</li>
+  <li>the card game Magic,</li>
+  <li>and, of course, almost any programming language is <em>Turing-complete</em>.</li>
+</ul>
+
+<p>There are three essential properties for a desirable mathematical system, and we may think they are fulfilled naturally.
+But as it turns out, this is not the case.
+We would like to have a system that is</p>
+
+<ol>
+  <li><strong>complete</strong>: any statement of the system can be proven or disproven</li>
+  <li><strong>consistent</strong>: a statement can not be proven and disproven at the same time</li>
+  <li>and <strong>decidable</strong>: an algorithm (proof) requires a finite number of steps to prove or disprove any statement</li>
+</ol>
+
+<p><a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a> showed that any decently functional mathematical system is either <strong>incomplete</strong> or <strong>inconsistent</strong>.
+Later, he also showed that even if such a system is <strong>consistent</strong>, this can not be proven within the system.
+After <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> found a computation model, the <em>Turing Machine</em>, he showed that</p>
+
+<ol>
+  <li>many problems / systems are <em>Turing-complete</em></li>
+  <li>all those systems are <strong>undecidable</strong>.</li>
+</ol>
+
+<p>This revelation crushed the mathematical landscape and ended the dream of David Hilbert and others to establish a solid mathematical foundation.
+Sadly, <a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a>, as well as <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a>, one of the most brilliant minds, died tragically.</p>
 
 <h3 id="references">References</h3>
 
