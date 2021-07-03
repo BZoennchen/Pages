@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Sound design with SuperCollider | Benedikt Zönnchen</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Sound design with SuperCollider" />
+<meta name="author" content="Benedikt Zönnchen" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights." />
+<meta property="og:description" content="In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights." />
+<link rel="canonical" href="/Pages/2021/03/27/super-collider-in-15-minutes.html" />
+<meta property="og:url" content="/Pages/2021/03/27/super-collider-in-15-minutes.html" />
+<meta property="og:site_name" content="Benedikt Zönnchen" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-27T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Sound design with SuperCollider" />
+<script type="application/ld+json">
+{"description":"In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.","headline":"Sound design with SuperCollider","dateModified":"2021-03-27T00:00:00+01:00","datePublished":"2021-03-27T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"/Pages/2021/03/27/super-collider-in-15-minutes.html"},"url":"/Pages/2021/03/27/super-collider-in-15-minutes.html","author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/Pages/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/Pages/feed.xml" title="Benedikt Zönnchen" /></head>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><body><header class="site-header">
+    <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Benedikt Zönnchen</a><nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="18px" height="15px">
+                <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+  
+          <div class="trigger">
+              
+              <a class="page-link" href="/Pages/about/">About</a>
+              
+              <a class="page-link" href="/Pages/posts/">Posts</a>
+              
+              <a class="page-link" href="/Pages/p5collection/">P5js</a>
+              
+              <a class="page-link" href="/Pages/cv/">CV</a>
+              
+              <a class="page-link" href="/Pages/contact/">Contact</a>
+              
+
+            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/p5collection/">P5Collection</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
+          </div>
+        </nav></div>
+  </header><main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Sound design with SuperCollider</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2021-03-27T00:00:00+01:00" itemprop="datePublished">Mar 27, 2021
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>In the past, I did a 15-minute introduction for <a href="https://supercollider.github.io/">SuperCollider (SC)</a> for students at my University.
+Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.</p>
+
+<p><a href="https://supercollider.github.io/">SC</a> can be used in many very different ways, such as algorithmic composition, sound design, research, and more.
+In the following, I concentrate on sound design.</p>
+
+<p>Note that there is a strong connection between <a href="https://sonic-pi.net/">Sonic Pi (SP)</a> and <a href="https://supercollider.github.io/">SC</a> since <a href="https://sonic-pi.net/">SP</a> uses <a href="https://supercollider.github.io/">SC</a> to generate sound, that is, <a href="https://sonic-pi.net/">SP</a> is used to implement a rhythm, but the actual sound comes from <code class="language-plaintext highlighter-rouge">Synth</code>s defined by <a href="https://supercollider.github.io/">SC</a> or samples.
+Therefore, <a href="https://supercollider.github.io/">SC</a> and <a href="https://sonic-pi.net/">SP</a> can go hand in hand.
+I also want to stress that one can implement rhythm and play samples using <a href="https://supercollider.github.io/">SC</a>, but a lot more code is required because <a href="https://supercollider.github.io/">SC</a> is much more low-level, i.e., more control but less rapid development.</p>
+
+<h2 id="supercollider">SuperCollider</h2>
+
+<p>I was motivated by my interest in education and first discovered <a href="https://sonic-pi.net/">Sonic Pi (SP)</a>.
+In my opinion, it is a very powerful tool for educational purposes and live programming.
+One can rapidly implement a beat or a rhythm and learn the basic concept of structured programming and threads.
+Additional effects can be added to the pre-defined <code class="language-plaintext highlighter-rouge">synths</code>, and we can play around with different arguments but changing the sound by those techniques is still limited.
+Overall, simplicity is achieved by a lack of control over the sound that is created.
+This is not a critic.
+<a href="https://sonic-pi.net/">Sonic Pi (SP)</a> is a fantastic project.</p>
+
+<p>However, I wanted more power over what was happening, and since <a href="https://sonic-pi.net/">Sonic Pi (SP)</a> was built on top of <a href="https://supercollider.github.io/">SuperCollider (SC)</a>, I looked into it.
+I most probably would not have got a grasp of it if I had not discovered the excellent tutorials of <a href="https://www.youtube.com/user/elifieldsteel">Eli Fieldsteel</a>, an Assistant Professor of Composition-Theory and Director of the Experimental Music Studios at The University of Illinois.
+<a href="https://supercollider.github.io/">SuperCollider (SC)</a> is a package of three components:</p>
+<ul>
+  <li><strong>scsynth</strong>: a real-time audio server, i.e., the part that plays the sound</li>
+  <li><strong>sclang</strong>: an interpreted programming language focused on sound. The user can control <strong>scsynth</strong> by sending messages (Open Sound Control) to the audio server.</li>
+  <li><strong>scide</strong>: an IDE for <strong>sclang</strong> with an integrated help system, analyzing tools, and a good documentation.</li>
+</ul>
+
+<p><a href="https://supercollider.github.io/">SuperCollider</a> is written in C++ and was developed by James McCartney and was originally released in 1996. In 2002, he generously released it as free software under the GNU General Public License. It is now maintained and developed by an active community.</p>
+
+<p><a href="https://sonic-pi.net/">Sonic Pi (SP)</a> and other tools for algorithmic composition only use the audio server <strong>scsynth</strong> and replace the other parts with their own programming language and development environment.
+Since <a href="https://supercollider.github.io/">SuperCollider</a> is around for some time, it is a very rich environment and language.
+However, one can also observe some inconveniences and feel its age.
+Nevertheless, it follows interesting concepts that were new to me, and whenever we see new coding paradigms and concepts, we learn something.</p>
+
+<h2 id="programming-sound">Programming sound</h2>
+
+<p>First, let’s observe how the IDE interacts with the interpreter. 
+To evaluate a line of code, we press <code class="language-plaintext highlighter-rouge">shift + return</code>, and to evaluate a code block, we press <code class="language-plaintext highlighter-rouge">cmd + return</code> on the Mac and <code class="language-plaintext highlighter-rouge">crtl + return</code> on Windows and Linux.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mf">10</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>                     <span class="c1">// returns 13</span>
+<span class="mf">4</span> <span class="o">+</span> <span class="mf">5</span><span class="p">;</span>                      <span class="c1">// returns 9</span>
+<span class="nc">Array</span><span class="p">.</span><span class="n">series</span><span class="p">(</span><span class="mf">10</span><span class="p">,</span> <span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">);</span>     <span class="c1">// returns [0,1,2,3,4,5,6,7,8,9]</span>
+</code></pre></div></div>
+
+<p><strong>Warning:</strong> One hotkey is very, very important, that is, <code class="language-plaintext highlighter-rouge">cmd + .</code>.
+It stops all sound. 
+<a href="https://supercollider.github.io/">SC</a> will not protect you from creating a painful or very loud sound.
+Where <a href="https://sonic-pi.net/">Sonic Pi (SP)</a> is rather safe, even a small typo can lead to a horrible and even damaging experience in <a href="https://supercollider.github.io/">SC</a>.
+Therefore, I recommend using headphones, and before you listen to a new sound, put them off your head and make sure the sound will not blow you away!</p>
+
+<h3 id="booting-the-server">Booting the server</h3>
+
+<p>I have written a simple extension <code class="language-plaintext highlighter-rouge">Utils</code> which boots the server and initializes the windows, i.e., analyzing tools I often require.
+The code can be found in <a href="https://github.com/BZoennchen/SuperCollider/blob/main/sc/extensions/classes/utils.sc">Utils</a>.</p>
+
+<p>I call a class function to initialize everything I want:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Utils</span><span class="p">.</span><span class="n">initTools</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Note that as long as we do not have to communicate with the audio server, i.e., play sound, we don’t need to boot the server.</p>
+
+<h3 id="variables-and-scope">Variables and scope</h3>
+
+<p>Here we encounter the first inconvenient.
+In <a href="https://supercollider.github.io/">SC</a> there are some special pre-defined variables.
+Each single character variable is pre-defined and globally available.
+If you come from a modern programming language, this is strange.
+However, it is often useful for prototyping in <a href="https://supercollider.github.io/">SC</a>.
+A very special variable is <code class="language-plaintext highlighter-rouge">s</code>, because it holds a reference to the default local server.
+Therefore, to start the audio server, we evaluate:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span><span class="p">.</span><span class="n">boot</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>No one stops you from overwriting <code class="language-plaintext highlighter-rouge">s</code>, but I would not recommend it.
+To define a <strong>code-block</strong> we use round brackets.
+We can use <code class="language-plaintext highlighter-rouge">x</code> without defining it because it is already defined for us.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="n">x</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Evaluating</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">variable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>results in an error because <code class="language-plaintext highlighter-rouge">variable</code> is undefined.
+The following works just fine.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">variable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="n">variable</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Since <code class="language-plaintext highlighter-rouge">x</code> is a global variable we can use it everywhere.
+Evaluating the line and the code block will return <code class="language-plaintext highlighter-rouge">13</code>.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="p">(</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>
+<span class="n">x</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>but we can also define a local <code class="language-plaintext highlighter-rouge">x</code>:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">x</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="p">(</span>
+<span class="k">var</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>
+<span class="n">x</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Evaluating all these lines will return <code class="language-plaintext highlighter-rouge">3</code>, but the global variable <code class="language-plaintext highlighter-rouge">x</code> is still <code class="language-plaintext highlighter-rouge">10</code>.
+The following lines cause an error</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="n">variable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="p">(</span>
+<span class="n">variable</span> <span class="o">=</span> <span class="n">variable</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>
+<span class="n">variable</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>while the next lines work and return <code class="language-plaintext highlighter-rouge">13</code>.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="k">var</span> <span class="n">variable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="n">variable</span> <span class="o">=</span> <span class="n">variable</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>
+<span class="n">variable</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>To define a new global variable, the variable name has to start with <code class="language-plaintext highlighter-rouge">~</code>, for example,</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="vg">~variable</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+<span class="p">(</span>
+<span class="vg">~variable</span> <span class="o">=</span> <span class="vg">~variable</span> <span class="o">+</span> <span class="mf">3</span><span class="p">;</span>
+<span class="vg">~variable</span><span class="p">;</span>
+<span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>returns <code class="language-plaintext highlighter-rouge">13</code>.</p>
+
+<h3 id="functions">Functions</h3>
+
+<p>To define a function, we encapsulate its content by curly brackets, and to execute it, we call <code class="language-plaintext highlighter-rouge">value()</code> on it:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="k">var</span> <span class="n">func</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="k">var</span> <span class="n">x</span> <span class="o">=</span> <span class="mf">10</span><span class="p">;</span>
+  <span class="n">x</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="n">func</span><span class="p">.</span><span class="n">value</span><span class="p">();</span>      <span class="c1">// returns 10</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Here we see another strange behavior: The last line of a function is its return value.
+I am not a fan of this shortcut and if you work with <strong>cslang</strong> you will encounter additional ones.
+It adds required knowledge to understand a program written in <strong>cslang</strong> and steepen the learning curve.
+After getting used to it, they speed up the coding a little bit.</p>
+
+<p>Here is another example of a function with arguments:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="k">var</span> <span class="n">add</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="k">arg</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">;</span>
+  <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="n">add</span><span class="p">.</span><span class="n">value</span><span class="p">(</span><span class="mf">6</span><span class="p">,</span><span class="mf">11</span><span class="p">)</span> <span class="c1">// returns 17</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>Like in Python, one can define a default value for each argument, and we can ignore the order if we add the names.
+Furthermore, there is another rather strange shortcut:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="k">var</span> <span class="n">add</span> <span class="o">=</span> <span class="p">{</span><span class="o">|</span><span class="n">a</span> <span class="o">=</span> <span class="mf">5</span><span class="p">,</span> <span class="n">b</span><span class="o">|</span>
+  <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="n">add</span><span class="p">.</span><span class="n">value</span><span class="p">(</span><span class="nl">b:</span> <span class="mf">11</span><span class="p">)</span> <span class="c1">// returns 17</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>There are many other parts of the <strong>cslang</strong>, and if you want to get started, I encourage you to visit the tutorials of <a href="https://www.youtube.com/user/elifieldsteel">Eli Fieldsteel</a> or look at the official documentation.</p>
+
+<h3 id="a-first-sine-wave">A first sine wave</h3>
+
+<p>Let us create the most simple sound possible: a sine wave.
+First, we define a function that can be seen as a process called <em>unit generator</em> (<code class="language-plaintext highlighter-rouge">UGen</code>) that starts when we call <code class="language-plaintext highlighter-rouge">play()</code>.
+There are hundred of different <code class="language-plaintext highlighter-rouge">UGens</code>s, they basically spit out real numbers over time.
+For example <code class="language-plaintext highlighter-rouge">SineOsc</code> samples a sine wave.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sine</span> <span class="o">=</span> <span class="p">{</span><span class="k">arg</span> <span class="n">freq</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="nl">mul:</span> <span class="mf">0.2</span><span class="p">)};</span>
+<span class="vg">~sineplay</span> <span class="o">=</span> <span class="vg">~sine</span><span class="p">.</span><span class="n">play</span><span class="p">();</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>By default, the sine wave oscillates between <code class="language-plaintext highlighter-rouge">-1</code> and <code class="language-plaintext highlighter-rouge">1</code>.
+We define a frequency of <code class="language-plaintext highlighter-rouge">200</code> Hz that is <code class="language-plaintext highlighter-rouge">200</code> cycles per second and a multiple of <code class="language-plaintext highlighter-rouge">0.2</code> such that the amplitude stays between <code class="language-plaintext highlighter-rouge">-0.2</code> and <code class="language-plaintext highlighter-rouge">0.2</code>, which reduces the volume.
+Note we that the following two statements are equivalent:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq</span><span class="p">,</span> <span class="nl">mul:</span> <span class="mf">0.2</span><span class="p">);</span>
+<span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.2</span>
+</code></pre></div></div>
+
+<p>We can change all arguments we defined, for exmple,</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sineplay</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\freq</span><span class="p">,</span> <span class="mf">500</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>changes sets the frequence to 500 cycles per second which increases the pitch.</p>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">set()</code> is not called on the function but on the return value of <code class="language-plaintext highlighter-rouge">~sine.play()</code>!
+In fact, <code class="language-plaintext highlighter-rouge">play()</code> is another shortcut to play sound, and behind the scene, it creates a new <code class="language-plaintext highlighter-rouge">Synth</code> which I will show in a moment.
+<code class="language-plaintext highlighter-rouge">play()</code> is excellent to play around and finding a sound, but once you have an idea which direction you want to go, it is better to define a <code class="language-plaintext highlighter-rouge">Synth</code>.</p>
+
+<p>To stop the process, i.e., the sine wave, we can call:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sineplay</span><span class="p">.</span><span class="n">release</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>Of course, you can also press <code class="language-plaintext highlighter-rouge">cmd + .</code>, but this will kill all sound not only this sine wave.</p>
+
+<h3 id="combining-sine-waves">Combining sine waves</h3>
+
+<p>Let us define a slightly more complex sound generated by two sine waves:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~twosines</span> <span class="o">=</span> <span class="p">{</span><span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">)</span> <span class="o">+</span> <span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq2</span><span class="p">)};</span>
+</code></pre></div></div>
+
+<p>What do we expect to hear?
+Since we add two identical sine waves together, we should hear the same sound but twice as load.
+But if we play the sound, it does not fulfill our expectations:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~twosines</span><span class="p">.</span><span class="n">play</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>The reason is another inconvenience: <strong>sclang</strong> strictly evaluates everything from left to right.
+For example, <code class="language-plaintext highlighter-rouge">3 + 5 * 3</code> returns <code class="language-plaintext highlighter-rouge">24</code> instead of <code class="language-plaintext highlighter-rouge">18</code>.
+Therefore, we have to use brackets.
+A very useful tool is the build in plotting tool.
+We can see the problem more clearly if we plot our function:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~twosines</span><span class="p">.</span><span class="n">plot</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>To achieve the desired result, we have to correct the code.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sinesplay</span> <span class="o">=</span> <span class="p">{</span><span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="p">(</span><span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">))</span> <span class="o">+</span> <span class="p">(</span><span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">))}.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sinesplay</span> <span class="o">=</span> <span class="p">{</span><span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">,</span> <span class="nl">mul:</span><span class="mf">0.2</span><span class="p">)</span> <span class="o">+</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">,</span> <span class="nl">mul:</span><span class="mf">0.2</span><span class="p">)}.</span><span class="n">play</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="a-wobbling-sound">A wobbling sound</h3>
+
+<p>Ok, this is rather boring.
+However, if we change <code class="language-plaintext highlighter-rouge">freq2</code> such that it is not equal but close to <code class="language-plaintext highlighter-rouge">freq1</code>, we get some interesting effect.
+You may want to think about what sound you will hear if you do the following:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sineplay</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\freq2</span><span class="p">,</span> <span class="mf">201</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We hear a kind of wobble effect.
+Why?
+Well, two sine waves can add up, but they also can cancel each other out.
+For example, if we add two sine waves but with phase <code class="language-plaintext highlighter-rouge">0</code> and <code class="language-plaintext highlighter-rouge">pi</code>, we hear nothing.
+This effect is used for noise cancelation in modern headphones.
+Apart from some numerical errors, plotting the result reveals the cancelation:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="p">(</span><span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">))</span> <span class="o">+</span> <span class="p">(</span><span class="mf">0.2</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">,</span><span class="nl">phase:</span><span class="mf">pi</span><span class="p">))}.</span><span class="n">plot</span><span class="p">()</span>
+</code></pre></div></div>
+
+<p>Now back to the wobble effect.
+Since <code class="language-plaintext highlighter-rouge">freq2</code> is 1 Hz higher than <code class="language-plaintext highlighter-rouge">freq1</code>, the second sine wave does one extra cycle for each second.
+Therefore, in that time span, the two waves interact between adding up and cancel each other out.
+I encourage you to play around.
+What will happen if <code class="language-plaintext highlighter-rouge">freq2</code> is 5 Hz higher?
+How does this affect the result?</p>
+
+<h3 id="definition-of-a-synth">Definition of a Synth</h3>
+
+<p>Here, I will not go into details because the documentation does a better job than I could ever accomplish.
+In the following code snippet, I define a  <code class="language-plaintext highlighter-rouge">Synth</code>.
+The first argument of the method used to define the <code class="language-plaintext highlighter-rouge">Synth</code> is its name. 
+The second one is its content.
+I call <code class="language-plaintext highlighter-rouge">add()</code> to add the <code class="language-plaintext highlighter-rouge">Synth</code> to the audio server.
+You could also call <code class="language-plaintext highlighter-rouge">store()</code>, which additionally stores the <code class="language-plaintext highlighter-rouge">Synth</code> in a file.
+In this way, you can use the <code class="language-plaintext highlighter-rouge">Synth</code> by loading it from a file and with some extra work, we can use the <code class="language-plaintext highlighter-rouge">Synth</code> by
+other tools like <a href="https://sonic-pi.net/">Sonic Pi</a>!!!</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">SynthDef</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="sx">\sinewaves</span><span class="p">,</span> <span class="p">{</span>
+  <span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">205</span><span class="p">,</span> <span class="n">amp</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">,</span> <span class="n">out</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span>
+  <span class="k">var</span> <span class="n">sig</span><span class="p">;</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">);</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">sig</span> <span class="o">+</span> <span class="p">(</span><span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">));</span>
+  <span class="nc">Out</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">sig</span><span class="err">!</span><span class="mf">2</span><span class="p">);</span>
+<span class="p">}).</span><span class="n">add</span><span class="p">();</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>So far, the sound does only come out of one speaker.
+The line</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Out</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">sig</span><span class="err">!</span><span class="mf">2</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><strong>copies</strong> the sound and sends it to both speakers.
+<code class="language-plaintext highlighter-rouge">sig!2</code> is another handy shortcut for <code class="language-plaintext highlighter-rouge">sig.dup(2)</code>.
+Note that there is no re-evaluation happening, it just copies the result, but we can copy a function!
+For example:</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mf">5</span><span class="err">!</span><span class="mf">8</span>             <span class="c1">// returns [5, 5, 5, 5, 5, 5, 5, 5]</span>
+<span class="p">[</span><span class="mf">1</span><span class="p">,</span><span class="mf">2</span><span class="p">,</span><span class="mf">3</span><span class="p">,</span><span class="mf">4</span><span class="p">]</span><span class="err">!</span><span class="mf">3</span>     <span class="c1">// returns [[1,2,3,4], [1,2,3,4], [1,2,3,4]]</span>
+<span class="n">rrand</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">10</span><span class="p">)</span><span class="err">!</span><span class="mf">3</span>   <span class="c1">// returns an array containing three equal elements!</span>
+<span class="p">{</span><span class="n">rrand</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span><span class="mf">10</span><span class="p">)}</span><span class="err">!</span><span class="mf">3</span> <span class="c1">// returns an array containing three possible different elements!</span>
+</code></pre></div></div>
+
+<p>After we defined the <code class="language-plaintext highlighter-rouge">Synth</code> using <code class="language-plaintext highlighter-rouge">SynthDef</code>, we can create it, which will immediately start the sound.
+We can change all arguments during the <code class="language-plaintext highlighter-rouge">Synth</code> lifetime.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sinewaves</span> <span class="o">=</span> <span class="nc">Synth</span><span class="p">(</span><span class="sx">\sinewaves</span><span class="p">);</span>
+<span class="vg">~sinewaves</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\freq1</span><span class="p">,</span> <span class="mf">100</span><span class="p">);</span>
+<span class="vg">~sinewaves</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\amp</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h3 id="envelopes-finite-ugens">Envelopes (finite UGens)</h3>
+
+<p>So far, we had to start and stop the sound by hand.
+However, if we want to design a musical instrument, we want to manipulate the amplitude over time.
+Imagine a piano: if we hit a key, the sound requires some time to reach its maximum amplitude.
+This period is called <em>attacktime</em>.
+After the maximum is reached, it decreases, and if the pianist releases the key, the sound vanishes completely.
+There are infinite possibilities. For example, sometimes we want a sustaining sound, i.e., the amplitude stays constant for some period.</p>
+
+<p>Instead of <em>maipulation</em> musicians use the term <em>modulation</em>.
+In general, to achieve more interesing sounds modulation of different arguments is a good practice.
+In the following I define an envelope (which I think of as a finite <code class="language-plaintext highlighter-rouge">UGen</code>).</p>
+
+<p>Instead of manipulation, musicians use the term modulation.
+In general, achieving more interesting sound modulation of different arguments is a good practice.
+In the following, I define an envelope (which I think of as a finite <code class="language-plaintext highlighter-rouge">UGen</code>).</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span> <span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]))}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.6</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div><img style="height:300px;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
+
+<p>The envelope starts at <code class="language-plaintext highlighter-rouge">0</code>, increases to <code class="language-plaintext highlighter-rouge">1</code> during <code class="language-plaintext highlighter-rouge">0.1</code> seconds, drops to <code class="language-plaintext highlighter-rouge">0.4</code> in <code class="language-plaintext highlighter-rouge">0.4</code> seconds, and then drops to <code class="language-plaintext highlighter-rouge">0</code> in <code class="language-plaintext highlighter-rouge">0.1</code> seconds.
+The <code class="language-plaintext highlighter-rouge">curve</code> argument influences curvature of the segments.
+It can be best understood by plotting the result while playing around with the values.</p>
+
+<p>By multiplying the signal of the envelope to our sound signal, we get a sound that stops after <code class="language-plaintext highlighter-rouge">0.6</code> seconds.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">SynthDef</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="sx">\sinewaves</span><span class="p">,</span> <span class="p">{</span>
+  <span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">205</span><span class="p">,</span> <span class="n">amp</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">,</span> <span class="n">out</span> <span class="o">=</span> <span class="mf">0</span><span class="p">;</span>
+  <span class="k">var</span> <span class="n">sig</span><span class="p">,</span> <span class="n">env</span><span class="p">;</span>
+  <span class="c1">// doneAction: 2 removes the Synth from the server/memory if it is done!</span>
+  <span class="n">env</span> <span class="o">=</span> <span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span> <span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span> <span class="p">[</span><span class="mf">0.01</span><span class="p">,</span><span class="mf">0.2</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]),</span> <span class="nl">doneAction:</span> <span class="nc">Done</span><span class="p">.</span><span class="n">freeSelf</span><span class="p">);</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">);</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">sig</span> <span class="o">+</span> <span class="p">(</span><span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">));</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">sig</span> <span class="o">*</span> <span class="n">env</span><span class="p">;</span>
+  <span class="nc">Out</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">out</span><span class="p">,</span> <span class="n">sig</span><span class="err">!</span><span class="mf">2</span><span class="p">);</span>
+<span class="p">}).</span><span class="n">add</span><span class="p">();</span>
+<span class="p">)</span>
+
+<span class="vg">~sinewaves</span> <span class="o">=</span> <span class="nc">Synth</span><span class="p">(</span><span class="sx">\sinewaves</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>Let’s plot the sound with and without multiplied by the envelop:</p>
+
+<div><img style="height:300px;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
+<div><img style="height:300px;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
+
+<p>The following code generates the plot.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="p">{</span>
+  <span class="k">var</span> <span class="n">sig</span><span class="p">,</span> <span class="n">env</span><span class="p">,</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">205</span><span class="p">,</span> <span class="n">amp</span> <span class="o">=</span> <span class="mf">0.4</span><span class="p">;</span>
+  <span class="n">env</span> <span class="o">=</span> <span class="p">{</span><span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span><span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span><span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span><span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]))};</span>
+
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">);</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">sig</span> <span class="o">+</span> <span class="p">(</span><span class="n">amp</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">));</span>
+  <span class="n">sig</span> <span class="o">=</span> <span class="n">sig</span> <span class="o">*</span> <span class="n">env</span><span class="p">;</span>
+  <span class="n">sig</span><span class="p">;</span>
+<span class="p">}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.6</span><span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="explore-new-sounds">Explore new sounds</h3>
+
+<p>To get a feeling for how a sound changes using different arguments, I recommend to use <code class="language-plaintext highlighter-rouge">play()</code> in combination of <code class="language-plaintext highlighter-rouge">MouseX</code> and <code class="language-plaintext highlighter-rouge">MouseY</code>.
+The latter two <code class="language-plaintext highlighter-rouge">UGen</code>s spit out values that depend on the position of your mouse curser.
+Therefore, you can easily change two independently arguments at the same time.</p>
+
+<p>To get a feeling for how a sound changes using different arguments, I recommend using play() in a combination of <code class="language-plaintext highlighter-rouge">MouseX</code> and <code class="language-plaintext highlighter-rouge">MouseY</code>.
+The latter two UGens spit out values that depend on the position of your mouse cursor.
+Therefore, you can easily change two independent arguments at the same time.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nc">MouseX</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">10</span><span class="p">,</span> <span class="mf">500</span><span class="p">))</span><span class="err">!</span><span class="mf">2</span> <span class="o">*</span> <span class="mf">0.5</span> <span class="p">}.</span><span class="n">play</span><span class="p">()</span>
+
+<span class="p">{</span> <span class="nc">LPF</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">in:</span> <span class="nc">Saw</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nc">MouseX</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">10</span><span class="p">,</span> <span class="mf">500</span><span class="p">))</span><span class="err">!</span><span class="mf">2</span> <span class="o">*</span> <span class="mf">0.2</span><span class="p">,</span> <span class="nl">freq:</span> <span class="nc">MouseY</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">5000</span><span class="p">))</span> <span class="p">}.</span><span class="n">play</span><span class="p">()</span>
+
+<span class="p">{</span> <span class="nc">LPF</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">in:</span> <span class="nc">WhiteNoise</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">mul:</span> <span class="mf">0.2</span><span class="p">),</span> <span class="nl">freq:</span> <span class="nc">MouseX</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">500</span><span class="p">))</span> <span class="p">}.</span><span class="n">play</span><span class="p">()</span>
+
+<span class="p">{</span> <span class="nc">LPF</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">in:</span> <span class="nc">WhiteNoise</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">mul:</span> <span class="mf">0.4</span><span class="p">),</span> <span class="nl">freq:</span> <span class="mf">1000</span><span class="p">)</span> <span class="o">*</span> <span class="nc">EnvGen</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="n">perc</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">))</span> <span class="p">}.</span><span class="n">play</span><span class="p">()</span>
+
+<span class="p">{</span> <span class="nc">EnvGen</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="n">perc</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">))</span> <span class="p">}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.8</span><span class="p">);</span>
+
+<span class="p">{</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="mf">100</span><span class="p">,</span> <span class="nl">mul:</span> <span class="mf">0.2</span><span class="p">)</span> <span class="o">+</span> <span class="nc">LPF</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">in:</span> <span class="nc">WhiteNoise</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">mul:</span> <span class="mf">0.4</span><span class="p">),</span> <span class="nl">freq:</span> <span class="mf">1000</span><span class="p">)</span> <span class="o">*</span> <span class="nc">EnvGen</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="n">perc</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">))</span> <span class="p">}.</span><span class="n">play</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="composing">Composing</h3>
+
+<p>Composing a whole piece takes time.
+One way is first to design your <code class="language-plaintext highlighter-rouge">Synth</code>s or find proper samples.
+Then we need a rhythm and/or melody.
+For that purpose, we use some other tools, or we use <strong>sclang</strong>.
+If you want to use <strong>sclang</strong> a good starting point is to look into the concept of <em>pattern</em> especially <code class="language-plaintext highlighter-rouge">PBind</code>.</p>
+
+<p>To get a better feeling of what is possible, copy the following <a href="http://sccode.org/1-5bF">code</a> and execute it in the IDE.
+The piece was composed by <a href="https://www.youtube.com/user/elifieldsteel">Eli Fieldsteel</a> and makes use of <a href="https://en.wikipedia.org/wiki/Wavetable_synthesis#:~:text=Wavetable%20synthesis%20is%20fundamentally%20based,selects%20the%20single%20cycle%20waveform.">wavetable synthesis</a>.</p>
+
+  </div><a class="u-url" href="/Pages/2021/03/27/super-collider-in-15-minutes.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+    <data class="u-url" href="/Pages/"></data>
+  
+    <div class="wrapper">
+      <div class="social-links"><a rel="me" href="https://github.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#github"></use></svg></a><a rel="me" href="https://twitter.com/BZoennchen" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#twitter"></use></svg></a><a rel="me" href="https://www.youtube.com/channel/UCFqv61UVSmI0h_az5cLV5gQ" title="BZoennchen"><svg class="svg-icon grey"><use xlink:href="/Pages/assets/minima-social-icons.svg#youtube"></use></svg></a><a style="Text-Decoration: None !important;" rel="me" href="https://orcid.org/0000-0002-0764-2669" title="0000-0002-0764-2669">
+   <svg 
+   version="1.1" 
+   id="orcid1" 
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+	viewBox="0 0 256 256" 
+   height="15"
+   width="15">
+<style type="text/css">
+	.st0{fill:#828282;}
+	.st1{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M256,128c0,70.7-57.3,128-128,128C57.3,256,0,198.7,0,128C0,57.3,57.3,0,128,0C198.7,0,256,57.3,256,128z"/>
+<g>
+	<path class="st1" d="M86.3,186.2H70.9V79.1h15.4v48.4V186.2z"/>
+	<path class="st1" d="M108.9,79.1h41.6c39.6,0,57,28.3,57,53.6c0,27.5-21.5,53.6-56.8,53.6h-41.8V79.1z M124.3,172.4h24.5
+		c34.9,0,42.9-26.5,42.9-39.7c0-21.5-13.7-39.7-43.7-39.7h-23.7V172.4z"/>
+	<path class="st1" d="M88.7,56.8c0,5.5-4.5,10.1-10.1,10.1c-5.6,0-10.1-4.6-10.1-10.1c0-5.6,4.5-10.1,10.1-10.1
+		C84.2,46.7,88.7,51.3,88.7,56.8z"/>
+</g>
+</svg></a>
+
+<a style="Text-Decoration: None !important;" rel="me" href="https://scholar.google.de/citations?user=itB89wUAAAAJ" title="itB89wUAAAAJ">
+   <svg 
+   xmlns="http://www.w3.org/2000/svg" 
+   viewBox="0 0 512 512"
+   height="15"
+   width="15">
+   <path fill="#828282" d="M256 411.12L0 202.667 256 0z"/>
+   <path fill="#989898" d="M256 411.12l256-208.453L256 0z"/>
+   <circle fill="#A8A8A8" cx="256" cy="362.667" r="149.333"/>
+   <path fill="#686868" d="M121.037 298.667c23.968-50.453 75.392-85.334 134.963-85.334s110.995 34.881 134.963 85.334H121.037z"/>
+</svg>
+</a>
+
+
+<div style="float: right;">
+<a rel="me" href="http://www.vadere.org/" title="Vadere">
+    <svg
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    id="svg2"
+    viewBox="0 0 357 76"
+    height="16"
+    width="76">
+   <defs
+      id="defs4" />
+   <g
+      transform="translate(0,-308.26825)"
+      id="layer1">
+     <text
+        id="text2987"
+        y="360.68182"
+        x="7.1984715"
+        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+        xml:space="preserve"><tspan
+          style="font-size:72px;line-height:67%;font-family:sans-serif;fill:#828282"
+          y="360.68182"
+          x="7.1984715"
+          id="tspan2989">VADERE</tspan></text>
+   </g>
+ </svg>
+</a>
+</div></div>
+    </div>
+  
+</footer></body>
+
+</html>
