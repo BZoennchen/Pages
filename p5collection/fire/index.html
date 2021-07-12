@@ -3,21 +3,50 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Posts | Benedikt Zönnchen</title>
+<title>Forest Fire Simulation | Benedikt Zönnchen</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Posts" />
+<meta property="og:title" content="Forest Fire Simulation" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="/Pages/posts/" />
-<meta property="og:url" content="/Pages/posts/" />
+<link rel="canonical" href="/Pages/p5collection/fire/" />
+<meta property="og:url" content="/Pages/p5collection/fire/" />
 <meta property="og:site_name" content="Benedikt Zönnchen" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Posts" />
+<meta property="twitter:title" content="Forest Fire Simulation" />
 <script type="application/ld+json">
-{"headline":"Posts","url":"/Pages/posts/","author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"WebPage","@context":"https://schema.org"}</script>
+{"headline":"Forest Fire Simulation","url":"/Pages/p5collection/fire/","author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/Pages/feed.xml" title="Benedikt Zönnchen" /></head>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><body><header class="site-header">
+<script src="/Pages/assets/P5Collection/libraries/p5.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/libraries/p5.dom.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/libraries/p5.sound.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/libraries/geometry.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/libraries/vector.js" type="text/javascript"></script>
+
+<script src="/Pages/assets/P5Collection/sierpinsky/triangle.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/sierpinsky/line.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/sierpinsky/sierpinski.js" type="text/javascript"></script>
+
+<script src="/Pages/assets/P5Collection/voronoi/face.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/voronoi/voronoi.js" type="text/javascript"></script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<script src="/Pages/assets/P5Collection/collisions/particle.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/collisions/main.js" type="text/javascript"></script>
+
+<script src="/Pages/assets/P5Collection/rotation/rotationLine.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/rotation/rotation.js" type="text/javascript"></script>
+
+<script src="/Pages/assets/P5Collection/fourierDrawings/fourier.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/fire/fire.js" type="text/javascript"></script>
+
+<style>
+    canvas {
+        margin:auto;
+        width: 800;
+        height: 800;
+    }
+</style><body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Benedikt Zönnchen</a><nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -46,37 +75,28 @@
         </nav></div>
   </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1 class="page-heading">Posts</h1>
+        <h1 id="forest-fire-simulation">Forest Fire Simulation</h1>
 
+<p>The following simulation is a running cellular automaton on a grid using the Von Neumann neighborhood.
+A cell is either (1) empty (highlighted in brown), (2) occupied by a tree (highlighted in green) or burning (highlighted in red).
+I implemented the model proposed by Drossl and Schwabl <a class="citation" href="#drossel:1992"> [1]</a>:</p>
 
+<ol>
+  <li>A burning cell turns into an empty cell</li>
+  <li>A tree will burn if at least one neighbor is burning</li>
+  <li>A tree ignites with probability \(\gamma\) even if no neighbor is burning</li>
+  <li>An empty space fills with a tree with probability \(\alpha\)</li>
+</ol>
 
-  <ul class="post-list"><li>
-        <span class="post-meta">Jun 8, 2021</span>
-        <h3>
-          <a class="post-link" href="/Pages/2021/06/08/Informatics-a-love-letter.html">
-            Informatics - A Love Letter
-          </a>
-        </h3></li><li>
-        <span class="post-meta">Jun 5, 2021</span>
-        <h3>
-          <a class="post-link" href="/Pages/2021/06/05/phd-defense.html">
-            PhD Defense
-          </a>
-        </h3></li><li>
-        <span class="post-meta">Mar 27, 2021</span>
-        <h3>
-          <a class="post-link" href="/Pages/2021/03/27/super-collider-in-15-minutes.html">
-            Sound design with SuperCollider
-          </a>
-        </h3></li><li>
-        <span class="post-meta">Mar 25, 2021</span>
-        <h3>
-          <a class="post-link" href="/Pages/2021/03/25/sonic-pi-in-15-minutes.html">
-            Live performance with Sonic Pi
-          </a>
-        </h3></li></ul>
+<p>In this example I use \(\gamma = 5.0 \cdot 10^{-6}\) and \(\alpha = 0.01\) and \(150 \times 150\) cells.</p>
 
-    </div>
+<div id="p5-fire" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<p><br /></p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="drossel:1992">[1]B. Drossel and F. Schwabl, <i>Self-Organized Critical Forest-Fire Model</i>, Phys. Rev. Lett. <b>69</b>, 1629 (1992).</span></li></ol>
+
       </div>
     </main><footer class="site-footer h-card">
     <data class="u-url" href="/Pages/"></data>
