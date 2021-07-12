@@ -13,3 +13,4 @@ I created them by using the JavaScript Library [P5.js](https://p5js.org/).
 + [Elastic Collision](collisions/)
 + [Discrete Voronoi Diagran](voronoi/)
 + [Fourier Drawing](fourier/)
++ [Forest Fire Simulation](fire/)
