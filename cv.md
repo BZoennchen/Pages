@@ -14,19 +14,24 @@ Senior Advisor for Computer Science Education,<br>
 ## Academic Education
 
 **03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
-Computer Science (Dr.rer.nat.) (defended at the 21$^{st}$ of Mai 2021)<br>
-*Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation<br>
+Computer Science (Dr. rer. nat.)<br>
+*Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
 
 **10/2013 - 02/2016** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany<br>
-Computer Science (M.Sc.)<br>
+Computer Science (M. Sc.)<br>
 *Thesis:* Implementation of an Efficient Equivalence Test for Sequential and Linear Tree-to-Word Transducers ([pdf]({% link /assets/files/master-thesis.pdf %}))
 
 **10/2010 - 09/2013** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
-Computer Science (B.Sc.)<br>
+Computer Science (B. Sc.)<br>
 *Thesis:* Navigation Around Pedestrian Groups and Queueing using a Dynamic Adaption of Travelling Times in the Fast Marching Algorithm ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
 
 ## Publications
+
+**2021** | **Benedikt Zönnchen (Ph. D. thesis)**<br>
+Efficient parallel algorithms for large-scale pedestrian simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard)).<br>
+*Technical University of Munich*,<br>
+[URN: urn:nbn:de:bvb:91-diss-20210521-1593965-1-9](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20210521-1593965-1-9)<br>
 
 **2020** | **Benedikt Zönnchen** and Gerta Köster,<br>
 GPGPU Computing for Microscopic Pedestrian Simulation.<br>
