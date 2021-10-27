@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 # Curriculum Vitae ([pdf (en)]({% link /assets/files/CV_en.pdf %}), [pdf (de)]({% link /assets/files/CV_de.pdf %}))
 
-## Experience
+## Current Position
 
 **08/2020 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
 Senior Advisor for Computer Science Education,<br>
@@ -25,6 +25,17 @@ Computer Science (M. Sc.)<br>
 **10/2010 - 09/2013** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 Computer Science (B. Sc.)<br>
 *Thesis:* Navigation Around Pedestrian Groups and Queueing using a Dynamic Adaption of Travelling Times in the Fast Marching Algorithm ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
+
+## Non-Academic Job History
+
+**03/2011 - 10/2011** | [prevero AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
+Software Developer (Working Student)<br>
+
+**09/2008 - 07/2009** | [Nokia Siemens Networks GmbH \& Co. KG](https://www.nokia.com/networks/), Munich, Germany<br>
+Web Developer<br>
+
+**09/2005 - 07/2008** | [Siemens AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
+Software Developer (Education)<br>
 
 ## Publications
 
