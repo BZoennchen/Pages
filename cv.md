@@ -13,7 +13,8 @@ Senior Advisor for Computer Science Education,<br>
 
 ## Academic Education
 
-**03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
+**03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & <br>
+[Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
 Computer Science (Dr. rer. nat.)<br>
 *Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
