@@ -108,7 +108,7 @@ In *Transportation Research Procedia*,<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
 
 ## Fields of Interests
-+ Free and open Education in the Digital Era
++ Free and Open Education in the Digital Era
 + Modelling and Simulation
 + Mesh Generation and its Application
 + Design of Efficient and Parallel Algorithms
