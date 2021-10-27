@@ -126,10 +126,10 @@ In *Transportation Research Procedia*,<br>
 
 ## Scholarships & Awards
 
-**2021** \| Dissertation award ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))
+**2021** | Dissertation award ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
 
-**04/2012 - 05/2016** \| [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung des deutschen Volkes)
+**04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung des deutschen Volkes)<br>
 
-**06/2012 - 05/2016** \| [Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home) (Max Weber-Programm Bayern)
+**06/2012 - 05/2016** | [Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home) (Max Weber-Programm Bayern)<br>
 
-**2013** \| [RiMEA sponsorship award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 (Informatics and Mathematics MUAS)
+**2013** | [RiMEA sponsorship award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 (Informatics and Mathematics MUAS)<br>
