@@ -39,7 +39,7 @@ Software Developer (Education)<br>
 
 ## Publications
 
-**2021** | **Benedikt Zönnchen (Ph. D. thesis)**<br>
+**2021** | **Benedikt Zönnchen (Ph. D. Thesis)**<br>
 Efficient parallel algorithms for large-scale pedestrian simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard)).<br>
 *Technical University of Munich*,<br>
 [URN: urn:nbn:de:bvb:91-diss-20210521-1593965-1-9](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20210521-1593965-1-9)<br>
