@@ -3,7 +3,7 @@ layout: post
 title:  "An Interactive Textbook to Learn Computational Thinking"
 ---
 
-At the moment I am working as a Trainer at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) for the course **Computational Thinking**
+At the moment I am working as a Trainer at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) for the course **Computational Thinking**.
 We decided to use ``Python`` as our main programming language.
 To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the Jupyter book technology.
 
