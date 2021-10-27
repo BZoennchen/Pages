@@ -31,7 +31,7 @@ Computer Science (B. Sc.)<br>
 **03/2011 - 10/2011** | [prevero AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
 Software Developer (Working Student)<br>
 
-**09/2008 - 07/2009** | [Nokia Siemens Networks GmbH \& Co. KG](https://www.nokia.com/networks/), Munich, Germany<br>
+**09/2008 - 07/2009** | [Nokia Siemens Networks GmbH & Co. KG](https://www.nokia.com/networks/), Munich, Germany<br>
 Web Developer<br>
 
 **09/2005 - 07/2008** | [Siemens AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
@@ -123,7 +123,7 @@ In *Transportation Research Procedia*,<br>
 + Music Theory
 + Constructivism
 
-## Scholarships / Awards
+## Scholarships & Awards
 
 **2021** <br>
 Dissertation award ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
