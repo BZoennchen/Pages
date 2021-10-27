@@ -12,9 +12,8 @@ It is a work in progress, and I will work on it during the semesters.
 The book is written in German.
 We may translate it into English in the future.
 
-The book is available here: [Computational Thinking](https://bzoennchen.github.io/ct-book/intro.html)
-
-The source code of the book is available here: [Source of the book](https://github.com/BZoennchen/ct-book)
++ The book is available here: [Computational Thinking](https://bzoennchen.github.io/ct-book/intro.html)
++ The source code of the book is available here: [Source of the book](https://github.com/BZoennchen/ct-book)
 
 We will see how our students will receive the book.
 In my opinion, the Jupyter book technology covers many features to write an excellent online book.
