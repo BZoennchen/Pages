@@ -130,10 +130,10 @@ In *Transportation Research Procedia*,<br>
 ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
 
 **04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/)<br>
-(Studienstiftung des deutschen Volkes)
+(Studienstiftung des deutschen Volkes)<br>
 
 **06/2012 - 05/2016** | [Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home)<br>
-(Max Weber-Programm Bayern)
+(Max Weber-Programm Bayern)<br>
 
 **2013** | [RiMEA sponsorship award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
-(Informatics and Mathematics MUAS)
+(Informatics and Mathematics MUAS)<br>
