@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Sound design with SuperCollider | Dr. Benedikt Zönnchen</title>
+<title>Sound Design with SuperCollider | Dr. Benedikt Zönnchen</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Sound design with SuperCollider" />
+<meta property="og:title" content="Sound Design with SuperCollider" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights." />
@@ -16,9 +16,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-03-27T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Sound design with SuperCollider" />
+<meta property="twitter:title" content="Sound Design with SuperCollider" />
 <script type="application/ld+json">
-{"description":"In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.","headline":"Sound design with SuperCollider","dateModified":"2021-03-27T00:00:00+01:00","datePublished":"2021-03-27T00:00:00+01:00","url":"/Pages/2021/03/27/super-collider-in-15-minutes.html","mainEntityOfPage":{"@type":"WebPage","@id":"/Pages/2021/03/27/super-collider-in-15-minutes.html"},"author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"description":"In the past, I did a 15-minute introduction for SuperCollider (SC) for students at my University. Likewise to Sonic Pi’s introduction, I will repeat everything I talked about and give some additional insights.","headline":"Sound Design with SuperCollider","dateModified":"2021-03-27T00:00:00+01:00","datePublished":"2021-03-27T00:00:00+01:00","url":"/Pages/2021/03/27/super-collider-in-15-minutes.html","mainEntityOfPage":{"@type":"WebPage","@id":"/Pages/2021/03/27/super-collider-in-15-minutes.html"},"author":{"@type":"Person","name":"Benedikt Zönnchen"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/Pages/feed.xml" title="Dr. Benedikt Zönnchen" /></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script><body><header class="site-header">
@@ -53,7 +53,7 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Sound design with SuperCollider</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Sound Design with SuperCollider</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2021-03-27T00:00:00+01:00" itemprop="datePublished">Mar 27, 2021
       </time></p>
@@ -96,7 +96,7 @@ Since <a href="https://supercollider.github.io/">SuperCollider</a> is around for
 However, one can also observe some inconveniences and feel its age.
 Nevertheless, it follows interesting concepts that were new to me, and whenever we see new coding paradigms and concepts, we learn something.</p>
 
-<h2 id="programming-sound">Programming sound</h2>
+<h2 id="programming-sound">Programming Sound</h2>
 
 <p>First, let’s observe how the IDE interacts with the interpreter. 
 To evaluate a line of code, we press <code class="language-plaintext highlighter-rouge">shift + return</code>, and to evaluate a code block, we press <code class="language-plaintext highlighter-rouge">cmd + return</code> on the Mac and <code class="language-plaintext highlighter-rouge">crtl + return</code> on Windows and Linux.</p>
@@ -112,7 +112,7 @@ It stops all sound.
 Where <a href="https://sonic-pi.net/">Sonic Pi (SP)</a> is rather safe, even a small typo can lead to a horrible and even damaging experience in <a href="https://supercollider.github.io/">SC</a>.
 Therefore, I recommend using headphones, and before you listen to a new sound, put them off your head and make sure the sound will not blow you away!</p>
 
-<h3 id="booting-the-server">Booting the server</h3>
+<h3 id="booting-the-server">Booting the Server</h3>
 
 <p>I have written a simple extension <code class="language-plaintext highlighter-rouge">Utils</code> which boots the server and initializes the windows, i.e., analyzing tools I often require.
 The code can be found in <a href="https://github.com/BZoennchen/SuperCollider/blob/main/sc/extensions/classes/utils.sc">Utils</a>.</p>
@@ -124,7 +124,7 @@ The code can be found in <a href="https://github.com/BZoennchen/SuperCollider/bl
 
 <p>Note that as long as we do not have to communicate with the audio server, i.e., play sound, we don’t need to boot the server.</p>
 
-<h3 id="variables-and-scope">Variables and scope</h3>
+<h3 id="variables-and-scope">Variables and Scope</h3>
 
 <p>Here we encounter the first inconvenient.
 In <a href="https://supercollider.github.io/">SC</a> there are some special pre-defined variables.
@@ -253,7 +253,7 @@ Furthermore, there is another rather strange shortcut:</p>
 
 <p>There are many other parts of the <strong>cslang</strong>, and if you want to get started, I encourage you to visit the tutorials of <a href="https://www.youtube.com/user/elifieldsteel">Eli Fieldsteel</a> or look at the official documentation.</p>
 
-<h3 id="a-first-sine-wave">A first sine wave</h3>
+<h3 id="a-first-sine-wave">A First Sine Wave</h3>
 
 <p>Let us create the most simple sound possible: a sine wave.
 First, we define a function that can be seen as a process called <em>unit generator</em> (<code class="language-plaintext highlighter-rouge">UGen</code>) that starts when we call <code class="language-plaintext highlighter-rouge">play()</code>.
@@ -291,7 +291,7 @@ In fact, <code class="language-plaintext highlighter-rouge">play()</code> is ano
 
 <p>Of course, you can also press <code class="language-plaintext highlighter-rouge">cmd + .</code>, but this will kill all sound not only this sine wave.</p>
 
-<h3 id="combining-sine-waves">Combining sine waves</h3>
+<h3 id="combining-sine-waves">Combining Sine Waves</h3>
 
 <p>Let us define a slightly more complex sound generated by two sine waves:</p>
 
@@ -324,7 +324,7 @@ We can see the problem more clearly if we plot our function:</p>
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~sinesplay</span> <span class="o">=</span> <span class="p">{</span><span class="k">arg</span> <span class="n">freq1</span><span class="o">=</span><span class="mf">200</span><span class="p">,</span> <span class="n">freq2</span><span class="o">=</span><span class="mf">200</span><span class="p">;</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">freq1</span><span class="p">,</span> <span class="nl">mul:</span><span class="mf">0.2</span><span class="p">)</span> <span class="o">+</span> <span class="nc">SinOsc</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">freq:</span><span class="n">freq2</span><span class="p">,</span> <span class="nl">mul:</span><span class="mf">0.2</span><span class="p">)}.</span><span class="n">play</span><span class="p">()</span>
 </code></pre></div></div>
 
-<h3 id="a-wobbling-sound">A wobbling sound</h3>
+<h3 id="a-wobbling-sound">A Wobbling Sound</h3>
 
 <p>Ok, this is rather boring.
 However, if we change <code class="language-plaintext highlighter-rouge">freq2</code> such that it is not equal but close to <code class="language-plaintext highlighter-rouge">freq1</code>, we get some interesting effect.
@@ -397,7 +397,7 @@ We can change all arguments during the <code class="language-plaintext highlight
 <span class="vg">~sinewaves</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\amp</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">);</span>
 </code></pre></div></div>
 
-<h3 id="envelopes-finite-ugens">Envelopes (finite UGens)</h3>
+<h3 id="envelopes-finite-ugens">Envelopes (Finite UGens)</h3>
 
 <p>So far, we had to start and stop the sound by hand.
 However, if we want to design a musical instrument, we want to manipulate the amplitude over time.
@@ -461,7 +461,7 @@ It can be best understood by plotting the result while playing around with the v
 <span class="p">)</span>
 </code></pre></div></div>
 
-<h3 id="explore-new-sounds">Explore new sounds</h3>
+<h3 id="explore-new-sounds">Explore New Sounds</h3>
 
 <p>To get a feeling for how a sound changes using different arguments, I recommend to use <code class="language-plaintext highlighter-rouge">play()</code> in combination of <code class="language-plaintext highlighter-rouge">MouseX</code> and <code class="language-plaintext highlighter-rouge">MouseY</code>.
 The latter two <code class="language-plaintext highlighter-rouge">UGen</code>s spit out values that depend on the position of your mouse curser.
