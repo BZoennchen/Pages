@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Live performance with Sonic Pi"
+title:  "Live Performance with Sonic Pi"
 ---
 
 In the past I did a 15 minute introduction for [Sonic Pi](https://sonic-pi.net/) for students at my University.
@@ -8,7 +8,7 @@ In the following text I want to give the same short introduction either for stud
 The aim here is to show how easy it is to make a beat in Sonic Pi.
 The implementation is inspired by [the beat grid](https://learningmusic.ableton.com/make-beats/make-beats.html).
 
-## Building a beat
+## Building a Beat
 
 First we define an array containing different drum-like samples.
 These samples come with Sonic Pi but you can extend the sample library by your own samples.
@@ -59,7 +59,7 @@ live_loop :drummer1 do
 end
 ```
 
-## Building a melody
+## Building a Melody
 
 To bring a little more dynamic into the piece, we introduce a randomly generated melody.
 In algorithmic composition we have to find a balance between complete chaos and structure.
@@ -86,7 +86,7 @@ live_loop :pianist do
 end
 ```
 
-## Building another beat
+## Building another Beat
 
 Finally, we add another beat and therefore another ``live_loop``:
 
@@ -168,7 +168,7 @@ live_loop :drummer2 do
 end
 ```
 
-## Performing live
+## Performing Live
 
 Of course this gets boring pretty fast but now we can start our live programming to change the sound over time.
 For example we can start by one beat, after a while start the second and the melody.

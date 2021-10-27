@@ -3,13 +3,14 @@ layout: post
 title:  "PhD Defense"
 ---
 
-Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.
+Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis.
+The thesis will be published very soon and I post it here on this website.
 
 The following text is from the preface of the thesis and describes my personal struggles during and my perspective on the journey.
 
 >"The struggle itself towards the heights is enough to fill a man’s heart. One must imagine Sisyphus happy." – Albert Camus
 
-## My personal journey
+## My Personal Journey
 
 I can pinpoint the exact moment when I decided to start my academic journey. At that time, my life was harshly disrupted by physical illness and the death of my father. Consequently, my family struggled on many levels. Despite, and probably because of the unfortunate circumstances and with my family’s blessing, I quit my job and rejoined school to get my (technical) A level. I wanted to comprehend the world more than ever and escape the meaningless play of presenting. At that difficult time, there was a financial intensive to graduate as fast as possible. Therefore, I did not join the university but the computer science program at the Munich University of Applied Sciences.
 
