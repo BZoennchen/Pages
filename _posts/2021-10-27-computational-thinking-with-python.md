@@ -20,15 +20,15 @@ We will see how our students will receive the book.
 In my opinion, the Jupyter book technology covers many features to write an excellent online book.
 I will use the technology for other future projects.
 
-If you like $\Latex$ as I do, Jupyter books might also be something worth your time.
+If you like ``LaTeX`` as I do, Jupyter books might also be something worth your time.
 It offers similar features, and the working flow is very similar.
 One can reference external sources (you can even include a BibTex file), internal sections, figures, equations, and definitions.
 On top of that, the reader can execute the code directly within the book (for Python) and on Binder or another Service providing Jupyter Notebooks if the correct kernel is available.
 I only tried this with ``Python``, but this should also work for other languages such as ``Java``.
 
-The downside is that it is much less flexible than $$\LaTeX$$ because one is bound to ``HTML``, ``CSS``, and ``JavaScript``.
+The downside is that it is much less flexible than ``LaTeX`` because one is bound to ``HTML``, ``CSS``, and ``JavaScript``.
 For example, positioning tables and figures differently than intended is pretty tricky -- I have given up on it.
-The intelligence of $$\LaTeX$$ is also missing, e.g., no automatic hyphenation.
+The intelligence of ``LaTeX`` is also missing, e.g., no automatic hyphenation.
 Aside from executing code directly within the document, another advantage is the referencing.
 As a reader, it is much easier to navigate a well-referenced webpage than navigating a large PDF file.
 
