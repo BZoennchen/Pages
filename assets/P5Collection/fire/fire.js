@@ -7,13 +7,23 @@ const fire = (sketch) => {
     var h = 150;
     var cellSize = 5;
     var colors = [];
+    var myCanvas;
+
+    /*const capturer = new CCapture({
+        framerate: 25,
+        format: "webm",
+        workersPath: './assets/P5Collection/libraries/',
+        name: "fire",
+        quality: 100,
+        verbose: true,
+    });*/
 
 
     sketch.setup = () => {
         //sketch.frameRate(25);
         sketch.windowWidth = w * cellSize;
         sketch.windowHeight = h * cellSize;
-        sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
+        myCanvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
         //cellSize = sketch.min(sketch.floor(sketch.windowHeight / h), sketch.floor(sketch.windowWidth / w));
         colors = [sketch.color(180, 180, 180), // street => 0
             sketch.color(138, 98, 74), // ash => 1
@@ -26,10 +36,20 @@ const fire = (sketch) => {
     }
 
     sketch.draw = () => {
+        /*if (sketch.frameCount === 1) {
+            capturer.start();
+        }*/
         //background(220);
         prevGrid = grid;
         grid = sketch.updateGrid();
         sketch.drawGrid();
+
+        /*capturer.capture(myCanvas.canvas);
+        if (sketch.frameCount === 400) {
+            sketch.noLoop();
+            capturer.stop();
+            capturer.save();
+        }*/
     }
 
     sketch.drawGrid = () => {

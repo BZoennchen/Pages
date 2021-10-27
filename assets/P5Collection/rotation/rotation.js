@@ -16,6 +16,15 @@ const rotation = (sketch) => {
 	let width = 740;
 	let height = 600;
 
+	/*const capturer = new CCapture({
+		framerate: 25,
+		format: "webm",
+		workersPath: './assets/P5Collection/libraries/',
+		name: "lines",
+		quality: 100,
+		verbose: true,
+	});*/
+
 	sketch.setup = () => {
 		canvas = sketch.createCanvas(width, height);
 		canvas.parent('p5-rotation');
@@ -28,6 +37,10 @@ const rotation = (sketch) => {
 	}
 
 	sketch.draw = () => {
+		/*if (sketch.frameCount === 1) {
+			capturer.start();
+		}*/
+
 		sketch.background('#fdfdfd');
 		sketch.stroke(0);
 		//text("Click the left mouse button to change the outer rotators", windowWidth/2-150, 70);
@@ -57,6 +70,13 @@ const rotation = (sketch) => {
 			right[i].draw(sketch, time);
 		}*/
 		time += 0.05;
+
+		/*capturer.capture(canvas.canvas);
+		if (sketch.frameCount === 400) {
+			sketch.noLoop();
+			capturer.stop();
+			capturer.save();
+		}*/
 	}
 
 	sketch.generateLines = (rad, len, freq, n, dir) => {
