@@ -6,6 +6,16 @@ const collisions = (sketch) => {
 	let minMass;
 	let particles = [];
 	let numberOfParticles = 20;
+	var myCanvas;
+
+	/*const capturer = new CCapture({
+		framerate: 25,
+		format: "webm",
+		workersPath: './assets/P5Collection/libraries/',
+		name: "movie",
+		quality: 100,
+		verbose: true,
+	});*/
 
 	sketch.setup = () => {
 		width = 740;
@@ -42,6 +52,10 @@ const collisions = (sketch) => {
 	};
 
 	sketch.draw = () => {
+		/*if (sketch.frameCount === 1) {
+			capturer.start();
+		}*/
+
 		sketch.colorMode(sketch.RGB, 255);
 		sketch.fill(backgroundColor);
 		sketch.background(backgroundColor)
@@ -63,6 +77,13 @@ const collisions = (sketch) => {
 		for (let i = 0; i < particles.length; i++) {
 			particles[i].show(sketch);
 		}
+
+		/*capturer.capture(myCanvas.canvas);
+		if (sketch.frameCount === 400) {
+			sketch.noLoop();
+			capturer.stop();
+			capturer.save();
+		}*/
 	};
 };
 

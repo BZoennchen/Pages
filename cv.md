@@ -3,7 +3,7 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-# Curriculum Vitae ([pdf]({% link /assets/files/CV.pdf %}))
+# Curriculum Vitae ([pdf, en]({% link /assets/files/CV_en.pdf %}), [pdf, de]({% link /assets/files/CV_de.pdf %}))
 
 ## Experience
 
@@ -73,6 +73,13 @@ In *Transportation Research Procedia*,<br>
 [DOI: 10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029)
 
 ## Teaching
+
+**Winter 2021/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Computational Thinking* (Bachelor), Trainer<br>
+
+**Winter 2021/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
+
 **Winter 2020/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
 
@@ -89,20 +96,26 @@ In *Transportation Research Procedia*,<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
 
 ## Fields of Interests
-+ Modelling and Simulation of Pedestrian Dynamics
++ Free and open Education in the Digital Era
++ Modelling and Simulation
 + Mesh Generation and its Application
 + Design of Efficient and Parallel Algorithms
-+ Automata Theory
-+ Free Education
++ Theoretical Computer Science, Automata Theory
 + Algorithmic Art (Processing, P5js, SuperCollider, Sonic Pi)
 + Algorithm Visualization
++ Sonification
 
-## Other Interests
-+ Film Criticism and Analysis
+## Private Interests
++ Film Critique and Analysis
 + Philosophy in Films
 + Chess
++ Music Theory
++ Constructivism
 
 ## Scholarships / Awards
+
+**2021** <br>
+Dissertation award ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
 
 **04/2012 - 05/2016** <br>
 [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung des deutschen Volkes)<br>
@@ -112,4 +125,4 @@ In *Transportation Research Procedia*,<br>
 
 **2013** <br>
 [RiMEA sponsorship award](https://rimea.de/de/rimea-award/)<br>
-Valedictorian (Best Graduate of the Academic year 2013, Informatics and Mathematics MUAS)
+Valedictorian of the Academic year 2013 (Informatics and Mathematics MUAS)
