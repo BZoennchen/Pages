@@ -136,4 +136,4 @@ In *Transportation Research Procedia*,<br>
 (Max Weber-Programm Bayern)<br>
 
 **2013** | [RiMEA sponsorship award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
-(Informatics and Mathematics MUAS)<br>
+(Computer Science and Mathematics [MUAS](https://www.cs.hm.edu/en/home/index.en.html))<br>
