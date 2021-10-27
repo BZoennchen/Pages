@@ -14,7 +14,7 @@ We may translate it into English in the future.
 
 The book is available here: [Computational Thinking](https://bzoennchen.github.io/ct-book/intro.html)
 
-The source code of the book is available here: [Source of the book][https://github.com/BZoennchen/ct-book]
+The source code of the book is available here: [Source of the book](https://github.com/BZoennchen/ct-book)
 
 We will see how our students will receive the book.
 In my opinion, the Jupyter book technology covers many features to write an excellent online book.
@@ -26,9 +26,9 @@ One can reference external sources (you can even include a BibTex file), interna
 On top of that, the reader can execute the code directly within the book (for Python) and on Binder or another Service providing Jupyter Notebooks if the correct kernel is available.
 I only tried this with ``Python``, but this should also work for other languages such as ``Java``.
 
-The downside is that it is much less flexible than $\Latex$ because one is bound to ``HTML``, ``CSS``, and ``JavaScript``.
+The downside is that it is much less flexible than $$\Latex$$ because one is bound to ``HTML``, ``CSS``, and ``JavaScript``.
 For example, positioning tables and figures differently than intended is pretty tricky -- I have given up on it.
-The intelligence of $\Latex$ is also missing, e.g., no automatic hyphenation.
+The intelligence of $$\Latex$$ is also missing, e.g., no automatic hyphenation.
 Aside from executing code directly within the document, another advantage is the referencing.
 As a reader, it is much easier to navigate a well-referenced webpage than navigating a large PDF file.
 
