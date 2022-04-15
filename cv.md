@@ -44,6 +44,11 @@ Software Developer (Education)<br>
 
 ## Publications
 
+**2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
+Bonding in times of pandemia -- a concept for purely virtual kick-off days to the student entry phase.<br>
+In *Mobility for Smart Cities and Regional Development -- Challenges for Higher Education*,<br>
+[DOI: 10.1007/978-3-030-93904-5_19](https://doi.org/10.1007/978-3-030-93904-5_19)<br>
+
 **2021** | **Benedikt Zönnchen (Ph. D. Thesis)**<br>
 Efficient parallel algorithms for large-scale pedestrian simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard)).<br>
 *Technical University of Munich*,<br>
