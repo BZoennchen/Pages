@@ -7,16 +7,16 @@ permalink: /cv/
 
 ## Current Position
 
-**08/2020 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
-Senior Advisor for Computer Science Education,<br>
-*CSplus and plusCS education*
+**02/2022 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/mitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
+Software Developer for<br>
+*CSplus and PlusCS Education*
 
 ## Academic Education
 
 **03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & <br>
 [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
 Computer Science (Dr. rer. nat.)<br>
-*Thesis:* Efficient Parallel Algorithm for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
+*Thesis:* Efficient Parallel Algorithms for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
 
 **10/2013 - 02/2016** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany<br>
@@ -29,13 +29,17 @@ Computer Science (B. Sc.)<br>
 
 ## Non-Academic Job History
 
+**08/2020 - 01/2022** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
+Senior Advisor for Computer Science Education,<br>
+*CSplus and PlusCS Education*
+
 **03/2011 - 10/2011** | [prevero AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
 Software Developer (Working Student)<br>
 
 **09/2008 - 07/2009** | [Nokia Siemens Networks GmbH & Co. KG](https://www.nokia.com/networks/), Munich, Germany<br>
 Web Developer<br>
 
-**09/2005 - 07/2008** | [Siemens AG](https://www.bigdata-insider.de/prevero-ag-c-255866/), Munich, Germany<br>
+**09/2005 - 07/2008** | [Siemens AG](https://www.siemens.com/de/de.html), Munich, Germany<br>
 Software Developer (Education)<br>
 
 ## Publications
@@ -86,10 +90,10 @@ In *Transportation Research Procedia*,<br>
 
 ## Teaching
 
-**Winter 2021/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Computational Thinking* (Bachelor), Trainer<br>
 
-**Winter 2021/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
 
 **Winter 2020/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
@@ -114,7 +118,6 @@ In *Transportation Research Procedia*,<br>
 + Design of Efficient and Parallel Algorithms
 + Theoretical Computer Science, Automata Theory
 + Algorithmic Art (Processing, P5js, SuperCollider, Sonic Pi)
-+ Algorithm Visualization
 + Sonification
 
 ## Private Interests
@@ -125,6 +128,9 @@ In *Transportation Research Procedia*,<br>
 + Constructivism
 
 ## Scholarships & Awards
+
+**2022** | Dissertation Award<br>
+([Oskar-von-Miller Aword](https://www.hm.edu/sekundaer_navigation/presse/oskar_von_miller_feier_2/index.de.html))<br>
 
 **2021** | Dissertation Award<br>
 ([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
