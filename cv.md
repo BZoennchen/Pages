@@ -8,8 +8,7 @@ permalink: /cv/
 ## Current Position
 
 **02/2022 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/mitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
-Software Developer for<br>
-*CSplus and PlusCS Education*
+Software Developer for CSplus and PlusCS Education
 
 ## Academic Education
 
