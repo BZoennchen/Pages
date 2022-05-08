@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-05-03T00:29:49+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">An Interactive Textbook to Learn Computational Thinking</title><link href="/Pages/2021/10/27/computational-thinking-with-python.html" rel="alternate" type="text/html" title="An Interactive Textbook to Learn Computational Thinking" /><published>2021-10-27T00:00:00+02:00</published><updated>2021-10-27T00:00:00+02:00</updated><id>/Pages/2021/10/27/computational-thinking-with-python</id><content type="html" xml:base="/Pages/2021/10/27/computational-thinking-with-python.html">&lt;p&gt;Currently, I am working as a lecturer at the &lt;a href=&quot;https://www.cs.hm.edu/en/home/index.en.html&quot;&gt;Munich University of Applied Sciences (MUAS)&lt;/a&gt; for the course &lt;strong&gt;Computational Thinking&lt;/strong&gt;.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-05-08T16:01:52+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">An Interactive Textbook to Learn Computational Thinking</title><link href="/Pages/2021/10/27/computational-thinking-with-python.html" rel="alternate" type="text/html" title="An Interactive Textbook to Learn Computational Thinking" /><published>2021-10-27T00:00:00+02:00</published><updated>2021-10-27T00:00:00+02:00</updated><id>/Pages/2021/10/27/computational-thinking-with-python</id><content type="html" xml:base="/Pages/2021/10/27/computational-thinking-with-python.html">&lt;p&gt;Currently, I am working as a lecturer at the &lt;a href=&quot;https://www.cs.hm.edu/en/home/index.en.html&quot;&gt;Munich University of Applied Sciences (MUAS)&lt;/a&gt; for the course &lt;strong&gt;Computational Thinking&lt;/strong&gt;.
 We decided to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Python&lt;/code&gt; as our primary programming language.
 To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the &lt;a href=&quot;https://jupyterbook.org/intro.html&quot;&gt;Jupyter book&lt;/a&gt; technology.&lt;/p&gt;
 
@@ -113,7 +113,7 @@ This consistency is a bright contrast to the corporate, social, and political wo
 
 &lt;p&gt;As a software engineer, I want to build large architectures that process information.
 I want to express myself through code.
-In the world of physical objects, we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse rockets behave as expected.
+In the world of physical objects, we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse and rockets behave as expected.
 But how can we specify and verify structured information?
 How can we even define what we can compute?
 What is computable?
@@ -373,7 +373,7 @@ But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqr
 
 &lt;p&gt;In any case \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) leads to a paradox!
 However, the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists.
-Therefore, it follows that our assumption is wrong and \(\hat{\mathcal{H}}\) can not exists!&lt;/p&gt;
+Therefore, it follows that our assumption is wrong and \(\mathcal{H}\) can not exists!&lt;/p&gt;
 
 &lt;h4 id=&quot;meaning&quot;&gt;Meaning&lt;/h4&gt;
 
