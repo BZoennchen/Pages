@@ -84,7 +84,7 @@ This consistency is a bright contrast to the corporate, social, and political wo
 
 As a software engineer, I want to build large architectures that process information.
 I want to express myself through code.
-In the world of physical objects, we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse rockets behave as expected.
+In the world of physical objects, we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse and rockets behave as expected.
 But how can we specify and verify structured information?
 How can we even define what we can compute?
 What is computable?
@@ -338,7 +338,7 @@ But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqr
 
 In any case $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ leads to a paradox!
 However, the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists.
-Therefore, it follows that our assumption is wrong and $$\hat{\mathcal{H}}$$ can not exists!
+Therefore, it follows that our assumption is wrong and $$\mathcal{H}$$ can not exists!
 
 #### Meaning
 

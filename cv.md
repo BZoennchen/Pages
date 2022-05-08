@@ -134,10 +134,10 @@ In *Transportation Research Procedia*,<br>
 ## Scholarships & Awards
 
 **2022** | Dissertation Award<br>
-([Oskar-von-Miller Aword](https://www.hm.edu/sekundaer_navigation/presse/oskar_von_miller_feier_2/index.de.html))<br>
+([Oskar-von-Miller Award](https://www.hm.edu/sekundaer_navigation/presse/oskar_von_miller_feier_2/index.de.html))<br>
 
 **2021** | Dissertation Award<br>
-([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/en/bdf/home/))<br>
+([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/bdf/preise/promotions-und-habilitationspreise/))<br>
 
 **04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/)<br>
 (Studienstiftung des deutschen Volkes)<br>
