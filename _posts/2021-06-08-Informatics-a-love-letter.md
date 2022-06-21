@@ -373,6 +373,6 @@ This revelation crushed the mathematical landscape and ended the dream of David 
 Sadly, [Kurt Gödel](https://en.wikipedia.org/wiki/Kurt_G%C3%B6del), as well as [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing), one of the most brilliant minds, died tragically.
 
 
-### References
+## References
 
 {% bibliography --cited_in_order %}
