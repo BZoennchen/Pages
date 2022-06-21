@@ -2,7 +2,7 @@ const tree = (sketch) => {
     const backgroundColor = 253;
 
     const dept = 8;
-    const branchLengthReduction = 0.86;
+    const branchLengthReduction = 0.88;
     const maxRotation = 0.072;
     const maxBranches = 5;
     const minBranches = 2;
@@ -79,7 +79,7 @@ const tree = (sketch) => {
             newVec = vec.copy();
             newStart = end.copy();
             newVec.rotate(sketch.TWO_PI * sketch.random(0.3, 1.0) * maxRotation * sketch.random([-1,1]));
-            newVec.mult(branchLengthReduction);
+            newVec.mult(branchLengthReduction * sketch.random(0.95, 1.0));
             newEnd = newStart.copy().add(newVec);
             branches.push([newStart, newEnd, newVec])
         }

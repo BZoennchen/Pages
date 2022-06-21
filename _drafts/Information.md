@@ -7,95 +7,95 @@ title:  "Information and Meaning"
 
 I am riding on a train to our beautiful hometown.
 Suddenly, the integrated monitor in my compartment displays the current weather and a forecast for the day.
-The sun is shining and I do not have to worry about any nasty rain.
-I put our jacket into my backpack. 
+The sun is shining, and I do not have to worry about any nasty rain.
+I put my jacket back into my backpack. 
 
 This simple example shows our general understanding of information.
-The weather service (a *sender*) transmitted via a network (a *information channel*) the weather forecast (*information*) to me (*receiver*) and it *impacted* my behavior.
+The weather service (a *sender*) transmitted, via a network (a *information channel*), the weather forecast (*information*) to me (*receiver*) and *impacted* my behavior.
 The delivered information eliminated or at least reduced the uncertainty of the upcoming weather situation -- I am assured that it will most certainly not rain.
 Consequently, I put my jacket back into my backpack.
 
-One might think that by studying computer science, students receive a deep understanding about what *information* is.
+One might think that studying computer science gives students a deep understanding of what *information* is.
 I mean, it is their fundamental resource they deal with all the time.
-So shouldn't they learn what it acutally is?
-Well, most computer scientists, and I include myself here, have a shallow encounter with the term.
-Thinking back to my own study experience, I remember that we established Shannon's definition of information using his notion of *entropie*.
+So shouldn't they learn what it is?
+Well, most computer scientists, including myself here, have a shallow encounter with the term.
+Thinking back to my own study experience, I remember that we established Shannon's definition of information using his notion of *entropy*.
 We spent like one or two sessions on the topic and moved on.
 
-There are different reasons for this unsatifying encounter with the term.
-First of all, a deep understanding of information was never important to get things done in practice.
-Historically, the challenge was to transmit data between two or more communication paricipants.
-Similar to a postman the system is not interested in the information it transmits.
-Instead it is only interested in transmitting it.
-In addition, depending on the discipline, the term has many different definitions.
-There is no general accepted definition thus we always have to add one.
+There are different reasons for this unsatisfying encounter with the term.
+First of all, a deep understanding of information was never essential to get things done in practice.
+Historically, the challenge was to transmit data between two or more communication participants.
+Like a postman, the entity is not interested in the information it transmits.
+Instead, it is only interested in transmitting it.
+In addition, the term has many different definitions depending on the discipline.
+There is no generally accepted definition; thus, we always have to add one.
 And lastly, the term is oversaturated in our daily life.
 We think we already know what information is because we believe that we use it and its intuitive definition all the time.
-This intuitive usage is strongly linked to our intuitve usage of the term *meaning*.
-Some argue (see Dooyeweerd) that *meaning* can not be understood *theoretically* but only *intuitively*. 
+This intuitive usage is strongly linked to our intuitive use of the term *meaning*.
 
 The digital is here to stay.
 Today information transmission is only one minor task of information systems.
-Looking at the scientific and economical development, it becomes clear that nowadays most modern systems are built to draw conclusions based on a vast amount of data.
+Concerning scientific and economic developments, it becomes clear that nowadays, most modern systems are built to draw conclusions based on a vast amount of data.
 Of course, this is nothing new in general.
-For example, a thermostat is basically a information system that draws conclusions based on the room temperature.
-These artifical cybernetic systems exist since humans are able to construct tools.
-What differs is the extend in which these systems guide or rather gently control our lives.
+For example, a thermostat is an information system that draws conclusions based on the room temperature.
+These artificial cybernetic systems exist since humans are able to construct tools.
+What differs is the extent to which these systems guide or rather gently control our lives.
 
 We will integrate and depend on more and more systems of control.
-In and of itself, this is neither good nor bad but, in my personal opinion, if every decision we make gets dictated by a global system of control, humans will, depending on our perspective, evolve or dissolve into that very system.
-Instead of being consciously controled, we become unaware of the controling mechanism.
+In and of itself, this is neither good nor bad, but, in my personal opinion, if every decision we make gets dictated by a global system of control, humans will, depending on our perspective, evolve or dissolve into that same system.
+Instead of being consciously controlled, we become unaware of the controlling mechanism.
 In short: we become machines ourselves.
 
-Therefore, I find it extremely necessary to think deeply about these systems such that, utimatively, we do not lose control over the thing that controls us.
+Therefore, I find it extremely necessary to think deeply about these systems such that, ultimately, we do not lose control over the thing that controls us.
 One major component is the material they are processing, i.e., information!
 
 ## A Mathematical Theory of Information
 
 In 1948 Claude E. Shannon established *A mathematical theory of information* {% cite shannon:1948 %}.
-He contributed a measurement of information, i.e., a measurement for the information content which he called *entropy*.
+He contributed a measurement of information, i.e., a measurement for the information content, which he called *entropy*.
 Because for him
 
 > information is the resolution of uncertainty. -- Claude E. Shannon
 
-the *entropy* of a given information is high if it eliminates a lot of uncertainty.
-As a side remark: it is said that he presented his ideas to John von Neumann who suggested the term because 
+the *entropy* of a given piece of information is high if it eliminates a lot of uncertainty.
+In other words, the *entropy* of a given piece of information is high if it *surprises* us.
+As a side remark: it is said that he presented his ideas to John von Neumann, who suggested the term because 
 
-> no one really knows what entropie really is.
+> no one really knows what entropy is.
 
 ### Entropy in Informationtheory
 
-In physics the *entropy* of a closed system of an irreversable process always increases.
-Imagine two identical buckets connected via a channel and let us imagine that the left bucket is filled with gas and the right one is not.
-If we open the barrier between the two buckets, the gas will flow into the right bucket until there is approximately equally amount of gas in both buckets.
+In physics, the *entropy* of a closed system of an irreversible process always increases.
+Imagine two identical buckets connected via a channel, and let us imagine that the left bucket is filled with gas and the right one is not.
+If we open the barrier between the two buckets, the gas will flow into the right bucket until there is approximately an equal amount of gas in both buckets.
 
-In this example, *entropy* is the number of possible distributions of **microscopic** particles (molekules) for one specfic **macroscopic** state of the system.
-There are more possibilities to distribute the particles uniformly in both buckets than there are for using only one bucket.
+In this example, *entropy* is the number of possible distributions of **microscopic** particles (molecules) for one specific **macroscopic** state of the system.
+There are more possibilities to distribute the particles uniformly in both buckets than using only one bucket.
 Therefore, the *entropy* increased.
 
 How does Shannon's concept of uncertainty fit into this picture?
 Let us imagine we can identify each particle.
 We look at a macroscopic state of the system and ask how many possibilities are there, i.e., how large is the entropy.
 Because the entropy is high, the exact positions of particles is very uncertain.
-If we than swtich to the actual microscopic state of the system (information), a lot of uncertainty is eliminated.
-Entropy in informationtheory is defined similarely.
+If we switch to the actual microscopic state of the system (information), a lot of uncertainty is eliminated.
+Entropy in information theory is defined similarly.
 
 #### Intuition
 
-Let us image we receive a message (information) which is a 4 bit long number, e.g. $$0001$$.
-If all possible 4 bit messages equally likely occur, then there are 
+Let us imagine we receive a message (information) which is a 4-bit long number, e.g., $$0001$$.
+If all possible 4-bit messages equally likely occur, then there are 
 
 $$
 2^4 = 16
 $$
 
-possibilities each occuring with a probability of
+possibilities each occurring with a probability of
 
 $$
 \frac{1}{16}.
 $$
 
-Looking at our message eliminates a lot of uncertainty compared to a scenario where the only possible messages are $$0001$$ and $$1001$$.
+Our message eliminates a lot of uncertainty compared to a scenario where the only possible messages are $$0001$$ and $$1001$$.
 
 #### Definition
 
@@ -103,78 +103,79 @@ Let $$\Sigma = \{\sigma_1, \ldots, \sigma_m \}$$ be a **finite** Alphabet of $$m
 Let $$X$$ be a random variable of a **memoryless** sender (a producer of messages) over $$\Sigma$$.
 We define 
 
-$$p_i = P(X = \sigma_i)$$
+$$p_i = P(X = \sigma_i),$$
 
 to be the probability of $$X$$ being equals $$\sigma_i$$.
 Then 
 
-$$B(\sigma_i) = \log_2(1/p_i) = - \log_2(p_i)$$
+$$B(\sigma_i) = \log_m(1/p_i) = - \log_m(p_i)$$
 
-is the *amount of bits required to represent a specific symbol* $$\sigma_i$$ and 
+is the *amount of elements required to represent a specific symbol* $$\sigma_i$$ and 
 
-$$H_1 = \sum\limits_{i=1}^m p_i B(\sigma_i) = - \sum\limits_{i=1}^m p_i \log_2(p_i)$$
+$$H_1 = \sum\limits_{i=1}^m p_i B(\sigma_i) = - \sum\limits_{i=1}^m p_i \log_m(p_i)$$
 
 is the *entropy* (of the system) with respect to one symbol.
 The *entropy* $$H_n$$ *of words* $$w \in \Sigma^n$$ is defined by
 
-$$H_n = - \sum\limits_{w \in \Sigma^n} p_w \log_2(p_w)$$
+$$H_n = - \sum\limits_{w \in \Sigma^n} p_w \log_m(p_w)$$
 
 where $$p_w = P(X = w)$$ is the probability of the appearance of $$w$$.
 Finally the *entropy of the system* $$H$$ is the limit, i.e.,
 
 $$H = \lim\limits_{n \rightarrow \infty} \frac{H_n}{n}.$$
 
-By *system* Shannon refers to a *system of information transmission*.
-There is a *source* sending a message $$\omega$$ to a *sender* who sends signals through a, possibly disrupted *channel* to a *receiver*.
+By *system*, Shannon refers to a *system of information transmission*.
+There is a *source* sending a message $$\omega$$ to a *sender* who sends signals through a possibly disrupted *channel* to a *receiver*.
 The *receiver* translates the signals into the message $$\omega$$ and hands it over to its *target/reader*.
 
 #### Examples
 
-Suppose a the *sender* sends an alternating infinite series of 0's and 1's, i.e., $$010101 \ldots$$.
-In that case we have 
+Suppose the *sender* sends an alternating infinite series of 0's and 1's, i.e., $$010101 \ldots$$.
+In that case, we have 
 
 $$\Sigma = \{0,1\}, B(0) = B(1) = 1.$$
 
-If we look at words of length one the probability that a $$0$$ or $$1$$ appears is equally likely thus 
+If we look at words of length one, the probability that a $$0$$ or $$1$$ appears is equally likely, thus 
 
 $$H_1 = 0.5 \cdot 1 + 0.5 \cdot 1 = 1.$$
 
-However, if we increase the length of words the *entropy* does not increase because the first symbol already defines the whole word!
+However, if we increase the length of words, the *entropy* does not increase because the first symbol already defines the whole world!
 Therefore,
 
 $$\forall n \in \mathbb{N}: H_n = 1 \Rightarrow H = 0,$$
 
 i.e., the *entropy of that system* is zero.
 
-If instead the *sender* sends $$0$$ or $$1$$ probability $$0.5$$ then 
+If instead the *sender* sends either $$0$$ or $$1$$ probability $$0.5$$, then 
 
 $$\forall n \in \mathbb{N}: H_n = \log(2^n) = n \Rightarrow H = 1.$$
 
-In this case there is no way to send fewer bits to transmitt the same amount of information!
+In this case, there is no way to send fewer bits to transmit the same amount of information!
 
 ### Information and Complexity
 
-Another way to look at information, that does not rely on a *system of information transmission*, is to relate the amount of information by the *length of a program* that generates it.
+Another way of looking at a piece of information is to relate the amount of information to the *length of a program* that generates it.
+This perspective does not rely on a *system of information transmission*. 
 
 Let $$U$$ be the *universal Turing machine*, then the Kolmogorow-complexity $$C_U(w)$$ of a word $$w$$ is defined by the length (bits) of shortest description $$\alpha_T$$ of a Turing machine $$T$$ which generates $$w$$ without any additional input, that is,
 
-$$C_U(w) = \min\limits_{\alpha_T}\left\{ |\alpha_T|: U(\alpha_T) = T() = w \right\}.$$
+$$C_U(w) = \min\limits_{\alpha_T \in \Sigma^*}\left\{ |\alpha_T|: U(\alpha_T) = T() = w \right\}.$$
 
-Since programming languages are basically *universal Turing machines*, we can more or less replace $$T$$ by the shortest program that generates $$w$$.
+Since programming languages are basically *universal Turing machines*, we can more or less replace $$T$$ with the shortest program that generates $$w$$.
 
-For example, for generating the sequence 
+For example, for generating the sequence
 
 ```python
 'abababababababababab'
 ```
 
-in following ``Python`` code suffice
+following ``Python`` code suffice
 
 ```python
 'ab'*10
 ```
 
-We only need 7 symbols.
+We only need seven symbols.
 
 How about:
 
@@ -189,19 +190,19 @@ Well, the following program does the job
 ```
 
 i.e., we need 18 symbols.
-We almost need as many symbols as the length of the message we wanna generate.
-In fact, the length of the message is an upper bound for the Kolmogorow-complexity.
+We almost need as many symbols as the length of the message we want to generate.
+In fact, the length of the message is an upper bound for the Kolmogorov complexity.
 In other words
 
 $$C_U(w) \in \mathcal{O}(|w|).$$
 
-Looking at the definition of the Kolmogorow-complexity the devil lies in the iteration over all possible programs!
-It turns out that for an arbitrary word $$w$$ the Kolmogorow-complexity $$C_U(w)$$ is **not computable**.
+Looking at the definition of the Kolmogorov complexity, the devil lies in the iteration of all possible programs!
+It turns out that for an arbitrary word $$w$$ the Kolmogorov complexity $$C_U(w)$$ is **not computable**.
 
-The Kolmogorow-complexity is an elegant way of looking at information because it does not require the introduction of a transmission system.
-We can just look at the series symbols in front of us and ask: What program can generate the series?
+The Kolmogorov complexity is an elegant way of looking at information because it does not require introducing a transmission system.
+We can look at the series symbols in front of us and ask: What program can generate the series?
 
-Interestingly, we do not look at the complexity of the program but on its length.
+Interestingly, we do not look at the program's complexity but its length.
 For example, for a string representing the first $$n$$ prime numbers
 
 ```python
@@ -240,69 +241,69 @@ text
 
 even if its complexity is higher than a more sophisticated and efficient algorithm.
 Another example is the computation of a picture of the famous Mandelbrot set.
-The image might require a large amount of memory but its computation requires a very **small program**.
-To (re-)construct the image the program needs a lot of steps, i.e., **execution time**.
+The image might require a large amount of memory, but its computation requires a very **small program**.
+To (re-)construct the image, the program needs a lot of steps, i.e., **execution time**.
 
-Since descriptions of complex systems can be rather short, this perspetive suggests that these systems might in fact offer or rely on a very small amount of information.
-We often have to 'execute' or 'evolve' this information to understand it but its 'essence' is there beforehand.
+Since descriptions of complex systems can be relatively short, this perspective suggests that these systems might, in fact, offer or rely on a minimal amount of information.
+We often have to 'execute' or 'evolve' this information to understand it, but its 'essence' is there beforehand.
 
-One might want to ask: what is the Kolmogorow-complexity of our Universe?
+One might want to ask: what is the Kolmogorov complexity of our Universe?
 If such a question makes sense in the first place, its answer may surprise us.
 
 ### Meaningless Symbols
 
-In Shannon's theory, information is viewed stochastically, or probabilistically.
+In Shannon's theory, information is viewed stochastically or probabilistically.
 It is carried discretely as symbols, which are selected from a set of possible symbols.
-The meaning of these symbols is completely irrelevant, though a binary digit may represent the toss of a coin (heads or tails) or the fate of the universe (expand or collapse).
+The meaning of these symbols is entirely irrelevant, though a binary digit may represent the toss of a coin (heads or tails) or the universe's fate (expand or collapse).
 
-If two events are possible but one is very unlikely and I get informed about the occurence of the unlikely event, I would get *more* information than if I get informed about the likely event.
+If two events are possible, but one is very unlikely, and I get informed about the occurrence of the unlikely event, I would get *more* information than if I get informed about the likely event.
 In that sense, written English or German has less information than a random set of letters!
-This is counter-intuitive because we tend to confuse *information* with *meaning* and even though a random set of letters transmitts a lot of information, it is meaningless to us.
+This is counter-intuitive because we tend to confuse *information* with *meaning* and even though a random set of letters transmits a lot of information, it is meaningless to us.
 
-The same is true for the Kolmogorow-complexity.
-It also avoids the combination of information and meaning and instead relys solely on syntactical qualities. 
+The same is true for the Kolmogorov complexity.
+It also avoids combining information and meaning and relies solely on syntactical qualities. 
 
 Case closed?
-Information has no meaning or value?
-If the content of information is defined formatively by *entropy* or the *Kolmogorow-complexity*, information and meaning are two completely different things.
+Does the information have no meaning or value?
+If the content of information is defined formally by *entropy* or the *Kolmogorov complexity*, information and meaning are two completely different things.
 However, information can, of course, still have meaning!
 
-## On Meaning
+## Meaning
 
-Aristotle talked about the meaningfulness of objects, which he held to be bound up with the essence of the object *in itself*.
+*Aristotle* talked about the meaningfulness of objects, which he held to be bound up with the essence of the object *in itself*.
 For him, meaningfulness was similar to an attribute like weight and height.
 He also had a notion of the *final cause*, a kind of destiny towards which things are heading and being drawn to.
 For example, the final cause of a seed is the adult plant.
-Everything that Nature makes is means to an end (humanity).
+Everything that nature makes is means to an end (humanity).
 Today we tend to interpret the example of the plant the other way around: the end of the adult plant is reproduction, i.e., the seed.
 The *final cause* is circular.
 
-Existentialists, such as Sartre and Kierkegaard, focused solely on human beings and inverted the idea of an essential meaning to human existence.
+Existentialists, such as *Sartre* and *Kierkegaard*, focused solely on human beings and inverted the idea of an essential meaning to human existence.
 Existence precedes meaning thus humans have to create or define their own subjective meaning -- we are dangerously free.
 They are in-line with the general Western thought presupposing that meaning is something we impose, either subjectively or intersubjectively on things, or meaning is what we generate by means of symbols and communicative activity.
 In short: meaning is a *human construct* but more so it is *individualistic*.
 
-Heidegger noted that when we come to understand entities in the world and their possibility, the entities *'have meaning'* but this *'having'* is not located in the entity itself but in the act of understanding.
+*Heidegger* noted that when we come to understand entities in the world and their possibility, the entities *'have meaning'* but this *'having'* is not located in the entity itself but in the act of understanding.
 
 >Meaning is that wherein the intelligibility of something maintains itself -- Heidegger
 
-It seems that for Heidegger the meanings of a thing emerges from the realtionships a thing has with all around it.
+It seems that for *Heidegger* the meanings of a thing emerges from the realtionships a thing has with all its sourroundings.
 
-This notion reminds me of Niklas Luhmann who thought of social systems to be autopoiesis (self-maintaining and self-producing by creating its own parts)
+This notion reminds me of *Niklas Luhmann* who thought of social systems to be autopoiesis (self-maintaining and self-producing by creating its own parts)
 and operational closed like a biological cell.
-According to Luhmann, social systems construct and maintain themselves by differentiating themselves from their environment.
-In terms of communication, Luhmann depatured from the *sender-receiver-models of communication* he claimed
+According to *Luhmann*, social systems construct and maintain themselves by differentiating themselves from their environment.
+In terms of communication, *Luhmann* depatured from the *sender-receiver-models of communication* he famously claimed that
 
 >Only communication can communicate.
 
-which sounds trivial but as a consequence excludes people from social systems.
+which sounds trivial, but, as a consequence, excludes people from social systems.
 He argues that *social meaning* is not dependent on the meaning being generated and understood by people.
 Psychic systems (conciousness) are identified to be systems based on the processing of meaning as well, but the meaning generated in psychic systems is never directly accessible for social systems.
 Social systems can only observer meaning within themselves, on the basis of specific codes, programs, symbolically generalized media of communication, etc.
 
 For example, while within the scientific system meaning is observerd on the basis the true/false-code, the legal system operates on the basis of the legal/illega-code.
 Depending on the system something can have different meanings and there is no hiearchy of meanings.
-In contrary to the existentialist point of view, meaning can be specific for social systems in which consists not of humans but of communication.
+In contrary to the existentialist point of view, meaning can be specific for social systems which consists not of humans but of communication.
 
 
 ###########
@@ -377,3 +378,8 @@ However, it is easy for us to inject a metric that categorises and values those 
 In general, it is difficult to find pure syntactical interpreters as soon as information is preceived by us.
 
 {% bibliography --cited_in_order %}
+
+
+
+
+Some argue (see Dooyeweerd) that *meaning* can not be understood *theoretically* but only *intuitively*. 
