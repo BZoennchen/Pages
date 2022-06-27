@@ -6,32 +6,36 @@ title:  "Creative Artificial Intelligence"
 ## Panel Discussion
 
 On the 20th of Mai, I joined a penal to discuss the role of *artificial intelligence (AI)* in the *creative process*.
-The panel was held in the context of the Munich Creative Business Week by the Wavelet (University for Music and Theater) and the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/news_mucdai/details_news_mucdai_26944.de.html).
+It was held in the context of the Munich Creative Business Week by the Wavelet (University for Music and Theater) and the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/news_mucdai/details_news_mucdai_26944.de.html).
 Let me first summarize our discussion:
 
 The penal consisted of two computer scientists and two artists.
-After each of us gave his/her opening statement, we discussed different aspects of AI in the realm of art, science, and economics.
-We came close to a convention regarding the question of how creative AI can be.
-We agreed that, to this day, AI is yet another tool, similar to pen and paper, to support humans in their creative work.
+After each of us opened with a general statement, we discussed different aspects of AI in the realm of art, science, and economics.
+We came close to an agreement regarding the question of how creative AI can be: AI can facilitate and enable great artwork but to this day, AI is yet another tool, similar to pen and paper, to support humans in their creative work.
 
-In general, it wasn't easy to talk about *creativity* and *intelligence* because each of us had a slightly different definition.
-One participant rightfully problematized the black box principle of many modern machine learning techniques, e.g., deep neural networks.
+In general, it wasn't easy to talk about *creativity* and *intelligence* because unsurprisingly each of us had a slightly different definition in mind.
+My colleague rightfully problematized the black box principle of many modern machine learning techniques, e.g., deep neural networks.
 Despite their effectiveness, real-world decisions are still made on the basis of human understanding.
-Since neural networks do not provide an "easy" explanation of how they draw their conclusion, it is often necessary to go back to simpler models such as statistics to explain the neural network.
+Since neural networks do not provide an "easy" explanation of how they draw their conclusion, it is often necessary to go back to simpler models, such as statistics, to explain the neural network.
 
 One artist described her experience with the chatbot *Replika*, an AI that tries to mimic your behavior to become your friend or romantic partner.
 She was pretty impressed. 
-Some people fell in love with the machine -- they reported strong emotions.
+Some people even fell in love with the machine -- they reported strong emotions echoing the science fiction movie *Her*.
 However, it was always possible for her to spot a machine-like behavior behind the scenes.
 
 The other artist argued that AI opens up possibilities for novel artistic expressions.
 She assumes that working with AI will be her daily bread and butter.
-She also criticized the *cult* around famous artists by arguing that most of the time, incredible art resulted from multiple people.
+She also criticized the *cult* around famous artists by arguing that most of the time, incredible art resulted from a collaboration of multiple people.
+Consequently, she hopes that AI will bring a kind of democratization to the art world.
 
 >There is no single genius.
 
 I stated that AI could potentially increase the pressure on the artist because it will become more and more challenging to create something unique and even harder to create something non-reproducible.
-*Commercial art* -- if we can call it that way -- will become more competitive and speculative.
+Democratization in consumer societies can enhance competitiveness and an ever-growing flow of products that lose their symbolic value.
+It is not necessarily the case that attempting to sell more art will constitute more art.
+The reverse might happen.
+*Commercial art* is rarely publicly symbolic.
+How could it, if one has to pay for its perception.
 
 ## Defining Artificial Intelligence
 
@@ -40,7 +44,7 @@ So let us talk about AI.
 
 In his paper *What is Artificial Intelligence?* {% cite mccarthy:1998 %} published in 2004, John McCarthy stated:
 
->It is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
+>[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
 
 In his definition, we do not find any explanation of what he actually means by *intelligence* which is unfortunate.
 Alan Turing, the father of computer science, gave us at least some criteria at hand.
@@ -49,16 +53,17 @@ He asks in his article *Computing Machinery and Intelligence* {% cite turing:195
 >Can machines think?
 
 And from there, he offers us his famous and widely criticized *Turing test*.
-The test consists of a human interrogator trying to distinguish between a computer and a human based on text responses.
+The test is not very helpful because it defines no objective measurement for intelligence.
+It consists of a human interrogator trying to distinguish between a computer and a human based on text responses -- very similar to the chatbot *Replica*.
 If a human can not tell if he or she interacted with a machine or another human being, the machine passed the test and can be regarded as *intelligent*.
 
 I call this *simulated intelligence* or *weak AI*.
 It is a requirement, but it is not sufficient.
 Compared to a baby, a machine can **appear** to be much more intelligent, but a baby **is** intelligent while a machine is not.
-Therefore, the *Turing test* does not help spot *natural intelligence*.
-It might even lead us on a path where we become experts in *fake/simulated intelligence* by wasting all our resources.
+Therefore, the *Turing test* does not help us to spot *natural intelligence*.
+It might even lead us on a path where we become experts in *faking/simulating intelligence* by wasting all our resources.
 
-Stuart Russell and Peter Norvig published their book *Artificial Intelligence: A Modern Approach* {% cite russel:2010 %} which is one of the leading textbooks for the subject.
+Stuart Russell and Peter Norvig published their book *Artificial Intelligence: A Modern Approach* {% cite russel:2010 %} in 2010, which is one of the leading textbooks for the subject today.
 They differentiate four different goals or definitions of AI:
 
 + human approach
@@ -80,7 +85,7 @@ Is consciousness or liveliness a precondition for intelligence?
 Based on our definition of *intelligence*, everything from simple algorithms and machines (including the thermostat) to neural networks can be either called *intelligent* or not.
 
 These definitions are somewhat fuzzy and vague because we do not know what intelligence is.
-We have an intuitive understanding of it, but we can not express what it is linguistically.
+We have an intuitive understanding of it (which might be an illision), but we can not express what it is linguistically.
 In its simplest form, artificial intelligence is **a field** (not a machine) that combines computer science, data science, machine learning, deep learning, robotics, neurosciences, and more **to enable problem-solving**.
 
 In his book *Birth of Intelligence* Daeyeol Lee writes:
@@ -91,10 +96,10 @@ Daeyeol Lee argues that a few essential principles emerge from an evolutionary p
 For example, different lifeforms can have very different types of intelligence because they have other evolutionary roots and have adapted to different environments. 
 It is misleading, unhelpful, and meaningless if we try to order different animal species on a scale of intelligence.
 
-Following his advice, comparing human and artificial intelligence may be meaningless.
+Following his advice, comparing human and artificial intelligence may be meaningless as well.
 Machines can solve specific problems much more efficiently than humans.
 At the same time, they are hopelessly overwhelmed in dealing with the most simple tasks.
-Humans and many other animals can not only identify complex objects and produce agile behaviors, but they can do this in so many different ways in many different environments.
+Humans, and many other animals, can not only identify complex objects and produce agile behaviors, but they can do this in so many different ways in many different environments.
 Concerning specialization, machines are still infants.
 Therefore, I suggest that we use three different terms to distinguish three different kinds of intelligence:
 
@@ -109,18 +114,17 @@ By using these categories, I call machines not *human-like intelligent* but *art
 ## A Brief History of AI
 
 The general public was first impressed by *artificial intelligence* when it became clear that computers would beat any chess grandmaster of the future.
-Soon after the success, accompanied by big headlines, critiques argue that the program won via a sort of *brute-force approach* which can not be called *intelligent*.
-Based on a database, it just searches the whole state space.
+Soon after the success, accompanied by big headlines, critics argued that the program won via a sort of *brute-force approach* which can not be called *intelligent* -- here we go again.
+Based on a database, the program just searches the whole state space.
 In contrast, a chess master finds good moves through pattern matching and intuition.
 He or she is very limited in searching the state space.
 
 The next step toward more sophisticated artificial intelligence was made by *AlphaZero*, a program that plays board games with superhuman skill.
 It famously discovered several chess strategies and even invented one.
-It certainly seems like a machine eclipsing human cognitive abilities.
+It certainly seemed like a machine eclipsing human cognitive abilities.
 But *AlphaZero* needs to play millions more games than a person during practice to learn a game.
 
 What followed was the artificial intelligence called *AlphaGo* which was able to beat the world's best *Go* players.
-It produced a lot of headlines and a public discussion fueled by the media.
 The significant difference compared to former approaches was that *AlphaGo* not only partially searched the state space but also constructed a cost function autonomously.
 *AlphaGo* is based on *reinforcement learning*, i.e., it uses rewards and punishments to train itself while playing millions of games.
 The only prior defined goal was to win the game; thus, no evaluation strategy of a game state was given.
@@ -138,7 +142,7 @@ The observers called it *weird gameplay*.
 
 These examples show that *artificial intelligence* can already create something novel that we identify as creative.
 Finding a new strategy in an RTS game is undoubtedly a creative process.
-The AI is perfectly able to simulate* intelligence and creativity *but has a fundamentally different quality than the living beings.
+The AI is perfectly able to simulate intelligence and creativity but has a fundamentally different quality than the living beings.
 As *Yuval Noah Harari* stresses: 
 
 >Even though we do not really understand intelligence and consciousness, artificial intelligence is perfectly able to hack humanity.
@@ -148,12 +152,12 @@ As *Yuval Noah Harari* stresses:
 However, it also shows that *artificial intelligence* is still highly specialised in solving one specific task.
 There is still no fundamental difference between modern AI and a thermostat.
 Regardless how sophisticated an AI is, it can only solve a specific problem -- it can not transfer knowledge or any strategy to a new area.
-While public figures, such as *Elon Musk*, make horrific claims about AI to push their story to please and attrackt financier, experts are aware of its shortcomings and the huge difference between human and artificial intelligence.
+While public figures, such as *Elon Musk*, make horrific claims about AI to push their story to please and attrackt financiers, experts are aware of its shortcomings and the huge difference between human and artificial intelligence.
 *Francois Chollet*, the creator of Keras, stated:
 
 >What makes human intelligence special is its adaptability; its power to generalize to never-seen-before situations -- Francois Chollet
 
-*Chollet* argues that it is misguided to measure machine intelligence solely according to its skills at specific tasks.
+*Chollet* argues that, it is misguided to measure machine intelligence solely according to its skills at specific tasks.
 Unlike most animals humans do not start out with skills.
 As a baby we are horribly helpless but we start out with a broad ability to acquire new skills.
 A chess player can transfer his abilities to other areas.
@@ -169,15 +173,20 @@ A self-driving car can not predict from *common sense* what will happen if a tre
 
 >At some point you know, if you're intelligent; you realize maybe there's something else out there -- Josh Tenenbaum
 
-But is this enough?
-Does this even lead to the right track?
+This might be a problem because, as we know, quantum theory and relativity theory, i.e., the physics of the small and big, do not work together, and Gödel's incompleteness theorem hints at the depressing reality that there might never be a theory of everything.
+Another problem is cognition.
+We still know very little about what we perceive.
+Call me crazy, but it might have nothing to do with reality, so how can we program a machine to perceive like we do if we have no clue what we actually perceive and how?
+
+But thre is even more.
 *Daeyeol Lee* argues that true intelligence (*lively intelligence*) should promote -- not interfere with -- the replication of the genes responsible for its creation.
 The will to reproduce and to self-preserve ones own being and species injects the world with *meaning*.
 Until then, machines will always only be surrogates of human intelligence, which unfortunately still leaves open the possibility of an abusive relation between people and artificial intelligence.
 **Replication** and **self-preservation** seems to be the one and only predefined rule at which living beings operate.
 
 Today, a lot of hype still surrounds AI development, which is expected of any new emerging technology in the market.
-Surely we accomplished a lot in building more sophisticated thermostats but it may be the case that we did not come any closer towards creating *human intelligence*.
+Surely we accomplished a lot in building more sophisticated thermostats.
+AI also helped us in the sciences but it may be the case that we did not come any closer towards creating *human intelligence*.
 The overenthusiasm of the tech-industry is slowly crumbeling and a period of disillusionment is on the horizon.
 Maybe this gives us the possibility to breathe and think about the technology we really wanna create and use.
 
@@ -195,13 +204,14 @@ This is, of course, a complex and maybe even impossible task.
 
 First, we can attribute creativity to a subject, object or process.
 A creative product or idea has to be **novel** and **useful** (which might be highly subjective).
+The product might just be aesthetically pleasing (or even disgusting), which is in itself useful.
 Novelty, as well as usefulness, can be either *psychological (P)*, i.e., it is novel/useful to the agent that produces it, or *historical (H)*, i.e., novel/useful to society.
 
 Every human being is creative.
 In other words, creativity is not reserved for a special elite; instead, it is a feature of human intelligence in general.
 Creativity involves everyday capacities, e.g., perception, searching for a structure, reminding, and combining concepts.
 
-Lastly, creativity involves motivation and emotion and is closely linked to cultural and personal/subjective factors.
+Lastly, creativity involves motivation and emotion and is closely linked to historical, political, cultural, social and personal/subjective factors.
 
 ## Artificial Creativity
 
@@ -223,7 +233,8 @@ Machines and algorithms are not motivated by anything; they are not emotional.
 Let us look at a famous example: the proof of *the four-color problem*.
 The four-color problem asks if it is possible to color a map in such a way that there are no two adjacent parts with the same color, using only four colors.
 It was proven in 1976 by *Kenneth Appel* and *Wolfgang Haken* with the help of a computer.
-An algorithm helped check different possibilities;
+For colors are enough!
+An algorithm helped check different possibilities.
 Clearly, the machine is part of the creative process of proving a mathematical statement, but at the same time, it is instructed by the programmers who injected their subjective motivation and cultural background.
 They decided to take up the task of proving the statement.
 They decided it was worth their time and developed a strategy that a machine could execute.
@@ -232,7 +243,7 @@ No artificial intelligence decided to prove *the four-color problem*, but humans
 Proving a mathematical statement does not start with the proof itself.
 This point is important!
 Scientists choose what they want to prove and what they think is essential.
-This choice can not be reduced to an *objective, rational*; it is a *subjective evaluation of values and meaning*.
+This choice can not be reduced to an *objective, rational*; it is a *subjective evaluation of values and symbols of meaning*.
 But to this day, machines can not infuse symbols with meaning.
 They work on a purely syntactical level.
 
@@ -248,6 +259,9 @@ In October 2018, the [Portrait of Edmond de Belamy](https://www.christies.com/fe
 In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual space, and (3) transformed previously impossible ideas.
 
 ## The Speed of Disruption
+
+I want to close this text with a personal and a little speculative note.
+You might disagree heavily and that's ok.
 
 Humans have created and enjoyed all art forms for viewing, aesthetic, and even therapeutic purposes.
 We should not forget that technology has impacted how art is created and enjoyed for the last 100 years.
@@ -271,14 +285,14 @@ From AI-written books, such as [The Road](https://en.wikipedia.org/wiki/1_the_Ro
 
 Our current technologically and competitively driven economic system neglects any profound confrontation with technology.
 Competition leads to *the fear of missing out*; of losing some advantage over others.
-We are so used to technology, comforted by it, and convinced that it is our new religion.
-Similar to *capitalism*, we lost the distinction between *technological progress* and *evolution*.
-Technology **is** evolution.
+We are so used to technology, comforted by it, and convinced that it has become our new religion -- at least for some of us.
+We lost the distinction between *technological progress* and *evolution*.
+Now, technology **is** evolution.
 We no longer think about it. 
-Instead, if it is properly marketed we buy and use it.
+Instead, if it is properly marketed and channeled into our desires, we buy and use it.
 
 Every broadly accepted new technology leads to disruption.
-The increasing speed of disruption makes it more and more difficult to attach meaning to anything.
+The increasing speed of disruption makes it more and more difficult to attach meaning to the new.
 Solid structures get replaced by a liquid stream of information.
 We can no longer get too invested in something because it might be replaced the next day.
 Artists might be in trouble if this superficiality becomes a reality in the art world.
@@ -286,7 +300,7 @@ Artists might be in trouble if this superficiality becomes a reality in the art 
 The future artists might have to revolt against *the speed of disruption*.
 Artwork may be the product of technology, but **also** offers a window into it.
 Maybe in art lies the possibility of profoundly engaging with technology.
-To ask: What is technology?
+To ask: What is it?
 How does it change our social, economic, political, and transcendental systems?
 Can we control it, and if so, how?
 
