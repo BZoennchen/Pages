@@ -233,7 +233,7 @@ Machines and algorithms are not motivated by anything; they are not emotional.
 Let us look at a famous example: the proof of *the four-color problem*.
 The four-color problem asks if it is possible to color a map in such a way that there are no two adjacent parts with the same color, using only four colors.
 It was proven in 1976 by *Kenneth Appel* and *Wolfgang Haken* with the help of a computer.
-For colors are enough!
+Four colors are enough!
 An algorithm helped check different possibilities.
 Clearly, the machine is part of the creative process of proving a mathematical statement, but at the same time, it is instructed by the programmers who injected their subjective motivation and cultural background.
 They decided to take up the task of proving the statement.
