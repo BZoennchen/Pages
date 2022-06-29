@@ -315,7 +315,7 @@ They can channel your unwanted opinions to a specific group of people, i.e., cri
 Over time this can lead to a loss of identity, i.e., alienation.
 The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
 The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
-It started with *Edward Louis Bernays*, a nephew of *Freud* and a horrific misanthrope with grand ambitions.
+It started with *[Edward Louis Bernays](https://en.wikipedia.org/wiki/Edward_Bernays)*, a nephew of *[Sigmund Freud](https://en.wikipedia.org/wiki/Sigmund_Freud)* and a horrific misanthrope with grand ambitions.
 His story is worth studying.
 Today, accessibility guarantees constant exposure to this resonating noise.
 
