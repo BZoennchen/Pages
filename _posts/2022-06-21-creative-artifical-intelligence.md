@@ -330,7 +330,12 @@ Of course, this would destroy most business models; thus, corporations will not 
 Governments are another beast.
 Right now, it is unimaginable that China will change its way of using AI and the Western governments are not innocent either. 
 
-In the progress of the democratization of AI, art could play a major role.
+AI will be, most likely, part of our future life; our window to the world made of digital information.
+As I stated in my [love letter](https://bzoennchen.github.io/Pages/2021/06/08/Informatics-a-love-letter.html), informatics and AI can be an empowering discipline.
+It can emancipate us.
+But it can also lead to a total loss of agency.
+I believe we still have enough agency to steer the wheel in the right direction.
+In the progress of a possible democratization of AI, art could play a major role.
 Art as an aesthetic counterpart to a kind of destructive advertisement can reveal its manipulative power.
 Future artists might have to revolt against *the speed of disruption*.
 Artwork may be the product of technology, but **also** offers a window into it.
