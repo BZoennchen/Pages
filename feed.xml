@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-06-29T13:49:00+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Creative Artificial Intelligence</title><link href="/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="/Pages/2022/06/21/creative-artifical-intelligence.html">&lt;h2 id=&quot;panel-discussion&quot;&gt;Panel Discussion&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-06-29T13:53:46+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Creative Artificial Intelligence</title><link href="/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="/Pages/2022/06/21/creative-artifical-intelligence.html">&lt;h2 id=&quot;panel-discussion&quot;&gt;Panel Discussion&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; The text contains my own personal, speculative opinions. You might disagree heavily and that’s ok.&lt;/p&gt;
 
@@ -41,7 +41,7 @@ How could it, if one has to pay for its perception.&lt;/p&gt;
 &lt;p&gt;In my opinion, without &lt;em&gt;artificial intelligence AI&lt;/em&gt; there is no &lt;em&gt;artificial creatifity AC&lt;/em&gt;.
 So let us talk about AI.&lt;/p&gt;
 
-&lt;p&gt;In his paper &lt;em&gt;What is Artificial Intelligence?&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#mccarthy:1998&quot;&gt; [1]&lt;/a&gt; published in 2004, John McCarthy stated:&lt;/p&gt;
+&lt;p&gt;In his paper &lt;em&gt;What is Artificial Intelligence?&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#mccarthy:1998&quot;&gt; [1]&lt;/a&gt; published in 2004, &lt;a href=&quot;https://www.artificial-solutions.com/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence&quot;&gt;&lt;em&gt;John McCarthy&lt;/em&gt;&lt;/a&gt; stated:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.&lt;/p&gt;
@@ -49,7 +49,7 @@ So let us talk about AI.&lt;/p&gt;
 
 &lt;p&gt;In his definition, we do not find any explanation of what he actually means by &lt;em&gt;intelligence&lt;/em&gt; which is unfortunate.
 &lt;em&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Alan_Turing&quot;&gt;Alan Turing&lt;/a&gt;&lt;/em&gt;, the father of computer science, gave us at least some criteria at hand.
-He asks in his article &lt;em&gt;Computing Machinery and Intelligence&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#turing:1950&quot;&gt; [2]&lt;/a&gt; more than 50 years before McCarthy&lt;/p&gt;
+He asks in his article &lt;em&gt;Computing Machinery and Intelligence&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#turing:1950&quot;&gt; [2]&lt;/a&gt; more than 50 years before &lt;em&gt;McCarthy&lt;/em&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Can machines think?&lt;/p&gt;
@@ -66,7 +66,7 @@ Compared to a baby, a machine can &lt;strong&gt;appear&lt;/strong&gt; to be much
 Therefore, the &lt;em&gt;Turing test&lt;/em&gt; does not help us to spot &lt;em&gt;natural intelligence&lt;/em&gt;.
 It might even lead us on a path where we become experts in &lt;em&gt;faking/simulating intelligence&lt;/em&gt; by wasting all our resources.&lt;/p&gt;
 
-&lt;p&gt;Stuart Russell and Peter Norvig published their book &lt;em&gt;Artificial Intelligence: A Modern Approach&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#russel:2010&quot;&gt; [3]&lt;/a&gt; in 2010, which is one of the leading textbooks for the subject today.
+&lt;p&gt;&lt;em&gt;Stuart Russell&lt;/em&gt; and &lt;em&gt;Peter Norvig&lt;/em&gt; published their book &lt;em&gt;Artificial Intelligence: A Modern Approach&lt;/em&gt; &lt;a class=&quot;citation&quot; href=&quot;#russel:2010&quot;&gt; [3]&lt;/a&gt; in 2010, which is one of the leading textbooks for the subject today.
 They differentiate four different goals or definitions of AI:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -384,7 +384,7 @@ Can the everyday people control it, and if so, how can we get there?&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;mccarthy:1998&quot;&gt;[1]J. McCarthy, &lt;i&gt;Waht Is Artificial Intelligence?&lt;/i&gt;, in (2004).&lt;/span&gt;&lt;/li&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;mccarthy:1998&quot;&gt;[1]J. McCarthy, &lt;i&gt;What Is Artificial Intelligence?&lt;/i&gt;, in (2004).&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;turing:1950&quot;&gt;[2]A. M. Turing, &lt;i&gt;Computing Machinery and Intelligence&lt;/i&gt;, Mind &lt;b&gt;59&lt;/b&gt;, 433 (1950).&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;russel:2010&quot;&gt;[3]S. Russell and P. Norvig, &lt;i&gt;Artificial Intelligence: A Modern Approach&lt;/i&gt;, 3rd ed. (Prentice Hall, 2010).&lt;/span&gt;&lt;/li&gt;
 &lt;li&gt;&lt;span id=&quot;lee:2010&quot;&gt;[4]D. Lee, &lt;i&gt;Birth of Intelligence: From RNA to Artificial Intelligence.&lt;/i&gt; (New York: Oxford University Press, 2021).&lt;/span&gt;&lt;/li&gt;
