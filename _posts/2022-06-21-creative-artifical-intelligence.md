@@ -335,7 +335,7 @@ Right now, it is unimaginable that China will change its way of using AI and the
 
 AI will be, most likely, part of our future life, our window to the world made of digital information.
 As I stated in my [love letter](https://bzoennchen.github.io/Pages/2021/06/08/Informatics-a-love-letter.html), informatics and AI can be an empowering disciplines.
-It can emancipate us.
+AI can emancipate us.
 But it can also lead to a total loss of agency.
 I believe we still have enough agency to steer the wheel in the right direction.
 In the progress of a possible democratization of AI, art could play a major role.
