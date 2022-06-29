@@ -314,8 +314,9 @@ Algorithms can decide what you see; they show you things you identify with to tr
 They can channel your unwanted opinions to a specific group of people, i.e., critics, who will reject your opinion.
 Over time this can lead to a loss of identity, i.e., alienation.
 The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
-Psychological tricks are well-known by marketing and advertisers.
+The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
 It started with *Edward Louis Bernays*, a nephew of *Freud* and a horrific misanthrope with grand ambitions.
+His story is worth studying.
 
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
