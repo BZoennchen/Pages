@@ -347,7 +347,7 @@ Maybe in art lies the possibility of profoundly engaging with technology;
 to reveal who is in charge for what reason;
 To ask: What is it for?
 How does it change our social, economic, political, and transcendental systems?
-Can the everyday people control it, and if so, how can we get there?
+Can everyday people control it, and if so, how can we get there?
 
 ## References
 
