@@ -312,7 +312,7 @@ And these AI algorithms serve the interest of big corporations and governments, 
 *Reinforcement learning* can easily be applied to human societies as a whole.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
 They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
-Over time this negative feedback can lead to a loss of identity, i.e., alienation, or it might create a profiled personhood.
+Over time, this negative feedback can lead to a loss of identity, i.e., alienation, or it might create a profiled personhood.
 The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
 The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
 It started with *[Edward Louis Bernays](https://en.wikipedia.org/wiki/Edward_Bernays)*, a nephew of *[Sigmund Freud](https://en.wikipedia.org/wiki/Sigmund_Freud)* and horrific misanthrope with grand ambitions.
