@@ -311,9 +311,11 @@ And these AI algorithms serve the interest of big corporations and governments, 
 
 *Reinforcement learning* can easily be applied to human societies as a whole.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
-They can show unwanted opinions to only a specific group of people, i.e., critics, to give you bad social feedback, i.e., punishment.
+They can channel your unwanted opinions to a specific group of people, i.e., critics, who will reject your opinion.
+Over time this can lead to a loss of identity, i.e., alienation.
+The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
 Psychological tricks are well-known by marketing and advertisers.
-They go back to the horrific story of *Edward Louis Bernays*, a nephew of *Freud*.
+It started with *Edward Louis Bernays*, a nephew of *Freud* and a horrific misanthrope with grand ambitions.
 
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
