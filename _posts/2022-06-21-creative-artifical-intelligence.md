@@ -309,15 +309,15 @@ And these AI algorithms serve the interest of big corporations and governments, 
 
 >We’re looking at a company that builds fine-grained psychological profiles of almost two billion humans, that serves as a primary news source for many of them, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it scares me. -- *Francois Chollet*
 
+The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
+It started with *[Edward Louis Bernays](https://en.wikipedia.org/wiki/Edward_Bernays)*, a nephew of *[Sigmund Freud](https://en.wikipedia.org/wiki/Sigmund_Freud)* and horrific misanthrope with grand ambitions.
+His story is worth studying.
+Today, accessibility guarantees constant exposure to this resonating noise.
 *Reinforcement learning* can easily be applied to human societies as a whole.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
 They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
 Constant rejection can lead to alienation and can gently force you into adaptations.
 The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
-The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
-It started with *[Edward Louis Bernays](https://en.wikipedia.org/wiki/Edward_Bernays)*, a nephew of *[Sigmund Freud](https://en.wikipedia.org/wiki/Sigmund_Freud)* and horrific misanthrope with grand ambitions.
-His story is worth studying.
-Today, accessibility guarantees constant exposure to this resonating noise.
 
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
