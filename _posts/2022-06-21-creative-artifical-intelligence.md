@@ -340,7 +340,7 @@ But it can also lead to a total loss of self-determination and agency.
 I believe we still have enough leftover to steer the wheel in the right direction.
 
 In the progress of a possible democratization of AI, art could play a major role.
-Art as an aesthetic counterpart to a kind of destructive advertisement can reveal its manipulative power.
+Art as an aesthetic counterpart to the kind of destructive advertisement polluting our thoughts, can reveal its manipulative power.
 Future artists might have to revolt against *the speed of disruption*.
 Artwork may be the product of technology, but **also** offers a window into it.
 Maybe in art lies the possibility of profoundly engaging with technology;
