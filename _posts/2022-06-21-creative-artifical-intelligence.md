@@ -313,7 +313,7 @@ The history of psychological tricks applied by marketing and advertisers was bor
 It started with *[Edward Louis Bernays](https://en.wikipedia.org/wiki/Edward_Bernays)*, a nephew of *[Sigmund Freud](https://en.wikipedia.org/wiki/Sigmund_Freud)* and horrific misanthrope with grand ambitions.
 His story is worth studying.
 Today, accessibility and *AI* guarantees constant exposure to this resonating and highly individualized noise.
-*Reinforcement learning* can easily be applied to human societies as a whole.
+*Reinforcement learning* can easily be applied to whole human societies.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
 They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
 Constant rejection can lead to alienation and can gently force you into adaptations.
