@@ -44,13 +44,13 @@ How could it, if one has to pay for its perception.
 In my opinion, without *artificial intelligence AI* there is no *artificial creatifity AC*.
 So let us talk about AI.
 
-In his paper *What is Artificial Intelligence?* {% cite mccarthy:1998 %} published in 2004, John McCarthy stated:
+In his paper *What is Artificial Intelligence?* {% cite mccarthy:1998 %} published in 2004, [*John McCarthy*](https://www.artificial-solutions.com/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence) stated:
 
 >[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
 
 In his definition, we do not find any explanation of what he actually means by *intelligence* which is unfortunate.
 *[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)*, the father of computer science, gave us at least some criteria at hand.
-He asks in his article *Computing Machinery and Intelligence* {% cite turing:1950 %} more than 50 years before McCarthy
+He asks in his article *Computing Machinery and Intelligence* {% cite turing:1950 %} more than 50 years before *McCarthy*
 
 >Can machines think?
 
@@ -65,7 +65,7 @@ Compared to a baby, a machine can **appear** to be much more intelligent, but a 
 Therefore, the *Turing test* does not help us to spot *natural intelligence*.
 It might even lead us on a path where we become experts in *faking/simulating intelligence* by wasting all our resources.
 
-Stuart Russell and Peter Norvig published their book *Artificial Intelligence: A Modern Approach* {% cite russel:2010 %} in 2010, which is one of the leading textbooks for the subject today.
+*Stuart Russell* and *Peter Norvig* published their book *Artificial Intelligence: A Modern Approach* {% cite russel:2010 %} in 2010, which is one of the leading textbooks for the subject today.
 They differentiate four different goals or definitions of AI:
 
 + human approach
