@@ -273,7 +273,7 @@ Even if we disagree on what art is, it is safe to say that these technological a
 
 Regardless of the technology, there was always some human intervention required to create art.
 Since machines can not make sense of our social, cultural, transcendental, and physical world, I highly doubt that this will change in the near future.
-Until we fail in creating *human intelligence*, there is no reason to believe that *artificial intelligence* can replace the human artist.
+As long as we fail in creating *human intelligence*, there is no reason to believe that *artificial intelligence* can replace the human artist.
 But why do we even want to create *human intelligence*?
 Why shall we copy ourselves?
 
