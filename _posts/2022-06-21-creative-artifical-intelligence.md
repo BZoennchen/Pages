@@ -318,7 +318,10 @@ They go back to the horrific story of *Edward Louis Bernays*, a nephew of *Freud
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
 We have regulations for fine particles, chemicals, and CO2 emissions.
-Now it is time to learn about the pollution of our minds. 
+Now it is time to learn about the pollution of our mind.
+
+>We have to learn about the pollution of our mind.
+
 We need transparency and control for the public and the customer.
 I want to be in charge of the objective function of *YouTube's* algorithms feeding me with suggestions.
 I want to decide on what bases I will be manipulated.
