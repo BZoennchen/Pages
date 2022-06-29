@@ -263,7 +263,7 @@ The network can turn images into stylistic imitations of works of art by artists
 In October 2018, the [Portrait of Edmond de Belamy](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx), an algorithm-generated print, was sold for $432 500.
 In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual space, and (3) transformed previously impossible ideas.
 
-## The Speed of Disruption
+## Disruptions and Control
 
 Humans have created and enjoyed all art forms for viewing, aesthetic, and even therapeutic purposes.
 We should not forget that technology has impacted how art is created and enjoyed for the last 100 years.
