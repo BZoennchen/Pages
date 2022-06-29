@@ -307,7 +307,7 @@ Brexit and other political disruptions already show a trend.
 When consumption and creation mainly happen in the digital world, we become vulnerable to that which rules it -- AI algorithms.
 And these AI algorithms serve the interest of big corporations and governments, i.e., aggregations of power.
 
->We’re looking at a company that builds fine-grained psychological profiles of almost two billion humans, that serves as a primary news source for many of them, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it scares me. [... But] [t]he issue is not AI itself. The issue is control.  -- *Francois Chollet*
+>We’re looking at a company that builds fine-grained psychological profiles of almost two billion humans, that serves as a primary news source for many of them, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it scares me. -- *Francois Chollet*
 
 *Reinforcement learning* can easily be applied to human societies as a whole.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
