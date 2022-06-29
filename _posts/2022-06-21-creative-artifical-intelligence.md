@@ -5,6 +5,8 @@ title:  "Creative Artificial Intelligence"
 
 ## Panel Discussion
 
+**Disclaimer:** The text contains my own personal, speculative opinions. You might disagree heavily and that's ok.
+
 On the 20th of Mai, I joined a penal to discuss the role of *artificial intelligence (AI)* in the *creative process*.
 It was held in the context of the Munich Creative Business Week by the Wavelet (University for Music and Theater) and the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/news_mucdai/details_news_mucdai_26944.de.html).
 Let me first summarize our discussion:
@@ -47,7 +49,7 @@ In his paper *What is Artificial Intelligence?* {% cite mccarthy:1998 %} publish
 >[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
 
 In his definition, we do not find any explanation of what he actually means by *intelligence* which is unfortunate.
-Alan Turing, the father of computer science, gave us at least some criteria at hand.
+*[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)*, the father of computer science, gave us at least some criteria at hand.
 He asks in his article *Computing Machinery and Intelligence* {% cite turing:1950 %} more than 50 years before McCarthy
 
 >Can machines think?
@@ -73,7 +75,7 @@ They differentiate four different goals or definitions of AI:
   + systems that think rationally
   + systems that act rationally
 
-Alan Turing's definition of AI would have fallen under the category of *systems that act like humans*.
+*Turing's* definition of AI would have fallen under the category of *systems that act like humans*.
 A comprehensive, thus useless definition would be the following:
 
 >Artificial intelligence is intelligence demonstrated by machines.
@@ -88,9 +90,9 @@ These definitions are somewhat fuzzy and vague because we do not know what intel
 We have an intuitive understanding of it (which might be an illision), but we can not express what it is linguistically.
 In its simplest form, artificial intelligence is **a field** (not a machine) that combines computer science, data science, machine learning, deep learning, robotics, neurosciences, and more **to enable problem-solving**.
 
-In his book *Birth of Intelligence* Daeyeol Lee writes:
+In his book *Birth of Intelligence* {% cite lee:2010 %} *[Daeyeol Lee](https://krieger.jhu.edu/mbi/directory/daeyeol-lee/)* writes:
 
->Intelligence can be defined as the ability to solve complex problems or make decisions with outcomes benefiting the actor and has evolved in lifeforms to adapt to diverse environments for their survival and reproduction. -- Daeyeol Lee
+>Intelligence can be defined as the ability to solve complex problems or make decisions with outcomes benefiting the actor and has evolved in lifeforms to adapt to diverse environments for their survival and reproduction. -- *Daeyeol Lee*
 
 Daeyeol Lee argues that a few essential principles emerge from an evolutionary perspective.
 For example, different lifeforms can have very different types of intelligence because they have other evolutionary roots and have adapted to different environments. 
@@ -142,20 +144,20 @@ The observers called it *weird gameplay*.
 
 These examples show that *artificial intelligence* can already create something novel that we identify as creative.
 Finding a new strategy in an RTS game is undoubtedly a creative process.
-The AI is perfectly able to simulate intelligence and creativity but has a fundamentally different quality than the living beings.
-As *Yuval Noah Harari* stresses: 
+The AI is perfectly able to simulate intelligence and creativity but has a fundamentally different quality than living beings.
+As *[Yuval Noah Harari](https://www.ynharari.com/de/)* stresses: 
 
->Even though we do not really understand intelligence and consciousness, artificial intelligence is perfectly able to hack humanity.
+>Even though we do not really understand intelligence and consciousness, artificial intelligence is perfectly able to hack humanity. -- *Yuval Noah Harari*
 
 ## Shortcomings of AI
 
-However, it also shows that *artificial intelligence* is still highly specialised in solving one specific task.
-There is still no fundamental difference between modern AI and a thermostat.
-Regardless how sophisticated an AI is, it can only solve a specific problem -- it can not transfer knowledge or any strategy to a new area.
-While public figures, such as *Elon Musk*, make horrific claims about AI to push their story to please and attrackt financiers, experts are aware of its shortcomings and the huge difference between human and artificial intelligence.
-*Francois Chollet*, the creator of Keras, stated:
+However, it also shows that *artificial intelligence* is still highly specialized in solving one specific task.
+I stand by the provocative claim that there is still no fundamental difference between modern AI and a thermostat.
+Regardless of how sophisticated an AI is, it can only solve a specific problem -- it can not transfer knowledge or any strategy to a new area.
+While public figures, such as *Elon Musk*, make horrific claims about AI to push their story to please and attract financiers, experts are aware of its shortcomings and the vast difference between human and artificial intelligence.
+*[Francois Chollet](https://fchollet.com/)*, the creator of *Keras*, stated:
 
->What makes human intelligence special is its adaptability; its power to generalize to never-seen-before situations -- Francois Chollet
+>What makes human intelligence special is its adaptability; its power to generalize to never-seen-before situations -- *Francois Chollet*
 
 *Chollet* argues that, it is misguided to measure machine intelligence solely according to its skills at specific tasks.
 Unlike most animals humans do not start out with skills.
@@ -164,12 +166,15 @@ A chess player can transfer his abilities to other areas.
 For example, in World War II, chess players joined the allied forces to decrypt military messages from Nazi Germany.
 Humans can solve tasks of similar difficulty which is a very different capability compared to what AI currently does.
 
-*Elizabeth Spelke* describes in her articles that even 3-month-olds appear puzzeled when someone grabs something in an inefficient way.
+*[Prof. Elizabeth Spelke](https://www.harvardlds.org/our-labs/spelke-labspelke-lab-members/elizabeth-spelke/)* describes in her articles that even 3-month-olds appear puzzeled when someone grabs something in an inefficient way.
+In {% cite liu:2017 %} she and [Shari Liu](https://cbmm.mit.edu/about/people/liu) argue that infants' expects others to minimize the cost of their action, e.g., using the shortest path to a location.
 Humans seem to be born with an innate ability to quickly learn certain things, such as what a smile means or what happens if you move some object.
+We also develop social behaviors early on without being exposed to a massive amount of experiencing it.
+In their article *Foundations of cooperation in young children* {% cite olson:2008 %}, Kristina R. Olson and *Elizabeth Spelke* found evidence that 3.5-year-old children share resources with people who have shared with them (reciprocity), and with people who have shared with others (inidirect reciprocity). 
 Even the most sophisticated artificial intelligence of our age can not grasp such concepts.
 A self-driving car can not predict from *common sense* what will happen if a tree falls down on the street; it can not translate knowledge to an unexperienced situation.
 
-*Josh Tenenbaum*, a professor in MIT's Center for Brains, Minds & Machines thinks that AI programs will need a basic understanding of physics and psychology in order to acquire and use knowledge as efficiently as a baby.
+*[Joshua Tenenbaum](https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/)*, a professor in MIT's Center for Brains, Minds & Machines thinks that AI programs will need a basic understanding of physics and psychology in order to acquire and use knowledge as efficiently as a baby.
 
 >At some point you know, if you're intelligent; you realize maybe there's something else out there -- Josh Tenenbaum
 
@@ -179,7 +184,7 @@ We still know very little about what we perceive.
 Call me crazy, but it might have nothing to do with reality, so how can we program a machine to perceive like we do if we have no clue what we actually perceive and how?
 
 But thre is even more.
-*Daeyeol Lee* argues that true intelligence (*lively intelligence*) should promote -- not interfere with -- the replication of the genes responsible for its creation.
+*[Daeyeol Lee](https://krieger.jhu.edu/mbi/directory/daeyeol-lee/)* argues that true intelligence (*lively intelligence*) should promote -- not interfere with -- the replication of the genes responsible for its creation.
 The will to reproduce and to self-preserve ones own being and species injects the world with *meaning*.
 Until then, machines will always only be surrogates of human intelligence, which unfortunately still leaves open the possibility of an abusive relation between people and artificial intelligence.
 **Replication** and **self-preservation** seems to be the one and only predefined rule at which living beings operate.
@@ -260,9 +265,6 @@ In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual spa
 
 ## The Speed of Disruption
 
-I want to close this text with a personal and a little speculative note.
-You might disagree heavily and that's ok.
-
 Humans have created and enjoyed all art forms for viewing, aesthetic, and even therapeutic purposes.
 We should not forget that technology has impacted how art is created and enjoyed for the last 100 years.
 The invention of *portable paint tubes*, for example, enabled artists to paint outdoors and sparked a contingent of stunning landscape and horizon paintings.
@@ -297,12 +299,46 @@ Solid structures get replaced by a liquid stream of information.
 We can no longer get too invested in something because it might be replaced the next day.
 Artists might be in trouble if this superficiality becomes a reality in the art world.
 
-The future artists might have to revolt against *the speed of disruption*.
+In the article *[What worries me about AI](https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704)*, *Francois Chollet* states his personal opinion about the real destructive potential of AI; he hits the mark.
+First, he convincingly argues that we are painfully bad at predicting future threads but can be easily driven towards illusive fears.
+For example, who could forecast that the transportation and manufacturing technologies we were developing would enable a new form of industrial warfare that would wipe out tens of millions in two Word Wars?
+According to Chollet, the danger is not the singularity of AI; it is not about automation and job replacement; aligned with *[Yuval Noah Harari](https://www.ynharari.com/de/)*, he states it is about hacking the human societies, and I must agree.
+Brexit and other political disruptions already show a trend.
+When consumption and creation mainly happen in the digital world, we become vulnerable to that which rules it -- AI algorithms.
+And these AI algorithms serve the interest of big corporations and governments, i.e., aggregations of power.
+
+>We’re looking at a company that builds fine-grained psychological profiles of almost two billion humans, that serves as a primary news source for many of them, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it scares me. [... But] [t]he issue is not AI itself. The issue is control.  -- *Francois Chollet*
+
+*Reinforcement learning* can easily be applied to human societies as a whole.
+Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
+They can show unwanted opinions to only a specific group of people, i.e., critics, to give you bad social feedback, i.e., punishment.
+Psychological tricks are well-known by marketing and advertisers.
+They go back to the horrific story of *Edward Louis Bernays*, a nephew of *Freud*.
+
+I think we have to educate ourselves not only about AI but how we can be manipulated by it.
+In the past, we learned about the influence of pollution on the quality of life.
+We have regulations for fine particles, chemicals, and CO2 emissions.
+Now it is time to learn about the pollution of our minds. 
+We need transparency and control for the public and the customer.
+I want to be in charge of the objective function of *YouTube's* algorithms feeding me with suggestions.
+I want to decide on what bases I will be manipulated.
+Paradoxically enough, AI can help us with these tasks.
+
+>The issue is not AI itself. The issue is control. -- *Francois Chollet*
+
+Of course, this would destroy most business models; thus, corporations will not implement these changes voluntarily.
+Governments are another beast.
+Right now, it is unimaginable that China will change its way of using AI and the Western governments are not innocent either. 
+
+In the progress of the democratization of AI, art could play a major role.
+Art as an aesthetic counterpart to a kind of destructive advertisement can reveal its manipulative power.
+Future artists might have to revolt against *the speed of disruption*.
 Artwork may be the product of technology, but **also** offers a window into it.
-Maybe in art lies the possibility of profoundly engaging with technology.
-To ask: What is it?
+Maybe in art lies the possibility of profoundly engaging with technology;
+to reveal who is in charge for what reason;
+To ask: What is it for?
 How does it change our social, economic, political, and transcendental systems?
-Can we control it, and if so, how?
+Can the everyday people control it, and if so, how can we get there?
 
 ## References
 
