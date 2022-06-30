@@ -316,9 +316,9 @@ Today, accessibility and *AI* guarantees constant exposure to this resonating an
 *Reinforcement learning* can easily be applied to whole human societies.
 Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
 They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
-Constant rejection can lead to alienation.
+Constant rejection can then lead to alienation.
 This combination of *identification* and *alienation* can gently force you into *adaptations*.
-The system punishes what it does not want to see; it *trains* you into the "correct" mindset.
+The system can potentially punish what it does not want to see; it can *trains* you into the "correct" mindset.
 
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
