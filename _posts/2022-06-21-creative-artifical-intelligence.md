@@ -302,7 +302,7 @@ Artists might be in trouble if this superficiality becomes a reality in the art 
 In the article *[What worries me about AI](https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704)*, *Francois Chollet* states his personal opinion about the real destructive potential of AI; he hits the mark.
 First, he convincingly argues that we are painfully bad at predicting future threads but we can be easily driven towards illusive fears.
 For example, who could forecast that the transportation and manufacturing technologies we were developing would enable a new form of industrial warfare that would wipe out tens of millions in two World Wars?
-According to Chollet, the danger is not the singularity of AI; it is not about automation and job replacement; aligned with *[Yuval Noah Harari](https://www.ynharari.com/de/)*, he states it is about hacking human societies, and I must agree.
+According to Chollet, the danger is not the singularity of AI; it is not about automation and job replacement; aligned with *[Yuval Noah Harari](https://www.ynharari.com/de/)*, he states it is about hacking human societies, and I have to agree.
 Brexit and other political disruptions already show a trend.
 When consumption and creation mainly happen in the digital world, we become vulnerable to that which rules it -- AI algorithms.
 And these AI algorithms serve the interest of big corporations and governments, i.e., aggregations of power.
