@@ -318,7 +318,7 @@ Algorithms can decide what you see; they show you things you identify with to tr
 They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
 Constant rejection can then lead to alienation.
 This combination of *identification* and *alienation* can gently force you into *adaptations*.
-The system can potentially punish what it does not want to see; it can *trains* you into the "correct" mindset.
+The system can potentially punish what it does not want to see; it can *train* you into the "correct" mindset.
 
 I think we have to educate ourselves not only about AI but how we can be manipulated by it.
 In the past, we learned about the influence of pollution on the quality of life.
