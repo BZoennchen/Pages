@@ -11,14 +11,14 @@ Hello! I'm Benedikt, an educational-tech software engineer for educational tools
 
 I graduated at the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) with a master's degree in computer science in 2016.
 
-Afterward, I continued my academic journey by joining the computer science PhD program in the field of pedestrian dynamics.
+Afterward, I continued my academic journey by joining the computer science Ph.D. program in the field of pedestrian dynamics.
 In my research, I was interested in realistic large-scale pedestrian simulation. 
 I analyzed different microscopic pedestrian simulation models and studied efficient parallel algorithms for pedestrian simulation.
 In particular, I discussed and analyzed navigation field computation in a large-scale setting. 
 The problem is strongly connected to solving the [eikonal equation](https://en.wikipedia.org/wiki/Eikonal_equation).
 Furthermore, I introduced parallelism to the so-called optimal steps models, an essential class of microscopic simulation models.
 Consequently, I was able to run large-scale simulations in real-time using the GPU.
-I did my PhD at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html).
+I did my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html).
 During that time, I worked as a software developer on the open-source framework for pedestrian simulation [Vadere](http:/www.vadere.org) at the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich.
 
 Today I am working as a software engineer at the [MUAS](https://www.cs.hm.edu/en/home/index.en.html).

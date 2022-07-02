@@ -3,7 +3,8 @@ layout: p5js-collection
 title: P5Collection
 permalink: /p5collection/
 ---
-# Algorithm Visualization
+
+# Selected Works
 
 The following collection of animations have neither a particular purpose nor any utility apart from my enjoyment.
 I created them by using the JavaScript Library [P5.js](https://p5js.org/).

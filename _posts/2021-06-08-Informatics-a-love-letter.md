@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Informatics - A Love Letter"
+tags: Opinion
 ---
 
->"The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural."<br> - Peter J. Denning {% cite denning:2005 %}
+>"The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural." -- Peter J. Denning {% cite denning:2005 %}
 
 For me personally, informatics is an empowering discipline - it is part of the emancipation of men. 
 Its engineering quality can directly enable our fragile and limited body and mind. 
@@ -43,7 +44,7 @@ They command machines of blind obedience.
 The degree of control translates to a form of power and self-determination absent in the physical world.
 As Linus Torvalds rightfully noted:
 
->"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale." - Linus Torvalds
+>"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale." -- Linus Torvalds
 
 In contrast to most other kinds of engineers, software developers can use a highly flexible and versatile resource.
 Information can be easily exchanged among peers, reshaped, conceptually described, and analyzed.
@@ -230,7 +231,7 @@ This notion dated back to 1948 and was defined by Claude E. Shannon in *A Mathem
 >"Frequently, the messages have meaning; that is, they refer to or are correlated according to some system with certain physical or conceptual entities.
 These semantic aspects of communication are irrelevant to the engineering problem.
 The significant aspect is that the actual message is one selected from a set of possible messages.
-The system has to be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design." <br>- Claude E. Shannon {% cite shannon:1948 %}
+The system has to be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design." -- Claude E. Shannon {% cite shannon:1948 %}
 
 In the humanities, researchers have a completely different understanding of information.
 They discuss cognition, representations, referencing, and interpretation in the context of information.
@@ -258,7 +259,7 @@ In fact, we have to reconsider the term *information*, at least in our disciplin
 For example, Ulrich states:
 >Where data are the raw facts of the world, information is then data 'with meaning'.
 When 'data' acquires context-dependent meaning and relevance, it becomes information. 
-Furthermore, we obviously expect information to represent valid knowledge on which users can rely for rational action. <br>- W. Ulrich {% cite ulrich:2001 %}
+Furthermore, we obviously expect information to represent valid knowledge on which users can rely for rational action. -- W. Ulrich {% cite ulrich:2001 %}
 
 But even this definition seems problematic.
 Is there even something like simple brute facts of the world?

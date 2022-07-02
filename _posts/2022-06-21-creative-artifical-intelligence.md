@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Creative Artificial Intelligence"
+tags: Opinion AI
 ---
 
 ## Panel Discussion
@@ -46,7 +47,7 @@ So let us talk about AI.
 
 In his paper *What is Artificial Intelligence?* {% cite mccarthy:1998 %} published in 2004, [*John McCarthy*](https://www.artificial-solutions.com/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence) stated:
 
->[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable.
+>[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable. -- *John McCarthy*
 
 In his definition, we do not find any explanation of what he actually means by *intelligence* which is unfortunate.
 *[Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)*, the father of computer science, gave us at least some criteria at hand.
@@ -170,13 +171,13 @@ Humans can solve tasks of similar difficulty which is a very different capabilit
 In {% cite liu:2017 %} she and [Shari Liu](https://cbmm.mit.edu/about/people/liu) argue that infants' expects others to minimize the cost of their action, e.g., using the shortest path to a location.
 Humans seem to be born with an innate ability to quickly learn certain things, such as what a smile means or what happens if you move some object.
 We also develop social behaviors early on without being exposed to a massive amount of experiencing it.
-In their article *Foundations of cooperation in young children* {% cite olson:2008 %}, Kristina R. Olson and *Elizabeth Spelke* found evidence that 3.5-year-old children share resources with people who have shared with them (reciprocity), and with people who have shared with others (inidirect reciprocity). 
+In their article *Foundations of cooperation in young children* {% cite olson:2008 %}, *Kristina R. Olson* and *Elizabeth Spelke* found evidence that 3.5-year-old children share resources with people who have shared with them (reciprocity), and with people who have shared with others (inidirect reciprocity). 
 Even the most sophisticated artificial intelligence of our age can not grasp such concepts.
 A self-driving car can not predict from *common sense* what will happen if a tree falls down on the street; it can not translate knowledge to an unexperienced situation.
 
 *[Joshua Tenenbaum](https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/)*, a professor in MIT's Center for Brains, Minds & Machines thinks that AI programs will need a basic understanding of physics and psychology in order to acquire and use knowledge as efficiently as a baby.
 
->At some point you know, if you're intelligent; you realize maybe there's something else out there -- Josh Tenenbaum
+>At some point you know, if you're intelligent; you realize maybe there's something else out there. -- Joshua Tenenbaum
 
 This might be a problem because, as we know, quantum theory and relativity theory, i.e., the physics of the small and big, do not work together, and Gödel's incompleteness theorem hints at the depressing reality that there might never be a theory of everything.
 Another problem is cognition.

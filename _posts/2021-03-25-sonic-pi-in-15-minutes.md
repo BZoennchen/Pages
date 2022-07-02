@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Live Performance with Sonic Pi"
+title: "Live Performance with Sonic Pi"
+tags: Music Sonic-Pi
 ---
 
 In the past I did a 15 minute introduction for [Sonic Pi](https://sonic-pi.net/) for students at my University.

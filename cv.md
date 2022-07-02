@@ -47,51 +47,51 @@ Software Developer (Education)<br>
 **2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
 Bonding in Times of Pandemia -- A Concept for Purely Virtual Kick-off Days to the Student Entry Phase.<br>
 In *Mobility for Smart Cities and Regional Development -- Challenges for Higher Education*,<br>
-[DOI: 10.1007/978-3-030-93904-5_19](https://doi.org/10.1007/978-3-030-93904-5_19)<br>
+DOI: [10.1007/978-3-030-93904-5_19](https://doi.org/10.1007/978-3-030-93904-5_19).<br>
 
 **2021** | **Benedikt Zönnchen (Ph. D. Thesis)**<br>
 Efficient parallel algorithms for large-scale pedestrian simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard)).<br>
 *Technical University of Munich*,<br>
-[URN: urn:nbn:de:bvb:91-diss-20210521-1593965-1-9](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20210521-1593965-1-9)<br>
+URN: [urn:nbn:de:bvb:91-diss-20210521-1593965-1-9](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20210521-1593965-1-9).<br>
 
 **2020** | **Benedikt Zönnchen** and Gerta Köster,<br>
 GPGPU Computing for Microscopic Pedestrian Simulation.<br>
 In *Parallel Computing: Technology Trends*,<br>
-[DOI: 10.3233/APC200029](https://doi.org/10.3233/APC200029)
+DOI: [10.3233/APC200029](https://doi.org/10.3233/APC200029).
 
 **2020** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster,<br>
-Vadere -- A Simulation Framework to Compare Locomotion Models,<br>
+Vadere -- A Simulation Framework to Compare Locomotion Models.<br>
 In *Traffic and Granular Flow 2019*<br>
-[DOI: 10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41)
+DOI: [10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41).
 
 **2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster,<br>
-Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding,<br>
+Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding.<br>
 In *Collective Dynamics*, <br>
-[DOI: 10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21)
+DOI: [10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21).
 
 **2019** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster,<br>
-Towards Faster Navigation Algorithms on Floor Fields,<br>
+Towards Faster Navigation Algorithms on Floor Fields.<br>
 In *Traffic and Granular Flow '17*,<br>
-[DOI: 10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34)
+DOI: [10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34).
 
 **2018** | **Benedikt Zönnchen** and Gerta Köster,<br>
-A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation,<br>
+A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation.<br>
 In *Journal of Computational Science*,<br>
-[DOI: 10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009)
+DOI: [10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009).
 
 **2016** | Gerta Köster and **Benedikt Zönnchen**,<br>
-A Queuing Model Based On Social Attitudes<br>
+A Queuing Model Based On Social Attitudes.<br>
 In *Traffic and Granular Flow '15*,<br>
-[DOI: 10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25)
+DOI: [10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25).
 
 **2016** | **Benedikt Zönnchen** and Gerta Köster,<br>
 Detecting Arbitrarily Shaped Queues Using the Fast Marching Method,<br>
 *8th International Conference on Pedestrian and Evacuation Dynamics*
 
 **2014** | Gerta Köster and **Benedikt Zönnchen**,<br>
-Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation,<br>
+Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation.<br>
 In *Transportation Research Procedia*,<br>
-[DOI: 10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029)
+DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
 ## Teaching
 
@@ -119,7 +119,7 @@ In *Transportation Research Procedia*,<br>
 ## Fields of Interests
 + Free and Open Education in the Digital Era
 + Modelling and Simulation
-+ Mesh Generation and its Application
++ Mesh Generation and its Applications
 + Design of Efficient and Parallel Algorithms
 + Theoretical Computer Science, Automata Theory
 + Algorithmic Art (Processing, P5js, SuperCollider, Sonic Pi)
