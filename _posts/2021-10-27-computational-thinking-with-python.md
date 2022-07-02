@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Interactive Textbook to Learn Computational Thinking"
+title:  "Interactive Computational Thinking"
 tags: Education
 ---
 
