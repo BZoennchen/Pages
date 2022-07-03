@@ -184,7 +184,7 @@ Another problem is cognition.
 We still know very little about what we perceive.
 Call me crazy, but it might have nothing to do with reality, so how can we program a machine to perceive like we do if we have no clue what we actually perceive and how?
 
-But thre is even more.
+But there is even more.
 *[Daeyeol Lee](https://krieger.jhu.edu/mbi/directory/daeyeol-lee/)* argues that true intelligence (*lively intelligence*) should promote -- not interfere with -- the replication of the genes responsible for its creation.
 The will to reproduce and to self-preserve ones own being and species injects the world with *meaning*.
 Until then, machines will always only be surrogates of human intelligence, which unfortunately still leaves open the possibility of an abusive relation between people and artificial intelligence.
