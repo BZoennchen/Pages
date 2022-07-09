@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Realising Musical Expectation"
+title:  "Probabilistic Melody Modelling"
 tags: Music Sonic-Pi AI 
 ---
 
