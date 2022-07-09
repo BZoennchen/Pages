@@ -1,4 +1,311 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-07-03T21:16:22+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Creative Artificial Intelligence</title><link href="/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="/Pages/2022/06/21/creative-artifical-intelligence.html"><![CDATA[<h2 id="panel-discussion">Panel Discussion</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-07-09T18:15:02+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Realising Musical Expectation</title><link href="/Pages/2022/07/09/markov-chains-for-music-generation.html" rel="alternate" type="text/html" title="Realising Musical Expectation" /><published>2022-07-09T00:00:00+02:00</published><updated>2022-07-09T00:00:00+02:00</updated><id>/Pages/2022/07/09/markov-chains-for-music-generation</id><content type="html" xml:base="/Pages/2022/07/09/markov-chains-for-music-generation.html"><![CDATA[<p>One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.
+But what makes a good melody?
+Or, in a more <em>generative</em> sense:</p>
+
+<blockquote>
+  <p>How can we generate a beautiful melody algorithmically?</p>
+</blockquote>
+
+<p>Because a melody can be seen as a series of numbers, it is not surprising that this question is a rather old one.
+Long before the digital computer, composers tried to constrain themselves by strategies and rules to limit the space of possibilities.
+In my opinion, limitations are necessary for a creative process.</p>
+
+<blockquote>
+  <p>If we can create everything, we become unable to express anything.</p>
+</blockquote>
+
+<p>Therefore, it makes sense to invent rules that limit our possibilities.</p>
+
+<h2 id="surprise-repetition-and-expectation">Surprise, Repetition and Expectation</h2>
+
+<p>One general consensus is that a good melody balances repetition and surprise.
+If we can no longer recognize a structure and cannot guess what might be the following note or chord, a melody begins to lose its ability to transport emotion; it can no longer tell a story.
+On the other hand, if the melody is too repetitive, we get bored because the <em>guessing game</em> is too simple.</p>
+
+<p>Computer scientists know the relation between surprise and repetition very well.
+We call it <em>entropy</em>.
+I will discuss the formal definition of <em>entropy</em> in another article.
+For now, it is only vital that entropy is a measure of surprise in a message we receive (on a purely syntactical level).
+For example, the result <em>heads</em> of a coin toss of a fair coin is less surprising than the result <em>heads</em> of a coin that is biassed towards <em>tails</em>.
+If an event is unlikely, its appearance is surprising.</p>
+
+<p>Concerning the coin toss example, a message consists of multiple coin toss results.
+Let’s say 0 represents <em>heads</em>, and 1 represents <em>tails</em>, then 010111 is a message.
+The <em>entropy of a message</em> is a measure of how surprising it is to appear in a system that generates messages.
+To compute the <em>entropy of a system</em> that generates messages of length \(n\), we sum up all surprises of each possible message of length \(n\) and divide the result by \(n\).
+For example, for an unbiased coin, the messages 00, 01, 10, and 11 appear with equal probability, i.e., \(1/4\).
+The entropy is</p>
+
+<p>\begin{equation}
+\frac{-1/4 \cdot \log_2(1/4) \cdot 4}{4} = 1.
+\end{equation}</p>
+
+<p>Let us compare this with a biased coin.
+So let us assume <em>heads</em> has probability \(0.2\) and <em>tails</em> has probability \(0.8\), then we have 00 with probability \(0.2^2 = 0.04\), 01 and 10 with probability \(0.2 \cdot 0.8 = 0.16\) and 11 with probability \(0.8^2 = 0.64\).
+Consequently, we get</p>
+
+<p>\begin{equation}
+\frac{-0.04 \cdot \log_2(0.04) -2 \cdot 0.16 \cdot \log_2(0.16) -0.64 \cdot \log_2(0.64)}{4} \approx 0.361.
+\end{equation}</p>
+
+<p>One could say the second system is less surprising to observers;
+it is more repetitive.
+In <em>information theory</em> we say the second system generates less information, but the term <em>information</em> can be misleading because it has nothing to do with <em>meaning</em>.
+From this perspective, a bunch of random numbers is regarded as more informative than a book.</p>
+
+<p>In 1948 Claude E. Shannon established <em>A mathematical theory of information</em> <a class="citation" href="#shannon:1948">(Shannon, 1948)</a>.
+He established the term <em>entropy</em> as a measurement of information, but he emphasized its limitation to syntax:</p>
+
+<blockquote>
+  <p>Frequently, the messages have meaning; that is, they refer to or are correlated according to some system with certain physical or conceptual entities. These semantic aspects of communication are irrelevant to the engineering problem. The significant aspect is that the actual message is one selected from a set of possible messages. The system must be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design. – Claude E. Shannon</p>
+</blockquote>
+
+<p>Even though there is no direct relation between <em>entropy / information</em> and <em>meaning</em>, we can look at extreme cases.
+If the entropy is very high (chaos) or very low (no information), a message will likely be meaningless to us, even subjectively.
+If we interpret a series of notes as a musical message, this statement is true in a musical context.
+We can apply the frequentist perspective, i.e., interpret frequencies as probabilities.
+We could generate melodies randomly and pick those within a predefined <em>entropy range</em> to achieve a balance between surprise and repetition.</p>
+
+<p>However, a far better measurement, with regards to music, is <em>expectation</em> in the time domain.
+Music indicates no concepts or objects but more music that is about to happen.
+Good music has to <em>make sense</em>.
+It can disrupt our model of the world but not too much, such that we can adapt our model.
+I refer to our <em>model of the world</em> as <em>interpretation</em>; we are all <em>interpreters</em> of our perceptions.
+In that sense, actively listening to music is a process of constant <em>model adaptation</em>; the interpretation changes if something can not be interpreted.</p>
+
+<p>Maybe that is, in fact, the key to the definition of <em>meaning</em> in general.
+Some observation is meaningful if it makes sense, and it can only make sense if we are able to adapt our <em>interpretation</em> in such a way that our observation fits in.
+This adaptation disrupts us; 
+it changes our predictions.
+If it is marginal, we avoid losing ourselves because most predictions are still valid.
+But if the disruption attacks the very essence of our constructed self, we can no longer make sense of it.</p>
+
+<blockquote>
+  <p>Embodied musical meaning is […] a <em>product of expectation</em> – Leonard Meyer (1959)</p>
+</blockquote>
+
+<p>Musical cognition implies the simultaneous recognition of a permanent and changeable element <a class="citation" href="#loy:2006">(Loy, 2006)</a>; it requires perception and memory.
+We have to perceive and compare pitches at the same time.
+The expectation is realized for different scales but has to be local and context-sensitive within the computation.
+Therefore, it is not only the distribution of notes (or rhythmic elements) within a composition but the distribution of their relation, i.e., their <em>conditional probability distribution</em>.</p>
+
+<h2 id="from-serialism-to-probabilty">From Serialism to Probabilty</h2>
+
+<p>One way to generate melodies is to use the mathematical branch of combinatorics.
+The idea is simple: define a bunch of chords or notes that fit together and use permutation, rotation, and other combinatoric tricks to combine them.
+This kind of composition method belongs to <em>serialism</em>.
+However, the problem with this approach is that each note appears with equal probability; it neglects the importance of distributions and context.
+Consequently, the <em>melody’s entropy</em> is high.</p>
+
+<p>In the 20th century, this approach was criticized by, for example, <em>Iannis Xenakis</em>.</p>
+
+<blockquote>
+  <p>Linear polyphony destroys itself by its very complexity; what one hears is, in reality, nothing but a mass of notes in various registers. The enormous complexity prevents the audience from following the intertwining of the lines and has as its macroscopic effect an irrational and fortuitous dispersion of sounds over the whole extent of the sonic spectrum. There is consequently a contradiction between polyphonic linear systems and the heard result, which is surface or mass. – <em>Iannis Xenakis</em> (1955)</p>
+</blockquote>
+
+<p>He and his fellow critics pointed at the lack of orientation.
+They argued that generating melodies by a series of notes that can appear equally likely, results in a sound without structure, thus a disengaged audience.</p>
+
+<p>Influenced by the development in quantum physics at that time (1971) and the isomorphism between the <em>Fourier series</em> and <em>quantum analysis of sound</em>, <em>Xenakis</em> believed that the listener experiences only the statistical aspects of serial music.
+Consequently, he reasoned that composers should switch from serial techniques to probability. 
+And as a logical step, he drew his attention to the computer.</p>
+
+<blockquote>
+  <p>With the aid of electronic computers, the composer becomes a sort of pilot: he presses the buttons, introduces coordinates, and supervises the controls of a cosmic vessel sailing in the space of sound across sonic constellations and galaxies that he could formerly glimpse only as a distant dream. – <em>Iannis Xenakis</em> (1971)</p>
+</blockquote>
+
+<h2 id="markov-chains">Markov Chains</h2>
+
+<p>Let us now dive into a first attempt to generate melodies that incorporates probability and, as a consequence, expectation.
+The mathematical tool is called <em>Markov chain</em>.</p>
+
+<p>A <em>first-order Markov chain</em> is a deterministic finite automaton where for each state transition, we assign a probability such that the sum of probability of all exiting transitions of each state sum up to 1.0.
+In other words, a <em>first-order Markov chain</em> is a directed graph where each node represents a state.
+We start with an initial node and traverse the graph probabilistically to generate an output.</p>
+
+<p>In the following figure, you can see a <em>first-order Markov chain</em>.
+One starts in the state <code class="language-plaintext highlighter-rouge">A</code> and transits to <code class="language-plaintext highlighter-rouge">B</code> with a probability of 0.2 or <code class="language-plaintext highlighter-rouge">C</code> with a probability of 0.8.
+<code class="language-plaintext highlighter-rouge">D</code> is a final state.
+A possible series of states would be: <code class="language-plaintext highlighter-rouge">ABCCACD</code></p>
+
+<div><img style="height:300px;float:right" src="/Pages/assets/images/markov-chain-ex1.png" alt="Markov Chain Example" /></div>
+
+<p>Given state <code class="language-plaintext highlighter-rouge">A</code>, the probability of moving to state <code class="language-plaintext highlighter-rouge">B</code> is equal to 0.2.
+In other words</p>
+
+<p>\begin{equation}
+P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
+\end{equation}</p>
+
+<p>A <em>first-order Markov chain</em> only considers <strong>one</strong> predecessor, i.e., only the most local part of the context.
+A <em>\(n\)-order Markov chain</em> does consider \(n\) predecessors. In general, we define</p>
+
+<p>\begin{equation}
+P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
+\end{equation}</p>
+
+<p>The visualization of such a chain is a little bit more complicated.</p>
+
+<h2 id="music-generation">Music Generation</h2>
+
+<p>We can generate a composition by traversing the graph if we represent our notes by states of a <em>Markov chain</em>.
+If we increase the order of the chein, i.e. \(n\), the entropy decreases for small \(n\).</p>
+
+<p>Until now, I only tried to use and generate a <em>first-order Markov chain</em>.
+Even though I am not that familiar with <code class="language-plaintext highlighter-rouge">Ruby</code>, I used <a href="https://sonic-pi.net/">Sonic Pi</a> for this task such that I can play around with it directly within the IDE of Sonic Pi.
+I decided to define a note as a tuple (list) consisting of the pitch and the length of the note.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">:c4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span> <span class="c1"># a c of length 1/8 beat </span>
+</code></pre></div></div>
+
+<p>Instead of a graph, I use a transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
+
+<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> \(P\), the <code class="language-plaintext highlighter-rouge">states</code> \(Q\) and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_mmelody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">states</span><span class="o">|</span>
+  <span class="c1">#</span>
+  <span class="c1"># Generates a random melody of length n based on a transition matrix</span>
+  <span class="c1"># and an initial statenumber (start).</span>
+  <span class="c1">#</span>
+  <span class="n">notes</span> <span class="o">=</span> <span class="p">[</span><span class="n">states</span><span class="p">[</span><span class="n">start</span><span class="p">]]</span>
+  <span class="n">from</span> <span class="o">=</span> <span class="n">start</span>
+  <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">).</span><span class="nf">times</span> <span class="k">do</span>
+    <span class="nb">p</span> <span class="o">=</span> <span class="n">rrand</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">to_row</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">]</span>
+    <span class="n">to</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">sum</span> <span class="o">&lt;</span> <span class="nb">p</span>
+      <span class="n">sum</span> <span class="o">+=</span> <span class="n">to_row</span><span class="p">[</span><span class="n">to</span><span class="p">]</span>
+      <span class="n">to</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">end</span>
+    <span class="n">notes</span> <span class="o">+=</span> <span class="p">[</span><span class="n">states</span><span class="p">[</span><span class="n">to</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
+    <span class="n">from</span> <span class="o">=</span> <span class="n">to</span><span class="o">-</span><span class="mi">1</span>
+  <span class="k">end</span>
+  <span class="k">return</span> <span class="n">notes</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>For each note, we roll the dice.
+Let’s say \(p \in [0;1]\) is our result.
+And \(q_i\) is our current state.
+Then we compute \(j\) such that</p>
+
+<p>\begin{equation}
+\sum\limits_{k=1}^{j-1} &lt; p \leq \sum\limits_{k=1}^{j}.
+\end{equation}</p>
+
+<p>Note that the code is not optimized in any way.</p>
+
+<h2 id="learning-a-markov-chain">Learning a Markov Chain</h2>
+
+<p>Instead of generating a melody or rhythm given a <em>Markov chain</em>, we can do the reverse.
+Given a melody, we can <em>learn</em> the <em>Markov chain</em> that <strong>most likely</strong> would generate the given melody.
+By doing so, we can then use the <em>learned chain</em> to generate music in a similar style.</p>
+
+<p>Let us use the same transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
+
+<p>Furthermore, let us define our set of all possible melodies \(M \subseteq Q^n\) of length \(n\).
+Then a specific melody \(\mathbf{m} = (m_1, \ldots, m_n) \in M\) is tuple (list) of notes:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">notes</span> <span class="o">=</span> <span class="p">[[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:a4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="o">...</span> <span class="p">]</span>
+</code></pre></div></div>
+
+<p>We can compute the most likely \(Q\) by computing each entry of it where \(q_{ij}\) is equal to</p>
+
+<p>\begin{equation}
+q_{ij} = \frac{n_{ij}}{n_i}
+\end{equation}</p>
+
+<p>where \(n_{ij}\) is the number of transitions from \(q_i\) to \(q_j\) within \(\mathbf{m}\) and \(n_i\) is the number of transition starting at \(q_i\).</p>
+
+<p>Given \(Q\) <code class="language-plaintext highlighter-rouge">states</code> and \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code> the following function computes \(P\) <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_markov_matrix</span> <span class="k">do</span> <span class="o">|</span><span class="n">states</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
+  <span class="c1">#</span>
+  <span class="c1"># Generates the transition matrix based on the set of notes (states)</span>
+  <span class="c1"># and a given piece of music (notes).</span>
+  <span class="c1">#</span>
+  <span class="n">matrix</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  
+  <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="k">end</span>
+  
+  <span class="c1"># (1) count transitions</span>
+  <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">notes</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">from</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+      <span class="k">for</span> <span class="n">to</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">notes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">states</span><span class="p">[</span><span class="n">from</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">notes</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">states</span><span class="p">[</span><span class="n">to</span><span class="p">]</span>
+          <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">][</span><span class="n">to</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">1.0</span>
+        <span class="k">end</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+  <span class="c1"># (2) normalize</span>
+  <span class="k">for</span> <span class="n">from</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">].</span><span class="nf">sum</span>
+    <span class="k">for</span> <span class="n">to</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+      <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">][</span><span class="n">to</span><span class="p">]</span> <span class="o">/=</span> <span class="n">s</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+  <span class="n">print_matrix</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">states</span>
+  <span class="k">return</span> <span class="n">matrix</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Of course, we can easily compute \(Q\) <code class="language-plaintext highlighter-rouge">states</code> from \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code>.
+Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> \(P\) based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:markov_melody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
+  <span class="n">states</span> <span class="o">=</span> <span class="n">notes</span><span class="p">.</span><span class="nf">uniq</span>
+  <span class="n">matrix</span> <span class="o">=</span> <span class="n">gen_markov_matrix</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">ring</span><span class="p">,</span> <span class="n">notes</span><span class="p">.</span><span class="nf">ring</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">gen_mmelody</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">rand_i</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">states</span><span class="p">)</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<h2 id="example">Example</h2>
+
+<p>I use the beginning of Bach’s Minuet in G.</p>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/bach-ex1.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<p>I generate two melodies (by using a different seed) consisting of 34 notes:</p>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/markov-bach-ex1.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/markov-bach-ex2.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<p>Of course, this sound is not that musical.
+The rhythm is all over the place, but we recognize the original composition.
+Furthermore, no one said we have to stop there.
+We can continue to generate until we find something that sticks.
+Furthermore, this example is straightforward because I only use the beginning of <strong>one</strong> piece.
+Instead, we could use multiple compositions that fit together.</p>
+
+<h2 id="code">Code</h2>
+
+<p>This project was part of our workshop <em><a href="/Pages/2022/06/21/creative-artifical-intelligence.html">AI and Creativity</a></em> to show a basic example of using <em>artificial intelligence</em> to generate music.</p>
+
+<p>You can find the full example containing two different melodies on my <a href="https://github.com/BZoennchen/workshop-creative-ai">GitHub page</a>.
+The code include some additional functions, e.g., a function that prints out the <em>Markov matrix</em> in a readable format.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="shannon:1948">Shannon, C. E. (1948). A Mathematical Theory of Communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
+<li><span id="loy:2006">Loy, G. (2006). <i>Musimathics: the mathematical foundations of music</i> (Vol. 1). MIT Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="Sonic-Pi" /><category term="AI" /><summary type="html"><![CDATA[One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody. But what makes a good melody? Or, in a more generative sense:]]></summary></entry><entry><title type="html">Creative Artificial Intelligence</title><link href="/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="/Pages/2022/06/21/creative-artifical-intelligence.html"><![CDATA[<h2 id="panel-discussion">Panel Discussion</h2>
 
 <p><strong>Disclaimer:</strong> This text contains my own personal, speculative opinions. You might disagree heavily and that’s ok.</p>
 
