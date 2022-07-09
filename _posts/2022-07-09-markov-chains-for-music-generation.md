@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markov Chains for Music Generation"
+title:  "Realising Musical Expectation"
 tags: Music Sonic-Pi AI 
 ---
 
@@ -34,7 +34,7 @@ If an event is unlikely, its appearance is surprising.
 Concerning the coin toss example, a message consists of multiple coin toss results.
 Let's say 0 represents *heads*, and 1 represents *tails*, then 010111 is a message.
 The *entropy of a message* is a measure of how surprising it is to appear in a system that generates messages.
-To compute the *entropy of a system* that generates messages of length $$n$$, we sum up all surprises of each possible message of length $$n$$ and divide the term $$n$$.
+To compute the *entropy of a system* that generates messages of length $$n$$, we sum up all surprises of each possible message of length $$n$$ and divide the result by $$n$$.
 For example, for an unbiased coin, the messages 00, 01, 10, and 11 appear with equal probability, i.e., $$1/4$$.
 The entropy is
 
@@ -51,7 +51,7 @@ Consequently, we get
 \end{equation}
 
 One could say the second system is less surprising to observers;
-it is less repetitive.
+it is more repetitive.
 In *information theory* we say the second system generates less information, but the term *information* can be misleading because it has nothing to do with *meaning*.
 From this perspective, a bunch of random numbers is regarded as more informative than a book.
 
@@ -60,14 +60,25 @@ He established the term *entropy* as a measurement of information, but he emphas
 
 >Frequently, the messages have meaning; that is, they refer to or are correlated according to some system with certain physical or conceptual entities. These semantic aspects of communication are irrelevant to the engineering problem. The significant aspect is that the actual message is one selected from a set of possible messages. The system must be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design. – Claude E. Shannon
 
-Even though there is no direct relation between *entropy/information* and *meaning*, we can look at extreme cases.
+Even though there is no direct relation between *entropy / information* and *meaning*, we can look at extreme cases.
 If the entropy is very high (chaos) or very low (no information), a message will likely be meaningless to us, even subjectively.
 If we interpret a series of notes as a musical message, this statement is true in a musical context.
-We can use a frequentist, i.e., interpret frequencies as probabilities.
+We can apply the frequentist perspective, i.e., interpret frequencies as probabilities.
 We could generate melodies randomly and pick those within a predefined *entropy range* to achieve a balance between surprise and repetition.
 
 However, a far better measurement, with regards to music, is *expectation* in the time domain.
 Music indicates no concepts or objects but more music that is about to happen.
+Good music has to *make sense*.
+It can disrupt our model of the world but not too much, such that we can adapt our model.
+I refer to our *model of the world* as *interpretation*; we are all *interpreters* of our perceptions.
+In that sense, actively listening to music is a process of constant *model adaptation*; the interpretation changes if something can not be interpreted.
+
+Maybe that is, in fact, the key to the definition of *meaning* in general.
+Some observation is meaningful if it makes sense, and it can only make sense if we are able to adapt our *interpretation* in such a way that our observation fits in.
+This adaptation disrupts us; 
+it changes our predictions.
+If it is marginal, we avoid losing ourselves because most predictions are still valid.
+But if the disruption attacks the very essence of our constructed self, we can no longer make sense of it.
 
 >Embodied musical meaning is [...] a *product of expectation* -- Leonard Meyer (1959)
 
@@ -99,6 +110,9 @@ And as a logical step, he drew his attention to the computer.
 
 ## Markov Chains
 
+Let us now dive into a first attempt to generate melodies that incorporates probability and, as a consequence, expectation.
+The mathematical tool is called *Markov chain*.
+
 A *first-order Markov chain* is a deterministic finite automaton where for each state transition, we assign a probability such that the sum of probability of all exiting transitions of each state sum up to 1.0.
 In other words, a *first-order Markov chain* is a directed graph where each node represents a state.
 We start with an initial node and traverse the graph probabilistically to generate an output.
@@ -108,7 +122,7 @@ One starts in the state ``A`` and transits to ``B`` with a probability of 0.2 or
 ``D`` is a final state.
 A possible series of states would be: ``ABCCACD``
 
-<div><img style="height:300px;" src="{% link /assets/images/markov-chain-ex1.png %}" alt="Markov Chain Example"></div>
+<div><img style="height:300px;float:right" src="{% link /assets/images/markov-chain-ex1.png %}" alt="Markov Chain Example"></div>
 
 Given state ``A``, the probability of moving to state ``B`` is equal to 0.2.
 In other words
@@ -117,7 +131,7 @@ In other words
 P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
 \end{equation}
 
-A *first-order Markov chain* only considers the **one** predecessor, i.e., only the most local part of the context.
+A *first-order Markov chain* only considers **one** predecessor, i.e., only the most local part of the context.
 A *$$n$$-order Markov chain* does consider $$n$$ predecessors. In general, we define 
 
 \begin{equation}
@@ -129,10 +143,10 @@ The visualization of such a chain is a little bit more complicated.
 ## Music Generation
 
 We can generate a composition by traversing the graph if we represent our notes by states of a *Markov chain*.
-If we increase $$n$$ the entropy decreases for small $$n$$.
+If we increase the order of the chein, i.e. $$n$$, the entropy decreases for small $$n$$.
 
 Until now, I only tried to use and generate a *first-order Markov chain*.
-Even though I am not that familiar with ``Ruby``, I used [Sonic Pi](https://sonic-pi.net/) for this task such that I could play around with it directly within the IDE.
+Even though I am not that familiar with ``Ruby``, I used [Sonic Pi](https://sonic-pi.net/) for this task such that I can play around with it directly within the IDE of Sonic Pi.
 I decided to define a note as a tuple (list) consisting of the pitch and the length of the note.
 
 ```ruby
@@ -144,16 +158,6 @@ Let $$Q = \{q_1, \ldots, q_m\}$$ be the set of states/notes.
 The entry of row $$i$$ and column $$j$$, i.e., $$p_{ij}$$ is the probability of going from state $$q_i$$ to state $$q_j$$.
 
 After constructing the ``matrix`` $$P$$, the ``states`` $$Q$$ and picking a ``start`` (state number), the following function generates a random melody of length ``n``.
-For each note, we roll the dice.
-Let's say $$p \in [0;1]$$ is our result.
-And $$q_i$$ is our current state.
-Then we compute $$j$$ such that
-
-\begin{equation}
-\sum\limits_{k=1}^{j-1} < p \leq \sum\limits_{k=1}^{j}.
-\end{equation}
-
-Note that the code is not optimized in any way.
 
 ```ruby
 define :gen_mmelody do |n, matrix, start, states|
@@ -179,9 +183,20 @@ define :gen_mmelody do |n, matrix, start, states|
 end
 ```
 
+For each note, we roll the dice.
+Let's say $$p \in [0;1]$$ is our result.
+And $$q_i$$ is our current state.
+Then we compute $$j$$ such that
+
+\begin{equation}
+\sum\limits_{k=1}^{j-1} < p \leq \sum\limits_{k=1}^{j}.
+\end{equation}
+
+Note that the code is not optimized in any way.
+
 ## Learning a Markov Chain
 
-Instead of generating a melody or rhythm given a *Markov chain*, we do the reverse.
+Instead of generating a melody or rhythm given a *Markov chain*, we can do the reverse.
 Given a melody, we can *learn* the *Markov chain* that **most likely** would generate the given melody.
 By doing so, we can then use the *learned chain* to generate music in a similar style.
 
@@ -250,6 +265,34 @@ define :markov_melody do |n, notes|
   return gen_mmelody(n, matrix, rand_i(states.length-1), states)
 end
 ```
+
+## Example
+
+I use the beginning of Bach's Minuet in G.
+
+<audio controls>
+  <source src="{% link /assets/audio/bach-ex1.mp3 %}" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+I generate two melodies (by using a different seed) consisting of 34 notes:
+
+<audio controls>
+  <source src="{% link /assets/audio/markov-bach-ex1.mp3 %}" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls>
+  <source src="{% link /assets/audio/markov-bach-ex2.mp3 %}" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+Of course, this sound is not that musical.
+The rhythm is all over the place, but we recognize the original composition.
+Furthermore, no one said we have to stop there.
+We can continue to generate until we find something that sticks.
+Furthermore, this example is straightforward because I only use the beginning of **one** piece.
+Instead, we could use multiple compositions that fit together.
 
 ## Code
 
