@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-07-11T08:10:49+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Probabilistic Melody Modelling</title><link href="/Pages/2022/07/09/markov-chains-for-music-generation.html" rel="alternate" type="text/html" title="Probabilistic Melody Modelling" /><published>2022-07-09T00:00:00+02:00</published><updated>2022-07-09T00:00:00+02:00</updated><id>/Pages/2022/07/09/markov-chains-for-music-generation</id><content type="html" xml:base="/Pages/2022/07/09/markov-chains-for-music-generation.html"><![CDATA[<p>One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="/Pages/" rel="alternate" type="text/html" /><updated>2022-07-11T08:13:28+02:00</updated><id>/Pages/feed.xml</id><title type="html">Dr. Benedikt Zönnchen</title><subtitle></subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Probabilistic Melody Modelling</title><link href="/Pages/2022/07/09/markov-chains-for-music-generation.html" rel="alternate" type="text/html" title="Probabilistic Melody Modelling" /><published>2022-07-09T00:00:00+02:00</published><updated>2022-07-09T00:00:00+02:00</updated><id>/Pages/2022/07/09/markov-chains-for-music-generation</id><content type="html" xml:base="/Pages/2022/07/09/markov-chains-for-music-generation.html"><![CDATA[<p>One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.
 But what makes a good melody?
 Or, in a more <em>generative</em> sense:</p>
 
@@ -193,7 +193,7 @@ And \(q_i\) is our current state.
 Then we compute \(j\) such that</p>
 
 <p>\begin{equation}
-\sum\limits_{k=1}^{j-1} q_{ij} &lt; p \leq \sum\limits_{k=1}^{j} q_{ij}.
+\sum\limits_{k=1}^{j-1} p_{ij} &lt; p \leq \sum\limits_{k=1}^{j} p_{ij}.
 \end{equation}</p>
 
 <p>Note that the code is not optimized in any way.</p>
