@@ -211,7 +211,7 @@ Then a specific melody $$\mathbf{m} = (m_1, \ldots, m_n) \in M$$ is tuple (list)
 notes = [[:g4, 1.0/8], [:g4, 1.0/8], [:a4, 1.0/4], [:g4, 1.0/4], ... ]
 ```
 
-We can compute the most likely $$P$$ by computing each entry of it where $$q_{ij}$$ is equal to
+We can compute the most likely $$P$$ by computing each entry of it where $$p_{ij}$$ is equal to
 
 \begin{equation}
 p_{ij} = \frac{n_{ij}}{n_i}
