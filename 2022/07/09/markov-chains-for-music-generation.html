@@ -280,10 +280,10 @@ Then a specific melody \(\mathbf{m} = (m_1, \ldots, m_n) \in M\) is tuple (list)
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">notes</span> <span class="o">=</span> <span class="p">[[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:a4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="o">...</span> <span class="p">]</span>
 </code></pre></div></div>
 
-<p>We can compute the most likely \(Q\) by computing each entry of it where \(q_{ij}\) is equal to</p>
+<p>We can compute the most likely \(P\) by computing each entry of it where \(q_{ij}\) is equal to</p>
 
 <p>\begin{equation}
-q_{ij} = \frac{n_{ij}}{n_i}
+p_{ij} = \frac{n_{ij}}{n_i}
 \end{equation}</p>
 
 <p>where \(n_{ij}\) is the number of transitions from \(q_i\) to \(q_j\) within \(\mathbf{m}\) and \(n_i\) is the number of transition starting at \(q_i\).</p>
