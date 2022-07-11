@@ -189,7 +189,7 @@ And $$q_i$$ is our current state.
 Then we compute $$j$$ such that
 
 \begin{equation}
-\sum\limits_{k=1}^{j-1} < p \leq \sum\limits_{k=1}^{j}.
+\sum\limits_{k=1}^{j-1} q_{ij} < p \leq \sum\limits_{k=1}^{j} q_{ij}.
 \end{equation}
 
 Note that the code is not optimized in any way.
