@@ -205,7 +205,7 @@ Let $$Q = \{q_1, \ldots, q_m\}$$ be the set of states/notes.
 The entry of row $$i$$ and column $$j$$, i.e., $$p_{ij}$$ is the probability of going from state $$q_i$$ to state $$q_j$$.
 
 Furthermore, let us define our set of all possible melodies $$M \subseteq Q^n$$ of length $$n$$.
-Then a specific melody $$\mathbf{m} = (m_1, \ldots, m_n) \in M$$ is tuple (list) of notes:
+Then a specific melody $$\mathbf{m} = (m_1, \ldots, m_n) \in M$$ is a tuple (list) of notes:
 
 ```ruby
 notes = [[:g4, 1.0/8], [:g4, 1.0/8], [:a4, 1.0/4], [:g4, 1.0/4], ... ]
