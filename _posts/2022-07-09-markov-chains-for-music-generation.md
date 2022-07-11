@@ -211,10 +211,10 @@ Then a specific melody $$\mathbf{m} = (m_1, \ldots, m_n) \in M$$ is tuple (list)
 notes = [[:g4, 1.0/8], [:g4, 1.0/8], [:a4, 1.0/4], [:g4, 1.0/4], ... ]
 ```
 
-We can compute the most likely $$Q$$ by computing each entry of it where $$q_{ij}$$ is equal to
+We can compute the most likely $$P$$ by computing each entry of it where $$q_{ij}$$ is equal to
 
 \begin{equation}
-q_{ij} = \frac{n_{ij}}{n_i}
+p_{ij} = \frac{n_{ij}}{n_i}
 \end{equation}
 
 where $$n_{ij}$$ is the number of transitions from $$q_i$$ to $$q_j$$ within $$\mathbf{m}$$ and $$n_i$$ is the number of transition starting at $$q_i$$.
