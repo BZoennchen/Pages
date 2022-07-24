@@ -8,17 +8,17 @@ title:  "Information and Meaning"
 I am riding on a train to our beautiful hometown.
 Suddenly, the integrated monitor in my compartment displays the current weather and a forecast for the day.
 The sun is shining, and I do not have to worry about any nasty rain.
-I put my jacket back into my backpack. 
+Consequently, I put my jacket back into my backpack. 
 
 This simple example shows our general understanding of information.
-The weather service (a *sender*) transmitted, via a network (a *information channel*), the weather forecast (*information*) to me (*receiver*) and *impacted* my behavior.
-The delivered information eliminated or at least reduced the uncertainty of the upcoming weather situation -- I am assured that it will most certainly not rain.
+The weather service (a *sender*) transmitted, via a network (a *information channel*), the weather forecast (*information*) to me (*receiver*) and *impacts* my behavior.
+The delivered information eliminates or at least reduces the uncertainty of the upcoming weather situation -- I am assured that it will most certainly not rain.
 Consequently, I put my jacket back into my backpack.
 
 One might think that studying computer science gives students a deep understanding of what *information* is.
 I mean, it is their fundamental resource they deal with all the time.
-So shouldn't they learn what it is?
-Well, most computer scientists, including myself here, have a shallow encounter with the term.
+So shouldn't they learn what it is and what it does?
+Well, most computer scientists, including myself, have a shallow encounter with the term.
 Thinking back to my own study experience, I remember that we established Shannon's definition of information using his notion of *entropy*.
 We spent like one or two sessions on the topic and moved on.
 
@@ -34,19 +34,31 @@ We think we already know what information is because we believe that we use it a
 This intuitive usage is strongly linked to our intuitive use of the term *meaning*.
 
 The digital is here to stay.
-Today information transmission is only one minor task of information systems.
+Today information transmission is only one minor task of information and communication systems.
 Concerning scientific and economic developments, it becomes clear that nowadays, most modern systems are built to draw conclusions based on a vast amount of data.
+We moved from equation-based modeling to data-driven modeling.
 Of course, this is nothing new in general.
 For example, a thermostat is an information system that draws conclusions based on the room temperature.
 These artificial cybernetic systems exist since humans are able to construct tools.
-What differs is the extent to which these systems guide or rather gently control our lives.
+What changed is the extent to which these systems guide or rather gently control our lives.
 
-We will integrate and depend on more and more systems of control.
-In and of itself, this is neither good nor bad, but, in my personal opinion, if every decision we make gets dictated by a global system of control, humans will, depending on our perspective, evolve or dissolve into that same system.
+We will integrate and depend on more and more *systems of control*.
+In and of itself, this is neither good nor bad, but, in my personal opinion, if every decision we make gets dictated by a interconnected system of control, humans will, depending on our perspective, evolve or dissolve into that same system.
 Instead of being consciously controlled, we become unaware of the controlling mechanism.
 In short: we become machines ourselves.
 
-Therefore, I find it extremely necessary to think deeply about these systems such that, ultimately, we do not lose control over the thing that controls us.
+One might argue that there was never a difference between humans, animals and machines in the first place.
+Like Nietzsche declared the *Death of God*, one might want to declare the *Death of Human* (as a concept) -- an interesting philosophical discussion I will not go into for now.
+
+Instead I assume that living beings have an intrinsic value that can not be reduced to pure rationality.
+To quote Mouse form *The Matrix*:
+
+>To deny our own impulses is to deny the very thing that makes us human.
+
+Of course, this does not mean that we should follow our impulses uncritically or unreflectifely.
+Rather that they shape our experience and are essential of who we are.
+
+Because *systems of control* act against many of our impulses, I find it extremely necessary to think deeply about these systems such that, ultimately, we do not lose control over the thing that controls us.
 One major component is the material they are processing, i.e., information!
 
 ## A Mathematical Theory of Information
@@ -63,7 +75,7 @@ As a side remark: it is said that he presented his ideas to John von Neumann, wh
 
 > no one really knows what entropy is.
 
-### Entropy in Informationtheory
+### Entropy
 
 In physics, the *entropy* of a closed system of an irreversible process always increases.
 Imagine two identical buckets connected via a channel, and let us imagine that the left bucket is filled with gas and the right one is not.
@@ -157,7 +169,7 @@ In this case, there is no way to send fewer bits to transmit the same amount of 
 Another way of looking at a piece of information is to relate the amount of information to the *length of a program* that generates it.
 This perspective does not rely on a *system of information transmission*. 
 
-Let $$U$$ be the *universal Turing machine*, then the Kolmogorow-complexity $$C_U(w)$$ of a word $$w$$ is defined by the length (bits) of shortest description $$\alpha_T$$ of a Turing machine $$T$$ which generates $$w$$ without any additional input, that is,
+Let $$U$$ be the *universal Turing machine*, then the Kolmogorov-complexity $$C_U(w)$$ of a word $$w$$ is defined by the length (bits) of shortest description $$\alpha_T$$ of a Turing machine $$T$$ which generates $$w$$ without any additional input, that is,
 
 $$C_U(w) = \min\limits_{\alpha_T \in \Sigma^*}\left\{ |\alpha_T|: U(\alpha_T) = T() = w \right\}.$$
 
@@ -268,7 +280,7 @@ Does the information have no meaning or value?
 If the content of information is defined formally by *entropy* or the *Kolmogorov complexity*, information and meaning are two completely different things.
 However, information can, of course, still have meaning!
 
-## Meaning
+## From Shannon to Luhmann
 
 *Aristotle* talked about the meaningfulness of objects, which he held to be bound up with the essence of the object *in itself*.
 For him, meaningfulness was similar to an attribute like weight and height.
@@ -289,14 +301,16 @@ In short: meaning is a *human construct* but more so it is *individualistic*.
 
 It seems that for *Heidegger* the meanings of a thing emerges from the realtionships a thing has with all its sourroundings.
 
-This notion reminds me of *Niklas Luhmann* who thought of social systems to be autopoiesis (self-maintaining and self-producing by creating its own parts)
+This notion reminds me of *Niklas Luhmann* who thought of social systems to be autopoiesis (self-maintaining and self-producing by creating its own parts), introduced by *Maturana* and *Varela*,
 and operational closed like a biological cell.
-According to *Luhmann*, social systems construct and maintain themselves by differentiating themselves from their environment.
+According to *Luhmann*, (social) systems construct and maintain themselves by differentiating themselves from their environment.
+Within a system there is communication that communicates and this communication leads to communication.
 In terms of communication, *Luhmann* depatured from the *sender-receiver-models of communication* he famously claimed that
 
 >Only communication can communicate.
 
-which sounds trivial, but, as a consequence, excludes people from social systems.
+which sounds trivial, but, as a consequence, he excludes people from social systems.
+In that sense *Luhmann* is a posthumanist.
 He argues that *social meaning* is not dependent on the meaning being generated and understood by people.
 Psychic systems (conciousness) are identified to be systems based on the processing of meaning as well, but the meaning generated in psychic systems is never directly accessible for social systems.
 Social systems can only observer meaning within themselves, on the basis of specific codes, programs, symbolically generalized media of communication, etc.
@@ -304,6 +318,15 @@ Social systems can only observer meaning within themselves, on the basis of spec
 For example, while within the scientific system meaning is observerd on the basis the true/false-code, the legal system operates on the basis of the legal/illega-code.
 Depending on the system something can have different meanings and there is no hiearchy of meanings.
 In contrary to the existentialist point of view, meaning can be specific for social systems which consists not of humans but of communication.
+
+*Shannon* defines information as a selection from signals that exist in the external world.
+In his view information is the input into a *system* that selects it.
+He is only concered with transmission thus do not make any statements on the semantic or pragmatic
+aspects.
+However, we can infer that he would say that messages selected by the recipient are the same for both, the transmitter and the recipient, and that they mean the same to both.
+There is a clear seperation between the message and the system which receives / interprets it.
+This assumption of a transmission of information has persistently been criticised from a humanities and social science angle, and today, especially against the background of a second-order cybernetics, it is no longer tenable in the natural science either.
+
 
 
 ###########
