@@ -20,3 +20,7 @@ libs/
 
 #mac osx files
 .DS_Store
+
+#bibtex
+*.bib.bak
+*.bib.sav.tmp
