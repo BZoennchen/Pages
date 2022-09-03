@@ -2,6 +2,7 @@
 layout: post
 title:  "Informatics - A Love Letter"
 tags: Opinion
+comments: true
 ---
 
 >"The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural." -- Peter J. Denning {% cite denning:2005 %}

@@ -2,6 +2,7 @@
 layout: post
 title:  "Sound Design with SuperCollider"
 tags: Music SuperCollider
+comments: true
 ---
 
 In the past, I did a 15-minute introduction for [SuperCollider (SC)](https://supercollider.github.io/) for students at my University.

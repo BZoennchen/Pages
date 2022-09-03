@@ -2,6 +2,7 @@
 layout: post
 title:  "Interactive Computational Thinking"
 tags: Education
+comments: true
 ---
 
 Currently, I am working as a lecturer at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) for the course **Computational Thinking**.

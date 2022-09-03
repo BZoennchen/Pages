@@ -11,7 +11,7 @@ The sun is shining, and I do not have to worry about any nasty rain.
 Consequently, I put my jacket back into my backpack. 
 
 This simple example shows our general understanding of information.
-The weather service (a *sender*) transmitted, via a network (a *information channel*), the weather forecast (*information*) to me (*receiver*) and *impacts* my behavior.
+The weather service (a *sender*) transmitted the weather forecast (*information*) via a network (a *information channel*) to me (*receiver*), and consequently *impacts* my behavior.
 The delivered information eliminates or at least reduces the uncertainty of the upcoming weather situation -- I am assured that it will most certainly not rain.
 Consequently, I put my jacket back into my backpack.
 
@@ -31,35 +31,54 @@ In addition, the term has many different definitions depending on the discipline
 There is no generally accepted definition; thus, we always have to add one.
 And lastly, the term is oversaturated in our daily life.
 We think we already know what information is because we believe that we use it and its intuitive definition all the time.
-This intuitive usage is strongly linked to our intuitive use of the term *meaning*.
+This intuitive usage is strongly linked to our intuitive unterstanding of *meaning* and we often mix or confuse both terms.
 
-The digital is here to stay.
+## Out of Control Societies
+
+Why should we care about *information*?
+I argue that, in the last century, we moved from a material-centered society to an information-centered society.
+
+This process started with the industrial revolution when capitalism established a new kind of value distinct from the usability of a commodity: the exchange value.
+With the emergence of brands such as *Apple* and *Nike* the sign value appeared in our daily lifes.
+We buy certain things because they have a signifying quality, be it wealth, intelligence, health, a political viewpoint, or the rebellion against this process itself.
+We are *oversaturated with meaning* since every commodity has to be meaningful beyond its use value.
+This attachment relys on information.
+Consequently, information shapes the value of material goods.
+
+On top of that, meaning and information gets more and more entangled.
 Today information transmission is only one minor task of information and communication systems.
 Concerning scientific and economic developments, it becomes clear that nowadays, most modern systems are built to draw conclusions based on a vast amount of data.
-We moved from equation-based modeling to data-driven modeling.
+In many areas, we moved from equation-based to data-driven modeling.
 Of course, this is nothing new in general.
-For example, a thermostat is an information system that draws conclusions based on the room temperature.
-These artificial cybernetic systems exist since humans are able to construct tools.
+A simple thermostat fulfills all criteria to be called a *cybernetic artifical system*. 
+It is an information system that draws conclusions based on the room temperature.
+These systems exist since humans are able to construct tools.
 What changed is the extent to which these systems guide or rather gently control our lives.
+They decide on our behalf what is meaningful to us.
+For example, a thermostat does not value anything but it realizes our wish for a warm and cozy home -- it realizes our values.
 
 We will integrate and depend on more and more *systems of control*.
-In and of itself, this is neither good nor bad, but, in my personal opinion, if every decision we make gets dictated by a interconnected system of control, humans will, depending on our perspective, evolve or dissolve into that same system.
-Instead of being consciously controlled, we become unaware of the controlling mechanism.
-In short: we become machines ourselves.
+In and of itself, this seems neither good nor bad.
+But it becomes problematic when these systems are obfuscated from the person they serve.
+I can directly observe, understand, and control my thermostat but I can no longer observe, understand or control the recommendation algorithm of *Spotify*, *Google*, or *YouTube*.
+The barrier between users and tools disappears and one gets integrated into a network of systems.
+This has a *polarizing* as well as *homogenizing* effect on society because our desires get channeled into a digital thus finite and abstract set of bundles of values.
+My personal fear is that if every decision we make gets dictated by an out-of-control interconnected system of control, humans will, depending on our perspective, evolve or dissolve into that very system.
+Instead of being consciously controlled, we become something that is unaware of the controlling mechanisms which is the very definition of a machine.
+We even might end up being happy, enjoying comfort and little pleasures but at the cost of losing our singularity.
 
 One might argue that there was never a difference between humans, animals and machines in the first place.
-Like Nietzsche declared the *Death of God*, one might want to declare the *Death of Human* (as a concept) -- an interesting philosophical discussion I will not go into for now.
-
-Instead I assume that living beings have an intrinsic value that can not be reduced to pure rationality.
-To quote Mouse form *The Matrix*:
+Like Nietzsche declared the *Death of God*, one might want to declare the *Death of Humans* (as a concept).
+For me personally, I believe in the intrinsic value and distinct quality of life itself, be it human or non-human and that this value can not be reduced to pure rationality.
+To quote *The Matrix*:
 
 >To deny our own impulses is to deny the very thing that makes us human.
 
 Of course, this does not mean that we should follow our impulses uncritically or unreflectifely.
-Rather that they shape our experience and are essential of who we are.
+Rather that they shape our experience and are essential to be a singularity.
 
 Because *systems of control* act against many of our impulses, I find it extremely necessary to think deeply about these systems such that, ultimately, we do not lose control over the thing that controls us.
-One major component is the material they are processing, i.e., information!
+Therefore, we should care about *information* because it is the material these systems process.
 
 ## A Mathematical Theory of Information
 
@@ -71,7 +90,8 @@ Because for him
 
 the *entropy* of a given piece of information is high if it eliminates a lot of uncertainty.
 In other words, the *entropy* of a given piece of information is high if it *surprises* us.
-As a side remark: it is said that he presented his ideas to John von Neumann, who suggested the term because 
+
+As a side remark, it is said that he presented his ideas to John von Neumann, who suggested the term because 
 
 > no one really knows what entropy is.
 
@@ -94,6 +114,7 @@ Entropy in information theory is defined similarly.
 
 #### Intuition
 
+The entropy tells us something about our uncertainty.
 Let us imagine we receive a message (information) which is a 4-bit long number, e.g., $$0001$$.
 If all possible 4-bit messages equally likely occur, then there are 
 
@@ -108,6 +129,7 @@ $$
 $$
 
 Our message eliminates a lot of uncertainty compared to a scenario where the only possible messages are $$0001$$ and $$1001$$.
+In other words, we were very uncertain before we received the message.
 
 #### Definition
 
@@ -120,25 +142,26 @@ $$p_i = P(X = \sigma_i),$$
 to be the probability of $$X$$ being equals $$\sigma_i$$.
 Then 
 
-$$B(\sigma_i) = \log_m(1/p_i) = - \log_m(p_i)$$
+$$B(\sigma_i) = \log_m\left(\frac{1}{p_i}\right) = - \log_m(p_i)$$
 
 is the *amount of elements required to represent a specific symbol* $$\sigma_i$$ and 
 
-$$H_1 = \sum\limits_{i=1}^m p_i B(\sigma_i) = - \sum\limits_{i=1}^m p_i \log_m(p_i)$$
+$$H_1 = \sum\limits_{i=1}^m p_i B(\sigma_i) = \sum\limits_{i=1}^m p_i \log_m\left(\frac{1}{p_i}\right)$$
 
 is the *entropy* (of the system) with respect to one symbol.
 The *entropy* $$H_n$$ *of words* $$w \in \Sigma^n$$ is defined by
 
-$$H_n = - \sum\limits_{w \in \Sigma^n} p_w \log_m(p_w)$$
+$$H_n = \sum\limits_{w \in \Sigma^n} p_w \log_m\left(\frac{1}{p_w}\right)$$
 
 where $$p_w = P(X = w)$$ is the probability of the appearance of $$w$$.
-Finally the *entropy of the system* $$H$$ is the limit, i.e.,
+Finally the *entropy* $$H$$ *of the system*  is the limit, i.e.,
 
 $$H = \lim\limits_{n \rightarrow \infty} \frac{H_n}{n}.$$
 
 By *system*, Shannon refers to a *system of information transmission*.
 There is a *source* sending a message $$\omega$$ to a *sender* who sends signals through a possibly disrupted *channel* to a *receiver*.
 The *receiver* translates the signals into the message $$\omega$$ and hands it over to its *target/reader*.
+This can be translated to a probability distribution from which we draw.
 
 #### Examples
 
@@ -156,7 +179,7 @@ Therefore,
 
 $$\forall n \in \mathbb{N}: H_n = 1 \Rightarrow H = 0,$$
 
-i.e., the *entropy of that system* is zero.
+i.e., the *entropy of that system* is zero which makes sense because we are absolutely certain what messages we will receive.
 
 If instead the *sender* sends either $$0$$ or $$1$$ probability $$0.5$$, then 
 
@@ -169,11 +192,11 @@ In this case, there is no way to send fewer bits to transmit the same amount of 
 Another way of looking at a piece of information is to relate the amount of information to the *length of a program* that generates it.
 This perspective does not rely on a *system of information transmission*. 
 
-Let $$U$$ be the *universal Turing machine*, then the Kolmogorov-complexity $$C_U(w)$$ of a word $$w$$ is defined by the length (bits) of shortest description $$\alpha_T$$ of a Turing machine $$T$$ which generates $$w$$ without any additional input, that is,
+Let $$U$$ be the *Universal Turing Machine*, then the *Kolmogorov complexity* $$C_U(w)$$ of a word $$w$$ is defined by the length (bits) of the shortest description $$\alpha_T$$ of a Turing machine $$T$$ which generates $$w$$ without any additional input, that is,
 
 $$C_U(w) = \min\limits_{\alpha_T \in \Sigma^*}\left\{ |\alpha_T|: U(\alpha_T) = T() = w \right\}.$$
 
-Since programming languages are basically *universal Turing machines*, we can more or less replace $$T$$ with the shortest program that generates $$w$$.
+Since programming languages are basically equivalent to the *Universal Turing Machines*, we can more or less replace $$T$$ with the shortest program that generates $$w$$.
 
 For example, for generating the sequence
 
@@ -181,7 +204,7 @@ For example, for generating the sequence
 'abababababababababab'
 ```
 
-following ``Python`` code suffice
+the following ``Python`` code suffices.
 
 ```python
 'ab'*10
@@ -203,16 +226,16 @@ Well, the following program does the job
 
 i.e., we need 18 symbols.
 We almost need as many symbols as the length of the message we want to generate.
-In fact, the length of the message is an upper bound for the Kolmogorov complexity.
+In fact, the length of the message is an upper bound for the *Kolmogorov complexity*.
 In other words
 
 $$C_U(w) \in \mathcal{O}(|w|).$$
 
-Looking at the definition of the Kolmogorov complexity, the devil lies in the iteration of all possible programs!
-It turns out that for an arbitrary word $$w$$ the Kolmogorov complexity $$C_U(w)$$ is **not computable**.
+Looking at the definition of the *Kolmogorov complexity*, the devil lies in the iteration of all possible programs!
+It turns out that for an arbitrary word $$w$$ the *Kolmogorov complexity* $$C_U(w)$$ is **not computable**.
 
-The Kolmogorov complexity is an elegant way of looking at information because it does not require introducing a transmission system.
-We can look at the series symbols in front of us and ask: What program can generate the series?
+The *Kolmogorov complexity* is an elegant way of looking at information without introducing a transmission system.
+We can look at the series symbols in front of us and ask: what program can generate the series?
 
 Interestingly, we do not look at the program's complexity but its length.
 For example, for a string representing the first $$n$$ prime numbers
@@ -253,18 +276,18 @@ text
 
 even if its complexity is higher than a more sophisticated and efficient algorithm.
 Another example is the computation of a picture of the famous Mandelbrot set.
-The image might require a large amount of memory, but its computation requires a very **small program**.
+To store the image one might require a large amount of memory, but its computation relies on a a very **small program**.
 To (re-)construct the image, the program needs a lot of steps, i.e., **execution time**.
 
-Since descriptions of complex systems can be relatively short, this perspective suggests that these systems might, in fact, offer or rely on a minimal amount of information.
+Since the descriptions of complex systems can be relatively short, this perspective suggests that they might, in fact, offer or rely on a minimal amount of information.
 We often have to 'execute' or 'evolve' this information to understand it, but its 'essence' is there beforehand.
 
-One might want to ask: what is the Kolmogorov complexity of our Universe?
+One might want to ask: what is the *Kolmogorov complexity* of our universe?
 If such a question makes sense in the first place, its answer may surprise us.
 
 ### Meaningless Symbols
 
-In Shannon's theory, information is viewed stochastically or probabilistically.
+In *Shannon's theory*, information is viewed stochastically or probabilistically.
 It is carried discretely as symbols, which are selected from a set of possible symbols.
 The meaning of these symbols is entirely irrelevant, though a binary digit may represent the toss of a coin (heads or tails) or the universe's fate (expand or collapse).
 
@@ -272,34 +295,36 @@ If two events are possible, but one is very unlikely, and I get informed about t
 In that sense, written English or German has less information than a random set of letters!
 This is counter-intuitive because we tend to confuse *information* with *meaning* and even though a random set of letters transmits a lot of information, it is meaningless to us.
 
-The same is true for the Kolmogorov complexity.
+The same is true for the *Kolmogorov complexity*.
 It also avoids combining information and meaning and relies solely on syntactical qualities. 
 
 Case closed?
-Does the information have no meaning or value?
+Is there no meaning we have to deal with when we process information?
 If the content of information is defined formally by *entropy* or the *Kolmogorov complexity*, information and meaning are two completely different things.
-However, information can, of course, still have meaning!
+However, information can, of course, be meaningful.
+As I argued in the beginning, our *system of control* channel our desires.
+In so far they realize implanted values by making unconsciously sense of information.
 
-## From Shannon to Luhmann
+## What is Meaning
 
 *Aristotle* talked about the meaningfulness of objects, which he held to be bound up with the essence of the object *in itself*.
 For him, meaningfulness was similar to an attribute like weight and height.
 He also had a notion of the *final cause*, a kind of destiny towards which things are heading and being drawn to.
 For example, the final cause of a seed is the adult plant.
-Everything that nature makes is means to an end (humanity).
+He thought that everything that nature makes is a means to an end (humanity).
 Today we tend to interpret the example of the plant the other way around: the end of the adult plant is reproduction, i.e., the seed.
 The *final cause* is circular.
 
 Existentialists, such as *Sartre* and *Kierkegaard*, focused solely on human beings and inverted the idea of an essential meaning to human existence.
-Existence precedes meaning thus humans have to create or define their own subjective meaning -- we are dangerously free.
+Existence precedes meaning thus humans have to create or define their own subjective meaning, i.e., we are dangerously free.
 They are in-line with the general Western thought presupposing that meaning is something we impose, either subjectively or intersubjectively on things, or meaning is what we generate by means of symbols and communicative activity.
 In short: meaning is a *human construct* but more so it is *individualistic*.
 
-*Heidegger* noted that when we come to understand entities in the world and their possibility, the entities *'have meaning'* but this *'having'* is not located in the entity itself but in the act of understanding.
+*Heidegger* noted that when we come to understand entities in the world and their possibility, the entities *have meaning* but this *having* is not located in the entity itself but in the act of understanding.
 
 >Meaning is that wherein the intelligibility of something maintains itself -- Heidegger
 
-It seems that for *Heidegger* the meanings of a thing emerges from the realtionships a thing has with all its sourroundings.
+It seems that for *Heidegger*, the meanings of a thing emerges from the realtionships a thing has with all its sourroundings.
 
 This notion reminds me of *Niklas Luhmann* who thought of social systems to be autopoiesis (self-maintaining and self-producing by creating its own parts), introduced by *Maturana* and *Varela*,
 and operational closed like a biological cell.

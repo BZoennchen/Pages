@@ -3,7 +3,9 @@ layout: default
 title: CV
 permalink: /cv/
 ---
-# Curriculum Vitae ([pdf (en)]({% link /assets/files/CV_en.pdf %}), [pdf (de)]({% link /assets/files/CV_de.pdf %}))
+# Curriculum Vitae 
+
+PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/files/CV_de.pdf %})
 
 ## Current Position
 

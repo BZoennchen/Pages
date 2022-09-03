@@ -30,6 +30,7 @@ group :jekyll_plugins do
   gem "jekyll-email-protect"
   gem "jekyll-twitter-plugin"
   gem "jekyll-remote-theme"
+  gem "jekyll-seo-tag"
 end
 
 group :development do

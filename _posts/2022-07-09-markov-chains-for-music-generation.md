@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Probabilistic Melody Modelling"
-tags: Music Sonic-Pi AI 
+tags: Music Sonic-Pi AI
+comments: true
 ---
 
 One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.

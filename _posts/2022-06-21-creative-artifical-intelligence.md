@@ -2,6 +2,7 @@
 layout: post
 title:  "Creative Artificial Intelligence"
 tags: Opinion AI
+comments: true
 ---
 
 ## Panel Discussion
