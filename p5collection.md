@@ -6,7 +6,7 @@ permalink: /p5collection/
 
 # Selected Works
 
-The following collection of animations have neither a particular purpose nor any utility apart from my enjoyment.
+The following collection of animations has neither a particular purpose nor any utility apart from my enjoyment.
 I created them by using the JavaScript Library [P5.js](https://p5js.org/).
 
 + [Global-mean Monthly Temperature](temperature/)
