@@ -97,8 +97,17 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
 ## Teaching
 
+**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Sustainable AI* (Bachelor), Lecturer<br>
+
+**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Computational Thinking* (Bachelor), Lecturer<br>
+
+**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
+
 **Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
-*Computational Thinking* (Bachelor), Trainer<br>
+*Computational Thinking* (Bachelor), Lecturer<br>
 
 **Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
@@ -137,10 +146,10 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 ## Scholarships & Awards
 
 **2022** | Dissertation Award<br>
-([Oskar-von-Miller Award](https://www.hm.edu/sekundaer_navigation/presse/oskar_von_miller_feier_2/index.de.html))<br>
+([Oskar-von-Miller Award](https://www.hm.edu/forschung/wissenstransfer/wissenstransfer~1.de.html#text_und_bild__optional))<br>
 
 **2021** | Dissertation Award<br>
-([Bund der Freunde der Technischen Universität München e. V.](https://www.bund-der-freunde.tum.de/bdf/preise/promotions-und-habilitationspreise/))<br>
+([Freunde der TUM e. V.](https://www.freunde.tum.de/bdf/startseite/))<br>
 
 **04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/)<br>
 (Studienstiftung des deutschen Volkes)<br>

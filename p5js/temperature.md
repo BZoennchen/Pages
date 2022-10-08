@@ -8,7 +8,7 @@ permalink: /p5collection/temperature/
 
 The following is a plot of the monthly global-mean temperatures. One cycle represents one year. It shows how the mean temperature is getting out of control. By left-clicking, you can restart the animation.
 
-I work with the [GISS dataset](data.giss.nasa.gov/gistemp/) {% cite lenssen:2019 %}, {% cite hansen:2010 %}.
+I work with the [GISS dataset](https://data.giss.nasa.gov/gistemp/) {% cite lenssen:2019 %}, {% cite hansen:2010 %}.
 
 <div id = "p5-temperature" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
 <br>
@@ -16,3 +16,5 @@ I work with the [GISS dataset](data.giss.nasa.gov/gistemp/) {% cite lenssen:2019
 ## References
 
 {% bibliography --cited_in_order %}
+
+
