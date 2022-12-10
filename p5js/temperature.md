@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Monthly Global-Mean Temperatures
-permalink: /p5collection/temperature/
+permalink: /works/temperature/
 ---
 
 # Monthly Global-mean Temperatures

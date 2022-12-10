@@ -221,7 +221,7 @@
       margin-bottom: $spacing-unit;
     }
   }
-  
+
   .post-meta {
     font-size: $small-font-size;
     color: $brand-color;
@@ -339,4 +339,12 @@
     .one-half {
       width: calc(50% - (#{$spacing-unit} / 2));
     }
+  }
+
+  /**
+   * custom 
+   */
+  .tag-list {
+    font-size: $small-font-size;
+    color: $brand-color;
   }

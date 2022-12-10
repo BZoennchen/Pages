@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Rotating Lines
-permalink: /p5collection/rotation/
+permalink: /works/rotation/
 ---
 
 # Rotating Lines

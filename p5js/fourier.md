@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Fourier Drawing
-permalink: /p5collection/fourier/
+permalink: /works/fourier/
 ---
 
 # Fourier Drawing

@@ -44,6 +44,38 @@ Web Developer<br>
 **09/2005 - 07/2008** | [Siemens AG](https://www.siemens.com/de/de.html), Munich, Germany<br>
 Software Developer (Education)<br>
 
+## Research Interests
++ Free and Open Education in the Digital Era
++ Modelling and Simulation
++ Sustainable AI
++ Computer Music
++ Design of Efficient and Parallel Algorithms
++ Theoretical Computer Science, Automata Theory
+
+## Private Interests
++ Film Critique and Analysis
++ Philosophy & Technolgy
++ Chess
++ Music Theory
++ Constructivism
+
+## Scholarships & Awards
+
+**2022** | Dissertation Award<br>
+([Oskar-von-Miller Award](https://www.hm.edu/forschung/wissenstransfer/wissenstransfer~1.de.html#text_und_bild__optional))<br>
+
+**2021** | Dissertation Award<br>
+([Freunde der TUM e. V.](https://www.freunde.tum.de/bdf/startseite/))<br>
+
+**04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/)<br>
+(Studienstiftung des deutschen Volkes)<br>
+
+**06/2012 - 05/2016** | [Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home)<br>
+(Max Weber-Programm Bayern)<br>
+
+**2013** | [RiMEA Sponsorship Award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
+(Computer Science and Mathematics [MUAS](https://www.cs.hm.edu/en/home/index.en.html))<br>
+
 ## Publications
 
 **2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
@@ -126,36 +158,3 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
 **Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
-
-## Fields of Interests
-+ Free and Open Education in the Digital Era
-+ Modelling and Simulation
-+ Mesh Generation and its Applications
-+ Design of Efficient and Parallel Algorithms
-+ Theoretical Computer Science, Automata Theory
-+ Algorithmic Art (Processing, P5js, SuperCollider, Sonic Pi)
-+ Sonification
-
-## Private Interests
-+ Film Critique and Analysis
-+ Philosophy in Films
-+ Chess
-+ Music Theory
-+ Constructivism
-
-## Scholarships & Awards
-
-**2022** | Dissertation Award<br>
-([Oskar-von-Miller Award](https://www.hm.edu/forschung/wissenstransfer/wissenstransfer~1.de.html#text_und_bild__optional))<br>
-
-**2021** | Dissertation Award<br>
-([Freunde der TUM e. V.](https://www.freunde.tum.de/bdf/startseite/))<br>
-
-**04/2012 - 05/2016** | [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/)<br>
-(Studienstiftung des deutschen Volkes)<br>
-
-**06/2012 - 05/2016** | [Max Weber-Program of the State of Bavaria](https://www.elitenetzwerk.bayern.de/en/home)<br>
-(Max Weber-Programm Bayern)<br>
-
-**2013** | [RiMEA Sponsorship Award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
-(Computer Science and Mathematics [MUAS](https://www.cs.hm.edu/en/home/index.en.html))<br>

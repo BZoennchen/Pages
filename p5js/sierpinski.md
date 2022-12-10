@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Space-filling Curve
-permalink: /p5collection/sierpinski/
+permalink: /works/sierpinski/
 ---
 
 # Space-filling Curve

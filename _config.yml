@@ -43,7 +43,7 @@ author:
   name: Benedikt Zönnchen
   email: benedikt.zoennchen@web.de
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@4df270bf2cfa3e5fd6fdac54eb43bc93fdb09ef4
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

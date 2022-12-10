@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Forest Fire Simulation
-permalink: /p5collection/fire/
+permalink: /works/fire/
 ---
 
 # Forest Fire Simulation

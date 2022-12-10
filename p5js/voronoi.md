@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Discrete Voronoi Diagram
-permalink: /p5collection/voronoi/
+permalink: /works/voronoi/
 ---
 
 # Discrete Voronoi Diagram

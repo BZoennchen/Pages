@@ -1,7 +1,7 @@
 ---
 layout: p5js-collection
 title: Fractal Tree
-permalink: /p5collection/tree/
+permalink: /works/tree/
 ---
 
 # Fractal Tree

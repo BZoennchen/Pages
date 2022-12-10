@@ -3,21 +3,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Monthly Global-Mean Temperatures | Bene’s Blog</title>
+<title>Selected Works | Bene’s Blog</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Monthly Global-Mean Temperatures" />
+<meta property="og:title" content="Selected Works" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
 <meta property="og:description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
-<link rel="canonical" href="https://bzoennchen.github.io//Pages/p5collection/temperature/" />
-<meta property="og:url" content="https://bzoennchen.github.io//Pages/p5collection/temperature/" />
+<link rel="canonical" href="https://bzoennchen.github.io//Pages/works/" />
+<meta property="og:url" content="https://bzoennchen.github.io//Pages/works/" />
 <meta property="og:site_name" content="Bene’s Blog" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Monthly Global-Mean Temperatures" />
+<meta property="twitter:title" content="Selected Works" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"Monthly Global-Mean Temperatures","url":"https://bzoennchen.github.io//Pages/p5collection/temperature/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"Selected Works","url":"https://bzoennchen.github.io//Pages/works/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /></head><script src="/Pages/assets/P5Collection/libraries/p5.js" type="text/javascript"></script>
 <script src="/Pages/assets/P5Collection/libraries/p5.dom.js" type="text/javascript"></script>
@@ -48,6 +48,9 @@
 
 <script src="/Pages/assets/P5Collection/temperature/temperature.js" type="text/javascript"></script>
 
+<script src="/Pages/assets/P5Collection/snowflake/snowflake.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/snowflake/branch.js" type="text/javascript"></script>
+
 <style>
     canvas {
         margin:auto;
@@ -71,31 +74,101 @@
               
               <a class="page-link" href="/Pages/posts/">Posts</a>
               
-              <a class="page-link" href="/Pages/p5collection/">Selected Works</a>
+              <a class="page-link" href="/Pages/works/">Selected Works</a>
               
               <a class="page-link" href="/Pages/cv/">CV</a>
               
               <a class="page-link" href="/Pages/contact/">Contact</a>
               
 
-            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/p5collection/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/p5collection/tree/">Fractal Tree</a><a class="page-link" href="/Pages/p5collection/">P5Collection</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/p5collection/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
+            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/works/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/works/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/works/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/works/tree/">Fractal Tree</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/works/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/works/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/works/snowflake/">Perpendicular Symmetric Parallel Branching</a><a class="page-link" href="/Pages/works/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/works/voronoi/">Discrete Voronoi Diagram</a><a class="page-link" href="/Pages/works/">Selected Works</a>-->
           </div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="monthly-global-mean-temperatures">Monthly Global-mean Temperatures</h1>
+        <h1 id="software">Software</h1>
 
-<p>The following is a plot of the monthly global-mean temperatures <a class="citation" href="#lenssen:2019">(Lenssen et al., 2019)</a>, <a class="citation" href="#hansen:2010">(Hansen et al., 2010)</a>. One cycle represents one year. It shows how the mean temperature is getting out of control. By left-clicking, you can restart the animation.</p>
+<h2 id="visualizations">Visualizations</h2>
 
-<p>I work with the <a href="https://data.giss.nasa.gov/gistemp/">GISS dataset</a>.</p>
+<p>The following collection of animations has neither a particular purpose nor any utility apart from my enjoyment.
+I created them by using the JavaScript Library <a href="https://p5js.org/">P5.js</a>.</p>
 
-<div id="p5-temperature" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
-<p><br /></p>
+<ul>
+  <li><a href="snowflake/">Perpendicular Symmetric Parallel Branching</a></li>
+  <li><a href="temperature/">Global-mean Monthly Temperature</a></li>
+  <li><a href="rotation/">Rotating Lines</a></li>
+  <li><a href="sierpinski/">Space-filling Curve</a></li>
+  <li><a href="collisions/">Elastic Collision</a></li>
+  <li><a href="voronoi/">Discrete Voronoi Diagran</a></li>
+  <li><a href="fourier/">Fourier Drawing</a></li>
+  <li><a href="fire/">Forest Fire Simulation</a></li>
+  <li><a href="tree/">Fractal Tree</a></li>
+</ul>
 
-<h2 id="references">References</h2>
+<h2 id="roboworld">Roboworld</h2>
 
-<ol class="bibliography"><li><span id="lenssen:2019">Lenssen, N. J. L., Schmidt, G. A., Hansen, J. E., Menne, M. J., Persin, A., Ruedy, R., &amp; Zyss, D. (2019). Improvements in the GISTEMP Uncertainty Model. <i>Journal of Geophysical Research: Atmospheres</i>, <i>124</i>(12), 6307–6326. https://doi.org/10.1029/2018JD029522</span></li>
-<li><span id="hansen:2010">Hansen, J., Ruedy, R., Sato, M., &amp; Lo, K. (2010). GLOBAL SURFACE TEMPERATURE CHANGE. <i>Reviews of Geophysics</i>, <i>48</i>(4). https://doi.org/10.1029/2010RG000345</span></li></ol>
+<p><a href="https://robo-world-doc.readthedocs.io/en/latest/index.html#">roboworld</a> is an educational Python package designed for students to learn basic programming concepts, such as,</p>
+
+<ul>
+  <li>variables,</li>
+  <li>function calls,</li>
+  <li>conditionals,</li>
+  <li>loops and</li>
+  <li>recursion.</li>
+</ul>
+
+<p>Students must navigate Robo (a robot) through different two-dimensional discrete Worlds. Robo represents a very simplistic machine that can only deal with elementary instructions, i.e., method calls. Therefore, students have to extend the missing functionality step by step. Through this process they learn</p>
+
+<ol>
+  <li>to divide a problem into smaller pieces,</li>
+  <li>to abstract,</li>
+  <li>to recognize patterns, and</li>
+  <li>to design and implement algorithms.</li>
+</ol>
+
+<p>roboworld is heavily inspired by <a href="https://www.swisseduc.ch/informatik/karatojava/kara/index.html">Kara</a>.
+You can install the package via <code class="language-plaintext highlighter-rouge">pip</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install roboworld
+</code></pre></div></div>
+
+<p>You can find a complete example of a student assignment <a href="https://github.com/BZoennchen/ct-ws2022-students/blob/main/solutions/training05/CT-Roboworld.ipynb">here</a>.</p>
+
+<h2 id="vadere">Vadere</h2>
+
+<p>From 2016 to 2020 I was a main contributor to <a href="http://www.vadere.org/">Vadere</a>.
+It is an open-source framework for the simulation of microscopic pedestrian and crowd dynamics. 
+In addition to this core domain, other systems including cars and granular flow can be introduced into the framework.</p>
+
+<h2 id="eikmesh">EikMesh</h2>
+
+<p>During my Ph.D. I created <a href="http://www.vadere.org/the-eikmesh-library/">EikMesh</a>, a Java library for high quality meshes. 
+It is part of Vadere and was developed to generate high quality meshes for spatial discretization in the domain of pedestrian dynamics.</p>
+
+<hr />
+
+<h1 id="writing">Writing</h1>
+
+<p>I love writing not only to create something but also sharpen my own understanding of something.
+Therefore, I started to write educational online books.</p>
+
+<h2 id="computational-thinking">Computational Thinking</h2>
+
+<p>I wrote an interactive book for the course <em><a href="https://bzoennchen.github.io/ct-book/intro.html">Computational Thinking</a></em> which I am teaching at the Munich University of Applied Sciences.
+The book is currently only available in German.</p>
+
+<h2 id="algorithmic-composition">Algorithmic Composition</h2>
+
+<p>I am currently writing an online book about <em><a href="https://bzoennchen.github.io/supercollider-book/intro.html#">Algorithmic Compositions</a></em> which includes topics such as</p>
+
+<ul>
+  <li>Computer Music with <a href="https://supercollider.github.io/">SuperCollider</a></li>
+  <li>Sound Design with SuperCollider</li>
+  <li>Music Theory</li>
+  <li>…</li>
+</ul>
+
+<p>It is a free time / hobby project.</p>
 
       </div>
     </main><footer class="site-footer h-card">
