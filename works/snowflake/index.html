@@ -3,21 +3,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Space-filling Curve | Bene’s Blog</title>
+<title>Perpendicular Symmetric Parallel Branching | Bene’s Blog</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Space-filling Curve" />
+<meta property="og:title" content="Perpendicular Symmetric Parallel Branching" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
 <meta property="og:description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
-<link rel="canonical" href="https://bzoennchen.github.io//Pages/p5collection/sierpinski/" />
-<meta property="og:url" content="https://bzoennchen.github.io//Pages/p5collection/sierpinski/" />
+<link rel="canonical" href="https://bzoennchen.github.io//Pages/works/snowflake/" />
+<meta property="og:url" content="https://bzoennchen.github.io//Pages/works/snowflake/" />
 <meta property="og:site_name" content="Bene’s Blog" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Space-filling Curve" />
+<meta property="twitter:title" content="Perpendicular Symmetric Parallel Branching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"Space-filling Curve","url":"https://bzoennchen.github.io//Pages/p5collection/sierpinski/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"Perpendicular Symmetric Parallel Branching","url":"https://bzoennchen.github.io//Pages/works/snowflake/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /></head><script src="/Pages/assets/P5Collection/libraries/p5.js" type="text/javascript"></script>
 <script src="/Pages/assets/P5Collection/libraries/p5.dom.js" type="text/javascript"></script>
@@ -48,6 +48,9 @@
 
 <script src="/Pages/assets/P5Collection/temperature/temperature.js" type="text/javascript"></script>
 
+<script src="/Pages/assets/P5Collection/snowflake/snowflake.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/snowflake/branch.js" type="text/javascript"></script>
+
 <style>
     canvas {
         margin:auto;
@@ -71,30 +74,28 @@
               
               <a class="page-link" href="/Pages/posts/">Posts</a>
               
-              <a class="page-link" href="/Pages/p5collection/">Selected Works</a>
+              <a class="page-link" href="/Pages/works/">Selected Works</a>
               
               <a class="page-link" href="/Pages/cv/">CV</a>
               
               <a class="page-link" href="/Pages/contact/">Contact</a>
               
 
-            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/p5collection/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/p5collection/tree/">Fractal Tree</a><a class="page-link" href="/Pages/p5collection/">P5Collection</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/p5collection/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
+            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/works/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/works/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/works/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/works/tree/">Fractal Tree</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/works/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/works/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/works/snowflake/">Perpendicular Symmetric Parallel Branching</a><a class="page-link" href="/Pages/works/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/works/voronoi/">Discrete Voronoi Diagram</a><a class="page-link" href="/Pages/works/">Selected Works</a>-->
           </div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="space-filling-curve">Space-filling Curve</h1>
+        <h1 id="symmetric-parallel-branching">Symmetric Parallel Branching</h1>
 
-<p>Illustration of Sierpiński’s space-filling curve in two dimensions. It is a mapping</p>
+<p>The following animation is pure <em>generative art</em>.
+It starts with a single line that branches with a certain probability.
+Each new line has a smaller final length and can branch again but with decreasing probability.
+Every branch is perpendicular to its parent.
+Everything is copied cyclically multiple times to achieve a high degree of symmetry.</p>
 
-\[SFC : \mathbb{R}^+ \rightarrow [0;1] \times [0;1],\]
-
-<p>completely fill the unit square. 
-More precisely this is true in the limit \(k \rightarrow \infty\), where \(k\) is the order of the curve.
-The animation shows the curve for \(k = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\).
-The length of the curve grows expenentially.</p>
-
-<div id="p5-sierpinksi" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<div id="p5-snowflake" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<p><br /></p>
 
       </div>
     </main><footer class="site-footer h-card">

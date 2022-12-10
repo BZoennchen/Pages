@@ -3,21 +3,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>P5Collection | Bene’s Blog</title>
+<title>Rotating Lines | Bene’s Blog</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="P5Collection" />
+<meta property="og:title" content="Rotating Lines" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
 <meta property="og:description" content="A blog dedicated to computer science, education, music, philosophy and technology" />
-<link rel="canonical" href="https://bzoennchen.github.io//Pages/p5collection/" />
-<meta property="og:url" content="https://bzoennchen.github.io//Pages/p5collection/" />
+<link rel="canonical" href="https://bzoennchen.github.io//Pages/works/rotation/" />
+<meta property="og:url" content="https://bzoennchen.github.io//Pages/works/rotation/" />
 <meta property="og:site_name" content="Bene’s Blog" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="P5Collection" />
+<meta property="twitter:title" content="Rotating Lines" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"P5Collection","url":"https://bzoennchen.github.io//Pages/p5collection/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Benedikt Zönnchen"},"description":"A blog dedicated to computer science, education, music, philosophy and technology","headline":"Rotating Lines","url":"https://bzoennchen.github.io//Pages/works/rotation/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io//Pages/feed.xml" title="Bene&apos;s Blog" /></head><script src="/Pages/assets/P5Collection/libraries/p5.js" type="text/javascript"></script>
 <script src="/Pages/assets/P5Collection/libraries/p5.dom.js" type="text/javascript"></script>
@@ -48,6 +48,9 @@
 
 <script src="/Pages/assets/P5Collection/temperature/temperature.js" type="text/javascript"></script>
 
+<script src="/Pages/assets/P5Collection/snowflake/snowflake.js" type="text/javascript"></script>
+<script src="/Pages/assets/P5Collection/snowflake/branch.js" type="text/javascript"></script>
+
 <style>
     canvas {
         margin:auto;
@@ -71,33 +74,25 @@
               
               <a class="page-link" href="/Pages/posts/">Posts</a>
               
-              <a class="page-link" href="/Pages/p5collection/">Selected Works</a>
+              <a class="page-link" href="/Pages/works/">Selected Works</a>
               
               <a class="page-link" href="/Pages/cv/">CV</a>
               
               <a class="page-link" href="/Pages/contact/">Contact</a>
               
 
-            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/p5collection/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/p5collection/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/p5collection/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/p5collection/tree/">Fractal Tree</a><a class="page-link" href="/Pages/p5collection/">P5Collection</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/p5collection/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/p5collection/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/p5collection/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/p5collection/voronoi/">Discrete Voronoi Diagram</a>-->
+            <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/works/collisions/">Space-filling Curve</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/works/fire/">Forest Fire Simulation</a><a class="page-link" href="/Pages/works/fourier/">Fourier Drawing</a><a class="page-link" href="/Pages/works/tree/">Fractal Tree</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/works/rotation/">Rotating Lines</a><a class="page-link" href="/Pages/works/sierpinski/">Space-filling Curve</a><a class="page-link" href="/Pages/works/snowflake/">Perpendicular Symmetric Parallel Branching</a><a class="page-link" href="/Pages/works/temperature/">Monthly Global-Mean Temperatures</a><a class="page-link" href="/Pages/works/voronoi/">Discrete Voronoi Diagram</a><a class="page-link" href="/Pages/works/">Selected Works</a>-->
           </div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="selected-works">Selected Works</h1>
+        <h1 id="rotating-lines">Rotating Lines</h1>
 
-<p>The following collection of animations has neither a particular purpose nor any utility apart from my enjoyment.
-I created them by using the JavaScript Library <a href="https://p5js.org/">P5.js</a>.</p>
+<p>Multiple lines rotate around their midpoint.
+The rotation creates the illusion of movement around a circle!
+You can <strong>click</strong> on the canvas to generate a new pattern.</p>
 
-<ul>
-  <li><a href="temperature/">Global-mean Monthly Temperature</a></li>
-  <li><a href="rotation/">Rotating Lines</a></li>
-  <li><a href="sierpinski/">Space-filling Curve</a></li>
-  <li><a href="collisions/">Elastic Collision</a></li>
-  <li><a href="voronoi/">Discrete Voronoi Diagran</a></li>
-  <li><a href="fourier/">Fourier Drawing</a></li>
-  <li><a href="fire/">Forest Fire Simulation</a></li>
-  <li><a href="tree/">Fractal Tree</a></li>
-</ul>
+<div id="p5-rotation" style="background-color: #fdfdfd justify-content: center; display: flex;"></div>
 
       </div>
     </main><footer class="site-footer h-card">
