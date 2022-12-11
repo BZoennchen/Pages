@@ -39,6 +39,9 @@ minima:
     google_scholor_user: itB89wUAAAAJ
     youtube_channel: UCFqv61UVSmI0h_az5cLV5gQ
     youtube_channel_name: BZoennchen
+    mastodon:
+    - username: BZoennchen
+      instance: mastodon.social
 author:
   name: Benedikt Zönnchen
   email: benedikt.zoennchen@web.de

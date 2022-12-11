@@ -51,7 +51,7 @@ const snwoflake = (sketch) => {
 	}
 
 	sketch.mousePressed = () => {
-        if(sketch.mouseButton === sketch.LEFT) {
+        if(sketch.mouseButton === sketch.LEFT && sketch.mouseY > 0) {
             sketch.reset();
 			sketch.loop();
         }
