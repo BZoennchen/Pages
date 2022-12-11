@@ -22,11 +22,20 @@ const tree = (sketch) => {
         sketch.noLoop();
     }
 
+    sketch.mousePressed = () => {
+        if(sketch.mouseButton === sketch.LEFT) {
+            sketch.drawTree();
+        }
+    };
+
     sketch.draw = () => {
-        sketch.background(backgroundColor);
         sketch.translate(0, sketch.height);
         sketch.scale(1, -1); 
-    
+        sketch.drawTree();
+    };
+
+    sketch.drawTree = () => {
+        sketch.background(backgroundColor);
         let branches = [];
         let parents = [];
         
@@ -62,7 +71,7 @@ const tree = (sketch) => {
             sketch.stroke(0, 0, 0, 200);
             sketch.line(bstart.x, bstart.y, bend.x, bend.y);
         }
-    }
+    };
 
     /**
      * Generates n branches on top of branch.

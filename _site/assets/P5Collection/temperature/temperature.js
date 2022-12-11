@@ -33,19 +33,17 @@ const temperature = (sketch) => {
     let colors = null;
 
     let myCanvas;
+    let hasStarted = false;
 
     sketch.preload = () => {
         data = sketch.loadTable(
             '../../assets/P5Collection/temperature/temp.csv',
                 'csv',
-                'header');
+                'header', sketch.start);
     }
 
-    sketch.setup = () => {
-        sketch.createCanvas(800, 800);
-        sketch.background(BACKGROUND_COLOR);
-        //frameRate(FRAME_RATE);
-        
+    sketch.start = () => {
+        hasStarted = true;
         for(let i = FIRST_YEAR; i < LAST_YEAR; i++) {
             for(let j = FIRST_MONTH; j < LAST_MONTH; j++) {
             maxTemperature = sketch.max(maxTemperature, sketch.getTemerature(i, j));
@@ -66,6 +64,12 @@ const temperature = (sketch) => {
         temperatureDiff = maxTemperature - minTemperature;
         sketch.translate(sketch.width/2, sketch.height/2);
         sketch.drawCircles();
+    }
+
+    sketch.setup = () => {
+        sketch.createCanvas(800, 800);
+        sketch.background(BACKGROUND_COLOR);
+        //frameRate(FRAME_RATE);
     };
 
     sketch.toRadius = (temperature) => {
@@ -87,9 +91,11 @@ const temperature = (sketch) => {
     };
 
     sketch.draw = () => {
-        sketch.translate(sketch.width/2, sketch.height/2);
-        for(let i = 0; i < STEPS; i++) {
-            sketch.step(); 
+        if(hasStarted) {
+            sketch.translate(sketch.width/2, sketch.height/2);
+            for(let i = 0; i < STEPS; i++) {
+                sketch.step(); 
+            }
         }
     };
 
@@ -186,7 +192,10 @@ const temperature = (sketch) => {
     sketch.getTemerature = (year, month) => {
         let yearIndex = (year-FIRST_YEAR);
         //console.log(year, month, yearIndex)
-        return sketch.float(data.getRow(yearIndex).arr[month]);
+        if(data != undefined) {
+            return sketch.float(data.getRow(yearIndex).arr[month]);
+        }
+        return 0;
     };
 
     sketch.getInterpolatedTemerature = (year, month, day) => {
