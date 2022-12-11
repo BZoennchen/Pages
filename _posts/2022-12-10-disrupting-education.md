@@ -12,7 +12,7 @@ Furthermore, I am not an expert in the issue.
 I have a limited teaching experience within a certain community.
 In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.
 
-## Testing the Capability of ChatGTP
+## Part I: Testing the Machine
 
 Before discussing the issue, let us test this new magical tool.
 
@@ -367,7 +367,7 @@ Last but not least, its politeness makes it kind of scary.
 It reminds me of these overcarrying *AIs* from science fiction movies that will gently eradicate all life to make everything safe and secure.
 Or of the dystopian novel *Breave New World* by *Aldous Huxley*, where everyone is seduced into happyness.
 
-## The Affect on Education
+## Part II: The Affect on Education
 
 *ChatGTP* is only the first version of such kind of *AI*.
 Even though it has flaws and makes many errors, it will improve over time.
