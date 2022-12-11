@@ -12,7 +12,7 @@ In addition, I will not consider any ethical, economic, or ecological points her
 
 ## Testing the Capability of ChatGTP
 
-Before I discussing the issue, let us test this new magical tool.
+Before discussing the issue, let us test this new magical tool.
 
 ### A Mathematical Proof
 
