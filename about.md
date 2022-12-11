@@ -5,6 +5,8 @@ permalink: /about/
 ---
 # {{ page.title }}
 
+<div><img style="float: right;height:205px;" src="{% link /assets/images/BZoennchen.JPG %}" alt="Photo"></div>
+
 Welcome, everyone! 
 I'm Benedikt.
 Currently, I am working on improving our computer science education using my skills as a software engineer and lecturer at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) at the Faculty of Informatics and Mathematics.
