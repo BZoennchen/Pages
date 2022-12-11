@@ -214,6 +214,8 @@ def sum_of_square_numbers(n):
     return (n * (n + 1) * (2 * n + 1)) / 6
 ```
 
+Also, it is bad practice to use ``sum`` as a variable name since ``sum`` is also a built-in ``Python`` function, and by using ``sum`` as a variable name, one can no longer use this function within the current namespace.
+
 <span style="font-family:Courier New">
 **Me:**
 Is there a more optimal solution that runs faster?

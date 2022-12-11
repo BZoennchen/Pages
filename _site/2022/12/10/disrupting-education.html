@@ -268,6 +268,8 @@ I hope this helps! Let me know if you have any other questions.
     <span class="k">return</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="o">/</span> <span class="mi">6</span>
 </code></pre></div></div>
 
+<p>Also, it is bad practice to use <code class="language-plaintext highlighter-rouge">sum</code> as a variable name since <code class="language-plaintext highlighter-rouge">sum</code> is also a built-in <code class="language-plaintext highlighter-rouge">Python</code> function, and by using <code class="language-plaintext highlighter-rouge">sum</code> as a variable name, one can no longer use this function within the current namespace.</p>
+
 <p><span style="font-family:Courier New">
 <strong>Me:</strong>
 Is there a more optimal solution that runs faster?
