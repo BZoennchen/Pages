@@ -1,9 +1,11 @@
 {%- assign social = site.minima.social_links -%}
 
-{%- if social.github -%}<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>{%- endif -%}
-{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
-{%- if social.youtube_channel -%}<a rel="me" href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>{%- endif -%}
-<a style="Text-Decoration: None !important;" rel="me" href="https://orcid.org/{{ social.orcid | cgi_escape | escape }}" title="{{ social.orcid | escape }}">
+{%- if social.github -%}<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" target="_blank" title="{{ social.github | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}<a rel="me" href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" target="_blank" title="{{ mst.username | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg></a>{%- endif -%}{%- endfor -%}
+{%- if social.twitter -%}<a rel="me" href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}" target="_blank" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>{%- endif -%}
+{%- if social.youtube_channel -%}<a rel="me" href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}" target="_blank" title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#youtube' | relative_url }}"></use></svg></a>{%- endif -%}
+
+<a style="Text-Decoration: None !important;" target="_blank" rel="me" href="https://orcid.org/{{ social.orcid | cgi_escape | escape }}" title="{{ social.orcid | escape }}">
    <svg 
    version="1.1" 
    id="orcid1" 
@@ -29,7 +31,7 @@
 </g>
 </svg></a>
 
-<a style="Text-Decoration: None !important;" rel="me" href="https://scholar.google.de/citations?user={{ social.google_scholor_user | cgi_escape | escape }}" title="{{ social.google_scholor_user | escape }}">
+<a style="Text-Decoration: None !important;" target="_blank" rel="me" href="https://scholar.google.de/citations?user={{ social.google_scholor_user | cgi_escape | escape }}" title="{{ social.google_scholor_user | escape }}">
    <svg 
    xmlns="http://www.w3.org/2000/svg" 
    viewBox="0 0 512 512"
@@ -44,7 +46,7 @@
 
 <div style="float: right;">
 <span style="display: inline-block;height:100%;vertical-align:middle">
-<a rel="me" href="http://www.vadere.org/" title="Vadere">
+<a rel="me" href="http://www.vadere.org/" target="_blank" title="Vadere">
     <svg
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:cc="http://creativecommons.org/ns#"
