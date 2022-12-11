@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2022-12-11T15:27:50+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGTP</a></em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2022-12-11T16:28:31+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGTP</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. 
 In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.</p>
@@ -130,7 +130,7 @@ I apologize again for any confusion caused by my previous mistake. I hope this h
 </span></p>
 
 <p>It is impressive that it acknowledges its mistake and that one can interact with it so fluently.
-Asking it repeatedly gives some other wrong but confident assertions.
+Asking it repeatedly gives some other wrong but confident assertion.
 <em>ChatGPT</em> followed the proof up to the formula</p>
 
 \[2 \cdot b^2 = a^2\]
@@ -233,7 +233,7 @@ I hope this helps! Let me know if you have any other questions.
 
 <p>This is, of course, false.
 Maybe I wasn’t clear enough but it is missleading that the function is named <code class="language-plaintext highlighter-rouge">sum_of_square_numbers</code>.
-It gives the impression that <em>ChatGPT</em> understood that I wanted, i.e., a more optimal implementation for the same problem.</p>
+It gives the impression that <em>ChatGPT</em> understood what I wanted, i.e., a more optimal implementation for the same problem.</p>
 
 <p><span style="font-family:Courier New">
 <strong>Me:</strong>
@@ -265,7 +265,7 @@ I hope this helps! Let me know if you have any other questions.
 
 <h3 id="writing-essays">Writing Essays</h3>
 
-<p>Instead of showing a whole essay, I ask some spicy questions to get a feeling of ChatGPT’s reasoning.</p>
+<p>Instead of showing a whole essay, I ask some spicy questions to get a feeling of <em>ChatGPT’s</em> reasoning.</p>
 
 <p><span style="font-family:Courier New">
 <strong>Me:</strong>
@@ -324,12 +324,12 @@ However, others argue that unequal wealth distribution is an inevitable and desi
 Ultimately, the distribution of wealth is a complex and nuanced issue, and different people may have different opinions on what is fair and just. I hope this helps! Let me know if you have any other questions.
 </span></p>
 
-<p>I ask it a bunch of other things but it always tried to give me a neutral.
+<p>I ask it a bunch of other things but it always tried to give me a neutral answer.
 From an aesthetic point of view all these answers are boring.</p>
 
 <h3 id="summary">Summary</h3>
 
-<p><em>ChatGTP</em> is perfectly capable of writing or at least supporting students to write A-graded essays for any school and B-graded essays for the college.</p>
+<p><em>ChatGTP</em> is perfectly capable of writing or at least supporting students to write A-graded essays for any school and B-graded essays for a college student.</p>
 
 <p>It can code; developers accept about 26 percent of all autogenerated code suggestions.
 However, as demonstrated, it also produces many errors. 
@@ -339,9 +339,8 @@ In addition, it seems incapable of the engineering task of software development.
 <p>It can assist students in finding mathematical proofs, but it is questionable if students who rely on it will find the errors produced by <em>ChatGPT</em>.</p>
 
 <p>If <em>ChatGTP</em> is <strong>wrong</strong>, it is <strong>confidently wrong</strong>, which makes it harder to find its errors.
-Futhermore, it has this neutral insisting tone, which makes on the one hand very boring and on the other alienating.
-Of course, I did not play around very long but it is hard to get something provocative out of it.
-It is always playing save.</p>
+Futhermore, it has this neutral insisting tone, which makes it sound very boring and feels rather alienating.
+Of course, I did not play around very long but it is hard to get something provocative out of it.</p>
 
 <p>Neutrality is most certainly desirable, especially if you want to earn money with it but it is also non-existing.
 In my opinion, it is impossible to be neutral.
@@ -349,8 +348,9 @@ At best we can land on a consensus and the most, let’s say accepted consensus,
 I mean even a dictionary is loaded with perspectives and so is any technology. 
 Since <em>ChatGTP</em> pushes for neutrality it creates an illusion of it.</p>
 
-<p>Last but not least, its politeness makes it scary.
-It reminds me of these overcarrying <em>AIs</em> from science fiction movies that will gently eradicate all life to make everything safe and secure.</p>
+<p>Last but not least, its politeness makes it kind of scary.
+It reminds me of these overcarrying <em>AIs</em> from science fiction movies that will gently eradicate all life to make everything safe and secure.
+Or of the dystopian novel <em>Breave New World</em> by <em>Aldous Huxley</em>, where everyone is seduced into happyness.</p>
 
 <h2 id="the-affect-on-education">The Affect on Education</h2>
 
@@ -370,6 +370,7 @@ As I already pointed out in <a href="/Pages/2022/06/21/creative-artifical-intell
 <p>To me, <em>AI</em> acts as an insult to the human species.
 It challenges our humanistic viewpoint.
 I am not so much impressed by the <em>AI</em> than I am disenchanted by the output of most human activities.
+We are far more predictable than we still think we are.
 But aren’t we used to these insults?
 The earth is not the center of the universe; it is not even the center of our solar system.
 God is dead, and today we might realize that our work is not as creative as we thought.
@@ -381,7 +382,7 @@ It is horrifying that one of the most questions students in the first-semester a
 Students demand a list of actions they ought to do such that they get an A with certainty.
 And they will cheat the system wherever possible if it will bring them closer to that goal.
 Most students are not fascinated by the endless playground of reality.
-They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job.</p>
+They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job and let’s not forget that teachers of the futures are students of today.</p>
 
 <p>Of course, this is a massive generalization.
 There are many exceptions.
@@ -389,13 +390,18 @@ Furthermore, by no means shall we blame the students.
 They do what they ought to do.
 They play the system.
 It is not the student’s fault.
-It is a systematical problem, a conflict between <em>instrumental</em> and <em>free play</em>, and <em>ChatGTP</em> illustrates it more clearly.</p>
+It is a systematical problem, a conflict between <em>instrumental</em> and <em>free play</em>, and <em>ChatGTP</em> illustrates it more clearly.
+By trivializing many tasks, <em>AI</em> reveals the need for new values in the domain of education and work.</p>
 
-<p>Another thought I had was that when we are discussing <em>AI</em> and the replacement of workers, we always focus on the output of the work.
-Biased by our current system of values, we intuitively think of reinventing as stupid.
+<p>What is left to value?
+When we are discussing <em>AI</em>, we immediately look at the impending replacement of workers as something to fear because we always focus on the output of work.
+There is a necessity that workers produce something economical valuable, something to sell.
+The only space for creating for the sake of are our hobbys.
+Biased by our current system of values, we intuitively think of reinventing something as stupid.
 Why would you do such a thing?
 Why would you code yet another linked list?
 It is not optimal.
+You are wasting our valuable time.
 And if we look at an <em>AI</em> generated image and conclude that artists will now have troubles in the free market (if they do not adapt), which is true.
 The act of repetition (which is highly needed to learn anything) is valued mostly as long as it leads to something new and productive (in an economical sense).
 However, if we put aside economics and dream a little bit of a world where we have actual time to create, then the output of a creative process no longer matters so much.
@@ -404,7 +410,14 @@ And that experience is a singularity and can not be replicated by a machine.
 To understand how a linked list works can be fascinating.
 Why don’t we value that moment of fascination?</p>
 
-<p>So if my assessment is correct then, aside from all the downsides, this disruption might lead to something good, e.g., to an education system that is less concerned with the output and more concerned with experiences; an education system that is less interested in rules and more interested in concepts, intuitions, and experimentations; an education system that is interested in making the experience of everyone richer.</p>
+<p>There is a lot to do.
+I do not mean that we should all quit our jobs and fulfill our inner desires to become a painter.
+But we have to be more sustainable, with our planet, our society but also our minds.
+Not by optimizing our life by introducing yet another optimization in the form of leisure but by being in a state of <em>free play</em>.
+Learning for the next exam, learning to make a profit, learning to speficially know how to work with one tool, are all valid goals but they are not sustainable.
+They are reactionary goals of mostly restless minds.</p>
+
+<p>So if my assessment is correct then, aside from all the downsides, this disruption might lead to something positive, e.g., to an education system that is less concerned with the output and more concerned with the experience; an education system that is less interested in rules and more interested in concepts, intuitions, and experimentations; an education system that is interested in making the experience of everyone richer and more sustainable.</p>
 
 <p>To achieve such a shift, teachers, who are often overworked and underpaid, need support.</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="AI" /><summary type="html"><![CDATA[At the moment, everyone in the sphere of AI is talking about OpenAI’s new invention: ChatGTP. I want to share my current perspective on that astonishing technology. Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.]]></summary></entry><entry><title type="html">Probabilistic Melody Modelling</title><link href="https://bzoennchen.github.io//Pages/2022/07/09/markov-chains-for-music-generation.html" rel="alternate" type="text/html" title="Probabilistic Melody Modelling" /><published>2022-07-09T00:00:00+02:00</published><updated>2022-07-09T00:00:00+02:00</updated><id>https://bzoennchen.github.io//Pages/2022/07/09/markov-chains-for-music-generation</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/07/09/markov-chains-for-music-generation.html"><![CDATA[<p>One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.
 But what makes a good melody?
