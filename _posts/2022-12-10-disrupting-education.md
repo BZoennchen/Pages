@@ -7,7 +7,9 @@ comments: true
 
 At the moment, everyone in the sphere of *AI* is talking about *OpenAI’s* new invention: *[ChatGTP](https://chat.openai.com/chat)*.
 I want to share my current perspective on that astonishing technology.
-Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. 
+Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
+Furthermore, I am not an expert in the issue.
+I have a limited teaching experience within a certain community.
 In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.
 
 ## Testing the Capability of ChatGTP
@@ -425,6 +427,7 @@ Why don't we value that moment of fascination?
 
 There is a lot to do.
 I do not mean that we should all quit our jobs and fulfill our inner desires to become a painter.
+We need to earn money to pay the rent and to heat our homes.
 But we have to be more sustainable, with our planet, our society but also our minds.
 Not by optimizing our life by introducing yet another optimization in the form of leisure but by being in a state of *free play*.
 Learning for the next exam, learning to make a profit, learning to speficially know how to work with one tool, are all valid goals but they are not sustainable.
