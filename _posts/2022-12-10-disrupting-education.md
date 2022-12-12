@@ -427,7 +427,7 @@ Why don't we value that moment of fascination?
 
 There is a lot to do.
 I do not mean that we should all quit our jobs and fulfill our inner desires to become a painter.
-We need to earn money to pay the rent and to heat our homes.
+We need to earn money to pay the rent and to heat our homes and we need a smoothly running economy.
 But we have to be more sustainable, with our planet, our society but also our minds.
 Not by optimizing our life by introducing yet another optimization in the form of leisure but by being in a state of *free play*, at least sometimes.
 Learning for the next exam, learning to make a profit, learning to speficially know how to work with one tool, are all valid goals but they are not sustainable.
