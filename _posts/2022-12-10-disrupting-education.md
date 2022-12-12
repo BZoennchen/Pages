@@ -367,7 +367,7 @@ Last but not least, its politeness makes it kind of scary.
 It reminds me of these overcarrying *AIs* from science fiction movies that will gently eradicate all life to make everything safe and secure.
 Or of the dystopian novel *Breave New World* by *Aldous Huxley*, where everyone is seduced into happyness.
 
-## Part II: The Affect on Education
+## Part II: The Effect on Education
 
 For a long time, we assumed that automation was the enemy of simple manual labor.
 But robotics advances slower than the more sophisticated information processing technique, e.g., machine learning.
