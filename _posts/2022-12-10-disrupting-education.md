@@ -18,7 +18,7 @@ Before discussing the issue, let us test this new magical tool.
 
 ### A Mathematical Proof
 
-Let's try to proof something using *ChatGPT*.
+Let's try to prove something using *ChatGPT*.
 
 <span style="font-family:Courier New">
 **Me:**
