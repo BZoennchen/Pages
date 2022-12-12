@@ -371,7 +371,7 @@ Or of the dystopian novel *Breave New World* by *Aldous Huxley*, where everyone 
 
 For a long time, we assumed that automation was the enemy of simple manual labor.
 But robotics advances slower than the more sophisticated information processing technique, e.g., machine learning.
-This could mean that in the future, there is only a tiny portion of intellectual work left which requires only the hand full of highly sophisticated workers.
+This could mean that in the future, there is only a tiny portion of intellectual work left which requires only a hand full of highly sophisticated workers.
 It might be manual work that will regain attraction in the market.
 Of course, this is all speculation.
 
