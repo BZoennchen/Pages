@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2022-12-13T00:43:21+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGTP</a></em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2022-12-13T13:37:55+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGTP</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
 Furthermore, I am not an expert in the issue.
@@ -342,7 +342,7 @@ In addition, it seems incapable of the engineering task of software development.
 
 <p>If <em>ChatGTP</em> is <strong>wrong</strong>, it is <strong>confidently wrong</strong>, which makes it harder to find its errors.
 Futhermore, it has this neutral insisting tone, which makes it sound very boring and feels rather alienating.
-Of course, I did not play around very long but it is hard to get something provocative out of it.</p>
+Of course, I did not play around for very long but it is hard to get something provocative out of it.</p>
 
 <p>Neutrality is most certainly desirable, especially if you want to earn money with it but it is also non-existing.
 In my opinion, it is impossible to be neutral.
@@ -370,7 +370,7 @@ However, it is not a graduate slope; instead, the technology is already here.
 It appeared in a blink of an eye, and we have to deal with it now.</p>
 
 <p>Students will learn to use it in less than two years.
-Most educators will require much more time even to acknowledge it.
+Most educators will require much more time to even acknowledge it.
 Moreover, adapting the education system to it will require even more time.
 Furthermore, while all this adaption is happening, new <em>tools of disruption</em> will be invented.
 As I already pointed out in <a href="/Pages/2022/06/21/creative-artifical-intelligence.html">Creative Artificial Intelligence</a>, <em>the speed of disruption</em> is accelerating.</p>
@@ -390,7 +390,7 @@ It is horrifying that one of the most questions students in the first-semester a
 Students demand a list of actions they ought to do such that they get an A with certainty.
 And they will cheat the system wherever possible if it will bring them closer to that goal.
 Most students are not fascinated by the endless playground of reality.
-They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job and let’s not forget that teachers of the futures are students of today.</p>
+They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job and let’s not forget that teachers of the future are the students of today.</p>
 
 <p>Of course, this is a massive generalization.
 There are many exceptions.

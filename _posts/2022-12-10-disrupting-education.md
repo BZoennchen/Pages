@@ -355,7 +355,7 @@ It can assist students in finding mathematical proofs, but it is questionable if
 
 If *ChatGTP* is **wrong**, it is **confidently wrong**, which makes it harder to find its errors.
 Futhermore, it has this neutral insisting tone, which makes it sound very boring and feels rather alienating.
-Of course, I did not play around very long but it is hard to get something provocative out of it.
+Of course, I did not play around for very long but it is hard to get something provocative out of it.
 
 Neutrality is most certainly desirable, especially if you want to earn money with it but it is also non-existing.
 In my opinion, it is impossible to be neutral.
@@ -383,7 +383,7 @@ However, it is not a graduate slope; instead, the technology is already here.
 It appeared in a blink of an eye, and we have to deal with it now.
 
 Students will learn to use it in less than two years.
-Most educators will require much more time even to acknowledge it.
+Most educators will require much more time to even acknowledge it.
 Moreover, adapting the education system to it will require even more time.
 Furthermore, while all this adaption is happening, new *tools of disruption* will be invented.
 As I already pointed out in [Creative Artificial Intelligence]({% post_url 2022-06-21-creative-artifical-intelligence %}), *the speed of disruption* is accelerating.
@@ -403,7 +403,7 @@ It is horrifying that one of the most questions students in the first-semester a
 Students demand a list of actions they ought to do such that they get an A with certainty.
 And they will cheat the system wherever possible if it will bring them closer to that goal.
 Most students are not fascinated by the endless playground of reality.
-They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job and let's not forget that teachers of the futures are students of today.
+They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-payed job and let's not forget that teachers of the future are the students of today.
 
 Of course, this is a massive generalization.
 There are many exceptions.
