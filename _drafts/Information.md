@@ -15,11 +15,11 @@ The weather service (a *sender*) transmitted the weather forecast (*information*
 The delivered information eliminates or at least reduces the uncertainty of the upcoming weather situation -- I am assured that it will most certainly not rain.
 Consequently, I put my jacket back into my backpack.
 
-One might think that studying computer science gives students a deep understanding of what *information* is.
+One might think that studying computer science gives students a deep understanding of *information*.
 I mean, it is their fundamental resource they deal with all the time.
 So shouldn't they learn what it is and what it does?
 Well, most computer scientists, including myself, have a shallow encounter with the term.
-Thinking back to my own study experience, I remember that we established Shannon's definition of information using his notion of *entropy*.
+Thinking back to my own study experience, I remember that we established *Shannon's definition of information* using his notion of *entropy*.
 We spent like one or two sessions on the topic and moved on.
 
 There are different reasons for this unsatisfying encounter with the term.
@@ -38,11 +38,14 @@ This intuitive usage is strongly linked to our intuitive unterstanding of *meani
 Why should we care about *information*?
 I argue that, in the last century, we moved from a material-centered society to an information-centered society.
 
-This process started with the industrial revolution when capitalism established a new kind of value distinct from the usability of a commodity: the exchange value.
-With the emergence of brands such as *Apple* and *Nike* the sign value appeared in our daily lifes.
+This process started with the industrial revolution when capitalism established a new kind of value distinct from the *usability* of a commodity: the *exchange value*.
+But we did not stop there.
+With the emergence of brands, such as *Apple* and *Nike*, the *sign value* appeared in our daily lifes.
 We buy certain things because they have a signifying quality, be it wealth, intelligence, health, a political viewpoint, or the rebellion against this process itself.
 We are *oversaturated with meaning* since every commodity has to be meaningful beyond its use value.
-This attachment relys on information.
+If an intellectual person is interviewed, we put the person behind a shelf to signify his or her intellectual ability.
+Somehow all the books and papers bleed into the the person.
+This attachment is unavoidable and relys on information.
 Consequently, information shapes the value of material goods.
 
 On top of that, meaning and information gets more and more entangled.
@@ -56,6 +59,19 @@ These systems exist since humans are able to construct tools.
 What changed is the extent to which these systems guide or rather gently control our lives.
 They decide on our behalf what is meaningful to us.
 For example, a thermostat does not value anything but it realizes our wish for a warm and cozy home -- it realizes our values.
+
+Since machines do not value anything but realize the values we humans implanted into them, these machines can not be neutral.
+Most algorithms and machines are build to optimize and this optimization is a value in itself.
+They try to make things:
+
++ comfortable
++ faster
++ cheaper
++ easier
++ ...
+
+These values might be desirable but they are not universal.
+Some people might value slowness, or the effort to master something, or the experience to interact with the physical world instead of pressing a button.
 
 We will integrate and depend on more and more *systems of control*.
 In and of itself, this seems neither good nor bad.
@@ -78,7 +94,7 @@ Of course, this does not mean that we should follow our impulses uncritically or
 Rather that they shape our experience and are essential to be a singularity.
 
 Because *systems of control* act against many of our impulses, I find it extremely necessary to think deeply about these systems such that, ultimately, we do not lose control over the thing that controls us.
-Therefore, we should care about *information* because it is the material these systems process.
+Therefore, we should care about *information* because it is the material these systems process..
 
 ## A Mathematical Theory of Information
 
@@ -101,14 +117,16 @@ In physics, the *entropy* of a closed system of an irreversible process always i
 Imagine two identical buckets connected via a channel, and let us imagine that the left bucket is filled with gas and the right one is not.
 If we open the barrier between the two buckets, the gas will flow into the right bucket until there is approximately an equal amount of gas in both buckets.
 
+<div><img style="width:500px;padding:1em;align:center;display:block;margin-left:auto;margin-right:auto;" src="{% link /assets/images/gas-entropy.png %}" alt="Entropy example"></div>
+
 In this example, *entropy* is the number of possible distributions of **microscopic** particles (molecules) for one specific **macroscopic** state of the system.
 There are more possibilities to distribute the particles uniformly in both buckets than using only one bucket.
-Therefore, the *entropy* increased.
+Therefore, the *entropy* increases when some of the molecules move to the right bucket.
 
 How does Shannon's concept of uncertainty fit into this picture?
-Let us imagine we can identify each particle.
+Let us imagine we can identify each particle by a number.
 We look at a macroscopic state of the system and ask how many possibilities are there, i.e., how large is the entropy.
-Because the entropy is high, the exact positions of particles is very uncertain.
+Because the entropy is high, the exact positions of each particle is very uncertain.
 If we switch to the actual microscopic state of the system (information), a lot of uncertainty is eliminated.
 Entropy in information theory is defined similarly.
 
@@ -159,8 +177,8 @@ Finally the *entropy* $$H$$ *of the system*  is the limit, i.e.,
 $$H = \lim\limits_{n \rightarrow \infty} \frac{H_n}{n}.$$
 
 By *system*, Shannon refers to a *system of information transmission*.
-There is a *source* sending a message $$\omega$$ to a *sender* who sends signals through a possibly disrupted *channel* to a *receiver*.
-The *receiver* translates the signals into the message $$\omega$$ and hands it over to its *target/reader*.
+There is a *source* sending a message $$w$$ to a *sender* who sends signals through a possibly disrupted *channel* to a *receiver*.
+The *receiver* translates the signals into the message $$w$$ and hands it over to its *target/reader*.
 This can be translated to a probability distribution from which we draw.
 
 #### Examples
@@ -181,7 +199,7 @@ $$\forall n \in \mathbb{N}: H_n = 1 \Rightarrow H = 0,$$
 
 i.e., the *entropy of that system* is zero which makes sense because we are absolutely certain what messages we will receive.
 
-If instead the *sender* sends either $$0$$ or $$1$$ probability $$0.5$$, then 
+If instead the *sender* sends either $$0$$ or $$1$$ with probability $$0.5$$, then 
 
 $$\forall n \in \mathbb{N}: H_n = \log(2^n) = n \Rightarrow H = 1.$$
 

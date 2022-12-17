@@ -6,7 +6,7 @@ const tree = (sketch) => {
     const maxRotation = 0.072;
     const maxBranches = 5;
     const minBranches = 2;
-    const initialHeight = 95;
+    const initialHeight = 92;
 
     /*const dept = 7;
     const branchLengthReduction = 0.93;
@@ -51,7 +51,6 @@ const tree = (sketch) => {
         // 1. generate all branches
         for(let j = 0; j < dept; j++) {
             let newParents = [];
-            let nbranches = [];
                 
             for(let i = 0; i < parents.length; i++){
             children = sketch.generateBranches(parents[i], sketch.int(sketch.random(minBranches, maxBranches+1)));
@@ -66,9 +65,9 @@ const tree = (sketch) => {
             let bstart = branches[i][0];
             let bend = branches[i][1];
             let len = bstart.copy().sub(bend).mag();
-            sketch.strokeWeight(8 * sketch.pow(len/maxLen, 5));
+            sketch.strokeWeight(sketch.max(0.1, 8 * sketch.pow(len/maxLen, 4)));
             sketch.noFill();
-            sketch.stroke(0, 0, 0, 200);
+            sketch.stroke(0, 0, 0, sketch.map(len, 0, initialHeight, 10, 200));
             sketch.line(bstart.x, bstart.y, bend.x, bend.y);
         }
     };
@@ -88,7 +87,7 @@ const tree = (sketch) => {
             newVec = vec.copy();
             newStart = end.copy();
             newVec.rotate(sketch.TWO_PI * sketch.random(0.3, 1.0) * maxRotation * sketch.random([-1,1]));
-            newVec.mult(branchLengthReduction * sketch.random(0.95, 1.0));
+            newVec.mult(branchLengthReduction * sketch.random(0.90, 1.0));
             newEnd = newStart.copy().add(newVec);
             branches.push([newStart, newEnd, newVec])
         }
