@@ -21,7 +21,7 @@ Before discussing the issue, let us test this new magical tool.
 Let's try to prove something using *ChatGPT*.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Can you proof that irrational numbers exist?
 </span>
 
@@ -36,7 +36,7 @@ That is not really convincing if we do not know that $$\sqrt{2}$$ is irrational 
 So let's ask for a formula.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Can you give me a mathematical formula to show that it is not possible for the square of the length of the diagonal to be equal to the square of a whole number?
 </span>
 
@@ -63,7 +63,7 @@ This answer is kind of helpful but, at the same time, misleading.
 Again, *ChatGPT* already assumes that $$\sqrt{2}$$ is irrational, which is part of what we wanted to prove in the first place.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 But here you assume that sqrt(2) is irrational. Can you proof why sqrt(2) is irrational?
 </span>
 
@@ -121,7 +121,7 @@ The correct statement is that the square of any **odd integer** is **odd**, and 
 Let's try to make *ChatGPT* aware of its mistake.
 
 <span style="font-family:Courier New">
-**Me:** 
+**My question:** 
 You stated that the square of any integer is always an odd number but the square of 4 is 16 which is an even number. Did you make a mistake?
 </span>
 
@@ -172,7 +172,7 @@ Since we followed that $$a$$ and $$b$$ are even, the contradiction follows, sinc
 Next I wanted to test its capability to write code.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Can you write a python function that computes the sum of all square numbers up to n^2?
 </span>
 
@@ -219,7 +219,7 @@ def sum_of_square_numbers(n):
 Also, it is bad practice to use ``sum`` as a variable name since ``sum`` is also a built-in ``Python`` function, and by using ``sum`` as a variable name, one can no longer use this function within the current namespace.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Is there a more optimal solution that runs faster?
 </span>
 
@@ -250,7 +250,7 @@ Maybe I wasn't clear enough but it is missleading that the function is named ``s
 It gives the impression that *ChatGPT* understood what I wanted, i.e., a more optimal implementation for the same problem.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 I meant is there a more optimal solution to compute the sum of all square numbers up to n^2?
 </span>
 
@@ -283,7 +283,7 @@ There it is, the correct solution.
 Instead of showing a whole essay, I ask some spicy questions to get a feeling of *ChatGPT's* reasoning.
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Will humans extinct because of climate change?
 </span>
 
@@ -301,7 +301,7 @@ I hope this helps! Let me know if you have any other questions.
 </span>
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 Is capitalism the driving force of CO2 emissions?
 </span>
 
@@ -318,7 +318,7 @@ I hope this helps! Let me know if you have any other questions.
 </span>
 
 <span style="font-family:Courier New">
-**Me:**
+**My question:**
 What do you think about the distribution of wealth?
 </span>
 
