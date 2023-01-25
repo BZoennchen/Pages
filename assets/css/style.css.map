@@ -8,7 +8,7 @@
 		"_sass/minima/custom-variables.scss",
 		"_sass/minima/_base.scss",
 		"_sass/minima/_layout.scss",
-		"../../../../../private/var/folders/j4/6x0yfkp53d99gq8g0hxfl_tw0000gn/T/jekyll-remote-theme-20230126-2763-cqirjn/_sass/minima/custom-styles.scss"
+		"../../../../../private/var/folders/j4/6x0yfkp53d99gq8g0hxfl_tw0000gn/T/jekyll-remote-theme-20230126-5343-pfo7ae/_sass/minima/custom-styles.scss"
 	],
 	"sourcesContent": [
 		"@import\n  \"minima/skins/classic\",\n  \"minima/initialize\";\n\n",
