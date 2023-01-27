@@ -416,7 +416,7 @@ It is a systematical problem, a conflict between *instrumental* and *free play*,
 If *ChatGPT* is able to write the necessary and impressively boring description of a new course for me, I take it as a positive.
 If it let's me automatically create my next assignment in seconds, I can spend time on more interesting modes of being.
 By trivializing many tasks, *AI* systems reveal that these tasks require far less intelligence than we thought.
-Furthermore, they might erupt a call for a transformation of the education system and the workplace, i.e., the construction of new values in both areas.
+Furthermore, they might erupt a call for a transformation of the education system and the workplace, i.e., the construction and fostering of new values in both areas.
 
 So, what is left to value?
 When we are discussing *AI*, we immediately look at the impending replacement of workers as something to fear because we always focus on the output of work.
