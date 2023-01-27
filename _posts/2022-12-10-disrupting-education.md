@@ -443,11 +443,11 @@ We need to earn money to pay the rent and to heat our homes, and we need a smoot
 But we must be more sustainable with our planet, society, and minds.
 Not by optimizing our life by introducing yet another optimization in the form of leisure but by being in a state of *free play*, at least sometimes.
 It seems almost obvious that *consumption* as the guiding principle, i.e., fast food, fast fashion, fast travel, fast reading, fast watching and, of course, fast learning, has to be dethroned.
-Learning for the next exam, learning to make a profit, and learning to work with one tool specifically are all valid goals but not sustainable.
+Learning for the next exam, learning to make a profit, and learning to work with one tool specifically are all valid goals but they are not sustainable.
 They are reactionary goals of mostly restless minds.
 
 So if my assessment is correct, then, aside from all the downsides, this disruption might lead to something positive, e.g., to an education system that is less concerned with the output and more concerned with the mode of being; an education system that is less interested in rules and more interested in concepts, intuitions, and experimentations; 
 an education system that asks questions instead of repeating answers;
 an education system that is interested in making the experience of everyone richer and more sustainable.
 
-Teachers, whe are often overworked and underpaid, need support to achieve such a shift.
+Teachers, who are often overworked and underpaid, need support to achieve such a shift.
