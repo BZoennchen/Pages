@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2023-01-27T10:17:12+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2023-01-27T10:23:04+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
 Furthermore, I am not an expert on the issue.
@@ -398,12 +398,12 @@ There are many exceptions.
 Furthermore, by no means shall we blame the students.
 They do what they ought to do.
 They play the system.
-It is not the student’s fault.
+It is not the student’s fault since a bad grade can have real material consequences.
 It is a systematical problem, a conflict between <em>instrumental</em> and <em>free play</em>, and <em>ChatGPT</em> illustrates it more clearly.
 If <em>ChatGPT</em> is able to write the necessary and impressively boring description of a new course for me, I take it as a positive.
 If it let’s me automatically create my next assignment in seconds, I can spend time on more interesting modes of being.
 By trivializing many tasks, <em>AI</em> systems reveal that these tasks require far less intelligence than we thought.
-Furthermore, it calls for a transformation of the education system and the workplace, i.e., new values in both areas.</p>
+Furthermore, they might erupt a call for a transformation of the education system and the workplace, i.e., the construction of new values in both areas.</p>
 
 <p>So, what is left to value?
 When we are discussing <em>AI</em>, we immediately look at the impending replacement of workers as something to fear because we always focus on the output of work.
