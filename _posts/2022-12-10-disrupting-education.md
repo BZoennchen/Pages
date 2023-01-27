@@ -368,26 +368,26 @@ We may end up in a dystopian world similar to a *Brave New World*, written by *A
 ## Part II: The Impact on Education
 
 For a long time, we assumed that automation was the enemy of simple manual labor.
-But robotics advances slower than the more sophisticated information processing technique, e.g., machine learning.
-This could mean that in the future, there is only a tiny portion of intellectual work left which requires only the hand full of highly sophisticated workers.
+But robotics advances slower than the more sophisticated information processing techniques, e.g., machine learning.
+This could mean that in the future, there is only a tiny portion of intellectual work left which requires only a hand full of highly sophisticated workers.
 It might be manual work that will regain attraction in the market.
 Of course, this is all speculation.
 
-*ChatGPT* is only the first version of such kind of *AI*.
+*ChatGPT* is only one of many upcoming version of *generative AI*.
 Even though it has flaws and makes many errors, it will improve over time.
-There is no reason to believe that *AI* will not be capable of doing all the repetitive intellectual work of the future.
-This will heavily affect education, similar to the invention of the internet.
-However, it is not a graduate slope; instead, the technology is already here.
+There is no reason to believe that *AI* will not be capable of doing all the repetitive intellectual work of the future and this will heavily affect education, similar to the invention of the internet.
+However, since regulators and administrators are rather indolent, it is not a graduate slope; instead, the technology is already here and we are not prepared.
 It appeared in a blink of an eye, and we have to deal with it now.
 
-Students will learn to use it in less than two years.
+Students will learn to use it in less than a year.
 Most educators will require much more time even to acknowledge it.
 Moreover, adapting the education system to it will require even more time.
 Furthermore, while all this adaptation is happening, new *tools of disruption* will be invented.
 As I already pointed out in [Creative Artificial Intelligence]({% post_url 2022-06-21-creative-artifical-intelligence %}), *the speed of disruption* is accelerating.
 
 To me, *AI* acts as an insult to the human species.
-It challenges our humanistic viewpoint, and to call these information processing systems *artificial intelligence* reveals this viewpoint.
+It challenges our humanistic viewpoint.
+In fact, calling these information processing systems *artificial intelligence* reveals this viewpoint.
 I am not so much impressed by *AI* as I am disenchanted by the output of most human activities.
 We are far more predictable than we still think we are.
 It is not so much that *ChatGPT* is so good at writing essays; instead, we are so bad at it.
