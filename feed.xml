@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2023-01-27T10:09:53+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io//Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io//Pages/" rel="alternate" type="text/html" /><updated>2023-01-27T10:17:12+01:00</updated><id>https://bzoennchen.github.io//Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io//Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
 Furthermore, I am not an expert on the issue.
@@ -380,17 +380,18 @@ We are far more predictable than we still think we are.
 It is not so much that <em>ChatGPT</em> is so good at writing essays; instead, we are so bad at it.
 But aren’t we used to these insults?
 The earth is not the center of the universe; it is not even the center of our solar system.
-God is dead, and today we might realize our work is not as creative as we thought.
-Instead, it is a rule-based repetition with slight variations, which is precisely what we teach students and what they oddly desire.</p>
+God is dead, and today we might realize that our products are not the result of a highly creative process.
+Instead, most intelectual work is a rule-based repetition with slight variations, which is precisely what we teach students and what they oddly desire.</p>
 
 <p><em>AI</em>, such as <em>ChatGPT</em>, points to a long, unhidden problem: our education system is (in part) a training pipeline of a neural network.
 It teaches emotionally detached students to remember specific rules such that they can apply them in the next exam to get a good grade – functioning and repeating instead of thinking and creating.
 It is horrifying that one of the most questions students in the first semester ask is: how will the exam look like? Is this topic relevant to the exam?
 Students demand a list of actions they ought to do to get an A with certainty.
-And they will cheat the system wherever possible if it will bring them closer to that goal.
+And they will cheat the system wherever and whenever possible if it brings them closer to that goal.
 Most students are not fascinated by the endless playground of reality.
 They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-paid job.
-And let’s not forget that the teachers of the future are the students of today.</p>
+They often act out of fear instead of curiosity.
+And let’s not forget that teachers of the future are the students of today.</p>
 
 <p>Of course, this is a massive generalization.
 There are many exceptions.
