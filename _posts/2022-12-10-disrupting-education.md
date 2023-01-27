@@ -357,7 +357,7 @@ Of course, I did not play around for very long, but it is hard to get something 
 
 Neutrality is undoubtedly desirable, especially if you want to earn money with it, but it is also non-existing.
 In my opinion, it is impossible to be neutral.
-At best, we can land on a consensus and the most, let's say, an accepted consensus is what we call neutral or objective.
+At best, we can land on a consensus and the most, let's say, accepted consensus is what we call neutral or objective.
 I mean, even a dictionary is loaded with perspectives, and so is any technology. 
 Since *ChatGPT* pushes for neutrality it creates an illusion of it.
 
