@@ -422,16 +422,18 @@ So, what is left to value?
 When we are discussing *AI*, we immediately look at the impending replacement of workers as something to fear because we always focus on the output of work.
 There is a necessity that workers produce something economically valuable, something to sell.
 The only space for creating for the sake of it is our hobbies.
-Biased by our current system of values, we intuitively think of reinventing something as stupid.
+Biased by our current system of values, we intuitively think of reinventing or rediscovering something as stupid or wasteful.
 Why would you do such a thing?
 Why would you code yet another linked list?
-It could be more optimal.
+There are already thousand optimal implementions out there.
 You are wasting your valuable time and potential.
 And if we look at an *AI* generated image, we conclude that artists will now have troubles in the free market (if they do not adapt), which is true.
 The act of repetition (which is highly needed to learn anything) is valued chiefly as long as it leads to something new and productive (in an economic sense).
 However, if we put aside economics and dream a little bit of a world where we have time to create, then the output of a creative process no longer matters so much.
+We do not learn the piano to earn money, or to produce something completly new for an audience.
+We learn the piano because we want to to play. 
 It might be the experience -- the journey of being in time and space -- that matters.
-And that experience is a singularity and can not be replicated by a machine.
+And this being is a singularity and can not be replicated by a machine.
 Understanding how a linked list works can be fascinating.
 Why don't we value that moment of fascination?
 
