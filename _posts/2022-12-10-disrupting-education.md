@@ -363,7 +363,7 @@ Since *ChatGPT* pushes for neutrality it creates an illusion of it.
 
 Last but not least, its politeness makes it kind of scary.
 It reminds me of these overcarrying *AIs* from science fiction movies that will gently eradicate all life to make everything safe and secure.
-Or the dystopian novel *Brave New World* by *Aldous Huxley*, where everyone is seduced into happiness.
+We may end up in a dystopian world similar to a *Brave New World*, written by *Aldous Huxley*, where everyone is seduced into happiness.
 
 ## Part II: The Impact on Education
 
