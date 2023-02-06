@@ -1,0 +1,114 @@
+// Placeholder to allow defining custom styles that override everything else.
+// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// not working?!
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: $headline-font-family;
+  }
+
+    /**
+   * Blockquotes
+   */
+  blockquote {
+    border-left: 4px solid $quote-border;
+    padding-left: $spacing-unit / 2;
+  }
+
+  .svg-icon {
+    width: 16px;
+    height: 16px;
+    padding: 5px 3px 2px 5px;
+  }
+
+  .social-media-list {
+    li {
+      a {
+        padding: $spacing-unit / 4;
+      }
+    }
+  }
+
+.post-content {
+  h1, h2, h3 { margin-top: $spacing-unit * 2 }
+  h4, h5, h6 { margin-top: $spacing-unit }
+
+  h2 {
+    @include relative-font-size(1.5);
+
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.7);
+    }
+  }
+}
+
+h3 {
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(1.525);
+  }
+}
+
+.social-media-list {
+  li {
+    a {
+      padding: $spacing-unit / 4;
+    }
+  }
+}
+
+.post-content h1 {
+  @include relative-font-size(2.2);  
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2.2);
+  }
+}
+
+.site-title {
+  @include relative-font-size(1.325);
+}
+
+  /**
+   * custom 
+   */
+  .tag-list {
+    font-size: $small-font-size;
+    color: $brand-color;
+  }
+
+.site-footer {
+    border-top: 1px solid #788999;
+    padding: 10px 0;
+}
+
+.page-content {
+  background-color: $page-content-background-color;
+}
+
+.highlight-entry img.teaser {
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 7em;
+    margin-right: 1em;
+    margin-top: 1rem;
+    border-radius: 20%;
+    //border-color: $dm-background-color;
+    //border-width:0.31em;
+    //border-style: solid;
+}
+
+.flexfill {
+  display: flex;
+  flex-flow: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  @media (min-width: 500px) {
+    flex-flow: row;
+    justify-content: space-between;
+    &>.grow{
+      flex-grow: 1;
+    }
+  }
+}
+
+/*.site-nav {
+  font-family: Arial, Helvetica, sans-serif;
+}*/

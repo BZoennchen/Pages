@@ -3,7 +3,7 @@ const sierpinksi = (sketch) => {
 	let drawings = [];
 	let counter = 0;
 	const maxDept = 10;
-	let backgroundColor = 253;
+	let backgroundColor = BACKGROUND_COLOR;
 	let frameCount = 0;
 	const width = 600;
 	const height = 600;

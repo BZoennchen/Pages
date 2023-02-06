@@ -45,18 +45,19 @@ class Face {
     }
 
     draw(sketch) {
-        sketch.stroke(255 * this.color, 200, 150);
-        sketch.fill(255 * this.color, 200, 150);
+        sketch.stroke(255 * this.color, 200, 200);
+        sketch.fill(255 * this.color, 200, 200);
 
         for (var i = this.lastSize; i < this.positions.length; i++) {
             var vector = this.positions[i];
-            sketch.point(vector.x, vector.y);
+            sketch.rect(vector.x - 1, vector.y - 1, 1, 1)
+            //sketch.point(vector.x, vector.y);
         }
 
         //fill(255,255,255);
         sketch.stroke(0, 0, 0);
         sketch.fill(0, 0, 0);
-        sketch.strokeWeight(5);
+        sketch.strokeWeight(7);
         sketch.point(this.center.x, this.center.y);
         sketch.strokeWeight(1);
 

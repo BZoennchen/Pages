@@ -1,5 +1,5 @@
 const collisions = (sketch) => {
-	let backgroundColor = 253;
+	let backgroundColor = BACKGROUND_COLOR;
 	let width;
 	let height;
 	let maxMass;
@@ -20,10 +20,12 @@ const collisions = (sketch) => {
 	sketch.setup = () => {
 		width = 740;
 		height = 600;
+		//backgroundColor = BACKGROUND_COLOR;
 		myCanvas = sketch.createCanvas(width, height);
 		myCanvas.parent("p5-collisions");
 		sketch.colorMode(sketch.RGB, 255);
 		sketch.fill(backgroundColor);
+		sketch.background(backgroundColor);
 		sketch.colorMode(sketch.HSB, 360, 100, 100);
 
 		maxMass = 150;
@@ -58,7 +60,7 @@ const collisions = (sketch) => {
 
 		sketch.colorMode(sketch.RGB, 255);
 		sketch.fill(backgroundColor);
-		sketch.background(backgroundColor)
+		sketch.background(backgroundColor);
 		sketch.colorMode(sketch.HSB, 360, 100, 100);
 
 		let delta = 0.1;

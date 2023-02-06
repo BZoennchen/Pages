@@ -29,6 +29,8 @@ Computer Science (M. Sc.)<br>
 Computer Science (B. Sc.)<br>
 *Thesis:* Navigation Around Pedestrian Groups and Queueing using a Dynamic Adaption of Travelling Times in the Fast Marching Algorithm ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
 
+***
+
 ## Non-Academic Job History
 
 **08/2020 - 01/2022** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
@@ -44,6 +46,8 @@ Web Developer<br>
 **09/2005 - 07/2008** | [Siemens AG](https://www.siemens.com/de/de.html), Munich, Germany<br>
 Software Developer (Education)<br>
 
+***
+
 ## Research Interests
 + Free and Open Education in the Digital Era
 + Modelling and Simulation
@@ -58,6 +62,8 @@ Software Developer (Education)<br>
 + Chess
 + Music Theory
 + Constructivism
+
+***
 
 ## Scholarships & Awards
 
@@ -75,6 +81,8 @@ Software Developer (Education)<br>
 
 **2013** | [RiMEA Sponsorship Award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
 (Computer Science and Mathematics [MUAS](https://www.cs.hm.edu/en/home/index.en.html))<br>
+
+***
 
 ## Publications
 
@@ -126,6 +134,8 @@ Detecting Arbitrarily Shaped Queues Using the Fast Marching Method,<br>
 Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation.<br>
 In *Transportation Research Procedia*,<br>
 DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
+
+***
 
 ## Teaching
 

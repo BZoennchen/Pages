@@ -1,5 +1,5 @@
 const tree = (sketch) => {
-    const backgroundColor = 253;
+    const backgroundColor = BACKGROUND_COLOR;
 
     const dept = 8;
     const branchLengthReduction = 0.88;
@@ -67,7 +67,7 @@ const tree = (sketch) => {
             let len = bstart.copy().sub(bend).mag();
             sketch.strokeWeight(sketch.max(0.1, 8 * sketch.pow(len/maxLen, 4)));
             sketch.noFill();
-            sketch.stroke(0, 0, 0, sketch.map(len, 0, initialHeight, 10, 200));
+            sketch.stroke(222, 222, 222, sketch.map(len, 0, initialHeight, 10, 200));
             sketch.line(bstart.x, bstart.y, bend.x, bend.y);
         }
     };

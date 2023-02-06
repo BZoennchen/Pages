@@ -3,9 +3,8 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-# {{ page.title }}
 
-**Imports:** [vCard]({% link /assets/files/benedikt_zoennchen.vcf %})
+**Export:** [vCard]({% link /assets/files/benedikt_zoennchen.vcf %})
 
 **E-mail:** <a href="mailto:{{ 'zoennchen.benedikt@hm.edu' | encode_email }}" title="General">work</a>, <a href="mailto:{{ 'benedikt.zoennchen@web.de' | encode_email }}" title="General">private</a> 
 

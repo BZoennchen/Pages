@@ -22,31 +22,71 @@ title: Bene's Blog
 email: benedikt.zoennchen@web.de
 description: A blog dedicated to computer science, education, music, philosophy and technology
 baseurl: "/Pages" # the subpath of your site, e.g. /blog
-url: "https://bzoennchen.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: BZoennchen5
+url: "https://bzoennchen.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: BZoennchen
 github_username:  BZoennchen
 tagline: A blog dedicated to computer science
+author:
+  name: Benedikt Zönnchen
+  copyright-year: 2020
+  email: benedikt.zoennchen@web.de
+
+collections:
+  software:
+    output: true
+  writings:
+    output: true
+  animations:
+    output: true
+
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: classic
-
-  # generate social links in footer
+  skin: dark
   social_links:
-    twitter: BZoennchen
-    github:  BZoennchen
-    orcid: 0000-0002-0764-2669
-    google_scholor_user: itB89wUAAAAJ
-    youtube_channel: UCFqv61UVSmI0h_az5cLV5gQ
-    youtube_channel_name: BZoennchen
-    mastodon:
-    - username: BZoennchen
-      instance: mastodon.social
+  #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+    - platform: mastodon
+      user_url: "https://mastodon.social/@BZoennchen"
+      title: Mastodon
+    - platform: github
+      user_url: "https://github.com/BZoennchen"
+      title: GitHub
+    - platform: youtube
+      user_url: "https://www.youtube.com/channel/UCFqv61UVSmI0h_az5cLV5gQ"
+      title: YouTube
+    - platform: google_scholar
+      user_url: "https://scholar.google.de/citations?user=itB89wUAAAAJ"
+      title: Scholar
+    - platform: orcid
+      user_url: "https://orcid.org/0000-0002-0764-2669"
+      title: ORCIC
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+  #social_links:
+  #  twitter: BZoennchen
+  #  github:  BZoennchen
+  #  orcid: 0000-0002-0764-2669
+  #  google_scholor_user: itB89wUAAAAJ
+  #  youtube_channel: UCFqv61UVSmI0h_az5cLV5gQ
+  #  youtube_channel_name: BZoennchen
+  #  mastodon:
+  #  - username: BZoennchen
+  #    instance: mastodon.social
 author:
   name: Benedikt Zönnchen
   email: benedikt.zoennchen@web.de
 # Build settings
-remote_theme: jekyll/minima@4df270bf2cfa3e5fd6fdac54eb43bc93fdb09ef4
+#remote_theme: jekyll/minima@4df270bf2cfa3e5fd6fdac54eb43bc93fdb09ef4
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -54,11 +94,12 @@ plugins:
   - jekyll-email-protect
   - jekyll-remote-theme
   - jekyll-seo-tag
-defaults:
-  - scope:
-    path: "assets/files"
-    image: false
+  - jekyll-highlight-param
 
+#defaults:
+#  - scope:
+#    path: "assets/files"
+#    image: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.

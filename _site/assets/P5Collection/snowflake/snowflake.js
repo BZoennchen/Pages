@@ -1,5 +1,5 @@
 const snwoflake = (sketch) => {
-	const BACKGROUND_COLOR = 253;
+	//const BACKGROUND_COLOR = 253;
 	let branch;
 	const colors = ['#03001B', '#2F109D', '#000000', '#FC5555', '#3C3C5A', '#6200FF', 'C6C6C6']
 
@@ -29,7 +29,7 @@ const snwoflake = (sketch) => {
 	sketch.draw = () => {
 		sketch.translate(sketch.width/2,sketch.height/2);
 		sketch.background(BACKGROUND_COLOR);
-		let c = sketch.color(0);
+		let c = sketch.color(MY_READ);
 		sketch.stroke(c._getRed(), c._getGreen(), c._getBlue(), alpha);
 		for (let i=0;i<parts;i++){
 			branch.draw(sketch);

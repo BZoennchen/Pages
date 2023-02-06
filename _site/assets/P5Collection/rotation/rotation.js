@@ -28,7 +28,7 @@ const rotation = (sketch) => {
 	sketch.setup = () => {
 		canvas = sketch.createCanvas(width, height);
 		canvas.parent('p5-rotation');
-		sketch.background(100);
+		sketch.background(BACKGROUND_COLOR);
 		right = sketch.generateLines(rad1 / 2, length1 / 2, freq1 * 5, n1, 1.0);
 		outer = sketch.generateLines(rad1, length1, freq1, n1, 1.0);
 		inner = sketch.generateLines(rad2, length2, freq2, n2, -1.5);
@@ -41,8 +41,8 @@ const rotation = (sketch) => {
 			capturer.start();
 		}*/
 
-		sketch.background('#fdfdfd');
-		sketch.stroke(0);
+		sketch.background(BACKGROUND_COLOR);
+		sketch.stroke(222, 222, 222);
 		//text("Click the left mouse button to change the outer rotators", windowWidth/2-150, 70);
 		//scale(0.3,0.3)
 		sketch.translate(width / 2, height / 2);

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Probabilistic Melody Modelling"
+title:  "Probabilistic Melody Modeling"
 tags: Music Sonic-Pi AI
 comments: true
 ---

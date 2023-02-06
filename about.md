@@ -3,9 +3,8 @@ layout: default
 title: About
 permalink: /about/
 ---
-# {{ page.title }}
 
-<div><img style="float: right;height:205px;" src="{% link /assets/images/BZoennchen.JPG %}" alt="Photo"></div>
+<div><img style="float: right;height:205px;border-radius: 50%;" src="{% link /assets/images/BZoennchenMUCDAI.JPG %}" alt="Photo"></div>
 
 Welcome, everyone! 
 I'm Benedikt.

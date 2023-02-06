@@ -24,48 +24,22 @@ const fire = (sketch) => {
         sketch.windowWidth = w * cellSize;
         sketch.windowHeight = h * cellSize;
         myCanvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
-        //cellSize = sketch.min(sketch.floor(sketch.windowHeight / h), sketch.floor(sketch.windowWidth / w));
         colors = [sketch.color(180, 180, 180), // street => 0
-            sketch.color(138, 98, 74), // ash => 1
+            sketch.color(BACKGROUND_COLOR), // ash => 1
             sketch.color(40, 93, 52), // tree => 2
-            sketch.color(200, 20, 0)
+            sketch.color('#CC2200')
         ]; // fire => 3
         grid = sketch.initGrid();
         sketch.background(colors[1]);
-        //sketch.strokeWeight(0.3);
     }
 
     sketch.draw = () => {
-        /*if (sketch.frameCount === 1) {
-            capturer.start();
-        }*/
-        //background(220);
         prevGrid = grid;
         grid = sketch.updateGrid();
         sketch.drawGrid();
-
-        /*capturer.capture(myCanvas.canvas);
-        if (sketch.frameCount === 400) {
-            sketch.noLoop();
-            capturer.stop();
-            capturer.save();
-        }*/
     }
 
     sketch.drawGrid = () => {
-        /*sketch.loadPixels();
-        let d = sketch.pixelDensity();
-        for (var i = 0; i < h; i++) {
-            for (var j = 0; j < w; j++) {
-                index = 4 * i * sketch.width * d + (4 * j)
-                c = colors[grid[i][j]];
-                sketch.pixels[index] = sketch.red(c);
-                sketch.pixels[index + 1] = sketch.green(c);
-                sketch.pixels[index + 2] = sketch.blue(c);
-                //pixels[index + 3] = alpha(c);
-            }
-        }
-        sketch.updatePixels();*/
         sketch.noStroke();
         for (var i = 0; i < h; i++) {
             for (var j = 0; j < w; j++) {

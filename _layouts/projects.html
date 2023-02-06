@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<h1>Software</h1>
+
+{% for software in site.software %}
+<div class="flexfill highlight-entry">
+    <img class="teaser" src="{{ "/assets/images/" | relative_url }}{{ software.image }}" alt="Collisions">
+    <div class="grow">
+        <h3><a href="{{ software.url | relative_url}}"> {{ software.title }}</a></h3>
+        <p>
+            {{ software.description }}
+        </p>
+    </div>
+</div>
+{% endfor %}
+
+<hr>
+<br>
+<h1>Books</h1>
+
+{% for writing in site.writings %}
+<div class="flexfill highlight-entry">
+    <img class="teaser" src="{{ "/assets/images/" | relative_url }}{{ writing.image }}" alt="Collisions">
+    <div class="grow">
+        <h3><a href="{{ writing.url | relative_url}}"> {{ writing.title }}</a></h3>
+        <p>
+            {{ writing.description }}
+        </p>
+    </div>
+</div>
+{% endfor %}
+
+<hr>
+<br>
+<h1>Animations</h1>
+
+{% for sketch in site.animations %}
+<div class="flexfill highlight-entry">
+    <img class="teaser" src="{{ "/assets/images/" | relative_url }}{{ sketch.image }}" alt="Collisions">
+    <div class="grow">
+        <h3><a href="{{ sketch.url | relative_url}}"> {{ sketch.title }}</a></h3>
+        <p>
+            {{ sketch.description }}
+        </p>
+    </div>
+    
+</div>
+{% endfor %}

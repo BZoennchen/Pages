@@ -1,0 +1,2 @@
+const BACKGROUND_COLOR = 40;
+const MY_READ = '#FC5555';
