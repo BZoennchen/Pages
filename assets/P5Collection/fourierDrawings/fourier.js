@@ -13,7 +13,7 @@ const foruier = (sketch) => {
     sketch.setup = () => {
         canvas = sketch.createCanvas(width, height);
         canvas.parent('p5-fourier');
-        sketch.background(253);
+        sketch.background(BACKGROUND_COLOR);
         slider = sketch.createSlider(1, 20, 2);
         //slider.position(200, 200, sketch.sticky);
         sel = sketch.createSelect();
@@ -71,14 +71,14 @@ const foruier = (sketch) => {
     }
 
     sketch.drawCircle = (prevx, prevy, radius) => {
-        sketch.stroke(0, 100);
+        //sketch.stroke(MY_READ);
         sketch.noFill();
         sketch.ellipse(prevx, prevy, radius * 2);
     }
 
     sketch.drawLine = (prevx, prevy, x, y) => {
         sketch.fill(0);
-        sketch.stroke(0);
+        //sketch.stroke(MY_READ);
         //ellipse(x, y, 8);
         sketch.line(prevx, prevy, x, y);
     }
@@ -148,14 +148,14 @@ const foruier = (sketch) => {
     }
 
     sketch.draw = () => {
-        sketch.background('#fdfdfd');
+        sketch.background(BACKGROUND_COLOR);
         if (reset) {
             reset = false;
             path = [];
         }
 
         sketch.translate(150, 100);
-        sketch.stroke(0);
+        sketch.stroke(MY_READ);
         sketch.noFill();
 
         let x = 0;

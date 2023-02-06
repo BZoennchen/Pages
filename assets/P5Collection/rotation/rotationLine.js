@@ -22,7 +22,7 @@ class RotationLine {
         let p2 = sketch.createVector(vector.x + sketch.cos(g) * this.length * 0.5, vector.y + sketch.sin(g) * this.length * 0.5);
         let rad = 2.5;
         sketch.line(p1.x, p1.y, p2.x, p2.y);
-        sketch.fill(100);
+        sketch.fill(MY_READ);
         sketch.ellipse(p1.x, p1.y, 2 * rad, 2 * rad);
         sketch.ellipse(p2.x, p2.y, 2 * rad, 2 * rad);
     }

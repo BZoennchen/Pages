@@ -11,8 +11,8 @@ const temperature = (sketch) => {
     const FIRST_YEAR = 1880;
     const FONT_SIZE = 40;
     const NUMBER_OF_MONTH = 12;
-    const BACKGROUND_COLOR = 253;
-    const FONT_COLOR = 50;
+    //const BACKGROUND_COLOR = 253;
+    const FONT_COLOR = 222;
 
     let ANGLE_SPPED = 1.0;
 
