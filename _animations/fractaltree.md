@@ -6,7 +6,7 @@ image: animations/tree.png
 permalink: /works/tree/
 ---
 
-# Fractal Tree
+# {{ page.title }}
 
 The following sketch displays a randomly generated tree. It is generated recursively using simple rules:
 

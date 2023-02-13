@@ -6,7 +6,7 @@ image: animations/sfc.png
 permalink: /works/sierpinski/
 ---
 
-# Space-filling Curve
+# {{ page.title }}
 
 Illustration of Sierpiński's space-filling curve in two dimensions. It is a mapping 
 

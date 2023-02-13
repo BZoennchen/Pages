@@ -1,12 +1,12 @@
 ---
 layout: p5js-collection
-title: Perpendicular Symmetric Parallel Branching
+title: Perpendicular Parallel Branching
 description: An animation that can be categorized as pure generative art.
 image: animations/flake.png
 permalink: /works/snowflake/
 ---
 
-# Symmetric Parallel Branching
+# {{ page.title }}
 
 The following animation is pure *generative art*.
 It starts with a single line that branches with a certain probability.

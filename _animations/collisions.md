@@ -2,11 +2,11 @@
 layout: p5js-collection
 description: 'A set of randomly initialized partiles that move inside a two-dimensional box. Each particle is initialized with some mass, position, and velocity. The color of the particle indicates its speed and its size indicates its mass.'
 image: animations/collision.png
-title: Space-filling Curve
+title: Elastic Collisions
 permalink: /works/collisions/
 ---
 
-# Elastic Collision
+# {{ page.title }}
 
 A set of randomly initialized partiles move inside a two-dimensional box.
 Each particle $$p_i$$ is initialized with some mass $$m_i$$, position $$\mathbf{x}_i$$, and velocity $$\mathbf{v}_i$$.

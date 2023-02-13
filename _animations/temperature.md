@@ -6,7 +6,7 @@ image: animations/temperature.png
 permalink: /works/temperature/
 ---
 
-# Monthly Global-mean Temperatures
+# {{ page.title }}
 
 The following is a plot of the monthly global-mean temperatures {% cite lenssen:2019 %}, {% cite hansen:2010 %}. One cycle represents one year. It shows how the mean temperature is getting out of control. By left-clicking, you can restart the animation.
 

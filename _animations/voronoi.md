@@ -6,7 +6,7 @@ image: animations/voronoi.png
 permalink: /works/voronoi/
 ---
 
-# Discrete Voronoi Diagram
+# {{ page.title }}
 
 Illustration of a flooding algorithm that computes the discrete Voronoi diagram of some random points.
 The Voronoi diagram is the dual of the Delaunay triangulation.

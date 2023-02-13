@@ -6,7 +6,7 @@ image: animations/fire.png
 permalink: /works/fire/
 ---
 
-# Forest Fire Simulation
+# {{ page.title }}
 
 The following simulation is a running cellular automaton on a grid using the Von Neumann neighborhood.
 A cell is either (1) empty (highlighted in brown), (2) occupied by a tree (highlighted in green) or burning (highlighted in red).

@@ -6,7 +6,7 @@ image: animations/rotation.png
 permalink: /works/rotation/
 ---
 
-# Rotating Lines
+# {{ page.title }}
 
 Multiple lines rotate around their midpoint.
 The rotation creates the illusion of movement around a circle!

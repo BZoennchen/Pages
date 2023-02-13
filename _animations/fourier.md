@@ -6,7 +6,7 @@ image: animations/fourier.png
 permalink: /works/fourier/
 ---
 
-# Fourier Drawing
+# {{ page.title }}
 
 This animation is inspired by the work of [Daniel Shiffman](https://shiffman.net/) and his tutorial [Drawing with Fourier Transform and Epicycles](https://www.youtube.com/watch?v=MY4luNgGfms), as well as the excellent explanation of the Fourier analysis done by [Grant Sanderson](https://www.3blue1brown.com/about) in the video [But what is a Fourier series?](https://www.youtube.com/watch?v=r6sGWTCMz2k).
 
