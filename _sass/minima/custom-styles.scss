@@ -33,19 +33,21 @@
   h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
-    @include relative-font-size(1.5);
+    @include relative-font-size(1.6);
 
     @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.7);
+      @include relative-font-size(2.1);
+    }
+  }
+
+  h3 {
+    @media screen and (min-width: $on-large) {
+      @include relative-font-size(1.6);
     }
   }
 }
 
-h3 {
-  @media screen and (min-width: $on-large) {
-    @include relative-font-size(1.525);
-  }
-}
+
 
 .social-media-list {
   li {
