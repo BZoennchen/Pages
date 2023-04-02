@@ -1,4 +1,468 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-03-19T18:39:40+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-04-02T18:43:56+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part I</title><link href="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html" rel="alternate" type="text/html" title="Musical Interrogation - Part I" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html"><![CDATA[<blockquote>
+  <p>Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)</p>
+</blockquote>
+
+<p>In this series of posts, I will talk about melody generation using <em>machine learning</em>. I start by reflecting on computer music. Furthermore, I give a short and selective overview of some techniques to generate melodies that captured my interest, focusing on <em>recurrent neural networks (RNN)</em> to generate <em>monophonic</em> melodies for now.</p>
+
+<p>I intend to build an interactive system that facilitates the musical dialog between humans and machines. In the end, a user should be able to interrogate the machine learning model such that an evaluation of the model’s ability is possible and maybe – a big maybe – users can enhance their creative process.</p>
+
+<h2 id="reflection-on-computer-music">Reflection on Computer Music</h2>
+
+<p>Due to the recent advances in <em>machine learning</em>, especially in the domain of <em>deep learning</em>, <em>computer music</em> is regaining attraction.
+What started in the early 1960th, when <em>rule-based</em> methods such as <em>Markov chains</em>, <em>hidden Markov models (HMM)</em>, <em>generative grammars</em>, <em>chaotic systems</em>, and <em>cellular automata</em> were applied to generate musical compositions, slowed down over the years.
+Of course, since then, computers have always accompanied music production, but algorithms have taken a backseat when it comes to the structure of music itself.
+Today, a reinvigoration of <em>computer music</em> might happen, but what will be at the forefront?
+The algorithm? The artist? Or a massive amount of data?</p>
+
+<p>In his book <em>Algorithmic Composition: Paradigms of Automated Music Generation</em> <a class="citation" href="#nierhaus:2010">(Nierhaus, 2009)</a> <em>Gerhard Nierhaus</em> makes an essential distinction between <strong>genuine composition</strong> and <strong>style imitation</strong>.
+This terminology can bring nuances into the discussion around machines, algorithms, and data replacing human creativity.</p>
+
+<p><strong>Style imitation</strong> is more applicable when music is not the main focus of interest but amplifies or accompanies something else, e.g., ads, computer games, or movies.
+In a computer game, you want music that captures the dynamic situation of the game; thus, surprises are undesirable.</p>
+
+<p><strong>Genuine composition</strong> appeals more to the artist who wants to play, experiment, and break things or criticize narratives.
+<em>Genuine composition</em> seduces the audiance’s desire for experimentation, confrontation, and reflection on something new and unexpected.</p>
+
+<p>While <em>genuine composition</em> carries much novelty, <em>style imitation</em> can be categorized into a set of preexisting styles of musical compositions.
+The results generated by different techniques lean more or less towards one or the other.
+For example, compositions generated by <em>Markov chains</em> (see <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>) lean more towards <em>style imitation</em> since the model samples from a learned distribution to estimate the structure of a particular composition.
+On the other hand, using <em>cellular automata</em> is a technique more suited for <em>genuine composition</em> because no learning is involved.
+Instead, <em>cellular automata</em> are <em>dynamic systems</em> capable of complex emergent behavior that can not be explained by solely looking at the parts of the system.
+Of course, there is no black and white.
+Instead, each composition or technique lives on a spectrum, and it might be impossible to decide where exactly.
+If a <em>machine learning model</em> learns some non-obvious high-level structure, i.e., a probability distribution, from its training data, does this yield novelty or not?
+It depends, I guess.</p>
+
+<p>However, this “problem” is old, isn’t it?
+Looking at the history of classical Western music, there are moments in time when it seemed that nothing was left to say and <em>style imitation</em> was inevitable.
+For example, after one of the most quintessential romantic composers, <em>Richard Wagner</em>, there were view possibilities left concerning tonal music.
+Consequently, the need for more chromaticism and dissonance was unavoidable, leading to the extreme case of Schönberg’s atonal compositions.</p>
+
+<p>Concerning <em>artificial intelligence</em>, our current century is an era of <em>deep learning models</em> for which model size, data, parameters, and training time are more important than the underlying algorithm.
+These models can combine, alter, and re-synthesis music from recorded history.
+This re-combination and alteration seem similar to human composers’ working process, which is primed by their environment, education, and culture.
+There is no doubt that these models can create music via <em>style imitation</em> but how good are they regarding <em>genuine composition</em>?
+Is not learning from existing data <em>style imitation</em> per definition?
+Well, again, even if all the data is known, one can argue that there are hidden high-level structures within the data that we are entirely unaware of.
+A prime example is discovering a new way to multiply small matrices found via <em>reinforcement learning</em> <a class="citation" href="#alhussein:2022">(Fawzi et al., 2022)</a>.</p>
+
+<p>If machines, revealing these structures, are creative is a question that can hardly be answered objectively, but, after all, the question might not be of great interest.
+I instead look at the human condition and ask what such machines mean for our being in the world.
+And here, we can say that if we do not try to understand our new black boxes, we rob ourselves of the experience of understanding, which, I think, is a fundamental desire.
+But at the same time, if we do not give up understanding but enhance it with machine power (seen as a tool), the reverse can be true.
+Beyond a lack of understanding, the lack of experienced practice is the more obvious loss we suffer.
+The uncomfortable mood I sometimes develop when the achievements of AI shimmer through my perception comes from a fear of losing my habituated being in the world.
+I ask myself: will machines write my code? Will I lose the enjoyment that I get out of coding?
+Will I lose my identity as a programmer?
+However, this loss has more to do with technology and economics.
+We think of technology as a natural evolutionary force that points towards a better future.
+And due to economic necessities, we have to adapt to stay productive.
+However, without the industrial revolution, I would never have been able to enjoy programming in the first place.
+Therefore, fear and excitement are reasonable reactions to this <em>time of disruption</em>.</p>
+
+<p>But let’s come back and go back to the actual topic.
+One of the challenges AI researchers face today is not so much the generation of novelty but the evaluation of it, especially in the case of aesthetics, which is somewhat subjective.
+Within the generative process, the machine has to “judge” if the piece is engaging.
+Otherwise, the whole process is nothing more than a sophisticated but impracticable random search through the space of all possible compositions.
+However, interest depends on the cultural context.
+Maybe Schönberg’s atonal, thus ungodly music, would not have attracted anybody in the 13. century.
+Judging if novelty is sensible seems to require an <em>embodiment</em> in the world.
+Therefore, as an art form, I find fully automated <strong>opaque</strong> music-generating systems that lack human interaction undesirable because they, in the end, lead to a mode of passive consumption.
+Instead, human intelligence is needed to bring <em>intentionality</em> into the composition.
+I imagine an interconnected relationship where <em>artificial communication</em> guides humans and machines to new places.</p>
+
+<p>Even though machines are still unable to develop intentionality of their own, composing is a partially rigorous and formal endeavor; thus, algorithms and machines can certainly help with realizing intentions.
+Contrary to popular belief, music and computer science / mathematics are much more related than they seem.
+And there is no reason to believe that algorithms can not only be aesthetically and intellectually beautiful but can also evoke emotions.</p>
+
+<p>However, <em>computer music</em> is diverse, and as an amateur, I should be careful in my assessment.
+I encountered <em>rule-centered computer music</em>, highly interactive <em>live programming</em> (which is also a movement), <em>real-time music generation</em>, <em>sonification</em>, and <em>data-centered computer music</em>.
+While <em>rule-centered music generation</em> is <em>transparent</em> and offers low-level control, <em>data-centered generation</em> is often <em>opaque</em> and offers only high-level control, at least up to this date.
+<em>Live programming</em> is highly interactive and relies on <em>real-time communication</em> between performer and audience as well as <em>real-time artificial communication</em> between performer and machine.</p>
+
+<p><em>Communication</em> between humans and machine excites me the most since it offers the possibility to reflect on algorithms, programs, machines, data, and technology in general and beyond analytical contemplation.
+Furthermore, learning from human feedback to calibrate generative models to how we experience the ups and downs, twists and turns in music by injecting <em>intentionality</em> in order to steer generative models to support storytelling might be the way to go.</p>
+
+<h2 id="melody-generation">Melody Generation</h2>
+
+<p>For the interested reader, the survey <em>AI Methods in Algorithmic Composition: A Comprehensive Survey</em> <a class="citation" href="#rodriguez:2014">(Rodriguez &amp; Vico, 2014)</a> and <em>A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions</em> <a class="citation" href="#shulei:2020">(Ji et al., 2020)</a> offer an excellent first overview of the different techniques up to the year 2014 and 2020, respectively.</p>
+
+<h3 id="a-difficult-problem">A difficult Problem</h3>
+
+<p>Let us first reflect on the question of why melody generation is tricky.
+First of all, in music, intervals are everything.
+It does not matter so much if one plays a C or B; what matters is the relation of notes within a piece, i.e., playing A-C or A-B.
+Intervals are so ingrained into music that musicians give them certain names such as <em>minor third</em>, <em>perfect fifth</em>, or <em>tritone</em> (the Devil’s tone).
+It is no coincidence that <em>major</em> and <em>minor</em> chords, as well as most <em>scales</em>, are asymmetrical because it gives each note a distinctive quality within a chord or a scale.</p>
+
+<p>In addition, this relation is multi-dimensional.
+We have melody, i.e., playing note after note horizontally, and harmony, i.e., vertical relations, for which we play notes together (chords).
+On top of that, what happens in measure 5 may directly influence what happens in measure 55, without necessarily affecting any of the intervening material.
+These relations can be all over the place and span a very long sequence!
+Good music hits a sweet spot between repetition and surprise, and landing on that spot is quite challenging.
+Together, these properties make melody (or polyphonic) generation hard.</p>
+
+<h3 id="the-music-generation-process">The Music Generation Process</h3>
+
+<p>Many artists and researchers took on the challenge, and <em>machine learning techniques</em> increasingly play an essential role.
+The learning and generation are based on two major categories of representations: either <strong>symbolic notation</strong> or <strong>performed pieces</strong> of music.</p>
+
+<p>Classical music and most other kinds of music as we know them came into being through the music generation process depicted in figure 1.
+Composers write a score that leads to the performing musicians (the execution of the score) who are exciting their instruments.
+This excitement causes the instrument to vibrate, and due to its physicality, it pushes air molecules around.
+Molecules bump into each other in some areas and tend to leave other areas – a displacement we call <em>wave</em>.
+In principle, the energy of the excitement travels outwards through the air to the listener’s ear.
+The information gets more and more concrete.
+While a score is an abstract representation, the sound caused by instruments is very concrete.
+It is, in fact, so concrete that it is different for every listener since each of us perceives sound slightly differently.</p>
+
+<p>Abstraction removes us from the messy reality and enables communication, but it also conceals the singularity of beings.
+Concerning <em>melody generation</em> we have to ask how much abstraction is justified.
+A score represented by a note sheet without any information about the dynamics is “more” <em>symbolic</em> or abstract than a note sheet that contains hints for the tempo and loudness.
+Raw audio material is far away from the much more abstract <em>symbolic notation</em> and a lived thorough performance is a singular event.</p>
+
+<p><br /></p>
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/music-gen-process.png" alt="Music generation process cell" />
+<div style="display: table;margin: 0 auto;">Figure 1: Music generation process.</div>
+</div>
+<p><br /></p>
+
+<p>Using <em>symbolic notation</em> is more accessible, but one loses the slight variations, dynamics, and other qualities that make the result feel so humanly made.
+However, composers who want to use <em>melody generation</em> to support their process might be happy to introduce these qualities by themselves.
+It is a question of application.
+The same is true for <em>the mono-</em> and <em>polyphonic</em> generations.
+Do we want to generate a full-fetched performance, a melody snippet (monophonic), or something in between?
+In this blog post, I will focus on the <em>monophonic</em> generation (one note at a time).</p>
+
+<h3 id="discrete-markov-models">Discrete Markov Models</h3>
+
+<p>In my post <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>, I used a <em>(discrete) first-order Markov chain (MC)</em> (also called <em>Markov process</em>) to generate melodies after learning the model from one piece of music.
+The approach was simple: translate the frequency of note transitions into probabilities. 
+For example, if the piece is defined by the note sequence A-B-B-A-C-A-B and the duration of each note is the same, then</p>
+
+\[P(X_{t+1} = B \ | \ X_{t} = A) = \frac{2}{3}, \quad P(X_{t+1} = C \ | \ X_{t} = A) = 1.0.\]
+
+<p>To determine which note comes next, we only look at the previous note, i.e. at a very narrow context.
+Using a <em>first-order Markov model</em>, one would estimate the probability of the melody (not considering note duration) A-B-F by</p>
+
+\[P(X_0 = A) \cdot P(X_1 = B \ | \ X_0 = A) \cdot P(X_2 = F \ | \ X_1 = B).\]
+
+<p>In this example, a state is defined by a note, e.g. A.</p>
+
+<p><em>Hidden Markov models (HMM)</em> are <em>Markov chains</em> with <em>hidden states</em>.
+There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
+The current hidden state \(Z_t\) <em>emits</em> an <em>observation</em> \(X_t\).
+In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one <strong>distribution</strong> of observations to the next, e.g. from one distribution of notes to the next!</p>
+
+<p>For example, imagine a prisoner who has to estimate the outside weather (<em>hidden state</em>) by observing the dirt on the guard’s boots (<em>emissions</em>).
+If he knows all the probability transitions (e.g., from sunny to rainy, sunny to dirty on boots, etc.) and existing states, the prisoner could model the problem by an HMM, compare Figure 2.</p>
+
+<p><br /></p>
+<div style="justify-content: center;margin:0 auto;width:100%;">
+<img style="width:70%; display: block;margin-left: auto;margin-right: auto;" src="/Pages/assets/images/hmm-example-prison.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 2: Hidden Markov model with 2 hidden states (sunny, rainy) and 2 observation variables (clean, dirty). The initial state is either sunny or rainy with 0.5 probability.</div>
+</div>
+<p><br /></p>
+
+<p>The prisoner could ask: given the HMM and an observation sequence \(X_0, \ldots, X_n\), what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
+One could also ask: what are the hidden states \(Z_0, \ldots, Z_n\) that “best” explains the observations (<em>decoding problem</em>).
+Moreover, what we are more interested in is: given an observation sequence \(X_0, \ldots, X_n\), learn the model parameters \(\theta\) that maximizes the likelihood for our observation (<em>learning problem</em>)!
+Similar to neural networks, one defines the <em>architecture</em> of the HMM (states and transitions), then solve the <em>learning problem</em> and infer new melodies from the learned HMM.
+In music, hidden states often lack interpretability.
+Therefore, it needs to be clarified which architecture one should choose.</p>
+
+<p><em>HMM</em> is a special case of <em>dynamic Bayesian networks</em> where a single hidden state variable represents the entire state of the world.
+With respect to music, using <em>hidden Markov models</em> we can model more abstract states that we can not directly observe, for example,</p>
+
+<p>Using <em>higher-order MC</em> or <em>HMM</em> widens the context to multiple notes of the past.
+For our MC example A-B-F this would mean the probability changes to</p>
+
+\[P(X_0 = A) \cdot P(X_1 = B \ | \ X_0 = A) \cdot P(X_2 = F \ | \ X_0 = A \ \land \ X_1 = B).\]
+
+<p>But due to the chain property (linearity), this does not necessarily lead to better results since widening the range leads very quickly to overfitting, i.e., the model reproduces more or less exact replica because it does not generalize – more is not always better.
+In any case, the learning stays stepwise causal, i.e., one note after the other without jumping around.
+By focusing on linear temporal dependencies, these models need to take into account the higher-level structure and semantics important to music.
+By model design, HMMs have very limited memory and are thus also incapable of modeling the longer term structure that occurs in original musical pieces.</p>
+
+<p>Their applications in musical structure generation go back to <em>Harry F. Olson</em> around 1950, and in 1955, the first machine produced Markov models of first and second order in regard to pitches and rhythm <a class="citation" href="#nierhaus:2010">(Nierhaus, 2009)</a>.
+In <a class="citation" href="#merwe:2011">(Van Der Merwe &amp; Schulze, 2011)</a>, the authors used first-, higher-, or mixed-order MCs to represent chord duration, chord progression, and rhythm progression and first-, higher-, or mixed-order HMM to describe melodic arc.</p>
+
+<p>A more rigorous and recent discussion, including <em>polyphonic</em> generation, be found in <a class="citation" href="#collins:2016">(Collins et al., 2016)</a>.</p>
+
+<h3 id="long-term-memory">Long-term Memory?</h3>
+
+<p>As stated, the challenge is primarily due to long-term relations.
+One way of tackling this issue is to increase the memorizing capability of the model.
+With this in mind, looking at the catalog of model types within the field of <em>deep learning</em> one can spot multiple alternatives to <em>Markov chains</em> for melody generation.</p>
+
+<p>One obvious choice is the long short-term memory recurrent neural networks (LSTM) <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a>, a type of recurrent neural network (RNN) that allows information to persist for a longer time by letting it flow almost directly through time.</p>
+
+<p>In theory, <em>vanilla RNNs</em> can learn the temporal structure of any signal, but due to computational reasons (vanishing/exploding gradients), they can not keep track of temporally distant events.
+If you want to learn more about RNNs, I highly recommend the blog article <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Neural Networks</a> by Andrej Karpathy.
+In his blog post, he writes:</p>
+
+<blockquote>
+  <p>RNNs combine the input vector with their state vector with a fixed (but learned) function to produce a new state vector. This can, in programming terms, be interpreted as running a fixed program with certain inputs and some internal variables. – Andrej Karpathy</p>
+</blockquote>
+
+<p><br /></p>
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
+<div style="display: table;margin: 0 auto;">Figure 3: Sketch of an RNN unfolded in time.</div>
+</div>
+<p><br /></p>
+
+<p>RNNs are similar to <em>multilayered perceptrons</em> (MLPs) but allow for connections from the output of one unit into the input of another unit located at a shallower layer than itself, i.e., closer to the input of the network.
+The information no longer flows acyclic through the network.
+Instead, recurrent feedback is introduced and allows an RNN to take into account its past inputs together with new inputs.
+Essentially, an RNN predicts a sequence of symbols given an input sequence.
+But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter – it is a mess; the information gets washed away.
+In Figure 3 the basic components of an RNN are depicted.
+Using my analogy, the piece of paper are the matrices \(U,V,W\) which are learnable parameters.
+<strong>They are shared through time!</strong></p>
+
+<p>The extension, motivated by the shortcomings of <em>vanilla RNNs</em>, are <em>LSTM RNNs</em> or just <em>LSTMs</em>.
+LSTMs <strong>learn</strong> which information they should keep in long-term memory and which information they can forget after a short period.
+Instead of just writing all the letters on the piece of paper, we use our rubber and get rid of some writings while highlighting other passages.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
+<div style="display: table;margin: 0 auto;">Figure 4: A sketch of an LSTM cell.</div>
+</div>
+<p><br /></p>
+
+<p>There is plenty of good material which explains LSTMs much more accurately than I can ever do.
+Figure 4 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
+All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
+First, the cell “decides” what to keep in the long-term state \(\mathbf{c}_{t-1}\) via \(f_t\).
+Then \(i_t\) decides what to add to the long-term state.
+In addition, \(o_t\) decides what part of the new long-term state will make up the short-term state \(\mathbf{h}_t\).
+The importance is that along the path from \(\mathbf{c}_{t-1}\) to \(\mathbf{c}_{t}\), there is only a simple multiplication and addition!
+Therefore, information can persist for longer.</p>
+
+<p>Note, however, that LSTMs can still access information of time step \(t\) only via time step \(t-1\).
+There is no direct access to information compared to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a>, and the <em>transformer</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>, which led to the most recent breakthroughs in the field of <em>deep learning</em>.
+Just a few days ago, another RNN, called <a href="https://github.com/BlinkDL/RWKV-LM">RWKV-LM</a>, claimed to achieve similar results; thus, the last word has yet to be spoken.</p>
+
+<h3 id="recurrent-neural-networks">Recurrent Neural Networks</h3>
+
+<p>In <a class="citation" href="#todd:1989">(Todd, 1989)</a> <em>Peter M. Todd</em> used a <em>vanilla RNN</em> to generate melodies.
+Various issues are discussed in designing the network.
+Note that at this time in the young history of machine learning, there were no user-friendly software libraries available, and there was much more thinking going on in designing the network on a fine-grained level.
+The author also suggests using <em>multi-layered perceptrons (MLPs)</em> by explicitly modeling time and either showing the whole piece to the network or using a sliding-window approach, e.g., showing one bar at a time and predicting the next bar.
+In the end, Todd uses an RNN with 15 hidden units and 15 output units (1 note-begin unit and 14 pitch units) trained for 8500 epochs (cycle through the entire training set) using a handful of sliced melodies.
+Fewer hidden units led to more training.
+By today’s standard, Todd’s network was tiny.
+Todd assumes the key of C from D4 to C6.
+The <em>note-begin unit</em> indicates if the note begins or it merely continues.
+Interestingly, Todd discusses a <em>pitch-interval</em> representation.
+Instead of outputting the actual pitch values, the network outputs the relative transitions (intervals/pitch changes) in semitones.
+For example, instead of A-B-C the network outputs A-(+1)-(-3).
+The advantage is that outputs are more <em>key-independent</em> and can range over an extensive range of notes even if there are only view output units.
+This allows for the transposition of an entire melody simply by changing the actual initial pitch (which need not even be produced by the network but could be specified elsewhere).
+In the end, he decides not to use it because of possible errors in the production since a single error would make the whole melody flawed.</p>
+
+<p>One of the very first applications of LSTMs for the generation of music was introduced by <em>Dougnles Eck</em> and <em>Jürgen Schmidhuber</em> <a class="citation" href="#eck:2002">(Eck &amp; Schmidhuber, 2002)</a>.
+The authors state that “most music has a well-defined global temporal structure in the form of nested periodicities or meter”.
+In a walz, important melodic events occur every three-quarter notes (or every first note of a bar).
+Chord changes occur more slowly and are most often aligned with the bars.</p>
+
+<blockquote>
+  <p>For this reason, one can say of music that some notes are more important than others: in general, a learning mechanism should spend more resources on metrically-important notes than others. – <a class="citation" href="#eck:2002">(Eck &amp; Schmidhuber, 2002)</a></p>
+</blockquote>
+
+<p>The authors use a <em>time-sliced representation</em>, i.e., each step/event represents the period (for example, a quarter note).
+They use one input/output unit per note, making it implicitly <em>polyphonic</em> and avoiding an artificial distinction between melody and chords.
+However, to keep this property, the authors do not distinguish between a note that is retriggered or a note that is held because they would require this information for each input/output note.
+They randomly selected 4096 12-bar blues songs (with 8 notes per bar).
+Their network for learning chords consists of 4 cell blocks containing 2 cells; each is fully connected to the other.
+Their network for learning chords and melody consists of 8 cell blocks containing 2 cells.
+4 of the cell blocks are fully connected to the input units for chords.
+The other four cell blocks are fully connected to the input units for the melody.
+The chord cell blocks have recurrent connections to themselves <strong>and</strong> to the melody cell blocks.
+However, melody cell blocks are only recurrently connected to melody cell blocks.
+Therefore, the authors assume that the melody influences chords but not the other way around.
+Again, the network is relatively small.</p>
+
+<p><a href="https://github.com/IraKorshunova/folk-rnn">FolkRNN</a> was introduced in 2016 <a class="citation" href="#sturm:2016">(Sturm et al., 2016)</a>.
+It is an LSTM trained with 23 000 music transcriptions expressed with the common <a href="https://en.wikipedia.org/wiki/ABC_notation">ABC notation</a>.
+The authors discuss different perspectives on their results, keeping the musician and the process of composition in mind.
+Their human-machine interaction is on the side of composing.
+The user can ask for a melody and can adjust it; you can experiment with their models <a href="https://folkrnn.org/">here</a>.
+Their LSTM consists of <strong>3 hidden layers</strong> with <strong>512 LSTM blocks</strong>, each leading to approximately <strong>5.5 million parameters</strong>, i.e., a big jump from the works we discussed before.</p>
+
+<p>Daniel Johnson <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> created what he calls <a href="https://github.com/danieldjohnson/biaxial-rnn-music-composition">Bi-axial LSTM</a>, many two-layered LSTMs (stacked in on the note-axis) with connections along the note-axis and recurrent connections along the time-axis followed by feed-forward layers (third and fourth non-recurrent layer) across notes.
+Each of the stacked LSTMs receives the input for one specific note.
+The model supports polyphonic music.
+Furthermore, Johnson’s architecture and input format allows the model to learn the musical concept of <em>translation invariance</em>, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.
+For example, compare the following melodies.
+Their tonal properties are almost the same since the second one is just the first one raised by one semitone.</p>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/deut0567.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/deut0567-raised.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<p>The model is inspired by convolutional neural networks since they are quasi-invariant with respect to translation.
+It is not completely clear to me how many LSTM blocks the model consists of.
+It is <strong>2 LSTM layers with 300 blocks each</strong> and <strong>2 non-recurrent layers with 100 and 50 units</strong>, respectively.
+In <a class="citation" href="#kotecha:2018">(Kotecha &amp; Young, 2018)</a>, the authors refined Johnson’s technique.
+You can listen to some of Johnson’s results on his <a href="https://www.danieldjohnson.com/2015/08/03/composing-music-with-recurrent-neural-networks/">blog</a>.
+Despite being a seemingly small contribution, Johnson’s ideas influenced a lot of work in this field.
+His architecture and input/output modeling is insightful and may evoke different ideas.
+I highly recommend reading his blog post.</p>
+
+<p>In 2016 <a href="https://github.com/magenta/magenta/tree/main/magenta/models/melody_rnn">Melody RNN</a> was introduced within Google’s open source project <a href="https://magenta.tensorflow.org/">Magenta</a>.
+One of the project’s stated goals is to advance state of art in machine intelligence for music and art generation.
+<em>Melody-RNN</em> is a simple dual-layer LSTM model.
+In fact, there are four different versions of <em>Melody RNN</em>, which offers me the possibility to look at increasingly complex/sophisticated solutions.
+Each is able to generate <strong>monophonic</strong> melodies:</p>
+
+<p><strong>(1) Basic RNN</strong>: The <em>basic dual-layer LSTM</em> uses basic <em>one-hot encoding</em> to represent extracted melodies as input to the LSTM and fulfills the role of a baseline.
+One-hot encoding means that to represent \(n\) different objects one uses a binary vector of size \(n\) where the $k$-th element is represented by a vector</p>
+
+\[\mathbf{v}_k = (v_1, \ldots, v_n) \text{ s.t. } v_k = 1, v_i = 0 \text{ for } i \neq k.\]
+
+<p>For training, all the data is transposed to the MIDI pitch range \([48..84]\).
+The output/label was the target next event (note-off, no event, note-on for each pitch), i.e., one value for each pitch (a vector).
+Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/models/melody_rnn/melody_rnn_model.py">code</a>, I assume they use 128 units for each layer.
+<code class="language-plaintext highlighter-rouge">MelodyOneHotEncoding</code> and <code class="language-plaintext highlighter-rouge">KeyMelodyEncoderDecoder</code> can be found <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">here</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">DEFAULT_MIN_NOTE</span> <span class="o">=</span> <span class="mi">48</span>
+<span class="n">DEFAULT_MAX_NOTE</span> <span class="o">=</span> <span class="mi">84</span>
+<span class="p">...</span>
+<span class="n">MelodyRnnConfig</span><span class="p">(</span>
+    <span class="n">generator_pb2</span><span class="p">.</span><span class="n">GeneratorDetails</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="s">'basic_rnn'</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s">'Melody RNN with one-hot encoding.'</span><span class="p">),</span>
+    <span class="n">note_seq</span><span class="p">.</span><span class="n">OneHotEventSequenceEncoderDecoder</span><span class="p">(</span>
+        <span class="n">note_seq</span><span class="p">.</span><span class="n">MelodyOneHotEncoding</span><span class="p">(</span>
+            <span class="n">min_note</span><span class="o">=</span><span class="n">DEFAULT_MIN_NOTE</span><span class="p">,</span> 
+            <span class="n">max_note</span><span class="o">=</span><span class="n">DEFAULT_MAX_NOTE</span>
+        <span class="p">)</span>
+    <span class="p">),</span>
+    <span class="n">contrib_training</span><span class="p">.</span><span class="n">HParams</span><span class="p">(</span>
+        <span class="n">batch_size</span><span class="o">=</span><span class="mi">128</span><span class="p">,</span>
+        <span class="n">rnn_layer_sizes</span><span class="o">=</span><span class="p">[</span><span class="mi">128</span><span class="p">,</span> <span class="mi">128</span><span class="p">],</span>
+        <span class="n">dropout_keep_prob</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span>
+        <span class="n">clip_norm</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+        <span class="n">learning_rate</span><span class="o">=</span><span class="mf">0.001</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. \([0..128]\).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
+<span class="n">note_seq</span><span class="p">.</span><span class="n">OneHotEventSequenceEncoderDecoder</span><span class="p">(</span>
+    <span class="n">note_seq</span><span class="p">.</span><span class="n">MelodyOneHotEncoding</span><span class="p">(</span>
+        <span class="n">min_note</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> 
+        <span class="n">max_note</span><span class="o">=</span><span class="mi">128</span>
+    <span class="p">)</span>
+<span class="p">),</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p><strong>(3) Lookback RNN</strong>: The third one, the <em>Lookback RNN</em>, extends the inputs and introduces custom outputs/labels, allowing the model to recognize patterns that occur across 1 and 2 bars quickly.
+Therefore, the input is extended to events from 1 and 2 bars ago.
+Furthermore, the authors add the information on whether the last event was repeating the event from 1 or 2 bars before it, which allows the model to more easily recognize if it is in a “repeating sequence state” or not.
+Finally, they borrow again from <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> what he calls <strong>Beat</strong>. 
+The idea is to add the position within the measure represented by a sort of binary clock, i.e., \((0,0,0,0,1)\) followed by \((0,0,0,1,0)\) followed by \((0,0,0,1,1)\) and so on (but they use -1 instead if 0).
+I am unsure why they call their last trick <em>custom label</em> since it is more like a compression of information.
+Event labels (i.e., the next value the model should output) are replaced by “repeat bar 1” or “repeat bar 2” if repetition was found in the data.
+This is a clever trick!
+Overall the author introduces more structure explicitly and compresses some of the information to ease the learning process.
+Note that the input designed by <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> is much more complicated.
+He provides (for each note) <strong>Pitchclass</strong> of the notes played, <strong>Previous Vicincity</strong> (what surrounding notes were played before), and <strong>Previous Context</strong> (carnality of the played pitch class).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
+<span class="n">note_seq</span><span class="p">.</span><span class="n">LookbackEventSequenceEncoderDecoder</span><span class="p">(</span>
+    <span class="n">note_seq</span><span class="p">.</span><span class="n">MelodyOneHotEncoding</span><span class="p">(</span>
+        <span class="n">min_note</span><span class="o">=</span><span class="n">DEFAULT_MIN_NOTE</span><span class="p">,</span> <span class="n">max_note</span><span class="o">=</span><span class="n">DEFAULT_MAX_NOTE</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p><strong>(4) Attention RNN</strong>: The last RNN from this series of RNNs is the <em>Attention RNN</em>.
+It introduces the use of the attention mechanism <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> to allow the model to more easily access past information without storing it in the RNN cell’s state, i.e., its long-term memory.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">note_seq</span><span class="p">.</span><span class="n">KeyMelodyEncoderDecoder</span><span class="p">(</span>
+    <span class="n">min_note</span><span class="o">=</span><span class="n">DEFAULT_MIN_NOTE</span><span class="p">,</span> <span class="n">max_note</span><span class="o">=</span><span class="n">DEFAULT_MAX_NOTE</span><span class="p">),</span>
+<span class="p">...</span>
+<span class="n">attn_length</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span>
+<span class="n">clip_norm</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p>The attention mechanism within an RNN gives it the ability to learn the importance of relations between symbols within the sequence so that it can more easily access the “important” information. For example, to figure out the last word in the sentence,</p>
+
+<blockquote>
+  <p>I am from Germany, and I eat a lot of pizza. I speak [???]</p>
+</blockquote>
+
+<p>the model should learn that the word “speak” (in this context) should put a lot of attention to the words “I”, “am”, “from”, “Germany” but not so much attention to “pizza”.</p>
+
+<p>Originally this was introduced to an <em>encode-decoder RNN</em>.
+<em>Attention RNN</em> uses attention for the outputs of the overall network.
+The model always looks at the outputs from the last \(n=40\) steps when generating output for the current step.
+This “looking” is realized by an <em>attention mask</em> which determines how much attention is spent on what step of the past.</p>
+
+\[\mathbf{a}_t = \text{softmax}(\mathbf{u}_t), \quad \mathbf{u}_t = \mathbf{v}^\top\text{tanh}\left( W_1 H + W_2 \mathbf{c}_t \right)\]
+
+<p>The columns of \(H\) are the \(n=40\) hidden states \(h_{t-n}, \ldots, h_{t-1}\).
+So instead of seeing only the hidden state \(\mathbf{h}_{t-1}\) the RNN is looking at</p>
+
+\[\mathbf{\hat{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i\]
+
+<p>where \(a_{t,i}\) is a component of \(\mathbf{a}_t\) and \(\mathbf{c}_t\) is the current step’s RNN cell state. 
+\(W_1, W_2\) and \(\mathbf{v}\) are learnable parameters.
+This \(\mathbf{\hat{h}}_{t}\) vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
+Furthermore, \(\mathbf{\hat{h}}_{t}\) is injected into the input of the next step.
+Both concatenations are transformed via a <em>linear layer</em> directly after concatenation.</p>
+
+<p>In a technical report <a class="citation" href="#lou:2016">(Lou, 2016)</a> Lou compares <em>Attention RNN</em> with the <em>Bi-axial LSTM</em> and comes to a conclusion that, as many RNNs, <em>Attention RNN</em> quite often falls into the over-repeating rabbit hole when generating pieces longer than 16 seconds.
+The Bi-axial LSTM gives better rhythmic music composition due to the property of time- and note-invariant, but it takes longer to train.</p>
+
+<p>In <a class="citation" href="#hadjeres:2018">(Hadjeres &amp; Nielsen, 2018)</a>, the authors from Sony introduced <a href="https://github.com/Ghadjeres/Anticipation-RNN">Anticipate-RNN</a>, a stacked LSTM that allows the user to introduce constraints that are especially interesting for composers who want to set certain notes interactively.
+The first RNN/stack works from right to left, and the second from left to right.
+The idea is that the first RNN outputs the combined constrained that increases from right to left since when the second RNN generates the melody from left to right, it has to respect the most constraints at the beginning of the sequence.
+The input for the first RNN is basically a constraint, i.e., a note or nil (if unconstrained), and the input for the second RNN is a note concatenated with the output of the first RNN.
+In <a class="citation" href="#hadjeres:2021">(Hadjeres &amp; Crestel, 2021)</a>, this idea is extended on but with a <em><a href="https://github.com/Ghadjeres/constraint-transformer-bach">constrained linear transformer</a></em>.
+Furthermore, the author provides a DAW plug-in, the <a href="https://ghadjeres.github.io/piano-inpainting-application/">The Piano Inpainting Application (PIA)</a>, that enables real-time AI assistance when composing polyphonic music in a <em>digital workstation (DAW)</em>.
+I talk about <em>transformers</em> later in this series.</p>
+
+<p>In <a class="citation" href="#jiang:2019">(Jiang et al., 2019)</a>, the authors use a bidirectional LSTM model to compose polyphonic music conditioned on near notes, which surround the target note from the time dimension and the note dimension.
+Their work heavily borrows from <a class="citation" href="#johnson:2017">(Johnson, 2017)</a>, but the bidirectional property allows the harmonization to access tonal information of the near future as well as the near past.
+This makes sense since, in many cases, a note depends on a future note, e.g., a chromatic transition where we already know where we want to end up but have to figure out how to get there.
+In addition, they propose a new loss function and allow the user to provide a musical context in the form of a custom chord.
+They report a better convergence rate compared to the Bi-axial LSTM.
+I was unable to find the code of their implementation.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="nierhaus:2010">Nierhaus, G. (2009). <i>Algorithmic Composition - Paradigms of Automated Music Generation</i>. SpringerWienNewYork.</span></li>
+<li><span id="alhussein:2022">Fawzi, A., Balog, M., Huang, A., Hubert, T., Romera-Paredes, B., Barekatain, M., Novikov, A., R. Ruiz, F. J., Schrittwieser, J., Swirszcz, G., Silver, D., Hassabis, D., &amp; Kohli, P. (2022). Discovering faster matrix multiplication algorithms with reinforcement learning. <i>Nature</i>, <i>610</i>(7930), 47–53. https://doi.org/10.1038/s41586-022-05172-4</span></li>
+<li><span id="rodriguez:2014">Rodriguez, J. D. F., &amp; Vico, F. J. (2014). AI Methods in Algorithmic Composition: A Comprehensive Survey. <i>CoRR</i>, <i>abs/1402.0585</i>. http://arxiv.org/abs/1402.0585</span></li>
+<li><span id="shulei:2020">Ji, S., Luo, J., &amp; Yang, X. (2020). A Comprehensive Survey on Deep Music Generation: Multi-level Representations,
+               Algorithms, Evaluations, and Future Directions. <i>CoRR</i>, <i>abs/2011.06801</i>. https://arxiv.org/abs/2011.06801</span></li>
+<li><span id="merwe:2011">Van Der Merwe, A., &amp; Schulze, W. (2011). Music Generation with Markov Models. <i>IEEE MultiMedia</i>, <i>18</i>(3), 78–85. https://doi.org/10.1109/MMUL.2010.44</span></li>
+<li><span id="collins:2016">Collins, T., Laney, R., Willis, A., &amp; Garthwaite, P. H. (2016). Developing and evaluating computational models of musical style. <i>AI EDAM</i>, <i>30</i>(1), 16–43. https://doi.org/10.1017/S0890060414000687</span></li>
+<li><span id="hochreiter:1997">Hochreiter, S., &amp; Schmidhuber, J. (1997). Long Short-Term Memory. <i>Neural Computation</i>, <i>9</i>(8), 1735–1780. https://doi.org/10.1162/neco.1997.9.8.1735</span></li>
+<li><span id="bahdanau:2014">Bahdanau, D., Cho, K., &amp; Bengio, Y. (2014). Neural Machine Translation by Jointly Learning to Align and Translate. <i>CoRR</i>, <i>abs/1409.0473</i>.</span></li>
+<li><span id="vaswani:2017">Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., &amp; Polosukhin, I. (2017). Attention Is All You Need. <i>CoRR</i>, <i>abs/1706.03762</i>. http://arxiv.org/abs/1706.03762</span></li>
+<li><span id="todd:1989">Todd, P. M. (1989). A Connectionist Approach To Algorithmic Composition. <i>Computer Music Journal</i>, <i>13</i>, 27–43.</span></li>
+<li><span id="eck:2002">Eck, D., &amp; Schmidhuber, J. (2002). Finding temporal structure in music: blues improvisation with LSTM recurrent networks. <i>Proceedings of the 12th IEEE Workshop on Neural Networks for Signal Processing</i>, 747–756. https://doi.org/10.1109/NNSP.2002.1030094</span></li>
+<li><span id="sturm:2016">Sturm, B. L., Santos, J. F., Ben-Tal, O., &amp; Korshunova, I. (2016). Music transcription modelling and composition using deep learning. <i>CoRR</i>, <i>abs/1604.08723</i>. http://arxiv.org/abs/1604.08723</span></li>
+<li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li>
+<li><span id="kotecha:2018">Kotecha, N., &amp; Young, P. (2018). Generating Music using an LSTM Network. <i>CoRR</i>, <i>abs/1804.07300</i>. http://arxiv.org/abs/1804.07300</span></li>
+<li><span id="lou:2016">Lou, Q. (2016). <i>Music Generation Using Neural Networks</i>. http://cs229.stanford.edu/proj2016/report/Lou-MusicGenerationUsingNeuralNetworks-report.pdf</span></li>
+<li><span id="hadjeres:2018">Hadjeres, G., &amp; Nielsen, F. (2018). Anticipation-RNN: enforcing unary constraints in sequence generation, with application to interactive music generation. <i>Neural Computing and Applications</i>. https://doi.org/10.1007/s00521-018-3868-4</span></li>
+<li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). The Piano Inpainting Application. <i>CoRR</i>, <i>abs/2107.05944</i>. https://arxiv.org/abs/2107.05944</span></li>
+<li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music Generation Using Bidirectional Recurrent Network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
 Furthermore, I am not an expert on the issue.
