@@ -1,7 +1,7 @@
 ---
 layout: project
 description: During my Ph.D. I created EikMesh, a Java library for high quality meshes.
-image: software/eikmesh.png
+image: software/eikmesh.jpg
 permalink: /works/eikmesh/
 title: "EikMesh"
 ---
