@@ -1,4 +1,519 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-04-11T13:42:43+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part I</title><link href="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html" rel="alternate" type="text/html" title="Musical Interrogation - Part I" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-04-23T14:18:39+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
+To make my case immediately understandable, I will provide a specific example.
+However, it’s worth noting that this is just one of countless possible instances.</p>
+
+<p>You can find all the necessary code in my GitHub repo: <a href="https://github.com/BZoennchen/algorithmic-compositions/tree/main/wekinator/firework-example">link</a>.</p>
+
+<p>The example is based on the <a href="http://www.wekinator.org/">Wekinator</a>, which is a powerful, free, and open-source software designed to simplify the process of using <em>machine learning models</em>.
+With its user-friendly interface, anyone can easily build new musical instruments, gestural game controllers, computer vision, computer listening systems, and much more. 
+Developed by <a href="http://www.doc.gold.ac.uk/~mas01rf/">Rebecca Fiebrink</a>, the software aims to make digital systems more accessible to artists and musicians. 
+Although Wekinator’s initial release (version 1.0) dates back to 2009, the software remains relevant today and has aged gracefully.</p>
+
+<p>In her article <a class="citation" href="#fiebrink:2019">(Fiebrink, 2019)</a>, Fiebrink elaborates on her machine learning education practices for creative practitioners and highlights the benefits of using <a href="http://www.wekinator.org/">Wekinator</a>. 
+More recently, she has been working on a new tool called <a href="https://interactml.com/">InteractML</a>, which is a more advanced tool for interactive machine learning via visual scripting with <a href="https://unity.com/de">Unity</a> <a class="citation" href="#clarice:2021">(Hilton et al., 2021)</a>. 
+<a href="https://interactml.com/">InteractML</a> is a fascinating project that I plan to explore further at a later time. 
+It is worth noting that the project is currently in alpha release and may only have limited documentation available.</p>
+
+<p>One of the key advantages of the <a href="http://www.wekinator.org/">Wekinator</a> is its ease of use, making it accessible to a wide range of users.
+The software’s versatility is due to its ability to <a href="https://en.wikipedia.org/wiki/Open_Sound_Control">open sound control (OSC)</a> messages, which are supported by numerous applications, especially in the artistic domain.
+If other systems can communicate via OSC, they can be integrated (via network) into the larger system. 
+For instance, most digital audio workstations (DAWs), <a href="https://processing.org/">Processing</a> (a renowned creative coding environment), <a href="https://derivative.ca/">TouchDesigner</a>, <a href="https://cycling74.com/products/max">Max/MSP</a>, <a href="https://puredata.info/">PureData</a>, <a href="https://supercollider.github.io/">SuperCollider</a> and APIs for popular programming languages support OSC.</p>
+
+<p>To demonstrate the potential of the <a href="http://www.wekinator.org/">Wekinator</a>, I will be using <a href="https://processing.org/">Processing</a> and <a href="https://supercollider.github.io/">SuperCollider</a>, both of which are also free and open-source tools. 
+<a href="https://supercollider.github.io/">SuperCollider</a> will be used to generate sound, while <a href="https://processing.org/">Processing</a> will capture human motion. 
+The objective is not to showcase elaborate gesture recognition but to provide an overview of the Wekinator’s fundamental workings.</p>
+
+<p>More than just discussing the <a href="http://www.wekinator.org/">Wekinator</a>, my aim is to provide readers with an understanding of how machine learning can supplant traditional programming, enabling non-experts to utilize techniques that were previously inaccessible to them.</p>
+
+<p>We will observe how machine learning can replace coding, albeit with some coding required.
+However, the coding required is specific to the task of sending and receiving OSC messages, and the tools utilized, i.e., <a href="https://supercollider.github.io/">SuperCollider</a> and <a href="https://processing.org/">Processing</a> which are both programming environments.
+Other tools exist, which allow for sending OSC messages without any coding, and there are tools that produce sound without programming.</p>
+
+<p>The following video demonstrates the final result and all the steps required.</p>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/lDkeOTQU2Y8" width="800" height="480" frameborder="0" allowfullscreen="true">
+  </iframe>
+</div>
+
+<h2 id="problem-description">Problem Description</h2>
+
+<p>Digital synthesizers are synthetic instruments that generate sound by outputting a stream of floating point numbers.
+These synthesizers typically have numerous parameters, such as frequency (pitch), cutoff frequency of a low-pass filter, frequency of the carrier, and several others.
+Often these parameters are not <em>interpretable</em>, meaning there is no straightforward connection between a parameter and the sound a synth generates.
+Instead, altering multiple parameters concurrently leads to the desired outcome.
+In mathematics, we refer to these parameters as residing in a high-dimensional space.</p>
+
+<p>Let’s consider the following scenario: We have a dancer in a rectangular area, such as a room, and we wish to modify the sound generated by a synth based on the dancer’s 2D position.
+We aim to alter the synth’s parameters while it is playing (modulation) in response to the dancer’s movements. However, the changes in sound must be smooth and non-random.</p>
+
+<p>Unfortunately, a significant problem arises in this situation. 
+The number of parameters exceeds the number of positional values.
+We only have two coordinates to work with, and establishing a one-to-one mapping between these coordinates and parameters is not feasible.
+We want to avoid merely selecting two parameters and modifying them according to the dancer’s \(x\) and \(y\) coordinates.</p>
+
+<p>In mathematical terms, we are looking for a function that receives \(2\) values (\(x\) and \(y\)) and outputs \(n\) values (one for each parameter), where \(n &gt; 2\).
+We want a function</p>
+
+\[f : \mathbb{R}^2 \rightarrow \mathbb{R}^n.\]
+
+<p>Additionally, it is necessary for \(f\) to be smooth and meet our musical preferences. 
+As \(f\) maps a lower-dimensional space to a higher-dimensional space and we require a seamless transition, we search for a two-dimensional <em>surface</em> in an \(n\)-dimensional space. 
+As the dancer moves in the \(x\) and \(y\) directions, \(f\) translates this motion to a movement on the two-dimensional surface in the \(n\)-dimensional space.</p>
+
+<p>If we have only one coordinate and three parameters, \(f\) represents a curve in the three-dimensional space.
+In this case, we can draw it.
+Compare Fig. 1.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/3d-curve.png" alt="2-D manifold" />
+<div style="display: table;margin: 0 auto;">Figure 1: Sample points and fitted graph of a curve in a three-dimensional space. The length of the curve represents the dancer's single coordinate (let's say x). A point (X,Y,Z) on the curve represents three parameter values.</div>
+</div>
+<p><br /></p>
+
+<p>This is a complex challenge, and several questions arise: How does \(f\) look like? 
+How can we implement it?</p>
+
+<h3 id="reasoning-about-the-world">Reasoning about the World</h3>
+
+<p>Before the advent of machine learning, we would have addressed this problem using the “traditional way” of abstract reasoning and programming to implement the function \(f\) directly via code.
+This approach involves roughly six steps:</p>
+
+<ol>
+  <li>observer and analyse the system</li>
+  <li>construct a falsifiable mathematical model (which is an imperfect generalization)</li>
+  <li>implement a numerical model via code</li>
+  <li>calibrate the model</li>
+  <li>test your assumption via observation until the model approximates reality adequately</li>
+  <li>find unobserved phenomena, which the model implies, in the real world</li>
+</ol>
+
+<p>Newton’s discoveries serve as a classic example, where he observed reality and reasoned about it, generating laws that are incorrect but sufficiently accurate to travel to the moon. 
+He established formulas such as</p>
+
+\[F = m \cdot a,\]
+
+<p>which are falsifiable via experiments.
+With these formulas one can predict unknown phenomena that should appear if the model is reliable.</p>
+
+<p>In our case, we would have conducted a comprehensive analysis of the synth to establish how its parameters interact with one another.
+This approach would have required a wealth of knowledge across diverse domains such as programming, signal processing, and mathematics.
+Furthermore, to achieve our desired sound, we would have needed to understand the impact of parameter changes on various aspects of the sound, such as pitch and timbre.</p>
+
+<p>In essence, we would have aimed to create a model of the synth “world” to enable us to reason about its structures and rules.
+We would have then written code to manipulate the \(n\) parameters concurrently, relative to the dancer’s position.</p>
+
+<p>While I value the traditional approach for its ability to provide insights into actual and imaginative structures, it is not the optimal solution for our specific scenario. I believe that creative practitioners do not necessarily avoid analytical work but tend to focus on creation, thereby enabling a more tangible understanding of the problem. I welcome this approach, particularly in the field of machine learning.
+In contrast, the traditional approach can be challenging and less accessible, particularly in achieving our artistic objectives.</p>
+
+<h3 id="modelling-without-reasoning">Modelling without Reasoning</h3>
+
+<p>In <em>machine learning</em>, the focus shifts to a <em>data-driven approach</em>.
+Rather than constructing a model by hand through reasoning about the world, we enable machines to learn the model by providing them with data, i.e., observations.</p>
+
+<p>In extreme cases when observation is the model, we cannot provide outputs of unobserved inputs.
+Therefore, like models constructed manually, machine learning models are an imperfect abstraction of the data on which they are trained.
+This is the fundamental idea behind machine learning, albeit an oversimplification.</p>
+
+<p>In our scenario, we replace manual modeling with machine learning by defining what we want and letting the machine learning models provided by the <a href="http://www.wekinator.org/">Wekinator</a> figure out how to achieve it.
+We present an algorithm \(A\) with examples \(D\) that represent our requirements and ask it to “program” a function \(f\) that fulfills our needs.</p>
+
+<p><em>Machine learning</em> involves learning \(f\) from data \(D\) using algorithm \(A\), where \(A\) is essentially just another function that produces functions:</p>
+
+\[A(D) = f\]
+
+<p>The <a href="http://www.wekinator.org/">Wekinator</a> allows us to choose algorithm \(A\) from a list of algorithms and provides a graphical user interface (GUI) for recording \(D\) and feeding it into \(A\) to compute \(f\).
+The algorithm \(A\) is predetermined, and \(f\) will be computed.
+As a result, we need to provide data/observation \(D\) by recording it, so let’s get started!</p>
+
+<p><strong>Disclaimer:</strong>
+Utilizing <em>machine learning</em> does not imply that we cease rationalizing about the world.
+However, I selected this thought-provoking title to accentuate the contrast in tendencies.
+Moreover, the effectiveness and characteristics of <em>machine learning models</em> are significantly influenced by the quality of the observed data and the choice of algorithm.
+Given that our challenge involves a regression task, we will employ a <em>feed-forward neural network</em>.</p>
+
+<h2 id="realization">Realization</h2>
+
+<p>In the following, we have a lot to set up since every part of the system is digital and our own creation.
+However, do not worry if you do not understand the <a href="https://supercollider.github.io/">SuperCollider</a> or <a href="https://processing.org/">Processing</a> part.
+It is more important to understand the principle of OSC communication and the <a href="http://www.wekinator.org/">Wekinator</a>.
+If you are interested in <a href="https://supercollider.github.io/">SuperCollider</a> or <a href="https://processing.org/">Processing</a> I can highly recommend checking them out.</p>
+
+<h3 id="creating-a-new-instrument">Creating a new Instrument</h3>
+
+<p>First, we need an actual synthesizer that produces sound.
+I use a synth that randomly produces a short resonating impulse that gets reflected.
+I want to go into only a few details about the inner workings of the synth.
+It creates a sound similar to a firework in a city perceived inside a room.</p>
+
+<p>The synth has 6 parameters which are, in this case, explainable:</p>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">\densityleft</code> controls the number of impulses in the left speaker.</li>
+  <li><code class="language-plaintext highlighter-rouge">\densityright</code> controls the number of impulses in the right speaker.</li>
+  <li><code class="language-plaintext highlighter-rouge">\freq</code> controls the pitch of the impulse response (i.e., the sound). Higher frequency increases the pitch. (For <code class="language-plaintext highlighter-rouge">Ringz</code> it is the frequency at which the impulse resonates.)</li>
+  <li><code class="language-plaintext highlighter-rouge">\cutofffreq</code> controls the cutoff frequency of the lowpass filter. Lower values make the sound more doll.</li>
+  <li><code class="language-plaintext highlighter-rouge">\decaytime</code> controls the time it takes for the impulses to decay, influencing the resonance.</li>
+  <li><code class="language-plaintext highlighter-rouge">\amp</code> controls the signal’s amplitude, i.e., the volume.</li>
+</ol>
+
+<p><code class="language-plaintext highlighter-rouge">Dust</code> outputs the impulse such that <code class="language-plaintext highlighter-rouge">Ringz</code> resonates.
+The resulting signal gets reflected by <code class="language-plaintext highlighter-rouge">FreeVerb</code> which introduces reverberation.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">SynthDef</span><span class="p">(</span><span class="sx">\fireworks</span><span class="p">,{</span>
+    <span class="k">var</span> <span class="n">sig</span><span class="p">;</span>
+    <span class="n">sig</span> <span class="o">=</span> <span class="nc">Dust</span><span class="p">.</span><span class="n">ar</span><span class="p">([</span><span class="sx">\densityleft</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">3</span><span class="p">),</span> <span class="sx">\densityright</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">3</span><span class="p">)</span><span class="mf">-0.5</span><span class="p">]);</span>
+	<span class="n">sig</span> <span class="o">=</span> <span class="nc">Ringz</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span>
+		<span class="n">sig</span><span class="p">,</span> 
+		<span class="nl">freq:</span> <span class="sx">\freq</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">300</span><span class="p">),</span> 
+		<span class="nl">decaytime:</span> <span class="sx">\decaytime</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">0.1</span><span class="p">))</span> <span class="o">*</span> <span class="sx">\amp</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">0.55</span><span class="p">);</span>
+    <span class="n">sig</span> <span class="o">=</span> <span class="nc">FreeVerb</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="n">sig</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">);</span>
+    <span class="n">sig</span> <span class="o">=</span> <span class="nc">LPF</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="nl">in:</span> <span class="n">sig</span><span class="p">,</span> <span class="nl">freq:</span> <span class="sx">\cutofffreq</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="mf">21000</span><span class="p">));</span>
+    <span class="nc">Out</span><span class="p">.</span><span class="n">ar</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="n">sig</span><span class="p">);</span>
+<span class="p">}).</span><span class="n">add</span><span class="p">;</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>We can play the synth and manipulate its parameters on the fly.
+Let’s listen but be warned since the amplitude during this example will change.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="vg">~fireworks</span> <span class="o">=</span> <span class="nc">Synth</span><span class="p">(</span><span class="sx">\fireworks</span><span class="p">);</span>
+<span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\amp</span><span class="p">,</span> <span class="mf">1</span><span class="p">);</span>
+<span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\densityleft</span><span class="p">,</span> <span class="mf">10</span><span class="p">);</span>
+<span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\freq</span><span class="p">,</span> <span class="mf">400</span><span class="p">);</span>
+<span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\decaytime</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">);</span>
+<span class="vg">~fireworks</span><span class="p">.</span><span class="n">free</span><span class="p">();</span>
+</code></pre></div></div>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/fireworks.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<p>Ok cool, we can play sound.</p>
+
+<h3 id="simulation-of-the-dancer">Simulation of the Dancer</h3>
+
+<p>Next, let’s envision a dancer gracefully moving across the room. 
+While I am not a dancer, nor do I possess sensors to measure a dancer’s position, we can simulate this scenario using <a href="https://processing.org/">Processing</a>. 
+It’s worth mentioning that we could achieve the same result with SuperCollider, as it also features GUI elements. 
+However, I’d like to demonstrate how we can effortlessly integrate multiple systems.</p>
+
+<p>You can download the <a href="https://processing.org/">Processing</a> example at this <a href="http://www.doc.gold.ac.uk/~mas01rf/WekinatorDownloads/wekinator_examples/all_source_zips/Simple_Mouse_DraggedObject_2Inputs.zip">link</a>. 
+I will provide the code below, but please don’t be intimidated. 
+It simply consists of a draggable green square, accompanied by informative log text displayed on a black window, and an OSC sender. 
+Dragging the green square simulates the dancer’s movement, while the application continuously transmits the rectangle’s central position over the network.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/simple_mouse_drag.png" alt="Runnig Processing sketch" />
+<div style="display: table;margin: 0 auto;">Figure 1: Running Processing sketch.</div>
+</div>
+<p><br /></p>
+
+<p>If you start the sketch in <a href="https://processing.org/">Processing</a>, you should see the window shown in Fig. 1.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
+* REALLY simple processing sketch that sends mouse x and y position of box to wekinator
+* This sends 2 input values to port 6448 using message /wek/inputs
+* Adapated from https://processing.org/examples/mousefunctions.html by Rebecca Fiebrink
+**/</span>
+
+<span class="kn">import</span> <span class="nn">oscP5.*</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">netP5.*</span><span class="o">;</span>
+
+<span class="nc">OscP5</span> <span class="n">oscP5</span><span class="o">;</span>
+<span class="nc">NetAddress</span> <span class="n">dest</span><span class="o">;</span>
+<span class="nc">PFont</span> <span class="n">f</span><span class="o">;</span>
+
+<span class="kt">float</span> <span class="n">bx</span><span class="o">;</span>
+<span class="kt">float</span> <span class="n">by</span><span class="o">;</span>
+<span class="kt">int</span> <span class="n">boxSize</span> <span class="o">=</span> <span class="mi">30</span><span class="o">;</span>
+<span class="kt">boolean</span> <span class="n">overBox</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+<span class="kt">boolean</span> <span class="n">locked</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+<span class="kt">float</span> <span class="n">xOffset</span> <span class="o">=</span> <span class="mf">0.0</span><span class="o">;</span> 
+<span class="kt">float</span> <span class="n">yOffset</span> <span class="o">=</span> <span class="mf">0.0</span><span class="o">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">createFont</span><span class="o">(</span><span class="s">"Courier"</span><span class="o">,</span> <span class="mi">15</span><span class="o">);</span>
+    <span class="n">textFont</span><span class="o">(</span><span class="n">f</span><span class="o">);</span>
+
+    <span class="n">size</span><span class="o">(</span><span class="mi">640</span><span class="o">,</span> <span class="mi">480</span><span class="o">,</span> <span class="no">P2D</span><span class="o">);</span>
+    <span class="n">noStroke</span><span class="o">();</span>
+    <span class="n">smooth</span><span class="o">();</span>
+    
+    <span class="n">bx</span> <span class="o">=</span> <span class="n">width</span><span class="o">/</span><span class="mf">2.0</span><span class="o">;</span>
+    <span class="n">by</span> <span class="o">=</span> <span class="n">height</span><span class="o">/</span><span class="mf">2.0</span><span class="o">;</span>
+    <span class="n">rectMode</span><span class="o">(</span><span class="no">RADIUS</span><span class="o">);</span>  
+    
+    <span class="cm">/* start oscP5, listening for incoming messages at port 12000 */</span>
+    <span class="n">oscP5</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OscP5</span><span class="o">(</span><span class="k">this</span><span class="o">,</span><span class="mi">9000</span><span class="o">);</span>
+    <span class="n">dest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">NetAddress</span><span class="o">(</span><span class="s">"127.0.0.1"</span><span class="o">,</span><span class="mi">6449</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">draw</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">background</span><span class="o">(</span><span class="mi">0</span><span class="o">);</span>
+    <span class="n">fill</span><span class="o">(</span><span class="mi">255</span><span class="o">);</span>
+    <span class="n">text</span><span class="o">(</span><span class="s">"x="</span> <span class="o">+</span> <span class="n">bx</span> <span class="o">+</span> <span class="s">", y="</span> <span class="o">+</span> <span class="n">by</span><span class="o">,</span> <span class="mi">10</span><span class="o">,</span> <span class="mi">80</span><span class="o">);</span>
+    
+    <span class="n">fill</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">200</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+
+    <span class="c1">// Test if the cursor is over the box </span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">mouseX</span> <span class="o">&gt;</span> <span class="n">bx</span><span class="o">-</span><span class="n">boxSize</span> <span class="o">&amp;&amp;</span> <span class="n">mouseX</span> <span class="o">&lt;</span> <span class="n">bx</span><span class="o">+</span><span class="n">boxSize</span> <span class="o">&amp;&amp;</span> 
+        <span class="n">mouseY</span> <span class="o">&gt;</span> <span class="n">by</span><span class="o">-</span><span class="n">boxSize</span> <span class="o">&amp;&amp;</span> <span class="n">mouseY</span> <span class="o">&lt;</span> <span class="n">by</span><span class="o">+</span><span class="n">boxSize</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">overBox</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>  
+        <span class="k">if</span><span class="o">(!</span><span class="n">locked</span><span class="o">)</span> <span class="o">{</span> 
+        <span class="n">stroke</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span> 
+        <span class="n">fill</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+        <span class="o">}</span> 
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">stroke</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+        <span class="n">fill</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+        <span class="n">overBox</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+    
+    <span class="c1">// Draw the box</span>
+    <span class="n">rect</span><span class="o">(</span><span class="n">bx</span><span class="o">,</span> <span class="n">by</span><span class="o">,</span> <span class="n">boxSize</span><span class="o">,</span> <span class="n">boxSize</span><span class="o">);</span>
+    
+    <span class="c1">//Send the OSC message with box current position</span>
+    <span class="n">sendOsc</span><span class="o">();</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">mousePressed</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span><span class="o">(</span><span class="n">overBox</span><span class="o">)</span> <span class="o">{</span> 
+        <span class="n">locked</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span> 
+        <span class="n">fill</span><span class="o">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">255</span><span class="o">,</span> <span class="mi">0</span><span class="o">);</span>
+    <span class="o">}</span> <span class="k">else</span> <span class="o">{</span>
+        <span class="n">locked</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="n">xOffset</span> <span class="o">=</span> <span class="n">mouseX</span><span class="o">-</span><span class="n">bx</span><span class="o">;</span> 
+    <span class="n">yOffset</span> <span class="o">=</span> <span class="n">mouseY</span><span class="o">-</span><span class="n">by</span><span class="o">;</span> 
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">mouseDragged</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span><span class="o">(</span><span class="n">locked</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">bx</span> <span class="o">=</span> <span class="n">mouseX</span><span class="o">-</span><span class="n">xOffset</span><span class="o">;</span> 
+        <span class="n">by</span> <span class="o">=</span> <span class="n">mouseY</span><span class="o">-</span><span class="n">yOffset</span><span class="o">;</span> 
+    <span class="o">}</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">mouseReleased</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">locked</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+<span class="o">}</span>
+
+<span class="kt">void</span> <span class="nf">sendOsc</span><span class="o">()</span> <span class="o">{</span>
+    <span class="nc">OscMessage</span> <span class="n">msg</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OscMessage</span><span class="o">(</span><span class="s">"/wek/inputs"</span><span class="o">);</span>
+    <span class="n">msg</span><span class="o">.</span><span class="na">add</span><span class="o">((</span><span class="kt">float</span><span class="o">)</span><span class="n">bx</span><span class="o">);</span> 
+    <span class="n">msg</span><span class="o">.</span><span class="na">add</span><span class="o">((</span><span class="kt">float</span><span class="o">)</span><span class="n">by</span><span class="o">);</span>
+    <span class="n">oscP5</span><span class="o">.</span><span class="na">send</span><span class="o">(</span><span class="n">msg</span><span class="o">,</span> <span class="n">dest</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>When we start the Processing sketch, it shows a green square inside a black window.
+The window represents our room, and the green square the dancer.
+You can drag the dancer around.</p>
+
+<h3 id="osc-communication">OSC Communication</h3>
+
+<p>The only crucial part of the <a href="https://processing.org/">Processing</a> sketch’s code is the transmission of OSC messages..</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">oscP5</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OscP5</span><span class="o">(</span><span class="k">this</span><span class="o">,</span><span class="mi">9000</span><span class="o">);</span>
+<span class="n">dest</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">NetAddress</span><span class="o">(</span><span class="s">"127.0.0.1"</span><span class="o">,</span><span class="mi">6448</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>These three lines of code enable the sketch to listen for OSC messages over the network using the IP address <code class="language-plaintext highlighter-rouge">"127.0.0.1"</code>, which represents the local IP address. 
+This means that the sketch listens for messages originating from your device. 
+It receives messages on port <code class="language-plaintext highlighter-rouge">9000</code> and transmits them to port <code class="language-plaintext highlighter-rouge">6448</code>. 
+The listening port is inconsequential, as the dancer never responds to incoming signals. 
+The IP address and sending port are crucial because they must correspond with the numbers we will employ in the <a href="http://www.wekinator.org/">Wekinator</a>.</p>
+
+<p>The following code</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">sendOsc</span><span class="o">()</span> <span class="o">{</span>
+    <span class="nc">OscMessage</span> <span class="n">msg</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">OscMessage</span><span class="o">(</span><span class="s">"/wek/inputs"</span><span class="o">);</span>
+    <span class="n">msg</span><span class="o">.</span><span class="na">add</span><span class="o">((</span><span class="kt">float</span><span class="o">)</span><span class="n">mouseX</span><span class="o">);</span> 
+    <span class="n">msg</span><span class="o">.</span><span class="na">add</span><span class="o">((</span><span class="kt">float</span><span class="o">)</span><span class="n">mouseY</span><span class="o">);</span>
+    <span class="n">oscP5</span><span class="o">.</span><span class="na">send</span><span class="o">(</span><span class="n">msg</span><span class="o">,</span> <span class="n">dest</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>sends the coordinates \(x\) and \(y\) of the mouse (with respect to the window) to the port <code class="language-plaintext highlighter-rouge">6448</code> and the path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>. 
+OSC uses these paths such that it is possible to differentiate different types of messages that got sent to some port.</p>
+
+<p>Now we have to set up OSC communication of our sound generating system, i.e. <a href="https://supercollider.github.io/">SuperCollider</a>.
+Let us first listen to port <code class="language-plaintext highlighter-rouge">6448</code>and path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code> and let’s just print the raw data we perceive, i.e., the \(x\) and \(y\) values of our dancer (the green square).</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">OSCdef</span><span class="p">(</span>
+    <span class="sx">\getCoords</span><span class="p">,</span>
+    <span class="p">{</span>
+        <span class="k">arg</span> <span class="n">val</span><span class="p">;</span> <span class="n">val</span><span class="p">.</span><span class="n">postln</span><span class="p">;</span>
+    <span class="p">},</span>
+    <span class="sx">'/wek/inputs'</span><span class="p">,</span>
+    <span class="nl">recvPort:</span> <span class="mf">6448</span>
+<span class="p">);</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>By executing this line in <a href="https://supercollider.github.io/">SuperCollider</a> while the <a href="https://processing.org/">Processing</a> sketch is running, you should see OSC messages on the post window.
+These messages look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[ /wek/inputs, 248.0, 185.0 ]
+</code></pre></div></div>
+
+<p>Now, let’s take it a step further and modify two synth parameters based on these values. 
+The following code maps \(x\) and \(y\) to a suitable range. 
+While \(x\) ranges from 0 to 650 and \(y\) from 0 to 460, we aim to obtain values between 0.1 and 20.</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">OSCdef</span><span class="p">(</span>
+    <span class="sx">\getCoords</span><span class="p">,</span>
+    <span class="p">{</span>
+        <span class="k">arg</span> <span class="n">val</span><span class="p">;</span> <span class="k">var</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">;</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">val</span><span class="p">[</span><span class="mf">1</span><span class="p">];</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="n">val</span><span class="p">[</span><span class="mf">2</span><span class="p">];</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\leftdensity</span><span class="p">,</span> <span class="n">x</span><span class="p">.</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">650</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">20</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\rightdensity</span><span class="p">,</span> <span class="n">y</span><span class="p">.</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">460</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">20</span><span class="p">));</span>
+    <span class="p">},</span>
+    <span class="sx">'/wek/inputs'</span><span class="p">,</span>
+    <span class="nl">recvPort:</span> <span class="mf">6448</span>
+<span class="p">);</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p>The impact of this code should be noticeable in the audio output. When the dancer is positioned at the top left, fewer impulses are produced.
+If situated at the bottom right, impulses emit from both speakers, while being at the bottom left results in only the right speaker activating.
+This effect may not seem extraordinary, as our function \(f\) is quite elementary, involving a linear mapping from one interval to another.</p>
+
+<h3 id="the-machine-in-the-middle">The Machine in the Middle</h3>
+
+<p>We now introduce the <a href="http://www.wekinator.org/">Wekinator</a> in the middle of the communication.
+That is, the dancer sends their position to the <a href="http://www.wekinator.org/">Wekinator</a>, and <a href="https://supercollider.github.io/">SuperCollider</a> listens to the messages from the <a href="http://www.wekinator.org/">Wekinator</a> and changes the values of the synth accordingly.
+The <a href="http://www.wekinator.org/">Wekinator</a> translates positions into synth parameters, and it realizes the function \(f\).
+The 6 output signals</p>
+
+\[(v_1, \ldots, v_6) = f(x,y)\]
+
+<p>are sent to <a href="https://supercollider.github.io/">SuperCollider</a>.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator.png" alt="Runnig Processing sketch" />
+<div style="display: table;margin: 0 auto;">Figure 2: Overview of all the connected parts.</div>
+</div>
+<p><br /></p>
+
+<p>First, we need to modify the port <a href="https://supercollider.github.io/">SuperCollider</a> listens to by changing the line from <code class="language-plaintext highlighter-rouge">recvPort: 6448</code> to <code class="language-plaintext highlighter-rouge">recvPort: 7448</code>.
+Additionally, we should update the path to <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> as a reminder that we are receiving output signals from Wekinator.</p>
+
+<p>Secondly, we must utilize the values we receive. Wekinator consistently sends a value between 0 and 1 for each dimension. 
+As a result, we need to map the interval [0;1] to appropriate synth values.
+This step is critical and necessitates some understanding of the synth. 
+I employ the following mapping (note that we skip <code class="language-plaintext highlighter-rouge">val[0]</code> since it represents the OSC path):</p>
+
+<div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
+<span class="nc">OSCdef</span><span class="p">(</span>
+    <span class="sx">\getCoords</span><span class="p">,</span>
+    <span class="p">{</span>
+        <span class="k">arg</span> <span class="n">val</span><span class="p">;</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\densityleft</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">1</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">20</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\densityright</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">2</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">20</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\freq</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">3</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">100</span><span class="p">,</span> <span class="mf">700</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\amp</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">4</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0</span><span class="p">,</span> <span class="mf">2</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\decaytime</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">5</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">));</span>
+        <span class="vg">~fireworks</span><span class="p">.</span><span class="n">set</span><span class="p">(</span><span class="sx">\cutofffreq</span><span class="p">,</span> <span class="n">val</span><span class="p">[</span><span class="mf">6</span><span class="p">].</span><span class="n">linlin</span><span class="p">(</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">200</span><span class="p">,</span> <span class="mf">20000</span><span class="p">));</span>
+    <span class="p">},</span>
+    <span class="sx">'/wek/outputs'</span><span class="p">,</span>
+    <span class="nl">recvPort:</span> <span class="mf">7448</span>
+<span class="p">);</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>If you use <a href="https://supercollider.github.io/">SuperCollider</a> be careful with your choices and protect your ears</strong> since it will try to use even unreasonable values like an amplitude of 10 or higher.</p>
+
+<p>Now we start the <a href="http://www.wekinator.org/">Wekinator</a>.
+First, we have to specify the port for the input signals of \(f\), i.e., the dancer’s position.
+This is equal to <code class="language-plaintext highlighter-rouge">6448</code>, and the OSC path is <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>.
+Then we have to specify the port of the output signal \(f(x,y)\), i.e., the port used in SuperCollider, which is <code class="language-plaintext highlighter-rouge">7448</code> furthermore, we specify a path <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> such that we do not confuse input and output.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen-started.png" alt="Runnig Processing sketch" />
+<div style="display: table;margin: 0 auto;">Figure 3: Wekinator after it has started.</div>
+</div>
+<p><br /></p>
+
+<p>Furthermore, we have to tell the <a href="http://www.wekinator.org/">Wekinator</a> about the number of inputs and outputs, i.e., 2 and 6, respectively.
+After everything is set up, we can click on <code class="language-plaintext highlighter-rouge">Start Listening</code>.
+Then we can click <code class="language-plaintext highlighter-rouge">Next</code>.</p>
+
+<p>Now you will see the following screen.
+In the top left <code class="language-plaintext highlighter-rouge">OSC In</code> should be green, since the <a href="https://processing.org/">Processing</a> sketch is sending messages.</p>
+
+<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen.png" alt="Runnig Processing sketch" />
+<div style="display: table;margin: 0 auto;">Figure 4: Wekinator before training.</div>
+</div>
+<p><br /></p>
+
+<p>If this is not the case, you either forgot to click <code class="language-plaintext highlighter-rouge">Start Listening</code>, or the port is already used. 
+In that case, change the port in the <a href="http://www.wekinator.org/">Wekinator</a> as well in your <a href="https://processing.org/">Processing</a> sketch and restart the sketch.
+You also should see 6 sliders.
+If you manipulate these sliders, <code class="language-plaintext highlighter-rouge">OSC Out</code> should turn green, indicating that we are sending OSC messages to <a href="https://supercollider.github.io/">SuperCollider</a>.</p>
+
+<p>Furthermore, the sound should change accordingly.
+Make sure your amplitude is not zero.
+Now you can play around with the sliders or press the <code class="language-plaintext highlighter-rouge">random</code> button until you hear something you like.
+Of course, you have to remember which slider represents which parameter.</p>
+
+<p>To connect the sound to the dancer’s position, we have to</p>
+
+<ol>
+  <li>record samples, i.e., construct the data set \(D\)</li>
+  <li>train the model, i.e. compute \(f = A(D)\).</li>
+</ol>
+
+<p>To construct \(D\) we need multiple tuples</p>
+
+\[(\text{input}, \text{output}) = ((x,y), (v_1, \ldots, v_6)).\]
+
+<p>First, we move the square to a desired position and choose a set of desired parameters \((v_1, \ldots, v_6)\).
+Next, we click <code class="language-plaintext highlighter-rouge">Start Recording</code>, and after a few seconds, we press <code class="language-plaintext highlighter-rouge">Stop Recording</code>.
+In doing so, we generate portions of the data \(D\).
+We repeat this step multiple times until we have accumulated sufficient data \(D\).</p>
+
+<p>Once completed, we press <code class="language-plaintext highlighter-rouge">Train</code> to compute</p>
+
+\[A(D) = f.\]
+
+<p>This process should only take a few seconds.</p>
+
+<p>Finally, we can utilize \(f\) by clicking <code class="language-plaintext highlighter-rouge">Run</code>.
+At this point, both <code class="language-plaintext highlighter-rouge">OSC In</code> and <code class="language-plaintext highlighter-rouge">OSC Out</code> indicators should be green, and as you move the square around, the sound should change accordingly. 
+Moreover, all parameters (assuming they were all manipulated during recording) should transition smoothly.</p>
+
+<h3 id="different-algorithms">Different Algorithms</h3>
+
+<p>Keep in mind that we did not specify any algorithm A.
+By default, <a href="http://www.wekinator.org/">Wekinator</a> employs a <em>feed-forward neural network</em> and assumes a <em>regression task</em>.
+This means that the output \(f(x,y)\) is continuous and does not represent an element within a finite set of classes.</p>
+
+<p>You can choose algorithms by modifying the <code class="language-plaintext highlighter-rouge">Type</code> setting, as shown in Fig. 3. 
+This selection includes classification algorithms. 
+For instance, if you wish to establish a mapping between a gesture captured by your webcam and a specific sample, this would be a classification task. Another example would be classifying the type of instrument being played.</p>
+
+<p><a href="http://www.wekinator.org/">Wekinator</a> has some limitations regarding the range of algorithms it offers, as the user lacks control over the model architecture and the model’s hyperparameters.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p><a href="http://www.wekinator.org/">Wekinator</a> is an outstanding tool that makes certain aspects of machine learning accessible.
+Its compatibility with OSC allows for seamless integration into various systems. It is an ideal fit for quick experimentation and serves as a valuable tool for teaching creative practitioners the fundamentals of machine learning on an intuitive level.</p>
+
+<p>However, it does feel somewhat dated and experimental, offering no control over the hyperparameters of its built-in models.
+Additionally, it does not utilize the latest software libraries, such as <code class="language-plaintext highlighter-rouge">PyTorch</code> or <code class="language-plaintext highlighter-rouge">TensorFlow</code>.
+Being a Java application, it supports all operating systems, but <code class="language-plaintext highlighter-rouge">Java</code> is a relatively uncommon programming language in the field of machine learning.</p>
+
+<p>The concept behind <a href="http://www.wekinator.org/">Wekinator</a> is exceptional, and it shouldn’t be too challenging to create a similar tool in Python, enabling artists or developers to integrate their own PyTorch or TensorFlow models. It supports the goal of making machine learning accessible to everyone and provides valuable insights into the features that ML tools for non-experts should offer. Perhaps we can develop new tools to break down even more barriers, allowing practitioners and developers to learn from one another.</p>
+
+<p>In any case, if you’re interested in experimenting with simple machine learning models that process various types of generated input, give <a href="http://www.wekinator.org/">Wekinator</a> a try.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="fiebrink:2019">Fiebrink, R. (2019). Machine Learning Education for Artists, Musicians, and Other Creative Practitioners. <i>ACM Trans. Comput. Educ.</i>, <i>19</i>(4). https://doi.org/10.1145/3294008</span></li>
+<li><span id="clarice:2021">Hilton, C., Plant, N., González Dı́az Carlos, Perry, P., Gibson, R., Martelli, B., Zbyszynski, M., Fiebrink, R., &amp; Gillies, M. (2021). InteractML: Making Machine Learning Accessible for Creative Practitioners Working with Movement Interaction in Immersive Media. <i>Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology</i>. https://doi.org/10.1145/3489849.3489879</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="ML" /><category term="Wekinator" /><category term="Music" /><summary type="html"><![CDATA[This blog post aims to explore how machine learning can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills. To make my case immediately understandable, I will provide a specific example. However, it’s worth noting that this is just one of countless possible instances.]]></summary></entry><entry><title type="html">Musical Interrogation - Part I</title><link href="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html" rel="alternate" type="text/html" title="Musical Interrogation - Part I" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html"><![CDATA[<blockquote>
   <p>Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)</p>
 </blockquote>
 
