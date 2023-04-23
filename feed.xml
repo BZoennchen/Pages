@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-04-23T14:18:39+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-04-23T14:50:40+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
 To make my case immediately understandable, I will provide a specific example.
 However, it’s worth noting that this is just one of countless possible instances.</p>
 
@@ -129,7 +129,7 @@ As a result, we need to provide data/observation \(D\) by recording it, so let�
 Utilizing <em>machine learning</em> does not imply that we cease rationalizing about the world.
 However, I selected this thought-provoking title to accentuate the contrast in tendencies.
 Moreover, the effectiveness and characteristics of <em>machine learning models</em> are significantly influenced by the quality of the observed data and the choice of algorithm.
-Given that our challenge involves a regression task, we will employ a <em>feed-forward neural network</em>.</p>
+Given that our challenge involves a <em>regression task</em>, we will employ a <em>feed-forward neural network</em>.</p>
 
 <h2 id="realization">Realization</h2>
 
@@ -205,11 +205,11 @@ It simply consists of a draggable green square, accompanied by informative log t
 Dragging the green square simulates the dancer’s movement, while the application continuously transmits the rectangle’s central position over the network.</p>
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/simple_mouse_drag.png" alt="Runnig Processing sketch" />
-<div style="display: table;margin: 0 auto;">Figure 1: Running Processing sketch.</div>
+<div style="display: table;margin: 0 auto;">Figure 2: Running Processing sketch.</div>
 </div>
 <p><br /></p>
 
-<p>If you start the sketch in <a href="https://processing.org/">Processing</a>, you should see the window shown in Fig. 1.</p>
+<p>If you start the sketch in <a href="https://processing.org/">Processing</a>, you should see the window shown in Fig. 2.</p>
 
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/**
 * REALLY simple processing sketch that sends mouse x and y position of box to wekinator
@@ -395,7 +395,7 @@ The 6 output signals</p>
 <p>are sent to <a href="https://supercollider.github.io/">SuperCollider</a>.</p>
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator.png" alt="Runnig Processing sketch" />
-<div style="display: table;margin: 0 auto;">Figure 2: Overview of all the connected parts.</div>
+<div style="display: table;margin: 0 auto;">Figure 3: Overview of all the connected parts.</div>
 </div>
 <p><br /></p>
 
@@ -433,7 +433,7 @@ This is equal to <code class="language-plaintext highlighter-rouge">6448</code>,
 Then we have to specify the port of the output signal \(f(x,y)\), i.e., the port used in SuperCollider, which is <code class="language-plaintext highlighter-rouge">7448</code> furthermore, we specify a path <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> such that we do not confuse input and output.</p>
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen-started.png" alt="Runnig Processing sketch" />
-<div style="display: table;margin: 0 auto;">Figure 3: Wekinator after it has started.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
 </div>
 <p><br /></p>
 
@@ -445,7 +445,7 @@ Then we can click <code class="language-plaintext highlighter-rouge">Next</code>
 In the top left <code class="language-plaintext highlighter-rouge">OSC In</code> should be green, since the <a href="https://processing.org/">Processing</a> sketch is sending messages.</p>
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen.png" alt="Runnig Processing sketch" />
-<div style="display: table;margin: 0 auto;">Figure 4: Wekinator before training.</div>
+<div style="display: table;margin: 0 auto;">Figure 5: Wekinator before training.</div>
 </div>
 <p><br /></p>
 
@@ -491,7 +491,7 @@ Moreover, all parameters (assuming they were all manipulated during recording) s
 By default, <a href="http://www.wekinator.org/">Wekinator</a> employs a <em>feed-forward neural network</em> and assumes a <em>regression task</em>.
 This means that the output \(f(x,y)\) is continuous and does not represent an element within a finite set of classes.</p>
 
-<p>You can choose algorithms by modifying the <code class="language-plaintext highlighter-rouge">Type</code> setting, as shown in Fig. 3. 
+<p>You can choose algorithms by modifying the <code class="language-plaintext highlighter-rouge">Type</code> setting, as shown in Fig. 4. 
 This selection includes classification algorithms. 
 For instance, if you wish to establish a mapping between a gesture captured by your webcam and a specific sample, this would be a classification task. Another example would be classifying the type of instrument being played.</p>
 
