@@ -132,7 +132,7 @@ As a result, we need to provide data/observation $$D$$ by recording it, so let's
 Utilizing *machine learning* does not imply that we cease rationalizing about the world.
 However, I selected this thought-provoking title to accentuate the contrast in tendencies.
 Moreover, the effectiveness and characteristics of *machine learning models* are significantly influenced by the quality of the observed data and the choice of algorithm.
-Given that our challenge involves a regression task, we will employ a *feed-forward neural network*.
+Given that our challenge involves a *regression task*, we will employ a *feed-forward neural network*.
 
 
 ## Realization
@@ -210,11 +210,11 @@ It simply consists of a draggable green square, accompanied by informative log t
 Dragging the green square simulates the dancer's movement, while the application continuously transmits the rectangle's central position over the network.
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/simple_mouse_drag.png %}" alt="Runnig Processing sketch">
-<div style="display: table;margin: 0 auto;">Figure 1: Running Processing sketch.</div>
+<div style="display: table;margin: 0 auto;">Figure 2: Running Processing sketch.</div>
 </div>
 <br>
 
-If you start the sketch in [Processing](https://processing.org/), you should see the window shown in Fig. 1.
+If you start the sketch in [Processing](https://processing.org/), you should see the window shown in Fig. 2.
 
 ```java
 /**
@@ -406,7 +406,7 @@ $$(v_1, \ldots, v_6) = f(x,y)$$
 are sent to [SuperCollider](https://supercollider.github.io/).
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator.png %}" alt="Runnig Processing sketch">
-<div style="display: table;margin: 0 auto;">Figure 2: Overview of all the connected parts.</div>
+<div style="display: table;margin: 0 auto;">Figure 3: Overview of all the connected parts.</div>
 </div>
 <br>
 
@@ -445,7 +445,7 @@ This is equal to ``6448``, and the OSC path is ``'/wek/inputs'``.
 Then we have to specify the port of the output signal $$f(x,y)$$, i.e., the port used in SuperCollider, which is ``7448`` furthermore, we specify a path ``'/wek/outputs'`` such that we do not confuse input and output.
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator-screen-started.png %}" alt="Runnig Processing sketch">
-<div style="display: table;margin: 0 auto;">Figure 3: Wekinator after it has started.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
 </div>
 <br>
 
@@ -457,7 +457,7 @@ Now you will see the following screen.
 In the top left ``OSC In`` should be green, since the [Processing](https://processing.org/) sketch is sending messages.
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator-screen.png %}" alt="Runnig Processing sketch">
-<div style="display: table;margin: 0 auto;">Figure 4: Wekinator before training.</div>
+<div style="display: table;margin: 0 auto;">Figure 5: Wekinator before training.</div>
 </div>
 <br>
 
@@ -501,7 +501,7 @@ Keep in mind that we did not specify any algorithm A.
 By default, [Wekinator](http://www.wekinator.org/) employs a *feed-forward neural network* and assumes a *regression task*.
 This means that the output $$f(x,y)$$ is continuous and does not represent an element within a finite set of classes.
 
-You can choose algorithms by modifying the ``Type`` setting, as shown in Fig. 3. 
+You can choose algorithms by modifying the ``Type`` setting, as shown in Fig. 4. 
 This selection includes classification algorithms. 
 For instance, if you wish to establish a mapping between a gesture captured by your webcam and a specific sample, this would be a classification task. Another example would be classifying the type of instrument being played.
 
