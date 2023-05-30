@@ -38,6 +38,8 @@
 
 .highlight .gt { color: #f07178; }
 
+.highlight .kn { color: #cc00ff; }
+
 .highlight .kc { font-weight: bold; }
 
 .highlight .kd { font-weight: bold; }
@@ -66,7 +68,7 @@
 
 .highlight .nf { color: #82AAFF; font-weight: bold; }
 
-.highlight .nn { color: #555; }
+.highlight .nn { color: #5c5; }
 
 .highlight .nt { color: #FFCB6B; }
 

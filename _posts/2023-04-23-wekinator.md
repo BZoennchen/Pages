@@ -218,9 +218,11 @@ If you start the sketch in [Processing](https://processing.org/), you should see
 
 ```java
 /**
-* REALLY simple processing sketch that sends mouse x and y position of box to wekinator
+* REALLY simple processing sketch that sends 
+* mouse x and y position of box to wekinator
 * This sends 2 input values to port 6448 using message /wek/inputs
-* Adapated from https://processing.org/examples/mousefunctions.html by Rebecca Fiebrink
+* Adapated from https://processing.org/examples/mousefunctions.html 
+* by Rebecca Fiebrink
 **/
 
 import oscP5.*;
