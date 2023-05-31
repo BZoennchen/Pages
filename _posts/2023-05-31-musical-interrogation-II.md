@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Musical Interrogation - Part II"
-tags: Music ML FFN Markov-Chain
+tags: Music ML FFN MC
 comments: true
 ---
 
