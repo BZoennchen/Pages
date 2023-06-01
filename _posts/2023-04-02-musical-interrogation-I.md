@@ -294,18 +294,6 @@ Daniel Johnson {% cite johnson:2017 %} created what he calls [Bi-axial LSTM](htt
 Each of the stacked LSTMs receives the input for one specific note.
 The model supports polyphonic music.
 Furthermore, Johnson's architecture and input format allows the model to learn the musical concept of *translation invariance*, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.
-For example, compare the following melodies.
-Their tonal properties are almost the same since the second one is just the first one raised by one semitone.
-
-<audio controls>
-  <source src="{% link /assets/audio/deut0567.mp3 %}" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls>
-  <source src="{% link /assets/audio/deut0567-raised.mp3 %}" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
 
 The model is inspired by convolutional neural networks since they are quasi-invariant with respect to translation.
 It is not completely clear to me how many LSTM blocks the model consists of.
