@@ -364,19 +364,7 @@ Their LSTM consists of <strong>3 hidden layers</strong> with <strong>512 LSTM bl
 <p>Daniel Johnson <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> created what he calls <a href="https://github.com/danieldjohnson/biaxial-rnn-music-composition">Bi-axial LSTM</a>, many two-layered LSTMs (stacked in on the note-axis) with connections along the note-axis and recurrent connections along the time-axis followed by feed-forward layers (third and fourth non-recurrent layer) across notes.
 Each of the stacked LSTMs receives the input for one specific note.
 The model supports polyphonic music.
-Furthermore, Johnson’s architecture and input format allows the model to learn the musical concept of <em>translation invariance</em>, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.
-For example, compare the following melodies.
-Their tonal properties are almost the same since the second one is just the first one raised by one semitone.</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/deut0567.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/deut0567-raised.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
+Furthermore, Johnson’s architecture and input format allows the model to learn the musical concept of <em>translation invariance</em>, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.</p>
 
 <p>The model is inspired by convolutional neural networks since they are quasi-invariant with respect to translation.
 It is not completely clear to me how many LSTM blocks the model consists of.

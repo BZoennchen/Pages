@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-05-31T12:06:44+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-06-01T09:13:56+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
 
 <ol>
   <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
@@ -1400,19 +1400,7 @@ Their LSTM consists of <strong>3 hidden layers</strong> with <strong>512 LSTM bl
 <p>Daniel Johnson <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> created what he calls <a href="https://github.com/danieldjohnson/biaxial-rnn-music-composition">Bi-axial LSTM</a>, many two-layered LSTMs (stacked in on the note-axis) with connections along the note-axis and recurrent connections along the time-axis followed by feed-forward layers (third and fourth non-recurrent layer) across notes.
 Each of the stacked LSTMs receives the input for one specific note.
 The model supports polyphonic music.
-Furthermore, Johnson’s architecture and input format allows the model to learn the musical concept of <em>translation invariance</em>, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.
-For example, compare the following melodies.
-Their tonal properties are almost the same since the second one is just the first one raised by one semitone.</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/deut0567.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/deut0567-raised.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
+Furthermore, Johnson’s architecture and input format allows the model to learn the musical concept of <em>translation invariance</em>, e.g., increasing each note of a piece by one semitone keeps the main qualities unchanged, which is very different compared to text translation.</p>
 
 <p>The model is inspired by convolutional neural networks since they are quasi-invariant with respect to translation.
 It is not completely clear to me how many LSTM blocks the model consists of.
