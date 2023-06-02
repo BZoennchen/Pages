@@ -49,10 +49,11 @@ Software Developer (Education)<br>
 ***
 
 ## Research Interests
-+ Free and Open Education in the Digital Era
-+ Modelling and Simulation
++ Machine Learning for all
 + Sustainable AI
++ Free and Open Education in the Digital Era
 + Computer Music
++ Modelling and Simulation
 + Design of Efficient and Parallel Algorithms
 + Theoretical Computer Science, Automata Theory
 
@@ -61,11 +62,13 @@ Software Developer (Education)<br>
 + Philosophy & Technolgy
 + Chess
 + Music Theory
-+ Constructivism
 
 ***
 
 ## Scholarships & Awards
+
+**2022** | Award for the course Sustainable AI<br>
+([Winner of the MINT Challenge](https://www.stifterverband.org/pressemitteilungen/2023_03_09_mintchallenge_kompetent_fuer_nachhaltige_entwicklung))<br>
 
 **2022** | Dissertation Award<br>
 ([Oskar-von-Miller Award](https://www.hm.edu/forschung/wissenstransfer/wissenstransfer~1.de.html#text_und_bild__optional))<br>
