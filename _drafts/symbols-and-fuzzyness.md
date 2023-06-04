@@ -1,96 +1,134 @@
 ---
 layout: post
-title:  "Symbols and the Fuzzyness of Reality"
+title:  "Being-There-Technological"
+tags: AI Philosophy Consciousness
 ---
 
-In this article, I aim to discuss Dreyfus' critique of artificial intelligence and shed light on the prevailing confusion between symbol-driven machines and the thinking mind.
-To achieve this, I will share my fundamental understanding of phenomenology, since it is the basis of Dreyfus' thought.
+In January 2015, Stephen Hawking, Elon Musk, and dozens of artificial intelligence (AI) experts signed an open letter on AI, calling for research on the societal impacts of AI. 
+The letter highlighted both the positive and negative effects of AI, but warned that if human intelligence is achieved, the risks could be unpredictable. 
+This year, a second open letter followed, signed by Elon Musk, Steve Wozniak, Yuval Noah Harari and others, calling for a six-month pause in developing systems more powerful than OpenAI's newly launched GPT-4.
 
-I acknowlede that I am not formally trained in the field of philosophy.
-As such, please take my insights with a grain of salt.
+>Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable
 
-I think there is little doubt today that Dreyfus and the continental philosophers he studied were ahead of their time regarding the cognitive problem of artificial intelligence.
-This suggests that AI practitioners should explore philosophical perspectives even if they come from a place of "the fuzzy world".
-I argue that we can now observe developments in *machine learning* that were, albeit indirectly, proposed by Dreyfus around 1986.
-Furthermore, this perspective might give us a last stand between us and the machine.
+said the letter issued by the *Future of Life Institute*.
+The assumption that we can be confident that the effects of powerful AI systems are positive reveals a certain perspective on technology as a mere tool that we can control. 
+Furthermore, the letter attributes a power to AI systems that we as a society must respect, pushing AI further into our shared consciousness.
 
-## Dreyfus and AI
+AI research is in a state of uncertainty.
+Experts can build machines they do not understand and that at least simulate some sort of *calculated rationality (CR)*. 
+We do not know what human-like intelligence truly is or how consciousness works. 
+Yet at the same time, disruptive machines that seem to exhibit intelligence pop up in our daily lives.
 
-Hubert L. Dreyfus (1929 - 2017) was a philosopher deeply influenced by and interested in phenomenology and existentialism.
-He studied the works of *Edmund Husserl*, *Martin Heidegger*, *Soren Kierkegaard*, *Maurice Merleau-Ponty*, *Jean-Paul Sartre*, *Nietzsche* and *Dostoevsky*.
+The reaction of ordinary people to the *uncertain state of AI* combined with the horrific statements about its impact can be categorized into three camps:
 
-Dreyfus held professorial positions at *MIT* and later at the *University of California*, *Berkeley*.
-During the 1960s to the 1980s, he emerged as a staunch critic of AI, which led to tensions at MIT, nearly costing him his job and drawing personal attacks from the AI community.
-His 1965 publication *Alchemy and Artificial Intelligence*, in which he compared AI to the process of alchemy trying to make gold from metal, sparked considerable controversy.
+1. Shameless optimism, 
+2. Fear regarding job security, and 
+3. Existential anxiety
 
-In following 1972 book, *What Computers Can't Do*, which essentially expands on his earlier publication, Dreyfus delves into the inherent inability of disembodied machines to replicate higher mental functions.
-In the follow-up book, *What Computers Still Can't Do: A Critique of Artificial Reason*, he provided a comprehensive new introduction, addressing recent developments in AI and evaluating the paradigms of connectionism and neural networks that have reshaped the field.
+and I too feel all these emotions, sometimes simultaneously.
 
-In the end, Dreyfus was both right and perhaps wrong simultaneously.
-At a time when researchers were proposing ambitious plans for general problem solvers and automatic translation machines, Dreyfus predicted their failure due to their naive understanding of mental functioning as a purely symbolic activity.
-He recommended that they should familiarize themselves with contemporary philosophical approaches to human cognition.
-Probably due to his aggressive attitute he got completely ignored -- for the better or worse.
+My issue is that the discourse surrounding AI is mainly led by experts with a particular belief system.
+They largely assume that the human brain is fundamentally a *Turing machine* and that consciousness is *Turing computable*.
+Note that this is not the same as saying that all things can be explained by our material reality.
+Their shared belief can be explained psychological.
+By extrapolating from the biased sample of people-you-spend-time-with, you fall into the trap to believe that your hypothesis are much more accepted than they are;
+If you hold a hammer in your hand everything becomes a nail.
 
-Today, many connectivsts will argue that formal methods are not expressive enough for human-like cognition and indirectly agree with Dreyfus.
-It seems that he was correct in asserting that perception and cognition are not pure symbolic powered expert systems.
-However, he may have been wrong in suggesting that symbol manipulation cannot simulate the fuzziness of cognition and unconscious fast thinking we use when catching a ball.
+With the strong assumption of the mind being *Turing computable*, the leap towards human-like thinking machines is not a big one.
+Therefore, it is no wonder why so many futurists come out with quite radical claims.
+For instance, we have Elon Musk stating:
 
-As a fierce critic, Dreyfus had to endure harsh criticism of his own work.
-He noted that 
+>With artificial intelligence, we are summoning the demon. You know all those stories where there's the guy with the pentagram and the holy water, and he's like, yeah, he's sure he can control the demon? Doesn't work out. -- Elon Musk
 
->My colleagues working in AI dared not be seen having lunch with me.
+Or Ray Kurzweil stating:
 
-Joseph Weizenbaum, the famous inventor of *ELIZA*, the first chat bot that was able to simulate human-like conversations, was an outspoken critic of Dreyfus' position but he took it professional.
+>Artificial intelligence will reach human levels by around 2029. Follow that out further to, say, 2045, we will have multiplied the intelligence, the human biological machine intelligence of our civilization a billion-fold. -- Ray Kurzweil
 
->I became the only member of the AI community to be seen eating lunch with Dreyfus. And I deliberately made it plain that theirs was not the way to treat a human being. -- Joseph Weizenbaum
+And Nick Bostrom saying:
 
-Seymour Papert organized a chess match between Dreyfus and *Mac HackÜ (a computer program), which Dreyfus lost, much to Papert's delight.
+>Machine intelligence is the last invention that humanity will ever need to make. -- Nick Bostrom
 
->"A ten year old can beat the machine" Dreyfus says. Well, the machine beats Dreyfus. What does this tell us about him?
+The media echo this perspective and often portray AI as an attempt to create a human-like entity -- powerful enough to overtake the world. 
+This comparison sparks an existential question: If this is true, am I no more than a machine? 
+This, consequently, leads to a certain posthuman understanding of individuals as mere machines in a system of machines.
+If ChatGPT basically only predict the next most likely token, humans might do the same.
+If connecting with an AI that perfectly fits our needs, love and friendship becomes either superfluous or redefined in a way that humans will no longer be able to fulfill the required standard.
 
-By the early 1990s, several of Dreyfus' radical opinions had become mainstream. 
-However, the AI community largely continued to ignore Dreyfus, since the gap between their principles of naturalism and Dreyfus' phenomenology remained too vast.
+In this article, I aim to challenge this view by returning to the human experience from a *phenomenological* perspective.
+By doing so I try to describe the human condition and the essence of technology as something beyond a mere intrument.
+Be warned that the question at hand led me into a rabbit hole that you may not be willing to fall into.
 
->What does he offer us? Phenomenology! That ball of fluff. That cotton candy! -- Edward Feigenbaum
+I acknowledge that I am not formally trained in the field of philosophy.
+As such, please take everything I write in this article with a grain of salt.
 
-Moreover, Dreyfus was not inclined to address the problems he identified but instead provided an absolute answer: it will never happen.
-Because of the advances in cognitive science the gap has closed a lot lately.
-Many phenomenological claims are now founded in cognitive science but some of the more fundamental criticism is ignored in mainstream discussions about *artificial intelligence* and its impact on society.
+## The Hard Problem of Consciousness
 
-Because this topic is so fundamental, I want to do it justice.
-Therefore, I will try to guide you into the phenomenological mindset.
-We all know naturalism.
-It is how we imagine the reality to be, i.e., the assumption that nature is best accounted by reference to material principles, that it encompasses all that exists throughout space and time.
-So what is *Phenomenology*?
+Language can pose a complex challenge in a discussion, particularly in the field of *machine learning*, where we often rely on metaphors and somtimes ill-suited analogies.
+There is a general human weakness for explainations of what is incomprehensible in terms suited for what is familiar and well understood, though entirely different.
+We employ existing terms to describe new and frequently technical operations, processes, and entities.
 
-## Heidegger and the Nazis
+For instance, one of the most influential publications in recent machine learning research is titled *Attention Is All You Need* {% cite vaswani:2017 %}. 
+Here, *attention* serves as a metaphor for a complex computation involving the calculation of specific weights, which indicate how "important" one token is to another, in other words, how much 'attention' one token devotes to another.
 
-Before we can talk about that I have to include an important disclaimer!
+Even in this explanation, I cannot entirely circumvent the unconventional use of language. 
+The challenge lies in the fact that real understanding necessitates mathematics. 
+Even though metaphors can be incredibly useful, they are not a perfect substitute for the real concept
 
-While discussing the philosophical contributions of Heidegger, it is essential to also acknowledge his association with *National Socialism*.
-He actively endorsed this ideology and exploited it as a mechanism for acquiring control, influence, and power.
-For instance, he employed the services of the Gestapo (the Geheime Staatspolizei) to sideline his colleagues.
-In other instances, he helped students to move away from the danger.
-Regrettably, Heidegger neither apologized nor distanced himself from his actions, nor did he acknowledge any wrongdoing.
-Instead, he attempted to obfuscate and justify his actions, which is particularly disconcerting given the fact that both his mentor, Edmund Husserl, and his student (and romantic partner), Hannah Arendt, were of Jewish descent.
+>One cannot understand [...] the universality of laws of nature, the relationship of things, without an understanding of mathematics. There is no other way to do it. -- Richard Feynman
 
-Moreover, many argue that it is impossible to separate Heidegger's politics from his philosophy -— they are intertwined, and I tend to agree, at least to some extent.
-Thus, engaging with Heidegger's work can be a perilous undertaking, even if many of his ideas are incompatible with Nazism.
-Perhaps it was his concern with technology that spiraled into fear and desperation, leading him to view Nazism as a means to escape the prevailing technological mode of being in his time.
+We encounter terms such as *learning rate*, *experience*, *task*, *transfer learning*, and, of course, *artificial intelligence*. 
+Each of these terms carries a unique definition within the discipline of machine learning, which differs from our everyday language usage.
 
-Karl Popper, who coined the term *critical rationalism*, which is the bases for how we do science, has no good word for Heidegger.
+For *artificial intelligence*, I propose a rather unspecific definition that circumvents reliance on "intelligence". In computer science, we refer to *information processing systems* as *artificial intelligence* when they resolve complex tasks assigned by humans, exhibiting skills usually associated with human intelligence.
 
->Heidegger is, so to speak, the Hegelian of our time, who was also a Nazi, among other things. The worst part is that in Germany and all over the world, for example in South America, France, and Spain, Heidegger is admired and imitated. [...] He usually writes things that one cannot understand at all, and that too, for pages on end! -- Karl Popper
+Within philosophy and computer science, we differentiate between **weak** and **strong AI**.
+**Weak AI** implies *demonstrating capabilities*, that is, certain information processing systems seem intelligent; they simulate intelligence.
+**Strong AI**, on the other hand, appears intelligent because it genuinely possesses intelligence. 
+It understands, and hence, is conscious and/or exhibits intentionality.
 
-Other notable critics include Karl Jaspers, Theodor W. Adorno (Frankfurt School), Jürgen Habermas (Frankfurt School), Kurt Tucholsky, and numerous others.
-Heidegger's thinking and writing have been criticized for dressing up banalities as profound insights, projecting his personal moods onto others, hiding behind an overly complex language, overemphasizing the role of human beings in dertermining the nature of being, lacking any ethical content, circular reasoning and tautologies, being the root for the rise of *relativism* and the rejection of objective turths.
+In 1980, philosopher John Searle introduced the term **strong AI** as part of the Chinese Room argument (explained below):
 
-Despite these criticisms, Heidegger remains an influential figure in the history of philosophy, and his ideas continue to be debated and studied in academic circles.
-He influenced the works of Herbert Marcuse, Jean-Paul Sartre, Jacques Derrida, Paul Tillich, Michel Foucault and many more.
-It would be a mistake to completely dismiss his works because of his character.
-But it would also be a mistake to dive into his work without knowing about his actions and connections to the Nazi party.
++ **Strong AI hypothesis**: An artificial intelligence system can "think" -- have "a mind" and "consciousness".
++ **Weak AI hypothesis**: An artificial intelligence system can (only) act like it thinks and has a mind and consciousness.
 
->How is it that such a brilliant mind was taken in by the Nazis? How could Heidegger be so socially irresponsible? It is the same problem as with Celan: here is a wonderful writer who was a rotten anti-Semite [...] I have shown Heidegger’s brain with a mushroom-like tumor growing out of it to make the point. -- Anselm Kiefer
+The crux of most AI discussions boils down to this distinction, coupled with a misuse of language. 
+People claim a system is intelligent when they actually mean that it appears intelligent, rather than truly being so. 
+Some, like Ray Kurzweil, use the term **strong AI** to *indicate human-level artificial general intelligence*, which isn't the same unless one presumes *consciousness* is necessary for *human-level AGI*.
+
+*Artificial General Intelligence (AGI)* refers to a hypothetical intelligent agent capable of learning any intellectual task performed by humans or other animals. 
+The creation of AGI is a primary objective of some AI research and firms, including OpenAI, DeepMind, and Anthropic.
+
+From an instrumental perspective, the consciousness of *AGI* doesn't matter as its impact on the world would remain consistent. 
+While it is important to think about the topic, one should avoid claiming the advent of **strong AI** without proof. 
+When considering ethical, philosophical, and anthropological viewpoints, the question of *consciousness* becomes paramount.
+
+Some argue that **strong AI** is achievable, while others disagree. 
+Searle, a *materialist*, doesn't refute the possibility of constructing **strong AI**. 
+However, he insists such a machine would need *intentionality*, meaning there are states that involve semantic content referencing objects, properties, or relationships beyond themselves.
+
+Philosopher Daniel Dennett posits in {% cite dennett:1991 %} that consciousness isn't what it seems, but rather a series of mental activities creating an illusion of a unified, continuous self. 
+Consequently, if consciousness is a process or simulation, there's no fundamental barrier to replicating that in a machine, given sufficient understanding and computational resources. 
+Dennett argues that "beliefs", "desires", or even "consciousness" itself don't correspond to real *phenomena* and should be substituted with more accurate concepts based on neuroscientific comprehension.
+
+David Chalmers {% cite chalmers:1995 %} and Thomas Nagel {% cite nagel:1974 %} argue that Dennett's model ails to account for the subjective experience of consciousness, also known as *qualia*. 
+There is something it "feels like" to have a particular conscious experience, something that cannot be fully explained by a physicalist or reductionist view. 
+This is sometimes referred to as the *hard problem of consciousness*.
+
+Proponents of **strong AI** often think that as simulated intelligence improves, it somehow becomes conscious. 
+The assumption is that the system becomes more than the sum of all parts (*emergence*), a plausible materialistic supposition influenced by our understanding of how consciousness emerges in our brains. 
+Another possibility is that all things are somewhat conscious, with the level of consciousness gradually increasing. 
+While I'm not denying this possibility, there's no evidence that such emergence or gradual transition can occur.
+
+Perhaps the endeavor to answer the question of **strong** versus **weak AI** is destined to be inconclusive since without peeking "into the box", we can never truly ascertain whether an agent is merely simulating or not. 
+The same holds true for intelligence, which we typically measure in daily life through testing students -- there's simply no other practical method for determining one's intelligence or knowledge.
+
+In summary, the *question of AGI* should not be conflated with the question of **strong AI**.
+The latter is intimately tied to the *hard problem of consciousness*.
+All those questions are open for debate and it is important to remember this when making bold claims about *artificial intelligence*.
+
+Let's conclude this section with a quote from the physicist, cosmologist and machine learning researcher and president of the *Future of Life Institute* Max Tegmark, who believes he has considered all possible consequences of superintelligence for the next 10,000 years and that "the world is not merely described by mathematics, but actually made of mathematics":
+
+>In essence, we cannot absolutely guarantee that within our lifetime -- or ever -- there will be a human-like AGI, but we cannot rule out the possibility either. -- {% cite tegmark:2017 %}
 
 ## Phenomenology
 
@@ -114,17 +152,20 @@ Similar to phenomenologists, Kant also suggests that experience is actively stru
 But to perceive anything at all, some knowledge exists in the mind a priori (independent of experience) -- objects can be *intuited*, and that *intuition* is consequently distinct from the *Things-in-themselves*.
 However, many phenomenologists do not posit the existence of noumena or things-in-themselves the same way Kant does.
 
-Back in the day, Husserl thought that Descartes' *rationalism*, was not radical enough and that he constructed an artificial separable "I" that has no basis.
-Descartes famously suspended judgement on everything that could possibly be doubted but immediately jumped from the "I think" to the assertion that he is a thinking thing; leaving the human subject all together.
-A similar criticism can be found in the works of *Kierkegaard*, a religious thinker that most certainly influenced Heidegger.
+Husserl admired and adopted Descartes' goal of finding an indubitable truth.
+According to Husserl, if a philosopher wishes to start with the first evidence, they must not only exclude existing philosophy and science from their perspective, but also the world in general. 
+The world is invalidated, and the philosopher focuses solely on their own consciousness and the **phenomena that this consciousness perceives**.
+Husserl thought that there was a direct correlation between our experiences and the world around us.
+As such, conscious experiences (phenomena) could provide a reliable basis for scientific knowledge.
+In fact, he thought that Descartes' *rationalism*, was not radical enough.
+Unlike Heidegger, he retained the *subject/object distinction* and the *transcendental ego*.
 
-Descartes' rationalism neglects the fundamental sensual sensation and experience in favor of rational thinking.
-Husserl wanted a new solid foundation of knowledge and since it has to start with conciousness, he wanted a *Science of the Human Spirit* (very similar to Decartes).
-Husserl went back to Decartes and tried to bracket (suspending judgement) not the objects but objects of knowledge (particulars, interpretations).
+Husserl wanted a new solid foundation of knowledge and since it has to start with the phenomena, he wanted a *Science of the Human Spirit* (very similar to Decartes).
+Husserl went back to Decartes and tried to bracket (suspending judgement) not the objects that appear but objects of knowledge (particulars, interpretations, and even memory).
 In his later works he even tried to bracket his own theoretical attitude (metaphysical assumtions) to get to the "I" of the lived world (Lebenswelt) rather than the "I" of some abstruse theoretical knowledge of the world.
 He wanted to get to the "I know" of a prescientific conciousness, that is, the "I know" of *ordinary life*.
 
-Phenomenology re-emphasis *empiricism* (Hume) over *rationalism* (Descartes, Spinoza, Leibniz) in so far that it values first-hand experimental data.
+Phenomenology re-emphasis the experienced phenomena over rational thinking and empirical evidence in so far that it values first-hand experimental data.
 However, mainly it is not interested in tracing experiences back to an external, physical cause.
 It goes against the *Representational Theory of Consciousness*, which assumes that conscious experience is fundamentally a matter of mental representation.
 That is, our conscious experience of the world is a result of internal mental representations that depict or model the world.
@@ -178,13 +219,21 @@ Truth is what appears; what is presented to me.
 Phenomenology offers an alternative perspective on truth that neglects emprirical and statistical investigations.
 It is not anti-science but trys to provide a kind of "first-person" perspective that can enrich our understanding of consciousness and experience in ways that complement the "third-person" perspective of the sciences.
 
+While it is often feasible to adopt a viewpoint other than one's own, the understanding of such perspectives is not confined to one's personal experience.
+There is a sense in which *phenomenological* facts are impeccably objective: one individual can discern or articulate the quality of another's experience. 
+However, they are subjective in the sense that even this objective assignment of experience is only possible for someone sufficiently similar to the person to whom the experience is being ascribed; someone who can understand the ascription from both a first-person and third-person perspective, so to speak. 
+The greater the divergence between the experiencer and oneself, the less likely one is to succeed in this endeavor.
+
 ## Intentionality
 
 Husserl sought to establish an objective study of the subjective (*transcendental phenomenology*) by proposing a *theory of intentionality*.
 He developed this idea starting with Franz Brentano's *intentionality*.
 
-Today, *intentionality*, which translates from Latin to "to point at", remains a significant concern among *philosophers of the mind*, particularly the *nature of consciousness*, the *semantics of language*, and the *problem of representation*.
-*Intentionality* is a concept used to describe the ability of the mind to form representations and have thoughts about or towards the world. 
+Today, *intentionality*, which translates from Latin to "to point at", remains a significant concern among the *philosphy of mind*, particularly the *nature of consciousness*, the *semantics of language*, and the *problem of representation*.
+*Intentionality* is a concept used to describe the ability of the mind to form representations and thoughts about or towards the world.
+In simple terms *intentionality* is
+
+>the characteristic of many mental states and events by which they are directed towards objects or situations in the world, or deal with them. -- {% cite searle:1983 %}
 
 A common debate involves the *material* source of *intentionality* and *consciousness* and their relation.
 This led to the mentioned *dualism* since the mind seems to have several properties that are not present in physics.
@@ -230,46 +279,94 @@ Computers manipulate symbols, and within a specific programming language, these 
 However, it's important to note that no symbol is *grounded* in a tangible experience.
 The meaning is derived from the context provided by the specific language and the human interpretation of that context.
 
-One could argue that unicorns, while not *grounded* in tangible experience, are nonetheless constructed from components of grounded experiences, such as those of a horse and a horn. 
+To contest the notion of machines possessing human-like intelligence, one could argue that they operate on symbols or combinations of symbols that are not grounded in experience. 
+A rebuttal to this might suggest that in machine learning, machines do accumulate experience. 
+They are fed with billions of data points. 
+However, even if neural networks are somewhat capable of grounding their "states" in tangible experience, this experience is fundamentally different from ours. 
+Another counter-argument may propose that humans understand concepts that are not grounded in tangible experience, for instance, unicorns. But this isn't entirely accurate, as such concepts are invariably abstracted from some phenomena, such as a horse and a horn.
+
+Searle argues that without *intentionality* there is no *understanding* and since, according to him, computers have no *intentionality* they do not understand anything.
+Understanding, in relation to machines, is therefore used only metaphorically, by humans transferring their own intentionality onto artificial creations. 
+According to Searle, computers are merely the extended arm of our objectives, and that's why we find it natural to attribute intentionality to them metaphorically, but philosophically such things are of no consequence.
+
 If we adhere to *materialism*, the philosophy asserting that everything, including thought, can be explained in terms of matter and physical phenomena, then my contemplation of Mount Everest can be reduced to a specific arrangement of electrons, neurons, dendrites, and the like. 
 In essence, it is just physical particles and nothing more.
 However, unlike a computer, there's no external entity assigning meaning to these particles. 
 So, the question arises: how can these ostensibly meaningless particles point to something, without an external mind assigning meaning to them, as we do with computers?
 If we suggest that a sub-process in the brain assigns meaning to our thoughts, it merely relocates the problem without genuinely resolving it. 
-The quandary of how raw physical processes can embody meaning remains unanswered.
+To this day, the quandary of how raw physical processes can embody meaning remains unanswered.
+
+## Heidegger and the Nazis
+
+In the following I want to talk about my interpretation of Martin Heidegger's understanding of the human condition and his view on technology.
+But before we can talk about that I have to include an important disclaimer!
+
+While discussing the philosophical contributions of Heidegger, it is essential to also acknowledge his association with *National Socialism*.
+He actively endorsed this ideology and exploited it as a mechanism for acquiring control, influence, and power.
+For instance, he employed the services of the Gestapo (the Geheime Staatspolizei) to sideline his colleagues.
+In other instances, he helped students to move away from the danger.
+Regrettably, Heidegger neither apologized nor distanced himself from his actions, nor did he acknowledge any wrongdoing.
+Instead, he attempted to obfuscate and justify his actions, which is particularly disconcerting given the fact that both his mentor, Edmund Husserl, and his student (and romantic partner), Hannah Arendt, were of Jewish descent.
+
+Moreover, many argue that it is impossible to separate Heidegger's politics from his philosophy -- they are intertwined, and I tend to agree, at least to some extent.
+Thus, engaging with Heidegger's work can be a perilous undertaking, even if many of his ideas are incompatible with Nazism.
+Perhaps it was his concern with technology that spiraled into fear and desperation, leading him to view Nazism as a means to escape the prevailing technological mode of being in his time.
+
+Karl Popper, who coined the term *critical rationalism*, which is the bases for how we do science, has no good word for Heidegger.
+
+>Heidegger is, so to speak, the Hegelian of our time, who was also a Nazi, among other things. The worst part is that in Germany and all over the world, for example in South America, France, and Spain, Heidegger is admired and imitated. [...] He usually writes things that one cannot understand at all, and that too, for pages on end! -- Karl Popper
+
+Other notable critics include Karl Jaspers, Theodor W. Adorno (Frankfurt School), Jürgen Habermas (Frankfurt School), Kurt Tucholsky, and numerous others.
+Heidegger's thinking and writing have been criticized for dressing up banalities as profound insights, projecting his personal moods onto others, hiding behind an overly complex language, overemphasizing the role of human beings in dertermining the nature of being, lacking any ethical content, circular reasoning and tautologies, being the root for the rise of *relativism* and the rejection of objective turths.
+
+Despite these criticisms, Heidegger remains an influential figure in the history of philosophy, and his ideas continue to be debated and studied in academic circles.
+He influenced the works of Herbert Marcuse, Jean-Paul Sartre, Jacques Derrida, Paul Tillich, Michel Foucault and many more.
+It would be a mistake to completely dismiss his works because of his character.
+But it would also be a mistake to dive into his work without knowing about his actions and connections to the Nazi party.
+
+>How is it that such a brilliant mind was taken in by the Nazis? How could Heidegger be so socially irresponsible? It is the same problem as with Celan: here is a wonderful writer who was a rotten anti-Semite [...] I have shown Heidegger’s brain with a mushroom-like tumor growing out of it to make the point. -- Anselm Kiefer
 
 ## Being and Time
 
-In *Being and Time* Heidegger is concerned with nature of *Being (Sein)*, which, according to him, should be the central question of philosophy (*existential phenomenology*).
+In *Being and Time* {% cite heidegger:1927 %} Heidegger is concerned with nature of *Being (Sein)*, which, according to him, should be the central question of philosophy (*existential phenomenology*).
 He thinks that previous philosophers have failed to adress this question adequately, confusing the concept of *Being* with particular beings or entities.
 He also thinks that Husserl's cause to establish a new kind of foundationalism by the process of bracketing is impossible because bracketing is never complete.
 You can not strip the transcendential self bare of the evidence of this that or the other kind of object of knowledge and catch it.
 You never catch the relation between subject and object (the intentional state) without the objects.
 
 Heidegger distinguishes between *being (Sein)* and *beings (Seiendem)* and argues that *Being* (universal) is the indispensable reason for *beings* (individual: particular manifestation of the universal).
-Furthermore, he uses the term *being there (Dasein)* to describe the unique mode of existence of human beings which are beings that *care* (Heidegger's intentionality) about their own existence and embeddedness in a world of meaning and relationships.
-Only *Dasein* is capable of questioning *Being (Sein)*, which makes us special.
+Furthermore, he uses the term *being-in-the-world (Dasein)* to describe the unique mode of existence of human beings which are beings that *care* (Heidegger's intentionality) about their own existence and embeddedness in a world of meaning and relationships.
+Only *Dasein* is capable of questioning *Being (Sein)*, which makes it special.
 So do we have the ground of being in the consciousness (Dasein) of our own existence?
 
 >Why is there something rather than nothing? How can I be on this verge of nothingness?
 
+For Descartes, the subject is the seat of experience and is ontologically prior to the world around it. 
+Contrary to this, Heidegger's goal is to show that there is no subject distinct from the external world of things. 
+Heidegger puts together the separation of the subject and the object by the concept of *Dasein*.
+
+For Heidegger, the *world* is not presented to us as a collection of objects that we look upon from a detached perspective, but as a holistic web of interconnected equipment with which we are inextricably entangled. 
+Objects only show up in the context of a background of purposes, concerns, practices and equipmental dealings that is constitutive of our *being-in-the-world*. 
+The *subject-object perspective* is thus a derivative, incomplete understanding, which is blinded by its failure to recognise the primacy of "concernful engagement" with things above traditionally-minded epistemological scrutiny.
+If we follow Heidegger’s train of thought, we cannot indulge in the kind of skepticism that Descartes presents, since it is predicated on a false distinction between us and the world.
+Questioning the authenticity of one's own existence within the world necessitates a profound understanding of that world, which can only be established by that very existence, or in other words, by *Dasein*.
+
 From the title of the book we immediately see Heidegger's emphasis on *time*.
 He argues that *Dasein's* experience of time is fundamentally different from the objective, linear conception of time.
-*Dasein* experiences time as a unified whole, with past, present, and future interwoven in a complex and dynamic strucutre.
+*Dasein* experiences time as a unified whole, with past, present, and future interwoven in a complex and dynamic structure.
 
->Dasein finds ‘itself’ proximally in what it does, uses, expects, avoids—in those things environmentally ready-to-hand with which it is proximally concerned. -- Martin Heidegger
+>Dasein finds ‘itself’ proximally in what it does, uses, expects, avoids -- in those things environmentally ready-to-hand with which it is proximally concerned. -- Martin Heidegger
 
 The concept of *time* is closely linked to the importance of *death* in Heidegger's philosophy.
 He analyzes death without contrasting it to immortality, focusing instead on how our awareness of death imbues our lives with meaning.
 Human existence is characterized by *Being-Towards-Death (Sein-zum-Tode)*.
 Heidegger envisions death not as a fixed point at the end of one's life, but rather as something we continually approach, with the awareness of its inevitability always in the back of our minds.
-From the moment we become Dasein, which is both embodied and linguistic, we are conscious of time and the approaching certainty of our own demise.
+From the moment we become *Dasein*, which is both embodied and linguistic, we are conscious of time and the approaching certainty of our own demise.
 
 When *Dasein* reflects on the world, it experiences a sense of not being the center of that world, and that other processes and beings have their own concerns and experiences regardless of *Dasein's* presence.
 This sensation gives *Dasein* one of its original dispositions towards the world: *thrownness* *(Geworfenheit)*.
 It feels as if we are thrown into something already in progress.
 Although skepticism may lead us to question whether the world is merely a simulation or a dream, the very act of questioning arises from the experience of thrownness that has shaped our entire lives up to that point.
-Questioning the realness of our Dasein requires a profound experience of it.
 
 >Dasein gets dragged along in thrownness; that is to say, as something which has been thrown into the world. [...] It exists as an entity which has to be as it is and as it can be. -- Martin Heidegger
 
@@ -279,7 +376,7 @@ Any possible action we take in time is one step closer towards death, no matter 
 We are aware of this, and it actually changes the shape of all experience.
 According to Heidegger, this gives our actions value, because we have to choose which one is most worth doing, considering that anything that you do brings your death one step closer.
 
->[Death is] the possibility of the impossibility of any existence at all [...] it is the possibility of the impssibility of every way of comporting oneself towards anything. -- Martin Heidegger
+>[Death is] the possibility of the impossibility of any existence at all [...] it is the possibility of the impossibility of every way of comporting oneself towards anything. -- Martin Heidegger
 
 As if Kierkegaard is speaking.
 
@@ -292,7 +389,7 @@ We should make our hands dirty and play with the world.
 
 *Dasein* cares about *thrownness* (past) and *projections* (future) but also where it gets its sense of *unfreedom*, which is caused by everbody else.
 In some sense one is always a product of the time, place, and culture within which one is born, lives, and dies.
-But within this *facticity*, these circumscribed limits, there is freedom—in fact, the *necessity of choice*. 
+But within this *facticity*, these circumscribed limits, there is freedom -- in fact, the *necessity of choice*. 
 In other words, as thrown, we are thrust into a set of circumstances, and freedom lies in choosing to embrace our thrown possibility.
 This duality exists at each and every moment of our existence and bears upon our potentiality for being *authentic*. 
 We often conform to societal norms, becoming absorbed in politics, TV shows, career expectations, consumption, and idle gossip.
@@ -300,10 +397,11 @@ This leads to a *loss of authenticity* and the pursuit of one's own unique proje
 
 >The "they", which supplies the answer to the question of the "who" of everyday Dasein, is the "nobody" to whom every Dasein has already surrendered itself -- Martin Heidegger
 
-*Authenticity* is not about morality, but rather about engaging in activities that define our individuality, which can become overshadowed by the world in a state of *fallenness* (*Verfallens*).
+To be *authentic* is not a moral category.
+Rather it is about engaging in activities that define our individuality, which can become overshadowed by the world in a state of *fallenness* (*Verfallens*).
 We lose ourselves to the crowd and assimilate with others.
 We fall out of ourselves into the crowd.
-Again I can sense Kierkegaard.
+Again, I can sense Kierkegaard's influence.
 
 According to Heidegger, conforming to what everyone else does merely because it is the norm opposes the concept of exercising one's freedom.
 This inauthentic way of living leads to becoming entrenched in the mundane, where curiosity and exploration are replaced by repetitive habits and following trends.
@@ -311,11 +409,11 @@ This inauthentic way of living leads to becoming entrenched in the mundane, wher
 To live *authentically*, Heidegger posits that one must be conscious of death and embrace the freedom that this awareness provides, thus allowing for the pursuit of individuality and personal growth.
 For Heidegger, when *Dasein* truly reckons with the reality of death and owns that its fate is sealed by the limitations death imposes, our finitude, the *everyday world* falls away -- others, the objects of concern, everything. 
 These are moments of *anxiety*.
-Think of what happens to persons the moment they receive a diagnosis of cancer or another terminal disease.
+Think of what happens to a person the moment they receive a diagnosis of cancer or another terminal disease.
 The dread and anxiety experienced in that moment are uniquely their own.
 There is nothing anyone can do for them. 
 They are completely alone with the knowledge that they could be facing the end (or at least a radically modified existence).
-Dasein for the most part covers over and flees from this awareness of our being toward death but this reaction is not the only possibility. 
+*Dasein* for the most part covers over and flees from this awareness of our being toward death but this reaction is not the only possibility. 
 According to Heidegger, it is possible for this truth to somehow be kept in sight.
 
 >When one becomes free for one’s own death, one is liberated from one’s lostness in those possibilities which may accidentally thrust themselves upon one; and one is liberated in such a way that for the first time one can authentically understand and choose among the factical possibilities lying ahead of that possibility which is not to be outstripped [death]. -- Martin Heidegger
@@ -340,11 +438,12 @@ According to Heidegger, we project meaning onto the world, naming things and giv
 So, what is the quest for truth? 
 The quest for truth becomes the pursuit of the unveiling of *Being*.
 
-Heidegger's phenomenology claims to take a step back from the way we ordinarily conceptualize and theorize about reality and begin from immediacy of experience, which has priority for him, and elicit the structure of experience from there. 
+Heidegger's phenomenology claims to take a step back from the way we ordinarily conceptualize and theorize about reality and begin from immediacy of experience, which has priority for him, and elicit the structure of experience from there.
+But in contrast to Husserl, he does not seperate the *I* from *the world*.
 
 ## Being and Science
 
-I hope that by now, you have gained an understanding of the phenomenological perspective.
+I hope that by now, you have gained an understanding of Heidegger's *existential phenomenological* perspective.
 Let's attempt to comprehend science through this lens.
 
 According to Heidegger, science is the theory of reality (Theorie des Wirklichen).
@@ -384,7 +483,7 @@ However, Heidegger cautions us that the scientific method requires a certain lev
 In 1951, he already discussed the devastation of the Earth in connection with his understanding of thinking and the role of science.
 Scientists may count every tree, measure and observe, but they do not always consider the forest as a whole. 
 They often overlook the broader context or *interpretive horizon (Auslegungshorizont)*.
-Today, we try to solve climate change using *systems theory*, i.e. a method to act agains our blindness of the bigger picture.
+Today, we try to solve climate change using *systems theory*, i.e., a method to act agains our blindness of the bigger picture.
 Therefore, I would say Heiddeger had a point.
 However, if he is correct *systems theory* shouldn't "work" either.
 
@@ -415,7 +514,7 @@ We should not reduce our approch to anything!
 
 >Where is the tree and the human? [...] Where is the introduction that takes place? [...] Is the tree part of our conciousness or is he standing on grassland? -- Marin Heidegger
 
-Even if everything seems to be so trivial for us (as Dasein), it is not trivial at all.
+Even if everything seems to be so trivial for us (as *Dasein*), it is not trivial at all.
 Why should we ask such questions?
 Isn't it obvious for everyone that we just stand in front of a tree?
 
@@ -462,9 +561,9 @@ Web pioneers often look back at the "good old days".
 Their (mine included) romantic view of the beginnings of the internet is that everything was possible.
 It was easy to build a website.
 A little bit of HTML, which you could hack into a simple text editor, and you are done.
-However, without regulations coming from coorperations or institutions, social norms and code regulated the web instead.
+However, without regulations coming from companies or institutions, social norms and code regulated the web instead.
 And since information technolgy was rather new, a few individual coders had a lot to "say".
-Today, these individuals got replaced by a view coorperations.
+Today, these individuals got replaced by a view companies.
 
 Similar to Lessig, Don Ihde discusses in *Technology and the Lifeworld*, technology as an expandasion or limit of possibilities.
 Technology goes beyond mere functionality or direct control.
@@ -472,7 +571,7 @@ Technology goes beyond mere functionality or direct control.
 
 >[...] source code is about to become the main regulator of individual and institutional behavior that regulates all other regulators including law -- {% cite rosengruen:2022 %}
 
-Rosengrün's argument is not centered on the premise that regulation is inherently detrimental, or that large corporations harbor malicious intentions.
+Rosengrün's argument is not centered on the premise that regulation is inherently detrimental, or that large companies harbor malicious intentions.
 Instead, he acknowledges the necessity, and indeed the inevitability, of regulation.
 Moreover, he observes that the alignment of corporate regulatory practices with their profit-making objectives is to be expected.
 He forcefully advocates for the *rule of law* as an indispensable prerequisite for a democratic society.
@@ -497,18 +596,20 @@ It constructs particular subjects and defines our identities, delineating not on
 
 Another stark illustration of technology's pervasive (positive) influence can be found in modern birth control methods and in the strategies we deploy to shape our identities, such as curating online profiles to garner peer validation.
 It's widely acknowledged that social media can inadvertently amplify negative aspects of human behavior, underscoring the necessity to incorporate media into our understanding of this phenomenon.
-Adopting a phenomenological viewpoint, it becomes clear that the subject and the technology it employs cannot be disentangled from each other.
 Further instances of technology's impact manifest in the realm of beauty and medical advancements. 
 Technologies related to beauty and cosmetic surgery exert pressure to conform to evolving standards of beauty, standards that were unattainable just six decades ago.
 Similarly, assistive tools have profoundly enhanced the agency of individuals with disabilities, and advancements in medical transitions have carved out new avenues for expressing and experiencing transgender identities.
 
-## A Mode of Understanding
+Adopting a phenomenological viewpoint, it becomes clear that the subject and the technology it employs cannot be disentangled from each other.
+We are back at the concept of *Dasein*.
+
+## The Essence of Technology
 
 I think, Heidegger goes a bit further.
 He thinks of technology as a *mode of seeing* where every "seeing" has its necessary blind spots.
 
 He expands on the example of the hammer to illustrate his thoughts about technology:
-When using a hammer (a form of technology), you don't even think about the tool itself; instead, you focus on the nail.
+when using a hammer (a form of technology), you don't even think about the tool itself; instead, you focus on the nail.
 The hammer recedes from your awareness, and you concentrate on the task *at hand*.
 
 Or imagine a keyboard.
@@ -533,10 +634,12 @@ Likewise, our delight in operating digital devices arises from the sensation of 
 
 Similarly, a person wielding a hammer essentially evolves into a new subject, equipped with its own unique way of perceiving the world. This newly formed subject, as a result of the technology's influence, experiences the world from a distinct perspective and possesses an individualized subjectivity.
 
-If this assesement is correct and a new piece of technolgy comes along, we can and should ask what kind of subject/people will this turn us into?
+If this assesement is correct and a new piece of technolgy comes along, we can and should ask:
+
+>What kind of Dasein will this turn us into?
 
 Heidegger takes this exploration another step further when discussing not merely specific technologies, but the very *essence of technology* itself.
-In his essay *The Question Concerning Technology*, he challenges the prevailing views of technology as merely an instrument (a means to an end) and as a product of human activity.
+In his essay *The Question Concerning Technology* {% cite heidegger:1954 %}, he challenges the prevailing views of technology as merely an instrument (a means to an end) and as a product of human activity.
 He posits that while we perceive ourselves as creators of technology, in reality, technology originates from elsewhere.
 He also presents technology as potentially highly dangerous.
 
@@ -574,6 +677,180 @@ This balance keeps us open, prepared, ready for the emergence of new interpretat
 How they can come to us remains a mystery.
 
 >Philosophy will not be able to bring about a direct change of the present state of the world. This is true not only of philosophy but of all merely human meditations and endeavors. Only a god can still save us. I think the only possibility of salvation left to us is to prepare readiness, through thinking and poetry, for the appearance of the god or for the absence of the god during the decline; so that we do not, simply put, die meaningless deaths, but that when we decline, we decline in the face of the absent god. – Heidegger, Spiegel inverview in 1966
+
+## Language Games
+
+When we examine our languages, it becomes apparent that some words are rooted in experience. 
+Although the relationship, as previously mentioned, is arbitrary, it nonetheless exists. 
+For instance, the word "dog" is based on the experience of a specific type of being. 
+However, according to Ludwig Wittgenstein, this explanation lacks precision. 
+In fact, the word "dog" is rooted in numerous experienced situations, and its meaning depends on the *language game* we are currently engaged in.
+
+Take, for instance, the term "sharp" as applied to a knife. 
+In a primary school context, the knife may be deemed "sharp," whereas in a kitchen context, the same knife could be seen as "not sharp". 
+The knife's sharpness is contingent on the practice for which it is used.
+
+Similarly, as a chemist, one might describe a glass as "full," while a physicist, recognizing that most of the space between atoms is empty, might argue that the glass is "not full". 
+Hence, words are anchored in multiple *language games*, that is, the activities and practices in which they are employed. 
+They are not metaphysically tethered to a specific object.
+
+One might assume that in chess, the "knight" corresponds to the distinct horse-like object. 
+However, the knight is a unique kind of piece that alone can leap over other pieces. 
+Its movement is singular: one step straight and one step diagonally. 
+A word is akin to a chess piece in this respect; 
+its meaning is in what it can do, not the object it represents. 
+Moving a knight to C3 does not depend on the horse-like object itself. 
+The move can be executed regardless of the piece's form, whether with a penny or digitally on a computer. 
+In chess, the "knight" derives its meaning from what one can do with it. 
+Uttering a word is similar to making a move in the *language game* you are participating in. 
+The meaning of the word resides in the activities and interactions within a given environment that are linked to the use of that word, rather than the corresponding object.
+
+Wittgenstein believed that a significant amount of confusion arises when we mix up *language games*, especially in metaphysics. 
+He argued that many metaphysical questions stem from a misuse of language.
+
+For instance, a friend of mine is an artist, and she has crafted impeccably convincing replicas of everyday objects. 
+During one of my visits, I asked her: "Is this apple real?" She replied, "Yes, you can eat it." 
+We were playing the same *language game*, and she understood my question. 
+She was aware that I might have mistaken the apple for one of her replicas. 
+She even recognized that my question implied my desire to eat the apple. 
+However, if I were to pose the same question to a fruit vendor at a market: "Is this apple real?" he would probably answer, "Yes," albeit with some confusion. 
+My question doesn't make sense in the *language game* he's playing; we're in different games, and in his game, my question is meaningless.
+
+If we engage in a mathematical *language game*, the seemingly reasonable question "is something real" (in an existential sense) might to be meaningless. 
+Such a question makes perfect sense when suspicion of imitation arises, but in math, querying whether numbers "exist" might simply be a misuse of language. 
+
+According to Wittgenstein, philosophers have attempted to "fix" this misunderstanding by constructing a system, essentially engaging in metaphysics. 
+Yet, ironically, it is language that can lead us astray while remaining highly transparent.
+
+Nonetheless, this do not imply that words are not grounded in reality. 
+Quite the contrary, they are deeply rooted, albeit in a much more intricate manner! 
+For instance, the relational context of words within a text hints at the *language game* in play. 
+Only once we understand the game, we can be confident about a word's intended meaning.
+
+Why is this significant in conversations surrounding *artificial intelligence*? 
+Indeed, if an AI, such as ChatGPT, aims to be valuable, it must at least mimic an understanding of *language games*. 
+Interestingly, well-constructed prompts frequently serve to illuminate the language game that the chatbot is participating in. 
+Moreover, meaning can only emerge when words (or other symbols) are grounded in experience. 
+Hence, it is tempting to assert that without experience, *strong AI* is unattainable. 
+Finally, it could be argued that the use of the term "intelligence" in the context of AI might constitute a misuse of language.
+ 
+## The Chinese Room Argument
+
+John Searle, in his *Chinese Room argument*, asserts that symbolic AI will never achieve strong AI status, meaning it will remain a simulation of intelligence rather than truly embodying it.
+
+Here's how the argument unfolds: Imagine a person, let's call him Bob.
+Bob is confined within a room that houses a book of instructions written in Chinese. 
+Bob neither understands nor speaks Chinese, and his only means of communication with the outside world is a small slot through which he can pass written text. 
+Outside the room, there's a person who is fluent in Chinese. 
+This person writes a message on a piece of paper and slides it through the slot into the room. Bob, upon receiving the text, consults the instruction book to find the appropriate response, writes it down, and sends it back out through the slot.
+
+From the perspective of the person outside the room, it appears as if Bob can comprehend and communicate in Chinese, despite Bob's ignorance of the language. 
+This situation is similar to the operation of a computer: it receives input and employs specific rules to produce an output.
+
+Searle concludes that, similar to Bob, computers do not understand what they compute.
+
+However, I believe this argument lacks substantial strength as it hinges on the presumption that there is a single atomic entity (Bob) that "understands" Chinese. 
+Consider a single neuron in my brain, for instance. 
+This neuron doesn't understand English on its own. 
+Therefore, following Searle's logic, one could conclude that I don't understand English. 
+But the reality is that my entire system comprehends English. Following this reasoning, one could argue that the entire room, in Searle's scenario, comprehends Chinese.
+
+Presumably, what Searle is trying to convey is that the Chinese language, in this scenario, isn't *grounded* in experience. 
+Being able to use words and construct grammatically correct sentences doesn't necessarily equate to understanding the content, as there's no connection to personally experienced situations. 
+A more compelling argument on this topic has been made by Dreyfus.
+
+## How to Become an Expert?
+
+In {% cite dreyfus:1986 %}, Dreyfus provides a compelling critique of *symbolic AI*, examining the chasm that exists between *expert systems* and *human experts*.
+While reading the following argument, think about *sub-symbolic systems* such as *artificial neural networks*.
+Do they suffer from the same deficiencies?
+
+An expert system is a computer program designed to emulate the decision-making capabilities of a human expert using if-then rules instead of conventional procedural code. 
+The presumption underlying this concept is that experts adhere to precise, unambiguous rules, distinguishing them from non-experts. The theory suggests that it's possible to codify this expertise into symbolic rules and then incorporate them into a machine. 
+Therefore, the idea is that any entity, human or machine, with access to these rules could potentially achieve expertise.
+
+Dreyfus dissects this reasoning through a Heideggerian lens. 
+We can scrutinize this argument more closely by posing some simple but probing questions:
+
+1. Does an expert system genuinely replicate the practices of human experts?
+2. Are you an expert in any field?
+3. How did you become an expert?
+
+According to Dreyfus, humans acquire expertise through various stages. 
+Let's consider learning to drive as an example. 
+A novice driver learns to gauge her speed by referencing the speedometer. 
+She is given rules such as "shift to second gear when the speedometer reads ten miles per hour". 
+For a beginner, driving can be exceptionally slow-going, as one must remember all the rules and features.
+
+As the practice continues, the beginner becomes aware of various aspects of the situation. 
+After exposure to numerous examples, the student learns to recognize these new elements. 
+Instructions can now refer to these newly understood situational aspects, as well as the objectively defined, non-situational features recognizable to the novice.
+
+The advanced beginner driver, utilizing both situational (engine sounds) and non-situational (speed) elements in their gear-shifting rules, learns the maxim: shift up when the engine sounds like it is racing and down when it sounds like it's straining. 
+She learns to observe the demeanor, as well as the position and velocity of pedestrians or other drivers. 
+For instance, she can differentiate the behavior of a distracted or inebriated driver from that of an impatient but alert one. Engine sounds and behavior styles are difficult to encapsulate in words, making choice examples vital for learning such distinctions.
+
+Upon reaching the stage of competence, the student learns to differentiate between important and unimportant elements of the situation. 
+With growing experience, the number of potentially relevant elements that the learner can recognize becomes overwhelming. 
+This complexity might lead the student to question how anyone could master the skill. 
+To manage this overload and attain competence, learners, through instruction or experience, devise a plan or select a perspective. 
+This perspective then determines which elements of the situation should be treated as significant and which ones can be disregarded. 
+By focusing attention on only a few of the many possible relevant features and aspects, such a perspective simplifies decision-making.
+
+The competent performer thus seeks new rules and reasoning procedures to determine a plan or perspective. 
+However, these rules aren't as straightforward as the rules and maxims provided to beginners. 
+There are simply too many situations, each differing subtly from the others. 
+In fact, there are more situations than can be named or precisely defined, so no one can prepare a comprehensive list of actions for every potential situation. 
+Thus, coping with this complexity becomes challenging, rather than exhausting. 
+At this stage, if the learned rules fail, the performer might feel remorse for their mistake rather than rationalizing that they hadn't been given adequate rules.
+
+A competent driver, considering factors like speed, road conditions, and time pressure, may decide she is going too fast. 
+She then has to decide whether to ease off the accelerator, remove her foot entirely, or step on the brake, and determine precisely when to do so. 
+The driver may feel relieved if she navigates the curve without eliciting honks from other drivers, and alarmed if she begins to skid. Successful plans trigger feelings of euphoria, while mistakes create a sinking feeling.
+
+As the competent performer becomes increasingly **emotionally** invested in their task, it becomes harder to maintain the detached rule-following stance of the beginner. 
+While it may seem that this **emotional** involvement could hinder objective rule-testing and thus impede further skill development, the opposite appears to be true. 
+If the learner's experiences are **emotionally** charged, the resulting positive and negative experiences will reinforce successful responses and inhibit unsuccessful ones. 
+The performer's theory of the skill, represented by rules and principles, will gradually be replaced by **situational discriminations** paired with associated responses. 
+Proficiency seems to develop if, and only if, experience is assimilated in this atheoretical manner and intuitive behavior replaces reasoned responses. 
+Action becomes easier and less stressful as the learner simply **sees** what needs to be achieved (rather than what actions to take to achieve it), rather than deciding through a calculative procedure which of several possible alternatives should be chosen.
+
+The proficient driver, approaching a curve on a rainy day, may feel in her gut that she's going dangerously fast. 
+She must then decide whether to apply the brakes or merely to reduce pressure on the accelerator by a certain amount. 
+The proficient performer, immersed in her skilled activity, can discern what needs to be done, but must decide how to do it.
+
+The expert, thanks to a vast repertoire of situational discriminations, not only **sees** what needs to be achieved; she intuitively understands how to accomplish her goal. 
+This capacity for subtle and refined discernment sets the expert apart from the proficient performer. 
+Through ample experience in various situations, the expert performer's brain gradually subdivides this class of situations into subclasses, each associated with the same response. 
+This allows for the immediate intuitive situational response that characterizes expertise. 
+Driving likely demands the ability to discern a similar number of typical situations. The expert driver not only senses when it's necessary to slow down on an off-ramp; she naturally performs the appropriate action.
+
+A beginner relies on rules and facts for decision-making, much like a programmed computer. 
+With talent and extensive, engaged experience, the beginner evolves into an expert who intuitively knows what to do without resorting to rules. 
+Normally, an expert does not deliberate. She doesn't solve problems. 
+She doesn't even consciously think. She simply does what usually works, and of course, it usually does.
+
+This description of skill acquisition illuminates why experts often struggle to articulate the rules they're following: they're not abiding by any predefined rules! 
+Instead, they're discerning thousands of unique cases. 
+This also explains why expert systems never quite match human experts. 
+If you ask an expert to describe the rules she's using, you're essentially compelling her to regress to the level of a beginner and recite the rules she learned at the outset. 
+Thus, instead of applying rules she has long forgotten, as knowledge engineers might assume, the expert is forced to recall rules she no longer utilizes. 
+If these rules are programmed into a computer, the computer's speed, accuracy, and ability to store and access millions of facts could surpass a human beginner using the same rules. 
+However, such systems can only achieve competence at best.
+No number of rules and facts can emulate the knowledge an expert acquires when she has accumulated the experiences and outcomes of tens of thousands of situations.
+
+Hubert Dreyfus, in his critique, directly targets the fundamental assumption underpinning symbolic AI, which he labels "the psychological assumption". 
+He defines it as follows:
+
+>The mind can be viewed as a device operating on bits of information according to formal rules.
+
+Dreyfus challenges this assertion by illustrating that human intelligence and expertise primarily depend on unconscious instincts rather than conscious symbolic manipulations. 
+Experts swiftly resolve problems by leveraging their intuitions, not through methodical trial-and-error searches.
+
+However, Dreyfus' insights extend beyond this academic revelation. 
+He cautions, in a vein similar to Heidegger, that treating rationality as rule-governed behavior presents substantial risks to society. 
+He posits that the calculative conception of reason underpins a broader trend towards calculative rationality in our culture, a trend laden with potential peril. 
+The escalating bureaucratic nature of society -- a society abstracted and regulated by rules -- heightens the threat that future skill and expertise may erode due to an excessive reliance on *calculative rationality*.
 
 ## Conclusion
 
@@ -728,394 +1005,6 @@ It also seems slightly contradictory since we are already *thrown* into a world 
 how can we be anything other than what we already are, including how we attend to and engage with our existence? 
 Indeed, we can stand up for our beliefs, be responsible, and honest with ourselves and others, but if we strip away everything we've picked up from others, we're probably left with nothing.
 
-## Wittgenstein's Language Games
-
-When we examine our languages, it becomes apparent that some words are rooted in experience. 
-Although the relationship, as previously mentioned, is arbitrary, it nonetheless exists. 
-For instance, the word "dog" is based on the experience of a specific type of being. 
-However, according to Ludwig Wittgenstein, this explanation lacks precision. 
-In fact, the word "dog" is rooted in numerous experienced situations, and its meaning depends on the *language game* we are currently engaged in.
-
-Take, for instance, the term "sharp" as applied to a knife. 
-In a primary school context, the knife may be deemed "sharp," whereas in a kitchen context, the same knife could be seen as "not sharp". 
-The knife's sharpness is contingent on the practice for which it is used.
-
-Similarly, as a chemist, one might describe a glass as "full," while a physicist, recognizing that most of the space between atoms is empty, might argue that the glass is "not full". 
-Hence, words are anchored in multiple *language games*, that is, the activities and practices in which they are employed. 
-They are not metaphysically tethered to a specific object.
-
-One might assume that in chess, the "knight" corresponds to the distinct horse-like object. 
-However, the knight is a unique kind of piece that alone can leap over other pieces. 
-Its movement is singular: one step straight and one step diagonally. 
-A word is akin to a chess piece in this respect; 
-its meaning is in what it can do, not the object it represents. 
-Moving a knight to C3 does not depend on the horse-like object itself. 
-The move can be executed regardless of the piece's form, whether with a penny or digitally on a computer. 
-In chess, the "knight" derives its meaning from what one can do with it. 
-Uttering a word is similar to making a move in the *language game* you are participating in. 
-The meaning of the word resides in the activities and interactions within a given environment that are linked to the use of that word, rather than the corresponding object.
-
-Wittgenstein believed that a significant amount of confusion arises when we mix up *language games*, especially in metaphysics. 
-He argued that many metaphysical questions stem from a misuse of language.
-
-For instance, a friend of mine is an artist, and she has crafted impeccably convincing replicas of everyday objects. 
-During one of my visits, I asked her: "Is this apple real?" She replied, "Yes, you can eat it." 
-We were playing the same *language game*, and she understood my question. 
-She was aware that I might have mistaken the apple for one of her replicas. 
-She even recognized that my question implied my desire to eat the apple. 
-However, if I were to pose the same question to a fruit vendor at a market: "Is this apple real?" he would probably answer, "Yes," albeit with some confusion. 
-My question doesn't make sense in the *language game* he's playing; we're in different games, and in his game, my question is meaningless.
-
-If we engage in a mathematical *language game*, the seemingly reasonable question "is something real" (in an existential sense) might prove to be meaningless. 
-Such a question makes perfect sense when suspicion of imitation arises, but in math, querying whether numbers "exist" might simply be a misuse of language. 
-According to Wittgenstein, philosophers have attempted to "fix" this misunderstanding by constructing a system, essentially engaging in metaphysics. 
-Yet, ironically, it's language that can lead us astray while remaining highly transparent.
-
-Nonetheless, this doesn't imply that words are not grounded in reality. 
-Quite the contrary, they are deeply rooted, albeit in a much more intricate manner! 
-For instance, the relational context of words within a text hints at the *language game* in play. 
-Only once we understand the game can we be confident about a word's intended meaning.
-
-Why is this significant in conversations surrounding *artificial intelligence*? 
-Indeed, if an AI, such as ChatGPT, aims to be valuable, it must at least mimic an understanding of *language games*. 
-Interestingly, well-constructed prompts frequently serve to illuminate the language game that the chatbot is participating in. 
-Moreover, meaning can only emerge when words (or other symbols) are grounded in experience. 
-Hence, it is tempting to assert that without experience, *strong AI* is unattainable. 
-Finally, it could be argued that the use of the term "intelligence" in the context of AI might constitute a misuse of language.
- 
-## Searles' Chinese Room Argument
-
-John Searle, in his *Chinese Room argument*, asserts that symbolic AI will never achieve strong AI status, meaning it will remain a simulation of intelligence rather than truly embodying it.
-
-Here's how the argument unfolds: Imagine a person, let's call him Bob, who is confined within a room that houses a book of instructions written in Chinese. 
-Bob neither understands nor speaks Chinese, and his only means of communication with the outside world is a small slot through which he can pass written text. 
-Outside the room, there's a person who is fluent in Chinese. 
-This person writes a message on a piece of paper and slides it through the slot into the room. Bob, upon receiving the text, consults the instruction book to find the appropriate response, writes it down, and sends it back out through the slot.
-
-From the perspective of the person outside the room, it appears as if Bob can comprehend and communicate in Chinese, despite Bob's ignorance of the language. 
-This situation is similar to the operation of a computer: it receives input and employs specific rules to produce an output.
-
-However, I believe this argument lacks substantial strength as it hinges on the presumption that there is a single atomic entity that "understands" Chinese. 
-Consider a single neuron in my brain, for instance. 
-This neuron doesn't understand English on its own. 
-Therefore, following Searle's logic, one could conclude that I don't understand English. 
-But the reality is that my entire system comprehends English. Following this reasoning, one could argue that the entire room, in Searle's scenario, comprehends Chinese.
-
-Presumably, what Searle is trying to convey is that the Chinese language, in this scenario, isn't grounded in experience. 
-Being able to use words and construct grammatically correct sentences doesn't necessarily equate to understanding the content, as there's no connection to personally experienced situations. 
-A more compelling argument on this topic has been made by Dreyfus.
-
-## Dreyfus' Criticism of Symbolic AI
-
-In {% cite dreyfus:1986 %}, Dreyfus provides a compelling critique of *symbolic AI*, examining the chasm that exists between *expert systems* and *human experts*.
-While reading this think about *sub-symbolic systems* such as artificial neural networks.
-Do they suffer from the same deficiencies?
-
-An expert system is a computer program designed to emulate the decision-making capabilities of a human expert using if-then rules instead of conventional procedural code. 
-The presumption underlying this concept is that experts adhere to precise, unambiguous rules, distinguishing them from non-experts. The theory suggests that it's possible to codify this expertise into symbolic rules and then incorporate them into a machine. 
-Therefore, the idea is that any entity, human or machine, with access to these rules could potentially achieve expertise.
-
-Dreyfus dissects this reasoning through a Heideggerian lens. 
-We can scrutinize this argument more closely by posing some simple but probing questions:
-
-1. Does an expert system genuinely replicate the practices of human experts?
-2. Are you an expert in any field?
-3. How did you become an expert?
-
-According to Dreyfus, humans acquire expertise through various stages. 
-Let's consider learning to drive as an example. 
-A novice driver learns to gauge her speed by referencing the speedometer. 
-She is given rules such as "shift to second gear when the speedometer reads ten miles per hour". 
-For a beginner, driving can be exceptionally slow-going, as one must remember all the rules and features.
-
-As the practice continues, the beginner becomes aware of various aspects of the situation. 
-After exposure to numerous examples, the student learns to recognize these new elements. 
-Instructions can now refer to these newly understood situational aspects, as well as the objectively defined, non-situational features recognizable to the novice.
-
-The advanced beginner driver, utilizing both situational (engine sounds) and non-situational (speed) elements in their gear-shifting rules, learns the maxim: shift up when the engine sounds like it is racing and down when it sounds like it's straining. 
-She learns to observe the demeanor, as well as the position and velocity of pedestrians or other drivers. 
-For instance, she can differentiate the behavior of a distracted or inebriated driver from that of an impatient but alert one. Engine sounds and behavior styles are difficult to encapsulate in words, making choice examples vital for learning such distinctions.
-
-Upon reaching the stage of competence, the student learns to differentiate between important and unimportant elements of the situation. 
-With growing experience, the number of potentially relevant elements that the learner can recognize becomes overwhelming. 
-This complexity might lead the student to question how anyone could master the skill. 
-To manage this overload and attain competence, learners, through instruction or experience, devise a plan or select a perspective. 
-This perspective then determines which elements of the situation should be treated as significant and which ones can be disregarded. 
-By focusing attention on only a few of the many possible relevant features and aspects, such a perspective simplifies decision-making.
-
-The competent performer thus seeks new rules and reasoning procedures to determine a plan or perspective. 
-However, these rules aren't as straightforward as the rules and maxims provided to beginners. 
-There are simply too many situations, each differing subtly from the others. 
-In fact, there are more situations than can be named or precisely defined, so no one can prepare a comprehensive list of actions for every potential situation. 
-Thus, coping with this complexity becomes challenging, rather than exhausting. 
-At this stage, if the learned rules fail, the performer might feel remorse for their mistake rather than rationalizing that they hadn't been given adequate rules.
-
-A competent driver, considering factors like speed, road conditions, and time pressure, may decide she is going too fast. 
-She then has to decide whether to ease off the accelerator, remove her foot entirely, or step on the brake, and determine precisely when to do so. 
-The driver may feel relieved if she navigates the curve without eliciting honks from other drivers, and alarmed if she begins to skid. Successful plans trigger feelings of euphoria, while mistakes create a sinking feeling.
-
-As the competent performer becomes increasingly **emotionally** invested in their task, it becomes harder to maintain the detached rule-following stance of the beginner. 
-While it may seem that this **emotional** involvement could hinder objective rule-testing and thus impede further skill development, the opposite appears to be true. 
-If the learner's experiences are **emotionally** charged, the resulting positive and negative experiences will reinforce successful responses and inhibit unsuccessful ones. 
-The performer's theory of the skill, represented by rules and principles, will gradually be replaced by **situational discriminations** paired with associated responses. 
-Proficiency seems to develop if, and only if, experience is assimilated in this atheoretical manner and intuitive behavior replaces reasoned responses. 
-Action becomes easier and less stressful as the learner simply **sees** what needs to be achieved (rather than what actions to take to achieve it), rather than deciding through a calculative procedure which of several possible alternatives should be chosen.
-
-The proficient driver, approaching a curve on a rainy day, may feel in her gut that she's going dangerously fast. 
-She must then decide whether to apply the brakes or merely to reduce pressure on the accelerator by a certain amount. 
-The proficient performer, immersed in her skilled activity, can discern what needs to be done, but must decide how to do it.
-
-The expert, thanks to a vast repertoire of situational discriminations, not only **sees** what needs to be achieved; she intuitively understands how to accomplish her goal. 
-This capacity for subtle and refined discernment sets the expert apart from the proficient performer. 
-Through ample experience in various situations, the expert performer's brain gradually subdivides this class of situations into subclasses, each associated with the same response. 
-This allows for the immediate intuitive situational response that characterizes expertise. 
-Driving likely demands the ability to discern a similar number of typical situations. The expert driver not only senses when it's necessary to slow down on an off-ramp; she naturally performs the appropriate action.
-
-A beginner relies on rules and facts for decision-making, much like a programmed computer. 
-With talent and extensive, engaged experience, the beginner evolves into an expert who intuitively knows what to do without resorting to rules. 
-Normally, an expert does not deliberate. She doesn't solve problems. 
-She doesn't even consciously think. She simply does what usually works, and of course, it usually does.
-
-This description of skill acquisition illuminates why experts often struggle to articulate the rules they're following: they're not abiding by any predefined rules! 
-Instead, they're discerning thousands of unique cases. 
-This also explains why expert systems never quite match human experts. 
-If you ask an expert to describe the rules she's using, you're essentially compelling her to regress to the level of a beginner and recite the rules she learned at the outset. 
-Thus, instead of applying rules she has long forgotten, as knowledge engineers might assume, the expert is forced to recall rules she no longer utilizes. 
-If these rules are programmed into a computer, the computer's speed, accuracy, and ability to store and access millions of facts could surpass a human beginner using the same rules. 
-However, such systems can only achieve competence at best.
-No number of rules and facts can emulate the knowledge an expert acquires when she has accumulated the experiences and outcomes of tens of thousands of situations.
-
-Hubert Dreyfus, in his critique, directly targets the fundamental assumption underpinning symbolic AI, which he labels "the psychological assumption". 
-He defines it as follows:
-
->The mind can be viewed as a device operating on bits of information according to formal rules.
-
-Dreyfus challenges this assertion by illustrating that human intelligence and expertise primarily depend on unconscious instincts rather than conscious symbolic manipulations. 
-Experts swiftly resolve problems by leveraging their intuitions, not through methodical trial-and-error searches.
-
-However, Dreyfus' insights extend beyond this academic revelation. 
-He cautions, in a vein similar to Heidegger, that treating rationality as rule-governed behavior presents substantial risks to society. 
-He posits that the calculative conception of reason underpins a broader trend towards calculative rationality in our culture, a trend laden with potential peril. 
-The escalating bureaucratic nature of society -- a society abstracted and regulated by rules -- heightens the threat that future skill and expertise may erode due to an excessive reliance on calculative rationality.
-
 ## References
 
 {% bibliography --cited_in_order %}
-
-
-
-
-
-
-## TODO
-
-## Escaping the Matrix
-
-In Western thought we tend to think of the body as a second-class entity, as the thing being controlled by the mind;
-a tradition that started with Plato continued with Descartes and the scientific revolution.
-There is this longing to overcome the flesh
-
-Plato wants to guide us out of the cage and into the light of wisdom.
-He wants us to recognize the illusion directly in front of us.
-Paradoxically, what he initiated led to the contruction of an actual illusion bringing metaphysics into our world.
-
-Contrary to Plato's belief, phenomenology suggest that there was never a cage in the first place.
-To escape the Matrix, it is unnecessary to swallow the "red pill".
-Instead, turn off your phone -- your limitless distractions -- and go out to touch, see, and be present in the world.
-We must embrace being a perpetual beginner: coming back again and again to what we perceive before us, remaining open to the adventures of experience.
-
-Even if we have this attitude, our life is not a series of problems to be solved through sophisticated analysis of data or facts to be recorded.
-For example, mindfulness practice to improve ones performance or other "life hacks" are just another instrumentalization of being.
-Meditation for the sake of a better life-work-balance is just mental workout.
-
-
-Being is bigger than that.
-
-While science and technology liberated many of us from our own ignorance and the harsh condition of a life with nature, today it is hard to believe that more knowledge, more information, and more technology will continue this trend if we 
-
-
-When it comes to specific scientific investigations there is nothing wrong about this approach.
-But as a general position on how things are it is problematic, since our immidiate experience of the world is very different.
-
-We never need to look for our right arm in the way we might look for a pair of scissors around our desk.
-That cloud that I see can be a small cloud close overhead or a huge cloud far above; 
-meanwhile what I had thought was a bird turns out to be a speck of dust on my glasses.
-
->I cannot conceive myself as nothing but a bit of the world, a mere object of biological, psychological or sociological investigation. -- Merleau-Ponty
-
-The worldlyness of our *being-there* combined with our subjective and inter-subjective experience enriches our increasingly "head-based" and digitial reality.
-We should allow ourselves to wonder and neglect any rationalization that reduces being to an object.
-
-
-Heidegger posses the question if our objectifying mode of thinking led us into a vortex that we can no longer escape if we stay on the path of domination.
-
-
-## Criticism of Heidegger
-
-As I already disclaimed, Heidegger is a dangerous thinker and we have to be aware of his connection to *national socialism*.
-He is so effective and appealing because he hit a lot of hight notes.
-His emphasis on experience through the lense of *Dasein* as *being there thrown* into a world already in progress and his understanding of technology as a *mode of understanding* are powerful sources of critique of modern life and our technological development under *technology exceptionalism*.
-He expresses a mood that many of us feel: that we instrumentalise ourselves more and more.
-
-## AI and Heidegger
-
-For scientists it is rather senseless to take Heidegger's philosophy seriously since it suggest to stop doing science all together.
-Heidegger's philosophy suggests limits to the scientific method that we cannot surpass.
-He famously claimed that
-
->Science does not think.
-
-By which he means science can not understand the being-in-the-world, which might be the reason for Dreyfus's neglaction.
-
-## Thinking in Symbols?
-
-On the one hand, computers can only do symbolic manipulations, i.e., they compute (in a discrete world).
-They change zeros to ones and vice verca but they are not aware of what they do.
-If you ask ChatGPT: Are you sad?
-It will clarify that it is unable to be in any mood; it only pretends to be sad.
-It simulates the communcation of a person that is in a bad mood.
-
-On the other hand, achievements in the area of machine learning suggest that they large networks preceive in a similar way than humans.
-These networks do not measure the length of the edges to decide wether an image depicts a chair or a desk.
-Instead they *learn* a model of their underlying reality, all its fuzzyness, and then "just know" that the picture depicts a chair.
-
-But let us start from the beginning.
-For this we have to go back to a time of pioneers of AI, a time before the rise of *machine learning*.
-At that time, many thought that human-like intelligence can be thought of the ability of playing chess, i.e., they belied in *computationalism* (the mind operates like a Turing machine).
-If we ignore the chessboard and only care about the moves of chessplayers, then chess is a purely symbolic game.
-There are countable many chess games, therefore, in theory, a computer can compute the best next move at any stage of a game.
-This leads to the conclusion that thought is explicitly symbolic which is supported by Descartes *mind-body dualism* (mental phenomena are non-physical).
-In that case, we just need the correct mathematical formula or some algorithm and a symbol processing machine to reproduce human thinking.
-Cognition is the manipulation of internal (explicit) symbols by internal rules thus human behaviour is, to a large extent, context free.
-In other words: we just have to look inside the box (the human brain) to fully understand the actions of a person.
-Dreyfus' critique of AI concerns this assumption that the brain is analogoues to computer hardware and the mind is analogoues to computer software and that the mind works by performing discrete computations (in the form of algorithmic rules) on discrete representations or symbols.
-
-Dreyfus uses Heidegger's understanding of being that reverses this assumption.
-Heidegger argues that our being is in fact highly context-bound.
-We are a form of being-in-the-world that is aware of its and other's being-in-the-world.
-A person and its world can not be seperated the subject-object distinction is fuzzy.
-For example, if I leave a note at a desk, then this physical note is an extension of myself.
-Parts of my memory lies on the desk at home.
-Furthermore, it is a huge leap from choosing to see reality as consisting of indivisible atoms to state that because we want to or can see things in this way that it is therefore an objective fact that they are the case.
-He aggressivly stated that any research program that assumes that such "facts" are real facts will quickly run into prfound theoretical and practical problems.
-To think like humans, a machines would require to being-in-the-world like humans are.
-Therefore, they would need the awareness of their own and other's being-in-the-workd which leads to the concept of not-being, i.e., death.
-
-*Husserl*, *Heidegger* and *Merleau-Ponty* reject the kind of scientific naturalism or "*scientism*" that takes empirical science to be *epistemologically* and *metaphysically* privileged over all other forms of enquiry.
-However, this does not make phenomenologists *ant-science* and  
-Therefore, I will first try to give you the back bone 
-
-### Alchemy and AI
-
-In the summary of his controversal publiction Dreyfus states:
-
->An examination of [the difficulties to simulate cognitive processes on computers] reveals that the attempt to analyse intelligent behavior in digital computer language systematically excludes three fundamental huam forms of information processing (fringe consciousness, essence/accident discrimination, and ambiguity tolerance). Moreover, there are four distinct types of intelligent activity, only two of which do not presuppose these human forms of information processing and can therefore be programmed. -- Dreyfus in Alchemy and Artificial Intelligence
-
-
-
-**Prompt:** Imagine you are a robot that can walk like a human. Now imagine I ask you to buy and bring me the best pizza to eat. What would you do?
-
-**Answer:** As a highly advanced AI language model, I don't have a physical body to walk or perform tasks. However, if I were a robot with human-like walking capabilities, here's how I would fulfill your request:
-
-Research: I would first search for the best pizza places in your area, taking into consideration customer reviews, ratings, and menu offerings. I would prioritize establishments known for their fresh, high-quality ingredients and unique flavors.
-
-Decision-making: After analyzing the available options, I would select the most highly recommended pizza place that meets your preferences.
-
-Ordering: I would contact the chosen pizza place to place an order for the best-rated pizza on their menu, ensuring it meets your dietary restrictions, if any. If allowed, I would also customize the pizza with toppings you prefer.
-
-Payment: I would pay for the pizza using a pre-authorized method, such as a credit card or digital wallet.
-
-Picking up the pizza: I would walk to the pizza place, maintaining a human-like gait and adhering to traffic and pedestrian rules.
-
-Transporting the pizza: I would carefully carry the pizza box, making sure it remains level and undisturbed during the journey back to you.
-
-Delivering the pizza: Upon reaching your location, I would present the pizza to you with a friendly greeting and ensure you are satisfied with the choice.
-
-Cleanup and follow-up: Once you have finished enjoying the pizza, I would assist in cleaning up, if necessary, and ask for your feedback on the experience. This would help me better understand your preferences and make better choices in the future.
-
-
-
-
-
-
-
-### Causal Theory of Intentionality
-
-One naturalistic theory of intentionality is the *Causal Theory of Intentionality*.
-The idea is that a thought or idea is about something if it is caused by that thing, i.e., there is a causal connection between that mental state and the thing it's about.
-
-This sounds pretty plausabil.
-If I see a cat then my thought is about the cat because the cat caused my thought.
-I connect the *cause* (seeing the cat) by the *effect* (my thought of the cat).
-
-This theory is appealing but has several problems.
-Firstly, it struggles to address misrepresentations.
-For instance, you may have a thought about your cat, but in reality, you might be mistaken, and the thought is about your neighbour's cat.
-Maybe it's night, and the visibility is poor, leading to this misperception.
-In this scenario, your thought about your cat is caused not by your cat, but by the neighbour's cat.
-If both can trigger the same effect, wouldn't the effect differ, leading to a thought about "your cat and the neighbour's cat"?
-
-Another issue is the problem of hallucination.
-Your thought about your cat might not be triggered by the cat itself but by a hallucinogenic drug or a simulation, such as the Matrix.
-
-The theory also fails to explain how one can harbor a thought about something that does not exist, like a blue elephant.
-
-Finally, the theory is confronted with a degree of arbitrariness.
-The causal chain from the stimulus that instigates the thought to the brain processes is quite extensive.
-The light photons travel from the sun, hit the snow on Mount Everest, travel through the air into the eyes, and so forth.
-There are no objectively defined endpoints and no rationale as to why the light from Everest and our thought should be the two endpoints.
-
-### Biological Theory of Intentionality
-
-The basic idea of the *Biological Theory of Intentionality* is that our cognitive capacities have evolved for certain purposes over millions of years, and these purposes determine the content of our intentional states (the states that are about something).
-This theory suggests that intentionality isn't just about the relationship between your thoughts and the world, but also about the biological processes that give rise to those thoughts.
-
-The need to run away from predators is a biological function and perhaps over time this function becomes a representation of predators.
-
-This theory avoids the misrepresentation problem.
-In this case your thought that bears represent bears is caused not by bears themselves but by the desire to avoid predators.
-Therefore, if you mistakenly believe that an old stump is a bear this can be explained as a result of your representation being caused by the desire to avoid predators.
-
-One problem of this theory is that it can not account for sophisticated and abstract beliefs and thoughts concerning math, philosophy and metphysical reasoning and so forth.
-Spaceships or subatomic particles have no relevance to our evolutionary history thus it is unlclear how this theory can account for that.
-
-Furthermore, the theory can not explain the either-or-problem.
-If your desire to avoid both bears and stumps that look like bears has been wired in by evolution, then your thought that represents bears would actually represent "bears or stumps that look like bears" and not "bears" specifically.
-
-### Connectionist Theory of Intentionality
-
-The *Connectionist Theory of Intentionality* is a perspective that "aboutness" is based on the framework of connectionism.
-
-Connectionism models cognition using *artificial neural networks* or systems that mirror the structure and function of neural networks in the brain.
-The system's state (the pattern of activation across the nodes) can represent a particular object or concept if the pattern has been learned over time in response to that object or concept.
-For instance, a certain pattern of activation could represent a cat if the system has learned to activate that pattern when a cat is present.
-
-This approach allows for a nuanced understanding of mental representation, as it can account for properties like gradience (degrees of activation), distributed representation, parallel processing, and the ability to handle noisy or incomplete data.
-
-However, the *Connectionist Theory* is primarily a model of how cognitive processes could work in the brain or in *artificial neural networks*, rather than a full-fledged philosophical theory of intentionality.
-The theory does not explain how the patterns of activations associated with certain inputs have semantic content, i.e., how they come to be "about" something in the world.
-They are not *grounded* in experience!
-Similar to any computation we humans, i.e., external observers, interpret the output and states of the system.
-
-Another problem is the distribution of knowledge across the network.
-This makes it difficult to account for our ability to reflect on our knowledge and beliefs, which seem to require explicit representations.
-It is also unclear how normative aspects of intentionality (our thoughts can be correct or incorrect, appropriate or inappropriate) can be acoounted for.
-
-### Phenomenal Intentionality Theory
-
-All the above theories are *naturalistic* theories of intentionality.
-These theories attempt to *ground* intentionality in the *physical world* and often align with a *materialist* view of the mind.
-
-The *Phenomenal Intentionality Theory (PIT)* posits that intentionality arises from conscious experience or phenomenology, i.e., is *grounded* in or derived from the phenomenal character of experience.
-The contents of our thoughts -- what our thoughts are about -- are determined by the way things subjectively appear to us in our conscious experiences.
-Therefore, *intentionality* plays a fundamental role for consciousness that can't be reduced to or explained in terms of more basic physical or natural processes.
-
-PIT is not traditionally considered a naturalistic theory of intentionality, but this is debated.
-If one finds a naturalistic explanation for consciousness, then PIT might be compatible with *naturalism*.
-
-PIT takes a "consciousness first" approach to intentionality, since it claims that consciousness either grounds or is explanatorily prior to intentionality.
-For example, someone who accepts *phenomenal intentionality* might say that if you see a red cube and have a thought about that cube, then your thought is "about" the cube because of the way the cube appears to you in your conscious experience.
-It's not just that you're receiving sensory information about the red cube, but the way you consciously experience the cube shapes what your thought is about.
-Therefore, *intentionality* is not just a mechanical or biological process, but is deeply tied to our subjective experiences.
-
-PIT also faces challenges such as explaining how unconscious thoughts can have intentionality, how we can have thoughts about abstract or non-existent entities, and how to reconcile the subjective nature of phenomenal experience with a more objective, scientific understanding of the world.
