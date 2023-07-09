@@ -23,7 +23,18 @@
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    type="text/javascript">
+</script></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -216,12 +227,12 @@ The first step is to create a set that includes all possible strings. Subsequent
 
 \[\mathbf{P} \in [0;1]^{m \times m}\]
 
-<p>where the element at the \(i^{\text{th}}\) row and \(j^{\text{th}}\) column represents the conditional probability</p>
+<p>where the element at the $i^{\text{th}}$ row and $j^{\text{th}}$ column represents the conditional probability</p>
 
 \[P(e_i\ | \ e_j) = p_{ij}.\]
 
-<p>It describes the (conditional) probability of event \(e_i\) (a note or rest of specific length) immediately following event \(e_j\).
-For this purpose, I construct a matrix \(\mathbf{N}\) that counts these transitions.</p>
+<p>It describes the (conditional) probability of event $e_i$ (a note or rest of specific length) immediately following event $e_j$.
+For this purpose, I construct a matrix $\mathbf{N}$ that counts these transitions.</p>
 
 <h3 id="markov-matrix-computation">Markov Matrix Computation</h3>
 
@@ -237,7 +248,7 @@ As the first event lacks a predecessor and the last lacks a successor, I append 
         <span class="n">N</span><span class="p">[</span><span class="n">ix1</span><span class="p">,</span> <span class="n">ix2</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
 </code></pre></div></div>
 
-<p>To construct \(\mathbf{P}\) we have to divide each entry \(n_{ij}\) in \(\mathbf{N}\) by the sum over the row \(i\).</p>
+<p>To construct $\mathbf{P}$ we have to divide each entry $n_{ij}$ in $\mathbf{N}$ by the sum over the row $i$.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">P</span> <span class="o">=</span> <span class="n">N</span><span class="p">.</span><span class="nb">float</span><span class="p">()</span>
 <span class="n">P</span> <span class="o">=</span> <span class="n">P</span> <span class="o">/</span> <span class="n">P</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
@@ -247,7 +258,7 @@ As the first event lacks a predecessor and the last lacks a successor, I append 
 Additionally, to properly exploit broadcasting, it’s necessary to set <code class="language-plaintext highlighter-rouge">keepdim=True</code>. 
 This ensures that the sum results in a <code class="language-plaintext highlighter-rouge">(1,m)</code> tensor, as opposed to a <code class="language-plaintext highlighter-rouge">(m,)</code> tensor.</p>
 
-<p>Plotting the probabilities reviels that \(\mathbf{P}\) is a rather sparse matrix containing many zeros.
+<p>Plotting the probabilities reviels that $\mathbf{P}$ is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.</p>
 
 <div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
@@ -303,7 +314,7 @@ I start with the terminal <code class="language-plaintext highlighter-rouge">TER
 <h3 id="negative-log-likelihood-loss">Negative Log Likelihood Loss.</h3>
 
 <p>The outcome is not particularly outstanding, but this is unsurprising given our very simple model. 
-To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point \(e_1, e_2, \ldots, e_k\), i.e.,</p>
+To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point $e_1, e_2, \ldots, e_k$, i.e.,</p>
 
 \[P(e_1) \cdot P(e_2 \ | \ e_1) \cdot \ldots \cdot P(e_{k-1} \ | \ e_k).\]
 
@@ -334,8 +345,8 @@ It can be no smaller than 0.</p>
 <h2 id="feedforward-neural-network">Feedforward Neural Network</h2>
 
 <p>One method of generating a melody using a feedforward network is by addressing a classification task. 
-Specifically, given \(t\) consecutive notes, we aim to identify the note that this sequence “represents”.
-For simplicity, let’s set \(t=1\).
+Specifically, given $t$ consecutive notes, we aim to identify the note that this sequence “represents”.
+For simplicity, let’s set $t=1$.
 This stipulation means we won’t require substantial modifications compared to our previous approach.</p>
 
 <p>Since our training process will be more computationally intensive than merely computing frequencies, it’s advisable to use hardware accelerators, if available. 
@@ -374,26 +385,26 @@ To check if hardware acceleration is available, I employ the following code:</p>
 </code></pre></div></div>
 
 <p>I employ a <em><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">one-hot encoding</a></em> for the input data.
-That is, for encoding unique \(m\) elements one uses a \(m\)-dimensional vector where all entries except one is 0.0 and the one is 1.0.
-<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that these elements are whole numbers between 0 and \(M-1\), compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
+That is, for encoding unique $m$ elements one uses a $m$-dimensional vector where all entries except one is 0.0 and the one is 1.0.
+<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that these elements are whole numbers between 0 and $M-1$, compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
 
 \[(0, \ldots, 0, 1, 0, \ldots, 0)\]
 
-<p>The \(i^{\text{th}}\) element is represented by a vetor where the \(i^{\text{th}}\) component is 1.0.
+<p>The $i^{\text{th}}$ element is represented by a vetor where the $i^{\text{th}}$ component is 1.0.
 Note that our labels <code class="language-plaintext highlighter-rouge">ys</code> are not one-hot encoded.</p>
 
 <h3 id="training">Training</h3>
 
-<p>Next, I initialize a random matrix \(\mathbf{W} \in [-1;1]^{m \times m}\), or tensor, <code class="language-plaintext highlighter-rouge">W</code> with values ranging from -1.0 to 1.0.
+<p>Next, I initialize a random matrix $\mathbf{W} \in [-1;1]^{m \times m}$, or tensor, <code class="language-plaintext highlighter-rouge">W</code> with values ranging from -1.0 to 1.0.
 This tensor includes our trainable parameters, which represent the single layer of our neural network.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">W</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Our network includes \(m\) inputs and outputs, with the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax</a></em> values of the outputs being interpreted as probabilities.
+<p>Our network includes $m$ inputs and outputs, with the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax</a></em> values of the outputs being interpreted as probabilities.
 Essentially, our “network” is just one large matrix!</p>
 
-<p>The operation <code class="language-plaintext highlighter-rouge">xenc @ W</code> represents a matrix multiplication where <code class="language-plaintext highlighter-rouge">xenc</code> is an \(1700 \times m\) matrix and <code class="language-plaintext highlighter-rouge">W</code> is our \(m \times m\) matrix.
+<p>The operation <code class="language-plaintext highlighter-rouge">xenc @ W</code> represents a matrix multiplication where <code class="language-plaintext highlighter-rouge">xenc</code> is an $1700 \times m$ matrix and <code class="language-plaintext highlighter-rouge">W</code> is our $m \times m$ matrix.
 Here I use the power of parallel computation.
 By employing <code class="language-plaintext highlighter-rouge">probs[torch.arange(len(ys), device=device), ys]</code>, I address a single entry for each row.</p>
 
@@ -431,7 +442,7 @@ Also, be aware that I apply an unusually large learning rate.</p>
 
 \[\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \nabla_\mathbf{W} L\]
 
-<p>where \(\eta = 10\) is the <em>learning rate</em>.</p>
+<p>where $\eta = 10$ is the <em>learning rate</em>.</p>
 
 <p>After the initial 2000 epochs the loss is approximately <code class="language-plaintext highlighter-rouge">2.865</code>. 
 This performance is somewhat inferior compared to the results achieved by our <em>Markov chain</em>. 
@@ -439,22 +450,22 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 <h3 id="what-is-going-on">What is going on?</h3>
 
-<p>Let us assume we have only one sample \(\mathbf{x}\).
+<p>Let us assume we have only one sample $\mathbf{x}$.
 The <em>forward pass</em> starts with</p>
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W}\]
 
-<p>where \(\mathbf{x}\) is a <em>one-hot encoded</em> training data point.
-\(\mathbf{o}\) gets interpreted as (component-wise) logarithm of the odds</p>
+<p>where $\mathbf{x}$ is a <em>one-hot encoded</em> training data point.
+$\mathbf{o}$ gets interpreted as (component-wise) logarithm of the odds</p>
 
 \[\mathbf{o} = \ln\left(\frac{\mathbf{p}}{\mathbf{1}-\mathbf{p}}\right)\]
 
 <p>which is the <a href="https://en.wikipedia.org/wiki/Logit">logit</a>, i.e., the inverse of the <em>standard logistic function</em> also called <em>sigmoid</em>.
-In fact, each data point in \(\mathbf{x}\) selects one row of \(\mathbf{W}\)</p>
+In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W} = \begin{bmatrix} o_1 &amp; o_2 &amp; \ldots &amp; o_m \end{bmatrix}.\]
 
-<p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of \(\mathbf{o}\), i.e.,</p>
+<p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of $\mathbf{o}$, i.e.,</p>
 
 \[\mathbf{s}(\mathbf{o}) = \begin{bmatrix} s(\mathbf{o})_1 &amp; s(\mathbf{o})_2 &amp; \ldots &amp; s(\mathbf{o})_m \end{bmatrix}\]
 
@@ -480,15 +491,15 @@ In fact, each data point in \(\mathbf{x}\) selects one row of \(\mathbf{W}\)</p>
     -s_m s_1 &amp; -s_m s_2 &amp; \ldots &amp; s_m - s_m^2
 \end{bmatrix} = \text{diag}\left(\mathbf{s}\right) - \mathbf{s}^{\top} \mathbf{s}\]
 
-<p>Similar then before, our loss \(L\) is the mean <em>negative log likelihood</em>.</p>
+<p>Similar then before, our loss $L$ is the mean <em>negative log likelihood</em>.</p>
 
 \[L(\mathbf{y}, \mathbf{s}) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\mathbf{s})^\top\]
 
-<p>where \(\mathbf{y}\) is the one-hot encoded label vector, i.e.,</p>
+<p>where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,</p>
 
 <p><code class="language-plaintext highlighter-rouge">loss = -probs[torch.arange(len(ys), device=device), ys].log().mean()</code>.</p>
 
-<p>Note that \(\mathbf{y}\) is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
+<p>Note that $\mathbf{y}$ is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
 
 <hr />
 
@@ -497,7 +508,7 @@ In fact, each data point in \(\mathbf{x}\) selects one row of \(\mathbf{W}\)</p>
 \[\nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) = \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o}.\]
 
 <p>Here we employ the <em>chain rule</em>.
-The sensitivity of cost \(L\) to the input to the softmax layer, \(\mathbf{o}\) is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
+The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
 
 \[\begin{align}
     \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) &amp;= -\nabla_{\mathbf{o}} \mathbf{y} \log(\mathbf{s})^\top \\
@@ -509,7 +520,7 @@ The sensitivity of cost \(L\) to the input to the softmax layer, \(\mathbf{o}\) 
     &amp;= \mathbf{s} - \mathbf{y}.
 \end{align}\]
 
-<p>The \(\log\) and the devision operates component-wise and</p>
+<p>The $\log$ and the devision operates component-wise and</p>
 
 \[\text{diag}\left(\mathbf{s}\right) =
 \begin{bmatrix} 
@@ -520,7 +531,7 @@ The sensitivity of cost \(L\) to the input to the softmax layer, \(\mathbf{o}\) 
 \end{bmatrix}\]
 
 <p>holds.
-We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix \(\mathbf{W}\):</p>
+We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix $\mathbf{W}$:</p>
 
 \[\begin{align}
 \nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) &amp;= \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
@@ -528,10 +539,10 @@ We have to apply the <em>chain rule</em> once again to finally get the desired u
 &amp;= (\mathbf{s} - \mathbf{y}) \cdot \mathbf{x}^{\top}.
 \end{align}\]
 
-<p>Given that \(\mathbf{s}\) represents probabilities, and \(\mathbf{y}\) contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the \(j^\text{th}\) row (\(x_j=1\)) of the gradient is \(p_i\) if the \(i^\text{th}\) probability is deemed “incorrect”, and \((p_i-1)\) otherwise. 
+<p>Given that $\mathbf{s}$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed “incorrect”, and $(p_i-1)$ otherwise. 
 All other entries are zero.
-Note also that \(\mathbf{x}\) is also a one-hot encoded vector.
-Consequently, if a probability is correct, it gets increased by \(1-p_i\) and decreased by \(p_i-1\) otherwise.
+Note also that $\mathbf{x}$ is also a one-hot encoded vector.
+Consequently, if a probability is correct, it gets increased by $1-p_i$ and decreased by $p_i-1$ otherwise.
 Therefore, probabilities that are more incorrect experience a larger increase or decrease.</p>
 
 <p>We can actually check this result!
@@ -564,12 +575,12 @@ Using the following code:</p>
 
 <hr />
 
-<p>So far we only considered the math using a single data point \(\mathbf{x}\).
+<p>So far we only considered the math using a single data point $\mathbf{x}$.
 Let us consider a batch of points, i.e.,</p>
 
 \[\mathbf{O} = \mathbf{X}\mathbf{W} = \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{x}_2 \\ \vdots \\ \mathbf{x}_n \end{bmatrix} \mathbf{W}\]
 
-<p>The <em>softmax</em> is still a vector-to-vector transformation, but it’s applied independently to each row of \(\mathbf{X}\):</p>
+<p>The <em>softmax</em> is still a vector-to-vector transformation, but it’s applied independently to each row of $\mathbf{X}$:</p>
 
 \[\mathbf{S} = \begin{bmatrix} \mathbf{s}(\mathbf{o}_1) \\ \mathbf{s}(\mathbf{o}_2) \\ \vdots \\ \mathbf{s}(\mathbf{o}_n) \end{bmatrix}\]
 

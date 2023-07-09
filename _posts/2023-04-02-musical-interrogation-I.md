@@ -156,7 +156,7 @@ In this example, a state is defined by a note, e.g. A.
 
 *Hidden Markov models (HMM)* are *Markov chains* with *hidden states*.
 There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
-The current hidden state $$Z_t$$ *emits* an *observation* $$X_t$$.
+The current hidden state $Z_t$ *emits* an *observation* $X_t$.
 In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one **distribution** of observations to the next, e.g. from one distribution of notes to the next!
 
 For example, imagine a prisoner who has to estimate the outside weather (*hidden state*) by observing the dirt on the guard's boots (*emissions*).
@@ -169,9 +169,9 @@ If he knows all the probability transitions (e.g., from sunny to rainy, sunny to
 </div>
 <br>
 
-The prisoner could ask: given the HMM and an observation sequence $$X_0, \ldots, X_n$$, what is the likelihood that this sequence occurs (*likelihood problem*)?
-One could also ask: what are the hidden states $$Z_0, \ldots, Z_n$$ that "best" explains the observations (*decoding problem*).
-Moreover, what we are more interested in is: given an observation sequence $$X_0, \ldots, X_n$$, learn the model parameters $$\theta$$ that maximizes the likelihood for our observation (*learning problem*)!
+The prisoner could ask: given the HMM and an observation sequence $X_0, \ldots, X_n$, what is the likelihood that this sequence occurs (*likelihood problem*)?
+One could also ask: what are the hidden states $Z_0, \ldots, Z_n$ that "best" explains the observations (*decoding problem*).
+Moreover, what we are more interested in is: given an observation sequence $X_0, \ldots, X_n$, learn the model parameters $\theta$ that maximizes the likelihood for our observation (*learning problem*)!
 Similar to neural networks, one defines the *architecture* of the HMM (states and transitions), then solve the *learning problem* and infer new melodies from the learned HMM.
 In music, hidden states often lack interpretability.
 Therefore, it needs to be clarified which architecture one should choose.
@@ -220,7 +220,7 @@ Instead, recurrent feedback is introduced and allows an RNN to take into account
 Essentially, an RNN predicts a sequence of symbols given an input sequence.
 But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter -- it is a mess; the information gets washed away.
 In Figure 3 the basic components of an RNN are depicted.
-Using my analogy, the piece of paper are the matrices $$U,V,W$$ which are learnable parameters.
+Using my analogy, the piece of paper are the matrices $U,V,W$ which are learnable parameters.
 **They are shared through time!**
 
 The extension, motivated by the shortcomings of *vanilla RNNs*, are *LSTM RNNs* or just *LSTMs*.
@@ -235,13 +235,13 @@ Instead of just writing all the letters on the piece of paper, we use our rubber
 There is plenty of good material which explains LSTMs much more accurately than I can ever do.
 Figure 4 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) activation, and blue bars indicate a [tanh](https://en.wikipedia.org/wiki/Hyperbolic_functions) activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
-First, the cell "decides" what to keep in the long-term state $$\mathbf{c}_{t-1}$$ via $$f_t$$.
-Then $$i_t$$ decides what to add to the long-term state.
-In addition, $$o_t$$ decides what part of the new long-term state will make up the short-term state $$\mathbf{h}_t$$.
-The importance is that along the path from $$\mathbf{c}_{t-1}$$ to $$\mathbf{c}_{t}$$, there is only a simple multiplication and addition!
+First, the cell "decides" what to keep in the long-term state $\mathbf{c}_{t-1}$ via $f_t$.
+Then $i_t$ decides what to add to the long-term state.
+In addition, $o_t$ decides what part of the new long-term state will make up the short-term state $\mathbf{h}_t$.
+The importance is that along the path from $\mathbf{c}_{t-1}$ to $\mathbf{c}_{t}$, there is only a simple multiplication and addition!
 Therefore, information can persist for longer.
 
-Note, however, that LSTMs can still access information of time step $$t$$ only via time step $$t-1$$.
+Note, however, that LSTMs can still access information of time step $t$ only via time step $t-1$.
 There is no direct access to information compared to the *attention mechanism* {% cite bahdanau:2014 %}, and the *transformer* {% cite vaswani:2017 %}, which led to the most recent breakthroughs in the field of *deep learning*.
 Just a few days ago, another RNN, called [RWKV-LM](https://github.com/BlinkDL/RWKV-LM), claimed to achieve similar results; thus, the last word has yet to be spoken.
 
@@ -311,11 +311,11 @@ In fact, there are four different versions of *Melody RNN*, which offers me the 
 Each is able to generate **monophonic** melodies:
 
 **(1) Basic RNN**: The *basic dual-layer LSTM* uses basic *one-hot encoding* to represent extracted melodies as input to the LSTM and fulfills the role of a baseline.
-One-hot encoding means that to represent $$n$$ different objects one uses a binary vector of size $$n$$ where the $k$-th element is represented by a vector 
+One-hot encoding means that to represent $n$ different objects one uses a binary vector of size $n$ where the $k$-th element is represented by a vector 
 
 $$\mathbf{v}_k = (v_1, \ldots, v_n) \text{ s.t. } v_k = 1, v_i = 0 \text{ for } i \neq k.$$
 
-For training, all the data is transposed to the MIDI pitch range $$[48..84]$$.
+For training, all the data is transposed to the MIDI pitch range $[48..84]$.
 The output/label was the target next event (note-off, no event, note-on for each pitch), i.e., one value for each pitch (a vector).
 Looking at the [code](https://github.com/magenta/magenta/blob/main/magenta/models/melody_rnn/melody_rnn_model.py), I assume they use 128 units for each layer.
 ``MelodyOneHotEncoding`` and ``KeyMelodyEncoderDecoder`` can be found [here](https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py).
@@ -344,7 +344,7 @@ MelodyRnnConfig(
 )
 ```
 
-**(2) Mono RNN**: Similar to *basic* but uses the full MIDI pitch range, i.e. $$[0..128]$$.
+**(2) Mono RNN**: Similar to *basic* but uses the full MIDI pitch range, i.e. $[0..128]$.
 
 ```python
 ...
@@ -361,7 +361,7 @@ note_seq.OneHotEventSequenceEncoderDecoder(
 Therefore, the input is extended to events from 1 and 2 bars ago.
 Furthermore, the authors add the information on whether the last event was repeating the event from 1 or 2 bars before it, which allows the model to more easily recognize if it is in a "repeating sequence state" or not.
 Finally, they borrow again from {% cite johnson:2017 %} what he calls **Beat**. 
-The idea is to add the position within the measure represented by a sort of binary clock, i.e., $$(0,0,0,0,1)$$ followed by $$(0,0,0,1,0)$$ followed by $$(0,0,0,1,1)$$ and so on (but they use -1 instead if 0).
+The idea is to add the position within the measure represented by a sort of binary clock, i.e., $(0,0,0,0,1)$ followed by $(0,0,0,1,0)$ followed by $(0,0,0,1,1)$ and so on (but they use -1 instead if 0).
 I am unsure why they call their last trick *custom label* since it is more like a compression of information.
 Event labels (i.e., the next value the model should output) are replaced by "repeat bar 1" or "repeat bar 2" if repetition was found in the data.
 This is a clever trick!
@@ -399,22 +399,24 @@ the model should learn that the word "speak" (in this context) should put a lot 
 
 Originally this was introduced to an *encode-decoder RNN*.
 *Attention RNN* uses attention for the outputs of the overall network.
-The model always looks at the outputs from the last $$n=40$$ steps when generating output for the current step.
+The model always looks at the outputs from the last $n=40$ steps when generating output for the current step.
 This "looking" is realized by an *attention mask* which determines how much attention is spent on what step of the past.
 
 $$
 \mathbf{a}_t = \text{softmax}(\mathbf{u}_t), \quad \mathbf{u}_t = \mathbf{v}^\top\text{tanh}\left( W_1 H + W_2 \mathbf{c}_t \right)
 $$
 
-The columns of $$H$$ are the $$n=40$$ hidden states $$h_{t-n}, \ldots, h_{t-1}$$.
-So instead of seeing only the hidden state $$\mathbf{h}_{t-1}$$ the RNN is looking at
+The columns of $H$ are the $n=40$ hidden states $h_{t-n}, \ldots, h_{t-1}$.
+So instead of seeing only the hidden state $\mathbf{h}_{t-1}$ the RNN is looking at
 
-$$\mathbf{\hat{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i$$
+$$
+\hat{\mathbf{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i,
+$$
 
-where $$a_{t,i}$$ is a component of $$\mathbf{a}_t$$ and $$\mathbf{c}_t$$ is the current step's RNN cell state. 
-$$W_1, W_2$$ and $$\mathbf{v}$$ are learnable parameters.
-This $$\mathbf{\hat{h}}_{t}$$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
-Furthermore, $$\mathbf{\hat{h}}_{t}$$ is injected into the input of the next step.
+where $a_{t,i}$ is a component of $\mathbf{a}_t$ and $\mathbf{c}_t$ is the current step's RNN cell state.
+$W_1, W_2$ and $\mathbf{v}$ are learnable parameters.
+This $\hat{\mathbf{h}}_t$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
+Furthermore, $\hat{\mathbf{h}}_t$ is injected into the input of the next step.
 Both concatenations are transformed via a *linear layer* directly after concatenation.
 
 In a technical report {% cite lou:2016 %} Lou compares *Attention RNN* with the *Bi-axial LSTM* and comes to a conclusion that, as many RNNs, *Attention RNN* quite often falls into the over-repeating rabbit hole when generating pieces longer than 16 seconds.

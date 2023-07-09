@@ -115,15 +115,15 @@ You can define what a computer at least requires to be *Turing-complete*, i.e., 
 You can define what *computable* means, and you can even measure how many steps it takes to solve a class of problems.
 You start analyzing the *complexity* of problems, such as sorting cards or solving a Sudoku.
 
-For example, sorting cards (on a *Turing-complete* model) requires $$\mathcal{O}(n\log(n))$$ steps, where $$n$$ is the number of cards.
+For example, sorting cards (on a *Turing-complete* model) requires $\mathcal{O}(n\log(n))$ steps, where $n$ is the number of cards.
 And we know that we can not do better than that.
-Consequently, in the worst case, sorting cards requires always at least $$c \cdot n\log(n)$$ steps where $$c$$ is some constant independent of $$n$$.
+Consequently, in the worst case, sorting cards requires always at least $c \cdot n\log(n)$ steps where $c$ is some constant independent of $n$.
 Isn't that captivating that we know this!
 
 Then there is the still **unanswered** question if solving a Sudoku is as *hard* as checking a solution of it?
 We call this 
 
-$$\mathcal{NP} \stackrel{?}{=} \mathcal{P}$$ 
+$$\mathcal{NP} \stackrel{?}{=} \mathcal{P}$$
 
 *problem*. Of course, we ask again in the context of *Turing Machines*.
 Therefore, one might argue that this is not a scientific question because we ask for some property of some human-made machine.
@@ -281,16 +281,16 @@ It is part of our duties, but we should no longer encounter this beast alone.
 ### The Halting Problem
 
 Let me try to give you the intuition of the *Halting problem*.
-For simplicity reasons, I will not explicitly distinguish between a *Turing Machine* $$\mathcal{T}$$ and its description (often noted by $$\alpha_\mathcal{T}$$).
+For simplicity reasons, I will not explicitly distinguish between a *Turing Machine* $\mathcal{T}$ and its description (often noted by $\alpha_\mathcal{T}$).
 So when a *Turing Machine* gets as input another *Turing Machine*, I mean its description (source code).
 
 #### Proof
 
-Let us assume there is a *Turing Machine* $$\mathcal{H}$$ that takes an arbitrary *Turing Machine* $$\mathcal{T}$$ as input.
-$$\mathcal{H}(\mathcal{T})$$ outputs 1 if $$\mathcal{T}(\mathcal{T})$$ halts, otherwise it outputs 0.
-So if such a program exists, $$\mathcal{H}$$ is the program that solves the *Halting problem*, and $$\mathcal{T}$$ is an arbitrary program.
-We can pick $$\mathcal{T}$$ as its own input because the input can be arbitrary (but finite).
-So we 'feed' the program $$\mathcal{T}$$ with itself, that is, its own description/source code $$\mathcal{T}$$.
+Let us assume there is a *Turing Machine* $\mathcal{H}$ that takes an arbitrary *Turing Machine* $\mathcal{T}$ as input.
+$\mathcal{H}(\mathcal{T})$ outputs 1 if $\mathcal{T}(\mathcal{T})$ halts, otherwise it outputs 0.
+So if such a program exists, $\mathcal{H}$ is the program that solves the *Halting problem*, and $\mathcal{T}$ is an arbitrary program.
+We can pick $\mathcal{T}$ as its own input because the input can be arbitrary (but finite).
+So we 'feed' the program $\mathcal{T}$ with itself, that is, its own description/source code $\mathcal{T}$.
 
 So we have
 
@@ -304,11 +304,11 @@ $$
 \end{equation}
 $$
 
-We construct a new *Turing Machine* $$\hat{\mathcal{H}}$$.
-$$\hat{\mathcal{H}}$$ is a slight modification of $$\mathcal{H}$$.
+We construct a new *Turing Machine* $\hat{\mathcal{H}}$.
+$\hat{\mathcal{H}}$ is a slight modification of $\mathcal{H}$.
 It does almost the opposite.
-$$\hat{\mathcal{H}}$$ halts and outputs 1 if and only if $$\mathcal{H}$$ outputs 0.
-Furthermore, $$\hat{\mathcal{H}}$$ does not halt if $$\mathcal{H}$$ outputs 1.
+$\hat{\mathcal{H}}$ halts and outputs 1 if and only if $\mathcal{H}$ outputs 0.
+Furthermore, $\hat{\mathcal{H}}$ does not halt if $\mathcal{H}$ outputs 1.
 
 $$
 \begin{equation} \tag{2}\label{eq:halt:2}
@@ -323,24 +323,24 @@ $$
 <br>
 <div><img style="display:block;margin:auto;;height:200px;" src="{% link /assets/images/halting-problem.png %}" alt="Halting Proglem"></div>
 <br>
-Now we execute $$\hat{\mathcal{H}}$$ by feeding it to itself, that is, $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ and analyse the result:
+Now we execute $\hat{\mathcal{H}}$ by feeding it to itself, that is, $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ and analyse the result:
 
 **It outputs 1:**
-Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1$$.
-Following Eq. \eqref{eq:halt:2} gives us $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$.
-But by following Eq. \eqref{eq:halt:1} this implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt.
-After all, $$\mathcal{H}$$ outputs 0.
-Thus, it recognizes that the analyzed program $$\hat{\mathcal{H}}$$ does not halt.
-But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ which leads to a contradiction.
+Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1$.
+Following Eq. \eqref{eq:halt:2} gives us $\mathcal{H}(\hat{\mathcal{H}}) = 0$.
+But by following Eq. \eqref{eq:halt:1} this implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt.
+After all, $\mathcal{H}$ outputs 0.
+Thus, it recognizes that the analyzed program $\hat{\mathcal{H}}$ does not halt.
+But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $\mathcal{H}(\hat{\mathcal{H}}) = 1$ which leads to a contradiction.
 
 **It outputs 0:**
-Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$$.
-$$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ follows from Eq. \eqref{eq:halt:2} which implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does halts, compare Eq. \eqref{eq:halt:1}.
-But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqref{eq:halt:2}, $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$ which leads to a contradiction.
+Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$.
+$\mathcal{H}(\hat{\mathcal{H}}) = 1$ follows from Eq. \eqref{eq:halt:2} which implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does halts, compare Eq. \eqref{eq:halt:1}.
+But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ halts then by following Eq. \eqref{eq:halt:2}, $\mathcal{H}(\hat{\mathcal{H}}) = 0$ which leads to a contradiction.
 
-In any case $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ leads to a paradox!
-However, the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists.
-Therefore, it follows that our assumption is wrong and $$\mathcal{H}$$ can not exists!
+In any case $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ leads to a paradox!
+However, the construction of $\hat{\mathcal{H}}$ is correct if  $\mathcal{H}$ exists.
+Therefore, it follows that our assumption is wrong and $\mathcal{H}$ can not exists!
 
 #### Meaning
 

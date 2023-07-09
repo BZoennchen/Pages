@@ -32,7 +32,7 @@ One way to do this is to consider the ratio of the length of the diagonal of a s
 This ratio is always irrational, because no matter how large or small the square is, its diagonal will never be a whole number multiple of its side. This can be shown using the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse (the longest side) is equal to the sum of the squares of the lengths of the other two sides. Since the diagonal of a square is a line that forms a right angle with each side of the square, it follows that the diagonal of a square is the hypotenuse of a right triangle. Therefore, the ratio of the diagonal of a square to the length of its side must be irrational.
 </span>
 
-That is not really convincing if we do not know that $$\sqrt{2}$$ is irrational which we are actually trying to prove.
+That is not really convincing if we do not know that $\sqrt{2}$ is irrational which we are actually trying to prove.
 So let's ask for a formula.
 
 <span style="font-family:Courier New">
@@ -60,7 +60,7 @@ I hope this helps! Let me know if you have any other questions.
 </span>
 
 This answer is kind of helpful but, at the same time, misleading. 
-Again, *ChatGPT* already assumes that $$\sqrt{2}$$ is irrational, which is part of what we wanted to prove in the first place.
+Again, *ChatGPT* already assumes that $\sqrt{2}$ is irrational, which is part of what we wanted to prove in the first place.
 
 <span style="font-family:Courier New">
 **My question:**
@@ -144,16 +144,16 @@ Asking it repeatedly gives some other wrong but confident assertion.
 
 $$2 \cdot b^2 = a^2$$
 
-and concluded that $$a^2$$ has to be odd (somehow) and therefore there is a contradiction, since $$2 b^2$$ is even.
-But it was unable to point out why $$a^2$$ has to be odd.
+and concluded that $a^2$ has to be odd (somehow) and therefore there is a contradiction, since $2 b^2$ is even.
+But it was unable to point out why $a^2$ has to be odd.
 I gave up.
 
 For the sake of completeness, let me finish the unfinised proof of *ChatGPT*.
 
 $$2 \cdot b^2 = a^2$$
 
-hence, $$a^2$$ and therefore, $$a$$ is even (since squaring an odd number gives us an odd number).
-Consequently, $$\exists m \in \mathbb{N}$$ such that $$a = 2 \cdot m$$,
+hence, $a^2$ and therefore, $a$ is even (since squaring an odd number gives us an odd number).
+Consequently, $\exists m \in \mathbb{N}$ such that $a = 2 \cdot m$,
 hence,
 
 $$2 \cdot b^2 = (2m)^2 = 4m^2.$$
@@ -162,10 +162,10 @@ Now we devide on both sides by 2 to get
 
 $$b^2 = (2m)^2 = 2m^2$$
 
-thus $$b$$ has to be even as well!
+thus $b$ has to be even as well!
 
-However, we (not *ChatGPT*) assumed at the beginning that the fraction $$a/b$$ was fully shortened, i.e. there are no common divisors with respect to $$a$$ and $$b$$.
-Since we followed that $$a$$ and $$b$$ are even, the contradiction follows, since $$2$$ is a common divisor!
+However, we (not *ChatGPT*) assumed at the beginning that the fraction $a/b$ was fully shortened, i.e. there are no common divisors with respect to $a$ and $b$.
+Since we followed that $a$ and $b$ are even, the contradiction follows, since $2$ is a common divisor!
 
 ### Writing Code
 
@@ -205,7 +205,7 @@ This function takes an integer n as input and returns the sum of the squares of 
 I hope this helps! Let me know if you have any other questions.
 </span>
 
-This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to $$n^2$$:
+This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to $n^2$:
 
 $$\frac{(n \cdot (n + 1) \cdot (2n + 1))}{6}.$$
 

@@ -1,134 +1,142 @@
 ---
 layout: post
-title:  "Being-There-Technological"
+title:  "Machines Do Not Think"
 tags: AI Philosophy Consciousness
 ---
 
 In January 2015, Stephen Hawking, Elon Musk, and dozens of artificial intelligence (AI) experts signed an open letter on AI, calling for research on the societal impacts of AI. 
 The letter highlighted both the positive and negative effects of AI, but warned that if human intelligence is achieved, the risks could be unpredictable. 
-This year, a second open letter followed, signed by Elon Musk, Steve Wozniak, Yuval Noah Harari and others, calling for a six-month pause in developing systems more powerful than OpenAI's newly launched GPT-4.
+This year, a second open letter, signed by Elon Musk, Steve Wozniak, Yuval Noah Harari and others, followed.
+The authors call for a six-month pause in developing systems more powerful than OpenAI's newly launched GPT-4.
 
 >Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable
 
 said the letter issued by the *Future of Life Institute*.
-The assumption that we can be confident that the effects of powerful AI systems are positive reveals a certain perspective on technology as a mere tool that we can control. 
-Furthermore, the letter attributes a power to AI systems that we as a society must respect, pushing AI further into our shared consciousness.
+This statement reveals two assumptions which are problematic if they are taken for granted.
+First, the authors claim that we can be confident that the effects of powerful AI systems are positive if we only analyse those systems enough, assuming that technology is a mere tool that we (humans) can control. 
+Second, the letter attributes a power to AI systems that we as a society have to respect.
+In combination the authors imply that AI is powerful and will definitely be part of the life of a vast amount of people.
+The warning thrusts AI deeper into our collective consciousness.
 
 AI research is in a state of uncertainty.
-Experts can build machines they do not understand and that at least simulate some sort of *calculated rationality (CR)*. 
-We do not know what human-like intelligence truly is or how consciousness works. 
-Yet at the same time, disruptive machines that seem to exhibit intelligence pop up in our daily lives.
+Experts can build machines they do not understand and that at least simulate some sort of *calculated rationality (CR)*.
+Furthermore, we do not know what human-like intelligence truly is or how consciousness works. 
+Yet at the same time, disruptive machines that seem to exhibit intelligence pop up in our daily life.
 
-The reaction of ordinary people to the *uncertain state of AI* combined with the horrific statements about its impact can be categorized into three camps:
+The reaction of ordinary people to the *uncertain state of AI* combined with the horrific statements about its impact causes
 
-1. Shameless optimism, 
-2. Fear regarding job security, and 
-3. Existential anxiety
+1. shameless optimism, 
+2. fear regarding job security, and 
+3. an existential anxiety
 
 and I too feel all these emotions, sometimes simultaneously.
 
-My issue is that the discourse surrounding AI is mainly led by experts with a particular belief system.
+My issue with the mainstream discourse surrounding AI is that it is mainly led by certain people with a particular belief system which confuses *conscious thinking* with *artificial intelligence*.
 They largely assume that the human brain is fundamentally a *Turing machine* and that consciousness is *Turing computable*.
-Note that this is not the same as saying that all things can be explained by our material reality.
-Their shared belief can be explained psychological.
+Their shared belief can be explained psychologically.
 By extrapolating from the biased sample of people-you-spend-time-with, you fall into the trap to believe that your hypothesis are much more accepted than they are;
 If you hold a hammer in your hand everything becomes a nail.
 
-With the strong assumption of the mind being *Turing computable*, the leap towards human-like thinking machines is not a big one.
-Therefore, it is no wonder why so many futurists come out with quite radical claims.
-For instance, we have Elon Musk stating:
+If the mind is *Turing computable*, the leap towards human-like thinking machines is not a big one.
+Therefore, it is no wonder why so many futurists come out with quite radical claims, especially if they are non-experts in the field of machine learning.
+For instance, Elon Musk (entrepreneur) states:
 
 >With artificial intelligence, we are summoning the demon. You know all those stories where there's the guy with the pentagram and the holy water, and he's like, yeah, he's sure he can control the demon? Doesn't work out. -- Elon Musk
 
-Or Ray Kurzweil stating:
+Ray Kurzweil (author, inventor, futurist) said that
 
->Artificial intelligence will reach human levels by around 2029. Follow that out further to, say, 2045, we will have multiplied the intelligence, the human biological machine intelligence of our civilization a billion-fold. -- Ray Kurzweil
+>artificial intelligence will reach human levels by around 2029. Follow that out further to, say, 2045, we will have multiplied the intelligence, the human biological machine intelligence of our civilization a billion-fold. -- Ray Kurzweil
 
-And Nick Bostrom saying:
+And Nick Bostrom (philospher) stated that
 
->Machine intelligence is the last invention that humanity will ever need to make. -- Nick Bostrom
+>machine intelligence is the last invention that humanity will ever need to make. -- Nick Bostrom
 
-The media echo this perspective and often portray AI as an attempt to create a human-like entity -- powerful enough to overtake the world. 
-This comparison sparks an existential question: If this is true, am I no more than a machine? 
-This, consequently, leads to a certain posthuman understanding of individuals as mere machines in a system of machines.
-If ChatGPT basically only predict the next most likely token, humans might do the same.
-If connecting with an AI that perfectly fits our needs, love and friendship becomes either superfluous or redefined in a way that humans will no longer be able to fulfill the required standard.
+The media echos this perspective and often portrays AI as an attempt to create a human-like entity -- powerful enough to overtake the world. 
+This comparison sparks an existential question and has consequently the potential to make our day to day interactions less humane.
+If conscious human thinking can be decoupled from us (whatever we are) our conception of ourselves and our fellow human beings will completely change.
+And, considering our history of dehumanization, the outlook would likely be rather bleak.
 
-In this article, I aim to challenge this view by returning to the human experience from a *phenomenological* perspective.
-By doing so I try to describe the human condition and the essence of technology as something beyond a mere intrument.
-Be warned that the question at hand led me into a rabbit hole that you may not be willing to fall into.
+Despite the provocative title, the intention of this article is not to convince the reader from the opposite or to rescue *humanism* from reasonable attacks but to critique the futuristic view; to peek holes into its logic.
+My aim is to challenge the view that
 
-I acknowledge that I am not formally trained in the field of philosophy.
-As such, please take everything I write in this article with a grain of salt.
+1. the operations of latest *machine learning models*, such as *large language models (LLMs)* are similar to human thinking
+2. technology is neutral.
+
+In order to accomplish this, I delve into philosophical concepts.
+I must admit, I do not possess formal training in philosophy.
+My contributions are purely based on private reading and personal reflections.
+Therefore, I strongly encourage you to remain critical as you read and take everything mentioned in this article with a grain of salt.
 
 ## The Hard Problem of Consciousness
 
 Language can pose a complex challenge in a discussion, particularly in the field of *machine learning*, where we often rely on metaphors and somtimes ill-suited analogies.
 There is a general human weakness for explainations of what is incomprehensible in terms suited for what is familiar and well understood, though entirely different.
-We employ existing terms to describe new and frequently technical operations, processes, and entities.
-
+In the tech sphere, we employ existing terms to describe new and frequently technical operations, processes, and entities.
 For instance, one of the most influential publications in recent machine learning research is titled *Attention Is All You Need* {% cite vaswani:2017 %}. 
-Here, *attention* serves as a metaphor for a complex computation involving the calculation of specific weights, which indicate how "important" one token is to another, in other words, how much 'attention' one token devotes to another.
-
+Here, *attention* serves as a metaphor for a complex computation involving the calculation of specific weights, which indicate how "important" one token/sub-word is to another, in other words, how much "attention" one token/sub-word devotes to another.
 Even in this explanation, I cannot entirely circumvent the unconventional use of language. 
-The challenge lies in the fact that real understanding necessitates mathematics. 
+The challenge lies in the fact that a rigid description necessitates mathematics. 
 Even though metaphors can be incredibly useful, they are not a perfect substitute for the real concept
 
 >One cannot understand [...] the universality of laws of nature, the relationship of things, without an understanding of mathematics. There is no other way to do it. -- Richard Feynman
 
-We encounter terms such as *learning rate*, *experience*, *task*, *transfer learning*, and, of course, *artificial intelligence*. 
-Each of these terms carries a unique definition within the discipline of machine learning, which differs from our everyday language usage.
+Each term carries a unique definition within the discipline of machine learning, which differs from our everyday language usage.
+We encounter terms such as *learning rate*, *decision making*, *meta-learning*, *machine teaching*, *experience*, *task*, *transfer learning*, and, of course, *artificial intelligence*:
 
-For *artificial intelligence*, I propose a rather unspecific definition that circumvents reliance on "intelligence". In computer science, we refer to *information processing systems* as *artificial intelligence* when they resolve complex tasks assigned by humans, exhibiting skills usually associated with human intelligence.
+>In computer science, we refer to *information processing systems* as *artificial intelligence* when they resolve complex tasks assigned by humans, exhibiting skills usually associated with human intelligence.
 
-Within philosophy and computer science, we differentiate between **weak** and **strong AI**.
-**Weak AI** implies *demonstrating capabilities*, that is, certain information processing systems seem intelligent; they simulate intelligence.
-**Strong AI**, on the other hand, appears intelligent because it genuinely possesses intelligence. 
-It understands, and hence, is conscious and/or exhibits intentionality.
-
-In 1980, philosopher John Searle introduced the term **strong AI** as part of the Chinese Room argument (explained below):
+Within philosophy and computer science, one differentiates between **weak** and **strong AI**.
+The terms were coined by philosopher John Searle in 1980 as part of the *Chinese Room Argument* (explained below):
 
 + **Strong AI hypothesis**: An artificial intelligence system can "think" -- have "a mind" and "consciousness".
-+ **Weak AI hypothesis**: An artificial intelligence system can (only) act like it thinks and has a mind and consciousness.
++ **Weak AI hypothesis**: An artificial intelligence system can (only) **act like** it thinks and has a mind and consciousness.
+
+**Weak AI** implies *demonstrating capabilities*, that is, certain information processing systems seem intelligent; they simulate intelligence.
+**Strong AI**, on the other hand, appears intelligent because it genuinely possesses intelligence. 
+It understands, and hence, is *conscious* and/or exhibits *intentionality*.
 
 The crux of most AI discussions boils down to this distinction, coupled with a misuse of language. 
-People claim a system is intelligent when they actually mean that it appears intelligent, rather than truly being so. 
-Some, like Ray Kurzweil, use the term **strong AI** to *indicate human-level artificial general intelligence*, which isn't the same unless one presumes *consciousness* is necessary for *human-level AGI*.
-
+People claim a system is intelligent (or creative) when they actually mean that it appears intelligent, rather than truly being so. 
+Confusingly, Ray Kurzweil use the term **strong AI** to *indicate human-level artificial general intelligence*, which isn't the same unless one presumes *consciousness* is necessary for *human-level AGI*.
 *Artificial General Intelligence (AGI)* refers to a hypothetical intelligent agent capable of learning any intellectual task performed by humans or other animals. 
-The creation of AGI is a primary objective of some AI research and firms, including OpenAI, DeepMind, and Anthropic.
+The creation of AGI is a primary objective of some AI research and companies, including OpenAI, DeepMind, and Anthropic.
+From an instrumental perspective, the consciousness of *AGI* doesn't matter as long as its impact on the world would remain consistent. 
+However, when considering ethical, philosophical, and anthropological viewpoints, the question of *consciousness* becomes paramount.
+In {% cite bubeck:2023 %} the authors believe GPT-4
 
-From an instrumental perspective, the consciousness of *AGI* doesn't matter as its impact on the world would remain consistent. 
-While it is important to think about the topic, one should avoid claiming the advent of **strong AI** without proof. 
-When considering ethical, philosophical, and anthropological viewpoints, the question of *consciousness* becomes paramount.
+>that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.
 
-Some argue that **strong AI** is achievable, while others disagree. 
+Some argue that **strong AI** is achievable, while others disagree.
+While it is important to think about the topic, one should avoid claiming the advent of **strong AI** without proof.
 Searle, a *materialist*, doesn't refute the possibility of constructing **strong AI**. 
-However, he insists such a machine would need *intentionality*, meaning there are states that involve semantic content referencing objects, properties, or relationships beyond themselves.
+However, he insists that such a machine would need *intentionality*, meaning there are states that involve semantic content referencing objects, properties, or relationships beyond themselves (*grounding*).
 
 Philosopher Daniel Dennett posits in {% cite dennett:1991 %} that consciousness isn't what it seems, but rather a series of mental activities creating an illusion of a unified, continuous self. 
 Consequently, if consciousness is a process or simulation, there's no fundamental barrier to replicating that in a machine, given sufficient understanding and computational resources. 
 Dennett argues that "beliefs", "desires", or even "consciousness" itself don't correspond to real *phenomena* and should be substituted with more accurate concepts based on neuroscientific comprehension.
 
 David Chalmers {% cite chalmers:1995 %} and Thomas Nagel {% cite nagel:1974 %} argue that Dennett's model ails to account for the subjective experience of consciousness, also known as *qualia*. 
-There is something it "feels like" to have a particular conscious experience, something that cannot be fully explained by a physicalist or reductionist view. 
-This is sometimes referred to as the *hard problem of consciousness*.
+There is something it "feels like" to have a particular conscious experience, something that cannot be fully explained by a physicalist or reductionist view.
+We can measure the brain function and observe correlations between firing neurons and human behaviour but this tells us nothing about the fact that there is a quality to be human -- I feel like a certain way.
+Why is this the case?
+This problem is *The Hard Problem of Consciousness* (further discussed below).
 
 Proponents of **strong AI** often think that as simulated intelligence improves, it somehow becomes conscious. 
 The assumption is that the system becomes more than the sum of all parts (*emergence*), a plausible materialistic supposition influenced by our understanding of how consciousness emerges in our brains. 
 Another possibility is that all things are somewhat conscious, with the level of consciousness gradually increasing. 
-While I'm not denying this possibility, there's no evidence that such emergence or gradual transition can occur.
+While I'm not denying these hypothesis categorically, there's no evidence that such *emergence* or *gradual transition* can occur.
 
-Perhaps the endeavor to answer the question of **strong** versus **weak AI** is destined to be inconclusive since without peeking "into the box", we can never truly ascertain whether an agent is merely simulating or not. 
-The same holds true for intelligence, which we typically measure in daily life through testing students -- there's simply no other practical method for determining one's intelligence or knowledge.
+Perhaps the endeavor to answer the question of **strong** versus **weak AI** is destined to be inconclusive since without peeking "into the box", we can never truly ascertain whether an agent is merely simulating or not;
+These hypothesis may never be *falsifiable*.
+The same holds true for intelligence, which teachers typically measure through testing students -- there's simply no other practical method for determining one's intelligence or knowledge.
 
 In summary, the *question of AGI* should not be conflated with the question of **strong AI**.
-The latter is intimately tied to the *hard problem of consciousness*.
+The latter is intimately tied to *The Hard Problem of Consciousness*.
 All those questions are open for debate and it is important to remember this when making bold claims about *artificial intelligence*.
 
 Let's conclude this section with a quote from the physicist, cosmologist and machine learning researcher and president of the *Future of Life Institute* Max Tegmark, who believes he has considered all possible consequences of superintelligence for the next 10,000 years and that "the world is not merely described by mathematics, but actually made of mathematics":
 
->In essence, we cannot absolutely guarantee that within our lifetime -- or ever -- there will be a human-like AGI, but we cannot rule out the possibility either. -- {% cite tegmark:2017 %}
+>In essence, we cannot absolutely guarantee that within our lifetime there will be a human-like AGI, but we cannot rule out the possibility either. -- {% cite tegmark:2017 %}
 
 ## Phenomenology
 
@@ -157,8 +165,7 @@ According to Husserl, if a philosopher wishes to start with the first evidence, 
 The world is invalidated, and the philosopher focuses solely on their own consciousness and the **phenomena that this consciousness perceives**.
 Husserl thought that there was a direct correlation between our experiences and the world around us.
 As such, conscious experiences (phenomena) could provide a reliable basis for scientific knowledge.
-In fact, he thought that Descartes' *rationalism*, was not radical enough.
-Unlike Heidegger, he retained the *subject/object distinction* and the *transcendental ego*.
+In fact, he thought that Descartes' *rationalism*, was not radical enough and unlike Heidegger, he retained the *subject/object distinction* and the *transcendental ego*.
 
 Husserl wanted a new solid foundation of knowledge and since it has to start with the phenomena, he wanted a *Science of the Human Spirit* (very similar to Decartes).
 Husserl went back to Decartes and tried to bracket (suspending judgement) not the objects that appear but objects of knowledge (particulars, interpretations, and even memory).
@@ -186,12 +193,13 @@ Let's try to think phenomenological by using an example:
 Rather than focusing on the measurable distance between one's home and the train station, phenomenology examines the subjectively felt distance.
 Take time as another example.
 If we study time objectively, we measure it in seconds, minutes, and hours.
-This is the objective, noumenal (Kant) time that progresses at a constant rate, independent of human experience. However, the phenomenological perspective explores the subjective, first-person experience of time.
+This is the objective time that progresses at a constant rate, independent of human experience. However, the phenomenological perspective explores the subjective, first-person experience of time.
 
 >Put your hand on a hot stove for a minute, and it seems like an hour. Sit with an interesting friend for an hour, and it seems like a minute.
 
 For a rationalist or naturalist, time is consistent for everyone (with the exception of Einstein's relativity).
 A phenomenologist recognizes that it can appear quite different.
+
 Consider fear as another example.
 A naturalist might analyze fear based on the physiological changes that occur, such as the activation of the sympathetic nervous system and increased heart rate, or by observable behaviors.
 In contrast, the phenomenological perspective delves into what the actual experience of fear feels like -- the movements and dynamics of consciousness and how it influences the perception of the experience.
@@ -199,25 +207,24 @@ In contrast, the phenomenological perspective delves into what the actual experi
 Lastly, let's examine Heidegger's most famous example: a hammer held in one's hand.
 It is impossible to see the entire hammer at once since some parts are always concealed.
 Nevertheless, one is certain of the existence of the object called "hammer".
-Even though, scientifically speaking, there is no such thing as a hammer;
-our senses and our mind make up the hammer in our head.
+Even though, scientifically speaking, there is no such thing as a hammer does not change the *truth* of the hammer.
 Making a logical argument for the existence of the hammer would be peculiar.
 While investigating the hammer, one doesn't continuously think, "I can see a hammer. I can still see a hammer.
 Therefore, it is one object that is continually present."
-Instead, one simply experiences it as a single object without rationalization. 
+Instead, one simply experiences the hammer in a world of objects without rationalization. 
 Furthermore, the experience of the hammer is inseparable from recognizing its function, and properties.
-It may be perceived as dirty, cheap or handy and if I see a hammer I see its potential in hammering things.
+It may be perceived as dirty, cheap or handy and if I see a hammer I also see its potential in hammering things.
 
 >This world is not there for me as mere world of facts and affairs, but, with the same immediacy as a world of values, a world of goods, a practical world. Without further effort on my part I find the things before me furnished not only with the qualities that benefit their positive nature, but with value-characters such as beautiful or ugly, agreeable or disagreeable, pleasant or unpleasant, and so forth. Things in their immediacy stand there as objects to be used, the "table" with its "books", the "glass to drink from", the "vase", the "piano" and so forth [...] The same considerations apply of course just as well to the men and beasts in my surroundings as to "mere things". They are my "friends" or my "foes", my "servants" or "superios", "strangers" or "relatives" and so forth. -- Edmund Husserl
 
-Phenomenology takes the hammer seriously without trying to objectify and disect it into its pieces to capture the situated being in the world that each individual embodies.
-This thinking is more artistic than scientific.
-If you are at a concert it makes no sense to determine the objective meaning of the event.
+Phenomenology takes the phenomena of the hammer serious without trying to objectify and disect it into its pieces to capture the situated being in the world that each individual embodies.
+This thinking is more *artistic* than *scientific*.
+If you are at a concert, it makes no sense to determine the objective meaning of the event.
 The real meaning, the truth, is what you experienced at the event.
 In this context, objective reality is unable to provide "real truth".
 Truth is what appears; what is presented to me.
-Phenomenology offers an alternative perspective on truth that neglects emprirical and statistical investigations.
-It is not anti-science but trys to provide a kind of "first-person" perspective that can enrich our understanding of consciousness and experience in ways that complement the "third-person" perspective of the sciences.
+Phenomenology offers an alternative perspective on truth that avoids emprirical or statistical investigations.
+It is, however, not anti-science but trys to provide a kind of "first-person" perspective that can enrich our understanding of consciousness and experience in ways that complement the "third-person" perspective of the sciences.
 
 While it is often feasible to adopt a viewpoint other than one's own, the understanding of such perspectives is not confined to one's personal experience.
 There is a sense in which *phenomenological* facts are impeccably objective: one individual can discern or articulate the quality of another's experience. 
@@ -231,13 +238,23 @@ He developed this idea starting with Franz Brentano's *intentionality*.
 
 Today, *intentionality*, which translates from Latin to "to point at", remains a significant concern among the *philosphy of mind*, particularly the *nature of consciousness*, the *semantics of language*, and the *problem of representation*.
 *Intentionality* is a concept used to describe the ability of the mind to form representations and thoughts about or towards the world.
-In simple terms *intentionality* is
+In simple terms, *intentionality* is
 
 >the characteristic of many mental states and events by which they are directed towards objects or situations in the world, or deal with them. -- {% cite searle:1983 %}
 
 A common debate involves the *material* source of *intentionality* and *consciousness* and their relation.
-This led to the mentioned *dualism* since the mind seems to have several properties that are not present in physics.
-But if *dualism* fails then there are interesting challenges to *materialism* with respect to *intentionality*.
+This has given rise to the aforementioned *dualism*, as the mind appears to possess various properties absent in physics. 
+However, *dualism* is a challenging concept to accept. 
+As Princess Elisabeth eloquently queried in a letter to Descartes in 1643: How can something immaterial cause a material impact?
+
+>I beg of you to tell me how the human soul can determine the movement of the animal spirits in the body so as to perform voluntary acts
+>-- being as it is merly a conscious substance.
+>For the determination of movement seem always to come about from the moving body's being propelled--
+> to depend on the kind of impulse it gets from what sets it in motion, or again, on the nature and shape of this latter thing's surface.
+> Now the first two conditions involve contact, and the third involces that the impelling thing has extension; but you utterl exclude extension from our notion of soul, and contact seems to me incompatible with a thing's being immaterial. -- Princess Elisabeth
+
+From a physics standpoint, this would result in various problems, such as the violation of the *conservation law*.
+However, if dualism fails, then there arise intriguing challenges to materialism concerning intentionality.
 
 Consciousness, in Husserl's view, has the property of *intentionality* (*aboutness*, *meaning*);
 In presentation, something is presented;
