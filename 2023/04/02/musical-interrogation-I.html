@@ -23,7 +23,18 @@
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    type="text/javascript">
+</script></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -223,7 +234,7 @@ Using a <em>first-order Markov model</em>, one would estimate the probability of
 
 <p><em>Hidden Markov models (HMM)</em> are <em>Markov chains</em> with <em>hidden states</em>.
 There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
-The current hidden state \(Z_t\) <em>emits</em> an <em>observation</em> \(X_t\).
+The current hidden state $Z_t$ <em>emits</em> an <em>observation</em> $X_t$.
 In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one <strong>distribution</strong> of observations to the next, e.g. from one distribution of notes to the next!</p>
 
 <p>For example, imagine a prisoner who has to estimate the outside weather (<em>hidden state</em>) by observing the dirt on the guard’s boots (<em>emissions</em>).
@@ -236,9 +247,9 @@ If he knows all the probability transitions (e.g., from sunny to rainy, sunny to
 </div>
 <p><br /></p>
 
-<p>The prisoner could ask: given the HMM and an observation sequence \(X_0, \ldots, X_n\), what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
-One could also ask: what are the hidden states \(Z_0, \ldots, Z_n\) that “best” explains the observations (<em>decoding problem</em>).
-Moreover, what we are more interested in is: given an observation sequence \(X_0, \ldots, X_n\), learn the model parameters \(\theta\) that maximizes the likelihood for our observation (<em>learning problem</em>)!
+<p>The prisoner could ask: given the HMM and an observation sequence $X_0, \ldots, X_n$, what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
+One could also ask: what are the hidden states $Z_0, \ldots, Z_n$ that “best” explains the observations (<em>decoding problem</em>).
+Moreover, what we are more interested in is: given an observation sequence $X_0, \ldots, X_n$, learn the model parameters $\theta$ that maximizes the likelihood for our observation (<em>learning problem</em>)!
 Similar to neural networks, one defines the <em>architecture</em> of the HMM (states and transitions), then solve the <em>learning problem</em> and infer new melodies from the learned HMM.
 In music, hidden states often lack interpretability.
 Therefore, it needs to be clarified which architecture one should choose.</p>
@@ -289,7 +300,7 @@ Instead, recurrent feedback is introduced and allows an RNN to take into account
 Essentially, an RNN predicts a sequence of symbols given an input sequence.
 But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter – it is a mess; the information gets washed away.
 In Figure 3 the basic components of an RNN are depicted.
-Using my analogy, the piece of paper are the matrices \(U,V,W\) which are learnable parameters.
+Using my analogy, the piece of paper are the matrices $U,V,W$ which are learnable parameters.
 <strong>They are shared through time!</strong></p>
 
 <p>The extension, motivated by the shortcomings of <em>vanilla RNNs</em>, are <em>LSTM RNNs</em> or just <em>LSTMs</em>.
@@ -304,13 +315,13 @@ Instead of just writing all the letters on the piece of paper, we use our rubber
 <p>There is plenty of good material which explains LSTMs much more accurately than I can ever do.
 Figure 4 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
-First, the cell “decides” what to keep in the long-term state \(\mathbf{c}_{t-1}\) via \(f_t\).
-Then \(i_t\) decides what to add to the long-term state.
-In addition, \(o_t\) decides what part of the new long-term state will make up the short-term state \(\mathbf{h}_t\).
-The importance is that along the path from \(\mathbf{c}_{t-1}\) to \(\mathbf{c}_{t}\), there is only a simple multiplication and addition!
+First, the cell “decides” what to keep in the long-term state $\mathbf{c}<em>{t-1}$ via $f_t$.
+Then $i_t$ decides what to add to the long-term state.
+In addition, $o_t$ decides what part of the new long-term state will make up the short-term state $\mathbf{h}_t$.
+The importance is that along the path from $\mathbf{c}</em>{t-1}$ to $\mathbf{c}_{t}$, there is only a simple multiplication and addition!
 Therefore, information can persist for longer.</p>
 
-<p>Note, however, that LSTMs can still access information of time step \(t\) only via time step \(t-1\).
+<p>Note, however, that LSTMs can still access information of time step $t$ only via time step $t-1$.
 There is no direct access to information compared to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a>, and the <em>transformer</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>, which led to the most recent breakthroughs in the field of <em>deep learning</em>.
 Just a few days ago, another RNN, called <a href="https://github.com/BlinkDL/RWKV-LM">RWKV-LM</a>, claimed to achieve similar results; thus, the last word has yet to be spoken.</p>
 
@@ -382,11 +393,11 @@ In fact, there are four different versions of <em>Melody RNN</em>, which offers 
 Each is able to generate <strong>monophonic</strong> melodies:</p>
 
 <p><strong>(1) Basic RNN</strong>: The <em>basic dual-layer LSTM</em> uses basic <em>one-hot encoding</em> to represent extracted melodies as input to the LSTM and fulfills the role of a baseline.
-One-hot encoding means that to represent \(n\) different objects one uses a binary vector of size \(n\) where the $k$-th element is represented by a vector</p>
+One-hot encoding means that to represent $n$ different objects one uses a binary vector of size $n$ where the $k$-th element is represented by a vector</p>
 
 \[\mathbf{v}_k = (v_1, \ldots, v_n) \text{ s.t. } v_k = 1, v_i = 0 \text{ for } i \neq k.\]
 
-<p>For training, all the data is transposed to the MIDI pitch range \([48..84]\).
+<p>For training, all the data is transposed to the MIDI pitch range $[48..84]$.
 The output/label was the target next event (note-off, no event, note-on for each pitch), i.e., one value for each pitch (a vector).
 Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/models/melody_rnn/melody_rnn_model.py">code</a>, I assume they use 128 units for each layer.
 <code class="language-plaintext highlighter-rouge">MelodyOneHotEncoding</code> and <code class="language-plaintext highlighter-rouge">KeyMelodyEncoderDecoder</code> can be found <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">here</a>.</p>
@@ -414,7 +425,7 @@ Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/mod
 <span class="p">)</span>
 </code></pre></div></div>
 
-<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. \([0..128]\).</p>
+<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. $[0..128]$.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
 <span class="n">note_seq</span><span class="p">.</span><span class="n">OneHotEventSequenceEncoderDecoder</span><span class="p">(</span>
@@ -430,7 +441,7 @@ Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/mod
 Therefore, the input is extended to events from 1 and 2 bars ago.
 Furthermore, the authors add the information on whether the last event was repeating the event from 1 or 2 bars before it, which allows the model to more easily recognize if it is in a “repeating sequence state” or not.
 Finally, they borrow again from <a class="citation" href="#johnson:2017">(Johnson, 2017)</a> what he calls <strong>Beat</strong>. 
-The idea is to add the position within the measure represented by a sort of binary clock, i.e., \((0,0,0,0,1)\) followed by \((0,0,0,1,0)\) followed by \((0,0,0,1,1)\) and so on (but they use -1 instead if 0).
+The idea is to add the position within the measure represented by a sort of binary clock, i.e., $(0,0,0,0,1)$ followed by $(0,0,0,1,0)$ followed by $(0,0,0,1,1)$ and so on (but they use -1 instead if 0).
 I am unsure why they call their last trick <em>custom label</em> since it is more like a compression of information.
 Event labels (i.e., the next value the model should output) are replaced by “repeat bar 1” or “repeat bar 2” if repetition was found in the data.
 This is a clever trick!
@@ -468,20 +479,20 @@ It introduces the use of the attention mechanism <a class="citation" href="#bahd
 
 <p>Originally this was introduced to an <em>encode-decoder RNN</em>.
 <em>Attention RNN</em> uses attention for the outputs of the overall network.
-The model always looks at the outputs from the last \(n=40\) steps when generating output for the current step.
+The model always looks at the outputs from the last $n=40$ steps when generating output for the current step.
 This “looking” is realized by an <em>attention mask</em> which determines how much attention is spent on what step of the past.</p>
 
 \[\mathbf{a}_t = \text{softmax}(\mathbf{u}_t), \quad \mathbf{u}_t = \mathbf{v}^\top\text{tanh}\left( W_1 H + W_2 \mathbf{c}_t \right)\]
 
-<p>The columns of \(H\) are the \(n=40\) hidden states \(h_{t-n}, \ldots, h_{t-1}\).
-So instead of seeing only the hidden state \(\mathbf{h}_{t-1}\) the RNN is looking at</p>
+<p>The columns of $H$ are the $n=40$ hidden states $h_{t-n}, \ldots, h_{t-1}$.
+So instead of seeing only the hidden state $\mathbf{h}_{t-1}$ the RNN is looking at</p>
 
-\[\mathbf{\hat{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i\]
+\[\hat{\mathbf{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i,\]
 
-<p>where \(a_{t,i}\) is a component of \(\mathbf{a}_t\) and \(\mathbf{c}_t\) is the current step’s RNN cell state. 
-\(W_1, W_2\) and \(\mathbf{v}\) are learnable parameters.
-This \(\mathbf{\hat{h}}_{t}\) vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
-Furthermore, \(\mathbf{\hat{h}}_{t}\) is injected into the input of the next step.
+<p>where $a_{t,i}$ is a component of $\mathbf{a}_t$ and $\mathbf{c}_t$ is the current step’s RNN cell state.
+$W_1, W_2$ and $\mathbf{v}$ are learnable parameters.
+This $\hat{\mathbf{h}}_t$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
+Furthermore, $\hat{\mathbf{h}}_t$ is injected into the input of the next step.
 Both concatenations are transformed via a <em>linear layer</em> directly after concatenation.</p>
 
 <p>In a technical report <a class="citation" href="#lou:2016">(Lou, 2016)</a> Lou compares <em>Attention RNN</em> with the <em>Bi-axial LSTM</em> and comes to a conclusion that, as many RNNs, <em>Attention RNN</em> quite often falls into the over-repeating rabbit hole when generating pieces longer than 16 seconds.

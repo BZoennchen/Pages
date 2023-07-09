@@ -23,7 +23,18 @@
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    type="text/javascript">
+</script></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -94,7 +105,7 @@ One way to do this is to consider the ratio of the length of the diagonal of a s
 This ratio is always irrational, because no matter how large or small the square is, its diagonal will never be a whole number multiple of its side. This can be shown using the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse (the longest side) is equal to the sum of the squares of the lengths of the other two sides. Since the diagonal of a square is a line that forms a right angle with each side of the square, it follows that the diagonal of a square is the hypotenuse of a right triangle. Therefore, the ratio of the diagonal of a square to the length of its side must be irrational.
 </span></p>
 
-<p>That is not really convincing if we do not know that \(\sqrt{2}\) is irrational which we are actually trying to prove.
+<p>That is not really convincing if we do not know that $\sqrt{2}$ is irrational which we are actually trying to prove.
 So let’s ask for a formula.</p>
 
 <p><span style="font-family:Courier New">
@@ -122,7 +133,7 @@ I hope this helps! Let me know if you have any other questions.
 </span></p>
 
 <p>This answer is kind of helpful but, at the same time, misleading. 
-Again, <em>ChatGPT</em> already assumes that \(\sqrt{2}\) is irrational, which is part of what we wanted to prove in the first place.</p>
+Again, <em>ChatGPT</em> already assumes that $\sqrt{2}$ is irrational, which is part of what we wanted to prove in the first place.</p>
 
 <p><span style="font-family:Courier New">
 <strong>My question:</strong>
@@ -206,16 +217,16 @@ Asking it repeatedly gives some other wrong but confident assertion.
 
 \[2 \cdot b^2 = a^2\]
 
-<p>and concluded that \(a^2\) has to be odd (somehow) and therefore there is a contradiction, since \(2 b^2\) is even.
-But it was unable to point out why \(a^2\) has to be odd.
+<p>and concluded that $a^2$ has to be odd (somehow) and therefore there is a contradiction, since $2 b^2$ is even.
+But it was unable to point out why $a^2$ has to be odd.
 I gave up.</p>
 
 <p>For the sake of completeness, let me finish the unfinised proof of <em>ChatGPT</em>.</p>
 
 \[2 \cdot b^2 = a^2\]
 
-<p>hence, \(a^2\) and therefore, \(a\) is even (since squaring an odd number gives us an odd number).
-Consequently, \(\exists m \in \mathbb{N}\) such that \(a = 2 \cdot m\),
+<p>hence, $a^2$ and therefore, $a$ is even (since squaring an odd number gives us an odd number).
+Consequently, $\exists m \in \mathbb{N}$ such that $a = 2 \cdot m$,
 hence,</p>
 
 \[2 \cdot b^2 = (2m)^2 = 4m^2.\]
@@ -224,10 +235,10 @@ hence,</p>
 
 \[b^2 = (2m)^2 = 2m^2\]
 
-<p>thus \(b\) has to be even as well!</p>
+<p>thus $b$ has to be even as well!</p>
 
-<p>However, we (not <em>ChatGPT</em>) assumed at the beginning that the fraction \(a/b\) was fully shortened, i.e. there are no common divisors with respect to \(a\) and \(b\).
-Since we followed that \(a\) and \(b\) are even, the contradiction follows, since \(2\) is a common divisor!</p>
+<p>However, we (not <em>ChatGPT</em>) assumed at the beginning that the fraction $a/b$ was fully shortened, i.e. there are no common divisors with respect to $a$ and $b$.
+Since we followed that $a$ and $b$ are even, the contradiction follows, since $2$ is a common divisor!</p>
 
 <h3 id="writing-code">Writing Code</h3>
 
@@ -264,7 +275,7 @@ This function takes an integer n as input and returns the sum of the squares of 
 I hope this helps! Let me know if you have any other questions.
 </span></p>
 
-<p>This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to \(n^2\):</p>
+<p>This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to $n^2$:</p>
 
 \[\frac{(n \cdot (n + 1) \cdot (2n + 1))}{6}.\]
 

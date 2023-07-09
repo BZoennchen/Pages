@@ -118,13 +118,13 @@
 
 .highlight .il { color: #F78C6C; }
 
-html { font-size: 18px; }
+html { font-size: 1.1rem; }
 
 /** Reset some basic elements */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; -webkit-font-smoothing: antialiased; --text-opacity: 1; }
 
 /** Basic styling */
-body { font: 400 18px/1.5 "Noto Serif", "Droid Serif", Georgia, Times, serif; color: rgba(255, 255, 255, 0.92); background-color: #171923; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
+body { font: 100 1.1rem/1.5 "Noto Serif", "Droid Serif", Georgia, Times, serif; color: #FFF; background-color: #171923; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -148,7 +148,7 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1, h2, h3, h4, h5, h6 { font-weight: 100; }
 
 /** Links */
 a { color: #79b8ff; text-decoration: none; }
@@ -162,7 +162,7 @@ a:hover { color: rgba(255, 255, 255, 0.92); text-decoration: underline; }
 .social-media-list a:hover .username, .pagination a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
-blockquote { color: #dee2e6; border-left: 4px solid #788999; padding-left: 15px; font-size: 1.125rem; font-style: italic; }
+blockquote { color: #FFF; border-left: 4px solid #788999; padding-left: 15px; font-size: 1.125rem; font-style: italic; }
 
 blockquote > :last-child { margin-bottom: 0; }
 
@@ -210,7 +210,7 @@ table td { border: 1px solid #788999; }
 @media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
 
 /** Site header */
-.site-header { border-top: 5px solid #dee2e6; border-bottom: 1px solid #788999; min-height: 55.95px; line-height: 60.75px; position: relative; }
+.site-header { border-top: 5px solid #dee2e6; border-bottom: 1px solid #788999; min-height: 55.95px; line-height: 3.7125rem; position: relative; }
 
 .site-title { font-size: 1.625rem; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
 
@@ -232,7 +232,7 @@ table td { border: 1px solid #788999; }
 
 .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
 
-.site-nav .page-link { color: rgba(255, 255, 255, 0.92); line-height: 1.5; display: block; padding: 5px 10px; margin-left: 20px; }
+.site-nav .page-link { color: #FFF; line-height: 1.5; display: block; padding: 5px 10px; margin-left: 20px; }
 
 .site-nav .page-link:not(:last-child) { margin-right: 0; }
 
@@ -247,7 +247,7 @@ table td { border: 1px solid #788999; }
 
 .contact-list, .social-media-list, .pagination { list-style: none; margin-left: 0; }
 
-.footer-col-wrapper, .social-links { font-size: 0.9375rem; color: #dee2e6; }
+.footer-col-wrapper, .social-links { font-size: 0.9375rem; color: #FFF; }
 
 .footer-col { margin-bottom: 15px; }
 
@@ -270,7 +270,7 @@ table td { border: 1px solid #788999; }
 
 .post-list > li { margin-bottom: 30px; }
 
-.post-meta { font-size: 14px; color: #dee2e6; }
+.post-meta { font-size: 14px; color: #FFF; }
 
 .post-link { display: block; font-size: 1.5rem; }
 
@@ -349,7 +349,7 @@ blockquote { border-left: 4px solid #2a7ae2; padding-left: 15px; }
 .site-title { font-size: 1.325rem; }
 
 /** custom  */
-.tag-list { font-size: 14px; color: #dee2e6; }
+.tag-list { font-size: 14px; color: #FFF; }
 
 .site-footer { border-top: 1px solid #788999; padding: 10px 0; }
 
