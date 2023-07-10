@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-07-10T01:27:21+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-07-10T10:40:44+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
 
 <ol>
   <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
@@ -179,7 +179,7 @@ This ensures that the sum results in a <code class="language-plaintext highlight
 <p>Plotting the probabilities reviels that $\mathbf{P}$ is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
 <div style="display: table;margin: 0 auto;">Figure 1: Matrix plot of our Markov matrix.</div>
 </div>
 <p><br /></p>
@@ -656,8 +656,8 @@ As the dancer moves in the $x$ and $y$ directions, $f$ translates this motion to
 In this case, we can draw it.
 Compare Fig. 1.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/3d-curve.png" alt="2-D manifold" />
-<div style="display: table;margin: 0 auto;">Figure 1: Sample points and fitted graph of a curve in a three-dimensional space. The length of the curve represents the dancer's single coordinate (let's say x). A point (X,Y,Z) on the curve represents three parameter values.</div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/3d-curve.png" alt="2-D manifold" />
+<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">Figure 1: Sample points and fitted graph of a curve in a three-dimensional space. The length of the curve represents the dancer's single coordinate (let's say x). A point (X,Y,Z) on the curve represents three parameter values.</div>
 </div>
 <p><br /></p>
 
@@ -795,7 +795,7 @@ I will provide the code below, but please don’t be intimidated.
 It simply consists of a draggable green square, accompanied by informative log text displayed on a black window, and an OSC sender. 
 Dragging the green square simulates the dancer’s movement, while the application continuously transmits the rectangle’s central position over the network.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/simple_mouse_drag.png" alt="Runnig Processing sketch" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/simple_mouse_drag.png" alt="Runnig Processing sketch" />
 <div style="display: table;margin: 0 auto;">Figure 2: Running Processing sketch.</div>
 </div>
 <p><br /></p>
@@ -987,7 +987,7 @@ The 6 output signals</p>
 
 <p>are sent to <a href="https://supercollider.github.io/">SuperCollider</a>.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator.png" alt="Runnig Processing sketch" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/wekinator.png" alt="Runnig Processing sketch" />
 <div style="display: table;margin: 0 auto;">Figure 3: Overview of all the connected parts.</div>
 </div>
 <p><br /></p>
@@ -1025,7 +1025,7 @@ First, we have to specify the port for the input signals of $f$, i.e., the dance
 This is equal to <code class="language-plaintext highlighter-rouge">6448</code>, and the OSC path is <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>.
 Then we have to specify the port of the output signal $f(x,y)$, i.e., the port used in SuperCollider, which is <code class="language-plaintext highlighter-rouge">7448</code> furthermore, we specify a path <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> such that we do not confuse input and output.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen-started.png" alt="Runnig Processing sketch" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/wekinator-screen-started.png" alt="Runnig Processing sketch" />
 <div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
 </div>
 <p><br /></p>
@@ -1037,7 +1037,7 @@ Then we can click <code class="language-plaintext highlighter-rouge">Next</code>
 <p>Now you will see the following screen.
 In the top left <code class="language-plaintext highlighter-rouge">OSC In</code> should be green, since the <a href="https://processing.org/">Processing</a> sketch is sending messages.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/wekinator-screen.png" alt="Runnig Processing sketch" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/wekinator-screen.png" alt="Runnig Processing sketch" />
 <div style="display: table;margin: 0 auto;">Figure 5: Wekinator before training.</div>
 </div>
 <p><br /></p>
@@ -1230,7 +1230,7 @@ A score represented by a note sheet without any information about the dynamics i
 Raw audio material is far away from the much more abstract <em>symbolic notation</em> and a lived thorough performance is a singular event.</p>
 
 <p><br /></p>
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/music-gen-process.png" alt="Music generation process cell" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/music-gen-process.png" alt="Music generation process cell" />
 <div style="display: table;margin: 0 auto;">Figure 1: Music generation process.</div>
 </div>
 <p><br /></p>
@@ -1266,8 +1266,8 @@ In other words, instead of going from one observed variable to the next, e.g., o
 If he knows all the probability transitions (e.g., from sunny to rainy, sunny to dirty on boots, etc.) and existing states, the prisoner could model the problem by an HMM, compare Figure 2.</p>
 
 <p><br /></p>
-<div style="justify-content: center;margin:0 auto;width:100%;">
-<img style="width:70%; display: block;margin-left: auto;margin-right: auto;" src="/Pages/assets/images/hmm-example-prison.png" alt="Sketch of an HMM." />
+<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/hmm-example-prison.png" alt="Sketch of an HMM." />
 <div style="display: table;margin: 0 auto;">Figure 2: Hidden Markov model with 2 hidden states (sunny, rainy) and 2 observation variables (clean, dirty). The initial state is either sunny or rainy with 0.5 probability.</div>
 </div>
 <p><br /></p>
@@ -1314,7 +1314,7 @@ In his blog post, he writes:</p>
 </blockquote>
 
 <p><br /></p>
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
 <div style="display: table;margin: 0 auto;">Figure 3: Sketch of an RNN unfolded in time.</div>
 </div>
 <p><br /></p>
@@ -1332,7 +1332,7 @@ Using my analogy, the piece of paper are the matrices $U,V,W$ which are learnabl
 LSTMs <strong>learn</strong> which information they should keep in long-term memory and which information they can forget after a short period.
 Instead of just writing all the letters on the piece of paper, we use our rubber and get rid of some writings while highlighting other passages.</p>
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
 <div style="display: table;margin: 0 auto;">Figure 4: A sketch of an LSTM cell.</div>
 </div>
 <p><br /></p>
@@ -3510,7 +3510,7 @@ In the following, I define an envelope (which I think of as a finite <code class
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span> <span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]))}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.6</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div><img style="height:300px;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
 
 <p>The envelope starts at <code class="language-plaintext highlighter-rouge">0</code>, increases to <code class="language-plaintext highlighter-rouge">1</code> during <code class="language-plaintext highlighter-rouge">0.1</code> seconds, drops to <code class="language-plaintext highlighter-rouge">0.4</code> in <code class="language-plaintext highlighter-rouge">0.4</code> seconds, and then drops to <code class="language-plaintext highlighter-rouge">0</code> in <code class="language-plaintext highlighter-rouge">0.1</code> seconds.
 The <code class="language-plaintext highlighter-rouge">curve</code> argument influences curvature of the segments.
@@ -3536,8 +3536,8 @@ It can be best understood by plotting the result while playing around with the v
 
 <p>Let’s plot the sound with and without multiplied by the envelop:</p>
 
-<div><img style="height:300px;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
-<div><img style="height:300px;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
 
 <p>The following code generates the plot.</p>
 

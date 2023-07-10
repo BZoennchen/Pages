@@ -435,7 +435,7 @@ In the following, I define an envelope (which I think of as a finite <code class
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nc">EnvGen</span><span class="p">.</span><span class="n">kr</span><span class="p">(</span><span class="nc">Env</span><span class="p">.</span><span class="kr">new</span><span class="p">(</span><span class="nl">levels:</span> <span class="p">[</span><span class="mf">0</span><span class="p">,</span> <span class="mf">1</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="mf">0</span><span class="p">],</span> <span class="nl">times:</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.4</span><span class="p">,</span><span class="mf">0.1</span><span class="p">],</span> <span class="nl">curve:</span> <span class="p">[</span><span class="mf">2</span><span class="p">,</span><span class="mf">0</span><span class="p">,</span><span class="mf">-3</span><span class="p">]))}.</span><span class="n">plot</span><span class="p">(</span><span class="mf">0.6</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div><img style="height:300px;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/envelope-plot.png" alt="Env" /></div>
 
 <p>The envelope starts at <code class="language-plaintext highlighter-rouge">0</code>, increases to <code class="language-plaintext highlighter-rouge">1</code> during <code class="language-plaintext highlighter-rouge">0.1</code> seconds, drops to <code class="language-plaintext highlighter-rouge">0.4</code> in <code class="language-plaintext highlighter-rouge">0.4</code> seconds, and then drops to <code class="language-plaintext highlighter-rouge">0</code> in <code class="language-plaintext highlighter-rouge">0.1</code> seconds.
 The <code class="language-plaintext highlighter-rouge">curve</code> argument influences curvature of the segments.
@@ -461,8 +461,8 @@ It can be best understood by plotting the result while playing around with the v
 
 <p>Let’s plot the sound with and without multiplied by the envelop:</p>
 
-<div><img style="height:300px;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
-<div><img style="height:300px;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/synth-plot.png" alt="Synth" /></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/synth-and-envelope-plot.png" alt="Synth with Env" /></div>
 
 <p>The following code generates the plot.</p>
 
