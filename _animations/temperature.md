@@ -12,7 +12,7 @@ The following is a plot of the monthly global-mean temperatures {% cite lenssen:
 
 I work with the [GISS dataset](https://data.giss.nasa.gov/gistemp/).
 
-<div id = "p5-temperature" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<div id = "p5-temperature" style="display:block; margin-left:auto; margin-right:auto; width:740px; margin-bottom:1.5em;"></div>
 <br>
 
 ## References

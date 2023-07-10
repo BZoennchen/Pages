@@ -15,7 +15,7 @@ Each new line has a smaller final length and can branch again but with decreasin
 Every branch is perpendicular to its parent.
 Everything is copied cyclically multiple times to achieve a high degree of symmetry.
 
-<div id = "p5-snowflake" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<div id = "p5-snowflake" style="display:block; margin-left:auto; margin-right:auto; width:740px;margin-bottom:1.5em;"></div>
 <br>
 
 As usual, I used [P5js](https://p5js.org/) to generate the animation.

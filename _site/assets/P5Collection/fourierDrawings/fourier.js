@@ -15,8 +15,9 @@ const foruier = (sketch) => {
         canvas.parent('p5-fourier');
         sketch.background(BACKGROUND_COLOR);
         slider = sketch.createSlider(1, 20, 2);
-        //slider.position(200, 200, sketch.sticky);
+        slider.position(1, 200, sketch);
         sel = sketch.createSelect();
+        //sel.position(sketch.position.x, sketch.position.y)
         sel.position(10, 10);
         sel.option('Line');
         sel.option('Ellipse');

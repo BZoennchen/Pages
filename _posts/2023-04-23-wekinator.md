@@ -70,8 +70,8 @@ If we have only one coordinate and three parameters, $f$ represents a curve in t
 In this case, we can draw it.
 Compare Fig. 1.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/3d-curve.png %}" alt="2-D manifold">
-<div style="display: table;margin: 0 auto;">Figure 1: Sample points and fitted graph of a curve in a three-dimensional space. The length of the curve represents the dancer's single coordinate (let's say x). A point (X,Y,Z) on the curve represents three parameter values.</div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/3d-curve.png %}" alt="2-D manifold">
+<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">Figure 1: Sample points and fitted graph of a curve in a three-dimensional space. The length of the curve represents the dancer's single coordinate (let's say x). A point (X,Y,Z) on the curve represents three parameter values.</div>
 </div>
 <br>
 
@@ -209,7 +209,7 @@ I will provide the code below, but please don't be intimidated.
 It simply consists of a draggable green square, accompanied by informative log text displayed on a black window, and an OSC sender. 
 Dragging the green square simulates the dancer's movement, while the application continuously transmits the rectangle's central position over the network.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/simple_mouse_drag.png %}" alt="Runnig Processing sketch">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/simple_mouse_drag.png %}" alt="Runnig Processing sketch">
 <div style="display: table;margin: 0 auto;">Figure 2: Running Processing sketch.</div>
 </div>
 <br>
@@ -407,7 +407,7 @@ $$(v_1, \ldots, v_6) = f(x,y)$$
 
 are sent to [SuperCollider](https://supercollider.github.io/).
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator.png %}" alt="Runnig Processing sketch">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/wekinator.png %}" alt="Runnig Processing sketch">
 <div style="display: table;margin: 0 auto;">Figure 3: Overview of all the connected parts.</div>
 </div>
 <br>
@@ -446,7 +446,7 @@ First, we have to specify the port for the input signals of $f$, i.e., the dance
 This is equal to ``6448``, and the OSC path is ``'/wek/inputs'``.
 Then we have to specify the port of the output signal $f(x,y)$, i.e., the port used in SuperCollider, which is ``7448`` furthermore, we specify a path ``'/wek/outputs'`` such that we do not confuse input and output.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator-screen-started.png %}" alt="Runnig Processing sketch">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/wekinator-screen-started.png %}" alt="Runnig Processing sketch">
 <div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
 </div>
 <br>
@@ -458,7 +458,7 @@ Then we can click ``Next``.
 Now you will see the following screen.
 In the top left ``OSC In`` should be green, since the [Processing](https://processing.org/) sketch is sending messages.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/wekinator-screen.png %}" alt="Runnig Processing sketch">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/wekinator-screen.png %}" alt="Runnig Processing sketch">
 <div style="display: table;margin: 0 auto;">Figure 5: Wekinator before training.</div>
 </div>
 <br>

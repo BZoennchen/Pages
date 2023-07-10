@@ -186,7 +186,7 @@ This ensures that the sum results in a ``(1,m)`` tensor, as opposed to a ``(m,)`
 Plotting the probabilities reviels that $\mathbf{P}$ is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/mc-probs.png %}" alt="Probabilities">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/mc-probs.png %}" alt="Probabilities">
 <div style="display: table;margin: 0 auto;">Figure 1: Matrix plot of our Markov matrix.</div>
 </div>
 <br>

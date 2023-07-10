@@ -17,4 +17,4 @@ The advantage of this kind of computation is that parallelism can be exploited.
 In fact, this algorithm is suited to be executed on GPUs.
 A disadvantage is that the space is discretized, therefore, the result is an approximation and not equal to the actual Voronoi diagram defined by the points.
 
-<div id = "p5-voronoi" style="background-color: #fdfdfd justify-content: center; display: flex;"></div>
+<div id = "p5-voronoi" style="display:block; margin-left:auto; margin-right:auto; width:740px; margin-bottom:1.5em;"></div>

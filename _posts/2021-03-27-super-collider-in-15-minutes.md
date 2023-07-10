@@ -390,7 +390,7 @@ In the following, I define an envelope (which I think of as a finite ``UGen``).
 {EnvGen.kr(Env.new(levels: [0, 1, 0.4, 0], times: [0.1,0.4,0.1], curve: [2,0,-3]))}.plot(0.6);
 ```
 
-<div><img style="height:300px;" src="{% link /assets/images/envelope-plot.png %}" alt="Env"></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/envelope-plot.png %}" alt="Env"></div>
 
 The envelope starts at ``0``, increases to ``1`` during ``0.1`` seconds, drops to ``0.4`` in ``0.4`` seconds, and then drops to ``0`` in ``0.1`` seconds.
 The ``curve`` argument influences curvature of the segments.
@@ -417,8 +417,8 @@ SynthDef.new(\sinewaves, {
 
 Let's plot the sound with and without multiplied by the envelop:
 
-<div><img style="height:300px;" src="{% link /assets/images/synth-plot.png %}" alt="Synth"></div>
-<div><img style="height:300px;" src="{% link /assets/images/synth-and-envelope-plot.png %}" alt="Synth with Env"></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/synth-plot.png %}" alt="Synth"></div>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/synth-and-envelope-plot.png %}" alt="Synth with Env"></div>
 
 The following code generates the plot.
 

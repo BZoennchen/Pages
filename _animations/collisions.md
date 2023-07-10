@@ -9,13 +9,13 @@ permalink: /works/collisions/
 # {{ page.title }}
 
 A set of randomly initialized partiles move inside a two-dimensional box.
-Each particle $$p_i$$ is initialized with some mass $$m_i$$, position $$\mathbf{x}_i$$, and velocity $$\mathbf{v}_i$$.
-The color of the particle indicates its speed $$|\mathbf{v}|$$ and its size indicates its mass $$m$$.
+Each particle $p_i$ is initialized with some mass $m_i$, position $\mathbf{x}_i$, and velocity $\mathbf{v}_i$.
+The color of the particle indicates its speed $|\mathbf{v}|$ and its size indicates its mass $m$.
 
-<div id = "p5-collisions" style="background-color: #fdfdfd; justify-content: center; display: flex; margin:1.5em;"></div>
+<div id = "p5-collisions" style="display:block; margin-left:auto; margin-right:auto; width:740px; margin-bottom:1.5em;"></div>
 
-Collision detection is done by testing each of the $$n$$ particles, which requires $$\mathcal{O}(n^2)$$ time.
-If we increase $$n$$, a more sophisticated collision detection algorithm would be advantageous.
+Collision detection is done by testing each of the $n$ particles, which requires $\mathcal{O}(n^2)$ time.
+If we increase $n$, a more sophisticated collision detection algorithm would be advantageous.
 I test for interception and movement direction because otherwise, one collision might lead to multiple collisions due to the numerical inaccuracy.
 
 ```javascript

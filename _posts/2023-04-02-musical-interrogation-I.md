@@ -127,7 +127,7 @@ A score represented by a note sheet without any information about the dynamics i
 Raw audio material is far away from the much more abstract *symbolic notation* and a lived thorough performance is a singular event.
 
 <br>
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/music-gen-process.png %}" alt="Music generation process cell">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/music-gen-process.png %}" alt="Music generation process cell">
 <div style="display: table;margin: 0 auto;">Figure 1: Music generation process.</div>
 </div>
 <br>
@@ -163,8 +163,8 @@ For example, imagine a prisoner who has to estimate the outside weather (*hidden
 If he knows all the probability transitions (e.g., from sunny to rainy, sunny to dirty on boots, etc.) and existing states, the prisoner could model the problem by an HMM, compare Figure 2.
 
 <br>
-<div style="justify-content: center;margin:0 auto;width:100%;">
-<img style="width:70%; display: block;margin-left: auto;margin-right: auto;" src="{% link /assets/images/hmm-example-prison.png %}" alt="Sketch of an HMM.">
+<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/hmm-example-prison.png %}" alt="Sketch of an HMM.">
 <div style="display: table;margin: 0 auto;">Figure 2: Hidden Markov model with 2 hidden states (sunny, rainy) and 2 observation variables (clean, dirty). The initial state is either sunny or rainy with 0.5 probability.</div>
 </div>
 <br>
@@ -209,7 +209,7 @@ In his blog post, he writes:
 >RNNs combine the input vector with their state vector with a fixed (but learned) function to produce a new state vector. This can, in programming terms, be interpreted as running a fixed program with certain inputs and some internal variables. -- Andrej Karpathy
 
 <br>
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/rnn-unfold.png %}" alt="Sketch of an RNN unfolded in time">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/rnn-unfold.png %}" alt="Sketch of an RNN unfolded in time">
 <div style="display: table;margin: 0 auto;">Figure 3: Sketch of an RNN unfolded in time.</div>
 </div>
 <br>
@@ -227,7 +227,7 @@ The extension, motivated by the shortcomings of *vanilla RNNs*, are *LSTM RNNs* 
 LSTMs **learn** which information they should keep in long-term memory and which information they can forget after a short period.
 Instead of just writing all the letters on the piece of paper, we use our rubber and get rid of some writings while highlighting other passages.
 
-<div><img style="justify-content: center;margin:0 auto;width:100%;" src="{% link /assets/images/lstm-cell.png %}" alt="LSTM cell">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/lstm-cell.png %}" alt="LSTM cell">
 <div style="display: table;margin: 0 auto;">Figure 4: A sketch of an LSTM cell.</div>
 </div>
 <br>

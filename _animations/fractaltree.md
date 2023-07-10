@@ -16,4 +16,4 @@ The following sketch displays a randomly generated tree. It is generated recursi
 At each step, the thickness and the length of lines are reduced. I add some noise for each geometric transformation to get a more natural result.
 I generate a new (random) tree every time you refresh the page.
 
-<div id = "p5-tree" style="background-color: #fdfdfd; justify-content: center; display: flex;"></div>
+<div id = "p5-tree" style="display:block; margin-left:auto; margin-right:auto; width:740px; margin-bottom:1.5em;"></div>
