@@ -42,7 +42,7 @@ collections:
 
 minima:
   date_format: "%b %-d, %Y"
-  skin: dark
+  skin: classic
   social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }

@@ -74,7 +74,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $header-text-color;
     line-height: $base-line-height;
     display: block;
     padding: 5px 10px;
@@ -225,7 +225,7 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: $brand-color;
+  color: $tag-color;
 }
 
 .post-link {

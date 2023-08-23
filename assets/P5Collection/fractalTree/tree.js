@@ -67,7 +67,7 @@ const tree = (sketch) => {
             let len = bstart.copy().sub(bend).mag();
             sketch.strokeWeight(sketch.max(0.1, 8 * sketch.pow(len/maxLen, 4)));
             sketch.noFill();
-            sketch.stroke(222, 222, 222, sketch.map(len, 0, initialHeight, 10, 200));
+            sketch.stroke(51, 51, 51, sketch.map(len, 0, initialHeight, 10, 200));
             sketch.line(bstart.x, bstart.y, bend.x, bend.y);
         }
     };

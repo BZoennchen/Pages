@@ -6,13 +6,13 @@ const temperature = (sketch) => {
     ////////////////////
 
     const LAST_MONTH = 7;
-    const LAST_YEAR = 2022;
+    const LAST_YEAR = 2023;
     const FIRST_MONTH = 1;
     const FIRST_YEAR = 1880;
     const FONT_SIZE = 40;
     const NUMBER_OF_MONTH = 12;
     //const BACKGROUND_COLOR = 253;
-    const FONT_COLOR = 222;
+    const FONT_COLOR = 51;
 
     let ANGLE_SPPED = 1.0;
 

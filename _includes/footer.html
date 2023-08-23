@@ -7,11 +7,10 @@
         <ul style="list-style:none;  line-height: 50%">
         <li>
         <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
             <svg class="svg-icon orange">
               <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
+            </svg><a style="color:#999"
+              href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">Subscribe</a>
         </p>
         </li>
         <li>
