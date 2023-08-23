@@ -156,7 +156,8 @@ const foruier = (sketch) => {
         }
 
         sketch.translate(150, 100);
-        sketch.stroke(MY_READ);
+        sketch.stroke("#999");
+        sketch.strokeWeight(1.5);
         sketch.noFill();
 
         let x = 0;

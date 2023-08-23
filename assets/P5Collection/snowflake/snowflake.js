@@ -29,7 +29,7 @@ const snwoflake = (sketch) => {
 	sketch.draw = () => {
 		sketch.translate(sketch.width/2,sketch.height/2);
 		sketch.background(BACKGROUND_COLOR);
-		let c = sketch.color(MY_READ);
+		let c = sketch.color("#333");
 		sketch.stroke(c._getRed(), c._getGreen(), c._getBlue(), alpha);
 		for (let i=0;i<parts;i++){
 			branch.draw(sketch);

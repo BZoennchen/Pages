@@ -25,7 +25,7 @@ const fire = (sketch) => {
         sketch.windowHeight = h * cellSize;
         myCanvas = sketch.createCanvas(sketch.windowWidth, sketch.windowHeight);
         colors = [sketch.color(180, 180, 180), // street => 0
-            sketch.color(BACKGROUND_COLOR), // ash => 1
+            sketch.color("#333"), // ash => 1
             sketch.color(40, 93, 52), // tree => 2
             sketch.color('#CC2200')
         ]; // fire => 3

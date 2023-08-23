@@ -42,7 +42,7 @@ const rotation = (sketch) => {
 		}*/
 
 		sketch.background(BACKGROUND_COLOR);
-		sketch.stroke(222, 222, 222);
+		sketch.stroke(51, 51, 51);
 		//text("Click the left mouse button to change the outer rotators", windowWidth/2-150, 70);
 		//scale(0.3,0.3)
 		sketch.translate(width / 2, height / 2);
