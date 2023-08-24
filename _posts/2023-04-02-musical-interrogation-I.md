@@ -82,11 +82,13 @@ And there is no reason to believe that algorithms can not only be aesthetically 
 
 However, *computer music* is diverse, and as an amateur, I should be careful in my assessment.
 I encountered *rule-centered computer music*, highly interactive *live programming* (which is also a movement), *real-time music generation*, *sonification*, and *data-centered computer music*.
-While *rule-centered music generation* is *transparent* and offers low-level control, *data-centered generation* is often *opaque* and offers only high-level control, at least up to this date.
+While *rule-centered music generation* is *transparent* and offers low-level control, *data-centered generation* is often *opaque* and offers only high-level control, at least, up to this date.
 *Live programming* is highly interactive and relies on *real-time communication* between performer and audience as well as *real-time artificial communication* between performer and machine.
 
-*Communication* between humans and machine excites me the most since it offers the possibility to reflect on algorithms, programs, machines, data, and technology in general and beyond analytical contemplation.
-Furthermore, learning from human feedback to calibrate generative models to how we experience the ups and downs, twists and turns in music by injecting *intentionality* in order to steer generative models to support storytelling might be the way to go.
+*Communication* between humans and machines excites me the most since it offers the possibility to reflect on algorithms, programs, machines, data, and technology in general.
+It goes beyond analytical contemplation by making algorithms experiencable.
+Furthermore, learning from human feedback to calibrate generative models such that they represent our experienced ups and downs, twists and turns in music by injecting *intentionality* in order to steer generative models might be the way to go.
+The term **co-pilot** comes to mind.
 
 ## Melody Generation
 
@@ -115,7 +117,7 @@ The learning and generation are based on two major categories of representations
 Classical music and most other kinds of music as we know them came into being through the music generation process depicted in figure 1.
 Composers write a score that leads to the performing musicians (the execution of the score) who are exciting their instruments.
 This excitement causes the instrument to vibrate, and due to its physicality, it pushes air molecules around.
-Molecules bump into each other in some areas and tend to leave other areas -- a displacement we call *wave*.
+Molecules bump into each other in some areas and tend to leave other areas---a displacement we call *wave*.
 In principle, the energy of the excitement travels outwards through the air to the listener's ear.
 The information gets more and more concrete.
 While a score is an abstract representation, the sound caused by instruments is very concrete.
@@ -184,12 +186,12 @@ For our MC example A-B-F this would mean the probability changes to
 
 $$P(X_0 = A) \cdot P(X_1 = B \ | \ X_0 = A) \cdot P(X_2 = F \ | \ X_0 = A \ \land \ X_1 = B).$$
 
-But due to the chain property (linearity), this does not necessarily lead to better results since widening the range leads very quickly to overfitting, i.e., the model reproduces more or less exact replica because it does not generalize -- more is not always better.
+But due to the chain property (linearity), this does not necessarily lead to better results since widening the range leads very quickly to overfitting, i.e., the model reproduces more or less exact replica because it does not generalize---more is not always better.
 In any case, the learning stays stepwise causal, i.e., one note after the other without jumping around.
 By focusing on linear temporal dependencies, these models need to take into account the higher-level structure and semantics important to music.
 By model design, HMMs have very limited memory and are thus also incapable of modeling the longer term structure that occurs in original musical pieces.
 
-Their applications in musical structure generation go back to *Harry F. Olson* around 1950, and in 1955, the first machine produced Markov models of first and second order in regard to pitches and rhythm {% cite nierhaus:2010 %}.
+Their applications in musical structure generation goes back to *Harry F. Olson* around 1950, and in 1955, the first machine produced Markov models of first and second order in regard to pitches and rhythm {% cite nierhaus:2010 %}.
 In {% cite merwe:2011 %}, the authors used first-, higher-, or mixed-order MCs to represent chord duration, chord progression, and rhythm progression and first-, higher-, or mixed-order HMM to describe melodic arc.
 
 A more rigorous and recent discussion, including *polyphonic* generation, be found in {% cite collins:2016 %}.
@@ -218,7 +220,7 @@ RNNs are similar to *multilayered perceptrons* (MLPs) but allow for connections 
 The information no longer flows acyclic through the network.
 Instead, recurrent feedback is introduced and allows an RNN to take into account its past inputs together with new inputs.
 Essentially, an RNN predicts a sequence of symbols given an input sequence.
-But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter -- it is a mess; the information gets washed away.
+But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter---it is a mess; the information gets washed away.
 In Figure 3 the basic components of an RNN are depicted.
 Using my analogy, the piece of paper are the matrices $U,V,W$ which are learnable parameters.
 **They are shared through time!**
@@ -235,10 +237,16 @@ Instead of just writing all the letters on the piece of paper, we use our rubber
 There is plenty of good material which explains LSTMs much more accurately than I can ever do.
 Figure 4 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function) activation, and blue bars indicate a [tanh](https://en.wikipedia.org/wiki/Hyperbolic_functions) activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
-First, the cell "decides" what to keep in the long-term state $\mathbf{c}_{t-1}$ via $f_t$.
+First, the cell "decides" what to keep in the long-term state $\mathbf{c}\_{t-1}$ via $f_t$.
+
 Then $i_t$ decides what to add to the long-term state.
-In addition, $o_t$ decides what part of the new long-term state will make up the short-term state $\mathbf{h}_t$.
-The importance is that along the path from $\mathbf{c}_{t-1}$ to $\mathbf{c}_{t}$, there is only a simple multiplication and addition!
+In addition, $o_t$ decides what part of the new long-term state will make up the short-term state 
+$\mathbf{h}\_t.$
+The importance is that along the path from 
+$\mathbf{c}\_{t-1}$ 
+to 
+$\mathbf{c}\_{t},$
+there is only a simple multiplication and addition!
 Therefore, information can persist for longer.
 
 Note, however, that LSTMs can still access information of time step $t$ only via time step $t-1$.
@@ -297,7 +305,7 @@ Furthermore, Johnson's architecture and input format allows the model to learn t
 
 The model is inspired by convolutional neural networks since they are quasi-invariant with respect to translation.
 It is not completely clear to me how many LSTM blocks the model consists of.
-It is **2 LSTM layers with 300 blocks each** and **2 non-recurrent layers with 100 and 50 units**, respectively.
+I think there ar **2 LSTM layers with 300 blocks each** and **2 non-recurrent layers with 100 and 50 units**, respectively.
 In {% cite kotecha:2018 %}, the authors refined Johnson's technique.
 You can listen to some of Johnson's results on his [blog](https://www.danieldjohnson.com/2015/08/03/composing-music-with-recurrent-neural-networks/).
 Despite being a seemingly small contribution, Johnson's ideas influenced a lot of work in this field.
@@ -413,7 +421,8 @@ $$
 \hat{\mathbf{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i,
 $$
 
-where $a_{t,i}$ is a component of $\mathbf{a}_t$ and $\mathbf{c}_t$ is the current step's RNN cell state.
+where $a_{t,i}$ is a component of $\mathbf{a}\_t$ and $\mathbf{c}\_t$ is the current step's RNN cell state.
+$a_{t,i}$ is the amount of attention spent to the hidden state $h_i$.
 $W_1, W_2$ and $\mathbf{v}$ are learnable parameters.
 This $\hat{\mathbf{h}}_t$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
 Furthermore, $\hat{\mathbf{h}}_t$ is injected into the input of the next step.
@@ -427,8 +436,8 @@ The first RNN/stack works from right to left, and the second from left to right.
 The idea is that the first RNN outputs the combined constrained that increases from right to left since when the second RNN generates the melody from left to right, it has to respect the most constraints at the beginning of the sequence.
 The input for the first RNN is basically a constraint, i.e., a note or nil (if unconstrained), and the input for the second RNN is a note concatenated with the output of the first RNN.
 In {% cite hadjeres:2021 %}, this idea is extended on but with a *[constrained linear transformer](https://github.com/Ghadjeres/constraint-transformer-bach)*.
-Furthermore, the author provides a DAW plug-in, the [The Piano Inpainting Application (PIA)](https://ghadjeres.github.io/piano-inpainting-application/), that enables real-time AI assistance when composing polyphonic music in a *digital workstation (DAW)*.
-I talk about *transformers* later in this series.
+Furthermore, the author provides a DAW plug-in, [The Piano Inpainting Application (PIA)](https://ghadjeres.github.io/piano-inpainting-application/), that enables real-time AI assistance when composing polyphonic music in a *digital workstation (DAW)*.
+I will talk about *transformers* later in this series.
 
 In {% cite jiang:2019 %}, the authors use a bidirectional LSTM model to compose polyphonic music conditioned on near notes, which surround the target note from the time dimension and the note dimension.
 Their work heavily borrows from {% cite johnson:2017 %}, but the bidirectional property allows the harmonization to access tonal information of the near future as well as the near past.
