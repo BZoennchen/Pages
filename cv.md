@@ -89,6 +89,10 @@ Software Developer (Education)<br>
 
 ## Publications
 
+**2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
+Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
+In *[MINT-Symposium](https://didaktikzentrum.de/Tagungsband/MINT-Symposium-2023)*, Nürnberg, September 2023, SS. 298-307.
+
 **2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
 Bonding in Times of Pandemia -- A Concept for Purely Virtual Kick-off Days to the Student Entry Phase.<br>
 In *Mobility for Smart Cities and Regional Development -- Challenges for Higher Education*,<br>
@@ -124,6 +128,10 @@ A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equatio
 In *Journal of Computational Science*,<br>
 DOI: [10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009).
 
+**Benedikt Zönnchen** and Gerta Köster,<br>
+Detecting Arbitrarily Shaped Queues Using the Fast Marching Method.<br>
+In: *[Proceedings of Pedestrian and Evacuation Dynamics 2016](https://doi.org/10.17815/CD.2016.11)*, Collective Dynamics, 556-561 (2016)
+
 **2016** | Gerta Köster and **Benedikt Zönnchen**,<br>
 A Queuing Model Based On Social Attitudes.<br>
 In *Traffic and Granular Flow '15*,<br>
@@ -141,6 +149,9 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 ***
 
 ## Teaching
+
+**Winter 2023/24** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+*Sustainable AI* (Bachelor), Lecturer<br>
 
 **Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 *Sustainable AI* (Bachelor), Lecturer<br>
