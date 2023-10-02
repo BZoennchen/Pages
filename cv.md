@@ -91,7 +91,7 @@ Software Developer (Education)<br>
 
 **2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
 Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
-In *[MINT-Symposium](https://didaktikzentrum.de/Tagungsband/MINT-Symposium-2023)*, Nürnberg, September 2023, SS. 298-307.
+In *[Tagungsband des MINT-Symposiums](https://didaktikzentrum.de/Tagungsband/MINT-Symposium-2023)*, Nürnberg, September 2023, SS. 298-307.
 
 **2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
 Bonding in Times of Pandemia -- A Concept for Purely Virtual Kick-off Days to the Student Entry Phase.<br>
@@ -136,10 +136,6 @@ In: *[Proceedings of Pedestrian and Evacuation Dynamics 2016](https://doi.org/10
 A Queuing Model Based On Social Attitudes.<br>
 In *Traffic and Granular Flow '15*,<br>
 DOI: [10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25).
-
-**2016** | **Benedikt Zönnchen** and Gerta Köster,<br>
-Detecting Arbitrarily Shaped Queues Using the Fast Marching Method,<br>
-*8th International Conference on Pedestrian and Evacuation Dynamics*
 
 **2014** | Gerta Köster and **Benedikt Zönnchen**,<br>
 Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation.<br>
