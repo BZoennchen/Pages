@@ -160,7 +160,7 @@ a:hover { color: #111111; text-decoration: underline; }
 .social-media-list a:hover .username, .pagination a:hover .username { text-decoration: underline; }
 
 /** Blockquotes */
-blockquote { color: #999; border-left: 4px solid #999; padding-left: 15px; font-size: 1.125rem; font-style: italic; }
+blockquote { color: #666; border-left: 4px solid #999; padding-left: 15px; font-size: 1.125rem; font-style: italic; }
 
 blockquote > :last-child { margin-bottom: 0; }
 
