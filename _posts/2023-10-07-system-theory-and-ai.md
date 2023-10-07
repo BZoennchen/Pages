@@ -14,7 +14,7 @@ Indeed, our imagination and fearless thinking should pave the way for new possib
 Dreams and speculations are valuable, as long as they're presented as such. 
 However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.
 
-# The Despair Caused by AI
+## The Fall of Human Greatness
 
 What really hit me was watching Doug Hofstadter expressing his despair about the *eclipse of humanity*.
 As a student, I had been influenced by his renowned book *Gödel, Escher, Bach: an Eternal Golden Braid*, often referred to as *GEB* {% cite hofstadter:1979 %}.
@@ -392,7 +392,7 @@ That is why they coincide in this event at which communication happens.
 >It just sort of conveys something that can produce information somewhere else.
 >My background is Luhmanian but what I am proposing, without wanting to amend Luhmann, is something different from the standard case of communication  -- Elena Esposito
 
-## AI as Profilicity Machines
+## Profilicity Machines
 
 The philosopher Hans-Georg Moeller adds an interesting point to the machine learning discourse.
 He posits that algorithms nowadays are used for profile building---he coined the term *profilicity* as a new identity technology, which is different from previous modes of identity building, i.e., *sincerity* and *authenticy* {% cite moeller:2021 %}.
@@ -528,7 +528,7 @@ While we can see traces of this effect in recommendation algorithms that suggest
 I must admit, I need a deeper understanding of systems theory to consider AI as potential systems in Luhmann's view.
 However, I believe it's a valuable pursuit.
 
-## Do not Despair
+## Difference is Enough
 
 I agree with Hofstadter on the limitations of human greatness, albeit for different reasons and perspectives.
 While discussing systems theory, I aimed to challenge his belief that AI diminishes this human greatness. 
