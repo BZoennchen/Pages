@@ -185,7 +185,7 @@ The functional differentiation of systems, its effects and our gut reaction is n
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own *systemic rational*.
 The main message of the movie is that scientists, who discover the meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
-It shows how each of these systems functions differently while still being coupled with one another, as explained above.
+It shows how each of these systems functions differently while still being coupled with one another via a **shared medium** (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
 The effectiveness of functional differentiation to deal with complexity comes at a cost: *Anarchy*, that is, there is no controlling system or governing system, no single rationality that is in charge.
 From a humanistic or reductionist standpoint, the actors of the movie seem completely irrational.
@@ -289,13 +289,17 @@ A webpage ranks high if users deem it valuable.
 The primary task becomes observing user behavior.
 
 Even if Esposito speaks of switching the metaphor, her work goes deeper.
-The metaphor of *artificial intelligence* is so problematic because we do not know what *intelligence* exaclty is.
-Therefore, it is quite hard to theorize about *AI* and its impact which leads to these hyper-speculative predictions.
-By using Luhmann's theory of communication, we might find better ways to talk about AI.
+The word *intelligence* has two different usage in language which are often confused.
+On the one hand we refer to the operational mode of the mind.
+But we have almost no idea what this *intelligence* exaclty is.
+On the other hand we think of information processing, take for example the term Central Intelligence Agency (CIA).
+Therefore, metaphor of *artificial intelligence* is so problematic which makes it hard to theorize about *AI* and its impact which leads to these hyper-speculative predictions.
+By using Luhmann's theory of communication, we might clear the smoke and find more effective ways to talk about artificial intelligence.
 
 Esposito argues that we---the preachers of machine learning---do not reproduce human intelligence but rather social communication.
 Intelligence that emerges from conscious beings might not be needed or might even be an obstacle for the establishment of communication.
-In other words: That which might makes society more intelligent is not required to be intelligent.
+Artificial communication (coupeling achines and psychic or social systems via language) can be more effective than intelligent communcation (coupeling psychic and social systems via language) but it can not be intelligent (refering to the first use of the word).
+In other words: That which makes society more intelligent might not require to be intelligent.
 As described above, social systems have their own *systemic rational* and we might call them intelligent.
 
 Systems theory is useful because it focusses on communication itself.
@@ -496,8 +500,11 @@ Computation would drive more computation;
 the primary purpose being to continue its computational operations. 
 
 Due to their operational closure, a synthesis of thinking and computation---a transhumanist vision---seems unlikely.
-Also, their structural coupling suggests they'd be interdependent on psychic systems and other social systems. 
+Also, their structural coupling suggests they'd be interdependent on psychic systems and other social systems.
+Natural language processing might be an important aspect of AI because it potentially makes this coupling possible via the **shared medium of language**.
 This implies that the idea of AI overthrowing humanity is also improbable.
+It is more likely that our mind, i.e. our thinking/feeling co-evolves with computation/text generation.
+Machines will not think for us but they might irritate our thinking because we might need different skills to survive in an environment consisting of such machines.
 However, it's worth noting that psychic systems may not have control over these artificial systems.
 
 The primary function of the psychic system, in Luhmann's conceptualization, is the processing of meaning. 
