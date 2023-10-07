@@ -383,7 +383,7 @@ That is why they coincide in this event at which communication happens.
 >It just sort of conveys something that can produce information somewhere else.
 >My background is Luhmanian but what I am proposing, without wanting to amend Luhmann, is something different from the standard case of communication  -- Elena Esposito
 
-## AI as Profilicty Machines
+## AI as Profilicity Machines
 
 The philosopher Hans-Georg Moeller adds an interesting point to the machine learning discourse.
 He posits that algorithms nowadays are used for profile building---he coined the term *profilicity* as a new identity technology, which is different from previous modes of identity building, i.e., *sincerity* and *authenticy* {% cite moeller:2021 %}.
