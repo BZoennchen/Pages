@@ -413,7 +413,7 @@ This leads to a contradiction and, because it is about identity building, this c
 Misaligned expectations can cloud the path to self-realization.
 Hence, while it's tempting to solely blame social media for rising mental health issues, the underlying causes, as Luhmann would argue, are multifaceted.
 
-## The Revenge Objects
+## The Revenge of Objects
 
 With the description of society handed over by systems theory, I might have lured you, the reader, into an even greater despair.
 My assertion is that we don't necessarily need AI to challenge Hofstadter's vision of human greatness; 
