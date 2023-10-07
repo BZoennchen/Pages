@@ -474,9 +474,10 @@ Since I'm inclined to buy items higher up on the list, the algorithm's predictio
 Because I rely on algorithms to find items to buy, I believe it's fair to say that they have influence over me and a sort of agency of their own.
 
 If we don't attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. corrupt or incompetent politicians.
-The idea that our modern society renders us freer and more independent is misconstrued. 
-While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency.
-There is more differentiation going on but this does not mean that we are less dependent.
+The idea that our modern society renders us freer and more independent is misconstrued.
+A better way to put it is: We are (more) *out of control*.
+While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency and chaos.
+There is more differentiation going on but this does not mean that we are less dependent but systems are less controlable.
 The age-old dynamic of subjects dominating objects could very well be shifting, placing objects alongside us in terms of influence.
 
 ## Artificial Systems?
@@ -564,7 +565,7 @@ Moeller summerizes this shift nicely {% cite moeller:2006 %}:
 + A description of reality is itself a contingent construction within a system/environment relation.
 
 In Luhmann the subject/object distinction gets replaced with the system/environment distinction.
-In the case of cognition of the psychic system, mental operations irritated by the environment determine perception.
+In the case of cognition of the psychic system, mental operations irritated by the environment determine further mental operations.
 Different operations lead to further different operations---bats are another system/environment distinction than we are.
 Their world looks nothing like ours.
 So let me ask: Why should machines (even if they are conscious) 'live' in a world that is similar to ours?
@@ -575,15 +576,23 @@ I also think it is a mistake to believe that thinking and computing are similar 
 However, according to systems theory, viewing humans as superior rational entities is misguided as well.
 
 A recurring theme in Luhmann's writings is the idea of **difference** and **differentiation**.
-We don't hold an intrinsic superior position in society or its systems; our existence is *contingent*. 
-And as I argued above, bats, human beings, and maybe at some point in future, machines 'live' in, or better create, different interdependent worlds.
+Neither we nor any other system holds an intrinsic superior position in society; existence is *contingent*.
+Observation necessitates selection, i.e. non-observation (a blind spot).
+If I observe my cup I cannot oberserve myself at the same time.
+The legal systems 'looks' at a house in legal terms and the economy in economic terms.
+There is now view from the top, above or the outside.
+A system can only observe in accordance to its *systemic rationality*.
+And as I argued above, bats, human beings, and maybe at some point in future, machines 'live' in, or better create, different interdependent 'worlds'.
 We are differnt; neither better nor worse with respect to each other and to other beings/systems.
-I think, that should be enough to be fascinated about ourselves and to value us as different we are.
+I think, that should be enough to be fascinated about ourselves and to value us as different as we are.
 
 With respect to our future, I want to add that Luhmann believed that ecological problems are primarily problems of communication.
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
 So one idea I have in mind is the importance of establishing communication between psychic systems and ecological systems.
 And it might be *artificial communication* that can give the ecological environment a voice.
+Only because we are not in charge, does not mean that thinks can not get better.
+There is nothing inherently wrong with biological evolution.
+Is social evolution any different?
 
 ## References
 
