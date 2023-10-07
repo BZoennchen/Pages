@@ -75,7 +75,7 @@ He agreed with the postmodern assertion that traditional philosophy had reached 
 
 >Is this, after all, a postmodern theory?
 >Maybe, but then the adherents of postmodern conceptions will finally know what they are talking about.
->The deconstruction of our metaohysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and replaces unity with difference.
+>The deconstruction of our metaphysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and replaces unity with difference.
 >The deconstruction of the ontological presupposition of metaphysics uproots our historical semantics in a most radical way.
 >This seems to correspond to what I have called the catastrophe of modernity, the transition of one form of stability to another. -- {% cite luhmann:1993 luhmann:2000 %}
 
