@@ -592,7 +592,7 @@ Neither we nor any other system holds an intrinsic superior position in society;
 Observation necessitates selection, i.e. non-observation (a blind spot).
 If I observe my cup I cannot oberserve myself at the same time.
 The legal systems 'looks' at a house in legal terms and the economy in economic terms.
-There is now view from the top, above or the outside.
+There is no view from the top, above or the outside.
 A system can only observe in accordance to its *systemic rationality*.
 And as I argued above, bats, human beings, and maybe at some point in future, machines 'live' in, or better create, different interdependent 'worlds'.
 We are differnt; neither better nor worse with respect to each other and to other beings/systems.
@@ -600,8 +600,8 @@ I think, that should be enough to be fascinated about ourselves and to value us 
 
 With respect to our future, I want to add that Luhmann believed that ecological problems are primarily problems of communication.
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
-So one idea I have in mind is the importance of establishing communication between psychic systems and ecological systems.
-And it might be *artificial communication* that can give the ecological environment a voice.
+So one idea I have in mind is the importance of establishing communication between psychic/social systems and ecological systems.
+And it might be *artificial communication* that can couple the ecological environment more strictly with these other systems.
 Only because we are not in charge, does not mean that thinks can not get better.
 There is nothing inherently wrong with biological evolution.
 Is social evolution any different?
