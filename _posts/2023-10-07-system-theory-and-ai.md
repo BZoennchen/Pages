@@ -5,7 +5,7 @@ tags: Opinion AI Philosophy
 comments: true
 ---
 
-Generative AI, especially ChatGPT brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about *machine intelligence*.
+Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about *machine intelligence*.
 I'm open to discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they're presented as such. 
@@ -16,7 +16,7 @@ However, I find it concerning when public figures speak with undue certainty, pa
 What really hit me was watching Doug Hofstadter expressing his despair about the *eclipse of humanity*.
 As a student, I had been influenced by his renowned book *Gödel, Escher, Bach: an Eternal Golden Braid*, often referred to as *GEB* {% cite hofstadter:1979 %}.
 The book delves into how cognition emerges from underlying neurological processes.
-Let's examine Hofstadter's comments on the state of AI from an interview:
+Let's examine Hofstadter's comments on the state of AI which I gathered from an interview:
 
 >I never imagined that computer systems would rival or even surpass human intelligence.
 >It seemed like a goal so far away.
