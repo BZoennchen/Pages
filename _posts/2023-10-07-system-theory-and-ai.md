@@ -1,7 +1,10 @@
 ---
 layout: post
-title:  "Social Systems Thoery and AI - Why Machines Do Not Think"
-tags: Opinion AI Philosophy
+title:  "Why Machines (Probably) Do Not Think"
+tags: 
+    - Opinion 
+    - Social Systems Theory
+    - AI
 comments: true
 ---
 
