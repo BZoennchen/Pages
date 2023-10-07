@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-10-07T21:18:30+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Social Systems Thoery and AI</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Social Systems Thoery and AI" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-10-07T21:50:59+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Social Systems Thoery and AI</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Social Systems Thoery and AI" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open to discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -493,9 +493,10 @@ Since I’m inclined to buy items higher up on the list, the algorithm’s predi
 Because I rely on algorithms to find items to buy, I believe it’s fair to say that they have influence over me and a sort of agency of their own.</p>
 
 <p>If we don’t attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. corrupt or incompetent politicians.
-The idea that our modern society renders us freer and more independent is misconstrued. 
-While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency.
-There is more differentiation going on but this does not mean that we are less dependent.
+The idea that our modern society renders us freer and more independent is misconstrued.
+A better way to put it is: We are (more) <em>out of control</em>.
+While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency and chaos.
+There is more differentiation going on but this does not mean that we are less dependent but systems are less controlable.
 The age-old dynamic of subjects dominating objects could very well be shifting, placing objects alongside us in terms of influence.</p>
 
 <h2 id="artificial-systems">Artificial Systems?</h2>
@@ -591,7 +592,7 @@ Moeller summerizes this shift nicely <a class="citation" href="#moeller:2006">(M
 </ul>
 
 <p>In Luhmann the subject/object distinction gets replaced with the system/environment distinction.
-In the case of cognition of the psychic system, mental operations irritated by the environment determine perception.
+In the case of cognition of the psychic system, mental operations irritated by the environment determine further mental operations.
 Different operations lead to further different operations—bats are another system/environment distinction than we are.
 Their world looks nothing like ours.
 So let me ask: Why should machines (even if they are conscious) ‘live’ in a world that is similar to ours?
@@ -602,15 +603,23 @@ I also think it is a mistake to believe that thinking and computing are similar 
 However, according to systems theory, viewing humans as superior rational entities is misguided as well.</p>
 
 <p>A recurring theme in Luhmann’s writings is the idea of <strong>difference</strong> and <strong>differentiation</strong>.
-We don’t hold an intrinsic superior position in society or its systems; our existence is <em>contingent</em>. 
-And as I argued above, bats, human beings, and maybe at some point in future, machines ‘live’ in, or better create, different interdependent worlds.
+Neither we nor any other system holds an intrinsic superior position in society; existence is <em>contingent</em>.
+Observation necessitates selection, i.e. non-observation (a blind spot).
+If I observe my cup I cannot oberserve myself at the same time.
+The legal systems ‘looks’ at a house in legal terms and the economy in economic terms.
+There is now view from the top, above or the outside.
+A system can only observe in accordance to its <em>systemic rationality</em>.
+And as I argued above, bats, human beings, and maybe at some point in future, machines ‘live’ in, or better create, different interdependent ‘worlds’.
 We are differnt; neither better nor worse with respect to each other and to other beings/systems.
-I think, that should be enough to be fascinated about ourselves and to value us as different we are.</p>
+I think, that should be enough to be fascinated about ourselves and to value us as different as we are.</p>
 
 <p>With respect to our future, I want to add that Luhmann believed that ecological problems are primarily problems of communication.
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
 So one idea I have in mind is the importance of establishing communication between psychic systems and ecological systems.
-And it might be <em>artificial communication</em> that can give the ecological environment a voice.</p>
+And it might be <em>artificial communication</em> that can give the ecological environment a voice.
+Only because we are not in charge, does not mean that thinks can not get better.
+There is nothing inherently wrong with biological evolution.
+Is social evolution any different?</p>
 
 <h2 id="references">References</h2>
 
