@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-10-09T11:12:12+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
-I’m open to discussions and unafraid of confronting uncomfortable truths. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-10-09T11:49:21+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
 However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.</p>
@@ -14,11 +14,13 @@ Let’s examine Hofstadter’s comments on the state of AI which I gathered from
 <blockquote>
   <p>I never imagined that computer systems would rival or even surpass human intelligence.
 It seemed like a goal so far away.
-My entire belief system was shaken; it’s a truly traumatic experience when some of your most fundamental beliefs about the world start to collapse. Particularly, the idea that human beings are soon going to be eclipsed. 
+My entire belief system was shaken; it’s a truly traumatic experience when some of your most fundamental beliefs about the world start to collapse.
+Particularly, the idea that human beings are soon going to be eclipsed. 
 It felt as if not only my belief system was collapsing, but also as if the entire human race was about to be eclipsed and left in the dust soon. 
 The accelerating progress has been so unexpected, it stirs a certain kind of terror of an impending tsunami that’s going to catch all of humanity off guard.
 It’s unclear whether this signifies the end of humanity, in the sense that the systems we created could destroy us, but it’s certainly conceivable. 
-If not, it relegates humanity to a relatively minor phenomenon compared to something else that is far more intelligent and will eventually become as incomprehensible to us as we are to cockroaches. I find that terrifying. 
+If not, it relegates humanity to a relatively minor phenomenon compared to something else that is far more intelligent and will eventually become as incomprehensible to us as we are to cockroaches.
+I find that terrifying. 
 I hate it! I think about it almost every single day.
 And it overwhelms and depresses me in ways I haven’t experienced in a very long time. […]
 It makes me feel diminished; it makes me feel, in some sense, like a very imperfect, flawed structure. 
@@ -31,23 +33,23 @@ Unbeknownst to us, all we humans are soon going to be eclipsed and rightly so, b
 Our unique skills are being surpassed, leading to concerns about our relevance.</p>
 
 <p>I perceive Hofstadter’s view as human-centric, stemming from a longstanding tradition where humans are seen as the central figure, akin to being God’s creation.
-This view encompasses our confidence in determining our fate, the idea of an individual separate from its environment, humans dominating over objects, a hierarchy with humans at the pinnacle, the notions of free will, and rational, independent beings arriving at a consensus in public discourse.</p>
+This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse.</p>
 
 <p>My aim is to approach Hofstadter’s comments from a distinct and somewhat radical angle.
 I’m not asserting this as the absolute truth but rather as a story that might be useful in some aspects.
-I’ll employ <em>systems theory</em>, specifically my interpretation of Niklas Luhmann’s <em>social system theory</em>, to counter this anthropocentric perspective and offer a challenging route deeper into and then hopefully out of despair.
+I’ll employ <em>systems theory</em>, specifically my interpretation of Niklas Luhmann’s <em>social system theory</em>, to counter this anthropocentric perspective and offer a challenging route deeper into and then, hopefully, out of despair.
 While this perspective might not be accurate, it does challenge the confidence behind many claims, including those regarding <em>machine intelligence</em>.</p>
 
 <h2 id="niklas-luhmann">Niklas Luhmann</h2>
 
 <p>Niklas Luhmann (1927-1998) was a largely self-taught sociologist. 
 Like postmodern thinkers, he believed that pursuing metaphysics was no longer productive, as there are no ultimate grand narratives that can explain everything. 
-Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—–a theory that even encompassed itself and its creator.</p>
+Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—–a supertheory that even encompassed itself and its creator.</p>
 
 <p>Luhmann was an avid reader and writer, and he wasn’t hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology. 
-To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry and dense. 
-Because his work is primarily descriptive—–explaining things as they are and exploring potential reasons for their states—–some categorize him as conservative. 
-However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability which is a rather progressive attitude.</p>
+To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
+Because his work is primarily descriptive—–explaining things as they are and exploring potential reasons for their status–some categorize him as conservative. 
+However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability, which is a rather progressive attitude.</p>
 
 <p>In his introductory book <em>From Souls to Systems</em>, Hans-Georg Moeller <a class="citation" href="#moeller:2006">(Moeller, 2006)</a> highlights that Luhmann’s work is influenced by several philosophical giants:</p>
 
@@ -60,20 +62,21 @@ However, I perceive him as an incredibly well-read, sensitive, and discerning ob
   <li><strong>Postmodern thinkers</strong>: Luhmann draws from Deleuze’s radical differentiation, Derrida’s deconstruction, and Lyotard’s rejection of overarching narratives.</li>
 </ul>
 
-<p>With respect to his media theory Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
-While Baudrillard tends to express himself in dramatic metaphors and focuses on the media, Luhmann presents a supertheory of society where mass media is only one of many systems, all administered by the respective code.</p>
+<p>With respect to his media theory, Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
+While Baudrillard tends to express himself in dramatic metaphors and focuses on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by the respective code.</p>
 
 <p>Luhmann believed that the distinction between <em>modernity</em> and <em>postmodernity</em> is largely semantic.
 He argued that the last significant structural shift in society occurred in Europe between the sixteenth and eighteenth centuries, transitioning from stratified to functional differentiation. 
 To Luhmann, labeling a functionally differentiated society as either ‘modern’ or ‘postmodern’ is inconsequential.</p>
 
 <p>Although his theory can be unsettling, Luhmann was optimistic about the future.
-He agreed with the postmodern assertion that traditional philosophy had reached its end. However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:</p>
+He agreed with the postmodern assertion that traditional philosophy had reached its end.
+However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:</p>
 
 <blockquote>
   <p>Is this, after all, a postmodern theory?
 Maybe, but then the adherents of postmodern conceptions will finally know what they are talking about.
-The deconstruction of our metaphysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and replaces unity with difference.
+The deconstruction of our metaphysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and <strong>replaces unity with difference</strong>.
 The deconstruction of the ontological presupposition of metaphysics uproots our historical semantics in a most radical way.
 This seems to correspond to what I have called the catastrophe of modernity, the transition of one form of stability to another. – <a class="citation" href="#luhmann:1993">(Luhmann, 1993; Luhmann, 2000)</a></p>
 </blockquote>
@@ -154,16 +157,16 @@ But one might argue that human beings are better off if their processes are not 
 There are no evil people doing or planing insidious things, instead systems (objects) act on behalf their <em>systemic rational</em> by making sense of their environment on their terms.
 What we often identify as hypocratical in a persons action is a mixture of the operations of <strong>different</strong> systems or the communcation between systems.
 As a reminder, the person is not part of the system.
-Individuals are a necessary condition that social systems can exist (like air has to exist to hear sound) but they belong to the environment of the social system (they do not produce the sound).
+Individuals, or better psychic systems, are a necessary condition that social systems can exist (like air has to exist to hear sound) but they belong to the environment of the social system (they do not produce the sound).
 If a politician acts immoral and accepts a lot of money for his party to give a certain company an advantage over its competitors, the politician is the mere medium through which the economy communicates with politics.
-If a politician of the Green Party goes on vacation by plane and at the same time speaks out against air traffic, two different systems are operating: the family and politics.
+If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
-However, the media make news out of this contradicting behaviour which will irritate politics.</p>
+However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.</p>
 
-<p>Psychic systems are <em>operationally closed</em> but <em>cognitively open</em>.
+<p>Psychic and social systems are <em>operationally closed</em> but <em>cognitively open</em>.
 They have clear boundaries demacrating them from other systems.
 They reproduce themselves by adapting and learning how to cope with external noise by only selecting communcations which the system can actively and creatively interpret and <em>understand</em> or make sense of.
-Psychic systems (and social systems) reduce complexity of their environment through recourse to meaning.
+Psychic and social systems reduce complexity of their environment through recourse to meaning.
 These system increase inner complexity to deal with the complexity in their environment.</p>
 
 <p>The boundaries of these systems are not defined physically, but by the border of what is meaningful and what is not.
@@ -186,7 +189,7 @@ Marignal Note: If we follow Luhmann’s theory and we want efficiency (with resp
 
 <p>The functional differentiation of systems, its effects and our gut reaction is nicely depicted in the movie <em>Don’t Loop Up</em>.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own <em>systemic rational</em>.
-The main message of the movie is that scientists, who discover the meteor, are unable to communicate this truth to the world.
+The main message of the movie is that scientists, who discover a meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
 It shows how each of these systems functions differently while still being coupled with one another via a <strong>shared medium</strong> (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
@@ -208,7 +211,7 @@ The problem becomes a moral problem of personal responsibility thus it becomes p
 From a systems theory perspective, this individualistic solution is not (or no longer) possible.
 Systems function according to their functional differentiation on their terms and individuals are part of their environment.</p>
 
-<p><em>Anarchy</em> does not imply the absence of strata or the presence of equality.
+<p>However, <em>anarchy</em> does not imply the absence of strata or the presence of equality.
 It’s evident that systems like the economy can create significant <em>differences</em> between the rich and the poor. 
 Luhmann recognized that modern society inherently produces many differences, including those we might disapprove of. 
 Every system does this, not just the economy.
@@ -236,12 +239,11 @@ Without the economy, the political system would collapse.
 However, there is <strong>no causal relationship</strong> between the two;
 society does not cause consciousness to occur, neither do people consciously create and manage society.
 The relationship between the two is rather one of constant <em>irritation</em> (which may be also translated to <em>confusion</em>) with the one reacting to the other, but always on its own terms.
-The dynamics are not linear but <em>chaotic</em>.</p>
+The dynamics are non-linear and tend to be <em>chaotic</em>.</p>
 
 <p>If the political system enact a new law to steer the economy, it can only try to do so via irritation.
-How the economy will react is not up to politics.</p>
-
-<p>If climate activists glue themselves to the ground to generate awareness, they may achive their goal or they may not.
+How the economy will react is not up to politics.
+If climate activists glue themselves to the ground to generate awareness, they may achive their goal or they may not.
 What happens is quite difficult to predict.
 How does the media report on the issue if its rational is to further differentiate between information and non-information?
 How will politics react based on the assumption that it ‘wants’ to make more politics?
@@ -251,12 +253,12 @@ Moral outbursts and frustrations about the destruction of our livelihood are com
 <h2 id="artificial-communication">Artificial Communication</h2>
 
 <p>Niklas Luhmann’s concept of communication offers a useful framework for sidestepping (at least for a moment) the ongoing debate about <em>machine intelligence</em>.
-While I personally do not ascribe human-like thinking or understanding to machines, I argue that this does not preclude their participation in communication processes, as underscored by <a class="citation" href="#esposito:2022">(Esposito, 2022)</a>.</p>
+While I personally do not ascribe human-like thinking or understanding to machines, I argue that this does not preclude their participation in communication processes.
+Therefore, I agree with <a class="citation" href="#esposito:2022">(Esposito, 2022)</a>.</p>
 
 <p>I think Esposito’s term <em>artificial communication</em> is a very useful contribution to make the discussion of <em>AI</em> (especially of machine learning) more reasonable.
-Note that she was a student of Niklas Luhmann.</p>
-
-<p>In an interview she explains why she came up with the term:</p>
+Note that she was a student of Niklas Luhmann.
+In an interview she explains why she came up with the term:</p>
 
 <blockquote>
   <p>These algorithms became more and more opaque—not understandable for the users—the idea spread that the activities of machines are not trying to be intelligent; that they are not trying to reproduce, in an artificial way, the process of human thought; they are doing something different.
@@ -646,7 +648,7 @@ Is social evolution any different?</p>
 <li><span id="heidegger:1927">Heidegger, M. (1927). <i>Sein und Zeit</i>.</span></li>
 <li><span id="baudrillard:1990">Baudrillard, J. (1990). <i>The Transparency of Evil: Essays in Extreme Phenomena</i>. Verso.</span></li>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, There and Everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
-<li><span id="nagel:1974">Nagel, T. (1974). What is It Like to Be a Bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open to discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
+<li><span id="nagel:1974">Nagel, T. (1974). What is It Like to Be a Bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
 
 <ol>
   <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
