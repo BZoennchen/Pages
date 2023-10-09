@@ -88,7 +88,7 @@ So let me try to give you my incomplete understanding of his theory:
 
 Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three autopoietic systems: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
 As a sociologist he acknowledges but leaves aside the biological systems of human beings and instead focuses on the interactive relationship between their consciousness or psychic system and the social systems with which they interact.
-The psychic system is within the environment of social systems vice versa.
+The psychic system is within the environment of social systems and vice versa.
 
 He famously argued that communication between psychic systems happens not between (whole) persons or individuals.
 This seems counterintuitive but if we spent a little more thought into his claim and clarify some termonology, it makes sense.
@@ -303,13 +303,13 @@ By using Luhmann's theory of communication, we might clear the smoke and find mo
 
 Esposito argues that we---the preachers of machine learning---do not reproduce human intelligence but rather social communication.
 Intelligence that emerges from conscious beings might not be needed or might even be an obstacle for the establishment of communication.
-Artificial communication (coupeling achines and psychic or social systems via language) can be more effective than intelligent communcation (coupeling psychic and social systems via language) but it can not be intelligent (refering to the first use of the word).
+Artificial communication (coupeling machines and psychic or social systems via language) can be more effective than intelligent communcation (coupeling psychic and social systems via language) but it can not be intelligent (refering to the first use of the word).
 In other words: That which makes society more intelligent might not require to be intelligent.
 As described above, social systems have their own *systemic rational* and we might call them intelligent.
 
 Systems theory is useful because it focusses on communication itself.
 Again, Luhmann claims that humans do not communicate, only communication communicates.
-Of course similar to air, humans are a necessary condition for communication but, like air, they do not communicate themselves.
+Of course, similar to air, humans are a necessary condition for communication but, like air, they do not communicate themselves.
 
 Luhmann diverges from traditional sender-receiver models of communication, such as Shannon's {% cite shannon:1948 %}, where the focus is on the transmission of information.
 Instead, Luhmann conceptualizes communication as comprising three essential moments: *announcement*, *information*, and *understanding*.
@@ -355,7 +355,7 @@ The information provided by the bot has to be understandable, in the sense that 
 Despite thinking of this feature as a flaw, this ambiguity is desirable for communication.
 Of course, not all possibilities of misunderstanding are desirable.
 A chatbot that provides patients with medical or organizational information should give precise and unambiguous answers.
-However, in this case the bot is more like a tool than a real communication partner.
+However, in this case, the bot is more like a tool than a real communication partner.
 
 And here we land at an important distinction:
 While many argue that irritation caused by *generative AI* is similar to the invention of photography, I think there is a difference.
@@ -363,7 +363,7 @@ While many argue that irritation caused by *generative AI* is similar to the inv
 >Photo cameras do not communicate!
 
 This does not mean that generative AI can not act as a mere tool in the process of, for example, the production of images.
-The more predictability the more tool-like generative AI are and the communicative they become.
+The more predictability the more tool-like generative AI are and the less communicative they become.
 There outputs by themselves become less interesting but at the same time, they are more useful to realize a specific vision of the user or artist.
 
 As Esposito noted: Viewed through the lens of Luhmann's social system theory, the development of compelling communication partners presents a unique dilemma: 
@@ -382,8 +382,8 @@ We might think of communication being really picky, that is, it has a lot of req
 
 >Communication is improbable. -- Luhmann
 
-Let look at some requirements: the physical requirements like temperature and gravity at a certain level, water, air, but also a medium and, according to Luhmann, at least two consciousness entities. 
-In a sense the coupling of these two consciousness entities is more strict.
+Let's look at some requirements: the physical requirements like temperature and gravity at a certain level, water, air, but also a medium and, according to Luhmann, at least two consciousness entities. 
+In a sense, the coupling of these two conscious entities is more strict.
 It is an equal operation of the psychic system that has to be devoted to the actual operation of the social system.
 That is why they coincide in this event at which communication happens.
 
@@ -399,8 +399,9 @@ He posits that algorithms nowadays are used for profile building---he coined the
 
 Following his thesis, people taking pictures, not (primarily) to preserve memories, but to curate a profile on Facebook, Instagram or LinkedIn.
 In that sense, I too build my own profile by writing this text and by curating a personal website, a GitHub repository, and many more profiles.
-AI helps us to evaluate our profile(s) within the McLuhan's *Global Village* {% cite mcluhan:1992 %}.
+AI helps us to evaluate our profile(s) within McLuhan's *Global Village* {% cite mcluhan:1992 %}.
 It makes it possible to get feedback from our peers and to present this evaluation back to the village.
+It enables *second-order observation* which reduces complexity.
 
 Moeller admits that he is---as many of us coming from an age where authenticy was the primary technology to build identity---annoyed by this picture frenzy.
 But he stays true to Luhmann and refrains from judging.
@@ -440,7 +441,7 @@ When certain philosophers discuss subjects and objects, they often reference com
 For instance, a chair might seem like a benign example. 
 Here the case seems trivial: Of course a chair has no agency!
 We make chairs to sit on them.
-We dominate charis.
+We dominate chairs.
 They are completely in our control.
 
 But we do not have to look further than *Heidegger's hammer* {% cite heidegger:1927 %} to see that things can get tricky very quickly.
@@ -451,7 +452,7 @@ The hammer, in this context, prompts us to act---it, indirectly, has agency.
 Or consider more potent examples like opioids, smartphones, the internet, algorithms, images or even movies.
 These items influence our behavior, decisions, and perceptions.
 The inception of video technology, for example, started with the simple goal of determining if a galloping horse ever had all its hooves off the ground simultaneously.
-Now, reflect on the vast implications and transformations that this technology has since undergone.
+Now reflect on the vast implications and transformations that this technology has since undergone.
 Did we solely shape these inventions, or should we attribute some credit to the inventions themselves?
 
 For Baudrillard there is an uninterrupted production of positivity that has terrifying consequences.
@@ -486,7 +487,8 @@ If we don't attribute agency to objects, then the explanation for the failures o
 The idea that our modern society renders us freer and more independent is misconstrued.
 A better way to put it is: We are (more) *out of control*.
 While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency and chaos.
-There is more differentiation going on but this does not mean that we are less dependent but systems are less controlable.
+There is more differentiation going on but this does not mean that we are less dependent.
+Instead systems are less controlable.
 The age-old dynamic of subjects dominating objects could very well be shifting, placing objects alongside us in terms of influence.
 
 ## Artificial Systems?
@@ -522,8 +524,8 @@ Artificial systems, on the other hand, may primarily focus on the production of 
 They would observe and process abstract data and project potential futures. 
 But what would 'motivate' them? 
 To function or to survive, they have to compute, i.e., they have to process abstract data.
-Consequently, their *systemic rational* might prioritize producing predictions that lead to more predictions, rather than the most accurate or useful ones.
-While we can see traces of this effect in recommendation algorithms that suggest polarizing content, attributing this behavior to *artificial systems* and not or only partly to the mass media system might be an overreach.
+Consequently, their *systemic rational* might prioritize producing predictions that lead to more predictions, rather than producing the most accurate or useful predictions.
+While we can see traces of this effect in recommendation algorithms that suggest polarizing content, attributing this behavior to *artificial systems* and not, or only partly, to the mass media system might be an overreach.
 
 I must admit, I need a deeper understanding of systems theory to consider AI as potential systems in Luhmann's view.
 However, I believe it's a valuable pursuit.
@@ -565,14 +567,14 @@ He argued that it's precisely because we don't have direct access (due to system
 Cognition can only happen if it is not interrupted which requires operational closure.
 
 >[Communication can only happen] because the environment does not interrupt it.
->And followingall this, the same should be self-evident with respect to the classical 'seat' (subject) of epistemology: to consciousness. -- {% cite luhmann:1988 %}
+>And following all of this, the same should be self-evident with respect to the classical 'seat' (subject) of epistemology: to consciousness. -- {% cite luhmann:1988 %}
 
 As a radical constructivist Luhmann took Kant's concept of cognition and radicalized it.
 Moeller summerizes this shift nicely {% cite moeller:2006 %}:
 
 + Cognition is not *per se* an act of consciousness. It can take on any operational mode.
 + There is no a priori, transscendental structure of cognition; cognition constructs itself on the basis of *operational closure* and is an *empirical* process, which varies from system to system.
-+ No complete description of cognitive structure is possible because these structures are continuously evolving.
++ No complete description of cognitive structures is possible because these structures are continuously evolving.
 + Reality is not singular---there is not one specific reality, but a complex multiplicity of system/environment constellations.
 + A description of reality is itself a contingent construction within a system/environment relation.
 
@@ -590,8 +592,8 @@ However, according to systems theory, viewing humans as superior rational entiti
 A recurring theme in Luhmann's writings is the idea of **difference** and **differentiation**.
 Neither we nor any other system holds an intrinsic superior position in society; existence is *contingent*.
 Observation necessitates selection, i.e. non-observation (a blind spot).
-If I observe my cup I cannot oberserve myself at the same time.
-The legal systems 'looks' at a house in legal terms and the economy in economic terms.
+If I observe my cup, I cannot oberserve myself at the same time.
+The legal system 'looks' at a house in legal terms and the economy in economic terms.
 There is no view from the top, above or the outside.
 A system can only observe in accordance to its *systemic rationality*.
 And as I argued above, bats, human beings, and maybe at some point in future, machines 'live' in, or better create, different interdependent 'worlds'.
