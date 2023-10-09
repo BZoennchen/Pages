@@ -9,7 +9,7 @@ comments: true
 ---
 
 Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about *machine intelligence*.
-I'm open to discussions and unafraid of confronting uncomfortable truths. 
+I'm open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they're presented as such. 
 However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.
@@ -23,11 +23,13 @@ Let's examine Hofstadter's comments on the state of AI which I gathered from an 
 
 >I never imagined that computer systems would rival or even surpass human intelligence.
 >It seemed like a goal so far away.
->My entire belief system was shaken; it's a truly traumatic experience when some of your most fundamental beliefs about the world start to collapse. Particularly, the idea that human beings are soon going to be eclipsed. 
+>My entire belief system was shaken; it's a truly traumatic experience when some of your most fundamental beliefs about the world start to collapse.
+>Particularly, the idea that human beings are soon going to be eclipsed. 
 >It felt as if not only my belief system was collapsing, but also as if the entire human race was about to be eclipsed and left in the dust soon. 
 >The accelerating progress has been so unexpected, it stirs a certain kind of terror of an impending tsunami that's going to catch all of humanity off guard.
 >It's unclear whether this signifies the end of humanity, in the sense that the systems we created could destroy us, but it's certainly conceivable. 
->If not, it relegates humanity to a relatively minor phenomenon compared to something else that is far more intelligent and will eventually become as incomprehensible to us as we are to cockroaches. I find that terrifying. 
+>If not, it relegates humanity to a relatively minor phenomenon compared to something else that is far more intelligent and will eventually become as incomprehensible to us as we are to cockroaches.
+>I find that terrifying. 
 >I hate it! I think about it almost every single day.
 >And it overwhelms and depresses me in ways I haven't experienced in a very long time. [...]
 >It makes me feel diminished; it makes me feel, in some sense, like a very imperfect, flawed structure. 
@@ -39,23 +41,23 @@ He passionately conveys a sentiment many intuitively feel: The essence of humani
 Our unique skills are being surpassed, leading to concerns about our relevance.
 
 I perceive Hofstadter's view as human-centric, stemming from a longstanding tradition where humans are seen as the central figure, akin to being God's creation.
-This view encompasses our confidence in determining our fate, the idea of an individual separate from its environment, humans dominating over objects, a hierarchy with humans at the pinnacle, the notions of free will, and rational, independent beings arriving at a consensus in public discourse. 
+This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse. 
 
 My aim is to approach Hofstadter's comments from a distinct and somewhat radical angle.
 I'm not asserting this as the absolute truth but rather as a story that might be useful in some aspects.
-I'll employ *systems theory*, specifically my interpretation of Niklas Luhmann's *social system theory*, to counter this anthropocentric perspective and offer a challenging route deeper into and then hopefully out of despair.
+I'll employ *systems theory*, specifically my interpretation of Niklas Luhmann's *social system theory*, to counter this anthropocentric perspective and offer a challenging route deeper into and then, hopefully, out of despair.
 While this perspective might not be accurate, it does challenge the confidence behind many claims, including those regarding *machine intelligence*.
 
 ## Niklas Luhmann
 
 Niklas Luhmann (1927-1998) was a largely self-taught sociologist. 
 Like postmodern thinkers, he believed that pursuing metaphysics was no longer productive, as there are no ultimate grand narratives that can explain everything. 
-Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—--a theory that even encompassed itself and its creator.
+Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—--a supertheory that even encompassed itself and its creator.
 
 Luhmann was an avid reader and writer, and he wasn't hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology. 
-To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry and dense. 
-Because his work is primarily descriptive—--explaining things as they are and exploring potential reasons for their states—--some categorize him as conservative. 
-However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability which is a rather progressive attitude.
+To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
+Because his work is primarily descriptive—--explaining things as they are and exploring potential reasons for their status--some categorize him as conservative. 
+However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability, which is a rather progressive attitude.
 
 In his introductory book *From Souls to Systems*, Hans-Georg Moeller {% cite moeller:2006 %} highlights that Luhmann's work is influenced by several philosophical giants:
 
@@ -66,19 +68,20 @@ In his introductory book *From Souls to Systems*, Hans-Georg Moeller {% cite moe
 + **Habermas**: Luhmann disputes Habermas's mission of completing the enlightenment.
 + **Postmodern thinkers**: Luhmann draws from Deleuze's radical differentiation, Derrida's deconstruction, and Lyotard's rejection of overarching narratives.
 
-With respect to his media theory Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
-While Baudrillard tends to express himself in dramatic metaphors and focuses on the media, Luhmann presents a supertheory of society where mass media is only one of many systems, all administered by the respective code.
+With respect to his media theory, Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
+While Baudrillard tends to express himself in dramatic metaphors and focuses on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by the respective code.
 
 Luhmann believed that the distinction between *modernity* and *postmodernity* is largely semantic.
 He argued that the last significant structural shift in society occurred in Europe between the sixteenth and eighteenth centuries, transitioning from stratified to functional differentiation. 
 To Luhmann, labeling a functionally differentiated society as either 'modern' or 'postmodern' is inconsequential.
 
 Although his theory can be unsettling, Luhmann was optimistic about the future.
-He agreed with the postmodern assertion that traditional philosophy had reached its end. However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:
+He agreed with the postmodern assertion that traditional philosophy had reached its end.
+However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:
 
 >Is this, after all, a postmodern theory?
 >Maybe, but then the adherents of postmodern conceptions will finally know what they are talking about.
->The deconstruction of our metaphysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and replaces unity with difference.
+>The deconstruction of our metaphysical tradition pursued by Nietzsche, Heidegger, and Derrida can be seen as a part of a much larger movement that looses the binding force of tradition and **replaces unity with difference**.
 >The deconstruction of the ontological presupposition of metaphysics uproots our historical semantics in a most radical way.
 >This seems to correspond to what I have called the catastrophe of modernity, the transition of one form of stability to another. -- {% cite luhmann:1993 luhmann:2000 %}
 
@@ -154,16 +157,16 @@ Luhmann's theory provokes an amoral view on the state of affairs but it also giv
 There are no evil people doing or planing insidious things, instead systems (objects) act on behalf their *systemic rational* by making sense of their environment on their terms.
 What we often identify as hypocratical in a persons action is a mixture of the operations of **different** systems or the communcation between systems.
 As a reminder, the person is not part of the system.
-Individuals are a necessary condition that social systems can exist (like air has to exist to hear sound) but they belong to the environment of the social system (they do not produce the sound).
+Individuals, or better psychic systems, are a necessary condition that social systems can exist (like air has to exist to hear sound) but they belong to the environment of the social system (they do not produce the sound).
 If a politician acts immoral and accepts a lot of money for his party to give a certain company an advantage over its competitors, the politician is the mere medium through which the economy communicates with politics.
-If a politician of the Green Party goes on vacation by plane and at the same time speaks out against air traffic, two different systems are operating: the family and politics.
+If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
-However, the media make news out of this contradicting behaviour which will irritate politics.
+However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.
 
-Psychic systems are *operationally closed* but *cognitively open*.
+Psychic and social systems are *operationally closed* but *cognitively open*.
 They have clear boundaries demacrating them from other systems.
 They reproduce themselves by adapting and learning how to cope with external noise by only selecting communcations which the system can actively and creatively interpret and *understand* or make sense of.
-Psychic systems (and social systems) reduce complexity of their environment through recourse to meaning.
+Psychic and social systems reduce complexity of their environment through recourse to meaning.
 These system increase inner complexity to deal with the complexity in their environment.
 
 The boundaries of these systems are not defined physically, but by the border of what is meaningful and what is not.
@@ -186,7 +189,7 @@ Marignal Note: If we follow Luhmann's theory and we want efficiency (with respec
 
 The functional differentiation of systems, its effects and our gut reaction is nicely depicted in the movie *Don't Loop Up*.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own *systemic rational*.
-The main message of the movie is that scientists, who discover the meteor, are unable to communicate this truth to the world.
+The main message of the movie is that scientists, who discover a meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
 It shows how each of these systems functions differently while still being coupled with one another via a **shared medium** (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
@@ -208,7 +211,7 @@ The problem becomes a moral problem of personal responsibility thus it becomes p
 From a systems theory perspective, this individualistic solution is not (or no longer) possible.
 Systems function according to their functional differentiation on their terms and individuals are part of their environment.
 
-*Anarchy* does not imply the absence of strata or the presence of equality.
+However, *anarchy* does not imply the absence of strata or the presence of equality.
 It's evident that systems like the economy can create significant *differences* between the rich and the poor. 
 Luhmann recognized that modern society inherently produces many differences, including those we might disapprove of. 
 Every system does this, not just the economy.
@@ -236,11 +239,10 @@ Without the economy, the political system would collapse.
 However, there is **no causal relationship** between the two;
 society does not cause consciousness to occur, neither do people consciously create and manage society.
 The relationship between the two is rather one of constant *irritation* (which may be also translated to *confusion*) with the one reacting to the other, but always on its own terms.
-The dynamics are not linear but *chaotic*.
+The dynamics are non-linear and tend to be *chaotic*.
 
 If the political system enact a new law to steer the economy, it can only try to do so via irritation.
 How the economy will react is not up to politics.
-
 If climate activists glue themselves to the ground to generate awareness, they may achive their goal or they may not.
 What happens is quite difficult to predict.
 How does the media report on the issue if its rational is to further differentiate between information and non-information?
@@ -251,11 +253,11 @@ Moral outbursts and frustrations about the destruction of our livelihood are com
 ## Artificial Communication
 
 Niklas Luhmann's concept of communication offers a useful framework for sidestepping (at least for a moment) the ongoing debate about *machine intelligence*.
-While I personally do not ascribe human-like thinking or understanding to machines, I argue that this does not preclude their participation in communication processes, as underscored by {% cite esposito:2022 %}.
+While I personally do not ascribe human-like thinking or understanding to machines, I argue that this does not preclude their participation in communication processes.
+Therefore, I agree with {% cite esposito:2022 %}.
 
 I think Esposito's term *artificial communication* is a very useful contribution to make the discussion of *AI* (especially of machine learning) more reasonable.
 Note that she was a student of Niklas Luhmann.
-
 In an interview she explains why she came up with the term:
 
 >These algorithms became more and more opaque---not understandable for the users---the idea spread that the activities of machines are not trying to be intelligent; that they are not trying to reproduce, in an artificial way, the process of human thought; they are doing something different.
