@@ -606,7 +606,7 @@ With respect to our future, I want to add that Luhmann believed that ecological 
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
 So one idea I have in mind is the importance of establishing communication between psychic/social systems and ecological systems.
 And it might be *artificial communication* that can couple the ecological environment more strictly with these other systems.
-Only because we are not in charge, does not mean that thinks can not get better.
+Only because we are not in charge, does not mean that things can not get better.
 There is nothing inherently wrong with biological evolution.
 Is social evolution any different?
 
