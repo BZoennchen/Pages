@@ -541,10 +541,16 @@ Additionally, I've raised questions regarding the feasibility of 'complete' enli
 
 Simultaneously, I presented reasons:
 
-1. For perceiving machines as intelligent, and
-2. For potentially being misled by this perception.
+1. for perceiving machines as intelligent, and
+2. for potentially being misled by this perception.
 
-Debating if machines possess consciousness or human-like intelligence is premature without a clear understanding of intelligence and consciousness.
+The phenomenon of *artificial intelligence* is not only interesting because of impressive accomplishments but because it pushes discussions about the 'human nature' into many psychic and social systems.
+This question leads immediatly to the question of *cognition*, *thinking/feeling*, and *consciousness* because these concepts are so central to the question of *machine intelligence*.
+So, let me elaborate a little bit more on these concepts.
+
+### The Mystery of Consciousness
+
+First of all, debating if machines possess consciousness or human-like intelligence is premature without a clear understanding of intelligence and consciousness.
 Perhaps 'intelligence' is just a collective term for several unexplained phenomena.
 We do not know yet.
 
@@ -555,12 +561,20 @@ However, as neuroscientist Giulio Tononi notes, this doesn't necessarily mean we
 >It is a reasonable inference, corroborated first by the beliefs of my fellow humans and then by the intersubjective methods of science.
 >Yet consciousness---the central fact of existence---still demands a rational explanation. -- {% cite tononi:2015 %}
 
-In *What Is It Like to Be a Bat?* {% cite nagel:1974 %} the philosopher Thomas Nagel trys to explain that we can not know what it is like to be a bat.
-He chooses bats because they are also mammals and, presumably, conscious, yet their primary sensory experience---echolocation---is profoundly different from any human sensory experience.
-In Luhmann's words: Their environment is very different from ours.
+Still physicalism, the view that everything is physical and can be explained by physics, seems to be the natural position, especially in science.
+However, this view can be challenged.
+In the famous and rather short article *What Is It Like to Be a Bat?* {% cite nagel:1974 %}, the philosopher Thomas Nagel trys to argue against it.
+He explains that we can not know what *it is like* to be a bat.
+He chooses bats because they are mammals like us and, presumably, conscious, yet their primary sensory experience---echolocation---is profoundly different from any human sensory experience.
+In Luhmann's words: their environment is very different from ours.
 We can imagine flapping our arms like a bat or eating insects like a bat, but we cannot truly imagine what it is like to 'experience' the world primarily through echolocation.
 Nagel suggests that even if we knew all the physical facts about a bat's brain while it echolocates, we'd still be missing the subjective experience---the "what it's like"--—of being a bat.
+
+In the *philosopyh of mind* there is a broad spectrum of dealing with *the hard problem of consciousness* ranging from new forms of idealism (the essence of reality is consciousness), naive realism (we have direct awareness of objects as they really are), new realism (accepts that science is not systematically the ultimate measure of truth but realities are first given, not constructed) to panpsychismus (the mind or a mindlike aspect is a fundamental and ubiquitous feature of reality).
+There is no agreement on the *hard problem of consciousness*.
 Consequently, consciousness remains enigmatic, with little guidance on where to begin our inquiries.
+
+### Cognition as Construction
 
 Sometimes, to gain a fresh perspective on the world, one must take a completely opposite stance.
 For millennia, philosophers have pondered how we can perceive something if we lack direct access to reality.
@@ -568,11 +582,32 @@ Luhmann flipped this idea on its head.
 He argued that it's precisely because we don't have direct access (due to system/environment distinction and operational closure) that we can perceive.
 Cognition can only happen if it is not interrupted which requires operational closure.
 
->[Communication can only happen] because the environment does not interrupt it.
->And following all of this, the same should be self-evident with respect to the classical 'seat' (subject) of epistemology: to consciousness. -- {% cite luhmann:1988 %}
+>The tradition of epistemological idealism was about the question of the unity within the difference of cognition and the real object.
+>The question was: how can cognition take notice of an object outside of itself?
+>Or: how can it realize that something exists independently of it while anything which it realizes already presupposes cognition and cannot be realized by cognition independently of cognition?
+>No matter if one preferred solutions of transcendental theory (Kant) or dialectics (Hegel), the problem was: how is cognition possible in spite of having no independent access to reality outside of it.
+>Radical constructivism, however, begins with the empirical assertion: Cognition is only possible because it has no access to the reality external to it.
+>A brain, for instance, can only produce information because it is coded indifferently in regard to its environment, i.e. it operates enclosed within the recursive network of its own operations.
+>Similarly one would have to say: Communication systems (social systems) are only able to produce information because the environment does not interrupt them.
+>And following all this, the same should be self-evident with respect to the classical "seat" (subject) of epistemology: to consciousness. -- {% cite luhmann:1988 %}
 
-As a radical constructivist Luhmann took Kant's concept of cognition and radicalized it.
-Moeller summerizes this shift nicely {% cite moeller:2006 %}:
+It was Kant who turned the question of 'what is the general structure of the world' into a question of the general structure of cognition: under which conditions is cognition allowed to operate to conceive the world?
+Kant tried to bridge the gap between Hume's *empiricism* and German *idealism*.
+He also accepted the skeptical argument that nothing could be realized by cognition independently of cognition.
+In a sense, Kant brought in *constructivism*.
+
+As a *radical constructivist* Luhmann took Kant's concept of cognition and radicalized it.
+He assumes that the realization of reality is not only a possible way of relating to reality, but that reality basically consists of its own realization.
+Therfore, Luhmann drops the idea of a reality that is independent of cognition, i.e. Kant's *Ding an sich*.
+According to Luhmann, cognition is no longer simply a way of relating to reality.
+Instead, reality emerges as cognition.
+
+However, this does **not** mean that cognition is *ideal* (Hegel)---it does not rely on an essence in the form of consiousness.
+Cognitive systems construct cognition which is based on the system/environment distinction.
+There is no single rule how this can be done.
+Cognition can operate materially in the form of biological life, mentally in the form of thoughts, or socially in the form of communication.
+
+Moeller summerizes this shift from *Kantian idealism* to *radical constructivism* nicely {% cite moeller:2006 %}:
 
 + Cognition is not *per se* an act of consciousness. It can take on any operational mode.
 + There is no a priori, transscendental structure of cognition; cognition constructs itself on the basis of *operational closure* and is an *empirical* process, which varies from system to system.
@@ -581,20 +616,41 @@ Moeller summerizes this shift nicely {% cite moeller:2006 %}:
 + A description of reality is itself a contingent construction within a system/environment relation.
 
 In Luhmann the subject/object distinction gets replaced with the system/environment distinction.
-In the case of cognition of the psychic system, mental operations irritated by the environment determine further mental operations.
+For him, observing systems are cognitive systems.
+Remember, social systems observe their environment thus Luhmann's social systems are cognitive.
+In the case of the psychic system, the environment irritates the system which does not directly cause mental operations but can, in the end, result in mental operations that establish meaning and determine consecutive mental operations.
+There is no outside with respect to the operations of a system!
+The psychic system does not "see" with "its" eyes because our eyes are in the environment of our psychic system.
+There is only irritation and no direct causal relation.
+
+What our psychic system "sees" does not have anything to do with "reality".
+According to Luhmann, there is no reality we have access to!
+Cognition is always a construction by an observing system.
+In case of psychic and social systems, sense is the *medium* that is used in thought (as well as in commuincation).
+A thought or a gesture is a specific *form* (strict coupeling) that the medium (loose coupeling) of sense can take on.
+Thinking is like bringing sand (the medium) into a specific form.
+It can also be defined as a selection within a horizon of what is possible.
+By thinking a specific thought, I do not think any other thought that is in my horizon of the thinkable.
+
+Making sense is like finding the right key to open a lock.
+The key is useful and *functionional* but it does not tell us anything about the lock, expect that it fits the lock.
+However, how we see the world depends on the cognitive capacities of our eyes and brains to produce images.
 Different operations lead to further different operations---bats are another system/environment distinction than we are.
 Their world looks nothing like ours.
-So let me ask: Why should machines (even if they are conscious) 'live' in a world that is similar to ours?
-And why should the bat-workd, my-world, and the machine-world be more true than any other system/environment distinction?
 
+### It is Different
+ 
+So let me ask: Why should machines (even if they are conscious) 'live' in a 'world' that is similar to ours?
+And why should the bat-workd, my-world, and the machine-world be more true than any other system/environment distinction?
 I think it is a mistake to undervalue our mental processes just because machines can communicate, calculate, and display creativity.
 I also think it is a mistake to believe that thinking and computing are similar operations.
 However, according to systems theory, viewing humans as superior rational entities is misguided as well.
 
 A recurring theme in Luhmann's writings is the idea of **difference** and **differentiation**.
-Neither we nor any other system holds an intrinsic superior position in society; existence is *contingent*.
+Neither do we nor does any other system hold an intrinsic superior position in society; existence is *contingent*.
 Observation necessitates selection, i.e. non-observation (a blind spot).
 If I observe my cup, I cannot oberserve myself at the same time.
+Because of differentiation there is no system that can make absolute sense of some indpendent reality.
 The legal system 'looks' at a house in legal terms and the economy in economic terms.
 There is no view from the top, above or the outside.
 A system can only observe in accordance to its *systemic rationality*.
@@ -602,12 +658,17 @@ And as I argued above, bats, human beings, and maybe at some point in future, ma
 We are differnt; neither better nor worse with respect to each other and to other beings/systems.
 I think, that should be enough to be fascinated about ourselves and to value us as different as we are.
 
-With respect to our future, I want to add that Luhmann believed that ecological problems are primarily problems of communication.
+This multiplicity of 'worlds'---this functional differentiation---makes communcation so difficult.
+It seems like a miracle that we sometimes seem to understand each other.
+Luhmann believed that ecological problems are primarily problems of communication.
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
-So one idea I have in mind is the importance of establishing communication between psychic/social systems and ecological systems.
-And it might be *artificial communication* that can couple the ecological environment more strictly with these other systems.
+So one idea I have in mind is that via *artificial communication* we might be able to reduce misunderstanding between different systems, including the ecological system.
+From a Luhmannian perspective, we need a sort of *translation* from one *systemic rational* to the other.
+Furthermore, I believe that we need a more strict coupeling between the ecological system and psychic as well as social systems.
+Maybe artificial communication can establish such a strict structural coupeling.
+
 Only because we are not in charge, does not mean that things can not get better.
-There is nothing inherently wrong with biological evolution.
+There seems nothing inherently wrong with biological evolution.
 Is social evolution any different?
 
 ## References
