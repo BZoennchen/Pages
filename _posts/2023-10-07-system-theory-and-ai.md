@@ -683,7 +683,13 @@ Through the word "forks" and similarly through all other words, information is n
 
 Luhmann's concept of *cognition as construction* does not provide an absolute, rigid foundation.
 My explanation of it is based on my observation of Luhmann's observations, and in case of the reader, it relies on your observation of my observation of Luhmann's observation.
-Since my, Luhmann's and your observation are all constructed, it is inherently impossible to 'prove' the correctness of Luhmann's theory.
+Since my, Luhmann's and your observation are all constructed, it is inherently impossible to 'prove' the correctness of Luhmann's theory from outside.
+
+>A supertheory reflects on the fact that it and its validity are its own product---and is therefore absolutely contingent. [...]
+>It is a theoretical endeavor, and there is nothing more to it.
+>It does little outside of theory. [...]
+>With supertheory, the world does not become morally better, more rational, or spiritually complete.
+>It only becomes more distinct. -- {% cite moeller:2006 %}
 
 Radical constructivsm is often preceived as a dangerous path because it might lead to the relativization of 'evil' actions.
 It would be erroneous to claim that the application of social systems theory is justified because it describes society more 'accurately' because, according to this very same theory, such claims are impossible.
