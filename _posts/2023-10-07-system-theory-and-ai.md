@@ -505,7 +505,14 @@ To thrive in a highly complex modern environment, they might need to exhibit tra
 If we assume this to be true, what implications might it has?
 
 While minds create themselves through mental operations, an *artificial system* would self-create and self-preserve through computation.
-Computation would drive more computation; 
+This does not mean that artificial systems have to be in control of their requirements to operate.
+The opposite is the case.
+The required hardware, programmers, and users of such systems would belong to their environment.
+But, as Luhmann writes:
+
+>The observing and describing itself (cognition), however, always has to be an operation that is capable of autopoiesis, i.e., of the performing of life or actual consciousness or communication, because otherwise it could not reproduce the closure and difference of the cognizing system; it could not take place "in" the system. {% cite luhmann:1988 %}
+
+Computation would probably drive more computation; 
 the primary purpose being to continue its computational operations. 
 
 Due to their operational closure, a synthesis of thinking and computation---a transhumanist vision---seems unlikely.
@@ -591,52 +598,101 @@ Cognition can only happen if it is not interrupted which requires operational cl
 >Similarly one would have to say: Communication systems (social systems) are only able to produce information because the environment does not interrupt them.
 >And following all this, the same should be self-evident with respect to the classical "seat" (subject) of epistemology: to consciousness. -- {% cite luhmann:1988 %}
 
-It was Kant who turned the question of 'what is the general structure of the world' into a question of the general structure of cognition: under which conditions is cognition allowed to operate to conceive the world?
+I should emphasis and explain how radical this turn is.
+
+Luhmann builds on Kant's *Copernican Turn*.
+He turned the question of 'what is the general structure of the world' into a question of the general structure of cognition: under which conditions is cognition allowed to operate to conceive the world?
 Kant tried to bridge the gap between Hume's *empiricism* and German *idealism*.
 He also accepted the skeptical argument that nothing could be realized by cognition independently of cognition.
-In a sense, Kant brought in *constructivism*.
-
-As a *radical constructivist* Luhmann took Kant's concept of cognition and radicalized it.
-He assumes that the realization of reality is not only a possible way of relating to reality, but that reality basically consists of its own realization.
+Kant brought in *constructivism* into epistemology but he was, in Luhmann's view, not radical enough because he hold on to some sort of relation to reality.
+Luhmann assumes that the realization of reality is not a relating to reality, but that reality basically consists of its own realization and that the key is *differentiation*.
 Therfore, Luhmann drops the idea of a reality that is independent of cognition, i.e. Kant's *Ding an sich*.
-According to Luhmann, cognition is no longer simply a way of relating to reality.
-Instead, reality emerges as cognition.
 
-However, this does **not** mean that cognition is *ideal* (Hegel)---it does not rely on an essence in the form of consiousness.
+According to Luhmann, cognition itself becomes a construction based on distinction: Reality emerges as cognition.
+This sounds like Hegel's *idealims*.
+However, the emergence of reality does **not** mean that cognition is *ideal*---it does not rely on an essence in the form of consiousness.
 Cognitive systems construct cognition which is based on the system/environment distinction.
 There is no single rule how this can be done.
 Cognition can operate materially in the form of biological life, mentally in the form of thoughts, or socially in the form of communication.
 
 Moeller summerizes this shift from *Kantian idealism* to *radical constructivism* nicely {% cite moeller:2006 %}:
 
-+ Cognition is not *per se* an act of consciousness. It can take on any operational mode.
-+ There is no a priori, transscendental structure of cognition; cognition constructs itself on the basis of *operational closure* and is an *empirical* process, which varies from system to system.
-+ No complete description of cognitive structures is possible because these structures are continuously evolving.
-+ Reality is not singular---there is not one specific reality, but a complex multiplicity of system/environment constellations.
-+ A description of reality is itself a contingent construction within a system/environment relation.
+1. Cognition is not *per se* an act of consciousness. It can take on any operational mode.
+2. There is no a priori, transscendental structure of cognition; cognition constructs itself on the basis of *operational closure* and is an *empirical* process, which varies from system to system.
+3. No complete description of cognitive structures is possible because these structures are continuously evolving.
+4. Reality is not singular---there is not one specific reality, but a complex multiplicity of system/environment constellations.
+5. A description of reality is itself a contingent construction within a system/environment relation.
 
-In Luhmann the subject/object distinction gets replaced with the system/environment distinction.
-For him, observing systems are cognitive systems.
-Remember, social systems observe their environment thus Luhmann's social systems are cognitive.
-In the case of the psychic system, the environment irritates the system which does not directly cause mental operations but can, in the end, result in mental operations that establish meaning and determine consecutive mental operations.
-There is no outside with respect to the operations of a system!
-The psychic system does not "see" with "its" eyes because our eyes are in the environment of our psychic system.
-There is only irritation and no direct causal relation.
+In Luhmann, the subject/object distinction gets replaced with the system/environment distinction and the premise of a common world (the unity of system and world) gets replaced by a theory of the observation of observing systems (*second-order cybernetics*).
+However, getting to 'the root' of cognition---which would lead to some clues about a reality---seems impossible because any such investigations requires distinctions which are the operation of cognition.
+Furthermore, there is no justification for assuming that any adaptation of cognition to reality is happening.
+Confronted with this problem how can one start developing a theory?
 
-What our psychic system "sees" does not have anything to do with "reality".
-According to Luhmann, there is no reality we have access to!
-Cognition is always a construction by an observing system.
-In case of psychic and social systems, sense is the *medium* that is used in thought (as well as in commuincation).
-A thought or a gesture is a specific *form* (strict coupeling) that the medium (loose coupeling) of sense can take on.
-Thinking is like bringing sand (the medium) into a specific form.
-It can also be defined as a selection within a horizon of what is possible.
-By thinking a specific thought, I do not think any other thought that is in my horizon of the thinkable.
+In *Cognition as Construction*, Luhmann recognizes and somewhat addresses this issue by an assumption akin to Decartes and Husserl:
 
-Making sense is like finding the right key to open a lock.
+>We assume that all cognizing systems are real systems within a real environment, or in other words: that they exist.
+>This is naive---as it is often objected.
+>But how should one begin if not naively?
+>A reflection on the beginning cannot be performed at the beginning, but only by the help of a theory that has already established sufficient complexity. -- {% cite luhmann:1988 %}
+
+Starting from this assumption, Luhmann reformulates Kant's question of the possibility of cognition to the question of how systems can **uncouple** themselves from their environment.
+For him, closure, i.e. uncoupeling, is only possible by a systems's production of its own operations and by its reproduction within the network of its recursive anticipations and resources.
+Thus, cognition is manufactured and is a self-referential process.
+It deals with an external world that remains unknown thus has to come to see that it cannot see what it cannot see.
+One could say that reality remains as an ineradicable *blind spot*.
+While reality remains unkown, Luhmann speculates that there are some grounds for the belief that if reality would be totally entropic, it could not enable any knowledge.
+In other words, reality cannot be the object of the knowledge that it makes possible, it serves knowledge merely as a presupposition.
+Knowledge can only know itself but it cannot know anything about what it constructs by way of the manipulation of distinctions.
+
+All observing systems are cognitive systems.
+They are operationally closed but cognitively open and they make sense of their environment as they experience it.
+The mind makes sense in such a way that its construction is valid or functional.
+It does not matter if it resembles reality.
+In this way, making sense is like finding the right key to open a lock.
 The key is useful and *functionional* but it does not tell us anything about the lock, expect that it fits the lock.
 However, how we see the world depends on the cognitive capacities of our eyes and brains to produce images.
-Different operations lead to further different operations---bats are another system/environment distinction than we are.
-Their world looks nothing like ours.
+Different operations lead to further different operations.
+For example, bats are another system/environment distinction than we are.
+Therefore, their world most certainly 'looks' nothing like ours.
+
+>To recognize a table and say "This is a table", I don't need to have the letters T, A, B, L, E in my brain, nor does a tiny representation of a table (or even the "idea" of the table) need to exist inside me.
+>However, I do need a structure that calculates the various manifestations of a description for me. -- {% cite foerster:1988 %}
+
+What our psychic system 'sees' does not have anything to do with reality.
+In fact, the psychic system cannot 'see' reality with 'its' eyes because our eyes are in the environment of our psychic system.
+Cognition is always a construction by an observing system and there is only irritation and no direct causal relation.
+
+Know one might ask: If every system constructs itself and reality emerges out of its cognition, how can we find any common ground?
+Or, how did we end up believing in an universal and objective reality we actually can access?
+
+Well, only because there is no objective reality does not mean that humans cannot 'achieve' social control via social systems.
+Importantly, psychic and social systems share a common *medium*, that is, sense.
+It is used in thought as well as in commuincation.
+A thought or a gesture is a specific *form* (strict coupeling) that the medium (loose coupeling) of sense can take on.
+Thus, thinking is like bringing sand (the medium) into a specific form; it can also be defined as a selection within a horizon of what is possible.
+By thinking a specific thought, I do not think any other thought that is in my horizon of the thinkable.
+Secondly, social and psychic systems are structurally coupled via language.
+Language couples psychic and social systems. And these social systems make sense in accordance to their *systemic rationality* irritated by observing their environment.
+In a sense, we create a second dimension of 'reality' by assuming, through the use of concepts, that our own constructions resemble those of others and by experiencing ourselves as part of a community by assuming and asserting that our own constructions largely correspond to those of others.
+The experience of stability and continuity of one's constructed reality depends not only on the system's first-order observation but also on the confirmation of this observation by other observers (second-order observation).
+
+From a radical constructivist perspective, a child learns language not as a system of information transmission but as a form of behavioral coordination.
+It must learn, through trial-and-error strategies, to connect the multitude of linguistic expressions from adults with desired reactions of its own. 
+Therefore, words like "forks/democracy" coordinate our actions with respect to what a person does when dealing with forks/democracy. 
+Through the word "forks" and similarly through all other words, information is not transmitted but something specific is triggered in the recipient, which is determined by their structure and, indirectly, by their socialization.
+
+Luhmann's concept of *cognition as construction* does not provide an absolute, rigid foundation.
+My explanation of it is based on my observation of Luhmann's observations, and in case of the reader, it relies on your observation of my observation of Luhmann's observation.
+Since my, Luhmann's and your observation are all constructed, it is inherently impossible to 'prove' the correctness of Luhmann's theory.
+
+Radical constructivsm is often preceived as a dangerous path because it might lead to the relativization of 'evil' actions.
+It would be erroneous to claim that the application of social systems theory is justified because it describes society more 'accurately' because, according to this very same theory, such claims are impossible.
+What we can state is that a theory that makes more sense culturally and personally might be useful for effective communication, facilitating a better understanding of one another.
+This view aligns with Richard Rorty, another so-called postmodern 'charlatan'.
+
+>If we can just drop the distinction between appearance and reality, we should no longer wonder whether the human mind, or human language, is capable of representing reality accurately.
+>We would stop thinking that some parts of our culture are more in touch with reality than other parts.
+>[...] we would not say that [our ancestors] were less in touch with reality than we, but that their imaginations were more limited than ours. We would boast of being able to talk about more things than they could. -- {% cite rorty:2016 %}
 
 ### It is Different
  
