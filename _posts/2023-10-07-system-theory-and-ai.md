@@ -554,7 +554,7 @@ While we can see traces of this effect in recommendation algorithms that suggest
 I must admit, I need a deeper understanding of systems theory to consider AI as potential systems in Luhmann's view.
 However, I believe it's a valuable pursuit.
 
-## Difference is Enough
+## Difference Makes the Difference
 
 I agree with Hofstadter on the limitations of human greatness, albeit for different reasons and perspectives.
 While discussing systems theory, I aimed to challenge his belief that AI diminishes this human greatness. 
@@ -724,7 +724,7 @@ This view aligns with Richard Rorty, another so-called postmodern 'charlatan':
 >[...] we would not say that [our ancestors] were less in touch with reality than we, but that their imaginations were more limited than ours.
 >We would boast of being able to talk about more things than they could. -- {% cite rorty:2016 %}
 
-## Difference makes the Difference
+### We are Different
  
 So let me ask: Why should machines (even if they are conscious) 'live' in a 'world' that is similar to ours?
 And why should the bat-workd, my-world, and the machine-world be more true than any other system/environment distinction?
