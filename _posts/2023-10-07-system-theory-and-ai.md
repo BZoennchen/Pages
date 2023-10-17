@@ -640,7 +640,7 @@ For him, closure, i.e. uncoupeling, is only possible by a systems's production o
 Thus, cognition is manufactured and is a self-referential process.
 It deals with an external world that remains unknown thus has to come to see that it cannot see what it cannot see.
 One could say that reality remains as an ineradicable *blind spot*.
-While reality remains unkown, Luhmann speculates that there are some grounds for the belief that if reality would be totally entropic, it could not enable any knowledge.
+While reality remains unkown, Luhmann speculates that there is some ground for the belief that if reality would be totally entropic, it could not enable any knowledge.
 In other words, reality cannot be the object of the knowledge that it makes possible, it serves knowledge merely as a presupposition.
 Knowledge can only know itself but it cannot know anything about what it constructs by way of the manipulation of distinctions.
 
@@ -662,7 +662,7 @@ What our psychic system 'sees' does not have anything to do with reality.
 In fact, the psychic system cannot 'see' reality with 'its' eyes because our eyes are in the environment of our psychic system.
 Cognition is always a construction by an observing system and there is only irritation and no direct causal relation.
 
-Know one might ask: If every system constructs itself and reality emerges out of its cognition, how can we find any common ground?
+Now, one might ask: If every system constructs itself and reality emerges out of its cognition, how can we find any common ground?
 Or, how did we end up believing in an universal and objective reality we actually can access?
 
 Well, only because there is no objective reality does not mean that humans cannot 'achieve' social control via social systems.
@@ -693,8 +693,8 @@ Since my, Luhmann's and your observation are all constructed, it is inherently i
 
 Radical constructivsm is often preceived as a dangerous path because it might lead to the relativization of 'evil' actions.
 It would be erroneous to claim that the application of social systems theory is justified because it describes society more 'accurately' because, according to this very same theory, such claims are impossible.
-What we can state is that a theory that makes more sense culturally and personally might be useful for effective communication, facilitating a better understanding of one another.
-This view aligns with Richard Rorty, another so-called postmodern 'charlatan'.
+What we can state is that a theory that makes more sense---culturally and personally---might be useful for effective communication, facilitating a better understanding of one another.
+This view aligns with Richard Rorty, another so-called postmodern 'charlatan':
 
 >If we can just drop the distinction between appearance and reality, we should no longer wonder whether the human mind, or human language, is capable of representing reality accurately.
 >We would stop thinking that some parts of our culture are more in touch with reality than other parts.
