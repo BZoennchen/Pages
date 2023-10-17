@@ -724,7 +724,7 @@ This view aligns with Richard Rorty, another so-called postmodern 'charlatan':
 >[...] we would not say that [our ancestors] were less in touch with reality than we, but that their imaginations were more limited than ours.
 >We would boast of being able to talk about more things than they could. -- {% cite rorty:2016 %}
 
-### It is Different
+## Difference makes the Difference
  
 So let me ask: Why should machines (even if they are conscious) 'live' in a 'world' that is similar to ours?
 And why should the bat-workd, my-world, and the machine-world be more true than any other system/environment distinction?
