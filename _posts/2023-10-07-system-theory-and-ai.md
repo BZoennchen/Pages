@@ -38,15 +38,23 @@ Let's examine Hofstadter's comments on the state of AI which I gathered from an 
 >Unbeknownst to us, all we humans are soon going to be eclipsed and rightly so, because we are so imperfect and fallible. -- Doug Hofstadter
 
 He passionately conveys a sentiment many intuitively feel: The essence of humanism is under siege.
+We are fallen from greatness.
 Our unique skills are being surpassed, leading to concerns about our relevance.
 
-I perceive Hofstadter's view as human-centric, stemming from a longstanding tradition where humans are seen as the central figure, akin to being God's creation.
-This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse. 
+I perceive Hofstadter's view as human-centric, stemming from a longstanding tradition where humans are seen as central figures, akin to being God's creation.
+This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse.
+Paradoxically, I will try to attack this human-centric view to save myself from his despair.
 
-My aim is to approach Hofstadter's comments from a distinct and somewhat radical angle.
-I'm not asserting this as the absolute truth but rather as a story that might be useful in some aspects.
-I'll employ *systems theory*, specifically my interpretation of Niklas Luhmann's *social system theory*, to counter this anthropocentric perspective and offer a challenging route deeper into and then, hopefully, out of despair.
-While this perspective might not be accurate, it does challenge the confidence behind many claims, including those regarding *machine intelligence*.
+One could now argue that machines are not intelligent since they are just doing statistics by computing some high dimensional probability distribution.
+However, these arguments can always be countered by a simple question: Maybe humans do the same?
+Instead of going down the technical rabbit hole, I will try to approach Hofstadter's comments from a distinct and somewhat radical angle by using my *observation* of Luhmann's *social system theory* which builds on *radical constructivism*.
+Along the way, I will not only discuss *machine intelligence* but also touch on the relation between machines, society and human beings.
+
+I'm not asserting this as the absolute truth but rather as an interesting *story* that might be useful in some aspects.
+In fact, when I started reading Luhmann, I hated it!
+It made so much sense but also felt cruel, cold and depressing.
+However, like reading Nietzsche's *On the Genealogy of Morality*, it has the potential to destroy some deep seeded belief only to bring something new and exciting into existence.
+While this theory is nothing more than a theory, it does challenge the confidence behind many claims, including those regarding *machine intelligence*.
 
 ## Niklas Luhmann
 
@@ -54,22 +62,23 @@ Niklas Luhmann (1927-1998) was a largely self-taught sociologist.
 Like postmodern thinkers, he believed that pursuing metaphysics was no longer productive, as there are no ultimate grand narratives that can explain everything. 
 Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—--a supertheory that even encompassed itself and its creator.
 
-Luhmann was an avid reader and writer, and he wasn't hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology. 
+Luhmann was an avid reader and writer, and he wasn't hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology.
 To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
 Because his work is primarily descriptive—--explaining things as they are and exploring potential reasons for their status--some categorize him as conservative. 
 However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability, which is a rather progressive attitude.
 
+Even though Luhmann tried to keep a large distance to philosophy, he was well read in it and certainly influenced by it.
 In his introductory book *From Souls to Systems*, Hans-Georg Moeller {% cite moeller:2006 %} highlights that Luhmann's work is influenced by several philosophical giants:
 
 + **Kant**: Luhmann shifts Kant's focus on cognition to a constructivist perspective {% cite luhmann:1988 %}.
 + **Hegel**: Luhmann transitions from Hegel's ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition.
-+ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system (economics).
++ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system, that is, economy according to Marx.
 + **Husserl**: Luhmann adapts Husserl's work towards constructivism and incorporates many of his terms.
 + **Habermas**: Luhmann disputes Habermas's mission of completing the enlightenment.
 + **Postmodern thinkers**: Luhmann draws from Deleuze's radical differentiation, Derrida's deconstruction, and Lyotard's rejection of overarching narratives.
 
 With respect to his media theory, Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
-While Baudrillard tends to express himself in dramatic metaphors and focuses on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by the respective code.
+While Baudrillard tends to express himself in dramatic metaphors and focuses solely on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by their respective codes.
 
 Luhmann believed that the distinction between *modernity* and *postmodernity* is largely semantic.
 He argued that the last significant structural shift in society occurred in Europe between the sixteenth and eighteenth centuries, transitioning from stratified to functional differentiation. 
@@ -87,11 +96,11 @@ However, he saw this as an opportunity for a rejuvenated, coherent self-descript
 
 ## Social Systems Theory
 
-So let me try to give you my incomplete understanding of his theory:
+So let me try to give you my incomplete and surface level understanding of his theory:
 
 Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three autopoietic systems: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
 As a sociologist he acknowledges but leaves aside the biological systems of human beings and instead focuses on the interactive relationship between their consciousness or psychic system and the social systems with which they interact.
-The psychic system is within the environment of social systems and vice versa.
+All psychic systems (minds) are in the environment of social systems and vice versa.
 
 He famously argued that communication between psychic systems happens not between (whole) persons or individuals.
 This seems counterintuitive but if we spent a little more thought into his claim and clarify some termonology, it makes sense.
@@ -104,7 +113,7 @@ That are a bunch of important terms right away which require some explanation.
 
 In Luhmann's view a system is defined by its differentiation with its environment---**differentiation** plays one of the most important roles in his work.
 This differentiation is esablished and obtained through the operations of the system.
-The system differentiate itself from its environment thus it defines itself.
+The system differentiates itself from its environment thus it defines itself.
 In other words, the system creates its own functions by its operations (self-creation and self-preservation).
 Thinking leads to more thinking and perception leads to more perception.
 The economy creates itself by doing economics, the mass media creates itself by its operation of differentiating between information and non-information.
@@ -134,7 +143,7 @@ Strictly speaking, the 'goal' of the media is not really to inform or to persuad
 
 >It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion---as if they could do otherwise. -- Luhmann
 
-Therefore, attention is most important.
+Therefore, attention is key.
 Informing people or persuading might help to 'get enough food' but it is not its 'goal' or 'will'.
 The same goes for the economy which trys to commodifies everything to further commodify things.
 Politics politicizes anything and science produces truth about everything.
@@ -153,9 +162,9 @@ In other words, social systems do not consist of humans but of communication!
 This is sometimes seen as an anti-humanistic tendency which is framed negatively.
 But one might argue that human beings are better off if their processes are not determined by society.
 
-Luhmann's theory provokes an amoral view on the state of affairs but it also gives power to the object (systems) thus attacks the domination of objects by subjects.
+Luhmann's theory provokes an *amoral* view on the state of affairs but it also gives power to the object (systems/processes) thus attacks the domination of objects by subjects.
 There are no evil people doing or planing insidious things, instead systems (objects) act on behalf their *systemic rational* by making sense of their environment on their terms.
-What we often identify as hypocratical in a persons action is a mixture of the operations of **different** systems or the communcation between systems.
+What we often identify as hypocratical in a person's action is a mixture of the operations of **different** systems or the communication between systems.
 As a reminder, the person is not part of the system.
 Individuals, or better psychic systems, are a necessary condition that social systems can exist (like air has to exist to hear sound) but they belong to the environment of the social system (they do not produce the sound).
 If a politician acts immoral and accepts a lot of money for his party to give a certain company an advantage over its competitors, the politician is the mere medium through which the economy communicates with politics.
@@ -165,7 +174,7 @@ However, the media make news out of this contradicting behaviour which will irri
 
 Psychic and social systems are *operationally closed* but *cognitively open*.
 They have clear boundaries demacrating them from other systems.
-They reproduce themselves by adapting and learning how to cope with external noise by only selecting communcations which the system can actively and creatively interpret and *understand* or make sense of.
+They reproduce themselves by adapting and learning how to cope with external noise by only selecting communication which the system can actively and creatively interpret and *understand* or make sense of.
 Psychic and social systems reduce complexity of their environment through recourse to meaning.
 These system increase inner complexity to deal with the complexity in their environment.
 
@@ -177,9 +186,13 @@ It deals with money but it cannot, for example, deal with love or passion which 
 The cashier does not suspect me that I show him my love with this gesture and if I do, this act is not an operation of the economic system.
 
 The *functional differentiation* of each system makes it so that only parts of a person is acknowledged by the system.
+There is no indivudual (indivisible being) in a system.
 The health system understands a person as a patient.
 The legal system understands a person as a potential criminal, victim or witness.
+In that sense, Marx's *alienation* is not limited to the economy.
 This differentiation makes systems extremly efficient **with respect to their function**.
+But what is 'good' for one system is not necessarily 'good' for the other system.
+
 Luhmann thinks that this differentiation (Ausdifferenzierung) is a feature of modern society, i.e. it is historical and is an ongoing process.
 One example might be the creation of new subjects to study.
 Instead of studying computer science, students can enroll in scientific computing, data science, game engineering, information engineering, and more.
@@ -187,16 +200,18 @@ One can say computer science is furhter differentiated.
 At the same time, we acknowledge problems stemming from this differentiation and try to find ways to look at problems and society more holistically.
 Marignal Note: If we follow Luhmann's theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.
 
-The functional differentiation of systems, its effects and our gut reaction is nicely depicted in the movie *Don't Loop Up*.
+The functional differentiation of systems, its effects and our gut reaction to it is nicely depicted in the movie *Don't Loop Up*.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own *systemic rational*.
 The main message of the movie is that scientists, who discover a meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
 It shows how each of these systems functions differently while still being coupled with one another via a **shared medium** (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
-The effectiveness of functional differentiation to deal with complexity comes at a cost: *Anarchy*, that is, there is no controlling system or governing system, no single rationality that is in charge.
-From a humanistic or reductionist standpoint, the actors of the movie seem completely irrational.
-Only the scientist, who also represent the perspective of the audience, seem to do the 'right' thing.
-But from a systemic view the actions of actors make sense.
+
+The effectiveness of functional differentiation to deal with complexity comes at a cost: *Anarchy*, that is, there is no controlling system or governing system---no single rationality that is in charge.
+From a reductionist standpoint, the actors of the movie seem completely irrational.
+By seeing modern society through the eyes of controllable cause and effect chains one can only come to the conclusion that our society is dysfunctional or worse: immoral.
+In the movie, only the scientist, who also represent the perspective of the audience, seem to do the right thing.
+But from a systemic view the actions of all actors make sense.
 
 In the end, the narrative of the movie is however a contradiction to the systemic view.
 The movie suggest that there is some sort of scientific technological solution that can be used if everyone is thinking and acting properly---if only the government takes proper control, and the media informs everyone correctly then the meteor can simple be nuked.
@@ -275,7 +290,6 @@ Importantly, this information is **contingent** (the response could be different
 Esposito clarifies that, as a sociologist, it is understandable that we think of these machines as *artificial intelligence* because we have been communicating with human beings for thousands of years and these beings were 'intelligent'.
 And because of this feature of being able to think, humans were able to produce something which allows us to get new information.
 It is our prejudice that lead us to the conclusion that machines are so similar to human beings, i.e., psychic systems.
-
 Therefore, to follow Esposito's proposal, a more interesting and probably healthier question to ask (also for us computer scientist) is: 
 
 >Why are these machines able to communicate with us inspite of the absence of their intelligence?
@@ -290,17 +304,18 @@ Google's success stems not from trying to evaluate or calculate the quality of a
 They didn't design an intelligent machine for that purpose. 
 Instead, they leveraged *second-order observation*, essentially tapping into the collective intelligence of their users. 
 Rather than determining the value of a webpage themselves, their algorithm observes how users interact with and evaluate webpages. 
-A webpage ranks high if users deem it valuable. 
-The primary task becomes observing user behavior.
+A webpage ranks high if users deem it valuable which can create a feedback loop because highly ranked pages are ranked highly.
+The primary task becomes observing users' observations.
 
 Even if Esposito speaks of switching the metaphor, her work goes deeper.
 The word *intelligence* has two different usage in language which are often confused.
-On the one hand we refer to the operational mode of the mind.
+On the one hand, we refer to the operational mode of the mind.
 But we have almost no idea what this *intelligence* exaclty is.
-On the other hand we think of information processing, take for example the term Central Intelligence Agency (CIA).
+On the other hand, we think of information processing.
+Take for example the term 'Central Intelligence Agency'.
 Therefore, metaphor of *artificial intelligence* is so problematic which makes it hard to theorize about *AI* and its impact which leads to these hyper-speculative predictions.
 It's like referring to airplanes as artificial birds.
-Just as airplanes succeeded when designers stopped trying to mimic birds, AI has advanced when researchers moved away from replicating human thought.
+Just as airplanes succeeded when engineers stopped trying to mimic birds, AI has advanced when researchers moved away from replicating human thought.
 By using Luhmann's theory of communication, we might clear the smoke and find more effective ways to talk about artificial intelligence.
 
 Esposito argues that we---the preachers of machine learning---do not reproduce human intelligence but rather social communication.
@@ -311,9 +326,9 @@ As described above, social systems have their own *systemic rational* and we mig
 
 Systems theory is useful because it focusses on communication itself.
 Again, Luhmann claims that humans do not communicate, only communication communicates.
-Of course, similar to air, humans are a necessary condition for communication but, like air, they do not communicate themselves.
+Of course, similar to air, humans are a necessary condition for communication but, like air, they do not communicate themselves---we can only hear the ticking of a clock because the air does not tick.
 
-Luhmann diverges from traditional sender-receiver models of communication, such as Shannon's {% cite shannon:1948 %}, where the focus is on the transmission of information.
+Luhmann diverges from traditional sender-receiver models of communication, such as Shannon's {% cite shannon:1948 %} where the focus is on the transmission of information.
 Instead, Luhmann conceptualizes communication as comprising three essential moments: *announcement*, *information*, and *understanding*.
 Each component has its unique role in facilitating communication.
 An announcement initiates the process.
@@ -358,7 +373,6 @@ Despite thinking of this feature as a flaw, this ambiguity is desirable for comm
 Of course, not all possibilities of misunderstanding are desirable.
 A chatbot that provides patients with medical or organizational information should give precise and unambiguous answers.
 However, in this case, the bot is more like a tool than a real communication partner.
-
 And here we land at an important distinction:
 While many argue that irritation caused by *generative AI* is similar to the invention of photography, I think there is a difference.
 
@@ -407,7 +421,7 @@ It enables *second-order observation* which reduces complexity.
 
 Moeller admits that he is---as many of us coming from an age where authenticy was the primary technology to build identity---annoyed by this picture frenzy.
 But he stays true to Luhmann and refrains from judging.
-He trys not to moralize this phenomenon or change or classify it as being 'worse' or 'better' because, in his eye, authenticy was never real in the first place.
+He trys not to moralize this phenomenon or classify it as being 'worse' or 'better' because, in his eye, authenticy was never real in the first place.
 Like the other forms of identity building, profilicity comes with its own problems.
 Each mode brings its own set of challenges.
 
@@ -468,7 +482,8 @@ A simple technical example of such a feedback is a microphone that picks up the 
 Baudrillard thought that the production of images is such a feedback loop.
 They are *out of control* and take over, for example, free democratic politics.
 Although we can take a moral stance against certain imagery, such as pornographic content, Baudrillard suggests that positive feedback will ultimately subvert any moral code.
-Trump, as an example, may be critiqued from a moral perspective, but because he's a potent subject for image production, the media engages with him regardless of whether they criticize or praise him. This cycle of image production can't be halted simply by creating more images.
+Trump, as an example, may be critiqued from a moral perspective, but because he's a potent subject for image production, the media engages with him regardless of whether they criticize or praise him.
+This cycle of image production can't be halted simply by creating more images.
 
 Luhmann may have a less bleak view. 
 For instance, laws that regulate AI-generated images, can prompt changes in a system's behavior (indirectly via irritation).
@@ -515,7 +530,7 @@ But, as Luhmann writes:
 Computation would probably drive more computation; 
 the primary purpose being to continue its computational operations. 
 
-Due to their operational closure, a synthesis of thinking and computation---a transhumanist vision---seems unlikely.
+Due to their operational closure, a synthesis of thinking and computation---a *transhumanist* vision---seems unlikely.
 Also, their structural coupling suggests they'd be interdependent on psychic systems and other social systems.
 Natural language processing might be an important aspect of AI because it potentially makes this coupling possible via the **shared medium of language**.
 This implies that the idea of AI overthrowing humanity is also improbable.
@@ -568,7 +583,7 @@ However, as neuroscientist Giulio Tononi notes, this doesn't necessarily mean we
 >It is a reasonable inference, corroborated first by the beliefs of my fellow humans and then by the intersubjective methods of science.
 >Yet consciousness---the central fact of existence---still demands a rational explanation. -- {% cite tononi:2015 %}
 
-Still physicalism, the view that everything is physical and can be explained by physics, seems to be the natural position, especially in science.
+Still *physicalism*, the view that everything is physical and can be explained by physics, seems to be the natural position, especially in science.
 However, this view can be challenged.
 In the famous and rather short article *What Is It Like to Be a Bat?* {% cite nagel:1974 %}, the philosopher Thomas Nagel trys to argue against it.
 He explains that we can not know what *it is like* to be a bat.
@@ -601,12 +616,12 @@ Cognition can only happen if it is not interrupted which requires operational cl
 I should emphasis and explain how radical this turn is.
 
 Luhmann builds on Kant's *Copernican Turn*.
-He turned the question of 'what is the general structure of the world' into a question of the general structure of cognition: under which conditions is cognition allowed to operate to conceive the world?
+He turned the question of 'what is the general structure of the world' into a question of the general structure of cognition: Under which conditions is cognition allowed to operate to conceive the world?
 Kant tried to bridge the gap between Hume's *empiricism* and German *idealism*.
 He also accepted the skeptical argument that nothing could be realized by cognition independently of cognition.
 Kant brought in *constructivism* into epistemology but he was, in Luhmann's view, not radical enough because he hold on to some sort of relation to reality.
 Luhmann assumes that the realization of reality is not a relating to reality, but that reality basically consists of its own realization and that the key is *differentiation*.
-Therfore, Luhmann drops the idea of a reality that is independent of cognition, i.e. Kant's *Ding an sich*.
+Therefore, Luhmann drops the idea of a reality that is independent of cognition, i.e. Kant's *Ding an sich*.
 
 According to Luhmann, cognition itself becomes a construction based on distinction: Reality emerges as cognition.
 This sounds like Hegel's *idealims*.
@@ -623,10 +638,10 @@ Moeller summerizes this shift from *Kantian idealism* to *radical constructivism
 4. Reality is not singular---there is not one specific reality, but a complex multiplicity of system/environment constellations.
 5. A description of reality is itself a contingent construction within a system/environment relation.
 
-In Luhmann, the subject/object distinction gets replaced with the system/environment distinction and the premise of a common world (the unity of system and world) gets replaced by a theory of the observation of observing systems (*second-order cybernetics*).
-However, getting to 'the root' of cognition---which would lead to some clues about a reality---seems impossible because any such investigations requires distinctions which are the operation of cognition.
+In Luhmann, the subject/object distinction gets replaced with the system/environment distinction and the premise of a common world (the unity of system and environment) gets replaced by a theory of the observation of observing systems (*second-order cybernetics*).
+However, getting to 'the root' of cognition---which would lead to some clues about *a reality*---seems impossible because any such investigations require distinction which is the operation of cognition.
 Furthermore, there is no justification for assuming that any adaptation of cognition to reality is happening.
-Confronted with this problem how can one start developing a theory?
+Confronted with this problem how can one start developing a theory of cognition?
 
 In *Cognition as Construction*, Luhmann recognizes and somewhat addresses this issue by an assumption akin to Decartes and Husserl:
 
@@ -638,7 +653,7 @@ In *Cognition as Construction*, Luhmann recognizes and somewhat addresses this i
 Starting from this assumption, Luhmann reformulates Kant's question of the possibility of cognition to the question of how systems can **uncouple** themselves from their environment.
 For him, closure, i.e. uncoupeling, is only possible by a systems's production of its own operations and by its reproduction within the network of its recursive anticipations and resources.
 Thus, cognition is manufactured and is a self-referential process.
-It deals with an external world that remains unknown thus has to come to see that it cannot see what it cannot see.
+It deals with an external world that remains unknown thus cognition has to come to see that it cannot see what it cannot see.
 One could say that reality remains as an ineradicable *blind spot*.
 While reality remains unkown, Luhmann speculates that there is some ground for the belief that if reality would be totally entropic, it could not enable any knowledge.
 In other words, reality cannot be the object of the knowledge that it makes possible, it serves knowledge merely as a presupposition.
@@ -672,7 +687,8 @@ A thought or a gesture is a specific *form* (strict coupeling) that the medium (
 Thus, thinking is like bringing sand (the medium) into a specific form; it can also be defined as a selection within a horizon of what is possible.
 By thinking a specific thought, I do not think any other thought that is in my horizon of the thinkable.
 Secondly, social and psychic systems are structurally coupled via language.
-Language couples psychic and social systems. And these social systems make sense in accordance to their *systemic rationality* irritated by observing their environment.
+Language couples psychic and social systems. 
+And these social systems make sense in accordance to their *systemic rationality* irritated by observing their environment.
 In a sense, we create a second dimension of 'reality' by assuming, through the use of concepts, that our own constructions resemble those of others and by experiencing ourselves as part of a community by assuming and asserting that our own constructions largely correspond to those of others.
 The experience of stability and continuity of one's constructed reality depends not only on the system's first-order observation but also on the confirmation of this observation by other observers (second-order observation).
 
@@ -683,7 +699,8 @@ Through the word "forks" and similarly through all other words, information is n
 
 Luhmann's concept of *cognition as construction* does not provide an absolute, rigid foundation.
 My explanation of it is based on my observation of Luhmann's observations, and in case of the reader, it relies on your observation of my observation of Luhmann's observation.
-Since my, Luhmann's and your observation are all constructed, it is inherently impossible to 'prove' the correctness of Luhmann's theory from outside.
+Since my, Luhmann's and your observation are all constructed and contigent, it is inherently impossible to 'prove' the correctness of Luhmann's theory from outside.
+Furthermore, there will be always a blind spot.
 
 >A supertheory reflects on the fact that it and its validity are its own product---and is therefore absolutely contingent. [...]
 >It is a theoretical endeavor, and there is nothing more to it.
@@ -692,13 +709,20 @@ Since my, Luhmann's and your observation are all constructed, it is inherently i
 >It only becomes more distinct. -- {% cite moeller:2006 %}
 
 Radical constructivsm is often preceived as a dangerous path because it might lead to the relativization of 'evil' actions.
+If everything is constructed, anything might be justifiable.
+But again, Luhmann does not claim that there is no reality or that one can construct whatever one desires.
+If you jump out the window, you will get hurt regardless of what you imagine.
+However, acccording to Luhmann (and many others), there is no absolute and I think that this uncertainty makes us more thoughtful than reckless.
+If absolute truth is on my side, everything is permitted.
+
 It would be erroneous to claim that the application of social systems theory is justified because it describes society more 'accurately' because, according to this very same theory, such claims are impossible.
 What we can state is that a theory that makes more sense---culturally and personally---might be useful for effective communication, facilitating a better understanding of one another.
 This view aligns with Richard Rorty, another so-called postmodern 'charlatan':
 
 >If we can just drop the distinction between appearance and reality, we should no longer wonder whether the human mind, or human language, is capable of representing reality accurately.
 >We would stop thinking that some parts of our culture are more in touch with reality than other parts.
->[...] we would not say that [our ancestors] were less in touch with reality than we, but that their imaginations were more limited than ours. We would boast of being able to talk about more things than they could. -- {% cite rorty:2016 %}
+>[...] we would not say that [our ancestors] were less in touch with reality than we, but that their imaginations were more limited than ours.
+>We would boast of being able to talk about more things than they could. -- {% cite rorty:2016 %}
 
 ### It is Different
  
