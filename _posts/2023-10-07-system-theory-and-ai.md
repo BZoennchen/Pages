@@ -14,7 +14,7 @@ Indeed, our imagination and fearless thinking should pave the way for new possib
 Dreams and speculations are valuable, as long as they're presented as such. 
 However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.
 
-## The Fall of Human Greatness
+## The Fall from Human Greatness
 
 What really hit me was watching Doug Hofstadter expressing his despair about the *eclipse of humanity*.
 As a student, I had been influenced by his renowned book *Gödel, Escher, Bach: an Eternal Golden Braid*, often referred to as *GEB* {% cite hofstadter:1979 %}.
