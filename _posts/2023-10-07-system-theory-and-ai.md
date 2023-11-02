@@ -45,8 +45,10 @@ I perceive Hofstadter's view as human-centric, stemming from a longstanding trad
 This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse.
 Paradoxically, I will try to attack this human-centric view to save myself from his despair.
 
-One could now argue that machines are not intelligent since they are just doing statistics by computing some high dimensional probability distribution.
-However, these arguments can always be countered by a simple question: Maybe humans do the same?
+One could argue that machines are not intelligent since they are just doing statistics by computing some high-dimensional probability distribution {% cite bender:2021 %} and that there is a difference between language processing and language understanding {% cite bender:2020 %}. 
+However, these arguments seem not convincing for many people.
+There always looms the counter argument: Maybe humans do the same?
+
 Instead of going down the technical rabbit hole, I will try to approach Hofstadter's comments from a distinct and somewhat radical angle by using my *observation* of Luhmann's *social system theory* which builds on *radical constructivism*.
 Along the way, I will not only discuss *machine intelligence* but also touch on the relation between machines, society and human beings.
 
@@ -62,30 +64,31 @@ Niklas Luhmann (1927-1998) was a largely self-taught sociologist.
 Like postmodern thinkers, he believed that pursuing metaphysics was no longer productive, as there are no ultimate grand narratives that can explain everything. 
 Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—--a supertheory that even encompassed itself and its creator.
 
-Luhmann was an avid reader and writer, and he wasn't hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology.
-To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
-Because his work is primarily descriptive—--explaining things as they are and exploring potential reasons for their status--some categorize him as conservative. 
+Luhmann was an avid reader and writer, and he wasn't hesitant to incorporate valuable concepts from fields like mathematics (Spencer-Brown's), cybernetics (Wiener and others), and biology (Maturana and Varela).
+To encapsulate everything, he employed a high level abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
+Because his work is primarily descriptive—--explaining things as they are and exploring potential reasons for their status---some categorize him as conservative. 
 However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability, which is a rather progressive attitude.
 
 Even though Luhmann tried to keep a large distance to philosophy, he was well read in it and certainly influenced by it.
 In his introductory book *From Souls to Systems*, Hans-Georg Moeller {% cite moeller:2006 %} highlights that Luhmann's work is influenced by several philosophical giants:
 
 + **Kant**: Luhmann shifts Kant's focus on cognition to a constructivist perspective {% cite luhmann:1988 %}.
-+ **Hegel**: Luhmann transitions from Hegel's ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition.
-+ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system, that is, economy according to Marx.
-+ **Husserl**: Luhmann adapts Husserl's work towards constructivism and incorporates many of his terms.
++ **Hegel**: Luhmann transitions from Hegel's ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition, such as Hegel's spirit.
++ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is to much of a simplification.
++ **Husserl**: Luhmann adapts Husserl's work towards constructivism and incorporates many of his terms and ideas.
 + **Habermas**: Luhmann disputes Habermas's mission of completing the enlightenment.
 + **Postmodern thinkers**: Luhmann draws from Deleuze's radical differentiation, Derrida's deconstruction, and Lyotard's rejection of overarching narratives.
 
-With respect to his media theory, Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
+With respect to his media theory, Luhmann is quite close to the French philosopher Baudrillard but far less dramatic.
 While Baudrillard tends to express himself in dramatic metaphors and focuses solely on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by their respective codes.
+While Baudrillard's texts are almost poetic, reading Luhmann can cause boredom.
 
 Luhmann believed that the distinction between *modernity* and *postmodernity* is largely semantic.
 He argued that the last significant structural shift in society occurred in Europe between the sixteenth and eighteenth centuries, transitioning from stratified to functional differentiation. 
 To Luhmann, labeling a functionally differentiated society as either 'modern' or 'postmodern' is inconsequential.
 
 Although his theory can be unsettling, Luhmann was optimistic about the future.
-He agreed with the postmodern assertion that traditional philosophy had reached its end.
+He agreed side-by-side with the postmodern assertion that traditional philosophy had reached its end.
 However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:
 
 >Is this, after all, a postmodern theory?
@@ -98,7 +101,7 @@ However, he saw this as an opportunity for a rejuvenated, coherent self-descript
 
 So let me try to give you my incomplete and surface level understanding of his theory:
 
-Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three autopoietic systems: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
+Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three *autopoietic systems*: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
 As a sociologist he acknowledges but leaves aside the biological systems of human beings and instead focuses on the interactive relationship between their consciousness or psychic system and the social systems with which they interact.
 All psychic systems (minds) are in the environment of social systems and vice versa.
 
@@ -111,16 +114,26 @@ Hans-Georg Moeller put it the following way:
 Luhmann described the mind (the psychic system) as well as social systems as *operational closed, structurally coupled, autopoetic systems*.
 That are a bunch of important terms right away which require some explanation.
 
-In Luhmann's view a system is defined by its differentiation with its environment---**differentiation** plays one of the most important roles in his work.
+In Luhmann's view, a system is defined by its differentiation with its environment---**differentiation** plays one of the most important roles in his work.
 This differentiation is esablished and obtained through the operations of the system.
 The system differentiates itself from its environment thus it defines itself.
 In other words, the system creates its own functions by its operations (self-creation and self-preservation).
 Thinking leads to more thinking and perception leads to more perception.
 The economy creates itself by doing economics, the mass media creates itself by its operation of differentiating between information and non-information.
 
+Another *theme* in Luhmann's writing is the use of paradoxes which is certainly inspired by Spencer-Brown's logic presented in *Law of Forms* {% cite brown:1969 %}.
+Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
+Therefore, a paradoxical systems becomes genererative in time.
+One prime example is our mind which is capable of self-obersvation (*reentry*).
+Paradoxically, the oberservation is part of what is observed.
+However, in time this gets resolved.
+While I am observing myself (second-order observation) I cannot observe my environment (first-order observation).
+I can switch to the first-order observation but then I lose track of my oberservation of myself.
+In a sense, this back and forth observation and self-observation---this paradox---generates myself.
+
 A psychic or social system is *operational closed* because its operations can not leave the system.
 Mental operations such as thoughts and emotions cannot leave the mind.
-An economic transaction, e.g. paying for goods, can not 'leave' the economy.
+An economic transaction, e.g. paying for goods, cannot 'leave' the economy.
 No mind can interfere with the operations of another mind.
 One cannot continue someone else's mental activities by thinking or feeling for him or her.
 It is also impossible to immediatly think what someone else is thinking.
@@ -141,14 +154,15 @@ A crisis, like a natural disaster or a war, feed the autopoiesis of the media.
 It can report on the event and discuss different opinions on the matter.
 Strictly speaking, the 'goal' of the media is not really to inform or to persuade but to continue its own self-production.
 
->It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion---as if they could do otherwise. -- Luhmann
+>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion---as if they could do otherwise. -- Niklas Luhmann
 
 Therefore, attention is key.
-Informing people or persuading might help to 'get enough food' but it is not its 'goal' or 'will'.
-The same goes for the economy which trys to commodifies everything to further commodify things.
+Informing people or persuading might help to 'get enough food' but it is not the media's 'goal' or 'will'.
+The same goes for the economy which trys to commodify everything to further commodify things.
 Politics politicizes anything and science produces truth about everything.
 
-Even though Luhmann's termology is close to the termonology of computer science, it is more helpful to think of these systems as interdependent organisms feeding on each other and willing to live than to think of hierarchical or well-structured computer or network systems.
+Even though Luhmann's termology is close to the termonology of computer science, we have to be careful.
+It is more helpful to think of these systems as interdependent organisms feeding on each other and equipped with the will to live than to think of hierarchical or well-structured computer or network systems.
 
 Aside from being *autopoetic*, social and psychic systems are also *symbiotic*, that is, their *co-evolution* is *interdependent*.
 Just as the trees in the forest need water and animals to survive, politics needs money from the economy, attention from the media, and 'facts' from science.
@@ -171,12 +185,14 @@ If a politician acts immoral and accepts a lot of money for his party to give a 
 If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
 However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.
+Corruption happens if system boundaries are crossed.
+It is ok to buy talented football players, but it is not ok to buy goals, i.e. it is not ok that the economy directly operates within the system of a football game.
 
 Psychic and social systems are *operationally closed* but *cognitively open*.
 They have clear boundaries demacrating them from other systems.
 They reproduce themselves by adapting and learning how to cope with external noise by only selecting communication which the system can actively and creatively interpret and *understand* or make sense of.
 Psychic and social systems reduce complexity of their environment through recourse to meaning.
-These system increase inner complexity to deal with the complexity in their environment.
+These systems increase inner complexity to deal with the complexity in their environment.
 
 The boundaries of these systems are not defined physically, but by the border of what is meaningful and what is not.
 Consequently, each system has its own *systemic rationality* and view of the world---there is always a blind spot.
@@ -186,7 +202,7 @@ It deals with money but it cannot, for example, deal with love or passion which 
 The cashier does not suspect me that I show him my love with this gesture and if I do, this act is not an operation of the economic system.
 
 The *functional differentiation* of each system makes it so that only parts of a person is acknowledged by the system.
-There is no indivudual (indivisible being) in a system.
+There is no indivudual---indivisible being---in a system.
 The health system understands a person as a patient.
 The legal system understands a person as a potential criminal, victim or witness.
 In that sense, Marx's *alienation* is not limited to the economy.
@@ -198,13 +214,13 @@ One example might be the creation of new subjects to study.
 Instead of studying computer science, students can enroll in scientific computing, data science, game engineering, information engineering, and more.
 One can say computer science is furhter differentiated.
 At the same time, we acknowledge problems stemming from this differentiation and try to find ways to look at problems and society more holistically.
-Marignal Note: If we follow Luhmann's theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.
+Marignal note: If we follow Luhmann's theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.
 
 The functional differentiation of systems, its effects and our gut reaction to it is nicely depicted in the movie *Don't Loop Up*.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own *systemic rational*.
 The main message of the movie is that scientists, who discover a meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
-It shows how each of these systems functions differently while still being coupled with one another via a **shared medium** (language), as explained above.
+It shows how each of these systems functions differently while still being *structurally coupled* with one another via a **shared medium** (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
 
 The effectiveness of functional differentiation to deal with complexity comes at a cost: *Anarchy*, that is, there is no controlling system or governing system---no single rationality that is in charge.

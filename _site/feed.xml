@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-10-19T12:38:19+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-02T12:16:22+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -37,9 +37,11 @@ Our unique skills are being surpassed, leading to concerns about our relevance.<
 This view encompasses our confidence in determining our fate; the idea of an individual separate from its environment; humans domination over objects; a hierarchy with humans at the pinnacle; the notions of free will, and rational, independent beings arriving at a consensus in public discourse.
 Paradoxically, I will try to attack this human-centric view to save myself from his despair.</p>
 
-<p>One could now argue that machines are not intelligent since they are just doing statistics by computing some high dimensional probability distribution.
-However, these arguments can always be countered by a simple question: Maybe humans do the same?
-Instead of going down the technical rabbit hole, I will try to approach Hofstadter’s comments from a distinct and somewhat radical angle by using my <em>observation</em> of Luhmann’s <em>social system theory</em> which builds on <em>radical constructivism</em>.
+<p>One could argue that machines are not intelligent since they are just doing statistics by computing some high-dimensional probability distribution <a class="citation" href="#bender:2021">(Bender et al., 2021)</a> and that there is a difference between language processing and language understanding <a class="citation" href="#bender:2020">(Bender &amp; Koller, 2020)</a>. 
+However, these arguments seem not convincing for many people.
+There always looms the counter argument: Maybe humans do the same?</p>
+
+<p>Instead of going down the technical rabbit hole, I will try to approach Hofstadter’s comments from a distinct and somewhat radical angle by using my <em>observation</em> of Luhmann’s <em>social system theory</em> which builds on <em>radical constructivism</em>.
 Along the way, I will not only discuss <em>machine intelligence</em> but also touch on the relation between machines, society and human beings.</p>
 
 <p>I’m not asserting this as the absolute truth but rather as an interesting <em>story</em> that might be useful in some aspects.
@@ -54,9 +56,9 @@ While this theory is nothing more than a theory, it does challenge the confidenc
 Like postmodern thinkers, he believed that pursuing metaphysics was no longer productive, as there are no ultimate grand narratives that can explain everything. 
 Rather than delve into metaphysics, he meticulously developed a comprehensive theory of modern society—–a supertheory that even encompassed itself and its creator.</p>
 
-<p>Luhmann was an avid reader and writer, and he wasn’t hesitant to incorporate valuable concepts from fields like mathematics, cybernetics, and biology.
-To encapsulate everything, he employed a high level of abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
-Because his work is primarily descriptive—–explaining things as they are and exploring potential reasons for their status–some categorize him as conservative. 
+<p>Luhmann was an avid reader and writer, and he wasn’t hesitant to incorporate valuable concepts from fields like mathematics (Spencer-Brown’s), cybernetics (Wiener and others), and biology (Maturana and Varela).
+To encapsulate everything, he employed a high level abstraction and a technical terminology, which can make his writings appear dry, cold and dense. 
+Because his work is primarily descriptive—–explaining things as they are and exploring potential reasons for their status—some categorize him as conservative. 
 However, I perceive him as an incredibly well-read, sensitive, and discerning observer who wanted a new theory that can help us to transit into a new form of stability, which is a rather progressive attitude.</p>
 
 <p>Even though Luhmann tried to keep a large distance to philosophy, he was well read in it and certainly influenced by it.
@@ -64,22 +66,23 @@ In his introductory book <em>From Souls to Systems</em>, Hans-Georg Moeller <a c
 
 <ul>
   <li><strong>Kant</strong>: Luhmann shifts Kant’s focus on cognition to a constructivist perspective <a class="citation" href="#luhmann:1988">(Luhmann, 1988)</a>.</li>
-  <li><strong>Hegel</strong>: Luhmann transitions from Hegel’s ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition.</li>
-  <li><strong>Marx</strong>: Luhmann borrows Marx’s view that society isn’t just a byproduct of spirituality, but he disagrees with the idea of one foundational system, that is, economy according to Marx.</li>
-  <li><strong>Husserl</strong>: Luhmann adapts Husserl’s work towards constructivism and incorporates many of his terms.</li>
+  <li><strong>Hegel</strong>: Luhmann transitions from Hegel’s ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition, such as Hegel’s spirit.</li>
+  <li><strong>Marx</strong>: Luhmann borrows Marx’s view that society isn’t just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is to much of a simplification.</li>
+  <li><strong>Husserl</strong>: Luhmann adapts Husserl’s work towards constructivism and incorporates many of his terms and ideas.</li>
   <li><strong>Habermas</strong>: Luhmann disputes Habermas’s mission of completing the enlightenment.</li>
   <li><strong>Postmodern thinkers</strong>: Luhmann draws from Deleuze’s radical differentiation, Derrida’s deconstruction, and Lyotard’s rejection of overarching narratives.</li>
 </ul>
 
-<p>With respect to his media theory, Luhmann is quite close to French philosopher Baudrillard but far less dramatic.
-While Baudrillard tends to express himself in dramatic metaphors and focuses solely on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by their respective codes.</p>
+<p>With respect to his media theory, Luhmann is quite close to the French philosopher Baudrillard but far less dramatic.
+While Baudrillard tends to express himself in dramatic metaphors and focuses solely on the media, Luhmann presents a supertheory of society where the mass media is only one of many systems, all administered by their respective codes.
+While Baudrillard’s texts are almost poetic, reading Luhmann can cause boredom.</p>
 
 <p>Luhmann believed that the distinction between <em>modernity</em> and <em>postmodernity</em> is largely semantic.
 He argued that the last significant structural shift in society occurred in Europe between the sixteenth and eighteenth centuries, transitioning from stratified to functional differentiation. 
 To Luhmann, labeling a functionally differentiated society as either ‘modern’ or ‘postmodern’ is inconsequential.</p>
 
 <p>Although his theory can be unsettling, Luhmann was optimistic about the future.
-He agreed with the postmodern assertion that traditional philosophy had reached its end.
+He agreed side-by-side with the postmodern assertion that traditional philosophy had reached its end.
 However, he saw this as an opportunity for a rejuvenated, coherent self-description of society and a fresh theoretical framework for a new societal era:</p>
 
 <blockquote>
@@ -94,7 +97,7 @@ This seems to correspond to what I have called the catastrophe of modernity, the
 
 <p>So let me try to give you my incomplete and surface level understanding of his theory:</p>
 
-<p>Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three autopoietic systems: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
+<p>Luhmann recognised the particular complexity that human beings present for social analysis because they are the bearers of three <em>autopoietic systems</em>: systems of life (cells, brains, organisms), systems of consciousness (mind), and systems of communication (social systems).
 As a sociologist he acknowledges but leaves aside the biological systems of human beings and instead focuses on the interactive relationship between their consciousness or psychic system and the social systems with which they interact.
 All psychic systems (minds) are in the environment of social systems and vice versa.</p>
 
@@ -109,16 +112,26 @@ Hans-Georg Moeller put it the following way:</p>
 <p>Luhmann described the mind (the psychic system) as well as social systems as <em>operational closed, structurally coupled, autopoetic systems</em>.
 That are a bunch of important terms right away which require some explanation.</p>
 
-<p>In Luhmann’s view a system is defined by its differentiation with its environment—<strong>differentiation</strong> plays one of the most important roles in his work.
+<p>In Luhmann’s view, a system is defined by its differentiation with its environment—<strong>differentiation</strong> plays one of the most important roles in his work.
 This differentiation is esablished and obtained through the operations of the system.
 The system differentiates itself from its environment thus it defines itself.
 In other words, the system creates its own functions by its operations (self-creation and self-preservation).
 Thinking leads to more thinking and perception leads to more perception.
 The economy creates itself by doing economics, the mass media creates itself by its operation of differentiating between information and non-information.</p>
 
+<p>Another <em>theme</em> in Luhmann’s writing is the use of paradoxes which is certainly inspired by Spencer-Brown’s logic presented in <em>Law of Forms</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
+Therefore, a paradoxical systems becomes genererative in time.
+One prime example is our mind which is capable of self-obersvation (<em>reentry</em>).
+Paradoxically, the oberservation is part of what is observed.
+However, in time this gets resolved.
+While I am observing myself (second-order observation) I cannot observe my environment (first-order observation).
+I can switch to the first-order observation but then I lose track of my oberservation of myself.
+In a sense, this back and forth observation and self-observation—this paradox—generates myself.</p>
+
 <p>A psychic or social system is <em>operational closed</em> because its operations can not leave the system.
 Mental operations such as thoughts and emotions cannot leave the mind.
-An economic transaction, e.g. paying for goods, can not ‘leave’ the economy.
+An economic transaction, e.g. paying for goods, cannot ‘leave’ the economy.
 No mind can interfere with the operations of another mind.
 One cannot continue someone else’s mental activities by thinking or feeling for him or her.
 It is also impossible to immediatly think what someone else is thinking.</p>
@@ -140,15 +153,16 @@ It can report on the event and discuss different opinions on the matter.
 Strictly speaking, the ‘goal’ of the media is not really to inform or to persuade but to continue its own self-production.</p>
 
 <blockquote>
-  <p>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—as if they could do otherwise. – Luhmann</p>
+  <p>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—as if they could do otherwise. – Niklas Luhmann</p>
 </blockquote>
 
 <p>Therefore, attention is key.
-Informing people or persuading might help to ‘get enough food’ but it is not its ‘goal’ or ‘will’.
-The same goes for the economy which trys to commodifies everything to further commodify things.
+Informing people or persuading might help to ‘get enough food’ but it is not the media’s ‘goal’ or ‘will’.
+The same goes for the economy which trys to commodify everything to further commodify things.
 Politics politicizes anything and science produces truth about everything.</p>
 
-<p>Even though Luhmann’s termology is close to the termonology of computer science, it is more helpful to think of these systems as interdependent organisms feeding on each other and willing to live than to think of hierarchical or well-structured computer or network systems.</p>
+<p>Even though Luhmann’s termology is close to the termonology of computer science, we have to be careful.
+It is more helpful to think of these systems as interdependent organisms feeding on each other and equipped with the will to live than to think of hierarchical or well-structured computer or network systems.</p>
 
 <p>Aside from being <em>autopoetic</em>, social and psychic systems are also <em>symbiotic</em>, that is, their <em>co-evolution</em> is <em>interdependent</em>.
 Just as the trees in the forest need water and animals to survive, politics needs money from the economy, attention from the media, and ‘facts’ from science.
@@ -170,13 +184,15 @@ Individuals, or better psychic systems, are a necessary condition that social sy
 If a politician acts immoral and accepts a lot of money for his party to give a certain company an advantage over its competitors, the politician is the mere medium through which the economy communicates with politics.
 If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
-However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.</p>
+However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.
+Corruption happens if system boundaries are crossed.
+It is ok to buy talented football players, but it is not ok to buy goals, i.e. it is not ok that the economy directly operates within the system of a football game.</p>
 
 <p>Psychic and social systems are <em>operationally closed</em> but <em>cognitively open</em>.
 They have clear boundaries demacrating them from other systems.
 They reproduce themselves by adapting and learning how to cope with external noise by only selecting communication which the system can actively and creatively interpret and <em>understand</em> or make sense of.
 Psychic and social systems reduce complexity of their environment through recourse to meaning.
-These system increase inner complexity to deal with the complexity in their environment.</p>
+These systems increase inner complexity to deal with the complexity in their environment.</p>
 
 <p>The boundaries of these systems are not defined physically, but by the border of what is meaningful and what is not.
 Consequently, each system has its own <em>systemic rationality</em> and view of the world—there is always a blind spot.
@@ -186,7 +202,7 @@ It deals with money but it cannot, for example, deal with love or passion which 
 The cashier does not suspect me that I show him my love with this gesture and if I do, this act is not an operation of the economic system.</p>
 
 <p>The <em>functional differentiation</em> of each system makes it so that only parts of a person is acknowledged by the system.
-There is no indivudual (indivisible being) in a system.
+There is no indivudual—indivisible being—in a system.
 The health system understands a person as a patient.
 The legal system understands a person as a potential criminal, victim or witness.
 In that sense, Marx’s <em>alienation</em> is not limited to the economy.
@@ -198,13 +214,13 @@ One example might be the creation of new subjects to study.
 Instead of studying computer science, students can enroll in scientific computing, data science, game engineering, information engineering, and more.
 One can say computer science is furhter differentiated.
 At the same time, we acknowledge problems stemming from this differentiation and try to find ways to look at problems and society more holistically.
-Marignal Note: If we follow Luhmann’s theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.</p>
+Marignal note: If we follow Luhmann’s theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.</p>
 
 <p>The functional differentiation of systems, its effects and our gut reaction to it is nicely depicted in the movie <em>Don’t Loop Up</em>.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own <em>systemic rational</em>.
 The main message of the movie is that scientists, who discover a meteor, are unable to communicate this truth to the world.
 The movie shows mostly four social systems: politics, media, economy, and science.
-It shows how each of these systems functions differently while still being coupled with one another via a <strong>shared medium</strong> (language), as explained above.
+It shows how each of these systems functions differently while still being <em>structurally coupled</em> with one another via a <strong>shared medium</strong> (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.</p>
 
 <p>The effectiveness of functional differentiation to deal with complexity comes at a cost: <em>Anarchy</em>, that is, there is no controlling system or governing system—no single rationality that is in charge.
@@ -794,10 +810,13 @@ Is social evolution any different?</p>
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="hofstadter:1979">Hofstadter, D. (1979). <i>Gödel, Escher, Bach: an Eternal Golden Braid</i>. Basic Books.</span></li>
+<li><span id="bender:2021">Bender, E. M., Gebru, T., McMillan-Major, A., &amp; Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? <i>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</i>, 610–623. https://doi.org/10.1145/3442188.3445922</span></li>
+<li><span id="bender:2020">Bender, E. M., &amp; Koller, A. (2020). Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data. <i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</i>, 5185–5198. https://doi.org/10.18653/v1/2020.acl-main.463</span></li>
 <li><span id="moeller:2006">Moeller, H.-G. (2006). <i>Luhmann Explained: From Souls to Systems</i>. Open Court.</span></li>
 <li><span id="luhmann:1988">Luhmann, N. (1988). <i>Erkenntnis als Konstruktion</i>. Bern: Benteli.</span></li>
 <li><span id="luhmann:1993">Luhmann, N. (1993). <i>Deconstruction as Second-Order Observation</i>. New Literary History.</span></li>
 <li><span id="luhmann:2000">Luhmann, N. (2000). Why Does Society Describe Itself as Postmodern. In W. Rasch &amp; C. Wolfe (Eds.), <i>Observing Complexity: Systems Theory and Postmodernity</i> (pp. 35–49). University of Minnesota.</span></li>
+<li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="esposito:2022">Esposito, E. (2022). <i>Artificial Communication</i>. The MIT Press. https://doi.org/10.7551/mitpress/14189.001.0001</span></li>
 <li><span id="shannon:1948">Shannon, C. E. (1948). A Mathematical Theory of Communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
 <li><span id="moeller:2021">Moeller, H.-G., &amp; D’Ambrosio, P. J. (2021). <i>You and Your Profile: Identity After Authenticity</i>. Columbia University Press.</span></li>
