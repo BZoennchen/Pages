@@ -47,7 +47,7 @@ Paradoxically, I will try to attack this human-centric view to save myself from 
 
 One could argue that machines are not intelligent since they are just doing statistics by computing some high-dimensional probability distribution {% cite bender:2021 %} and that there is a difference between language processing and language understanding {% cite bender:2020 %}. 
 However, these arguments seem not convincing for many people.
-There always looms the counter argument: Maybe humans do the same?
+There always looms a counter argument: Maybe humans do the same?
 
 Instead of going down the technical rabbit hole, I will try to approach Hofstadter's comments from a distinct and somewhat radical angle by using my *observation* of Luhmann's *social system theory* which builds on *radical constructivism*.
 Along the way, I will not only discuss *machine intelligence* but also touch on the relation between machines, society and human beings.
@@ -223,7 +223,7 @@ The movie shows mostly four social systems: politics, media, economy, and scienc
 It shows how each of these systems functions differently while still being *structurally coupled* with one another via a **shared medium** (language), as explained above.
 But inspite of being coupled, or because of it, they cannot act unitedly.
 
-The effectiveness of functional differentiation to deal with complexity comes at a cost: *Anarchy*, that is, there is no controlling system or governing system---no single rationality that is in charge.
+The effectiveness of functional differentiation to deal with complexity comes at a cost: *anarchy*, that is, there is no controlling system or governing system---no single rationality that is in charge.
 From a reductionist standpoint, the actors of the movie seem completely irrational.
 By seeing modern society through the eyes of controllable cause and effect chains one can only come to the conclusion that our society is dysfunctional or worse: immoral.
 In the movie, only the scientist, who also represent the perspective of the audience, seem to do the right thing.
@@ -319,7 +319,7 @@ A modern example that might no longer be considered AI is Google's search algori
 Google's success stems not from trying to evaluate or calculate the quality of a webpage directly.
 They didn't design an intelligent machine for that purpose. 
 Instead, they leveraged *second-order observation*, essentially tapping into the collective intelligence of their users. 
-Rather than determining the value of a webpage themselves, their algorithm observes how users interact with and evaluate webpages. 
+Rather than determining the value of a webpage themselves, their algorithm observes how users interact with webpages. 
 A webpage ranks high if users deem it valuable which can create a feedback loop because highly ranked pages are ranked highly.
 The primary task becomes observing users' observations.
 
@@ -329,7 +329,7 @@ On the one hand, we refer to the operational mode of the mind.
 But we have almost no idea what this *intelligence* exaclty is.
 On the other hand, we think of information processing.
 Take for example the term 'Central Intelligence Agency'.
-Therefore, metaphor of *artificial intelligence* is so problematic which makes it hard to theorize about *AI* and its impact which leads to these hyper-speculative predictions.
+Therefore, the metaphor of *artificial intelligence* is so problematic which makes it hard to theorize about *AI* and its impact which leads to these hyper-speculative predictions.
 It's like referring to airplanes as artificial birds.
 Just as airplanes succeeded when engineers stopped trying to mimic birds, AI has advanced when researchers moved away from replicating human thought.
 By using Luhmann's theory of communication, we might clear the smoke and find more effective ways to talk about artificial intelligence.
@@ -337,7 +337,7 @@ By using Luhmann's theory of communication, we might clear the smoke and find mo
 Esposito argues that we---the preachers of machine learning---do not reproduce human intelligence but rather social communication.
 Intelligence that emerges from conscious beings might not be needed or might even be an obstacle for the establishment of communication.
 Artificial communication (coupeling machines and psychic or social systems via language) can be more effective than intelligent communcation (coupeling psychic and social systems via language) but it can not be intelligent (refering to the first use of the word).
-In other words: That which makes society more intelligent might not require to be intelligent.
+In other words: That which makes society more intelligent might not necessarily be intelligent.
 As described above, social systems have their own *systemic rational* and we might call them intelligent.
 
 Systems theory is useful because it focusses on communication itself.
@@ -358,21 +358,21 @@ Understanding is typically misunderstanding without understanding the 'mis' (sim
 
 In summary, Luhmann's perspective underscores that effective communication doesn't necessarily require partners to achieve mutual understanding in the way their respective psychic systems might operate.
 I think we can make the same observation in our day to day life.
-Even partners can perfectly live together even though their understanding is not mutual which, of course, can cause problems in relationships.
+Partners can perfectly live together even though their understanding is not mutual which, of course, can cause problems in relationships.
 However, it can also be a useful feature.
 If a third party observe a tense conversation between a couple, the content of the conversation might be quite ordinary but what is communicated can be a conflict within the relationship.
 The couple understands the communication much better than the third party.
-The conflict, however, it is likly caused by the problem of different previous (mis-)understandings.
+The conflict, however, is likly caused by the problem of different previous (mis-)understandings.
 For the third party, it is like listening to some encrypted communication.
 Whether executed by humans or algorithms, the value lies in the process and its constituent parts: announcement, information, and understanding.
 
 In the context of artificial intelligence we can look at the communication of a person and a machine---of ChatGPT and Doug Hofstadter---and we can ask: Why is it so effective or attractive? 
-But also: Why is it (probably) not the product of an intelligent thinking system but rather produces social intelligence?
+But also: Why is it (probably) not the product of an intelligent thinking system but rather produced social intelligence?
 
 With my shallow understanding of Luhmann's theory, I imagine that the prerequisites for communication---whether artificial or otherwise---involve **contingency** and **connectivity**.
 In social systems theory, the generation of information is not an isolated act; it is attributed to an interactive partner.
 While traditionally this partner is human, in the realm of artificial communication, it can very well be a machine.
-The focus should be on the nature of the interaction itself: Does it exhibit the characteristics of a contingent, autonomous relationship?
+The focus should be on the nature of the interaction itself: does it exhibit the characteristics of a contingent, autonomous relationship?
 And does this interaction spur further communication?
 
 Traditional machines that produce unpredictable outcomes are usually considered faulty rather than creative or original.
@@ -392,10 +392,10 @@ However, in this case, the bot is more like a tool than a real communication par
 And here we land at an important distinction:
 While many argue that irritation caused by *generative AI* is similar to the invention of photography, I think there is a difference.
 
->Photo cameras do not communicate!
+>Cameras do not communicate!
 
 This does not mean that generative AI can not act as a mere tool in the process of, for example, the production of images.
-The more predictability the more tool-like generative AI are and the less communicative they become.
+The more predictable the more tool-like generative AI are and the less communicative they become.
 There outputs by themselves become less interesting but at the same time, they are more useful to realize a specific vision of the user or artist.
 
 As Esposito noted: Viewed through the lens of Luhmann's social system theory, the development of compelling communication partners presents a unique dilemma: 
