@@ -8,7 +8,9 @@ permalink: /about/
 
 Welcome, everyone! 
 I'm Benedikt.
-Currently, I am working on improving our computer science education using my skills as a software engineer and lecturer at the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html) at the Faculty of Informatics and Mathematics.
+Currently, I am working as a Postdoc in the field of applied machine learning.
+I am especially interested in the effect of artificial intelligence on society (education, art, communication).
+[Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/) which is part of the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html).
 
 During my master's program, I had the opportunity to focus primarily on theory-heavy subjects such as automata theory, logic, complexity theory, approximation and online algorithms.
 
