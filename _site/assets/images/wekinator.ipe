@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20220725162231" modified="D:20230420001804"/>
+<info created="D:20220725162231" modified="D:20231108095325"/>
 <preamble>\usepackage{libertine}
 \usepackage[libertine]{newtxmath}
 \renewcommand\familydefault{\sfdefault}</preamble>
@@ -303,27 +303,27 @@ h
 <text matrix="1 0 0 1 -152 -40" transformations="translations" pos="232 736" stroke="black" type="label" width="43.686" height="6.507" depth="2.35" valign="baseline">Processing</text>
 <text matrix="1 0 0 1 40 20" transformations="translations" pos="232 736" stroke="black" type="label" width="32.558" height="6.507" depth="2.35" valign="baseline">Output </text>
 <text matrix="1 0 0 1 -32 20" transformations="translations" pos="232 736" stroke="black" type="label" width="22.247" height="6.507" depth="2.35" valign="baseline">Input</text>
-<text matrix="1 0 0 1 -80 36" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:6448}</text>
-<text matrix="1 0 0 1 -104 8" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="61.21" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/inputs}</text>
-<text matrix="1 0 0 1 76 36" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:7448}</text>
-<text matrix="1 0 0 1 76 8" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="65.036" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/outputs}</text>
-<path stroke="lightgray" arrow="ptarc/normal">
+<text matrix="1 0 0 1 -80 36" transformations="translations" pos="232 736" stroke="black" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:6448}</text>
+<text matrix="1 0 0 1 -104 8" transformations="translations" pos="232 736" stroke="black" type="label" width="61.21" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/inputs}</text>
+<text matrix="1 0 0 1 76 36" transformations="translations" pos="232 736" stroke="black" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:7448}</text>
+<text matrix="1 0 0 1 76 8" transformations="translations" pos="232 736" stroke="black" type="label" width="65.036" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/outputs}</text>
+<path stroke="black" arrow="ptarc/normal">
 112 760 m
 192 760 l
 </path>
-<text matrix="1 0 0 1 -24 -4" transformations="translations" pos="116 768" stroke="lightgray" type="label" width="13.974" height="4.34" depth="2.32" valign="baseline" style="math">x,y</text>
-<text matrix="1 0 0 1 0.544045 -3.83654" transformations="translations" pos="372 768" stroke="lightgray" type="label" width="83.172" height="7.055" depth="2.32" valign="baseline" style="math">f(x,y) = (v_1,\ldots,v_6)</text>
+<text matrix="1 0 0 1 -24 -4" transformations="translations" pos="116 768" stroke="black" type="label" width="13.974" height="4.34" depth="2.32" valign="baseline" style="math">x,y</text>
+<text matrix="1 0 0 1 0.544045 -3.83654" transformations="translations" pos="372 768" stroke="black" type="label" width="83.172" height="7.055" depth="2.32" valign="baseline" style="math">f(x,y) = (v_1,\ldots,v_6)</text>
 <text matrix="1 0 0 1 -147.627 -52.227" transformations="translations" pos="232 736" stroke="black" type="label" width="35.367" height="6.989" depth="2.03" valign="baseline">(Dancer)</text>
 <text matrix="1 0 0 1 136.478 -51.6077" transformations="translations" pos="232 736" stroke="black" type="label" width="51.806" height="6.989" depth="2.03" valign="baseline">(Instrument)</text>
-<path stroke="lightgray">
+<path stroke="black">
 104 720 m
 104 760 l
 112 760 l
 </path>
-<text matrix="1 0 0 1 120.52 -12.9643" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:7448}</text>
-<text matrix="1 0 0 1 164.174 -12.7309" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="65.036" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/outputs}</text>
-<text matrix="1 0 0 1 -125.14 -12.6678" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="61.21" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/inputs}</text>
-<text matrix="1 0 0 1 -167.846 -12.956" transformations="translations" pos="232 736" stroke="lightgray" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:6448}</text>
+<text matrix="1 0 0 1 120.52 -12.9643" transformations="translations" pos="232 736" stroke="black" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:7448}</text>
+<text matrix="1 0 0 1 164.174 -12.7309" transformations="translations" pos="232 736" stroke="black" type="label" width="65.036" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/outputs}</text>
+<text matrix="1 0 0 1 -125.14 -12.6678" transformations="translations" pos="232 736" stroke="black" type="label" width="61.21" height="4.381" depth="1.39" valign="baseline" size="6">\texttt{path:/wek/inputs}</text>
+<text matrix="1 0 0 1 -167.846 -12.956" transformations="translations" pos="232 736" stroke="black" type="label" width="34.431" height="3.978" depth="1.39" valign="baseline" size="6">\texttt{port:6448}</text>
 <path matrix="1 0 0 1 12 -8" stroke="black" fill="sbgreen">
 4 0 0 4 212 716 e
 </path>
@@ -489,7 +489,7 @@ h
 <text matrix="1 0 0 1 45.8034 -13.4776" transformations="translations" pos="216 708" stroke="black" type="label" width="8.074" height="4.34" depth="1.51" valign="baseline" style="math">v_4</text>
 <text matrix="1 0 0 1 45.7961 -25.8865" transformations="translations" pos="216 708" stroke="black" type="label" width="8.074" height="4.342" depth="1.57" valign="baseline" style="math">v_5</text>
 <text matrix="1 0 0 1 45.9627 -38.2882" transformations="translations" pos="216 708" stroke="black" type="label" width="8.074" height="4.342" depth="1.57" valign="baseline" style="math">v_6</text>
-<path stroke="lightgray" arrow="ptarc/normal">
+<path stroke="black" arrow="ptarc/normal">
 304 760 m
 392 760 l
 392 720 l
