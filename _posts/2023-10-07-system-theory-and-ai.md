@@ -212,9 +212,9 @@ But what is 'good' for one system is not necessarily 'good' for the other system
 Luhmann thinks that this differentiation (Ausdifferenzierung) is a feature of modern society, i.e. it is historical and is an ongoing process.
 One example might be the creation of new subjects to study.
 Instead of studying computer science, students can enroll in scientific computing, data science, game engineering, information engineering, and more.
-One can say computer science is furhter differentiated.
+One can say computer science is further differentiated.
 At the same time, we acknowledge problems stemming from this differentiation and try to find ways to look at problems and society more holistically.
-Marignal note: If we follow Luhmann's theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing interdisciplinary subject such as bioinformatics by simply combining biology with informatics.
+Marignal note: If we follow Luhmann's theory and we want efficiency (with respect to a systemic rational) we find a strong argument to avoid introducing an interdisciplinary subject such as bioinformatics by simply combining biology with informatics.
 
 The functional differentiation of systems, its effects and our gut reaction to it is nicely depicted in the movie *Don't Loop Up*.
 What the movie does well is showing us that society consists of functional differientiated systems that follow their own *systemic rational*.
@@ -278,7 +278,7 @@ If climate activists glue themselves to the ground to generate awareness, they m
 What happens is quite difficult to predict.
 How does the media report on the issue if its rational is to further differentiate between information and non-information?
 How will politics react based on the assumption that it 'wants' to make more politics?
-From this point of view, it is hard to see how 'we' can 'make' cooperations (or individuals) sustainable by refering to morals and virtues.
+From this point of view, it is hard to see how 'we' can 'make' cooperations (or individuals) sustainable by referring to morals and virtues.
 Moral outbursts and frustrations about the destruction of our livelihood are completely understandable (for my psychic system) but how they irritate the different systems is quite uncertain. 
 
 ## Artificial Communication
@@ -336,7 +336,7 @@ By using Luhmann's theory of communication, we might clear the smoke and find mo
 
 Esposito argues that we---the preachers of machine learning---do not reproduce human intelligence but rather social communication.
 Intelligence that emerges from conscious beings might not be needed or might even be an obstacle for the establishment of communication.
-Artificial communication (coupeling machines and psychic or social systems via language) can be more effective than intelligent communcation (coupeling psychic and social systems via language) but it can not be intelligent (refering to the first use of the word).
+Artificial communication (coupling machines and psychic or social systems via language) can be more effective than intelligent communcation (coupling psychic and social systems via language) but it can not be intelligent (referring to the first use of the word).
 In other words: That which makes society more intelligent might not necessarily be intelligent.
 As described above, social systems have their own *systemic rational* and we might call them intelligent.
 
@@ -405,7 +405,7 @@ In essence, the paradox that governs the programming of 'intelligent' algorithms
 
 >The ultimate objective is to achieve a controlled lack of control. -- {% cite esposito:2022 %}
 
-From a philosophical standpoint, Luhmann transforms the *mind-body problem* into the *mind-communication problem*---communication defined by Luhmann as "the operation that society consits of" {% cite moeller:2006 %}.
+From a philosophical standpoint, Luhmann transforms the *mind-body problem* into the *mind-communication problem*---communication defined by Luhmann as "the operation that society consists of" {% cite moeller:2006 %}.
 If the mind does not communicate but is only in the environment of society (communication)---is merely involved---how does this all work?
 Similarily, I think, the question of how *artificial communication* emerges even if machines are also only in the environment of communicating systems, is one of the most important question to ask if one wants to understand the current state of AI, society and where we are heading at.
 
@@ -667,7 +667,7 @@ In *Cognition as Construction*, Luhmann recognizes and somewhat addresses this i
 >A reflection on the beginning cannot be performed at the beginning, but only by the help of a theory that has already established sufficient complexity. -- {% cite luhmann:1988 %}
 
 Starting from this assumption, Luhmann reformulates Kant's question of the possibility of cognition to the question of how systems can **uncouple** themselves from their environment.
-For him, closure, i.e. uncoupeling, is only possible by a systems's production of its own operations and by its reproduction within the network of its recursive anticipations and resources.
+For him, closure, i.e. uncoupling, is only possible by a systems's production of its own operations and by its reproduction within the network of its recursive anticipations and resources.
 Thus, cognition is manufactured and is a self-referential process.
 It deals with an external world that remains unknown thus cognition has to come to see that it cannot see what it cannot see.
 One could say that reality remains as an ineradicable *blind spot*.
@@ -699,7 +699,7 @@ Or, how did we end up believing in an universal and objective reality we actuall
 Well, only because there is no objective reality does not mean that humans cannot 'achieve' social control via social systems.
 Importantly, psychic and social systems share a common *medium*, that is, sense.
 It is used in thought as well as in commuincation.
-A thought or a gesture is a specific *form* (strict coupeling) that the medium (loose coupeling) of sense can take on.
+A thought or a gesture is a specific *form* (strict coupling) that the medium (loose coupling) of sense can take on.
 Thus, thinking is like bringing sand (the medium) into a specific form; it can also be defined as a selection within a horizon of what is possible.
 By thinking a specific thought, I do not think any other thought that is in my horizon of the thinkable.
 Secondly, social and psychic systems are structurally coupled via language.
@@ -766,8 +766,8 @@ Luhmann believed that ecological problems are primarily problems of communicatio
 Different social systems (e.g., politics, science, economics) have different ways of observing and communicating about the environment, which can lead to misunderstandings or contradictions.
 So one idea I have in mind is that via *artificial communication* we might be able to reduce misunderstanding between different systems, including the ecological system.
 From a Luhmannian perspective, we need a sort of *translation* from one *systemic rational* to the other.
-Furthermore, I believe that we need a more strict coupeling between the ecological system and psychic as well as social systems.
-Maybe artificial communication can establish such a strict structural coupeling.
+Furthermore, I believe that we need a more strict coupling between the ecological system and psychic as well as social systems.
+Maybe artificial communication can establish such a strict structural coupling.
 
 Only because we are not in charge, does not mean that things can not get better.
 There seems nothing inherently wrong with biological evolution.
