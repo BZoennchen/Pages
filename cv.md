@@ -53,19 +53,15 @@ Software Developer (Education)<br>
 ***
 
 ## Research Interests
-+ Machine Learning for all
-+ Sustainable AI
++ Applied Machine Learning (e.g. AI for Sustainability, AI in Culture and Arts)
 + Free and Open Education in the Digital Era
-+ Computer Music
 + Modelling and Simulation
-+ Design of Efficient and Parallel Algorithms
-+ Theoretical Computer Science, Automata Theory
 
 ## Private Interests
++ Philosophy (e.g. Constructivism) & Technolgy
 + Film Critique and Analysis
-+ Philosophy & Technolgy
-+ Chess
-+ Music Theory
++ Computer Music & Music Theory
++ Theoretical Computer Science
 
 ***
 
