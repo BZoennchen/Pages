@@ -58,8 +58,8 @@ Software Developer (Education)<br>
 + Modelling and Simulation
 
 ## Private Interests
-+ Philosophy (e.g. Constructivism) & Technolgy
-+ Film Critique and Analysis
++ Philosophy (e.g. Constructivism) & Technology
++ Film Reviews and Analysis
 + Computer Music & Music Theory
 + Theoretical Computer Science
 
