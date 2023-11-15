@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-15T11:34:13+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-15T12:36:08+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -67,7 +67,7 @@ In his introductory book <em>From Souls to Systems</em>, Hans-Georg Moeller <a c
 <ul>
   <li><strong>Kant</strong>: Luhmann shifts Kant’s focus on cognition to a constructivist perspective <a class="citation" href="#luhmann:1988">(Luhmann, 1988)</a>.</li>
   <li><strong>Hegel</strong>: Luhmann transitions from Hegel’s ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition, such as Hegel’s spirit.</li>
-  <li><strong>Marx</strong>: Luhmann borrows Marx’s view that society isn’t just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is to much of a simplification.</li>
+  <li><strong>Marx</strong>: Luhmann borrows Marx’s view that society isn’t just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is too much of a simplification.</li>
   <li><strong>Husserl</strong>: Luhmann adapts Husserl’s work towards constructivism and incorporates many of his terms and ideas.</li>
   <li><strong>Habermas</strong>: Luhmann disputes Habermas’s mission of completing the enlightenment.</li>
   <li><strong>Postmodern thinkers</strong>: Luhmann draws from Deleuze’s radical differentiation, Derrida’s deconstruction, and Lyotard’s rejection of overarching narratives.</li>
@@ -122,7 +122,7 @@ The economy creates itself by doing economics, the mass media creates itself by 
 <p>Another <em>theme</em> in Luhmann’s writing is the use of paradoxes which is certainly inspired by Spencer-Brown’s logic presented in <em>Law of Forms</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
 Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
 Therefore, a paradoxical systems becomes genererative in time.
-One prime example is our mind which is capable of self-obersvation (<em>reentry</em>).
+One prime example is our mind which is capable of self-observation (<em>reentry</em>).
 Paradoxically, the oberservation is part of what is observed.
 However, in time this gets resolved.
 While I am observing myself (second-order observation) I cannot observe my environment (first-order observation).
@@ -159,7 +159,7 @@ Strictly speaking, the ‘goal’ of the media is not really to inform or to per
 <p>Therefore, attention is key.
 Informing people or persuading might help to ‘get enough food’ but it is not the media’s ‘goal’ or ‘will’.
 The same goes for the economy which trys to commodify everything to further commodify things.
-Politics politicizes anything and science produces truth about everything.</p>
+Politics politicizes anything and sciences produces papers with ‘facts’ to get more funding for more papers with ‘facts’.</p>
 
 <p>Even though Luhmann’s termology is close to the termonology of computer science, we have to be careful.
 It is more helpful to think of these systems as interdependent organisms feeding on each other and equipped with the will to live than to think of hierarchical or well-structured computer or network systems.</p>
@@ -185,7 +185,7 @@ If a politician acts immoral and accepts a lot of money for his party to give a 
 If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
 However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.
-Corruption happens if system boundaries are crossed.
+What the media observes as ‘corruption’ happens if system boundaries are crossed.
 It is ok to buy talented football players, but it is not ok to buy goals, i.e. it is not ok that the economy directly operates within the system of a football game.</p>
 
 <p>Psychic and social systems are <em>operationally closed</em> but <em>cognitively open</em>.
@@ -532,7 +532,7 @@ These items are ranked by an algorithm aiming to maximize Amazon’s profits, pr
 Since I’m inclined to buy items higher up on the list, the algorithm’s prediction is validated, influencing its future predictions and creating a positive feedback loop which consists of me and the algorithm.
 Because I rely on algorithms to find items to buy, I believe it’s fair to say that they have influence over me and a sort of agency of their own.</p>
 
-<p>If we don’t attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. corrupt or incompetent politicians.
+<p>If we don’t attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. ‘corrupt’ or incompetent politicians.
 The idea that our modern society renders us freer and more independent is misconstrued.
 A better way to put it is: We are (more) <em>out of control</em>.
 While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency and chaos.

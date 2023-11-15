@@ -74,7 +74,7 @@ In his introductory book *From Souls to Systems*, Hans-Georg Moeller {% cite moe
 
 + **Kant**: Luhmann shifts Kant's focus on cognition to a constructivist perspective {% cite luhmann:1988 %}.
 + **Hegel**: Luhmann transitions from Hegel's ideas of unity and dialectic to concepts of multiplicity and from identity to difference. He argues against any essential unity of systems and any general type of cognition, such as Hegel's spirit.
-+ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is to much of a simplification.
++ **Marx**: Luhmann borrows Marx's view that society isn't just a byproduct of spirituality, but he disagrees with the idea of one foundational system. Marx focus on economy is too much of a simplification.
 + **Husserl**: Luhmann adapts Husserl's work towards constructivism and incorporates many of his terms and ideas.
 + **Habermas**: Luhmann disputes Habermas's mission of completing the enlightenment.
 + **Postmodern thinkers**: Luhmann draws from Deleuze's radical differentiation, Derrida's deconstruction, and Lyotard's rejection of overarching narratives.
@@ -124,7 +124,7 @@ The economy creates itself by doing economics, the mass media creates itself by 
 Another *theme* in Luhmann's writing is the use of paradoxes which is certainly inspired by Spencer-Brown's logic presented in *Law of Forms* {% cite brown:1969 %}.
 Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
 Therefore, a paradoxical systems becomes genererative in time.
-One prime example is our mind which is capable of self-obersvation (*reentry*).
+One prime example is our mind which is capable of self-observation (*reentry*).
 Paradoxically, the oberservation is part of what is observed.
 However, in time this gets resolved.
 While I am observing myself (second-order observation) I cannot observe my environment (first-order observation).
@@ -159,7 +159,7 @@ Strictly speaking, the 'goal' of the media is not really to inform or to persuad
 Therefore, attention is key.
 Informing people or persuading might help to 'get enough food' but it is not the media's 'goal' or 'will'.
 The same goes for the economy which trys to commodify everything to further commodify things.
-Politics politicizes anything and science produces truth about everything.
+Politics politicizes anything and sciences produces papers with 'facts' to get more funding for more papers with 'facts'.
 
 Even though Luhmann's termology is close to the termonology of computer science, we have to be careful.
 It is more helpful to think of these systems as interdependent organisms feeding on each other and equipped with the will to live than to think of hierarchical or well-structured computer or network systems.
@@ -185,7 +185,7 @@ If a politician acts immoral and accepts a lot of money for his party to give a 
 If a politician of the Green Party goes on vacation by plane and, at the same time, speaks out against air traffic, two different systems are operating: the family and politics.
 And the operation of the first does not interfere with the operations of the second.
 However, the media make news out of this contradicting behaviour which will irritate politics and probably the family life of the politician.
-Corruption happens if system boundaries are crossed.
+What the media observes as 'corruption' happens if system boundaries are crossed.
 It is ok to buy talented football players, but it is not ok to buy goals, i.e. it is not ok that the economy directly operates within the system of a football game.
 
 Psychic and social systems are *operationally closed* but *cognitively open*.
@@ -516,7 +516,7 @@ These items are ranked by an algorithm aiming to maximize Amazon's profits, pred
 Since I'm inclined to buy items higher up on the list, the algorithm's prediction is validated, influencing its future predictions and creating a positive feedback loop which consists of me and the algorithm.
 Because I rely on algorithms to find items to buy, I believe it's fair to say that they have influence over me and a sort of agency of their own.
 
-If we don't attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. corrupt or incompetent politicians.
+If we don't attribute agency to objects, then the explanation for the failures of climate agreements likely rests on a dysfunction of the system or on individual failures, e.g. 'corrupt' or incompetent politicians.
 The idea that our modern society renders us freer and more independent is misconstrued.
 A better way to put it is: We are (more) *out of control*.
 While we engage in broader dialogues, express ourselves diversely, and view the world through varied lenses, increasing complexity often amplifies dependency and chaos.
