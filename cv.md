@@ -9,9 +9,9 @@ PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/fil
 
 ## Current Position
 
-**02/2022 - today** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/mitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
-Educational-Tech Engineer for Educational Tools<br>
-*CSplus and PlusCS Education*
+**10/2023 - today** | [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/), Munich, Germany<br>
+Head of Research (Postdoc)<br>
+*Applied machine learning and its impact on society*
 
 ## Academic Education
 
@@ -32,6 +32,10 @@ Computer Science (B. Sc.)<br>
 ***
 
 ## Non-Academic Job History
+
+**02/2022 - 09/2023** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/mitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
+Educational-Tech Engineer for Educational Tools<br>
+*CSplus and PlusCS Education*
 
 **08/2020 - 01/2022** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
 Senior Advisor for Computer Science Education,<br>
@@ -128,7 +132,7 @@ A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equatio
 In *Journal of Computational Science*,<br>
 DOI: [10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009).
 
-**Benedikt Zönnchen** and Gerta Köster,<br>
+**2016** | **Benedikt Zönnchen** and Gerta Köster,<br>
 Detecting Arbitrarily Shaped Queues Using the Fast Marching Method.<br>
 In: *[Proceedings of Pedestrian and Evacuation Dynamics 2016](https://doi.org/10.17815/CD.2016.11)*, Collective Dynamics, 556-561 (2016)
 
