@@ -11,7 +11,6 @@ Currently, I am working as a Postdoc in the field of applied machine learning at
 I am especially interested in the effect of artificial intelligence on society (education, art, communication).
 
 During my master's program, I had the opportunity to focus primarily on theory-heavy subjects such as automata theory, logic, complexity theory, approximation and online algorithms.
-
 I continued my academic journey by joining the computer science Ph.D. program in the field of pedestrian dynamics, switching from theoretical computer science to modeling and simulation.
 In my research, I was interested in realistic large-scale pedestrian simulation. 
 I analyzed different microscopic pedestrian simulation models and studied efficient parallel algorithms for pedestrian simulation.
@@ -20,7 +19,7 @@ Furthermore, I introduced parallelism to the so-called optimal steps models, an 
 I did my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the Munich University of Applied Sciences (MUAS).
 During that time, I was a member of the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich and a major contributor to the open-source framework for pedestrian simulation [Vadere](http://www.vadere.org).
 
-Apart from modeling and simulation of pedestrian streams, I am interested in the communicating ability of artificial intelligence systems and their impact on societies.
+Starting my research in the field of modeling and simulation of pedestrian streams, I am currently interested in the communicating ability of artificial intelligence systems and their impact on societies.
 Our way of life has to change fundamentally, and we seem to have decided that the digital is here to stay.
 Consequently, computer scientists should be at the forefront of the necessary transformation, not as an unrestrained power but as enablers of our time's most crucial trans- and interdisciplinary project.
 
