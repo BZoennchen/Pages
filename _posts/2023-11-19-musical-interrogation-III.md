@@ -1,13 +1,21 @@
 ---
 layout: post
-title:  "Musical Interrogation III - RNN"
+title:  "Musical Interrogation III - LSTM"
 tags: Music ML LSTM
 comments: true
 ---
 
 This article is the continuation of the *[Musical Interrogation I - Intro]({% post_url 2023-04-02-musical-interrogation-I %})* and *[Part II - FNN]({% post_url 2023-05-31-musical-interrogation-II %})*.
 It is recommended that you read the these articles first.
-This time we use a recurrent neural network, more preceisly an LSTM.
+This time we use a recurrent neural network, more preceisly an **LSTM** which I explained a little bit in [Introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
+An LSTM is a **RNN** that couter acts the problem of exploding and vanishing gradients.
+
+<br>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/rnn-unfold.png %}" alt="Sketch of an RNN unfolded in time">
+<div style="display: table;margin: 0 auto;">Figure 1: Sketch of an RNN unfolded in time.</div>
+</div>
+<br>
+
 The article gives some explanation to the code in the following [notebook](https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb) which can be executed on [Google Colab](https://colab.research.google.com/?hl=de).
 Because our model is now able to learn long-time relations, we can use the ``GridEncoder``, i.e., a piano roll data representation which is exaclty what we do.
 
@@ -85,14 +93,28 @@ The following is the model description of our RNN/LSTM.
 To understand what's going on, look at the forward method.
 This sends our data through the network.
 
-The first two lines create the short-term and long-term memory and fill them with zeros.
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/lstm-cell.png %}" alt="LSTM cell">
+<div style="display: table;margin: 0 auto;">Figure 2: A sketch of an LSTM cell.</div>
+</div>
+<br>
+
+The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.
 
 Then an embedding takes place: ``x = self.embedding(x)``.
-This is nothing more than what we did with our simple feedforward net in [Part II]: Each element of the input ``x`` is first one-hot encoded and then multiplied by a matrix. 
+This is nothing more than what we did with our simple feedforward net in [Part II - FNN]({% post_url 2023-05-31-musical-interrogation-II %}): Each element of the input ``x`` is first one-hot encoded and then multiplied by a matrix. 
 The result: Each event is represented by the row of a matrix (with learnable parameters).
 The matrix has ``vocab_size`` rows and ``input_dim`` columns.
 
 Next, we send our transformed input through our LSTM out, ``(ht, ct) = self.lstm(x, (h0, c0))``.
+This basically computes 
+
+$$\mathbf{h}_t, \mathbf{c}_t$$
+
+based on 
+
+$$\mathbf{h}_{t-1}, \mathbf{c}_{t-1}$$
+
+as indicated in Fig. 2.
 We get as many outputs as our sequence is long, i.e., ``sequence_len`` many.
 But we are only interested in the last output, which we get by ``out[:, -1, :]``.
 This is a vector with ``hidden_dim elements``. 
