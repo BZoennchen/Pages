@@ -1,4 +1,288 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-16T20:37:47+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-19T14:45:27+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
+What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
+However, any observer is itself a distinction between system and environment.
+I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
+So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+
+<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
+
+<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
+
+<blockquote>
+  <p>This statement is wrong.</p>
+</blockquote>
+
+<p>The statement is logically problematic because it is self-referential. 
+If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
+Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
+
+\[R := \left\{ x \ | \ x \not\in x \right\}\]
+
+<p>$R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+However, if we introduce the self-referential relation, we run into a paradox:</p>
+
+<p>\begin{equation} 
+R \in R \iff R \not\in R
+\end{equation}</p>
+
+<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
+If that is the case, does the barber shave himselve?</p>
+
+<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
+To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
+The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
+Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
+
+<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
+$R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
+Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
+His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
+The self-referential relation is a paradox if we ignore time and it becomes a generator if consider time and place.</p>
+
+<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>The Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+He resolves the paradox by a similar idea that gave us imaginary numbers by using what he calls <em>Re-entry</em>, that is, the introduction of the system into itself.</p>
+
+<p>Luhmann integrated this idea into his Social Systems Theory.
+For example, the media can observe and reintroduce itself into itself. 
+It can use its systemic operation on itself, i.e. it can report on itself.</p>
+
+<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
+
+<blockquote>
+  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
+</blockquote>
+
+<p>The sentence has mainly two different meanings.
+One is:</p>
+
+<blockquote>
+  <p>The beginning of heaven and earth is without a name.</p>
+</blockquote>
+
+<p>The other one is:</p>
+
+<blockquote>
+  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
+</blockquote>
+
+<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
+Furthermore, the quote points to a distinction between heaven and earth.
+Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
+Spencer-Brown begins by the assumption that there is no such thing:</p>
+
+<blockquote>
+  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
+Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
+</blockquote>
+
+<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
+There is no clear separation between the object or the result of distinction and the process of distinguishing.
+Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
+Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
+I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
+
+<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
+The mark is, calls, and makes a difference.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
+<p><br /></p>
+
+<p>There is an interior of the mark and not the interior—the system and its environment.
+I can make a distinction again (repetition):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
+<p><br /></p>
+
+<p>But making a distinction again does not change the distinction.</p>
+
+<blockquote>
+  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
+</blockquote>
+
+<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
+<p><br /></p>
+
+<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
+Crossing twice reverses the first crossing.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
+<p><br /></p>
+
+<blockquote>
+  <p>If a boundary is crossed twice, the original state will be reestablished.
+The repetition of the crossing has a different value than the single crossing.
+The reason is that in-between the reversal happens.
+Crossing changes the side.
+Re-crossing reverses this operation. – Spencer-Brown</p>
+</blockquote>
+
+<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
+Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
+There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
+
+<p>Let’s see what we can do with this calculus.
+Let $a, b$ variables, then the following holds:</p>
+
+<p><br /></p>
+<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
+<p><br /></p>
+
+<p>Let’s have a look at the last transformation.
+Let us assume a = #.
+Then we get:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
+<p><br /></p>
+
+<p>Let a = instead, then we can follow:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
+<p><br /></p>
+
+<h2 id="the-re-entry">The Re-Entry</h2>
+
+<p>How can we re-introduce the system (here an equation) into itself?
+Or in other words: How does the <em>re-entry</em> work?
+We can start by a simple self-referential algebraic equation:</p>
+
+<p>\begin{equation}
+x^2 = ax + b, \quad a, b \in \mathbb{R}.
+\end{equation}</p>
+
+<p>This equation has well-known solutions. 
+It is also known that solutions can be imaginary, i.e., $x$ might be of the for $r + si$ with $r, s \in \mathbb{R}$ and $i^2 = -1$.
+To see the re-entry, we can rewrite the equation above to get</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}</p>
+
+<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
+
+<p>\begin{equation}
+x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
+\end{equation}</p>
+
+<p>Using this infinite formalism it is literally the case that</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}
+holds.
+Using the same formalism, we can define the imaginary number $i = -1/i$ as literally</p>
+
+<p>\begin{equation}
+i = -1 /(-1 /(-1 / (-1 / \ldots )))
+\end{equation}</p>
+
+<p>but what does this mean?
+The system is not a number but a process, a generator that generates itself.
+$i$ alternates between 1 and -1.</p>
+
+<p>Interestingly, this is precisely how we use the equal sign in most programming languages.
+Writing $i = i / -1$ in a programming language means</p>
+
+<p>\begin{equation}
+i \leftarrow i / -1.
+\end{equation}</p>
+
+<p>The next step is to introduce such a re-entry into logic?
+Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (The Re-Entry of the Mark):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
+<p><br /></p>
+
+<p>The solution is an alternation between a marked and an unmarked state—between true and false.
+A state that might seem contradictory in space, makes sense if it is observed in time and space.
+Again, time resolves the paradox.
+To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
+<p><br /></p>
+
+<p>We could similarily notate $i$:</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
+<p><br /></p>
+
+<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
+For example, we can state the following:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
+<p><br /></p>
+
+<p>However, it is forbidden to only change one appearance of $J$!
+Using this simple rule, there is no paradox.
+We can go on and evaluate the following transformation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
+<p><br /></p>
+
+<p>which describes two alternating waves shifted by one cycle resulting in a mark.
+Spencer-Brown goes on and defines his Echelon:</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
+<p><br /></p>
+
+<p>which can be transformed into</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
+<p><br /></p>
+
+<p>thus gives us the re-entry</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<p>or</p>
+
+<p><br /></p>
+<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<h2 id="final-words">Final Words</h2>
+
+<p>In the act of programming there is no problem of using expressions such as</p>
+
+<p>\begin{equation}
+i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
+\end{equation}</p>
+
+<p>but in mathematics—at least since Plato—we assume some sort of eternity.
+Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
+It is like in physics where multiple theories are equivalent but start from very different viewpoints.
+It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
+To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
+
+<p>To be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient and the new signs are not yet available.
+To be able to close this gap (to make this leap successfully), a specific language of one’s own is necessary. 
+This step is accomplished, for Spencer-Brown, in <strong>thinking</strong> with his specific imagination.</p>
+
+<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -818,7 +1102,7 @@ Is social evolution any different?</p>
 <li><span id="luhmann:2000">Luhmann, N. (2000). Why Does Society Describe Itself as Postmodern. In W. Rasch &amp; C. Wolfe (Eds.), <i>Observing Complexity: Systems Theory and Postmodernity</i> (pp. 35–49). University of Minnesota.</span></li>
 <li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="esposito:2022">Esposito, E. (2022). <i>Artificial Communication</i>. The MIT Press. https://doi.org/10.7551/mitpress/14189.001.0001</span></li>
-<li><span id="shannon:1948">Shannon, C. E. (1948). A Mathematical Theory of Communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
+<li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
 <li><span id="moeller:2021">Moeller, H.-G., &amp; D’Ambrosio, P. J. (2021). <i>You and Your Profile: Identity After Authenticity</i>. Columbia University Press.</span></li>
 <li><span id="mcluhan:1992">McLuhan, M. (1992). <i>The Global Village: Transformations in World Life and Media in the 21st Century</i>. Oxford University Press.</span></li>
 <li><span id="heidegger:1927">Heidegger, M. (1927). <i>Sein und Zeit</i>.</span></li>
@@ -3140,7 +3424,7 @@ The code include some additional functions, e.g., a function that prints out the
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="shannon:1948">Shannon, C. E. (1948). A Mathematical Theory of Communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
+<ol class="bibliography"><li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
 <li><span id="loy:2006">Loy, G. (2006). <i>Musimathics: the mathematical foundations of music</i> (Vol. 1). MIT Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="Sonic-Pi" /><category term="AI" /><summary type="html"><![CDATA[One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody. But what makes a good melody? Or, in a more generative sense:]]></summary></entry><entry><title type="html">Creative Artificial Intelligence</title><link href="https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence.html"><![CDATA[<h2 id="panel-discussion">Panel Discussion</h2>
 
 <p><strong>Disclaimer:</strong> This text contains my own personal, speculative opinions. You might disagree heavily and that’s ok.</p>
@@ -3962,32 +4246,5 @@ Sadly, <a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a>, 
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="denning:2005">Denning, P. J. (2005). Is Computer Science Science? <i>Commun. ACM</i>, <i>48</i>(4), 27–31. https://doi.org/10.1145/1053291.1053309</span></li>
-<li><span id="shannon:1948">Shannon, C. E. (1948). A Mathematical Theory of Communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
-<li><span id="ulrich:2001">Ulrich, W. (2001). <i>A Philosophical Staircase for Information Systems Definition</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><summary type="html"><![CDATA[“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” – Peter J. Denning (Denning, 2005)]]></summary></entry><entry><title type="html">PhD Defense</title><link href="https://bzoennchen.github.io/Pages/2021/06/05/phd-defense.html" rel="alternate" type="text/html" title="PhD Defense" /><published>2021-06-05T00:00:00+02:00</published><updated>2021-06-05T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2021/06/05/phd-defense</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2021/06/05/phd-defense.html"><![CDATA[<p>Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis.
-The thesis will be published very soon and I post it here on this website.</p>
-
-<p>The following text is from the preface of the thesis and describes my personal struggles during and my perspective on the journey.</p>
-
-<blockquote>
-  <p>“The struggle itself towards the heights is enough to fill a man’s heart. One must imagine Sisyphus happy.” – Albert Camus</p>
-</blockquote>
-
-<h2 id="my-personal-journey">My Personal Journey</h2>
-
-<p>I can pinpoint the exact moment when I decided to start my academic journey. At that time, my life was harshly disrupted by physical illness and the death of my father. Consequently, my family struggled on many levels. Despite, and probably because of the unfortunate circumstances and with my family’s blessing, I quit my job and rejoined school to get my (technical) A level. I wanted to comprehend the world more than ever and escape the meaningless play of presenting. At that difficult time, there was a financial intensive to graduate as fast as possible. Therefore, I did not join the university but the computer science program at the Munich University of Applied Sciences.</p>
-
-<p>During my undergraduate study, my former naive belief was crushed. I realized that I would never find any definitive objective truth about the physical world. It was a rather pessimistic but also liberating philosophical revelation that there is no definitive rule to follow and no absolute meaning to fulfill. My search was no longer aimed to find an objective meaning but a personal cause to follow. I still admired studying but for other more aesthetic reasons. I loved the clarity and usefulness of formal systems, the beauty of proofs, the elegance of algorithms, and the stu- dent’s lifestyle. I observed a transforming world where computer science spread out into many branches of science, economics, and society. It was a time of playful experimentation and the deconstruction of personal barriers.</p>
-
-<p>After I got my bachelor’s degree, I finally joined a master program at the Technical University of Munich. This continuation was enabled by the individual and financial support I received from Studienstiftung des deutschen Volkes &amp; the Max Weber-Programm. I followed my aesthetic taste and visited rather unpopular formal lectures. At that time, I realized that the source of my personal cause to move on has to be bound to someone else. Beauty and aesthetic theories were a pleasant enjoyment, but they could no longer be the primary reason to live for.</p>
-
-<p>Surprisingly my academic journey should not stop there, since Prof. Dr. Köster invited me into her research group. There are multiple reasons why I happily accepted her invitation. The desire to understand the world was reduced to the desire to understand at least one little part of it. Furthermore, I believed that simulations would influence science, economics, and society for decades to come. And if I could make the world a little bit safer, it might be the cause I was looking for.
-During my PhD, the wish to be useful and to help others was always a source of inner conflict and self-doubt. I started the whole journey to escape a world that I perceived to be shallow, empty, and driven by profit. From time to time, the scientific research project felt like this meaningless business world that came back to haunt me. Luckily I was in a superb position. Everyone tried to reduce this aspect of the scientific environment to a minimum, for which I am very grateful.</p>
-
-<p>I think every PhD candidate has to deal with uncertainties and self-doubt – the uncertainty within science and the uncertainty of the journey’s path. There is no guaranteed progress or graduation and one is constantly confronted with his or her own limitations. These factors and the ever-present questioning voice in my head acted as a catalyst for an unavoidable existential crisis. I looked into many philosophical ideas and rearranged, and possibly reinforced, my world view and many important values – the chapter’s introductory quotes tell the tale. In my opinion, this process was only possible, because during my academic journey I received the tools to engage with difficult ideas. On the one hand, this crisis was unpleasant but on the other hand it enriched my life – a trade-off I am certainly willing to repeat. In the end, I had supportive companions that helped me to deal with all these issues.
-It was not easy, and I guess it rarely ever is, but the struggle is part of the charm – as Camus said,</p>
-
-<blockquote>
-  <p>“we must imagine Sisyphus happy.”</p>
-</blockquote>
-
-<p>For me, to study is to train thoughtful thinking, perception, awareness, and tolerance. It sharpens the mind and opens up a little less ignorant new world. The ability to enjoy thinking and to share this enjoyment with other thoughtful people provides freedom and independence. It might be the greatest gift I received during my journey. Because of it and the people I met, it is a success story, and I am deeply thankful that I could have experienced it.</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><summary type="html"><![CDATA[Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis. The thesis will be published very soon and I post it here on this website.]]></summary></entry></feed>
+<li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
+<li><span id="ulrich:2001">Ulrich, W. (2001). <i>A Philosophical Staircase for Information Systems Definition</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><summary type="html"><![CDATA[“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” – Peter J. Denning (Denning, 2005)]]></summary></entry></feed>
