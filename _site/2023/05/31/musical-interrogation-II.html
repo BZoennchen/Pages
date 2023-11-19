@@ -3,9 +3,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Musical Interrogation - Part II | Bene’s Blog</title>
+<title>Musical Interrogation I - FFN | Bene’s Blog</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Musical Interrogation - Part II" />
+<meta property="og:title" content="Musical Interrogation I - FFN" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="This post is part of a series of blog posts:" />
@@ -16,9 +16,9 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-05-31T00:00:00+02:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Musical Interrogation - Part II" />
+<meta property="twitter:title" content="Musical Interrogation I - FFN" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-05-31T00:00:00+02:00","datePublished":"2023-05-31T00:00:00+02:00","description":"This post is part of a series of blog posts:","headline":"Musical Interrogation - Part II","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"},"url":"https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-05-31T00:00:00+02:00","datePublished":"2023-05-31T00:00:00+02:00","description":"This post is part of a series of blog posts:","headline":"Musical Interrogation I - FFN","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"},"url":"https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +67,7 @@
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Musical Interrogation - Part II</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Musical Interrogation I - FFN</h1>
     <p class="post-meta"><time class="dt-published" datetime="2023-05-31T00:00:00+02:00" itemprop="datePublished">
         May 31, 2023
       </time><span class="tag-list">|
@@ -85,14 +85,12 @@
 <ol>
   <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
   <li>Part II</li>
-  <li>Part III</li>
+  <li><a href="/Pages/2023/11/19/musical-interrogation-III.html">Part III</a></li>
+  <li>Part IV (coming soon)</li>
 </ol>
 
-<p>The code used here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.</p>
-
-<hr />
-
-<p>In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
+<p>The code used here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
+In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches:</p>
 
 <ol>
@@ -132,9 +130,8 @@ The inspiration for this work comes from the tutorial series made by <a href="ht
 <h2 id="data-representation">Data Representation</h2>
 
 <p>In <a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a> of this series, I alluded to various implementations that utilize different input encodings. Naturally, the information we can leverage depends on the format of our training data. 
-For instance, MIDI provides us with attributes such as pitch, duration, and velocity.</p>
-
-<p>In my <a href="">implementation</a>, you will notice two distinct, yet straightforward encoding options available.</p>
+For instance, MIDI provides us with attributes such as pitch, duration, and velocity.
+In my <a href="">implementation</a>, you will notice two distinct, yet straightforward encoding options available.</p>
 
 <ol>
   <li><code class="language-plaintext highlighter-rouge">GridEncoder</code> used by Valerio Velardo</li>
@@ -152,7 +149,7 @@ For instance, MIDI provides us with attributes such as pitch, duration, and velo
 <p>In comparison to <em>note encoding</em>, <em>equitemporal grid encoding</em> relies on a smaller alphabet but needs more tokens for the same score.
 This disadvantage is magnified if the score contains notes of vastly differing durations or if we wish to introduce micro-dynamics through an increase in resolution, as done by <a class="citation" href="#oore:2018">(Oore et al., 2018)</a>.</p>
 
-<p>Interestingly, Google’s <a href="https://magenta.tensorflow.org/">Magenta project</a> employs <em>equitemporal grid encoding</em>, specifically the <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">MelodyOneHotEncoding</a> class for their <em>Basic RNN</em>, <em>Mono RNN</em>, and <em>Lookback RNN</em>. 
+<p>Interestingly, Google’s <a href="https://magenta.tensorflow.org/">Magenta project</a> employs <em>equitemporal grid encoding</em>, specifically the <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">MelodyOneHotEncoding</a> class for their <em>BasicRNN</em>, <em>MonoRNN</em>, and <em>LookbackRNN</em>. 
 Since they capture polyphonic scores, they utilize <strong>note-on</strong> and <strong>note-off</strong> events for each MIDI key.</p>
 
 <p>Of course, the chosen representation also depends on the application and the capabilities of the model we use. 
@@ -165,7 +162,7 @@ Therefore, an <em>equitemporal grid encoding</em> would yield unsatisfactory res
 <h2 id="preprocessing">Preprocessing</h2>
 
 <p>The procedure I’m about to present parallels the one detailed in <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>. 
-The primary differences are that we’ll now be considering 1700 pieces instead of a single one, and we’ll be utilizing more sophisticated libraries instead of relying solely on <a href="https://sonic-pi.net/">Sonic Pi</a>.</p>
+The primary differences are that we’ll now be considering 1700 pieces instead of a single one, and we utilize more sophisticated libraries instead of relying solely on <a href="https://sonic-pi.net/">Sonic Pi</a>.</p>
 
 <p>The <a href="http://web.mit.edu/music21/">Music21</a> library significantly simplifies the handling of symbolically notated music in <code class="language-plaintext highlighter-rouge">Python</code>.
 I am not so familiar with it but it comes in handy when reading and writing symoblic scores.
@@ -450,8 +447,11 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 <h3 id="what-is-going-on">What is going on?</h3>
 
-<p>Let us assume we have only one sample $\mathbf{x}$.
-The <em>forward pass</em> starts with</p>
+<p>Let us assume we have only one sample $\mathbf{x}$.</p>
+
+<h4 id="forward-pass">Forward Pass:</h4>
+
+<p>The <em>forward pass</em> starts with</p>
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W}\]
 
@@ -501,7 +501,7 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 <p>Note that $\mathbf{y}$ is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
 
-<hr />
+<h4 id="backword-pass">Backword Pass:</h4>
 
 <p>For the <em><a href="https://en.wikipedia.org/wiki/Backpropagation">backpropagation</a></em> we need</p>
 
@@ -573,7 +573,7 @@ Using the following code:</p>
 </span><span class="k">print</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">==</span> <span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">))</span> <span class="c1"># all true
 </span></code></pre></div></div>
 
-<hr />
+<h4 id="batching">Batching:</h4>
 
 <p>So far we only considered the math using a single data point $\mathbf{x}$.
 Let us consider a batch of points, i.e.,</p>

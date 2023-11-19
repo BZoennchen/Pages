@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Musical Interrogation - Part II"
+title:  "Musical Interrogation I - FFN"
 tags: Music ML FFN MC
 comments: true
 ---
@@ -9,12 +9,10 @@ This post is part of a series of blog posts:
 
 1. [Part I]({% post_url 2023-04-02-musical-interrogation-I %})
 2. Part II
-3. Part III
-
+3. [Part III]({% post_url 2023-11-19-musical-interrogation-III %})
+4. Part IV (coming soon)
+   
 The code used here can be found in the following GitHub [repository](https://github.com/BZoennchen/musical-interrogation).
-
-***
-
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches:
 
@@ -52,7 +50,6 @@ Let's listen to one of these pieces:
 
 In [Part I]({% post_url 2023-04-02-musical-interrogation-I %}) of this series, I alluded to various implementations that utilize different input encodings. Naturally, the information we can leverage depends on the format of our training data. 
 For instance, MIDI provides us with attributes such as pitch, duration, and velocity.
-
 In my [implementation](), you will notice two distinct, yet straightforward encoding options available.
 
 1. ``GridEncoder`` used by Valerio Velardo
@@ -69,7 +66,7 @@ On the other hand, the ``NoteEncoder`` employs a larger alphabet and encodes one
 In comparison to *note encoding*, *equitemporal grid encoding* relies on a smaller alphabet but needs more tokens for the same score.
 This disadvantage is magnified if the score contains notes of vastly differing durations or if we wish to introduce micro-dynamics through an increase in resolution, as done by {% cite oore:2018 %}.
 
-Interestingly, Google's [Magenta project](https://magenta.tensorflow.org/) employs *equitemporal grid encoding*, specifically the [MelodyOneHotEncoding](https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py) class for their *Basic RNN*, *Mono RNN*, and *Lookback RNN*. 
+Interestingly, Google's [Magenta project](https://magenta.tensorflow.org/) employs *equitemporal grid encoding*, specifically the [MelodyOneHotEncoding](https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py) class for their *BasicRNN*, *MonoRNN*, and *LookbackRNN*. 
 Since they capture polyphonic scores, they utilize **note-on** and **note-off** events for each MIDI key.
 
 Of course, the chosen representation also depends on the application and the capabilities of the model we use. 
@@ -82,7 +79,7 @@ As a result, in this post, I will focus on the *note encoding* approach, i.e. ``
 ## Preprocessing
 
 The procedure I'm about to present parallels the one detailed in [Probabilistic Melody Modeling]({% post_url 2022-07-09-markov-chains-for-music-generation %}). 
-The primary differences are that we'll now be considering 1700 pieces instead of a single one, and we'll be utilizing more sophisticated libraries instead of relying solely on [Sonic Pi](https://sonic-pi.net/).
+The primary differences are that we'll now be considering 1700 pieces instead of a single one, and we utilize more sophisticated libraries instead of relying solely on [Sonic Pi](https://sonic-pi.net/).
 
 The [Music21](http://web.mit.edu/music21/) library significantly simplifies the handling of symbolically notated music in ``Python``.
 I am not so familiar with it but it comes in handy when reading and writing symoblic scores.
@@ -380,6 +377,9 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 ### What is going on?
 
 Let us assume we have only one sample $\mathbf{x}$.
+
+#### Forward Pass:
+
 The *forward pass* starts with
 
 $$\mathbf{o} = \mathbf{x} \cdot \mathbf{W}$$
@@ -436,7 +436,7 @@ where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,
 
 Note that $\mathbf{y}$ is a one-hot encoded vector, ``ys`` is not.
 
-***
+#### Backword Pass:
 
 For the *[backpropagation](https://en.wikipedia.org/wiki/Backpropagation)* we need
 
@@ -517,7 +517,7 @@ print(xenc.T @ (probs-y)) # same
 print(W.grad == xenc.T @ (probs-y)) # all true
 ```
 
-***
+#### Batching:
 
 So far we only considered the math using a single data point $\mathbf{x}$.
 Let us consider a batch of points, i.e., 

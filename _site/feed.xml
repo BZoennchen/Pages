@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-19T14:45:27+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-19T19:16:05+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
@@ -282,7 +282,346 @@ This step is accomplished, for Spencer-Brown, in <strong>thinking</strong> with 
 
 <ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - RNN</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - RNN" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of the <em><a href="/Pages/2023/04/02/musical-interrogation-I.html">Musical Interrogation I - Intro</a></em> and <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em>.
+It is recommended that you read the these articles first.
+This time we use a recurrent neural network, more preceisly an LSTM.
+The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
+Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+
+<h2 id="data-preparation">Data Preparation</h2>
+
+<p>Again we use the data from <a href="http://kern.ccarh.org">EsAC</a>. 
+The specific dataset I utilized is <a href="https://kern.humdrum.org/cgi-bin/ksdata?l=/essen/europa&amp;format=recursive">Folksongs from the continent of Europe</a> and for the purpose of this work, I will exclusively use the 1700 pieces found in the <code class="language-plaintext highlighter-rouge">./deutschl/erk</code> directory.</p>
+
+<p>We assume that 1/16 is the shortest note in our dataset.
+The <code class="language-plaintext highlighter-rouge">GridEncoder</code> automatically filters out pieces that do not fulfill this condition.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">time_step</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="mi">16</span>
+<span class="n">encoder</span> <span class="o">=</span> <span class="n">GridEncoder</span><span class="p">(</span><span class="n">time_step</span><span class="p">)</span>
+<span class="n">enc_songs</span><span class="p">,</span> <span class="n">invalid_song_indices</span> <span class="o">=</span> <span class="n">encoder</span><span class="p">.</span><span class="n">encode_songs</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'there are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">enc_songs</span><span class="p">)</span><span class="si">}</span><span class="s"> valid songs and </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">invalid_song_indices</span><span class="p">)</span><span class="si">}</span><span class="s"> songs'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Let us look at an example encoded of a piece:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>55 _ _ _ 60 _ _ _ 60 _ _ _ 60 _ _ _ 60 _ _ _ 64 _ _ _ 64 _ _ _ r _ _ _ 62 _ 64 _ 65 ...
+</code></pre></div></div>
+
+<p>As we discussed in the last article, <code class="language-plaintext highlighter-rouge">55 _ _ _</code> stands for the midinote <code class="language-plaintext highlighter-rouge">55</code> played for 4 beats where one beat is 1/16 note.
+Therefore, this is a 1/4 note.
+Likewise, <code class="language-plaintext highlighter-rouge">r _ _ _</code> is a 1/4 rest.</p>
+
+<p>Netx the <code class="language-plaintext highlighter-rouge">StringToIntEncoder</code> converts our alphabet of tokens into positive integers.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">string_to_int</span> <span class="o">=</span> <span class="n">StringToIntEncoder</span><span class="p">(</span><span class="n">enc_songs</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Next, we use <code class="language-plaintext highlighter-rouge">ScoreDataset</code> to arrange our training data.
+It requires our encoded songs, the instance of <code class="language-plaintext highlighter-rouge">StringToIntEncoder</code> and a <em>hyperparameter</em> <code class="language-plaintext highlighter-rouge">sequence_len</code> that configures the length of token sequences our model will be trained on.
+The longer the sequence, the longer the training will require because the deeper the recurrent neural network will be.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sequence_len</span> <span class="o">=</span> <span class="mi">64</span> <span class="c1"># this is a hyperparameter!
+</span><span class="n">dataset</span> <span class="o">=</span> <span class="n">ScoreDataset</span><span class="p">(</span>
+    <span class="n">enc_songs</span><span class="o">=</span><span class="n">enc_songs</span><span class="p">,</span> 
+    <span class="n">stoi_encoder</span><span class="o">=</span><span class="n">string_to_int</span><span class="p">,</span> 
+    <span class="n">sequence_len</span><span class="o">=</span><span class="n">sequence_len</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>It is now possible to split our data into training, validation and test set.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train_set</span><span class="p">,</span> <span class="n">val_set</span><span class="p">,</span> <span class="n">test_set</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">utils</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">random_split</span><span class="p">(</span><span class="n">dataset</span><span class="p">,</span> <span class="p">[</span><span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">])</span>
+</code></pre></div></div>
+
+<h2 id="model-definition">Model Definition</h2>
+
+<p>Firt we define the rest of our <em>hyperparameters</em>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">vocab_size</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">string_to_int</span><span class="p">)</span> <span class="c1"># size of our alphabet
+</span><span class="n">input_dim</span> <span class="o">=</span> <span class="n">vocab_size</span> <span class="c1"># can be different
+</span><span class="n">hidden_dim</span> <span class="o">=</span> <span class="mi">128</span> <span class="c1"># can be different
+</span><span class="n">layer_dim</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1"># can be different
+</span><span class="n">output_dim</span> <span class="o">=</span> <span class="n">vocab_size</span> <span class="c1"># should not be different
+</span><span class="n">dropout</span> <span class="o">=</span> <span class="mf">0.2</span> <span class="c1"># can be different
+</span>
+<span class="n">criterion</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">CrossEntropyLoss</span><span class="p">()</span>
+
+<span class="n">learning_rate</span> <span class="o">=</span> <span class="mf">0.001</span> <span class="c1"># can be different
+</span><span class="n">batch_size</span> <span class="o">=</span> <span class="mi">64</span> <span class="c1"># can be different
+</span><span class="n">n_epochs</span> <span class="o">=</span> <span class="mi">10</span> <span class="c1"># can be different
+</span><span class="n">eval_interval</span> <span class="o">=</span> <span class="mi">100</span> <span class="c1"># can be different
+</span></code></pre></div></div>
+
+<p>Before explaining every detail, let us look at the model definition first.
+The following is the model description of our RNN/LSTM.
+To understand what’s going on, look at the forward method.
+This sends our data through the network.</p>
+
+<p>The first two lines create the short-term and long-term memory and fill them with zeros.</p>
+
+<p>Then an embedding takes place: <code class="language-plaintext highlighter-rouge">x = self.embedding(x)</code>.
+This is nothing more than what we did with our simple feedforward net in [Part II]: Each element of the input <code class="language-plaintext highlighter-rouge">x</code> is first one-hot encoded and then multiplied by a matrix. 
+The result: Each event is represented by the row of a matrix (with learnable parameters).
+The matrix has <code class="language-plaintext highlighter-rouge">vocab_size</code> rows and <code class="language-plaintext highlighter-rouge">input_dim</code> columns.</p>
+
+<p>Next, we send our transformed input through our LSTM out, <code class="language-plaintext highlighter-rouge">(ht, ct) = self.lstm(x, (h0, c0))</code>.
+We get as many outputs as our sequence is long, i.e., <code class="language-plaintext highlighter-rouge">sequence_len</code> many.
+But we are only interested in the last output, which we get by <code class="language-plaintext highlighter-rouge">out[:, -1, :]</code>.
+This is a vector with <code class="language-plaintext highlighter-rouge">hidden_dim elements</code>. 
+We don’t need <code class="language-plaintext highlighter-rouge">ht</code> and <code class="language-plaintext highlighter-rouge">ct</code>.</p>
+
+<p>Then we send the last output through a dropout layer to counteract <em>overfitting</em>.</p>
+
+<p>In the last step, we transform the <code class="language-plaintext highlighter-rouge">hidden_dim</code>-dimensional vector into an <code class="language-plaintext highlighter-rouge">output_dim</code>-dimensional vector, which is equal to <code class="language-plaintext highlighter-rouge">vocab_size</code>.
+This vector is interpreted as a probability distribution.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">LSTMModel</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">layer_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">dropout</span><span class="o">=</span><span class="mf">0.2</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">LSTMModel</span><span class="p">,</span> <span class="bp">self</span><span class="p">).</span><span class="n">__init__</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">hidden_dim</span> <span class="o">=</span> <span class="n">hidden_dim</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">layer_dim</span> <span class="o">=</span> <span class="n">layer_dim</span>
+        
+        <span class="bp">self</span><span class="p">.</span><span class="n">embedding</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Embedding</span><span class="p">(</span><span class="n">vocab_size</span><span class="p">,</span> <span class="n">input_dim</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lstm</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">LSTM</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">layer_dim</span><span class="p">,</span> <span class="n">batch_first</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">fc</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="n">h0</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">layer_dim</span><span class="p">,</span> <span class="n">x</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="bp">self</span><span class="p">.</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">c0</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">layer_dim</span><span class="p">,</span> <span class="n">x</span><span class="p">.</span><span class="n">size</span><span class="p">(</span><span class="mi">0</span><span class="p">),</span> <span class="bp">self</span><span class="p">.</span><span class="n">hidden_dim</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+        
+        <span class="c1"># x = B, T, C
+</span>        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">embedding</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+        
+        <span class="n">out</span><span class="p">,</span> <span class="p">(</span><span class="n">ht</span><span class="p">,</span> <span class="n">ct</span><span class="p">)</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">lstm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="p">(</span><span class="n">h0</span><span class="p">,</span> <span class="n">c0</span><span class="p">))</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">out</span><span class="p">[:,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="p">:])</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">fc</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">out</span> <span class="c1"># B, C
+</span></code></pre></div></div>
+
+<p>Next, we initialize the model:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model</span> <span class="o">=</span> <span class="n">LSTMModel</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">layer_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span>
+<span class="n">model</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>  <span class="c1"># use gpu if possible
+</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">optim</span><span class="p">.</span><span class="n">Adam</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="n">parameters</span><span class="p">(),</span> <span class="n">lr</span><span class="o">=</span><span class="n">learning_rate</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="n">parameters</span><span class="p">()))):</span>
+    <span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="n">parameters</span><span class="p">())[</span><span class="n">i</span><span class="p">].</span><span class="n">shape</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>We could play with different hyperparameters.
+Increasing <code class="language-plaintext highlighter-rouge">hidden_dim</code> basically increases the complexity of the “memory” of the LSTM.
+We surely want to increase <code class="language-plaintext highlighter-rouge">n_epochs</code> to increase number of times the LSTM “sees” all training data.</p>
+
+<p>We can visualize the LSTM by utilizing the <code class="language-plaintext highlighter-rouge">draw_graph</code> function from the <code class="language-plaintext highlighter-rouge">torchview</code> package.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># (batch_size, sequence_len)
+</span><span class="n">X_vis</span><span class="p">,</span> <span class="n">y_vis</span> <span class="o">=</span> <span class="n">train_set</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">batch_size</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'shape of X_vis: </span><span class="si">{</span><span class="n">X_vis</span><span class="p">.</span><span class="n">shape</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'shape of y_vis: </span><span class="si">{</span><span class="n">y_vis</span><span class="p">.</span><span class="n">shape</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'number of different symbols </span><span class="si">{</span><span class="n">vocab_size</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+<span class="n">X_vis</span><span class="p">,</span> <span class="n">y_vis</span> <span class="o">=</span> <span class="n">X_vis</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">y_vis</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+<span class="n">model_vis</span> <span class="o">=</span> <span class="n">LSTMModel</span><span class="p">(</span><span class="n">input_dim</span><span class="p">,</span> <span class="n">hidden_dim</span><span class="p">,</span> <span class="n">layer_dim</span><span class="p">,</span> <span class="n">output_dim</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span>
+<span class="n">model_graph</span> <span class="o">=</span> <span class="n">draw_graph</span><span class="p">(</span><span class="n">model_vis</span><span class="p">,</span> <span class="n">input_data</span><span class="o">=</span><span class="n">X_vis</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+<span class="n">model_graph</span><span class="p">.</span><span class="n">visual_graph</span>
+</code></pre></div></div>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/lstm-model.png" alt="LSTM model" />
+<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model.</div>
+</div>
+<p><br /></p>
+
+<h2 id="melody-generation-before-training">Melody Generation (Before Training)</h2>
+
+<p>Given a sequence of arbitrary length, the <code class="language-plaintext highlighter-rouge">generate</code> function is used to generate a new piece of music.
+<code class="language-plaintext highlighter-rouge">temperature</code> determines how much the probability distribution learned by the model is considered.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">temperature</code> equal to 1.0 means that sampling is done from the probability distribution.</li>
+  <li><code class="language-plaintext highlighter-rouge">temperature</code> approaching infinity means that sampling is done uniformly (more variation).</li>
+  <li><code class="language-plaintext highlighter-rouge">temperature</code> approaching 0 means that higher probabilities are emphasized (less variation).</li>
+</ul>
+
+<p>We can set a maximum length for the piece and also provide the beginning of a piece.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">next_event_number</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">temperature</span><span class="p">:</span><span class="nb">float</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+        <span class="n">logits</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
+        <span class="n">probs</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">logits</span> <span class="o">/</span> <span class="n">temperature</span><span class="p">,</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># B, C
+</span>        <span class="n">idx_next</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">multinomial</span><span class="p">(</span><span class="n">probs</span><span class="p">,</span> <span class="n">num_samples</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">idx_next</span>
+
+<span class="k">def</span> <span class="nf">generate</span><span class="p">(</span><span class="n">seq</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">max_len</span><span class="p">:</span><span class="nb">int</span><span class="o">=</span><span class="bp">None</span><span class="p">,</span> <span class="n">temperature</span><span class="p">:</span><span class="nb">float</span><span class="o">=</span><span class="mf">1.0</span><span class="p">):</span>
+    <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="n">no_grad</span><span class="p">():</span>
+        <span class="n">generated_encoded_song</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">if</span> <span class="n">seq</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span>
+                <span class="p">[[</span><span class="n">string_to_int</span><span class="p">.</span><span class="n">encode</span><span class="p">(</span><span class="n">char</span><span class="p">)</span> <span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">]],</span> 
+                <span class="n">device</span><span class="o">=</span><span class="n">device</span>
+            <span class="p">)</span>
+            <span class="n">generated_encoded_song</span> <span class="o">=</span> <span class="n">seq</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">([[</span><span class="n">string_to_int</span><span class="p">.</span><span class="n">encode</span><span class="p">(</span><span class="n">TERM_SYMBOL</span><span class="p">)]],</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
+        
+        <span class="k">while</span> <span class="n">max_len</span> <span class="o">==</span> <span class="bp">None</span> <span class="ow">or</span> <span class="n">max_len</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">generated_encoded_song</span><span class="p">):</span>
+            <span class="n">idx_next</span> <span class="o">=</span> <span class="n">next_event_number</span><span class="p">(</span><span class="n">idx</span><span class="p">,</span> <span class="n">temperature</span><span class="p">)</span>
+            <span class="n">char</span> <span class="o">=</span> <span class="n">string_to_int</span><span class="p">.</span><span class="n">decode</span><span class="p">(</span><span class="n">idx_next</span><span class="p">.</span><span class="n">item</span><span class="p">())</span>
+            <span class="k">if</span> <span class="n">idx_next</span> <span class="o">==</span> <span class="n">string_to_int</span><span class="p">.</span><span class="n">encode</span><span class="p">(</span><span class="n">TERM_SYMBOL</span><span class="p">):</span>
+                <span class="k">break</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">((</span><span class="n">idx</span><span class="p">,</span> <span class="n">idx_next</span><span class="p">),</span> <span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># B, T+1, C
+</span>            <span class="n">generated_encoded_song</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">char</span><span class="p">)</span>
+            
+        <span class="k">return</span> <span class="n">generated_encoded_song</span>
+</code></pre></div></div>
+
+<p>Of course, the results are almost random because the parameters of our model are initialized randomly and we did not train it yet.
+The following code snippet generates 5 scores.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># number of songs we want to generate
+</span><span class="n">n_scores</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">temperature</span> <span class="o">=</span> <span class="mf">0.6</span>
+<span class="n">before_new_songs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_scores</span><span class="p">):</span>
+    <span class="n">encoded_song</span> <span class="o">=</span> <span class="n">generate</span><span class="p">(</span><span class="n">max_len</span><span class="o">=</span><span class="mi">13</span><span class="p">,</span><span class="n">temperature</span><span class="o">=</span><span class="n">temperature</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'generated </span><span class="si">{</span><span class="s">" "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span><span class="si">}</span><span class="s"> conisting of </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span><span class="si">}</span><span class="s"> notes'</span><span class="p">)</span>
+    <span class="n">before_new_songs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Let’s listen to the first one:</p>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/before_g_song.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>
+
+<h2 id="training">Training</h2>
+
+<p>For training, we use something called a <code class="language-plaintext highlighter-rouge">DataLoader</code>. 
+This helps us to access our data more easily. 
+For example, we shuffle our data before training.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">train_set</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">val_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">val_set</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">test_loader</span> <span class="o">=</span> <span class="n">DataLoader</span><span class="p">(</span><span class="n">test_set</span><span class="p">,</span> <span class="n">batch_size</span><span class="o">=</span><span class="n">batch_size</span><span class="p">,</span><span class="n">shuffle</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The code for training seems a bit complicated because we use batches. 
+This is due to dealing with a large amount of data, and we don’t send all of it through the network at once (per training step), but only a part of it, namely <code class="language-plaintext highlighter-rouge">batch_size</code> many. 
+An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by the fact that all training data have been sent through the network once.</p>
+
+<p>In essence, nothing else happens but:</p>
+
+<ol>
+  <li>Send Batch through the network (Forward pass)</li>
+  <li>Calculate error/cost</li>
+  <li>Propagate gradients of the cost function with respect to the model parameters backwards through the network (Backward pass)</li>
+  <li>Update model parameters</li>
+</ol>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">train_one_epoch</span><span class="p">(</span><span class="n">epoch_index</span><span class="p">,</span> <span class="n">tb_writer</span><span class="p">,</span> <span class="n">n_epochs</span><span class="p">):</span>
+    <span class="n">running_loss</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">last_loss</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="n">all_steps</span> <span class="o">=</span> <span class="n">n_epochs</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span>
+    
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">train_loader</span><span class="p">):</span>
+        <span class="n">local_X</span><span class="p">,</span> <span class="n">local_y</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="n">local_X</span><span class="p">,</span> <span class="n">local_y</span> <span class="o">=</span> <span class="n">local_X</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">local_y</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+        <span class="n">optimizer</span><span class="p">.</span><span class="n">zero_grad</span><span class="p">()</span>
+        <span class="n">outputs</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">local_X</span><span class="p">)</span>
+        
+        <span class="n">loss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">outputs</span><span class="p">,</span> <span class="n">local_y</span><span class="p">)</span>
+        <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+        <span class="n">optimizer</span><span class="p">.</span><span class="n">step</span><span class="p">()</span>
+        
+        <span class="n">running_loss</span> <span class="o">+=</span> <span class="n">loss</span><span class="p">.</span><span class="n">item</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">i</span> <span class="o">%</span> <span class="n">eval_interval</span> <span class="o">==</span> <span class="n">eval_interval</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+            <span class="n">last_loss</span> <span class="o">=</span> <span class="n">running_loss</span> <span class="o">/</span> <span class="n">eval_interval</span>
+            
+            <span class="n">steps</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+            
+            <span class="k">print</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch_index</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Step [</span><span class="si">{</span><span class="n">steps</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">all_steps</span><span class="si">}</span><span class="s">], Loss: </span><span class="si">{</span><span class="n">last_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+            <span class="n">tb_x</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+            <span class="n">tb_writer</span><span class="p">.</span><span class="n">add_scalar</span><span class="p">(</span><span class="s">'Loss/train'</span><span class="p">,</span> <span class="n">last_loss</span><span class="p">,</span> <span class="n">tb_x</span><span class="p">)</span>
+            <span class="n">running_loss</span> <span class="o">=</span> <span class="mf">0.</span>
+            
+    <span class="k">return</span> <span class="n">last_loss</span>
+
+<span class="c1"># Initializing in a separate cell so we can easily add more epochs to the same run
+</span><span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="n">n_epochs</span><span class="p">,</span><span class="n">respect_val</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+    <span class="n">timestamp</span> <span class="o">=</span> <span class="n">datetime</span><span class="p">.</span><span class="n">now</span><span class="p">().</span><span class="n">strftime</span><span class="p">(</span><span class="s">'%Y%m%d_%H%M%S'</span><span class="p">)</span>
+    <span class="n">writer</span> <span class="o">=</span> <span class="n">SummaryWriter</span><span class="p">(</span><span class="s">'runs/fashion_trainer_{}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">timestamp</span><span class="p">))</span>
+    <span class="n">best_vloss</span> <span class="o">=</span> <span class="mi">1_000_000</span>
+
+    <span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_epochs</span><span class="p">):</span>    
+        <span class="n">model</span><span class="p">.</span><span class="n">train</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">avg_loss</span> <span class="o">=</span> <span class="n">train_one_epoch</span><span class="p">(</span><span class="n">epoch</span><span class="p">,</span> <span class="n">writer</span><span class="p">,</span> <span class="n">n_epochs</span><span class="p">)</span>
+        
+        <span class="n">model</span><span class="p">.</span><span class="n">train</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+        <span class="n">running_vloss</span> <span class="o">=</span> <span class="mf">0.0</span>
+        
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">vdata</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">val_loader</span><span class="p">):</span>
+            
+            <span class="n">local_X</span><span class="p">,</span> <span class="n">local_y</span> <span class="o">=</span> <span class="n">vdata</span>
+            <span class="n">local_X</span><span class="p">,</span> <span class="n">local_y</span> <span class="o">=</span> <span class="n">local_X</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">local_y</span><span class="p">.</span><span class="n">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+            
+            <span class="n">voutputs</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">local_X</span><span class="p">)</span>
+            <span class="n">vloss</span> <span class="o">=</span> <span class="n">criterion</span><span class="p">(</span><span class="n">voutputs</span><span class="p">,</span> <span class="n">local_y</span><span class="p">)</span>
+            <span class="n">running_vloss</span> <span class="o">+=</span> <span class="n">vloss</span>
+            
+        <span class="n">avg_vloss</span> <span class="o">=</span> <span class="n">running_vloss</span> <span class="o">/</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Train-Loss: </span><span class="si">{</span><span class="n">avg_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">, Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+        
+        <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> <span class="n">epoch</span><span class="p">)</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">flush</span><span class="p">()</span>
+        
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">respect_val</span> <span class="ow">or</span> <span class="p">(</span><span class="n">respect_val</span> <span class="ow">and</span> <span class="n">avg_vloss</span> <span class="o">&lt;</span> <span class="n">best_vloss</span><span class="p">):</span>
+            <span class="n">best_vloss</span> <span class="o">=</span> <span class="n">avg_vloss</span>
+            <span class="n">model_path</span> <span class="o">=</span> <span class="s">'./models/_model_{}_{}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">timestamp</span><span class="p">,</span> <span class="n">epoch</span><span class="p">)</span>
+            <span class="n">torch</span><span class="p">.</span><span class="n">save</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="n">state_dict</span><span class="p">(),</span> <span class="n">model_path</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Calling <code class="language-plaintext highlighter-rouge">train</code> starts the training.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">train</span><span class="p">(</span><span class="n">n_epochs</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The best model from the training can be found in the folder <code class="language-plaintext highlighter-rouge">./models</code> and can be loaded as follows</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">model_path</span> <span class="o">=</span> <span class="s">'./models/pretrained_1_128_best_val'</span>
+
+<span class="k">if</span> <span class="n">device</span><span class="p">.</span><span class="nb">type</span> <span class="o">==</span> <span class="s">'cpu'</span><span class="p">:</span>
+    <span class="n">model</span><span class="p">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">model_path</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'cpu'</span><span class="p">)))</span>
+<span class="k">elif</span> <span class="n">torch</span><span class="p">.</span><span class="n">backends</span><span class="p">.</span><span class="n">mps</span><span class="p">.</span><span class="n">is_available</span><span class="p">():</span>
+    <span class="n">model</span><span class="p">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">model_path</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'mps'</span><span class="p">)))</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">model</span><span class="p">.</span><span class="n">load_state_dict</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">model_path</span><span class="p">))</span>
+<span class="n">model</span><span class="p">.</span><span class="nb">eval</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="melody-generation-after-training">Melody Generation (After Training)</h2>
+
+<p>After training or after we load our pretrained model, we generate new pieces:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_scores</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">temperature</span> <span class="o">=</span> <span class="mf">0.6</span>
+<span class="n">after_new_songs</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_scores</span><span class="p">):</span>
+    <span class="n">encoded_song</span> <span class="o">=</span> <span class="n">generate</span><span class="p">(</span><span class="n">max_len</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span><span class="n">temperature</span><span class="o">=</span><span class="n">temperature</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'generated </span><span class="si">{</span><span class="s">" "</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span><span class="si">}</span><span class="s"> conisting of </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span><span class="si">}</span><span class="s"> notes'</span><span class="p">)</span>
+    <span class="n">after_new_songs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">encoded_song</span><span class="p">)</span>
+
+<span class="n">after_generated_scores</span> <span class="o">=</span> <span class="n">encoder</span><span class="p">.</span><span class="n">decode_songs</span><span class="p">(</span><span class="n">after_new_songs</span><span class="p">)</span>
+<span class="n">Audio</span><span class="p">(</span><span class="n">score_to_wav</span><span class="p">(</span><span class="n">after_generated_scores</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s">'a_g_song.wav'</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>We start to hear repetition and some structure within the piece:</p>
+
+<audio controls="">
+  <source src="/Pages/assets/audio/a_g_song.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of the Musical Interrogation I - Intro and Part II - FNN. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM. The article gives some explanation to the code in the following notebook which can be executed on Google Colab. Because our model is now able to learn long-time relations, we can use the GridEncoder, i.e., a piano roll data representation which is exaclty what we do.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -1110,19 +1449,17 @@ Is social evolution any different?</p>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, There and Everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
 <li><span id="nagel:1974">Nagel, T. (1974). What is It Like to Be a Bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li>
 <li><span id="foerster:1988">Foerster, H. (1985). <i>Sicht und Einsicht</i>. Vieweg.</span></li>
-<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation - Part II</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation - Part II" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
+<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation I - FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation I - FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
 
 <ol>
   <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
   <li>Part II</li>
-  <li>Part III</li>
+  <li><a href="/Pages/2023/11/19/musical-interrogation-III.html">Part III</a></li>
+  <li>Part IV (coming soon)</li>
 </ol>
 
-<p>The code used here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.</p>
-
-<hr />
-
-<p>In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
+<p>The code used here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
+In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches:</p>
 
 <ol>
@@ -1162,9 +1499,8 @@ The inspiration for this work comes from the tutorial series made by <a href="ht
 <h2 id="data-representation">Data Representation</h2>
 
 <p>In <a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a> of this series, I alluded to various implementations that utilize different input encodings. Naturally, the information we can leverage depends on the format of our training data. 
-For instance, MIDI provides us with attributes such as pitch, duration, and velocity.</p>
-
-<p>In my <a href="">implementation</a>, you will notice two distinct, yet straightforward encoding options available.</p>
+For instance, MIDI provides us with attributes such as pitch, duration, and velocity.
+In my <a href="">implementation</a>, you will notice two distinct, yet straightforward encoding options available.</p>
 
 <ol>
   <li><code class="language-plaintext highlighter-rouge">GridEncoder</code> used by Valerio Velardo</li>
@@ -1182,7 +1518,7 @@ For instance, MIDI provides us with attributes such as pitch, duration, and velo
 <p>In comparison to <em>note encoding</em>, <em>equitemporal grid encoding</em> relies on a smaller alphabet but needs more tokens for the same score.
 This disadvantage is magnified if the score contains notes of vastly differing durations or if we wish to introduce micro-dynamics through an increase in resolution, as done by <a class="citation" href="#oore:2018">(Oore et al., 2018)</a>.</p>
 
-<p>Interestingly, Google’s <a href="https://magenta.tensorflow.org/">Magenta project</a> employs <em>equitemporal grid encoding</em>, specifically the <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">MelodyOneHotEncoding</a> class for their <em>Basic RNN</em>, <em>Mono RNN</em>, and <em>Lookback RNN</em>. 
+<p>Interestingly, Google’s <a href="https://magenta.tensorflow.org/">Magenta project</a> employs <em>equitemporal grid encoding</em>, specifically the <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">MelodyOneHotEncoding</a> class for their <em>BasicRNN</em>, <em>MonoRNN</em>, and <em>LookbackRNN</em>. 
 Since they capture polyphonic scores, they utilize <strong>note-on</strong> and <strong>note-off</strong> events for each MIDI key.</p>
 
 <p>Of course, the chosen representation also depends on the application and the capabilities of the model we use. 
@@ -1195,7 +1531,7 @@ Therefore, an <em>equitemporal grid encoding</em> would yield unsatisfactory res
 <h2 id="preprocessing">Preprocessing</h2>
 
 <p>The procedure I’m about to present parallels the one detailed in <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>. 
-The primary differences are that we’ll now be considering 1700 pieces instead of a single one, and we’ll be utilizing more sophisticated libraries instead of relying solely on <a href="https://sonic-pi.net/">Sonic Pi</a>.</p>
+The primary differences are that we’ll now be considering 1700 pieces instead of a single one, and we utilize more sophisticated libraries instead of relying solely on <a href="https://sonic-pi.net/">Sonic Pi</a>.</p>
 
 <p>The <a href="http://web.mit.edu/music21/">Music21</a> library significantly simplifies the handling of symbolically notated music in <code class="language-plaintext highlighter-rouge">Python</code>.
 I am not so familiar with it but it comes in handy when reading and writing symoblic scores.
@@ -1480,8 +1816,11 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 <h3 id="what-is-going-on">What is going on?</h3>
 
-<p>Let us assume we have only one sample $\mathbf{x}$.
-The <em>forward pass</em> starts with</p>
+<p>Let us assume we have only one sample $\mathbf{x}$.</p>
+
+<h4 id="forward-pass">Forward Pass:</h4>
+
+<p>The <em>forward pass</em> starts with</p>
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W}\]
 
@@ -1531,7 +1870,7 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 <p>Note that $\mathbf{y}$ is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
 
-<hr />
+<h4 id="backword-pass">Backword Pass:</h4>
 
 <p>For the <em><a href="https://en.wikipedia.org/wiki/Backpropagation">backpropagation</a></em> we need</p>
 
@@ -1603,7 +1942,7 @@ Using the following code:</p>
 </span><span class="k">print</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">==</span> <span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">))</span> <span class="c1"># all true
 </span></code></pre></div></div>
 
-<hr />
+<h4 id="batching">Batching:</h4>
 
 <p>So far we only considered the math using a single data point $\mathbf{x}$.
 Let us consider a batch of points, i.e.,</p>
@@ -2218,7 +2557,7 @@ Being a Java application, it supports all operating systems, but <code class="la
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="fiebrink:2019">Fiebrink, R. (2019). Machine Learning Education for Artists, Musicians, and Other Creative Practitioners. <i>ACM Trans. Comput. Educ.</i>, <i>19</i>(4). https://doi.org/10.1145/3294008</span></li>
-<li><span id="clarice:2021">Hilton, C., Plant, N., González Dı́az Carlos, Perry, P., Gibson, R., Martelli, B., Zbyszynski, M., Fiebrink, R., &amp; Gillies, M. (2021). InteractML: Making Machine Learning Accessible for Creative Practitioners Working with Movement Interaction in Immersive Media. <i>Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology</i>. https://doi.org/10.1145/3489849.3489879</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="ML" /><category term="Wekinator" /><category term="Music" /><summary type="html"><![CDATA[This blog post aims to explore how machine learning can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills. To make my case immediately understandable, I will provide a specific example. However, it’s worth noting that this is just one of countless possible instances.]]></summary></entry><entry><title type="html">Musical Interrogation - Part I</title><link href="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html" rel="alternate" type="text/html" title="Musical Interrogation - Part I" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html"><![CDATA[<blockquote>
+<li><span id="clarice:2021">Hilton, C., Plant, N., González Dı́az Carlos, Perry, P., Gibson, R., Martelli, B., Zbyszynski, M., Fiebrink, R., &amp; Gillies, M. (2021). InteractML: Making Machine Learning Accessible for Creative Practitioners Working with Movement Interaction in Immersive Media. <i>Proceedings of the 27th ACM Symposium on Virtual Reality Software and Technology</i>. https://doi.org/10.1145/3489849.3489879</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="ML" /><category term="Wekinator" /><category term="Music" /><summary type="html"><![CDATA[This blog post aims to explore how machine learning can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills. To make my case immediately understandable, I will provide a specific example. However, it’s worth noting that this is just one of countless possible instances.]]></summary></entry><entry><title type="html">Musical Interrogation I - Intro</title><link href="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html" rel="alternate" type="text/html" title="Musical Interrogation I - Intro" /><published>2023-04-02T00:00:00+02:00</published><updated>2023-04-02T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/02/musical-interrogation-I.html"><![CDATA[<blockquote>
   <p>Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)</p>
 </blockquote>
 
@@ -3858,393 +4197,4 @@ The intelligence of <code class="language-plaintext highlighter-rouge">LaTeX</co
 Aside from executing code directly within the document, another advantage is the referencing.
 As a reader, It is much easier to navigate a well-referenced web page than navigate a large PDF file.</p>
 
-<p>Overall, I quite like it!</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Education" /><summary type="html"><![CDATA[Currently, I am working as a lecturer at the Munich University of Applied Sciences (MUAS) for the course Computational Thinking. We decided to use Python as our primary programming language. To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the Jupyter book technology.]]></summary></entry><entry><title type="html">Informatics - A Love Letter</title><link href="https://bzoennchen.github.io/Pages/2021/06/08/Informatics-a-love-letter.html" rel="alternate" type="text/html" title="Informatics - A Love Letter" /><published>2021-06-08T00:00:00+02:00</published><updated>2021-06-08T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2021/06/08/Informatics-a-love-letter</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2021/06/08/Informatics-a-love-letter.html"><![CDATA[<blockquote>
-  <p>“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” – Peter J. Denning <a class="citation" href="#denning:2005">(Denning, 2005)</a></p>
-</blockquote>
-
-<p>For me personally, informatics is an empowering discipline - it is part of the emancipation of men. 
-Its engineering quality can directly enable our fragile and limited body and mind. 
-But its magic goes beyond practical use. Similar to mathematics, we discover its beauty in an abstract world. 
-This Platonian world consists of fantastic, imaginative objects we can recognize, build and play with. 
-In it, the problems of men are absent. 
-There is no morality, no judgment, no conflict, no othering but harmony to enjoy, complex structures to discover, riddles to unravel, and logic-based creativity to get lost in.</p>
-
-<h2 id="informatics-is-an-art">Informatics is an Art</h2>
-
-<p>In popular culture, coding is often portrayed as something conspicuously ‘nerdy’ and alienating.
-A usually white ‘<em>creepy</em>’ man writes his code by typing seamlessly and rapidly into a black terminal.
-He never stops, he never interacts with other beings, and he never leaves his desk.
-Of course, everything works perfectly on the first try, and no one else seems to have any clue what’s going on.
-Intellectually, the programmer stands above everyone else; he is a genius, a mad scientist, or an introverted weirdo - only so important to do the necessary work and enable the ‘real’ hero.
-This toxic depiction of software developers (and introverted people) is wrong, dated, and was never accurate in the first place.</p>
-
-<p>From the outside, coding looks like the most boring thing on Earth.
-This assessment is, of course, utterly wrong!
-Writing programs is a beautiful, creative and interactive process.
-To somebody who does it, it is the most exciting thing in the world.
-It is a game of chess but much more involving because you can make up your own rules and build your own world.
-Elementary entities accumulate to something bigger, something interconnected.
-The degree of freedom and creativity this process of creation offers can hardly be explained or understood if one never experienced it first-hand.</p>
-
-<p>In no way does programming start in isolation at the computer, nor can we do it seamlessly.
-It is neither a strictly analytical nor a purely experimental process.
-Like writing an exciting story, it is a struggle, always!
-If it isn’t, we or someone else has already solved the puzzle - the exciting part has been gone.
-In that case, we do not create but translate.</p>
-
-<p>One of the fascinating facts is that, in the end, everything comes down to simple symbol manipulations, which we call information processes.
-Software developers scoop, transform, and use information.
-They design data structures and algorithms like architects draw construction plans.
-Additionally, they have the power to build, combine, reuse and extend those objects of structured information.
-They command machines of blind obedience.
-The degree of control translates to a form of power and self-determination absent in the physical world.
-As Linus Torvalds rightfully noted:</p>
-
-<blockquote>
-  <p>“[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale.” – Linus Torvalds</p>
-</blockquote>
-
-<p>In contrast to most other kinds of engineers, software developers can use a highly flexible and versatile resource.
-Information can be easily exchanged among peers, reshaped, conceptually described, and analyzed.
-In fact, it manipulates itself since any program is nothing more than well-structured information.
-Like many other materialized ideas, structured information arises from human thoughts; they result from a mental exercise.
-But the transformation of thoughts into objects of structured information is immediate.
-It is like writing a poem.
-Therefore, it can be an entirely personal and connecting experience to read the code, i.e., thoughts, of someone else.
-Over time, one learns to appreciate good code - its structure, aesthetic, modularity, level of abstraction, simplicity, consistency, and elegance.</p>
-
-<p>By learning different programming languages, one learns different perspectives. I love <code class="language-plaintext highlighter-rouge">Python</code>’s lists notation and that functions are first-class entities.
-But I’m not too fond of the indent notation.
-The success of a programming language is bound to its popularity. Do developers like it?
-Is it joyful to write code? Learning different programming languages taught me something about our natural language: the language I use forms my thoughts.
-If a statement can be efficiently and aesthetically pleasingly expressed in a certain way, programmers will choose that way.
-And sometimes, they overuse it. Furthermore, programmers look at a problem and go through their catalog of elegant expressions to find the one that fits.
-A programming language not only determines what we can express but also introduces a particular bias in how we will express it.
-The same is true for our natural language. 
-This seems not like a revolutionary insight, but we forget this fact in our daily life. 
-A change in language might have a more significant impact on material changes than we think.
-Furthermore, this also highlights a fundamental problem of the human condition: we need abstractions and standards to communicate with each other.
-But by using abstractions, we distance ourselves from others.</p>
-
-<p>If we look beyond the code, beyond ideas written down in text snippets, programs are written to be executed.
-And those programs can serve almost any domain.
-They control robots, harvest semantic information, control networks of devices, and simulate the natural world and other virtual worlds.
-They establish communication channels, send messages with the speed of light across the Earth, compose and play music, and constantly search for structures in a rapidly increasing cloud of data points.</p>
-
-<p>However, in the end, functionality is second to being exciting or pretty.
-Even coding itself is secondary.
-Figuring out how things work is the real deal.
-Since everything is self-consistent and logical, you can go on and on and never stop exploring.
-It is an endless stream, too immense for one lifetime.
-And you are not even bound to some external logic; you can make up your own as long as it is consistent.
-This consistency is a bright contrast to the corporate, social, and political world - it’s like going home to a place where everything is comprehensible, a place where you can find some truth within the bounds of its rules.</p>
-
-<h2 id="informatics-is-a-science">Informatics is a Science</h2>
-
-<p>As a software engineer, I want to build large architectures that process information.
-I want to express myself through code.
-In the world of physical objects, we have to study the properties of certain materials and the laws of physics to guarantee that our buildings do not collapse and rockets behave as expected.
-But how can we specify and verify structured information?
-How can we even define what we can compute?
-What is computable?
-Is sorting cards equally <em>hard</em> as solving a Sudoku?
-Here we enter yet another world, a formal one!</p>
-
-<p>Of course, those two worlds are never entirely separated.
-Formal methods and objects, like the Turing Machine, the Lambda Calculus, logic, grammars, and automata are the mathematical backbones of informatics.
-They are a particular kind of mathematically rigorous description of information manipulation (computation).
-By analyzing those objects, we get to the very fundamental and interesting questions.
-I was never hooked by the purpose of formal methods in software development (verification and specification).
-Instead, I found them intrinsically fascinating!
-It was just enough to discover these formal, therefore, clearly defined objects.
-Again, it is tough to explain this attraction.</p>
-
-<p>You start with a set of unambiguous definitions: an alphabet, a word over an alphabet, a tuple of a set of states, a transition function, etc.
-And you begin to construct slightly more and more powerful objects while analyzing the properties of these objects.
-You always try to keep their power controllable.
-Their properties should stay computable - you enter the realm of constructivism.
-You begin to recognize the equivalence of objects from entirely different fields, such as logic and automata theory.
-And you form beautiful proofs about very abstract thus general statements of your formally constructed world.</p>
-
-<p>At some point, you arrive at a formal model of any digital computer, that is, the <em>Turing Machine</em>.
-Since you now have this gift, this formal model, you can analyze it in a highly abstract way.
-You can define what a computer at least requires to be <em>Turing-complete</em>, i.e., to be a computer.
-You can define what <em>computable</em> means, and you can even measure how many steps it takes to solve a class of problems.
-You start analyzing the <em>complexity</em> of problems, such as sorting cards or solving a Sudoku.</p>
-
-<p>For example, sorting cards (on a <em>Turing-complete</em> model) requires $\mathcal{O}(n\log(n))$ steps, where $n$ is the number of cards.
-And we know that we can not do better than that.
-Consequently, in the worst case, sorting cards requires always at least $c \cdot n\log(n)$ steps where $c$ is some constant independent of $n$.
-Isn’t that captivating that we know this!</p>
-
-<p>Then there is the still <strong>unanswered</strong> question if solving a Sudoku is as <em>hard</em> as checking a solution of it?
-We call this</p>
-
-\[\mathcal{NP} \stackrel{?}{=} \mathcal{P}\]
-
-<p><em>problem</em>. Of course, we ask again in the context of <em>Turing Machines</em>.
-Therefore, one might argue that this is not a scientific question because we ask for some property of some human-made machine.
-I strongly disagree!
-This machine is a mathematical object, and mathematics is the language of nature.
-To this day, <em>Turing Machines</em> are THE model for computation (Lambda Calculus is equivalent);
-a Turing Machine can simulate even quantum computers.
-If nature does compute, we might even study its basic principles!
-Doesn’t it feel <em>harder</em> to solve a Sudoku than to check its solution?
-Isn’t there a fundamental difference?
-Or isn’t finding a proof much harder than understanding it.</p>
-
-<p>Finding a solution involves what we call creativity and intuition.
-But checking it is a rather automatable process.
-So if we reframe the question, we may ask about the complexity of creativity!
-Since hundreds of publications falsely claimed to have solved the question, it seems to require a lot of creativity to correctly grasp the complexity of creativity.</p>
-
-<p>What a fascinating scientific question to tackle!
-We are in the realm of not natural science but similar to mathematics, a formal science.</p>
-
-<p>Eventually, you encounter another significant problem: the <em>Halting problem</em>.
-It states that there will never be a program (definable as a Turing Machine) that can test for an arbitrary program that it halts.
-Understanding the theorem and its proof in-depth feels groundbreaking and infinitely satisfying.
-The proof is simple and beautiful if you understand how computers, i.e., <em>Turing Machines</em>, work.
-You can find a sketch of it in the appendix of this article.</p>
-
-<h2 id="the-evolution-of-informatics">The Evolution of Informatics</h2>
-
-<h3 id="roots-of-informatics">Roots of Informatics</h3>
-
-<p>It is kind of funny that historically, informatics first struggled for recognition on a global scale.
-In academia, this struggle has been gone.
-However, in the general public’s eye, the objective and research subject of the discipline is blurred, which still leads to confusion:
-yes, I am a computer scientist, but I won’t fix your computer or software bugs!</p>
-
-<p>If we look into the history books, computer scientists had to fight to establish their field.
-The discipline emerged from certain branches such as electrical engineering, physics, and mathematics.
-In the 1960s, computer science comes into its own as a discipline. Georg Forsythe, a numerical analyst, coined the term.
-The first computer science department was formed at Purdue University in 1962.
-The first person to receive a PhD from a computer science department was Richard Wexelblat, at the University of Pennsylvania, in December 1965.</p>
-
-<p>In Germany, informatics goes back to the Institute for Practical Mathematics (IPM) at the Technische Hochschule Darmstadt, founded around 1928.
-But it required time to establish the first informatics course in the Faculty of Electrical Engineering in Darmstadt.
-The first doctoral thesis was written in 1975, ten years later compared to the US.
-In my hometown, the first informatics course at the Technical University of Munich was offered in 1967 at the Department of Mathematics.
-In 1992, the Department of Informatics split up from the Department of Mathematics.</p>
-
-<p>Informatics can still be regarded as relatively young compared to other well-established disciplines such as physics, chemistry, or psychology. Nonetheless, new fields split up from informatics, and they are all interlinked with one another. We have, for example,</p>
-
-<ul>
-  <li>scientific computing,</li>
-  <li>computational science,</li>
-  <li>information theory,</li>
-  <li>and linguistics,</li>
-</ul>
-
-<p>and the list goes on.
-The problem of artificial intelligence (AI) brings informatics more and more in touch with the humanities such as</p>
-
-<ul>
-  <li>philosophy,</li>
-  <li>psychology,</li>
-  <li>and neurosciences.</li>
-</ul>
-
-<h3 id="the-disappearance-of-classical-informatics">The Disappearance of ‘Classical’ Informatics?</h3>
-
-<p>Within the field of informatics, there are a lot of branches one can pursue, for example:</p>
-
-<ul>
-  <li>formal methods and complexity theory</li>
-  <li>programming languages and compilers</li>
-  <li>design and analysis of algorithms and data structures</li>
-  <li>parallel and distributed computation</li>
-  <li>high-performance computation</li>
-  <li>networks and communication</li>
-  <li>intelligent systems</li>
-  <li>operating systems</li>
-  <li>cybersecurity</li>
-  <li>databases</li>
-  <li>data science</li>
-  <li>computer graphics</li>
-  <li>image processing</li>
-  <li>modeling and simulation</li>
-  <li>artificial intelligence</li>
-  <li>software engineering</li>
-  <li>architecture and organization</li>
-</ul>
-
-<p>This sprawling list of specialties indicates no longer such thing as a classical computer scientist, right? 
-Nobody can be an expert in all areas - it is just impossible! Over the years, some branches lost, and others gained attraction, but most are active.
-For example, we lost interest in operating systems but put more effort into investigating high-performance computation and data science.
-Theoretical informatics cooled down, but there are still many critical questions unanswered.</p>
-
-<p>Despite this abundant variety, being a computer scientist is more than being an expert in one specific field.
-It is more than knowing how to build large software systems, manage networks, process data and establish a secure infrastructure.
-<strong>It is a way of thinking!</strong> And no, we do not think like computers but embrace the curiosity naturally given to us human beings.
-We renew the playing child within us and let it go wild to solve riddles for no particular reason. 
-And I think that is one of the most human things to do.</p>
-
-<h3 id="a-new-perspective-on-information">A New Perspective on Information</h3>
-
-<p>In this little supplementary section, I want to talk about the resource we are working with: information.</p>
-
-<p>As you may notice, I call <strong>computer science</strong> by the European term <strong>informatics</strong>.
-But not only because I am from Europe but also because the term leans more towards <strong>information</strong> instead of <strong>computation</strong>.
-Information manipulation is computation, but it emphasizes a more abstract broader definition of computation.</p>
-
-<p>Information, as we understand it is the elimination of uncertainties but on a purely <strong>syntactical</strong> level.
-This notion dated back to 1948 and was defined by Claude E. Shannon in <em>A Mathematical Theory of Communication</em>:</p>
-
-<blockquote>
-  <p>“Frequently, the messages have meaning; that is, they refer to or are correlated according to some system with certain physical or conceptual entities.
-These semantic aspects of communication are irrelevant to the engineering problem.
-The significant aspect is that the actual message is one selected from a set of possible messages.
-The system has to be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design.” – Claude E. Shannon <a class="citation" href="#shannon:1948">(Shannon, 1948)</a></p>
-</blockquote>
-
-<p>In the humanities, researchers have a completely different understanding of information.
-They discuss cognition, representations, referencing, and interpretation in the context of information.
-What does a symbol mean, and what effect or interpretation does it has?
-How does data transform into information, and how do we harvest knowledge and wisdom?</p>
-
-<p>For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
-But it seems inappropriate if we discuss today’s information-driven society.</p>
-
-<p>Nowadays, we can rapidly collect unimaginable amounts of information.
-It can be processed automatically and checked for higher-level patterns that would not be discernible without technology.
-We constantly transform information into a machine-readable format, which makes it, in turn, quantifiable.
-But is there information that is not machine-readable, and do we dismiss it?</p>
-
-<p>Furthermore, the interconnected world of information processes of today never forgets anything.
-Incessantly, it sucks up data and floods our private and public spaces with it.
-It is like a magical beast that can create amazing miracles but can also cause devastating destructions - sometimes it appears as a lovely creature, and sometimes it embodies a frightening monster.
-We have to deal with it!
-It is our creation - an artificial intelligence that already evaluates, categorizes, interprets, and generates information on its own.
-It has to include the semantics of information. 
-Otherwise, it would be difficult to call it <em>artificial intelligence</em>.</p>
-
-<p>Since we left the task of pure information transformation a long time ago, we need the perspective of the humanities - we have to think beyond pure syntax.
-In fact, we have to reconsider the term <em>information</em>, at least in our discipline.
-For example, Ulrich states:</p>
-<blockquote>
-  <p>Where data are the raw facts of the world, information is then data ‘with meaning’.
-When ‘data’ acquires context-dependent meaning and relevance, it becomes information. 
-Furthermore, we obviously expect information to represent valid knowledge on which users can rely for rational action. – W. Ulrich <a class="citation" href="#ulrich:2001">(Ulrich, 2001)</a></p>
-</blockquote>
-
-<p>But even this definition seems problematic.
-Is there even something like simple brute facts of the world?
-All data seem to be already gathered and processed.
-Therefore, information can not simply be the injection of meaning into data because data already has meaning.
-It is more like the individual degree of significance differs.
-What might be meaningful to me might be utterly meaningless to you.</p>
-
-<p>Of course, we can not answer this question of an adequate definition here.
-But to disregard it entirely and leave the design of interconnected information processes solely to the technicians would be a mistake.
-Discovering, studying, using, influencing, and extending our interconnected world of information processing, is exciting as well as necessary.
-It is part of our duties, but we should no longer encounter this beast alone.</p>
-
-<hr />
-
-<h2 id="appendix">Appendix</h2>
-
-<h3 id="the-halting-problem">The Halting Problem</h3>
-
-<p>Let me try to give you the intuition of the <em>Halting problem</em>.
-For simplicity reasons, I will not explicitly distinguish between a <em>Turing Machine</em> $\mathcal{T}$ and its description (often noted by $\alpha_\mathcal{T}$).
-So when a <em>Turing Machine</em> gets as input another <em>Turing Machine</em>, I mean its description (source code).</p>
-
-<h4 id="proof">Proof</h4>
-
-<p>Let us assume there is a <em>Turing Machine</em> $\mathcal{H}$ that takes an arbitrary <em>Turing Machine</em> $\mathcal{T}$ as input.
-$\mathcal{H}(\mathcal{T})$ outputs 1 if $\mathcal{T}(\mathcal{T})$ halts, otherwise it outputs 0.
-So if such a program exists, $\mathcal{H}$ is the program that solves the <em>Halting problem</em>, and $\mathcal{T}$ is an arbitrary program.
-We can pick $\mathcal{T}$ as its own input because the input can be arbitrary (but finite).
-So we ‘feed’ the program $\mathcal{T}$ with itself, that is, its own description/source code $\mathcal{T}$.</p>
-
-<p>So we have</p>
-
-\[\begin{equation} \tag{1}\label{eq:halt:1}
-\mathcal{H}(\mathcal{T}) = 
-\begin{cases}
-1, &amp; \text{if } \mathcal{T}(\mathcal{T}) \text{ halts} \\
-0, &amp; \text{otherwise.}
-\end{cases}
-\end{equation}\]
-
-<p>We construct a new <em>Turing Machine</em> $\hat{\mathcal{H}}$.
-$\hat{\mathcal{H}}$ is a slight modification of $\mathcal{H}$.
-It does almost the opposite.
-$\hat{\mathcal{H}}$ halts and outputs 1 if and only if $\mathcal{H}$ outputs 0.
-Furthermore, $\hat{\mathcal{H}}$ does not halt if $\mathcal{H}$ outputs 1.</p>
-
-\[\begin{equation} \tag{2}\label{eq:halt:2}
-\hat{\mathcal{H}}(\mathcal{T}) = 
-\begin{cases}
-1, &amp; \text{if } \mathcal{H}(\mathcal{T}) = 0 \\
-\text{undefined, i.e., loops endlessly} &amp; \text{if } \mathcal{H}(\mathcal{T}) = 1
-\end{cases}
-\end{equation}\]
-
-<p><br /></p>
-<div><img style="display:block;margin:auto;;height:200px;" src="/Pages/assets/images/halting-problem.png" alt="Halting Proglem" /></div>
-<p><br />
-Now we execute $\hat{\mathcal{H}}$ by feeding it to itself, that is, $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ and analyse the result:</p>
-
-<p><strong>It outputs 1:</strong>
-Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1$.
-Following Eq. \eqref{eq:halt:2} gives us $\mathcal{H}(\hat{\mathcal{H}}) = 0$.
-But by following Eq. \eqref{eq:halt:1} this implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt.
-After all, $\mathcal{H}$ outputs 0.
-Thus, it recognizes that the analyzed program $\hat{\mathcal{H}}$ does not halt.
-But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $\mathcal{H}(\hat{\mathcal{H}}) = 1$ which leads to a contradiction.</p>
-
-<p><strong>It outputs 0:</strong>
-Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$.
-$\mathcal{H}(\hat{\mathcal{H}}) = 1$ follows from Eq. \eqref{eq:halt:2} which implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does halts, compare Eq. \eqref{eq:halt:1}.
-But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ halts then by following Eq. \eqref{eq:halt:2}, $\mathcal{H}(\hat{\mathcal{H}}) = 0$ which leads to a contradiction.</p>
-
-<p>In any case $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ leads to a paradox!
-However, the construction of $\hat{\mathcal{H}}$ is correct if  $\mathcal{H}$ exists.
-Therefore, it follows that our assumption is wrong and $\mathcal{H}$ can not exists!</p>
-
-<h4 id="meaning">Meaning</h4>
-
-<p>The <em>Halting problem</em> is strongly connected to the question of <strong>decidability</strong>.
-It asks if, for some problem or statement, an algorithm or a proof solves the problem in a finite number of steps or proves the statement.
-As we saw, the <em>Halting problem</em> is <strong>undecidable</strong>!
-Any <em>Turing-complete</em> machine or system is <strong>undecidable</strong>, and there are many such systems!
-For example:</p>
-
-<ul>
-  <li>complex quantum systems,</li>
-  <li>the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>,</li>
-  <li>airline ticketing systems</li>
-  <li>the card game Magic,</li>
-  <li>and, of course, almost any programming language is <em>Turing-complete</em>.</li>
-</ul>
-
-<p>There are three essential properties for a desirable mathematical system, and we may think they are fulfilled naturally.
-But as it turns out, this is not the case.
-We would like to have a system that is</p>
-
-<ol>
-  <li><strong>complete</strong>: any statement of the system can be proven or disproven</li>
-  <li><strong>consistent</strong>: a statement can not be proven and disproven at the same time</li>
-  <li>and <strong>decidable</strong>: an algorithm (proof) requires a finite number of steps to prove or disprove any statement</li>
-</ol>
-
-<p><a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a> showed that any decently functional mathematical system is either <strong>incomplete</strong> or <strong>inconsistent</strong>.
-Later, he also showed that even if such a system is <strong>consistent</strong>, this can not be proven within the system.
-After <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a> found a computation model, the <em>Turing Machine</em>, he showed that</p>
-
-<ol>
-  <li>many problems / systems are <em>Turing-complete</em></li>
-  <li>all those systems are <strong>undecidable</strong>.</li>
-</ol>
-
-<p>This revelation crushed the mathematical landscape and ended the dream of David Hilbert and others to establish a solid mathematical foundation.
-Sadly, <a href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a>, as well as <a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a>, one of the most brilliant minds, died tragically.</p>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="denning:2005">Denning, P. J. (2005). Is Computer Science Science? <i>Commun. ACM</i>, <i>48</i>(4), 27–31. https://doi.org/10.1145/1053291.1053309</span></li>
-<li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
-<li><span id="ulrich:2001">Ulrich, W. (2001). <i>A Philosophical Staircase for Information Systems Definition</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><summary type="html"><![CDATA[“The objection that computing is not a science because it studies man-made objects (technologies) is a red herring. Computer science studies information processes both artificial and natural.” – Peter J. Denning (Denning, 2005)]]></summary></entry></feed>
+<p>Overall, I quite like it!</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Education" /><summary type="html"><![CDATA[Currently, I am working as a lecturer at the Munich University of Applied Sciences (MUAS) for the course Computational Thinking. We decided to use Python as our primary programming language. To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the Jupyter book technology.]]></summary></entry></feed>

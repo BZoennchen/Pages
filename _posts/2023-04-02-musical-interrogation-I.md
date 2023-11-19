@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Musical Interrogation - Part I"
+title:  "Musical Interrogation I - Intro"
 tags: Opinion Music MC HMM RNN
 comments: true
 ---
