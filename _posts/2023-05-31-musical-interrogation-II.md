@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Musical Interrogation I - FFN"
+title:  "Musical Interrogation II - FFN"
 tags: Music ML FFN MC
 comments: true
 ---
