@@ -3,9 +3,10 @@ layout: post
 title:  "Musical Interrogation III - LSTM"
 tags: Music ML LSTM
 comments: true
+series: "Musical Interrogation"
 ---
 
-This article is the continuation of the *[Musical Interrogation I - Intro]({% post_url 2023-04-02-musical-interrogation-I %})* and *[Part II - FNN]({% post_url 2023-05-31-musical-interrogation-II %})*.
+This article is the continuation of my series Musical Interrogation.
 It is recommended that you read the these articles first.
 This time we use a recurrent neural network, more preceisly an **LSTM** which I explained a little bit in [Introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
 An LSTM is a **RNN** that couter acts the problem of exploding and vanishing gradients.
@@ -182,9 +183,12 @@ model_graph.visual_graph
 ```
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="{% link /assets/images/lstm-model.png %}" alt="LSTM model">
-<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model using a batch size of 64 and a sequence length also equal to 64. The alphabet consists of 38 unique tokens. Each single input is hot-encoded into a vector with 38 components. The LSTM uses a hidden state with 128 components. After the dropout the 128 components of hidden state are reduced to 38 components utilizing a normal linear layer (without an activation function).</div>
 </div>
 <br>
+
+Note that the softmax is part of our loss ``criterion`` i.e. the cross entropy loss ``torch.nn.CrossEntropyLoss()`` which is part of the backpropagation, i.e., the training process.
+
 
 ## Melody Generation (Before Training)
 

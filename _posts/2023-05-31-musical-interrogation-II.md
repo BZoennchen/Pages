@@ -3,16 +3,10 @@ layout: post
 title:  "Musical Interrogation II - FFN"
 tags: Music ML FFN MC
 comments: true
+series: "Musical Interrogation"
 ---
-
-This post is part of a series of blog posts:
-
-1. [Part I]({% post_url 2023-04-02-musical-interrogation-I %})
-2. Part II
-3. [Part III]({% post_url 2023-11-19-musical-interrogation-III %})
-4. Part IV (coming soon)
    
-The code used here can be found in the following GitHub [repository](https://github.com/BZoennchen/musical-interrogation).
+The code shown here can be found in the following GitHub [repository](https://github.com/BZoennchen/musical-interrogation).
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches:
 
@@ -268,9 +262,14 @@ It can be no smaller than 0.
 
 ## Feedforward Neural Network
 
-One method of generating a melody using a feedforward network is by addressing a classification task. 
-Specifically, given $t$ consecutive notes, we aim to identify the note that this sequence "represents".
-For simplicity, let's set $t=1$.
+One method of generating a melody using a *feedforward network (FFN)* is by addressing a classification task.
+Well, strictly speaking we do not even build a FFN, since there will be no activation function involved thus it is a **linear model**.
+However, from this starting point we could expand our model into a *multi-layer perceptron (MLP)*.
+By avoiding the activation function, it is easier for me to explain exactly what is going on.
+
+If we think in terms of classification a sequence of note should be classified as some successor note.
+So let us assume $t$ consecutive notes are given then our aim is to identify the note that this sequence "represents".
+For simplicity, I assume we only want to predict the next note given the previous one, that is, $t=1$ holds.
 This stipulation means we won't require substantial modifications compared to our previous approach.
 
 Since our training process will be more computationally intensive than merely computing frequencies, it's advisable to use hardware accelerators, if available. 
@@ -287,6 +286,40 @@ else:
     
 print(f'{device=}')
 ```
+
+What we are going to implement is a *fully-visible softmax belief network* which only predicts the very next note given the previous note.
+However, instead of multiplying $x_1$ to predict $x_2$ via
+
+$$h_{\theta}(x)_{j=1,\ldots,m} = \left(\alpha_0^{(j)} + \alpha_1^{(j)} \cdot x \right)_{j=1,\ldots,m}, $$
+
+we do something similar but not quite the same.
+We *hot-encode* our alphabet $\mathcal{X}$ of notes into 
+
+$$|\mathcal{X}| = m$$
+
+vectors $\mathbf{x}_j = (x_1, \ldots, x_m)$, $j=1, \ldots, m$ of length $m$, such that, 
+
+$$h_{\theta}(\mathbf{x}_i)_{j=1,\ldots,m} = \left( w_{1}^{(j)} \cdot x_1 + w_{2}^{(j)} \cdot x_2 + \ldots + w_{m}^{(j)} \cdot x_m \right)_{j=1,\ldots,m} = \left( w_{i}^{(j)} x_i \right)_{j=1,\ldots,m}.$$
+
+In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an $m$-dimensional vector.
+This vector represents the probabilities of the next note.
+To transform these embeddings into probabilities we apply the softmax function.
+Our network is depicted in Fig. 2.
+Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0^{(j)}$.
+
+<br>
+<div style="display:block; margin-left:auto; margin-right:auto; width:75%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:75%;" src="{% link /assets/images/fvsbn-hot.png %}" alt="Sketch of an HMM.">
+<div style="display: table;margin: 0 auto;">Figure 2: Fully-visible softmax belief network (multi-class classification with 4 classes) predicting only the next note utilizing hot-encoding. Only one input node fires 1 all the others fire 0. The illustration indicates that the second input is active while all other inptus are inactive.</div>
+</div>
+<br>
+
+Similar as before, our loss is the empirical mean of the negative log likelyhood
+
+$$-\frac{1}{M} \sum_{i=1,j=y_i}^M \log(\sigma(\mathbf{o})_j),$$
+
+where $j$ is the $j^\text{th}$ note in our alphabet and $y_i$, that is $(\mathbf{x}, y_j)$ is in our training data set.
+
 
 ### Training Data Construction
 
@@ -310,9 +343,10 @@ ys = torch.tensor(ys, device=device)
 xenc = F.one_hot(xs, num_classes=len(stoi)).float()
 ```
 
-I employ a *[one-hot encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)* for the input data.
-That is, for encoding unique $m$ elements one uses a $m$-dimensional vector where all entries except one is 0.0 and the one is 1.0.
-``F.one_hot`` assumes that these elements are whole numbers between 0 and $M-1$, compare the [documentation](https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html).
+As mentioned, I employ a *[one-hot encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)* for the input data.
+That is, for encoding $m$ unique elements one uses $m$ unique $m$-dimensional vectors.
+One component of these vectors is set to 1.0 and all others are 0.0.
+``F.one_hot`` assumes that our alphabet consists of whole numbers between 0 and $m-1$, compare the [documentation](https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html).
 
 $$(0, \ldots, 0, 1, 0, \ldots, 0)$$
 
@@ -397,38 +431,38 @@ $$\mathbf{o} = \mathbf{x} \cdot \mathbf{W} = \begin{bmatrix} o_1 & o_2 & \ldots 
 To compute "probabilities" we compute the *[softmax function](https://en.wikipedia.org/wiki/Softmax_function)* (``probs``) of $\mathbf{o}$, i.e.,
 
 $$
-\mathbf{s}(\mathbf{o}) = \begin{bmatrix} s(\mathbf{o})_1 & s(\mathbf{o})_2 & \ldots & s(\mathbf{o})_m \end{bmatrix}
+\sigma(\mathbf{o}) = \begin{bmatrix} \sigma(\mathbf{o})_1 & \sigma(\mathbf{o})_2 & \ldots & \sigma(\mathbf{o})_m \end{bmatrix}
 $$
 
 with
 
-$$s(\mathbf{o})_i = \frac{e^{o_i}}{\sum e^{o_j}}.$$
+$$\sigma(\mathbf{o})_i = \frac{e^{o_i}}{\sum e^{o_j}}.$$
 
 Luckly the *softmax* has a simple derivative:
 
 $$
-\frac{\partial s(\mathbf{o})_i}{\partial o_j} =
+\frac{\partial \sigma(\mathbf{o})_i}{\partial o_j} =
 \begin{cases}
-    s(\mathbf{o}_k)_i - s(\mathbf{o})_i^2 & \text{ if } i = j \\
-    -s(\mathbf{o}_k)_i s(\mathbf{o})_j & \text{ otherwise.}
+    \sigma(\mathbf{o}_k)_i - \sigma(\mathbf{o})_i^2 & \text{ if } i = j \\
+    -\sigma(\mathbf{o}_k)_i \sigma(\mathbf{o})_j & \text{ otherwise.}
 \end{cases}
 $$
 
 We can also compute the full Jacobian of the *softmax* vector-to-vector operation:
 
 $$
-\nabla_{\mathbf{o}} \mathbf{s} = \mathbf{J}_{\mathbf{o}}(\mathbf{s}) =
+\nabla_{\mathbf{o}} \sigma = \mathbf{J}_{\mathbf{o}}(\sigma) =
 \begin{bmatrix} 
-    s_1 - s_1^2 & -s_1 s_2 & \ldots & - s_1 s_m  \\
-    -s_2 s_1 & s_2 - s_2^2 & \ldots & -s_2 s_m \\
+    \sigma_1 - \sigma_1^2 & -\sigma_1 \sigma_2 & \ldots & - \sigma_1 \sigma_m  \\
+    -\sigma_2 \sigma_1 & s_2 - \sigma_2^2 & \ldots & -\sigma_2 \sigma_m \\
     \ldots & \ldots & \ldots & \ldots \\
-    -s_m s_1 & -s_m s_2 & \ldots & s_m - s_m^2
-\end{bmatrix} = \text{diag}\left(\mathbf{s}\right) - \mathbf{s}^{\top} \mathbf{s}
+    -\sigma_m \sigma_1 & -\sigma_m \sigma_2 & \ldots & \sigma_m - \sigma_m^2
+\end{bmatrix} = \text{diag}\left(\sigma\right) - \sigma^{\top} \sigma
 $$
 
 Similar then before, our loss $L$ is the mean *negative log likelihood*.
 
-$$L(\mathbf{y}, \mathbf{s}) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\mathbf{s})^\top$$
+$$L(\mathbf{y}, \sigma) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\sigma)^\top$$
 
 where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,
 
@@ -441,7 +475,7 @@ Note that $\mathbf{y}$ is a one-hot encoded vector, ``ys`` is not.
 For the *[backpropagation](https://en.wikipedia.org/wiki/Backpropagation)* we need
 
 $$
-\nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) = \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o}.
+\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) = \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o}.
 $$
 
 Here we employ the *chain rule*.
@@ -449,25 +483,25 @@ The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is g
 
 $$
 \begin{align}
-    \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) &= -\nabla_{\mathbf{o}} \mathbf{y} \log(\mathbf{s})^\top \\
-    &= -\mathbf{y} \nabla_{\mathbf{o}}\log(\mathbf{s}) \\
-    &= -\frac{\mathbf{y}}{\mathbf{s}} \nabla_{\mathbf{o}} \mathbf{s} \\
-    &= -\frac{\mathbf{y}}{\mathbf{s}} \cdot \mathbf{J}_{\mathbf{o}}(\mathbf{s}) \\
-    &= -\frac{\mathbf{y}}{\mathbf{s}} \cdot \left[ \text{diag}(\mathbf{s}) - \mathbf{s}^\top \mathbf{s} \right] \\
-    &= \frac{\mathbf{y}}{\mathbf{s}} \mathbf{s}^\top \mathbf{s} - \frac{\mathbf{y}}{\mathbf{s}} \text{diag}(\mathbf{s}) \\
-    &= \mathbf{s} - \mathbf{y}.
+    \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) &= -\nabla_{\mathbf{o}} \mathbf{y} \log(\sigma)^\top \\
+    &= -\mathbf{y} \nabla_{\mathbf{o}}\log(\sigma) \\
+    &= -\frac{\mathbf{y}}{\sigma} \nabla_{\mathbf{o}} \sigma \\
+    &= -\frac{\mathbf{y}}{\sigma} \cdot \mathbf{J}_{\mathbf{o}}(\sigma) \\
+    &= -\frac{\mathbf{y}}{\sigma} \cdot \left[ \text{diag}(\sigma) - \sigma^\top \sigma \right] \\
+    &= \frac{\mathbf{y}}{\sigma} \sigma^\top \sigma - \frac{\mathbf{y}}{\sigma} \text{diag}(\sigma) \\
+    &= \sigma - \mathbf{y}.
 \end{align}
 $$
 
 The $\log$ and the devision operates component-wise and 
 
 $$
-\text{diag}\left(\mathbf{s}\right) =
+\text{diag}\left(\sigma\right) =
 \begin{bmatrix} 
-    s(\mathbf{o})_1 & 0 & \ldots & 0  \\
-    0 & s(\mathbf{o})_2 & \ldots & 0 \\
+    \sigma(\mathbf{o})_1 & 0 & \ldots & 0  \\
+    0 & \sigma(\mathbf{o})_2 & \ldots & 0 \\
     \ldots & \ldots & \ldots & \ldots \\
-    0 & 0 & \ldots & s(\mathbf{o})_m
+    0 & 0 & \ldots & \sigma(\mathbf{o})_m
 \end{bmatrix}
 $$
 
@@ -476,13 +510,13 @@ We have to apply the *chain rule* once again to finally get the desired update v
 
 $$
 \begin{align}
-\nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) &= \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
-&= (\mathbf{s} - \mathbf{y}) \cdot \nabla_{\mathbf{W}} (\mathbf{x} \cdot \mathbf{W})\\
-&= (\mathbf{s} - \mathbf{y}) \cdot \mathbf{x}^{\top}.
+\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) &= \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
+&= (\sigma - \mathbf{y}) \cdot \nabla_{\mathbf{W}} (\mathbf{x} \cdot \mathbf{W})\\
+&= (\sigma - \mathbf{y}) \cdot \mathbf{x}^{\top}.
 \end{align}
 $$
 
-Given that $\mathbf{s}$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the "correct" probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed "incorrect", and $(p_i-1)$ otherwise. 
+Given that $\sigma$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the "correct" probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed "incorrect", and $(p_i-1)$ otherwise. 
 All other entries are zero.
 Note also that $\mathbf{x}$ is also a one-hot encoded vector.
 Consequently, if a probability is correct, it gets increased by $1-p_i$ and decreased by $p_i-1$ otherwise.
@@ -526,7 +560,7 @@ $$\mathbf{O} = \mathbf{X}\mathbf{W} = \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{x}
 
 The *softmax* is still a vector-to-vector transformation, but it's applied independently to each row of $\mathbf{X}$:
 
-$$\mathbf{S} = \begin{bmatrix} \mathbf{s}(\mathbf{o}_1) \\ \mathbf{s}(\mathbf{o}_2) \\ \vdots \\ \mathbf{s}(\mathbf{o}_n) \end{bmatrix}$$
+$$\mathbf{S} = \begin{bmatrix} \sigma(\mathbf{o}_1) \\ \sigma(\mathbf{o}_2) \\ \vdots \\ \sigma(\mathbf{o}_n) \end{bmatrix}$$
 
 We can do the exact same steps but I will skip this part.
 For the interested reader I refer to [](https://mattpetersen.github.io/softmax-with-cross-entropy)

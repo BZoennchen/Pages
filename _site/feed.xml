@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-21T00:37:07+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-26T00:44:41+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
@@ -282,7 +282,7 @@ This step is accomplished, for Spencer-Brown, in <strong>thinking</strong> with 
 
 <ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of the <em><a href="/Pages/2023/04/02/musical-interrogation-I.html">Musical Interrogation I - Intro</a></em> and <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em>.
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of my series Musical Interrogation.
 It is recommended that you read the these articles first.
 This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
 An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
@@ -450,9 +450,11 @@ We surely want to increase <code class="language-plaintext highlighter-rouge">n_
 </code></pre></div></div>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/lstm-model.png" alt="LSTM model" />
-<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model using a batch size of 64 and a sequence length also equal to 64. The alphabet consists of 38 unique tokens. Each single input is hot-encoded into a vector with 38 components. The LSTM uses a hidden state with 128 components. After the dropout the 128 components of hidden state are reduced to 38 components utilizing a normal linear layer (without an activation function).</div>
 </div>
 <p><br /></p>
+
+<p>Note that the softmax is part of our loss <code class="language-plaintext highlighter-rouge">criterion</code> i.e. the cross entropy loss <code class="language-plaintext highlighter-rouge">torch.nn.CrossEntropyLoss()</code> which is part of the backpropagation, i.e., the training process.</p>
 
 <h2 id="melody-generation-before-training">Melody Generation (Before Training)</h2>
 
@@ -643,7 +645,7 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
 <audio controls="">
   <source src="/Pages/assets/audio/a_g_song.mp3" type="audio/mp3" />
   Your browser does not support the audio element.
-</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of the Musical Interrogation I - Intro and Part II - FNN. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -1471,16 +1473,7 @@ Is social evolution any different?</p>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, There and Everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
 <li><span id="nagel:1974">Nagel, T. (1974). What is It Like to Be a Bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li>
 <li><span id="foerster:1988">Foerster, H. (1985). <i>Sicht und Einsicht</i>. Vieweg.</span></li>
-<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>This post is part of a series of blog posts:</p>
-
-<ol>
-  <li><a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a></li>
-  <li>Part II</li>
-  <li><a href="/Pages/2023/11/19/musical-interrogation-III.html">Part III</a></li>
-  <li>Part IV (coming soon)</li>
-</ol>
-
-<p>The code used here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
+<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches:</p>
 
@@ -1732,9 +1725,14 @@ It can be no smaller than 0.</p>
 
 <h2 id="feedforward-neural-network">Feedforward Neural Network</h2>
 
-<p>One method of generating a melody using a feedforward network is by addressing a classification task. 
-Specifically, given $t$ consecutive notes, we aim to identify the note that this sequence “represents”.
-For simplicity, let’s set $t=1$.
+<p>One method of generating a melody using a <em>feedforward network (FFN)</em> is by addressing a classification task.
+Well, strictly speaking we do not even build a FFN, since there will be no activation function involved thus it is a <strong>linear model</strong>.
+However, from this starting point we could expand our model into a <em>multi-layer perceptron (MLP)</em>.
+By avoiding the activation function, it is easier for me to explain exactly what is going on.</p>
+
+<p>If we think in terms of classification a sequence of note should be classified as some successor note.
+So let us assume $t$ consecutive notes are given then our aim is to identify the note that this sequence “represents”.
+For simplicity, I assume we only want to predict the next note given the previous one, that is, $t=1$ holds.
 This stipulation means we won’t require substantial modifications compared to our previous approach.</p>
 
 <p>Since our training process will be more computationally intensive than merely computing frequencies, it’s advisable to use hardware accelerators, if available. 
@@ -1750,6 +1748,39 @@ To check if hardware acceleration is available, I employ the following code:</p>
     
 <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">device</span><span class="o">=</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
 </code></pre></div></div>
+
+<p>What we are going to implement is a <em>fully-visible softmax belief network</em> which only predicts the very next note given the previous note.
+However, instead of multiplying $x_1$ to predict $x_2$ via</p>
+
+\[h_{\theta}(x)_{j=1,\ldots,m} = \left(\alpha_0^{(j)} + \alpha_1^{(j)} \cdot x \right)_{j=1,\ldots,m},\]
+
+<p>we do something similar but not quite the same.
+We <em>hot-encode</em> our alphabet $\mathcal{X}$ of notes into</p>
+
+\[|\mathcal{X}| = m\]
+
+<p>vectors $\mathbf{x}_j = (x_1, \ldots, x_m)$, $j=1, \ldots, m$ of length $m$, such that,</p>
+
+\[h_{\theta}(\mathbf{x}_i)_{j=1,\ldots,m} = \left( w_{1}^{(j)} \cdot x_1 + w_{2}^{(j)} \cdot x_2 + \ldots + w_{m}^{(j)} \cdot x_m \right)_{j=1,\ldots,m} = \left( w_{i}^{(j)} x_i \right)_{j=1,\ldots,m}.\]
+
+<p>In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an $m$-dimensional vector.
+This vector represents the probabilities of the next note.
+To transform these embeddings into probabilities we apply the softmax function.
+Our network is depicted in Fig. 2.
+Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0^{(j)}$.</p>
+
+<p><br /></p>
+<div style="display:block; margin-left:auto; margin-right:auto; width:75%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:75%;" src="/Pages/assets/images/fvsbn-hot.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 2: Fully-visible softmax belief network (multi-class classification with 4 classes) predicting only the next note utilizing hot-encoding. Only one input node fires 1 all the others fire 0. The illustration indicates that the second input is active while all other inptus are inactive.</div>
+</div>
+<p><br /></p>
+
+<p>Similar as before, our loss is the empirical mean of the negative log likelyhood</p>
+
+\[-\frac{1}{M} \sum_{i=1,j=y_i}^M \log(\sigma(\mathbf{o})_j),\]
+
+<p>where $j$ is the $j^\text{th}$ note in our alphabet and $y_i$, that is $(\mathbf{x}, y_j)$ is in our training data set.</p>
 
 <h3 id="training-data-construction">Training Data Construction</h3>
 
@@ -1772,9 +1803,10 @@ To check if hardware acceleration is available, I employ the following code:</p>
 </span><span class="n">xenc</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">one_hot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)).</span><span class="nb">float</span><span class="p">()</span>
 </code></pre></div></div>
 
-<p>I employ a <em><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">one-hot encoding</a></em> for the input data.
-That is, for encoding unique $m$ elements one uses a $m$-dimensional vector where all entries except one is 0.0 and the one is 1.0.
-<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that these elements are whole numbers between 0 and $M-1$, compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
+<p>As mentioned, I employ a <em><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">one-hot encoding</a></em> for the input data.
+That is, for encoding $m$ unique elements one uses $m$ unique $m$-dimensional vectors.
+One component of these vectors is set to 1.0 and all others are 0.0.
+<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that our alphabet consists of whole numbers between 0 and $m-1$, compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
 
 \[(0, \ldots, 0, 1, 0, \ldots, 0)\]
 
@@ -1858,33 +1890,33 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 <p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of $\mathbf{o}$, i.e.,</p>
 
-\[\mathbf{s}(\mathbf{o}) = \begin{bmatrix} s(\mathbf{o})_1 &amp; s(\mathbf{o})_2 &amp; \ldots &amp; s(\mathbf{o})_m \end{bmatrix}\]
+\[\sigma(\mathbf{o}) = \begin{bmatrix} \sigma(\mathbf{o})_1 &amp; \sigma(\mathbf{o})_2 &amp; \ldots &amp; \sigma(\mathbf{o})_m \end{bmatrix}\]
 
 <p>with</p>
 
-\[s(\mathbf{o})_i = \frac{e^{o_i}}{\sum e^{o_j}}.\]
+\[\sigma(\mathbf{o})_i = \frac{e^{o_i}}{\sum e^{o_j}}.\]
 
 <p>Luckly the <em>softmax</em> has a simple derivative:</p>
 
-\[\frac{\partial s(\mathbf{o})_i}{\partial o_j} =
+\[\frac{\partial \sigma(\mathbf{o})_i}{\partial o_j} =
 \begin{cases}
-    s(\mathbf{o}_k)_i - s(\mathbf{o})_i^2 &amp; \text{ if } i = j \\
-    -s(\mathbf{o}_k)_i s(\mathbf{o})_j &amp; \text{ otherwise.}
+    \sigma(\mathbf{o}_k)_i - \sigma(\mathbf{o})_i^2 &amp; \text{ if } i = j \\
+    -\sigma(\mathbf{o}_k)_i \sigma(\mathbf{o})_j &amp; \text{ otherwise.}
 \end{cases}\]
 
 <p>We can also compute the full Jacobian of the <em>softmax</em> vector-to-vector operation:</p>
 
-\[\nabla_{\mathbf{o}} \mathbf{s} = \mathbf{J}_{\mathbf{o}}(\mathbf{s}) =
+\[\nabla_{\mathbf{o}} \sigma = \mathbf{J}_{\mathbf{o}}(\sigma) =
 \begin{bmatrix} 
-    s_1 - s_1^2 &amp; -s_1 s_2 &amp; \ldots &amp; - s_1 s_m  \\
-    -s_2 s_1 &amp; s_2 - s_2^2 &amp; \ldots &amp; -s_2 s_m \\
+    \sigma_1 - \sigma_1^2 &amp; -\sigma_1 \sigma_2 &amp; \ldots &amp; - \sigma_1 \sigma_m  \\
+    -\sigma_2 \sigma_1 &amp; s_2 - \sigma_2^2 &amp; \ldots &amp; -\sigma_2 \sigma_m \\
     \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\
-    -s_m s_1 &amp; -s_m s_2 &amp; \ldots &amp; s_m - s_m^2
-\end{bmatrix} = \text{diag}\left(\mathbf{s}\right) - \mathbf{s}^{\top} \mathbf{s}\]
+    -\sigma_m \sigma_1 &amp; -\sigma_m \sigma_2 &amp; \ldots &amp; \sigma_m - \sigma_m^2
+\end{bmatrix} = \text{diag}\left(\sigma\right) - \sigma^{\top} \sigma\]
 
 <p>Similar then before, our loss $L$ is the mean <em>negative log likelihood</em>.</p>
 
-\[L(\mathbf{y}, \mathbf{s}) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\mathbf{s})^\top\]
+\[L(\mathbf{y}, \sigma) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\sigma)^\top\]
 
 <p>where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,</p>
 
@@ -1896,41 +1928,41 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 <p>For the <em><a href="https://en.wikipedia.org/wiki/Backpropagation">backpropagation</a></em> we need</p>
 
-\[\nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) = \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o}.\]
+\[\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) = \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o}.\]
 
 <p>Here we employ the <em>chain rule</em>.
 The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
 
 \[\begin{align}
-    \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) &amp;= -\nabla_{\mathbf{o}} \mathbf{y} \log(\mathbf{s})^\top \\
-    &amp;= -\mathbf{y} \nabla_{\mathbf{o}}\log(\mathbf{s}) \\
-    &amp;= -\frac{\mathbf{y}}{\mathbf{s}} \nabla_{\mathbf{o}} \mathbf{s} \\
-    &amp;= -\frac{\mathbf{y}}{\mathbf{s}} \cdot \mathbf{J}_{\mathbf{o}}(\mathbf{s}) \\
-    &amp;= -\frac{\mathbf{y}}{\mathbf{s}} \cdot \left[ \text{diag}(\mathbf{s}) - \mathbf{s}^\top \mathbf{s} \right] \\
-    &amp;= \frac{\mathbf{y}}{\mathbf{s}} \mathbf{s}^\top \mathbf{s} - \frac{\mathbf{y}}{\mathbf{s}} \text{diag}(\mathbf{s}) \\
-    &amp;= \mathbf{s} - \mathbf{y}.
+    \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) &amp;= -\nabla_{\mathbf{o}} \mathbf{y} \log(\sigma)^\top \\
+    &amp;= -\mathbf{y} \nabla_{\mathbf{o}}\log(\sigma) \\
+    &amp;= -\frac{\mathbf{y}}{\sigma} \nabla_{\mathbf{o}} \sigma \\
+    &amp;= -\frac{\mathbf{y}}{\sigma} \cdot \mathbf{J}_{\mathbf{o}}(\sigma) \\
+    &amp;= -\frac{\mathbf{y}}{\sigma} \cdot \left[ \text{diag}(\sigma) - \sigma^\top \sigma \right] \\
+    &amp;= \frac{\mathbf{y}}{\sigma} \sigma^\top \sigma - \frac{\mathbf{y}}{\sigma} \text{diag}(\sigma) \\
+    &amp;= \sigma - \mathbf{y}.
 \end{align}\]
 
 <p>The $\log$ and the devision operates component-wise and</p>
 
-\[\text{diag}\left(\mathbf{s}\right) =
+\[\text{diag}\left(\sigma\right) =
 \begin{bmatrix} 
-    s(\mathbf{o})_1 &amp; 0 &amp; \ldots &amp; 0  \\
-    0 &amp; s(\mathbf{o})_2 &amp; \ldots &amp; 0 \\
+    \sigma(\mathbf{o})_1 &amp; 0 &amp; \ldots &amp; 0  \\
+    0 &amp; \sigma(\mathbf{o})_2 &amp; \ldots &amp; 0 \\
     \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\
-    0 &amp; 0 &amp; \ldots &amp; s(\mathbf{o})_m
+    0 &amp; 0 &amp; \ldots &amp; \sigma(\mathbf{o})_m
 \end{bmatrix}\]
 
 <p>holds.
 We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix $\mathbf{W}$:</p>
 
 \[\begin{align}
-\nabla_{\mathbf{W}} L(\mathbf{y}, \mathbf{s}) &amp;= \nabla_{\mathbf{o}} L(\mathbf{y}, \mathbf{s}) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
-&amp;= (\mathbf{s} - \mathbf{y}) \cdot \nabla_{\mathbf{W}} (\mathbf{x} \cdot \mathbf{W})\\
-&amp;= (\mathbf{s} - \mathbf{y}) \cdot \mathbf{x}^{\top}.
+\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) &amp;= \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
+&amp;= (\sigma - \mathbf{y}) \cdot \nabla_{\mathbf{W}} (\mathbf{x} \cdot \mathbf{W})\\
+&amp;= (\sigma - \mathbf{y}) \cdot \mathbf{x}^{\top}.
 \end{align}\]
 
-<p>Given that $\mathbf{s}$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed “incorrect”, and $(p_i-1)$ otherwise. 
+<p>Given that $\sigma$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed “incorrect”, and $(p_i-1)$ otherwise. 
 All other entries are zero.
 Note also that $\mathbf{x}$ is also a one-hot encoded vector.
 Consequently, if a probability is correct, it gets increased by $1-p_i$ and decreased by $p_i-1$ otherwise.
@@ -1973,7 +2005,7 @@ Let us consider a batch of points, i.e.,</p>
 
 <p>The <em>softmax</em> is still a vector-to-vector transformation, but it’s applied independently to each row of $\mathbf{X}$:</p>
 
-\[\mathbf{S} = \begin{bmatrix} \mathbf{s}(\mathbf{o}_1) \\ \mathbf{s}(\mathbf{o}_2) \\ \vdots \\ \mathbf{s}(\mathbf{o}_n) \end{bmatrix}\]
+\[\mathbf{S} = \begin{bmatrix} \sigma(\mathbf{o}_1) \\ \sigma(\mathbf{o}_2) \\ \vdots \\ \sigma(\mathbf{o}_n) \end{bmatrix}\]
 
 <p>We can do the exact same steps but I will skip this part.
 For the interested reader I refer to <a href="https://mattpetersen.github.io/softmax-with-cross-entropy"></a></p>
@@ -2062,7 +2094,7 @@ For instance, introducing a <em>hidden layer</em> results in a loss of <code cla
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). This Time with Feeling: Learning Expressive Musical Performance. <i>CoRR</i>, <i>abs/1808.03715</i>. http://arxiv.org/abs/1808.03715</span></li>
-<li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[This post is part of a series of blog posts:]]></summary></entry><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
+<li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[The code shown here can be found in the following GitHub repository. In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. This consists of two approaches:]]></summary></entry><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
 To make my case immediately understandable, I will provide a specific example.
 However, it’s worth noting that this is just one of countless possible instances.</p>
 
@@ -2670,7 +2702,7 @@ The term <strong>co-pilot</strong> comes to mind.</p>
 
 <p>For the interested reader, the survey <em>AI Methods in Algorithmic Composition: A Comprehensive Survey</em> <a class="citation" href="#rodriguez:2014">(Rodriguez &amp; Vico, 2014)</a> and <em>A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions</em> <a class="citation" href="#shulei:2020">(Ji et al., 2020)</a> offer an excellent first overview of the different techniques up to the year 2014 and 2020, respectively.</p>
 
-<h3 id="a-difficult-problem">A difficult Problem</h3>
+<h3 id="a-difficult-problem">A Difficult Problem</h3>
 
 <p>Let us first reflect on the question of why melody generation is tricky.
 First of all, in music, intervals are everything.
@@ -2690,7 +2722,7 @@ Together, these properties make melody (or polyphonic) generation hard.</p>
 <p>Many artists and researchers took on the challenge, and <em>machine learning techniques</em> increasingly play an essential role.
 The learning and generation are based on two major categories of representations: either <strong>symbolic notation</strong> or <strong>performed pieces</strong> of music.</p>
 
-<p>Classical music and most other kinds of music as we know them came into being through the music generation process depicted in figure 1.
+<p>Classical music and most other kinds of music as we know them came into being through the music generation process depicted in Figure 1.
 Composers write a score that leads to the performing musicians (the execution of the score) who are exciting their instruments.
 This excitement causes the instrument to vibrate, and due to its physicality, it pushes air molecules around.
 Molecules bump into each other in some areas and tend to leave other areas—a displacement we call <em>wave</em>.
@@ -2717,6 +2749,193 @@ The same is true for <em>the mono-</em> and <em>polyphonic</em> generations.
 Do we want to generate a full-fetched performance, a melody snippet (monophonic), or something in between?
 In this blog post, I will focus on the <em>monophonic</em> generation (one note at a time).</p>
 
+<h3 id="autoregressive-generative-models">Autoregressive Generative Models</h3>
+
+<p>An autoregressive (AR) model is a representation of a type of random process that specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term).
+In the field of machine learning these models are <em>sequence generative models</em>, that is, they learn an approximation of the real probability distribution.</p>
+
+<p>Let’s assume we are given access to a dataset $\mathcal{D} \subseteq \mathcal{X}^n$ of $n$-dimensional datapoints $\mathbf{x}$.
+Each datapoint represents a sequence of events—in our case a sequence of notes.
+By the chain rule of probability, we can factorize the joint distribution over the $n$-dimensions as</p>
+
+\[P(\mathbf{x}) = \prod_{i=1}^n P(x_i | x_1, x_2, \ldots, x_{i-1}) = \prod_{i=1}^n P(x_i|\mathbf{x}_{&lt;i}),\]
+
+<p>where</p>
+
+\[P(x_i | x_1) = P(x_i | X_1 = x_1)\]
+
+<p>and</p>
+
+\[\mathbf{x}_{&lt;i} = (x_1, x_2, \ldots, x_{i-1}).\]
+
+<p>If we allow every conditional $P(x_i|\mathbf{x}_{&lt;i})$ to be specified in a tabular form, then such a representation is fully general and can represent any possible distribution over $n$ random variables.
+However, the space complexity for such a representation grows exponentially with $n$.</p>
+
+<p>In an <em>autoregressive generative model</em>, the conditionals are specified as parameterized functions (hypothesis) with a fixed number of parameters</p>
+
+\[P_{\theta_{i}}(x_i|\mathbf{x}_{&lt;i}) = h_i(x_1, x_2, \ldots, x_{i-1}),\]
+
+<p>where $\theta_{i}$ denotes the set of parameters used to specify the mean function</p>
+
+\[h_{\theta_{i}} : \mathcal{X}^{i-1} \rightarrow [0;1]^{|\mathcal{X}|},\]
+
+<p>with the condition that the $|\mathcal{X}|$ probabilities sum up to 1.
+The number of parameters of such a model is given by</p>
+
+\[\sum_{i=1}^n |\theta_{i}|.\]
+
+<h3 id="linear-models">Linear Models</h3>
+
+<p>Suppose</p>
+
+\[\mathcal{X} = \{0,1\} \quad \text{ (Bernoulli random variables)}\]
+
+<p>then a very simple model would be a linear combination of the input elements followed by a sigmoid non-linearity (to restrict the output to lie between 0 and 1):</p>
+
+\[h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1}) = \sigma\left( \alpha_0^{(i)} + \alpha_1^{(i)} x_1 + \ldots + \alpha_{i-1}^{(i)} x_{i-1} \right),\]
+
+<p>where</p>
+
+\[\sigma(x) = \frac{1}{1+e^{-x}}\]
+
+<p>and</p>
+
+\[\theta_i = \{\alpha_0^{(i)}, \alpha_1^{(i)}, \ldots, \alpha_{i-1}^{(i)}\}\]
+
+<p>denote the parameters of the mean function.
+Note that this simple model has $\mathcal{O}(n^2)$ pareamters (instead of the $\mathcal{O}(2^{n-1})$) required if we use a tabular representation for the conditionals.
+In Fig. 2</p>
+
+\[\hat{y}_i \in \mathcal{X} \text{ is } 1 \text{ if } h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1}) &gt; 0.5,\]
+
+<p>otherwise it is 0.</p>
+
+<p><br /></p>
+<div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/fvsbn.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 2: Fully-visible sigmiod belief network (binary classification).</div>
+</div>
+<p><br /></p>
+
+<p>In the general case, where $|\mathcal{X}| = m$, i.e. it consists of a finite number of possible events—in our case notes—a linear model should output $m$ numbers between 0 and 1 that sum up to 1.
+In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensional vector</p>
+
+\[\mathbf{p}_i = (p_{i1}, p_{i2}, \ldots, p_{im})\]
+
+<p>where</p>
+
+\[p_{ij} = \frac{e^{z_{ij}}}{\sum_{k=1}^m e^{z_{ik}}} = \sigma(\mathbf{z}_{i})\]
+
+<p>with</p>
+
+\[z_{ij} = \alpha_0^{(i,j)} + \alpha_1^{(i,j)} x_1 + \ldots + \alpha_{i-1}^{(i,j)} x_{i-1}.\]
+
+<p>Thus we replace the <em>sigmoid</em> by <em>softmax</em> and we would require $\mathcal{O}(n^2 \cdot m)$ parameters.</p>
+
+<p><br /></p>
+<div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/fvsbn-multiclass.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 3: Fully-visible softmax belief network (multi-class classification with 3 classes).</div>
+</div>
+<p><br /></p>
+
+<p>We can express this via a matrix-vector multiplication</p>
+
+\[\mathbf{z}_{i} = \mathbf{A}_i \mathbf{x}_{&lt;i} + \mathbf{b}_i,\]
+
+<p>where</p>
+
+\[\mathbf{A}_{i} =
+\begin{bmatrix}
+ \alpha_1^{(i,1)} &amp; \alpha_2^{(i,1)} &amp; \ldots &amp; \alpha_{m-1}^{(i,1)} \\
+ \alpha_1^{(i,2)} &amp; \alpha_2^{(i,2)} &amp; \ldots &amp; \alpha_{m-1}^{(i,2)} \\
+ \vdots &amp; \vdots &amp; \vdots &amp; \vdots \\
+ \alpha_1^{(i,m)} &amp; \alpha_2^{(i,2)} &amp; \ldots &amp; \alpha_{m-1}^{(i,m)}
+\end{bmatrix},
+
+\quad \mathbf{b}_i = 
+\begin{bmatrix}
+\alpha_0^{(i,1)} \\
+\alpha_1^{(i,2)} \\
+\vdots \\
+\alpha_0^{(i,m)}
+\end{bmatrix}.\]
+
+<p>For example, if we have three events $m=3$ (see Fig. 3) and $n=5$ then</p>
+
+\[\mathbf{A}_{5} =
+\begin{bmatrix}
+ \alpha_1^{(3,1)} &amp; \alpha_2^{(3,1)} &amp; \alpha_3^{(3,1)} &amp; \alpha_4^{(3,1)}\\
+ \alpha_1^{(3,2)} &amp; \alpha_2^{(3,2)} &amp; \alpha_3^{(3,2)} &amp; \alpha_4^{(3,1)}\\
+ \alpha_1^{(3,3)} &amp; \alpha_2^{(3,3)} &amp; \alpha_3^{(3,3)} &amp; \alpha_4^{(3,1)}  
+\end{bmatrix},
+
+\quad
+
+\mathbf{A}_{3} =
+\begin{bmatrix}
+ \alpha_1^{(2,1)} &amp; \alpha_2^{(2,1)} \\
+ \alpha_1^{(2,2)} &amp; \alpha_2^{(2,2)} \\
+ \alpha_1^{(2,3)} &amp; \alpha_2^{(2,2)}  
+\end{bmatrix}.\]
+
+<p>Note that if we only want to compute the next note of a melody given a sequence of $n-1$ notes, we are only interested in</p>
+
+\[P(x_n|x_1,x_2,\ldots, x_{n-1}).\]
+
+<p>Thus, our network can be much simpler, i.e., we only need to compute</p>
+
+\[z_n = \mathbf{A}_n \mathbf{x}_{i&lt;n} + \mathbf{b}_n.\]
+
+<p><br /></p>
+<div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/fvsbn-multiclass-sim.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 4: Fully-visible softmax belief network (multi-class classification with 3 classes) predicting only the next note.</div>
+</div>
+<p><br /></p>
+
+<p>We could share our parameters for computing the next note for a sequence shorter than $n-1$ notes by seting</p>
+
+\[x_j = 0 \text{ for } j \geq i.\]
+
+<p>This architecture is often called <em>neural autoregressive density estimator</em>.
+By sharing, we reduces the amount of parameters to $\mathcal{O}(n \cdot m)$.
+We will use such a feedforward neural network (without a bias term and assuming $n=2$) in <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em> of this series.</p>
+
+<h3 id="multi-layer-perceptrons">Multi-Layer Perceptrons</h3>
+
+<p>A natural way to increase the expressiveness of an autoregressive generative model is to use more flexible parameterizations for the mean function (our hypotheses), e.g., multi-layer perceptrons (MLP).
+For example, consider the case of a neural network with 1 hidden layer.
+The mean function for variable $i$ can be expressed as</p>
+
+\[\mathbf{h}_i = \sigma\left(\mathbf{W}_i \mathbf{x}_{&lt; i} + \mathbf{c}_i \right) \quad \text{ (component-wise sigmoid)}\]
+
+\[\mathbf{z}_i = \sigma\left( \mathbf{A}_{i} \mathbf{h}_i + \mathbf{b}_i \right) \quad \text{ (softmax)}\]
+
+<p>where $\mathbf{h}_i \in \mathbb{R}^d$ denotes the hidden layer activations for the MLP and</p>
+
+\[\theta_i = \{ \mathbf{W}_i \in \mathbb{R}^{d \times (i-1)}, \mathbf{c}_i \in \mathbb{R}^d, \mathbf{A}_{i} \in \mathbb{R}^{(i-1) \times d}, b_i \in \mathbb{R}^m \}.\]
+
+<p>are the set of parameters for the mean function.
+Note that if $d$ is small the information gets compressed.
+The total number of parameters in this model is in $\mathcal{O}(n^2 \cdot d)$ and is dominated by the matrices.
+Sharing both types of matrices reduces the complexity to $\mathcal{O}(n \cdot d)$</p>
+
+\[\theta = \{ \mathbf{W}_n \in \mathbb{R}^{d \times (n-1)}, \mathbf{c}_n \in \mathbb{R}^d, \mathbf{A}_n \in \mathbb{R}^{(n-1) \times d}, \mathbf{b}_n \in \mathbb{R}^m \}.\]
+
+<p>computing</p>
+
+\[\mathbf{h}_i = \sigma\left(\mathbf{W}_n \mathbf{x}_{&lt; n} + \mathbf{c}_n \right) \quad \text{ (component-wise sigmoid)}\]
+
+\[\mathbf{z}_n = \sigma\left( \mathbf{A}_n \mathbf{h}_n + \mathbf{b}_n \right) \quad \text{ (softmax)}.\]
+
+<p><br /></p>
+<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/fvsbn-multiclass-hidden-sim.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 5: Multi-layer perceptrons with one hidden layer (multi-class classification with 3 classes) predicting only the next note.</div>
+</div>
+<p><br /></p>
+
 <h3 id="discrete-markov-models">Discrete Markov Models</h3>
 
 <p>In my post <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>, I used a <em>(discrete) first-order Markov chain (MC)</em> (also called <em>Markov process</em>) to generate melodies after learning the model from one piece of music.
@@ -2730,7 +2949,16 @@ Using a <em>first-order Markov model</em>, one would estimate the probability of
 
 \[P(X_0 = A) \cdot P(X_1 = B \ | \ X_0 = A) \cdot P(X_2 = F \ | \ X_1 = B).\]
 
-<p>In this example, a state is defined by a note, e.g. A.</p>
+<p>Using our notation above this corresponds to very simple <em>hypotheses</em></p>
+
+\[h_{\theta_{i}}(x_{i-1}) = \left( c_1, \ldots, c_m \right) = \left( \hat{P}(X_{i} = x_1|X_{i-1} = x_{i-1}), \ldots, \hat{P}(X_{i} = x_m|X_{i-1} = x_{i-1}) \right),\]
+
+<p>where $m$ is the number of possibly accoring notes and</p>
+
+\[\hat{P}(X_i = x_i|X_{i-1} = x_{i-1})\]
+
+<p>is the empirical probability of $x_i$ accuring after $x_{i-1}$, i.e. the frequency of this event.
+In this example, a state is defined by a note, e.g. A.</p>
 
 <p><em>Hidden Markov models (HMM)</em> are <em>Markov chains</em> with <em>hidden states</em>.
 There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
@@ -2738,12 +2966,12 @@ The current hidden state $Z_t$ <em>emits</em> an <em>observation</em> $X_t$.
 In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one <strong>distribution</strong> of observations to the next, e.g. from one distribution of notes to the next!</p>
 
 <p>For example, imagine a prisoner who has to estimate the outside weather (<em>hidden state</em>) by observing the dirt on the guard’s boots (<em>emissions</em>).
-If he knows all the probability transitions (e.g., from sunny to rainy, sunny to dirty on boots, etc.) and existing states, the prisoner could model the problem by an HMM, compare Figure 2.</p>
+If he knows all the probability transitions (e.g., from sunny to rainy, sunny to dirty on boots, etc.) and existing states, the prisoner could model the problem by an HMM, compare Figure 4.</p>
 
 <p><br /></p>
-<div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
-<img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/hmm-example-prison.png" alt="Sketch of an HMM." />
-<div style="display: table;margin: 0 auto;">Figure 2: Hidden Markov model with 2 hidden states (sunny, rainy) and 2 observation variables (clean, dirty). The initial state is either sunny or rainy with 0.5 probability.</div>
+<div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
+<img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/hmm-example-prison.png" alt="Sketch of an HMM." />
+<div style="display: table;margin: 0 auto;">Figure 4: Hidden Markov model with 2 hidden states (sunny, rainy) and 2 observation variables (clean, dirty). The initial state is either sunny or rainy with 0.5 probability.</div>
 </div>
 <p><br /></p>
 
@@ -2790,7 +3018,7 @@ In his blog post, he writes:</p>
 
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
-<div style="display: table;margin: 0 auto;">Figure 3: Sketch of an RNN unfolded in time.</div>
+<div style="display: table;margin: 0 auto;">Figure 5: Sketch of an RNN unfolded in time.</div>
 </div>
 <p><br /></p>
 
@@ -2799,7 +3027,7 @@ The information no longer flows acyclic through the network.
 Instead, recurrent feedback is introduced and allows an RNN to take into account its past inputs together with new inputs.
 Essentially, an RNN predicts a sequence of symbols given an input sequence.
 But using an RNN is like writing a thousand letters on the same piece of paper and then figuring out the information contained in the first letter—it is a mess; the information gets washed away.
-In Figure 3 the basic components of an RNN are depicted.
+In Figure 5 the basic components of an RNN are depicted.
 Using my analogy, the piece of paper are the matrices $U,V,W$ which are learnable parameters.
 <strong>They are shared through time!</strong></p>
 
@@ -2808,12 +3036,12 @@ LSTMs <strong>learn</strong> which information they should keep in long-term mem
 Instead of just writing all the letters on the piece of paper, we use our rubber and get rid of some writings while highlighting other passages.</p>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
-<div style="display: table;margin: 0 auto;">Figure 4: A sketch of an LSTM cell.</div>
+<div style="display: table;margin: 0 auto;">Figure 6: A sketch of an LSTM cell.</div>
 </div>
 <p><br /></p>
 
 <p>There is plenty of good material which explains LSTMs much more accurately than I can ever do.
-Figure 4 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
+Figure 6 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
 First, the cell “decides” what to keep in the long-term state $\mathbf{c}_{t-1}$ via $f_t$.</p>
 
@@ -2831,7 +3059,7 @@ Therefore, information can persist for longer.</p>
 There is no direct access to information compared to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a>, and the <em>transformer</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>, which led to the most recent breakthroughs in the field of <em>deep learning</em>.
 Just a few days ago, another RNN, called <a href="https://github.com/BlinkDL/RWKV-LM">RWKV-LM</a>, claimed to achieve similar results; thus, the last word has yet to be spoken.</p>
 
-<h3 id="recurrent-neural-networks">Recurrent Neural Networks</h3>
+<h3 id="application-of-recurrent-neural-networks">Application of Recurrent Neural Networks</h3>
 
 <p>In <a class="citation" href="#todd:1989">(Todd, 1989)</a> <em>Peter M. Todd</em> used a <em>vanilla RNN</em> to generate melodies.
 Various issues are discussed in designing the network.
