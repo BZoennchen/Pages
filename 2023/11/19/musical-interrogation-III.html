@@ -8,8 +8,8 @@
 <meta property="og:title" content="Musical Interrogation III - LSTM" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This article is the continuation of the Musical Interrogation I - Intro and Part II - FNN. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
-<meta property="og:description" content="This article is the continuation of the Musical Interrogation I - Intro and Part II - FNN. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
+<meta name="description" content="This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
+<meta property="og:description" content="This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
 <link rel="canonical" href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" />
 <meta property="og:url" content="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" />
 <meta property="og:site_name" content="Bene’s Blog" />
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Musical Interrogation III - LSTM" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-11-19T00:00:00+01:00","datePublished":"2023-11-19T00:00:00+01:00","description":"This article is the continuation of the Musical Interrogation I - Intro and Part II - FNN. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.","headline":"Musical Interrogation III - LSTM","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"},"url":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-11-19T00:00:00+01:00","datePublished":"2023-11-19T00:00:00+01:00","description":"This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.","headline":"Musical Interrogation III - LSTM","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"},"url":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,8 +78,75 @@
       </span></p>
   </header>
 
+ 
+
+  
+  
+  
+  
+<div class="panel seriesNote">
+    <p>
+        This article is <strong>Part 3</strong> in a <strong>3-Part</strong> Series.
+    </p>
+    <ul>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Part 1 -
+            
+            <a href="/Pages/2023/04/02/musical-interrogation-I.html">Musical Interrogation I - Intro</a>
+            
+        </li>
+        
+        
+        
+        
+        
+        
+        <li>Part 2 -
+            
+            <a href="/Pages/2023/05/31/musical-interrogation-II.html">Musical Interrogation II - FFN</a>
+            
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+        <li>Part 3 -
+            
+            Musical Interrogation III - LSTM
+            
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+
   <div class="post-content e-content" itemprop="articleBody">
-    <p>This article is the continuation of the <em><a href="/Pages/2023/04/02/musical-interrogation-I.html">Musical Interrogation I - Intro</a></em> and <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em>.
+    <p>This article is the continuation of my series Musical Interrogation.
 It is recommended that you read the these articles first.
 This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
 An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
@@ -247,9 +314,11 @@ We surely want to increase <code class="language-plaintext highlighter-rouge">n_
 </code></pre></div></div>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/lstm-model.png" alt="LSTM model" />
-<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: The architecture of our LSTM model using a batch size of 64 and a sequence length also equal to 64. The alphabet consists of 38 unique tokens. Each single input is hot-encoded into a vector with 38 components. The LSTM uses a hidden state with 128 components. After the dropout the 128 components of hidden state are reduced to 38 components utilizing a normal linear layer (without an activation function).</div>
 </div>
 <p><br /></p>
+
+<p>Note that the softmax is part of our loss <code class="language-plaintext highlighter-rouge">criterion</code> i.e. the cross entropy loss <code class="language-plaintext highlighter-rouge">torch.nn.CrossEntropyLoss()</code> which is part of the backpropagation, i.e., the training process.</p>
 
 <h2 id="melody-generation-before-training">Melody Generation (Before Training)</h2>
 
@@ -442,6 +511,13 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
   Your browser does not support the audio element.
 </audio>
 
+  </div>
+
+  <div class="PageNavigation">
+    
+    <a class="prev" href="/Pages/2023/11/19/laws-of-form.html">&laquo; Laws of Form</a>
+    
+    
   </div><a class="u-url" href="/Pages/2023/11/19/musical-interrogation-III.html" hidden></a>
 </article>
       </div>
