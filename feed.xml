@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-26T00:44:41+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-11-26T16:48:38+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
@@ -17,7 +17,7 @@ So let me examine the logic of Georg Spencer-Brown presented in his work <em>Law
 If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
 Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
 
-\[R := \left\{ x \ | \ x \not\in x \right\}\]
+\[R := \left\{ x \ | \ x \not\in x \right\}.\]
 
 <p>$R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
 However, if we introduce the self-referential relation, we run into a paradox:</p>
@@ -27,7 +27,7 @@ R \in R \iff R \not\in R
 \end{equation}</p>
 
 <p>This paradox is related to the barber that shaves everyone that does not shave themselves.
-If that is the case, does the barber shave himselve?</p>
+If that is the case, does the barber shave themselves?</p>
 
 <p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
 To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
@@ -38,15 +38,15 @@ Via the self-referential relation, that is, by letting the machine check itself,
 $R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
 Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
 His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
-The self-referential relation is a paradox if we ignore time and it becomes a generator if consider time and place.</p>
+The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
 
 <p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>The Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
-He resolves the paradox by a similar idea that gave us imaginary numbers by using what he calls <em>Re-entry</em>, that is, the introduction of the system into itself.</p>
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
 
-<p>Luhmann integrated this idea into his Social Systems Theory.
+<p>Luhmann integrated this idea into his social systems theory.
 For example, the media can observe and reintroduce itself into itself. 
-It can use its systemic operation on itself, i.e. it can report on itself.</p>
+It can use its systemic operations on itself, i.e. it can report on itself.</p>
 
 <p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
 
@@ -136,14 +136,14 @@ Let $a, b$ variables, then the following holds:</p>
 <p><br /></p>
 
 <p>Let’s have a look at the last transformation.
-Let us assume a = #.
+Let us assume $a$ is a <strong>mark</strong>.
 Then we get:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
 <p><br /></p>
 
-<p>Let a = instead, then we can follow:</p>
+<p>Let $a$ be <strong>unmarked</strong> instead, then we can follow:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
@@ -187,23 +187,22 @@ i = -1 /(-1 /(-1 / (-1 / \ldots )))
 
 <p>but what does this mean?
 The system is not a number but a process, a generator that generates itself.
-$i$ alternates between 1 and -1.</p>
-
-<p>Interestingly, this is precisely how we use the equal sign in most programming languages.
-Writing $i = i / -1$ in a programming language means</p>
+$i$ alternates between 1 and -1.
+Interestingly, this is precisely how we use the equal sign in most programming languages.
+Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
 
 <p>\begin{equation}
-i \leftarrow i / -1.
+i \leftarrow \frac{i}{-1}.
 \end{equation}</p>
 
-<p>The next step is to introduce such a re-entry into logic?
-Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (The Re-Entry of the Mark):</p>
+<p>The next step is to introduce such a re-entry into logic.
+Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
 <p><br /></p>
 
-<p>The solution is an alternation between a marked and an unmarked state—between true and false.
+<p>The solution is an alternation between a marked and unmarked state—between true and false.
 A state that might seem contradictory in space, makes sense if it is observed in time and space.
 Again, time resolves the paradox.
 To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
@@ -212,7 +211,7 @@ To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
 <p><br /></p>
 
-<p>We could similarily notate $i$:</p>
+<p>We could similarily notate $i$ as</p>
 
 <p><br /></p>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
@@ -226,15 +225,16 @@ For example, we can state the following:</p>
 <p><br /></p>
 
 <p>However, it is forbidden to only change one appearance of $J$!
-Using this simple rule, there is no paradox.
+Following this simple rule, no paradox or inconsistency arises.
 We can go on and evaluate the following transformation:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
 <p><br /></p>
 
-<p>which describes two alternating waves shifted by one cycle resulting in a mark.
-Spencer-Brown goes on and defines his Echelon:</p>
+<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
+
+<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
 
 <p><br /></p>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
@@ -272,9 +272,9 @@ It is like in physics where multiple theories are equivalent but start from very
 It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
 To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
 
-<p>To be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient and the new signs are not yet available.
-To be able to close this gap (to make this leap successfully), a specific language of one’s own is necessary. 
-This step is accomplished, for Spencer-Brown, in <strong>thinking</strong> with his specific imagination.</p>
+<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
+To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
+According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
 
 <p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
 
