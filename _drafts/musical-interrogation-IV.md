@@ -6,6 +6,9 @@ comments: true
 series: "Musical Interrogation"
 ---
 
+>Recurrent models trained in practice are effectively feed-forward.
+>This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. -- John Miller
+
 This time in the series we use the most famous model architecture for generative purposes: the **Transformer** {% cite vaswani:2017 %}.
 
 The Transformer was introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
@@ -226,7 +229,7 @@ Each number will be transformed into a specific vector (i.e. its embedding).
 The embedding will be learned.
 
 ```python
-class TransformerDecoder(nn.Module):
+class TransformerEncoder(nn.Module):
     
     def __init__(self, vocab_size, sequence_len, n_embd, n_heads, n_blocks, dropout):
         super().__init__()
@@ -255,8 +258,29 @@ class TransformerDecoder(nn.Module):
 ...
 ```
 
-By increasing the dimension of the embedding, the sequence length, the number of heads within a block and the number of blocks we can drastically increase the size and power of our (Decoder-)Transformer.
+By increasing the dimension of the embedding, the sequence length, the number of heads within a block and the number of blocks we can drastically increase the size and power of our (Encoder-)Transformer.
 However, this will rapidly increase the memory requirements and training time.
+
+## Attention-Free Transformer
+
+In 2022 a further simplification was brought to the table.
+Instead of computing attention *FNet* {% cite leethorp:2022 %} just mixes tokens according to the Fourier discrete transformation (DFT).
+Amazingly even though there is no parameter to learn within the ``Fourier``-layer (which replaces the ``Head``) this strategy seems to work almost as good as the far more computational expensive task of learning all the required attention scores.
+
+The Fourier transform decomposes a function (in our case a discrete signal) into its constituent frequencies.
+Given a sequence $x_0, \ldots, x_{N-1}$, the discrete Fourier transform (DFT) is defined by
+
+$$X_k = \sum\limits_{n=0}^{N-1} x_n \exp\left( - \frac{2\pi i}{N} nk \right), \quad 0 \leq k \leq N-1.$$
+
+$X_k$ encodes the **phase** and **power** of frequency $k$ within the signal.
+*FNet* consists of a Fourier **mixing sublayer** followed by a feed-forward sublayer.
+Essentially, the self-attention sublayer of each Transformer encoder layer is replaced with a Fourier sublayer which applies a 2D DFT to its 
+
+$$(\text{sequence length} \times \text{hidden dimension})$$
+
+embedding input---one 1D DFT along the sequence dimension, $\mathcal{F}_\text{seq}$, and one 1D DFT along the hidden dimension, $\mathcal{F}_\text{h}$:
+
+$$y = \text{Real}\left( \mathcal{F}_\text{seq} \left( \mathcal{F}_\text{h}(\mathbf{x}) \right) \right)$$
 
 ## References
 

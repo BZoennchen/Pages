@@ -24,7 +24,7 @@ The statement is logically problematic because it is self-referential.
 If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
 Another famous paradox is Russell’s antinomy of the naïve set theory:
 
-$$R := \left\{ x \ | \ x \not\in x \right\}$$
+$$R := \left\{ x \ | \ x \not\in x \right\}.$$
 
 $R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
 However, if we introduce the self-referential relation, we run into a paradox:
@@ -34,7 +34,7 @@ R \in R \iff R \not\in R
 \end{equation}
 
 This paradox is related to the barber that shaves everyone that does not shave themselves.
-If that is the case, does the barber shave himselve?
+If that is the case, does the barber shave themselves?
 
 Another example involves the the proof of the [Halting Problem]({% post_url 2021-06-08-Informatics-a-love-letter %}).
 To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
@@ -45,15 +45,15 @@ The idea of Spencer-Brown is to resolve these paradoxes over time.
 $R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
 Note however that he does not resolve Russell’s antinomy {% cite cull:1979 %}.
 His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic---a process of self-creation.
-The self-referential relation is a paradox if we ignore time and it becomes a generator if consider time and place.
+The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.
 
 This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of *autopoiesis* {% cite maturana:1987 %}.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work *The Laws of Form* {% cite brown:1969 %}.
-He resolves the paradox by a similar idea that gave us imaginary numbers by using what he calls *Re-entry*, that is, the introduction of the system into itself.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work *Laws of Form* {% cite brown:1969 %}.
+He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls *Re-entry* which (re-)introduces a system into itself.
 
-Luhmann integrated this idea into his Social Systems Theory.
+Luhmann integrated this idea into his social systems theory.
 For example, the media can observe and reintroduce itself into itself. 
-It can use its systemic operation on itself, i.e. it can report on itself.
+It can use its systemic operations on itself, i.e. it can report on itself.
 
 Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:
 
@@ -131,14 +131,14 @@ Let $a, b$ variables, then the following holds:
 <br>
 
 Let’s have a look at the last transformation.
-Let us assume a = #.
+Let us assume $a$ is a **mark**.
 Then we get:
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/transformation-1.png %}" alt="First possibility."></div>
 <br>
 
-Let a = instead, then we can follow:
+Let $a$ be **unmarked** instead, then we can follow:
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/transformation-2.png %}" alt="Second possibility."></div>
@@ -183,22 +183,21 @@ i = -1 /(-1 /(-1 / (-1 / \ldots )))
 but what does this mean?
 The system is not a number but a process, a generator that generates itself.
 $i$ alternates between 1 and -1.
-
 Interestingly, this is precisely how we use the equal sign in most programming languages.
-Writing $i = i / -1$ in a programming language means
+Writing ``i = i / -1`` in a programming language means
 
 \begin{equation}
-i \leftarrow i / -1.
+i \leftarrow \frac{i}{-1}.
 \end{equation}
 
-The next step is to introduce such a re-entry into logic?
-Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (The Re-Entry of the Mark):
+The next step is to introduce such a re-entry into logic.
+Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (*The Re-Entry of the Mark*):
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/j.png %}" alt="Imaginary truth value."></div>
 <br>
 
-The solution is an alternation between a marked and an unmarked state---between true and false.
+The solution is an alternation between a marked and unmarked state---between true and false.
 A state that might seem contradictory in space, makes sense if it is observed in time and space.
 Again, time resolves the paradox.
 To highlight the re-entry, Spencer-Brown also uses the following notation:
@@ -207,7 +206,7 @@ To highlight the re-entry, Spencer-Brown also uses the following notation:
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/j-2.png %}" alt="Notation of the re-entry."></div>
 <br>
 
-We could similarily notate $i$:
+We could similarily notate $i$ as
 
 <br>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/i-2.png %}" alt="Notation of the re-entry for the imaginary number."></div>
@@ -221,7 +220,7 @@ For example, we can state the following:
 <br>
 
 However, it is forbidden to only change one appearance of $J$!
-Using this simple rule, there is no paradox.
+Following this simple rule, no paradox or inconsistency arises.
 We can go on and evaluate the following transformation:
 
 <br>
@@ -229,7 +228,8 @@ We can go on and evaluate the following transformation:
 <br>
 
 which describes two alternating waves shifted by one cycle resulting in a mark.
-Spencer-Brown goes on and defines his Echelon:
+
+Spencer-Brown goes on and defines his *Echelon*:
 
 <br>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/echelon.png %}" alt="Echelon."></div>
@@ -267,9 +267,9 @@ It is like in physics where multiple theories are equivalent but start from very
 It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
 To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.
 
-To be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient and the new signs are not yet available.
-To be able to close this gap (to make this leap successfully), a specific language of one's own is necessary. 
-This step is accomplished, for Spencer-Brown, in **thinking** with his specific imagination.
+Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
+To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one's own is necessary. 
+According to Spancer-Brown this step is accomplished by **thinking** which provides us with its specific imaginations, playful freedom and contradictions.
 
 It is surprising that Spencer-Brown's *Laws of Form* plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.
 
