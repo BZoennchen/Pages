@@ -9,14 +9,23 @@ series: "Musical Interrogation"
 >Recurrent models trained in practice are effectively feed-forward.
 >This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. -- John Miller
 
-This time in the series we use the most famous model architecture for generative purposes: the **Transformer** {% cite vaswani:2017 %}.
+This time in the series we use the most famous model architecture for generative purposes: the **transformer** {% cite vaswani:2017 %}.
+Transformers were initially targeted at natural language processing (NLP) problems, where the network input is a series of high-dimensional embeddings representing words or word fragments.
+Language datasets share some of the characteristics of image data.
+The number of input variables can be very large, and the statistics are similar at every position; it's not sensible to re-learn the meaning of word *dog* at every possible position in a body of text.
+However, language datasets have the complication that text sequences very in length, and unlike images, there is no easy way to resize them.
+In the case of symbolic music, this complication is the same and the number of input variables can even be larger.
+The alphabet of musical notations has more than 26 symbols, however there is a strong relation between certain symbols.
+For example, there is a strong relation between the C's of each octave or a whole and half note in the same pitch clas.
 
-The Transformer was introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
-Its architecture and principle is simpler than that of an LSTM.
-The Transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency.
+The transformer was introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
+Its architecture and principle is simpler than that of an RNN/LSTM.
+One of the problems with RNNs is that they can forget information that is further back in the sequence.
+While more sophisticated architecture such as LSTMs {% cite hochreiter:1997 %} and *gated recurrent units* (GRUs) {% cite %} partially addressed this problem, the idea that intermediate representations in the RNN should be exploited to produce the output lead to the *attention mechanism* {% cite bahdanau:2014 %} and, in the end, to the transformer architecture {% cite vaswani:2017 %}.
+The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency.
 
-All successful large language model (LLMs) utilize the Transformer architecture, an architecture that brought us ChatGPT, LLama and BERT.
-To this day, there is no clear explanation why the Transformer is so effective.
+All successful large language model (LLMs) utilize the transformer architecture, an architecture that brought us ChatGPT, LLama and BERT.
+To this day, there is no clear explanation why the transformer is so effective.
 It is well-known how its components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
 One possible reason why it is so effective is that it relates tokens to other tokens more directly (without a hidden state which washes away the information).
 
@@ -74,7 +83,7 @@ This means that the model "sees" $n$ tokens to generate the $(n+1)^\text{th}$ to
 Simple RNNs for predicting the next tokens only see the previous token and the hidden state which represents all the tokens before.
 But, as I discussed in previous articles, the information of the hidden state gets washed away over time and without attention there seem to be little control over the importance of certain tokens of the sequence.
 
-The fundamental operation of the Transformer, i.e. the attention mechanism, is implemented in its ``Head``.
+The fundamental operation of the transformer, i.e. the attention mechanism, is implemented in its ``Head``.
 Let 
 
 $$\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}$$
@@ -258,7 +267,7 @@ class TransformerEncoder(nn.Module):
 ...
 ```
 
-By increasing the dimension of the embedding, the sequence length, the number of heads within a block and the number of blocks we can drastically increase the size and power of our (Encoder-)Transformer.
+By increasing the dimension of the embedding, the sequence length, the number of heads within a block and the number of blocks we can drastically increase the size and power of our (Encoder-)transformer.
 However, this will rapidly increase the memory requirements and training time.
 
 ## Attention-Free Transformer

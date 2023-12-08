@@ -31,7 +31,7 @@ Computer science is a door into a world of self-determination, creativity, imagi
 
 >"a world open for play."  -- Robin Williams
 
-Teaching it should be an invitation to this playful world.
+Teaching should be an invitation to this playful world.
 It should be a guide to self-discovery and individuation.
 It seems that we concluded that everyone should know how to code, at least a little bit.
 However, I firmly believe it can and must be more than useful!
