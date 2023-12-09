@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-12-08T13:17:32+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-12-09T02:42:59+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
@@ -287,14 +287,61 @@ It is recommended that you read the these articles first.
 This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
 An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
 
+<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
+Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+
+<h2 id="recurrent-neural-networks">Recurrent Neural Networks</h2>
+
+<p>Prior to the advent of transformers, many cutting-edge natural language processing (NLP) applications relied on recurrent neural networks (RNNs). 
+These networks are particularly adept at processing sequences of data, such as words in NLP tasks or notes and musical events in audio processing.</p>
+
+<p>An RNN processes a sequence</p>
+
+\[\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}\]
+
+<p>of inputs one at a time. 
+With each new input, the network not only considers this current input but also incorporates a <em>hidden state</em>—a representation of previous inputs—thanks to its recurrent connections.
+This hidden state $\mathbf{h}_t$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
+
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
 <div style="display: table;margin: 0 auto;">Figure 1: Sketch of an RNN unfolded in time.</div>
 </div>
 <p><br /></p>
 
-<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
-Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+<p>The unique feature of RNNs is their ability to maintain an internal state that captures information about the sequence they have processed to that point.
+As a result, the final output of the RNN is informed by the entire input sequence.</p>
+
+<p>Furthermore, RNNs have been employed in sequence generation or decoding tasks. 
+In such applications, the tokens generated by the RNN are fed back into it as inputs. 
+This feedback loop allows the RNN to generate sequences where each new token is influenced by the previously generated tokens, making it suitable for tasks like text generation, music composition, and more.</p>
+
+<h2 id="long-short-term-memory-networks">Long Short-Term Memory Networks</h2>
+
+<p>Long short-term memory networks (LSTMs) are a type of RNN that were designed to overcome some of the limitations of vanilla RNNs, particularly in handling long-term dependencies in sequence data.</p>
+
+<p>Vanilla RNNs struggle with learning long-term dependencies due to the <em>vanishing gradient problem</em>. 
+As the length of the input sequence increases, the gradients used in the training process can become extremely small, making it difficult for the RNN to learn and retain information from earlier inputs. 
+LSTMs address this issue with their unique architecture, which includes <em>memory cells</em> which uses different <em>gates</em>.</p>
+
+<p>A <em>memory cell</em> can maintain information in memory for long periods of time. 
+The key components of an such a cell are its gates: the <em>input gate</em>, <em>output gate</em>, and <em>forget gate</em>.
+These gates regulate the flow of information into and out of the cell, and they decide what to retain or discard from the cell state.</p>
+
+<ul>
+  <li><strong>Update Gate</strong>: Determines how much of the new information to add to the cell state.</li>
+  <li><strong>Forget Gate</strong>: Decides what information is no longer needed and removes it from the cell state, helping to prevent the accumulation of irrelevant information.</li>
+  <li><strong>Output Gate</strong>: Controls the extent to which the value in the cell is used to compute the output activation of the block.</li>
+</ul>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
+<div style="display: table;margin: 0 auto;">Figure 2: A sketch of a memory cell.</div>
+</div>
+<p><br /></p>
+
+<p>Due to their architecture, LSTMs can learn and remember over longer sequences than vanilla RNNs, making them more effective for tasks like language modeling, text generation, speech recognition, and more, where understanding context over a long sequence is crucial.
+The gating mechanism helps mitigate the vanishing gradient problem, allowing for more effective training over longer sequences.
+This is because the gates allow gradients to flow through the network without being multiplied repeatedly by small numbers (which is what causes the gradients to vanish in vanilla RNNs).</p>
 
 <h2 id="data-preparation">Data Preparation</h2>
 
@@ -363,11 +410,6 @@ The longer the sequence, the longer the training will require because the deeper
 The following is the model description of our RNN/LSTM.
 To understand what’s going on, look at the forward method.
 This sends our data through the network.</p>
-
-<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
-<div style="display: table;margin: 0 auto;">Figure 2: A sketch of an LSTM cell.</div>
-</div>
-<p><br /></p>
 
 <p>The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.</p>
 
@@ -1473,14 +1515,9 @@ Is social evolution any different?</p>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, There and Everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
 <li><span id="nagel:1974">Nagel, T. (1974). What is It Like to Be a Bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li>
 <li><span id="foerster:1988">Foerster, H. (1985). <i>Sicht und Einsicht</i>. Vieweg.</span></li>
-<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
+<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - MC and FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - MC and FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
-This consists of two approaches:</p>
-
-<ol>
-  <li>A <em>first-order Markov chain</em></li>
-  <li>A <em>feedforward neural network</em></li>
-</ol>
+This consists of two approaches: (1) A <strong>first-order Markov chain (MC)</strong> and (2) a <strong>feedforward neural network (FNN)</strong></p>
 
 <p>It’s important to note that I will disregard all forms of dynamics within a notated score (or performace), such as loudness, softness, etc.</p>
 
@@ -2094,7 +2131,7 @@ For instance, introducing a <em>hidden layer</em> results in a loss of <code cla
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). This Time with Feeling: Learning Expressive Musical Performance. <i>CoRR</i>, <i>abs/1808.03715</i>. http://arxiv.org/abs/1808.03715</span></li>
-<li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[The code shown here can be found in the following GitHub repository. In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. This consists of two approaches:]]></summary></entry><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
+<li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[The code shown here can be found in the following GitHub repository. In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. This consists of two approaches: (1) A first-order Markov chain (MC) and (2) a feedforward neural network (FNN)]]></summary></entry><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
 To make my case immediately understandable, I will provide a specific example.
 However, it’s worth noting that this is just one of countless possible instances.</p>
 

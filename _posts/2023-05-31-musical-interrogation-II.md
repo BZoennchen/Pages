@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Musical Interrogation II - FFN"
+title:  "Musical Interrogation II - MC and FFN"
 tags: Music ML FFN MC
 comments: true
 series: "Musical Interrogation"
@@ -8,10 +8,7 @@ series: "Musical Interrogation"
    
 The code shown here can be found in the following GitHub [repository](https://github.com/BZoennchen/musical-interrogation).
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
-This consists of two approaches:
-
-1. A *first-order Markov chain*
-2. A *feedforward neural network*
+This consists of two approaches: (1) A **first-order Markov chain (MC)** and (2) a **feedforward neural network (FNN)**
 
 It's important to note that I will disregard all forms of dynamics within a notated score (or performace), such as loudness, softness, etc.
 
