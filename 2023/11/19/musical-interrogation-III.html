@@ -20,7 +20,8 @@
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-11-19T00:00:00+01:00","datePublished":"2023-11-19T00:00:00+01:00","description":"This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.","headline":"Musical Interrogation III - LSTM","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"},"url":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
+<link rel="shortcut icon" href="https://bzoennchen.github.io/Pages/favicon.ico" />
+  <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -122,7 +123,7 @@
         
         <li>Part 2 -
             
-            <a href="/Pages/2023/05/31/musical-interrogation-II.html">Musical Interrogation II - FFN</a>
+            <a href="/Pages/2023/05/31/musical-interrogation-II.html">Musical Interrogation II - MC and FFN</a>
             
         </li>
         
@@ -151,14 +152,61 @@ It is recommended that you read the these articles first.
 This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
 An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
 
+<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
+Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+
+<h2 id="recurrent-neural-networks">Recurrent Neural Networks</h2>
+
+<p>Prior to the advent of transformers, many cutting-edge natural language processing (NLP) applications relied on recurrent neural networks (RNNs). 
+These networks are particularly adept at processing sequences of data, such as words in NLP tasks or notes and musical events in audio processing.</p>
+
+<p>An RNN processes a sequence</p>
+
+\[\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}\]
+
+<p>of inputs one at a time. 
+With each new input, the network not only considers this current input but also incorporates a <em>hidden state</em>—a representation of previous inputs—thanks to its recurrent connections.
+This hidden state $\mathbf{h}_t$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
+
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
 <div style="display: table;margin: 0 auto;">Figure 1: Sketch of an RNN unfolded in time.</div>
 </div>
 <p><br /></p>
 
-<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
-Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+<p>The unique feature of RNNs is their ability to maintain an internal state that captures information about the sequence they have processed to that point.
+As a result, the final output of the RNN is informed by the entire input sequence.</p>
+
+<p>Furthermore, RNNs have been employed in sequence generation or decoding tasks. 
+In such applications, the tokens generated by the RNN are fed back into it as inputs. 
+This feedback loop allows the RNN to generate sequences where each new token is influenced by the previously generated tokens, making it suitable for tasks like text generation, music composition, and more.</p>
+
+<h2 id="long-short-term-memory-networks">Long Short-Term Memory Networks</h2>
+
+<p>Long short-term memory networks (LSTMs) are a type of RNN that were designed to overcome some of the limitations of vanilla RNNs, particularly in handling long-term dependencies in sequence data.</p>
+
+<p>Vanilla RNNs struggle with learning long-term dependencies due to the <em>vanishing gradient problem</em>. 
+As the length of the input sequence increases, the gradients used in the training process can become extremely small, making it difficult for the RNN to learn and retain information from earlier inputs. 
+LSTMs address this issue with their unique architecture, which includes <em>memory cells</em> which uses different <em>gates</em>.</p>
+
+<p>A <em>memory cell</em> can maintain information in memory for long periods of time. 
+The key components of an such a cell are its gates: the <em>input gate</em>, <em>output gate</em>, and <em>forget gate</em>.
+These gates regulate the flow of information into and out of the cell, and they decide what to retain or discard from the cell state.</p>
+
+<ul>
+  <li><strong>Update Gate</strong>: Determines how much of the new information to add to the cell state.</li>
+  <li><strong>Forget Gate</strong>: Decides what information is no longer needed and removes it from the cell state, helping to prevent the accumulation of irrelevant information.</li>
+  <li><strong>Output Gate</strong>: Controls the extent to which the value in the cell is used to compute the output activation of the block.</li>
+</ul>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
+<div style="display: table;margin: 0 auto;">Figure 2: A sketch of a memory cell.</div>
+</div>
+<p><br /></p>
+
+<p>Due to their architecture, LSTMs can learn and remember over longer sequences than vanilla RNNs, making them more effective for tasks like language modeling, text generation, speech recognition, and more, where understanding context over a long sequence is crucial.
+The gating mechanism helps mitigate the vanishing gradient problem, allowing for more effective training over longer sequences.
+This is because the gates allow gradients to flow through the network without being multiplied repeatedly by small numbers (which is what causes the gradients to vanish in vanilla RNNs).</p>
 
 <h2 id="data-preparation">Data Preparation</h2>
 
@@ -227,11 +275,6 @@ The longer the sequence, the longer the training will require because the deeper
 The following is the model description of our RNN/LSTM.
 To understand what’s going on, look at the forward method.
 This sends our data through the network.</p>
-
-<div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/lstm-cell.png" alt="LSTM cell" />
-<div style="display: table;margin: 0 auto;">Figure 2: A sketch of an LSTM cell.</div>
-</div>
-<p><br /></p>
 
 <p>The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.</p>
 
