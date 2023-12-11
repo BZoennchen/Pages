@@ -25,17 +25,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<script type="text/x-mathjax-config">
+<!--<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
       }
     });
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  </script>-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
   type="text/javascript">
-</script></head>
+</script>--></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -292,32 +294,28 @@ In this blog post, I will focus on the <em>monophonic</em> generation (one note 
 <p>An autoregressive (AR) model is a representation of a type of random process that specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term).
 In the field of machine learning these models are <em>sequence generative models</em>, that is, they learn an approximation of the real probability distribution.</p>
 
-<p>Let’s assume we are given access to a dataset $\mathcal{D} \subseteq \mathcal{X}^n$ of $n$-dimensional datapoints $\mathbf{x}$.
+<p>Let’s assume we are given access to a dataset \(\mathcal{D} \subseteq \mathcal{X}^n\) of \(n\)-dimensional datapoints \(\mathbf{x}\).
 Each datapoint represents a sequence of events—in our case a sequence of notes.
-By the chain rule of probability, we can factorize the joint distribution over the $n$-dimensions as</p>
+By the chain rule of probability, we can factorize the joint distribution over the \(n\)-dimensions as</p>
 
 \[P(\mathbf{x}) = \prod_{i=1}^n P(x_i | x_1, x_2, \ldots, x_{i-1}) = \prod_{i=1}^n P(x_i|\mathbf{x}_{&lt;i}),\]
 
 <p>where</p>
 
-\[P(x_i | x_1) = P(x_i | X_1 = x_1)\]
+\[P(x_i | x_1) = P(x_i | X_1 = x_1) \text{ and } \mathbf{x}_{&lt;i} = (x_1, x_2, \ldots, x_{i-1}).\]
 
-<p>and</p>
-
-\[\mathbf{x}_{&lt;i} = (x_1, x_2, \ldots, x_{i-1}).\]
-
-<p>If we allow every conditional $P(x_i|\mathbf{x}_{&lt;i})$ to be specified in a tabular form, then such a representation is fully general and can represent any possible distribution over $n$ random variables.
-However, the space complexity for such a representation grows exponentially with $n$.</p>
+<p>If we allow every conditional \(P(x_i|\mathbf{x}_{&lt;i})\) to be specified in a tabular form, then such a representation is fully general and can represent any possible distribution over \(n\) random variables.
+However, the space complexity for such a representation grows exponentially with \(n\).</p>
 
 <p>In an <em>autoregressive generative model</em>, the conditionals are specified as parameterized functions (hypothesis) with a fixed number of parameters</p>
 
 \[P_{\theta_{i}}(x_i|\mathbf{x}_{&lt;i}) = h_i(x_1, x_2, \ldots, x_{i-1}),\]
 
-<p>where $\theta_{i}$ denotes the set of parameters used to specify the mean function</p>
+<p>where \(\theta_{i}\) denotes the set of parameters used to specify the mean function</p>
 
 \[h_{\theta_{i}} : \mathcal{X}^{i-1} \rightarrow [0;1]^{|\mathcal{X}|},\]
 
-<p>with the condition that the $|\mathcal{X}|$ probabilities sum up to 1.
+<p>with the condition that the \(\|\mathcal{X}\|\) probabilities sum up to 1.
 The number of parameters of such a model is given by</p>
 
 \[\sum_{i=1}^n |\theta_{i}|.\]
@@ -341,7 +339,7 @@ The number of parameters of such a model is given by</p>
 \[\theta_i = \{\alpha_0^{(i)}, \alpha_1^{(i)}, \ldots, \alpha_{i-1}^{(i)}\}\]
 
 <p>denote the parameters of the mean function.
-Note that this simple model has $\mathcal{O}(n^2)$ pareamters (instead of the $\mathcal{O}(2^{n-1})$) required if we use a tabular representation for the conditionals.
+Note that this simple model has \(\mathcal{O}(n^2)\) pareamters (instead of the \(\mathcal{O}(2^{n-1})\)) required if we use a tabular representation for the conditionals.
 In Fig. 2</p>
 
 \[\hat{y}_i \in \mathcal{X} \text{ is } 1 \text{ if } h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1}) &gt; 0.5,\]
@@ -355,8 +353,8 @@ In Fig. 2</p>
 </div>
 <p><br /></p>
 
-<p>In the general case, where $|\mathcal{X}| = m$, i.e. it consists of a finite number of possible events—in our case notes—a linear model should output $m$ numbers between 0 and 1 that sum up to 1.
-In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensional vector</p>
+<p>In the general case, where \(|\mathcal{X}| = m\), i.e. it consists of a finite number of possible events—in our case notes—a linear model should output $m$ numbers between 0 and 1 that sum up to 1.
+In that case, \(h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})\) outputs an \(m\)-dimensional vector</p>
 
 \[\mathbf{p}_i = (p_{i1}, p_{i2}, \ldots, p_{im})\]
 
@@ -368,7 +366,7 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 
 \[z_{ij} = \alpha_0^{(i,j)} + \alpha_1^{(i,j)} x_1 + \ldots + \alpha_{i-1}^{(i,j)} x_{i-1}.\]
 
-<p>Thus we replace the <em>sigmoid</em> by <em>softmax</em> and we would require $\mathcal{O}(n^2 \cdot m)$ parameters.</p>
+<p>Thus we replace the <em>sigmoid</em> by <em>softmax</em> and we would require \(\mathcal{O}(n^2 \cdot m)\) parameters.</p>
 
 <p><br /></p>
 <div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
@@ -399,7 +397,7 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 \alpha_0^{(i,m)}
 \end{bmatrix}.\]
 
-<p>For example, if we have three events $m=3$ (see Fig. 3) and $n=5$ then</p>
+<p>For example, if we have three events \(m=3\) (see Fig. 3) and \(n=5\) then</p>
 
 \[\mathbf{A}_{5} =
 \begin{bmatrix}
@@ -432,13 +430,13 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 </div>
 <p><br /></p>
 
-<p>We could share our parameters for computing the next note for a sequence shorter than $n-1$ notes by seting</p>
+<p>We could share our parameters for computing the next note for a sequence shorter than \(n-1\) notes by seting</p>
 
 \[x_j = 0 \text{ for } j \geq i.\]
 
 <p>This architecture is often called <em>neural autoregressive density estimator</em>.
-By sharing, we reduces the amount of parameters to $\mathcal{O}(n \cdot m)$.
-We will use such a feedforward neural network (without a bias term and assuming $n=2$) in <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em> of this series.</p>
+By sharing, we reduces the amount of parameters to \(\mathcal{O}(n \cdot m)\).
+We will use such a feedforward neural network (without a bias term and assuming \(n=2\)) in <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em> of this series.</p>
 
 <h3 id="multi-layer-perceptrons">Multi-Layer Perceptrons</h3>
 
@@ -446,26 +444,28 @@ We will use such a feedforward neural network (without a bias term and assuming 
 For example, consider the case of a neural network with 1 hidden layer.
 The mean function for variable $i$ can be expressed as</p>
 
-\[\mathbf{h}_i = \sigma\left(\mathbf{W}_i \mathbf{x}_{&lt; i} + \mathbf{c}_i \right) \quad \text{ (component-wise sigmoid)}\]
+\[\begin{array}
+    \mathbf{h}_i &amp;= \sigma\left(\mathbf{W}_i \mathbf{x}_{&lt; i} + \mathbf{c}_i \right) &amp; \quad \text{ (component-wise sigmoid)}\\
+    \mathbf{z}_i &amp;= \sigma\left( \mathbf{A}_{i} \mathbf{h}_i + \mathbf{b}_i \right) &amp; \quad \text{ (softmax)}
+\end{array}\]
 
-\[\mathbf{z}_i = \sigma\left( \mathbf{A}_{i} \mathbf{h}_i + \mathbf{b}_i \right) \quad \text{ (softmax)}\]
-
-<p>where $\mathbf{h}_i \in \mathbb{R}^d$ denotes the hidden layer activations for the MLP and</p>
+<p>where \(\mathbf{h}_i \in \mathbb{R}^d\) denotes the hidden layer activations for the MLP and</p>
 
 \[\theta_i = \{ \mathbf{W}_i \in \mathbb{R}^{d \times (i-1)}, \mathbf{c}_i \in \mathbb{R}^d, \mathbf{A}_{i} \in \mathbb{R}^{(i-1) \times d}, b_i \in \mathbb{R}^m \}.\]
 
 <p>are the set of parameters for the mean function.
 Note that if $d$ is small the information gets compressed.
-The total number of parameters in this model is in $\mathcal{O}(n^2 \cdot d)$ and is dominated by the matrices.
-Sharing both types of matrices reduces the complexity to $\mathcal{O}(n \cdot d)$</p>
+The total number of parameters in this model is in \(\mathcal{O}(n^2 \cdot d)\) and is dominated by the matrices.
+Sharing both types of matrices reduces the complexity to \(\mathcal{O}(n \cdot d)\)</p>
 
 \[\theta = \{ \mathbf{W}_n \in \mathbb{R}^{d \times (n-1)}, \mathbf{c}_n \in \mathbb{R}^d, \mathbf{A}_n \in \mathbb{R}^{(n-1) \times d}, \mathbf{b}_n \in \mathbb{R}^m \}.\]
 
 <p>computing</p>
 
-\[\mathbf{h}_i = \sigma\left(\mathbf{W}_n \mathbf{x}_{&lt; n} + \mathbf{c}_n \right) \quad \text{ (component-wise sigmoid)}\]
-
-\[\mathbf{z}_n = \sigma\left( \mathbf{A}_n \mathbf{h}_n + \mathbf{b}_n \right) \quad \text{ (softmax)}.\]
+\[\begin{array}
+    \mathbf{h}_i &amp;= \sigma\left(\mathbf{W}_n \mathbf{x}_{&lt; n} + \mathbf{c}_n \right) &amp; \quad \text{ (component-wise sigmoid)}\\
+    \mathbf{z}_n &amp;= \sigma\left( \mathbf{A}_n \mathbf{h}_n + \mathbf{b}_n \right) &amp; \quad \text{ (softmax)}
+\end{array}\]
 
 <p><br /></p>
 <div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
@@ -495,12 +495,12 @@ Using a <em>first-order Markov model</em>, one would estimate the probability of
 
 \[\hat{P}(X_i = x_i|X_{i-1} = x_{i-1})\]
 
-<p>is the empirical probability of $x_i$ accuring after $x_{i-1}$, i.e. the frequency of this event.
+<p>is the empirical probability of \(x_i\) accuring after \(x_{i-1}\), i.e. the frequency of this event.
 In this example, a state is defined by a note, e.g. A.</p>
 
 <p><em>Hidden Markov models (HMM)</em> are <em>Markov chains</em> with <em>hidden states</em>.
 There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
-The current hidden state $Z_t$ <em>emits</em> an <em>observation</em> $X_t$.
+The current hidden state \(Z_t\) <em>emits</em> an <em>observation</em> \(X_t\).
 In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one <strong>distribution</strong> of observations to the next, e.g. from one distribution of notes to the next!</p>
 
 <p>For example, imagine a prisoner who has to estimate the outside weather (<em>hidden state</em>) by observing the dirt on the guard’s boots (<em>emissions</em>).
@@ -513,9 +513,9 @@ If he knows all the probability transitions (e.g., from sunny to rainy, sunny to
 </div>
 <p><br /></p>
 
-<p>The prisoner could ask: given the HMM and an observation sequence $X_0, \ldots, X_n$, what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
-One could also ask: what are the hidden states $Z_0, \ldots, Z_n$ that “best” explains the observations (<em>decoding problem</em>).
-Moreover, what we are more interested in is: given an observation sequence $X_0, \ldots, X_n$, learn the model parameters $\theta$ that maximizes the likelihood for our observation (<em>learning problem</em>)!
+<p>The prisoner could ask: given the HMM and an observation sequence \(X_0, \ldots, X_n\), what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
+One could also ask: what are the hidden states \(Z_0, \ldots, Z_n\) that “best” explains the observations (<em>decoding problem</em>).
+Moreover, what we are more interested in is: given an observation sequence \(X_0, \ldots, X_n\), learn the model parameters \(\theta\) that maximizes the likelihood for our observation (<em>learning problem</em>)!
 Similar to neural networks, one defines the <em>architecture</em> of the HMM (states and transitions), then solve the <em>learning problem</em> and infer new melodies from the learned HMM.
 In music, hidden states often lack interpretability.
 Therefore, it needs to be clarified which architecture one should choose.</p>
@@ -581,19 +581,15 @@ Instead of just writing all the letters on the piece of paper, we use our rubber
 <p>There is plenty of good material which explains LSTMs much more accurately than I can ever do.
 Figure 6 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
-First, the cell “decides” what to keep in the long-term state $\mathbf{c}_{t-1}$ via $f_t$.</p>
+First, the cell “decides” what to keep in the long-term state \(\mathbf{c}\_{t-1}\) via \(f_t\).</p>
 
 <p>Then $i_t$ decides what to add to the long-term state.
-In addition, $o_t$ decides what part of the new long-term state will make up the short-term state 
-$\mathbf{h}_t.$
-The importance is that along the path from 
-$\mathbf{c}_{t-1}$ 
-to 
-$\mathbf{c}_{t},$
-there is only a simple multiplication and addition!
+In addition, $o_t$ decides what part of the new long-term state will make up the short-term state \(\mathbf{h}_t.\)
+The importance is that along the path from \(\mathbf{c}_{t-1}\) 
+to \(\mathbf{c}\_{t},\) there is only a simple multiplication and addition!
 Therefore, information can persist for longer.</p>
 
-<p>Note, however, that LSTMs can still access information of time step $t$ only via time step $t-1$.
+<p>Note, however, that LSTMs can still access information of time step \(t\) only via time step \(t-1\).
 There is no direct access to information compared to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a>, and the <em>transformer</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>, which led to the most recent breakthroughs in the field of <em>deep learning</em>.
 Just a few days ago, another RNN, called <a href="https://github.com/BlinkDL/RWKV-LM">RWKV-LM</a>, claimed to achieve similar results; thus, the last word has yet to be spoken.</p>
 
@@ -669,7 +665,7 @@ One-hot encoding means that to represent $n$ different objects one uses a binary
 
 \[\mathbf{v}_k = (v_1, \ldots, v_n) \text{ s.t. } v_k = 1, v_i = 0 \text{ for } i \neq k.\]
 
-<p>For training, all the data is transposed to the MIDI pitch range $[48..84]$.
+<p>For training, all the data is transposed to the MIDI pitch range \([48..84]\).
 The output/label was the target next event (note-off, no event, note-on for each pitch), i.e., one value for each pitch (a vector).
 Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/models/melody_rnn/melody_rnn_model.py">code</a>, I assume they use 128 units for each layer.
 <code class="language-plaintext highlighter-rouge">MelodyOneHotEncoding</code> and <code class="language-plaintext highlighter-rouge">KeyMelodyEncoderDecoder</code> can be found <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">here</a>.</p>
@@ -697,7 +693,7 @@ Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/mod
 <span class="p">)</span>
 </code></pre></div></div>
 
-<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. $[0..128]$.</p>
+<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. \([0..128]\).</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
 <span class="n">note_seq</span><span class="p">.</span><span class="n">OneHotEventSequenceEncoderDecoder</span><span class="p">(</span>
@@ -756,16 +752,16 @@ This “looking” is realized by an <em>attention mask</em> which determines ho
 
 \[\mathbf{a}_t = \text{softmax}(\mathbf{u}_t), \quad \mathbf{u}_t = \mathbf{v}^\top\text{tanh}\left( W_1 H + W_2 \mathbf{c}_t \right)\]
 
-<p>The columns of $H$ are the $n=40$ hidden states $h_{t-n}, \ldots, h_{t-1}$.
-So instead of seeing only the hidden state $\mathbf{h}_{t-1}$ the RNN is looking at</p>
+<p>The columns of \(H\) are the \(n=40\) hidden states \(h_{t-n}, \ldots, h_{t-1}\).
+So instead of seeing only the hidden state \(\mathbf{h}_{t-1}\) the RNN is looking at</p>
 
 \[\hat{\mathbf{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i,\]
 
-<p>where $a_{t,i}$ is a component of $\mathbf{a}_t$ and $\mathbf{c}_t$ is the current step’s RNN cell state.
-$a_{t,i}$ is the amount of attention spent to the hidden state $h_i$.
-$W_1, W_2$ and $\mathbf{v}$ are learnable parameters.
-This $\hat{\mathbf{h}}_t$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
-Furthermore, $\hat{\mathbf{h}}_t$ is injected into the input of the next step.
+<p>where \(a_{t,i}\) is a component of \(\mathbf{a}_t\) and \(\mathbf{c}_t\) is the current step’s RNN cell state.
+\(a_{t,i}\) is the amount of attention spent to the hidden state \(h_i\).
+\(W_1, W_2\) and \(\mathbf{v}\) are learnable parameters.
+This \(\hat{\mathbf{h}}_t\) vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
+Furthermore, \(\hat{\mathbf{h}}_t\) is injected into the input of the next step.
 Both concatenations are transformed via a <em>linear layer</em> directly after concatenation.</p>
 
 <p>In a technical report <a class="citation" href="#lou:2016">(Lou, 2016)</a> Lou compares <em>Attention RNN</em> with the <em>Bi-axial LSTM</em> and comes to a conclusion that, as many RNNs, <em>Attention RNN</em> quite often falls into the over-repeating rabbit hole when generating pieces longer than 16 seconds.

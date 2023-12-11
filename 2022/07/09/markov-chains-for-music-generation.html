@@ -25,17 +25,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<script type="text/x-mathjax-config">
+<!--<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
       }
     });
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  </script>-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
   type="text/javascript">
-</script></head>
+</script>--></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -222,7 +224,7 @@ P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
 \end{equation}</p>
 
 <p>A <em>first-order Markov chain</em> only considers <strong>one</strong> predecessor, i.e., only the most local part of the context.
-A <em>$n$-order Markov chain</em> does consider $n$ predecessors. In general, we define</p>
+A <em>\(n\)-order Markov chain</em> does consider \(n\) predecessors. In general, we define</p>
 
 <p>\begin{equation}
 P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
@@ -233,7 +235,7 @@ P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
 <h2 id="music-generation">Music Generation</h2>
 
 <p>We can generate a composition by traversing the graph if we represent our notes by states of a <em>Markov chain</em>.
-If we increase the order of the chein, i.e. $n$, the entropy decreases for small $n$.</p>
+If we increase the order of the chein, i.e. \(n\), the entropy decreases for small \(n\).</p>
 
 <p>Until now, I only tried to use and generate a <em>first-order Markov chain</em>.
 Even though I am not that familiar with <code class="language-plaintext highlighter-rouge">Ruby</code>, I used <a href="https://sonic-pi.net/">Sonic Pi</a> for this task such that I can play around with it directly within the IDE of Sonic Pi.
@@ -242,11 +244,11 @@ I decided to define a note as a tuple (list) consisting of the pitch and the len
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">:c4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span> <span class="c1"># a c of length 1/8 beat </span>
 </code></pre></div></div>
 
-<p>Instead of a graph, I use a transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = {q_1, \ldots, q_m}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.</p>
+<p>Instead of a graph, I use a transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
 
-<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> $P$, the <code class="language-plaintext highlighter-rouge">states</code> $Q$ and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
+<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> \(P\), the <code class="language-plaintext highlighter-rouge">states</code> \(Q\) and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_mmelody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">states</span><span class="o">|</span>
   <span class="c1">#</span>
@@ -272,9 +274,9 @@ The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going 
 </code></pre></div></div>
 
 <p>For each note, we roll the dice.
-Let’s say $p \in [0;1]$ is our result.
-And $q_i$ is our current state.
-Then we compute $j$ such that</p>
+Let’s say \(p \in [0;1]\) is our result.
+And \(q_i\) is our current state.
+Then we compute \(j\) such that</p>
 
 <p>\begin{equation}
 \sum\limits_{k=1}^{j-1} p_{ij} &lt; p \leq \sum\limits_{k=1}^{j} p_{ij}.
@@ -288,25 +290,25 @@ Then we compute $j$ such that</p>
 Given a melody, we can <em>learn</em> the <em>Markov chain</em> that <strong>most likely</strong> would generate the given melody.
 By doing so, we can then use the <em>learned chain</em> to generate music in a similar style.</p>
 
-<p>Let us use the same transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = {q_1, \ldots, q_m}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.</p>
+<p>Let us use the same transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
 
-<p>Furthermore, let us define our set of all possible melodies $M \subseteq Q^n$ of length $n$.
-Then a specific melody $\mathbf{m} = (m_1, \ldots, m_n) \in M$ is a tuple (list) of notes:</p>
+<p>Furthermore, let us define our set of all possible melodies \(M \subseteq Q^n\) of length \(n\).
+Then a specific melody \(\mathbf{m} = (m_1, \ldots, m_n) \in M\) is a tuple (list) of notes:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">notes</span> <span class="o">=</span> <span class="p">[[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:a4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="o">...</span> <span class="p">]</span>
 </code></pre></div></div>
 
-<p>We can compute the most likely $P$ by computing each entry of it where $p_{ij}$ is equal to</p>
+<p>We can compute the most likely \(P\) by computing each entry of it where \(p_{ij}\) is equal to</p>
 
 <p>\begin{equation}
 p_{ij} = \frac{n_{ij}}{n_i}
 \end{equation}</p>
 
-<p>where $n_{ij}$ is the number of transitions from $q_i$ to $q_j$ within $\mathbf{m}$ and $n_i$ is the number of transition starting at $q_i$.</p>
+<p>where \(n_{ij}\) is the number of transitions from \(q_i\) to \(q_j\) within \(\mathbf{m}\) and \(n_i\) is the number of transition starting at \(q_i\).</p>
 
-<p>Given $Q$ <code class="language-plaintext highlighter-rouge">states</code> and $\mathbf{m}$ <code class="language-plaintext highlighter-rouge">notes</code> the following function computes $P$ <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
+<p>Given \(Q\) <code class="language-plaintext highlighter-rouge">states</code> and \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code> the following function computes \(P\) <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_markov_matrix</span> <span class="k">do</span> <span class="o">|</span><span class="n">states</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
   <span class="c1">#</span>
@@ -341,8 +343,8 @@ p_{ij} = \frac{n_{ij}}{n_i}
 <span class="k">end</span>
 </code></pre></div></div>
 
-<p>Of course, we can easily compute $Q$ <code class="language-plaintext highlighter-rouge">states</code> from $\mathbf{m}$ <code class="language-plaintext highlighter-rouge">notes</code>.
-Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> $P$ based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
+<p>Of course, we can easily compute \(Q\) <code class="language-plaintext highlighter-rouge">states</code> from \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code>.
+Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> \(P\) based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:markov_melody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
   <span class="n">states</span> <span class="o">=</span> <span class="n">notes</span><span class="p">.</span><span class="nf">uniq</span>

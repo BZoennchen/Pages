@@ -25,17 +25,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<script type="text/x-mathjax-config">
+<!--<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
       }
     });
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  </script>-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
   type="text/javascript">
-</script></head>
+</script>--></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -102,7 +104,7 @@ Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
 
 \[R := \left\{ x \ | \ x \not\in x \right\}.\]
 
-<p>$R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
 However, if we introduce the self-referential relation, we run into a paradox:</p>
 
 <p>\begin{equation} 
@@ -118,7 +120,7 @@ The machine does not halt if the machine it checks halts, and it halts if the ma
 Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
 
 <p>The idea of Spencer-Brown is to resolve these paradoxes over time.
-$R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
+\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
 Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
 His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
 The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
@@ -212,21 +214,21 @@ Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are 
 There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
 
 <p>Let’s see what we can do with this calculus.
-Let $a, b$ variables, then the following holds:</p>
+Let \(a, b\) variables, then the following holds:</p>
 
 <p><br /></p>
 <div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
 <p><br /></p>
 
 <p>Let’s have a look at the last transformation.
-Let us assume $a$ is a <strong>mark</strong>.
+Let us assume \(a\) is a <strong>mark</strong>.
 Then we get:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
 <p><br /></p>
 
-<p>Let $a$ be <strong>unmarked</strong> instead, then we can follow:</p>
+<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
@@ -243,7 +245,7 @@ x^2 = ax + b, \quad a, b \in \mathbb{R}.
 \end{equation}</p>
 
 <p>This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., $x$ might be of the for $r + si$ with $r, s \in \mathbb{R}$ and $i^2 = -1$.
+It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
 To see the re-entry, we can rewrite the equation above to get</p>
 
 <p>\begin{equation}
@@ -262,7 +264,7 @@ x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
 x = a + b/x,
 \end{equation}
 holds.
-Using the same formalism, we can define the imaginary number $i = -1/i$ as literally</p>
+Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
 
 <p>\begin{equation}
 i = -1 /(-1 /(-1 / (-1 / \ldots )))
@@ -270,7 +272,7 @@ i = -1 /(-1 /(-1 / (-1 / \ldots )))
 
 <p>but what does this mean?
 The system is not a number but a process, a generator that generates itself.
-$i$ alternates between 1 and -1.
+\(i\) alternates between 1 and -1.
 Interestingly, this is precisely how we use the equal sign in most programming languages.
 Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
 
@@ -279,7 +281,7 @@ i \leftarrow \frac{i}{-1}.
 \end{equation}</p>
 
 <p>The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
@@ -294,7 +296,7 @@ To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
 <p><br /></p>
 
-<p>We could similarily notate $i$ as</p>
+<p>We could similarily notate \(i\) as</p>
 
 <p><br /></p>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
@@ -307,7 +309,7 @@ For example, we can state the following:</p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
 <p><br /></p>
 
-<p>However, it is forbidden to only change one appearance of $J$!
+<p>However, it is forbidden to only change one appearance of \(J\)!
 Following this simple rule, no paradox or inconsistency arises.
 We can go on and evaluate the following transformation:</p>
 

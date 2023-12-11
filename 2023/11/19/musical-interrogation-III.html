@@ -8,8 +8,8 @@
 <meta property="og:title" content="Musical Interrogation III - LSTM" />
 <meta name="author" content="Benedikt Zönnchen" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
-<meta property="og:description" content="This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients." />
+<meta name="description" content="This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients." />
+<meta property="og:description" content="This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients." />
 <link rel="canonical" href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" />
 <meta property="og:url" content="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" />
 <meta property="og:site_name" content="Bene’s Blog" />
@@ -18,24 +18,26 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Musical Interrogation III - LSTM" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-11-19T00:00:00+01:00","datePublished":"2023-11-19T00:00:00+01:00","description":"This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.","headline":"Musical Interrogation III - LSTM","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"},"url":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Benedikt Zönnchen"},"dateModified":"2023-11-19T00:00:00+01:00","datePublished":"2023-11-19T00:00:00+01:00","description":"This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.","headline":"Musical Interrogation III - LSTM","mainEntityOfPage":{"@type":"WebPage","@id":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"},"url":"https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="shortcut icon" href="https://bzoennchen.github.io/Pages/favicon.ico" />
   <link rel="stylesheet" href="/Pages/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" /><link type="application/atom+xml" rel="alternate" href="https://bzoennchen.github.io/Pages/feed.xml" title="Bene&apos;s Blog" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<script type="text/x-mathjax-config">
+<!--<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
       }
     });
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  </script>-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
   type="text/javascript">
-</script></head>
+</script>--></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -147,13 +149,13 @@
 
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>This article is the continuation of my series Musical Interrogation.
-It is recommended that you read the these articles first.
-This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
-An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
+    <p>This article is the continuation of a series.
+It is recommended that you read part I and II first.
+This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
+An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
 
-<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
-Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+<p>This article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a>, which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
+Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a <em>piano roll data representation</em>, which is exaclty what we do.</p>
 
 <h2 id="recurrent-neural-networks">Recurrent Neural Networks</h2>
 
@@ -166,7 +168,7 @@ These networks are particularly adept at processing sequences of data, such as w
 
 <p>of inputs one at a time. 
 With each new input, the network not only considers this current input but also incorporates a <em>hidden state</em>—a representation of previous inputs—thanks to its recurrent connections.
-This hidden state $\mathbf{h}_t$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
+This hidden state \(\mathbf{h}_t\) is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
 
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
@@ -276,7 +278,7 @@ The following is the model description of our RNN/LSTM.
 To understand what’s going on, look at the forward method.
 This sends our data through the network.</p>
 
-<p>The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.</p>
+<p>The first two lines create the short-term \(\mathbf{h}_0\) and long-term memory \(\mathbf{c}_0\) and fill them with zeros.</p>
 
 <p>Then an embedding takes place: <code class="language-plaintext highlighter-rouge">x = self.embedding(x)</code>.
 This is nothing more than what we did with our simple feedforward net in <a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a>: Each element of the input <code class="language-plaintext highlighter-rouge">x</code> is first one-hot encoded and then multiplied by a matrix. 
@@ -284,15 +286,7 @@ The result: Each event is represented by the row of a matrix (with learnable par
 The matrix has <code class="language-plaintext highlighter-rouge">vocab_size</code> rows and <code class="language-plaintext highlighter-rouge">input_dim</code> columns.</p>
 
 <p>Next, we send our transformed input through our LSTM out, <code class="language-plaintext highlighter-rouge">(ht, ct) = self.lstm(x, (h0, c0))</code>.
-This basically computes</p>
-
-\[\mathbf{h}_t, \mathbf{c}_t\]
-
-<p>based on</p>
-
-\[\mathbf{h}_{t-1}, \mathbf{c}_{t-1}\]
-
-<p>as indicated in Fig. 2.
+This basically computes \(\mathbf{h}_t, \mathbf{c}_t\) based on \(\mathbf{h}_{t-1}, \mathbf{c}_{t-1}\) as indicated in Fig. 2.
 We get as many outputs as our sequence is long, i.e., <code class="language-plaintext highlighter-rouge">sequence_len</code> many.
 But we are only interested in the last output, which we get by <code class="language-plaintext highlighter-rouge">out[:, -1, :]</code>.
 This is a vector with <code class="language-plaintext highlighter-rouge">hidden_dim elements</code>. 
@@ -471,8 +465,11 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
             
             <span class="n">steps</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
             
-            <span class="k">print</span><span class="p">(</span>
-                <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch_index</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Step [</span><span class="si">{</span><span class="n">steps</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">all_steps</span><span class="si">}</span><span class="s">], Loss: </span><span class="si">{</span><span class="n">last_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+            <span class="n">ep_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch_index</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">]'</span>
+            <span class="n">step_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Step [</span><span class="si">{</span><span class="n">steps</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">all_steps</span><span class="si">}</span><span class="s">]'</span>
+            <span class="n">loss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Loss: </span><span class="si">{</span><span class="n">last_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">step_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">loss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+
             <span class="n">tb_x</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
             <span class="n">tb_writer</span><span class="p">.</span><span class="n">add_scalar</span><span class="p">(</span><span class="s">'Loss/train'</span><span class="p">,</span> <span class="n">last_loss</span><span class="p">,</span> <span class="n">tb_x</span><span class="p">)</span>
             <span class="n">running_loss</span> <span class="o">=</span> <span class="mf">0.</span>
@@ -502,7 +499,11 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
             <span class="n">running_vloss</span> <span class="o">+=</span> <span class="n">vloss</span>
             
         <span class="n">avg_vloss</span> <span class="o">=</span> <span class="n">running_vloss</span> <span class="o">/</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Train-Loss: </span><span class="si">{</span><span class="n">avg_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">, Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+
+        <span class="n">ep_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">]'</span>
+        <span class="n">tloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Train-Loss: </span><span class="si">{</span><span class="n">avg_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+        <span class="n">vloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">tloss_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">vloss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
         
         <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> <span class="n">epoch</span><span class="p">)</span>
         <span class="n">writer</span><span class="p">.</span><span class="n">flush</span><span class="p">()</span>

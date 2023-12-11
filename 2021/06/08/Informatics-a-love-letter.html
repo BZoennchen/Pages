@@ -25,17 +25,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-<script type="text/x-mathjax-config">
+<!--<script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
         inlineMath: [['$','$']]
       }
     });
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+  </script>-->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
   type="text/javascript">
-</script></head>
+</script>--></head>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
@@ -194,9 +196,9 @@ You can define what a computer at least requires to be <em>Turing-complete</em>,
 You can define what <em>computable</em> means, and you can even measure how many steps it takes to solve a class of problems.
 You start analyzing the <em>complexity</em> of problems, such as sorting cards or solving a Sudoku.</p>
 
-<p>For example, sorting cards (on a <em>Turing-complete</em> model) requires $\mathcal{O}(n\log(n))$ steps, where $n$ is the number of cards.
+<p>For example, sorting cards (on a <em>Turing-complete</em> model) requires \(\mathcal{O}(n\log(n))\) steps, where \(n\) is the number of cards.
 And we know that we can not do better than that.
-Consequently, in the worst case, sorting cards requires always at least $c \cdot n\log(n)$ steps where $c$ is some constant independent of $n$.
+Consequently, in the worst case, sorting cards requires always at least \(c \cdot n\log(n)\) steps where \(c\) is some constant independent of \(n\).
 Isn’t that captivating that we know this!</p>
 
 <p>Then there is the still <strong>unanswered</strong> question if solving a Sudoku is as <em>hard</em> as checking a solution of it?
@@ -370,16 +372,16 @@ It is part of our duties, but we should no longer encounter this beast alone.</p
 <h3 id="the-halting-problem">The Halting Problem</h3>
 
 <p>Let me try to give you the intuition of the <em>Halting problem</em>.
-For simplicity reasons, I will not explicitly distinguish between a <em>Turing Machine</em> $\mathcal{T}$ and its description (often noted by $\alpha_\mathcal{T}$).
+For simplicity reasons, I will not explicitly distinguish between a <em>Turing Machine</em> \(\mathcal{T}\) and its description (often noted by \(\alpha_\mathcal{T}\)).
 So when a <em>Turing Machine</em> gets as input another <em>Turing Machine</em>, I mean its description (source code).</p>
 
 <h4 id="proof">Proof</h4>
 
-<p>Let us assume there is a <em>Turing Machine</em> $\mathcal{H}$ that takes an arbitrary <em>Turing Machine</em> $\mathcal{T}$ as input.
-$\mathcal{H}(\mathcal{T})$ outputs 1 if $\mathcal{T}(\mathcal{T})$ halts, otherwise it outputs 0.
-So if such a program exists, $\mathcal{H}$ is the program that solves the <em>Halting problem</em>, and $\mathcal{T}$ is an arbitrary program.
-We can pick $\mathcal{T}$ as its own input because the input can be arbitrary (but finite).
-So we ‘feed’ the program $\mathcal{T}$ with itself, that is, its own description/source code $\mathcal{T}$.</p>
+<p>Let us assume there is a <em>Turing Machine</em> \(\mathcal{H}\) that takes an arbitrary <em>Turing Machine</em> \(\mathcal{T}\) as input.
+\(\mathcal{H}(\mathcal{T})\) outputs 1 if \(\mathcal{T}(\mathcal{T})\) halts, otherwise it outputs 0.
+So if such a program exists, \(\mathcal{H}\) is the program that solves the <em>Halting problem</em>, and \(\mathcal{T}\) is an arbitrary program.
+We can pick \(\mathcal{T}\) as its own input because the input can be arbitrary (but finite).
+So we ‘feed’ the program \(\mathcal{T}\) with itself, that is, its own description/source code \(\mathcal{T}\).</p>
 
 <p>So we have</p>
 
@@ -391,11 +393,11 @@ So we ‘feed’ the program $\mathcal{T}$ with itself, that is, its own descrip
 \end{cases}
 \end{equation}\]
 
-<p>We construct a new <em>Turing Machine</em> $\hat{\mathcal{H}}$.
-$\hat{\mathcal{H}}$ is a slight modification of $\mathcal{H}$.
+<p>We construct a new <em>Turing Machine</em> \(\hat{\mathcal{H}}\).
+\(\hat{\mathcal{H}}\) is a slight modification of \(\mathcal{H}\).
 It does almost the opposite.
-$\hat{\mathcal{H}}$ halts and outputs 1 if and only if $\mathcal{H}$ outputs 0.
-Furthermore, $\hat{\mathcal{H}}$ does not halt if $\mathcal{H}$ outputs 1.</p>
+\(\hat{\mathcal{H}}\) halts and outputs 1 if and only if \(\mathcal{H}\) outputs 0.
+Furthermore, \(\hat{\mathcal{H}}\) does not halt if \(\mathcal{H}\) outputs 1.</p>
 
 \[\begin{equation} \tag{2}\label{eq:halt:2}
 \hat{\mathcal{H}}(\mathcal{T}) = 
@@ -408,24 +410,24 @@ Furthermore, $\hat{\mathcal{H}}$ does not halt if $\mathcal{H}$ outputs 1.</p>
 <p><br /></p>
 <div><img style="display:block;margin:auto;;height:200px;" src="/Pages/assets/images/halting-problem.png" alt="Halting Proglem" /></div>
 <p><br />
-Now we execute $\hat{\mathcal{H}}$ by feeding it to itself, that is, $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ and analyse the result:</p>
+Now we execute \(\hat{\mathcal{H}}\) by feeding it to itself, that is, \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) and analyse the result:</p>
 
 <p><strong>It outputs 1:</strong>
-Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1$.
-Following Eq. \eqref{eq:halt:2} gives us $\mathcal{H}(\hat{\mathcal{H}}) = 0$.
-But by following Eq. \eqref{eq:halt:1} this implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt.
-After all, $\mathcal{H}$ outputs 0.
-Thus, it recognizes that the analyzed program $\hat{\mathcal{H}}$ does not halt.
-But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $\mathcal{H}(\hat{\mathcal{H}}) = 1$ which leads to a contradiction.</p>
+Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = 1\).
+Following Eq. \eqref{eq:halt:2} gives us \(\mathcal{H}(\hat{\mathcal{H}}) = 0\).
+But by following Eq. \eqref{eq:halt:1} this implies that \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does not halt.
+After all, \(\mathcal{H}\) outputs 0.
+Thus, it recognizes that the analyzed program \(\hat{\mathcal{H}}\) does not halt.
+But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does not halt, it follows by Eq. \eqref{eq:halt:2} that $$\mathcal{H}(\hat{\mathcal{H}}) = 1$ which leads to a contradiction.</p>
 
 <p><strong>It outputs 0:</strong>
-Let us assume $\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$.
-$\mathcal{H}(\hat{\mathcal{H}}) = 1$ follows from Eq. \eqref{eq:halt:2} which implies that $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ does halts, compare Eq. \eqref{eq:halt:1}.
-But if $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ halts then by following Eq. \eqref{eq:halt:2}, $\mathcal{H}(\hat{\mathcal{H}}) = 0$ which leads to a contradiction.</p>
+Let us assume \(\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}\).
+\(\mathcal{H}(\hat{\mathcal{H}}) = 1\) follows from Eq. \eqref{eq:halt:2} which implies that \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) does halts, compare Eq. \eqref{eq:halt:1}.
+But if \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) halts then by following Eq. \eqref{eq:halt:2}, \(\mathcal{H}(\hat{\mathcal{H}}) = 0\) which leads to a contradiction.</p>
 
-<p>In any case $\hat{\mathcal{H}}(\hat{\mathcal{H}})$ leads to a paradox!
-However, the construction of $\hat{\mathcal{H}}$ is correct if  $\mathcal{H}$ exists.
-Therefore, it follows that our assumption is wrong and $\mathcal{H}$ can not exists!</p>
+<p>In any case \(\hat{\mathcal{H}}(\hat{\mathcal{H}})\) leads to a paradox!
+However, the construction of \(\hat{\mathcal{H}}\) is correct if  \(\mathcal{H}\) exists.
+Therefore, it follows that our assumption is wrong and \(\mathcal{H}\) can not exists!</p>
 
 <h4 id="meaning">Meaning</h4>
 

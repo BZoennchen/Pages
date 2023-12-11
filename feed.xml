@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-12-09T02:42:59+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-12-11T10:37:57+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
@@ -19,7 +19,7 @@ Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
 
 \[R := \left\{ x \ | \ x \not\in x \right\}.\]
 
-<p>$R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
 However, if we introduce the self-referential relation, we run into a paradox:</p>
 
 <p>\begin{equation} 
@@ -35,7 +35,7 @@ The machine does not halt if the machine it checks halts, and it halts if the ma
 Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
 
 <p>The idea of Spencer-Brown is to resolve these paradoxes over time.
-$R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
+\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
 Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
 His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
 The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
@@ -129,21 +129,21 @@ Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are 
 There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
 
 <p>Let’s see what we can do with this calculus.
-Let $a, b$ variables, then the following holds:</p>
+Let \(a, b\) variables, then the following holds:</p>
 
 <p><br /></p>
 <div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
 <p><br /></p>
 
 <p>Let’s have a look at the last transformation.
-Let us assume $a$ is a <strong>mark</strong>.
+Let us assume \(a\) is a <strong>mark</strong>.
 Then we get:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
 <p><br /></p>
 
-<p>Let $a$ be <strong>unmarked</strong> instead, then we can follow:</p>
+<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
@@ -160,7 +160,7 @@ x^2 = ax + b, \quad a, b \in \mathbb{R}.
 \end{equation}</p>
 
 <p>This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., $x$ might be of the for $r + si$ with $r, s \in \mathbb{R}$ and $i^2 = -1$.
+It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
 To see the re-entry, we can rewrite the equation above to get</p>
 
 <p>\begin{equation}
@@ -179,7 +179,7 @@ x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
 x = a + b/x,
 \end{equation}
 holds.
-Using the same formalism, we can define the imaginary number $i = -1/i$ as literally</p>
+Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
 
 <p>\begin{equation}
 i = -1 /(-1 /(-1 / (-1 / \ldots )))
@@ -187,7 +187,7 @@ i = -1 /(-1 /(-1 / (-1 / \ldots )))
 
 <p>but what does this mean?
 The system is not a number but a process, a generator that generates itself.
-$i$ alternates between 1 and -1.
+\(i\) alternates between 1 and -1.
 Interestingly, this is precisely how we use the equal sign in most programming languages.
 Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
 
@@ -196,7 +196,7 @@ i \leftarrow \frac{i}{-1}.
 \end{equation}</p>
 
 <p>The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
 
 <p><br /></p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
@@ -211,7 +211,7 @@ To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
 <p><br /></p>
 
-<p>We could similarily notate $i$ as</p>
+<p>We could similarily notate \(i\) as</p>
 
 <p><br /></p>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
@@ -224,7 +224,7 @@ For example, we can state the following:</p>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
 <p><br /></p>
 
-<p>However, it is forbidden to only change one appearance of $J$!
+<p>However, it is forbidden to only change one appearance of \(J\)!
 Following this simple rule, no paradox or inconsistency arises.
 We can go on and evaluate the following transformation:</p>
 
@@ -282,13 +282,13 @@ According to Spancer-Brown this step is accomplished by <strong>thinking</strong
 
 <ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of my series Musical Interrogation.
-It is recommended that you read the these articles first.
-This time we use a recurrent neural network, more preceisly an <strong>LSTM</strong> which I explained a little bit in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Introduction</a>.
-An LSTM is a <strong>RNN</strong> that couter acts the problem of exploding and vanishing gradients.</p>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
+It is recommended that you read part I and II first.
+This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
+An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
 
-<p>The article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a> which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
-Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a piano roll data representation which is exaclty what we do.</p>
+<p>This article gives some explanation to the code in the following <a href="https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb">notebook</a>, which can be executed on <a href="https://colab.research.google.com/?hl=de">Google Colab</a>.
+Because our model is now able to learn long-time relations, we can use the <code class="language-plaintext highlighter-rouge">GridEncoder</code>, i.e., a <em>piano roll data representation</em>, which is exaclty what we do.</p>
 
 <h2 id="recurrent-neural-networks">Recurrent Neural Networks</h2>
 
@@ -301,7 +301,7 @@ These networks are particularly adept at processing sequences of data, such as w
 
 <p>of inputs one at a time. 
 With each new input, the network not only considers this current input but also incorporates a <em>hidden state</em>—a representation of previous inputs—thanks to its recurrent connections.
-This hidden state $\mathbf{h}_t$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
+This hidden state \(\mathbf{h}_t\) is updated at each step, ensuring that the network retains a memory of what it has processed so far.</p>
 
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/rnn-unfold.png" alt="Sketch of an RNN unfolded in time" />
@@ -411,7 +411,7 @@ The following is the model description of our RNN/LSTM.
 To understand what’s going on, look at the forward method.
 This sends our data through the network.</p>
 
-<p>The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.</p>
+<p>The first two lines create the short-term \(\mathbf{h}_0\) and long-term memory \(\mathbf{c}_0\) and fill them with zeros.</p>
 
 <p>Then an embedding takes place: <code class="language-plaintext highlighter-rouge">x = self.embedding(x)</code>.
 This is nothing more than what we did with our simple feedforward net in <a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a>: Each element of the input <code class="language-plaintext highlighter-rouge">x</code> is first one-hot encoded and then multiplied by a matrix. 
@@ -419,15 +419,7 @@ The result: Each event is represented by the row of a matrix (with learnable par
 The matrix has <code class="language-plaintext highlighter-rouge">vocab_size</code> rows and <code class="language-plaintext highlighter-rouge">input_dim</code> columns.</p>
 
 <p>Next, we send our transformed input through our LSTM out, <code class="language-plaintext highlighter-rouge">(ht, ct) = self.lstm(x, (h0, c0))</code>.
-This basically computes</p>
-
-\[\mathbf{h}_t, \mathbf{c}_t\]
-
-<p>based on</p>
-
-\[\mathbf{h}_{t-1}, \mathbf{c}_{t-1}\]
-
-<p>as indicated in Fig. 2.
+This basically computes \(\mathbf{h}_t, \mathbf{c}_t\) based on \(\mathbf{h}_{t-1}, \mathbf{c}_{t-1}\) as indicated in Fig. 2.
 We get as many outputs as our sequence is long, i.e., <code class="language-plaintext highlighter-rouge">sequence_len</code> many.
 But we are only interested in the last output, which we get by <code class="language-plaintext highlighter-rouge">out[:, -1, :]</code>.
 This is a vector with <code class="language-plaintext highlighter-rouge">hidden_dim elements</code>. 
@@ -606,8 +598,11 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
             
             <span class="n">steps</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
             
-            <span class="k">print</span><span class="p">(</span>
-                <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch_index</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Step [</span><span class="si">{</span><span class="n">steps</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">all_steps</span><span class="si">}</span><span class="s">], Loss: </span><span class="si">{</span><span class="n">last_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+            <span class="n">ep_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch_index</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">]'</span>
+            <span class="n">step_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Step [</span><span class="si">{</span><span class="n">steps</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">all_steps</span><span class="si">}</span><span class="s">]'</span>
+            <span class="n">loss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Loss: </span><span class="si">{</span><span class="n">last_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+            <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">step_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">loss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+
             <span class="n">tb_x</span> <span class="o">=</span> <span class="n">epoch_index</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">train_loader</span><span class="p">)</span> <span class="o">+</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
             <span class="n">tb_writer</span><span class="p">.</span><span class="n">add_scalar</span><span class="p">(</span><span class="s">'Loss/train'</span><span class="p">,</span> <span class="n">last_loss</span><span class="p">,</span> <span class="n">tb_x</span><span class="p">)</span>
             <span class="n">running_loss</span> <span class="o">=</span> <span class="mf">0.</span>
@@ -637,7 +632,11 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
             <span class="n">running_vloss</span> <span class="o">+=</span> <span class="n">vloss</span>
             
         <span class="n">avg_vloss</span> <span class="o">=</span> <span class="n">running_vloss</span> <span class="o">/</span> <span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
-        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">], Train-Loss: </span><span class="si">{</span><span class="n">avg_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">, Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+
+        <span class="n">ep_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Epoch [</span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s">/</span><span class="si">{</span><span class="n">n_epochs</span><span class="si">}</span><span class="s">]'</span>
+        <span class="n">tloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Train-Loss: </span><span class="si">{</span><span class="n">avg_loss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+        <span class="n">vloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
+        <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">tloss_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">vloss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
         
         <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> <span class="n">epoch</span><span class="p">)</span>
         <span class="n">writer</span><span class="p">.</span><span class="n">flush</span><span class="p">()</span>
@@ -687,7 +686,7 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
 <audio controls="">
   <source src="/Pages/assets/audio/a_g_song.mp3" type="audio/mp3" />
   Your browser does not support the audio element.
-</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of my series Musical Interrogation. It is recommended that you read the these articles first. This time we use a recurrent neural network, more preceisly an LSTM which I explained a little bit in Introduction. An LSTM is a RNN that couter acts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -1645,12 +1644,12 @@ The first step is to create a set that includes all possible strings. Subsequent
 
 \[\mathbf{P} \in [0;1]^{m \times m}\]
 
-<p>where the element at the $i^{\text{th}}$ row and $j^{\text{th}}$ column represents the conditional probability</p>
+<p>where the element at the \(i^{\text{th}}\) row and \(j^{\text{th}}\) column represents the conditional probability</p>
 
 \[P(e_i\ | \ e_j) = p_{ij}.\]
 
-<p>It describes the (conditional) probability of event $e_i$ (a note or rest of specific length) immediately following event $e_j$.
-For this purpose, I construct a matrix $\mathbf{N}$ that counts these transitions.</p>
+<p>It describes the (conditional) probability of event \(e_i\) (a note or rest of specific length) immediately following event \(e_j\).
+For this purpose, I construct a matrix \(\mathbf{N}\) that counts these transitions.</p>
 
 <h3 id="markov-matrix-computation">Markov Matrix Computation</h3>
 
@@ -1666,7 +1665,7 @@ As the first event lacks a predecessor and the last lacks a successor, I append 
         <span class="n">N</span><span class="p">[</span><span class="n">ix1</span><span class="p">,</span> <span class="n">ix2</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
 </code></pre></div></div>
 
-<p>To construct $\mathbf{P}$ we have to divide each entry $n_{ij}$ in $\mathbf{N}$ by the sum over the row $i$.</p>
+<p>To construct \(\mathbf{P}\) we have to divide each entry \(n_{ij}\) in \(\mathbf{N}\) by the sum over the row \(i\).</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">P</span> <span class="o">=</span> <span class="n">N</span><span class="p">.</span><span class="nb">float</span><span class="p">()</span>
 <span class="n">P</span> <span class="o">=</span> <span class="n">P</span> <span class="o">/</span> <span class="n">P</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
@@ -1676,7 +1675,7 @@ As the first event lacks a predecessor and the last lacks a successor, I append 
 Additionally, to properly exploit broadcasting, it’s necessary to set <code class="language-plaintext highlighter-rouge">keepdim=True</code>. 
 This ensures that the sum results in a <code class="language-plaintext highlighter-rouge">(1,m)</code> tensor, as opposed to a <code class="language-plaintext highlighter-rouge">(m,)</code> tensor.</p>
 
-<p>Plotting the probabilities reviels that $\mathbf{P}$ is a rather sparse matrix containing many zeros.
+<p>Plotting the probabilities reviels that \(\mathbf{P}\) is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.</p>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
@@ -1732,7 +1731,7 @@ I start with the terminal <code class="language-plaintext highlighter-rouge">TER
 <h3 id="negative-log-likelihood-loss">Negative Log Likelihood Loss.</h3>
 
 <p>The outcome is not particularly outstanding, but this is unsurprising given our very simple model. 
-To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point $e_1, e_2, \ldots, e_k$, i.e.,</p>
+To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point \(e_1, e_2, \ldots, e_k\), i.e.,</p>
 
 \[P(e_1) \cdot P(e_2 \ | \ e_1) \cdot \ldots \cdot P(e_{k-1} \ | \ e_k).\]
 
@@ -1768,8 +1767,8 @@ However, from this starting point we could expand our model into a <em>multi-lay
 By avoiding the activation function, it is easier for me to explain exactly what is going on.</p>
 
 <p>If we think in terms of classification a sequence of note should be classified as some successor note.
-So let us assume $t$ consecutive notes are given then our aim is to identify the note that this sequence “represents”.
-For simplicity, I assume we only want to predict the next note given the previous one, that is, $t=1$ holds.
+So let us assume \(t\) consecutive notes are given then our aim is to identify the note that this sequence “represents”.
+For simplicity, I assume we only want to predict the next note given the previous one, that is, \(t=1\) holds.
 This stipulation means we won’t require substantial modifications compared to our previous approach.</p>
 
 <p>Since our training process will be more computationally intensive than merely computing frequencies, it’s advisable to use hardware accelerators, if available. 
@@ -1787,24 +1786,24 @@ To check if hardware acceleration is available, I employ the following code:</p>
 </code></pre></div></div>
 
 <p>What we are going to implement is a <em>fully-visible softmax belief network</em> which only predicts the very next note given the previous note.
-However, instead of multiplying $x_1$ to predict $x_2$ via</p>
+However, instead of multiplying \(x_1\) to predict \(x_2\) via</p>
 
 \[h_{\theta}(x)_{j=1,\ldots,m} = \left(\alpha_0^{(j)} + \alpha_1^{(j)} \cdot x \right)_{j=1,\ldots,m},\]
 
 <p>we do something similar but not quite the same.
-We <em>hot-encode</em> our alphabet $\mathcal{X}$ of notes into</p>
+We <em>hot-encode</em> our alphabet \(\mathcal{X}\) of notes into</p>
 
 \[|\mathcal{X}| = m\]
 
-<p>vectors $\mathbf{x}_j = (x_1, \ldots, x_m)$, $j=1, \ldots, m$ of length $m$, such that,</p>
+<p>vectors \(\mathbf{x}_j = (x_1, \ldots, x_m)\), \(j=1, \ldots, m\) of length \(m\), such that,</p>
 
 \[h_{\theta}(\mathbf{x}_i)_{j=1,\ldots,m} = \left( w_{1}^{(j)} \cdot x_1 + w_{2}^{(j)} \cdot x_2 + \ldots + w_{m}^{(j)} \cdot x_m \right)_{j=1,\ldots,m} = \left( w_{i}^{(j)} x_i \right)_{j=1,\ldots,m}.\]
 
-<p>In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an $m$-dimensional vector.
+<p>In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an \(m\)-dimensional vector.
 This vector represents the probabilities of the next note.
 To transform these embeddings into probabilities we apply the softmax function.
 Our network is depicted in Fig. 2.
-Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0^{(j)}$.</p>
+Note that we do not use a bias term, i.e., there is no replacement for \(\alpha_0^{(j)}\).</p>
 
 <p><br /></p>
 <div style="display:block; margin-left:auto; margin-right:auto; width:75%;">
@@ -1817,7 +1816,7 @@ Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0
 
 \[-\frac{1}{M} \sum_{i=1,j=y_i}^M \log(\sigma(\mathbf{o})_j),\]
 
-<p>where $j$ is the $j^\text{th}$ note in our alphabet and $y_i$, that is $(\mathbf{x}, y_j)$ is in our training data set.</p>
+<p>where \(j\) is the \(j^\text{th}\) note in our alphabet and \(y_i\), that is \((\mathbf{x}, y_j)\) is in our training data set.</p>
 
 <h3 id="training-data-construction">Training Data Construction</h3>
 
@@ -1841,27 +1840,27 @@ Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0
 </code></pre></div></div>
 
 <p>As mentioned, I employ a <em><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">one-hot encoding</a></em> for the input data.
-That is, for encoding $m$ unique elements one uses $m$ unique $m$-dimensional vectors.
+That is, for encoding \(m\) unique elements one uses \(m\) unique \(m\)-dimensional vectors.
 One component of these vectors is set to 1.0 and all others are 0.0.
-<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that our alphabet consists of whole numbers between 0 and $m-1$, compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
+<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that our alphabet consists of whole numbers between 0 and \(m-1\), compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
 
 \[(0, \ldots, 0, 1, 0, \ldots, 0)\]
 
-<p>The $i^{\text{th}}$ element is represented by a vetor where the $i^{\text{th}}$ component is 1.0.
+<p>The \(i^{\text{th}}\) element is represented by a vetor where the \(i^{\text{th}}\) component is 1.0.
 Note that our labels <code class="language-plaintext highlighter-rouge">ys</code> are not one-hot encoded.</p>
 
 <h3 id="training">Training</h3>
 
-<p>Next, I initialize a random matrix $\mathbf{W} \in [-1;1]^{m \times m}$, or tensor, <code class="language-plaintext highlighter-rouge">W</code> with values ranging from -1.0 to 1.0.
+<p>Next, I initialize a random matrix \(\mathbf{W} \in [-1;1]^{m \times m}\), or tensor, <code class="language-plaintext highlighter-rouge">W</code> with values ranging from -1.0 to 1.0.
 This tensor includes our trainable parameters, which represent the single layer of our neural network.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">W</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Our network includes $m$ inputs and outputs, with the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax</a></em> values of the outputs being interpreted as probabilities.
+<p>Our network includes \(m\) inputs and outputs, with the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax</a></em> values of the outputs being interpreted as probabilities.
 Essentially, our “network” is just one large matrix!</p>
 
-<p>The operation <code class="language-plaintext highlighter-rouge">xenc @ W</code> represents a matrix multiplication where <code class="language-plaintext highlighter-rouge">xenc</code> is an $1700 \times m$ matrix and <code class="language-plaintext highlighter-rouge">W</code> is our $m \times m$ matrix.
+<p>The operation <code class="language-plaintext highlighter-rouge">xenc @ W</code> represents a matrix multiplication where <code class="language-plaintext highlighter-rouge">xenc</code> is an \(1700 \times m\) matrix and <code class="language-plaintext highlighter-rouge">W</code> is our \(m \times m\) matrix.
 Here I use the power of parallel computation.
 By employing <code class="language-plaintext highlighter-rouge">probs[torch.arange(len(ys), device=device), ys]</code>, I address a single entry for each row.</p>
 
@@ -1899,7 +1898,7 @@ Also, be aware that I apply an unusually large learning rate.</p>
 
 \[\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \nabla_\mathbf{W} L\]
 
-<p>where $\eta = 10$ is the <em>learning rate</em>.</p>
+<p>where \(\eta = 10\) is the <em>learning rate</em>.</p>
 
 <p>After the initial 2000 epochs the loss is approximately <code class="language-plaintext highlighter-rouge">2.865</code>. 
 This performance is somewhat inferior compared to the results achieved by our <em>Markov chain</em>. 
@@ -1907,7 +1906,7 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 <h3 id="what-is-going-on">What is going on?</h3>
 
-<p>Let us assume we have only one sample $\mathbf{x}$.</p>
+<p>Let us assume we have only one sample \(\mathbf{x}\).</p>
 
 <h4 id="forward-pass">Forward Pass:</h4>
 
@@ -1915,17 +1914,17 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W}\]
 
-<p>where $\mathbf{x}$ is a <em>one-hot encoded</em> training data point.
-$\mathbf{o}$ gets interpreted as (component-wise) logarithm of the odds</p>
+<p>where \(\mathbf{x}\) is a <em>one-hot encoded</em> training data point.
+\(\mathbf{o}\) gets interpreted as (component-wise) logarithm of the odds</p>
 
 \[\mathbf{o} = \ln\left(\frac{\mathbf{p}}{\mathbf{1}-\mathbf{p}}\right)\]
 
 <p>which is the <a href="https://en.wikipedia.org/wiki/Logit">logit</a>, i.e., the inverse of the <em>standard logistic function</em> also called <em>sigmoid</em>.
-In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
+In fact, each data point in \(\mathbf{x}\) selects one row of \(\mathbf{W}\)</p>
 
 \[\mathbf{o} = \mathbf{x} \cdot \mathbf{W} = \begin{bmatrix} o_1 &amp; o_2 &amp; \ldots &amp; o_m \end{bmatrix}.\]
 
-<p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of $\mathbf{o}$, i.e.,</p>
+<p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of \(\mathbf{o}\), i.e.,</p>
 
 \[\sigma(\mathbf{o}) = \begin{bmatrix} \sigma(\mathbf{o})_1 &amp; \sigma(\mathbf{o})_2 &amp; \ldots &amp; \sigma(\mathbf{o})_m \end{bmatrix}\]
 
@@ -1955,11 +1954,11 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 
 \[L(\mathbf{y}, \sigma) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\sigma)^\top\]
 
-<p>where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,</p>
+<p>where \(\mathbf{y}\) is the one-hot encoded label vector, i.e.,</p>
 
 <p><code class="language-plaintext highlighter-rouge">loss = -probs[torch.arange(len(ys), device=device), ys].log().mean()</code>.</p>
 
-<p>Note that $\mathbf{y}$ is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
+<p>Note that \(\mathbf{y}\) is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
 
 <h4 id="backword-pass">Backword Pass:</h4>
 
@@ -1968,7 +1967,7 @@ In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$</p>
 \[\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) = \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o}.\]
 
 <p>Here we employ the <em>chain rule</em>.
-The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
+The sensitivity of cost \(L\) to the input to the softmax layer, \(\mathbf{o}\) is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
 
 \[\begin{align}
     \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) &amp;= -\nabla_{\mathbf{o}} \mathbf{y} \log(\sigma)^\top \\
@@ -1980,7 +1979,7 @@ The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is g
     &amp;= \sigma - \mathbf{y}.
 \end{align}\]
 
-<p>The $\log$ and the devision operates component-wise and</p>
+<p>The \(\log\) and the devision operates component-wise and</p>
 
 \[\text{diag}\left(\sigma\right) =
 \begin{bmatrix} 
@@ -1991,7 +1990,7 @@ The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is g
 \end{bmatrix}\]
 
 <p>holds.
-We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix $\mathbf{W}$:</p>
+We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix \(\mathbf{W}\):</p>
 
 \[\begin{align}
 \nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) &amp;= \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
@@ -1999,10 +1998,10 @@ We have to apply the <em>chain rule</em> once again to finally get the desired u
 &amp;= (\sigma - \mathbf{y}) \cdot \mathbf{x}^{\top}.
 \end{align}\]
 
-<p>Given that $\sigma$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed “incorrect”, and $(p_i-1)$ otherwise. 
+<p>Given that \(\sigma\) represents probabilities, and \(\mathbf{y}\) contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the \(j^\text{th}\) row (\(x_j=1\)) of the gradient is \(p_i\) if the \(i^\text{th}\) probability is deemed “incorrect”, and \((p_i-1)\) otherwise. 
 All other entries are zero.
-Note also that $\mathbf{x}$ is also a one-hot encoded vector.
-Consequently, if a probability is correct, it gets increased by $1-p_i$ and decreased by $p_i-1$ otherwise.
+Note also that \(\mathbf{x}\) is also a one-hot encoded vector.
+Consequently, if a probability is correct, it gets increased by \(1-p_i\) and decreased by \(p_i-1\) otherwise.
 Therefore, probabilities that are more incorrect experience a larger increase or decrease.</p>
 
 <p>We can actually check this result!
@@ -2035,7 +2034,7 @@ Using the following code:</p>
 
 <h4 id="batching">Batching:</h4>
 
-<p>So far we only considered the math using a single data point $\mathbf{x}$.
+<p>So far we only considered the math using a single data point \(\mathbf{x}\).
 Let us consider a batch of points, i.e.,</p>
 
 \[\mathbf{O} = \mathbf{X}\mathbf{W} = \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{x}_2 \\ \vdots \\ \mathbf{x}_n \end{bmatrix} \mathbf{W}\]
@@ -2183,18 +2182,18 @@ We aim to alter the synth’s parameters while it is playing (modulation) in res
 <p>Unfortunately, a significant problem arises in this situation. 
 The number of parameters exceeds the number of positional values.
 We only have two coordinates to work with, and establishing a one-to-one mapping between these coordinates and parameters is not feasible.
-We want to avoid merely selecting two parameters and modifying them according to the dancer’s $x$ and $y$ coordinates.</p>
+We want to avoid merely selecting two parameters and modifying them according to the dancer’s \(x\) and \(y\) coordinates.</p>
 
-<p>In mathematical terms, we are looking for a function that receives $2$ values ($x$ and $y$) and outputs $n$ values (one for each parameter), where $n &gt; 2$.
+<p>In mathematical terms, we are looking for a function that receives \(2\) values (\(x\) and \(y\)) and outputs \(n\) values (one for each parameter), where \(n &gt; 2\).
 We want a function</p>
 
 \[f : \mathbb{R}^2 \rightarrow \mathbb{R}^n.\]
 
-<p>Additionally, it is necessary for $f$ to be smooth and meet our musical preferences. 
-As $f$ maps a lower-dimensional space to a higher-dimensional space and we require a seamless transition, we search for a two-dimensional <em>surface</em> in an $n$-dimensional space. 
-As the dancer moves in the $x$ and $y$ directions, $f$ translates this motion to a movement on the two-dimensional surface in the $n$-dimensional space.</p>
+<p>Additionally, it is necessary for \(f\) to be smooth and meet our musical preferences. 
+As \(f\) maps a lower-dimensional space to a higher-dimensional space and we require a seamless transition, we search for a two-dimensional <em>surface</em> in an \(n\)-dimensional space. 
+As the dancer moves in the \(x\) and \(y\) directions, \(f\) translates this motion to a movement on the two-dimensional surface in the \(n\)-dimensional space.</p>
 
-<p>If we have only one coordinate and three parameters, $f$ represents a curve in the three-dimensional space.
+<p>If we have only one coordinate and three parameters, \(f\) represents a curve in the three-dimensional space.
 In this case, we can draw it.
 Compare Fig. 1.</p>
 
@@ -2203,12 +2202,12 @@ Compare Fig. 1.</p>
 </div>
 <p><br /></p>
 
-<p>This is a complex challenge, and several questions arise: How does $f$ look like? 
+<p>This is a complex challenge, and several questions arise: How does \(f\) look like? 
 How can we implement it?</p>
 
 <h3 id="reasoning-about-the-world">Reasoning about the World</h3>
 
-<p>Before the advent of machine learning, we would have addressed this problem using the “traditional way” of abstract reasoning and programming to implement the function $f$ directly via code.
+<p>Before the advent of machine learning, we would have addressed this problem using the “traditional way” of abstract reasoning and programming to implement the function \(f\) directly via code.
 This approach involves roughly six steps:</p>
 
 <ol>
@@ -2233,7 +2232,7 @@ This approach would have required a wealth of knowledge across diverse domains s
 Furthermore, to achieve our desired sound, we would have needed to understand the impact of parameter changes on various aspects of the sound, such as pitch and timbre.</p>
 
 <p>In essence, we would have aimed to create a model of the synth “world” to enable us to reason about its structures and rules.
-We would have then written code to manipulate the $n$ parameters concurrently, relative to the dancer’s position.</p>
+We would have then written code to manipulate the \(n\) parameters concurrently, relative to the dancer’s position.</p>
 
 <p>While I value the traditional approach for its ability to provide insights into actual and imaginative structures, it is not the optimal solution for our specific scenario. I believe that creative practitioners do not necessarily avoid analytical work but tend to focus on creation, thereby enabling a more tangible understanding of the problem. I welcome this approach, particularly in the field of machine learning.
 In contrast, the traditional approach can be challenging and less accessible, particularly in achieving our artistic objectives.</p>
@@ -2248,15 +2247,15 @@ Therefore, like models constructed manually, machine learning models are an impe
 This is the fundamental idea behind machine learning, albeit an oversimplification.</p>
 
 <p>In our scenario, we replace manual modeling with machine learning by defining what we want and letting the machine learning models provided by the <a href="http://www.wekinator.org/">Wekinator</a> figure out how to achieve it.
-We present an algorithm $A$ with examples $D$ that represent our requirements and ask it to “program” a function $f$ that fulfills our needs.</p>
+We present an algorithm $A$ with examples $D$ that represent our requirements and ask it to “program” a function \(f\) that fulfills our needs.</p>
 
-<p><em>Machine learning</em> involves learning $f$ from data $D$ using algorithm $A$, where $A$ is essentially just another function that produces functions:</p>
+<p><em>Machine learning</em> involves learning \(f\) from data \(D\) using algorithm \(A\), where \(A\) is essentially just another function that produces functions:</p>
 
 \[A(D) = f\]
 
-<p>The <a href="http://www.wekinator.org/">Wekinator</a> allows us to choose algorithm $A$ from a list of algorithms and provides a graphical user interface (GUI) for recording $D$ and feeding it into $A$ to compute $f$.
-The algorithm $A$ is predetermined, and $f$ will be computed.
-As a result, we need to provide data/observation $D$ by recording it, so let’s get started!</p>
+<p>The <a href="http://www.wekinator.org/">Wekinator</a> allows us to choose algorithm \(A\) from a list of algorithms and provides a graphical user interface (GUI) for recording \(D\) and feeding it into \(A\) to compute \(f\).
+The algorithm \(A\) is predetermined, and \(f\) will be computed.
+As a result, we need to provide data/observation \(D\) by recording it, so let’s get started!</p>
 
 <p><strong>Disclaimer:</strong>
 Utilizing <em>machine learning</em> does not imply that we cease rationalizing about the world.
@@ -2470,11 +2469,11 @@ The IP address and sending port are crucial because they must correspond with th
 <span class="o">}</span>
 </code></pre></div></div>
 
-<p>sends the coordinates $x$ and $y$ of the mouse (with respect to the window) to the port <code class="language-plaintext highlighter-rouge">6448</code> and the path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>. 
+<p>sends the coordinates \(x\) and \(y\) of the mouse (with respect to the window) to the port <code class="language-plaintext highlighter-rouge">6448</code> and the path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>. 
 OSC uses these paths such that it is possible to differentiate different types of messages that got sent to some port.</p>
 
 <p>Now we have to set up OSC communication of our sound generating system, i.e. <a href="https://supercollider.github.io/">SuperCollider</a>.
-Let us first listen to port <code class="language-plaintext highlighter-rouge">6448</code>and path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code> and let’s just print the raw data we perceive, i.e., the $x$ and $y$ values of our dancer (the green square).</p>
+Let us first listen to port <code class="language-plaintext highlighter-rouge">6448</code>and path <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code> and let’s just print the raw data we perceive, i.e., the \(x\) and \(y\) values of our dancer (the green square).</p>
 
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
 <span class="nc">OSCdef</span><span class="p">(</span>
@@ -2495,8 +2494,8 @@ These messages look like this:</p>
 </code></pre></div></div>
 
 <p>Now, let’s take it a step further and modify two synth parameters based on these values. 
-The following code maps $x$ and $y$ to a suitable range. 
-While $x$ ranges from 0 to 650 and $y$ from 0 to 460, we aim to obtain values between 0.1 and 20.</p>
+The following code maps \(x\) and \(y\) to a suitable range. 
+While \(x\) ranges from 0 to 650 and \(y\) from 0 to 460, we aim to obtain values between 0.1 and 20.</p>
 
 <div class="language-supercollider highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span>
 <span class="nc">OSCdef</span><span class="p">(</span>
@@ -2516,13 +2515,13 @@ While $x$ ranges from 0 to 650 and $y$ from 0 to 460, we aim to obtain values be
 
 <p>The impact of this code should be noticeable in the audio output. When the dancer is positioned at the top left, fewer impulses are produced.
 If situated at the bottom right, impulses emit from both speakers, while being at the bottom left results in only the right speaker activating.
-This effect may not seem extraordinary, as our function $f$ is quite elementary, involving a linear mapping from one interval to another.</p>
+This effect may not seem extraordinary, as our function \(f\) is quite elementary, involving a linear mapping from one interval to another.</p>
 
 <h3 id="the-machine-in-the-middle">The Machine in the Middle</h3>
 
 <p>We now introduce the <a href="http://www.wekinator.org/">Wekinator</a> in the middle of the communication.
 That is, the dancer sends their position to the <a href="http://www.wekinator.org/">Wekinator</a>, and <a href="https://supercollider.github.io/">SuperCollider</a> listens to the messages from the <a href="http://www.wekinator.org/">Wekinator</a> and changes the values of the synth accordingly.
-The <a href="http://www.wekinator.org/">Wekinator</a> translates positions into synth parameters, and it realizes the function $f$.
+The <a href="http://www.wekinator.org/">Wekinator</a> translates positions into synth parameters, and it realizes the function \(f\).
 The 6 output signals</p>
 
 \[(v_1, \ldots, v_6) = f(x,y)\]
@@ -2563,9 +2562,9 @@ I employ the following mapping (note that we skip <code class="language-plaintex
 <p><strong>If you use <a href="https://supercollider.github.io/">SuperCollider</a> be careful with your choices and protect your ears</strong> since it will try to use even unreasonable values like an amplitude of 10 or higher.</p>
 
 <p>Now we start the <a href="http://www.wekinator.org/">Wekinator</a>.
-First, we have to specify the port for the input signals of $f$, i.e., the dancer’s position.
+First, we have to specify the port for the input signals of \(f\), i.e., the dancer’s position.
 This is equal to <code class="language-plaintext highlighter-rouge">6448</code>, and the OSC path is <code class="language-plaintext highlighter-rouge">'/wek/inputs'</code>.
-Then we have to specify the port of the output signal $f(x,y)$, i.e., the port used in SuperCollider, which is <code class="language-plaintext highlighter-rouge">7448</code> furthermore, we specify a path <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> such that we do not confuse input and output.</p>
+Then we have to specify the port of the output signal \(f(x,y)\), i.e., the port used in SuperCollider, which is <code class="language-plaintext highlighter-rouge">7448</code> furthermore, we specify a path <code class="language-plaintext highlighter-rouge">'/wek/outputs'</code> such that we do not confuse input and output.</p>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="/Pages/assets/images/wekinator-screen-started.png" alt="Runnig Processing sketch" />
 <div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
@@ -2597,18 +2596,18 @@ Of course, you have to remember which slider represents which parameter.</p>
 <p>To connect the sound to the dancer’s position, we have to</p>
 
 <ol>
-  <li>record samples, i.e., construct the data set $D$</li>
-  <li>train the model, i.e. compute $f = A(D)$.</li>
+  <li>record samples, i.e., construct the data set \(D\)</li>
+  <li>train the model, i.e. compute \(f = A(D)\).</li>
 </ol>
 
-<p>To construct $D$ we need multiple tuples</p>
+<p>To construct \(D\) we need multiple tuples</p>
 
 \[(\text{input}, \text{output}) = ((x,y), (v_1, \ldots, v_6)).\]
 
-<p>First, we move the square to a desired position and choose a set of desired parameters $(v_1, \ldots, v_6)$.
+<p>First, we move the square to a desired position and choose a set of desired parameters \((v_1, \ldots, v_6)\).
 Next, we click <code class="language-plaintext highlighter-rouge">Start Recording</code>, and after a few seconds, we press <code class="language-plaintext highlighter-rouge">Stop Recording</code>.
-In doing so, we generate portions of the data $D$.
-We repeat this step multiple times until we have accumulated sufficient data $D$.</p>
+In doing so, we generate portions of the data \(D\).
+We repeat this step multiple times until we have accumulated sufficient data \(D\).</p>
 
 <p>Once completed, we press <code class="language-plaintext highlighter-rouge">Train</code> to compute</p>
 
@@ -2616,7 +2615,7 @@ We repeat this step multiple times until we have accumulated sufficient data $D$
 
 <p>This process should only take a few seconds.</p>
 
-<p>Finally, we can utilize $f$ by clicking <code class="language-plaintext highlighter-rouge">Run</code>.
+<p>Finally, we can utilize \(f\) by clicking <code class="language-plaintext highlighter-rouge">Run</code>.
 At this point, both <code class="language-plaintext highlighter-rouge">OSC In</code> and <code class="language-plaintext highlighter-rouge">OSC Out</code> indicators should be green, and as you move the square around, the sound should change accordingly. 
 Moreover, all parameters (assuming they were all manipulated during recording) should transition smoothly.</p>
 
@@ -2624,7 +2623,7 @@ Moreover, all parameters (assuming they were all manipulated during recording) s
 
 <p>Keep in mind that we did not specify any algorithm A.
 By default, <a href="http://www.wekinator.org/">Wekinator</a> employs a <em>feed-forward neural network</em> and assumes a <em>regression task</em>.
-This means that the output $f(x,y)$ is continuous and does not represent an element within a finite set of classes.</p>
+This means that the output \(f(x,y)\) is continuous and does not represent an element within a finite set of classes.</p>
 
 <p>You can choose algorithms by modifying the <code class="language-plaintext highlighter-rouge">Type</code> setting, as shown in Fig. 4. 
 This selection includes classification algorithms. 
@@ -2791,32 +2790,28 @@ In this blog post, I will focus on the <em>monophonic</em> generation (one note 
 <p>An autoregressive (AR) model is a representation of a type of random process that specifies that the output variable depends linearly on its own previous values and on a stochastic term (an imperfectly predictable term).
 In the field of machine learning these models are <em>sequence generative models</em>, that is, they learn an approximation of the real probability distribution.</p>
 
-<p>Let’s assume we are given access to a dataset $\mathcal{D} \subseteq \mathcal{X}^n$ of $n$-dimensional datapoints $\mathbf{x}$.
+<p>Let’s assume we are given access to a dataset \(\mathcal{D} \subseteq \mathcal{X}^n\) of \(n\)-dimensional datapoints \(\mathbf{x}\).
 Each datapoint represents a sequence of events—in our case a sequence of notes.
-By the chain rule of probability, we can factorize the joint distribution over the $n$-dimensions as</p>
+By the chain rule of probability, we can factorize the joint distribution over the \(n\)-dimensions as</p>
 
 \[P(\mathbf{x}) = \prod_{i=1}^n P(x_i | x_1, x_2, \ldots, x_{i-1}) = \prod_{i=1}^n P(x_i|\mathbf{x}_{&lt;i}),\]
 
 <p>where</p>
 
-\[P(x_i | x_1) = P(x_i | X_1 = x_1)\]
+\[P(x_i | x_1) = P(x_i | X_1 = x_1) \text{ and } \mathbf{x}_{&lt;i} = (x_1, x_2, \ldots, x_{i-1}).\]
 
-<p>and</p>
-
-\[\mathbf{x}_{&lt;i} = (x_1, x_2, \ldots, x_{i-1}).\]
-
-<p>If we allow every conditional $P(x_i|\mathbf{x}_{&lt;i})$ to be specified in a tabular form, then such a representation is fully general and can represent any possible distribution over $n$ random variables.
-However, the space complexity for such a representation grows exponentially with $n$.</p>
+<p>If we allow every conditional \(P(x_i|\mathbf{x}_{&lt;i})\) to be specified in a tabular form, then such a representation is fully general and can represent any possible distribution over \(n\) random variables.
+However, the space complexity for such a representation grows exponentially with \(n\).</p>
 
 <p>In an <em>autoregressive generative model</em>, the conditionals are specified as parameterized functions (hypothesis) with a fixed number of parameters</p>
 
 \[P_{\theta_{i}}(x_i|\mathbf{x}_{&lt;i}) = h_i(x_1, x_2, \ldots, x_{i-1}),\]
 
-<p>where $\theta_{i}$ denotes the set of parameters used to specify the mean function</p>
+<p>where \(\theta_{i}\) denotes the set of parameters used to specify the mean function</p>
 
 \[h_{\theta_{i}} : \mathcal{X}^{i-1} \rightarrow [0;1]^{|\mathcal{X}|},\]
 
-<p>with the condition that the $|\mathcal{X}|$ probabilities sum up to 1.
+<p>with the condition that the \(\|\mathcal{X}\|\) probabilities sum up to 1.
 The number of parameters of such a model is given by</p>
 
 \[\sum_{i=1}^n |\theta_{i}|.\]
@@ -2840,7 +2835,7 @@ The number of parameters of such a model is given by</p>
 \[\theta_i = \{\alpha_0^{(i)}, \alpha_1^{(i)}, \ldots, \alpha_{i-1}^{(i)}\}\]
 
 <p>denote the parameters of the mean function.
-Note that this simple model has $\mathcal{O}(n^2)$ pareamters (instead of the $\mathcal{O}(2^{n-1})$) required if we use a tabular representation for the conditionals.
+Note that this simple model has \(\mathcal{O}(n^2)\) pareamters (instead of the \(\mathcal{O}(2^{n-1})\)) required if we use a tabular representation for the conditionals.
 In Fig. 2</p>
 
 \[\hat{y}_i \in \mathcal{X} \text{ is } 1 \text{ if } h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1}) &gt; 0.5,\]
@@ -2854,8 +2849,8 @@ In Fig. 2</p>
 </div>
 <p><br /></p>
 
-<p>In the general case, where $|\mathcal{X}| = m$, i.e. it consists of a finite number of possible events—in our case notes—a linear model should output $m$ numbers between 0 and 1 that sum up to 1.
-In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensional vector</p>
+<p>In the general case, where \(|\mathcal{X}| = m\), i.e. it consists of a finite number of possible events—in our case notes—a linear model should output $m$ numbers between 0 and 1 that sum up to 1.
+In that case, \(h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})\) outputs an \(m\)-dimensional vector</p>
 
 \[\mathbf{p}_i = (p_{i1}, p_{i2}, \ldots, p_{im})\]
 
@@ -2867,7 +2862,7 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 
 \[z_{ij} = \alpha_0^{(i,j)} + \alpha_1^{(i,j)} x_1 + \ldots + \alpha_{i-1}^{(i,j)} x_{i-1}.\]
 
-<p>Thus we replace the <em>sigmoid</em> by <em>softmax</em> and we would require $\mathcal{O}(n^2 \cdot m)$ parameters.</p>
+<p>Thus we replace the <em>sigmoid</em> by <em>softmax</em> and we would require \(\mathcal{O}(n^2 \cdot m)\) parameters.</p>
 
 <p><br /></p>
 <div style="display:block; margin-left:auto; margin-right:auto; width:70%;">
@@ -2898,7 +2893,7 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 \alpha_0^{(i,m)}
 \end{bmatrix}.\]
 
-<p>For example, if we have three events $m=3$ (see Fig. 3) and $n=5$ then</p>
+<p>For example, if we have three events \(m=3\) (see Fig. 3) and \(n=5\) then</p>
 
 \[\mathbf{A}_{5} =
 \begin{bmatrix}
@@ -2931,13 +2926,13 @@ In that case, $h_{\theta_{i}}(x_1, x_2, \ldots, x_{i-1})$ outputs an $m$-dimensi
 </div>
 <p><br /></p>
 
-<p>We could share our parameters for computing the next note for a sequence shorter than $n-1$ notes by seting</p>
+<p>We could share our parameters for computing the next note for a sequence shorter than \(n-1\) notes by seting</p>
 
 \[x_j = 0 \text{ for } j \geq i.\]
 
 <p>This architecture is often called <em>neural autoregressive density estimator</em>.
-By sharing, we reduces the amount of parameters to $\mathcal{O}(n \cdot m)$.
-We will use such a feedforward neural network (without a bias term and assuming $n=2$) in <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em> of this series.</p>
+By sharing, we reduces the amount of parameters to \(\mathcal{O}(n \cdot m)\).
+We will use such a feedforward neural network (without a bias term and assuming \(n=2\)) in <em><a href="/Pages/2023/05/31/musical-interrogation-II.html">Part II - FNN</a></em> of this series.</p>
 
 <h3 id="multi-layer-perceptrons">Multi-Layer Perceptrons</h3>
 
@@ -2945,26 +2940,28 @@ We will use such a feedforward neural network (without a bias term and assuming 
 For example, consider the case of a neural network with 1 hidden layer.
 The mean function for variable $i$ can be expressed as</p>
 
-\[\mathbf{h}_i = \sigma\left(\mathbf{W}_i \mathbf{x}_{&lt; i} + \mathbf{c}_i \right) \quad \text{ (component-wise sigmoid)}\]
+\[\begin{array}
+    \mathbf{h}_i &amp;= \sigma\left(\mathbf{W}_i \mathbf{x}_{&lt; i} + \mathbf{c}_i \right) &amp; \quad \text{ (component-wise sigmoid)}\\
+    \mathbf{z}_i &amp;= \sigma\left( \mathbf{A}_{i} \mathbf{h}_i + \mathbf{b}_i \right) &amp; \quad \text{ (softmax)}
+\end{array}\]
 
-\[\mathbf{z}_i = \sigma\left( \mathbf{A}_{i} \mathbf{h}_i + \mathbf{b}_i \right) \quad \text{ (softmax)}\]
-
-<p>where $\mathbf{h}_i \in \mathbb{R}^d$ denotes the hidden layer activations for the MLP and</p>
+<p>where \(\mathbf{h}_i \in \mathbb{R}^d\) denotes the hidden layer activations for the MLP and</p>
 
 \[\theta_i = \{ \mathbf{W}_i \in \mathbb{R}^{d \times (i-1)}, \mathbf{c}_i \in \mathbb{R}^d, \mathbf{A}_{i} \in \mathbb{R}^{(i-1) \times d}, b_i \in \mathbb{R}^m \}.\]
 
 <p>are the set of parameters for the mean function.
 Note that if $d$ is small the information gets compressed.
-The total number of parameters in this model is in $\mathcal{O}(n^2 \cdot d)$ and is dominated by the matrices.
-Sharing both types of matrices reduces the complexity to $\mathcal{O}(n \cdot d)$</p>
+The total number of parameters in this model is in \(\mathcal{O}(n^2 \cdot d)\) and is dominated by the matrices.
+Sharing both types of matrices reduces the complexity to \(\mathcal{O}(n \cdot d)\)</p>
 
 \[\theta = \{ \mathbf{W}_n \in \mathbb{R}^{d \times (n-1)}, \mathbf{c}_n \in \mathbb{R}^d, \mathbf{A}_n \in \mathbb{R}^{(n-1) \times d}, \mathbf{b}_n \in \mathbb{R}^m \}.\]
 
 <p>computing</p>
 
-\[\mathbf{h}_i = \sigma\left(\mathbf{W}_n \mathbf{x}_{&lt; n} + \mathbf{c}_n \right) \quad \text{ (component-wise sigmoid)}\]
-
-\[\mathbf{z}_n = \sigma\left( \mathbf{A}_n \mathbf{h}_n + \mathbf{b}_n \right) \quad \text{ (softmax)}.\]
+\[\begin{array}
+    \mathbf{h}_i &amp;= \sigma\left(\mathbf{W}_n \mathbf{x}_{&lt; n} + \mathbf{c}_n \right) &amp; \quad \text{ (component-wise sigmoid)}\\
+    \mathbf{z}_n &amp;= \sigma\left( \mathbf{A}_n \mathbf{h}_n + \mathbf{b}_n \right) &amp; \quad \text{ (softmax)}
+\end{array}\]
 
 <p><br /></p>
 <div style="display:block; margin-left:auto; margin-right:auto; width:80%;">
@@ -2994,12 +2991,12 @@ Using a <em>first-order Markov model</em>, one would estimate the probability of
 
 \[\hat{P}(X_i = x_i|X_{i-1} = x_{i-1})\]
 
-<p>is the empirical probability of $x_i$ accuring after $x_{i-1}$, i.e. the frequency of this event.
+<p>is the empirical probability of \(x_i\) accuring after \(x_{i-1}\), i.e. the frequency of this event.
 In this example, a state is defined by a note, e.g. A.</p>
 
 <p><em>Hidden Markov models (HMM)</em> are <em>Markov chains</em> with <em>hidden states</em>.
 There are also a finite number of states, probabilistic transitions between these states, and the next state is determined by the current state, but we are unsure in which state the process is currently in.
-The current hidden state $Z_t$ <em>emits</em> an <em>observation</em> $X_t$.
+The current hidden state \(Z_t\) <em>emits</em> an <em>observation</em> \(X_t\).
 In other words, instead of going from one observed variable to the next, e.g., one note to the next, we move from one <strong>distribution</strong> of observations to the next, e.g. from one distribution of notes to the next!</p>
 
 <p>For example, imagine a prisoner who has to estimate the outside weather (<em>hidden state</em>) by observing the dirt on the guard’s boots (<em>emissions</em>).
@@ -3012,9 +3009,9 @@ If he knows all the probability transitions (e.g., from sunny to rainy, sunny to
 </div>
 <p><br /></p>
 
-<p>The prisoner could ask: given the HMM and an observation sequence $X_0, \ldots, X_n$, what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
-One could also ask: what are the hidden states $Z_0, \ldots, Z_n$ that “best” explains the observations (<em>decoding problem</em>).
-Moreover, what we are more interested in is: given an observation sequence $X_0, \ldots, X_n$, learn the model parameters $\theta$ that maximizes the likelihood for our observation (<em>learning problem</em>)!
+<p>The prisoner could ask: given the HMM and an observation sequence \(X_0, \ldots, X_n\), what is the likelihood that this sequence occurs (<em>likelihood problem</em>)?
+One could also ask: what are the hidden states \(Z_0, \ldots, Z_n\) that “best” explains the observations (<em>decoding problem</em>).
+Moreover, what we are more interested in is: given an observation sequence \(X_0, \ldots, X_n\), learn the model parameters \(\theta\) that maximizes the likelihood for our observation (<em>learning problem</em>)!
 Similar to neural networks, one defines the <em>architecture</em> of the HMM (states and transitions), then solve the <em>learning problem</em> and infer new melodies from the learned HMM.
 In music, hidden states often lack interpretability.
 Therefore, it needs to be clarified which architecture one should choose.</p>
@@ -3080,19 +3077,15 @@ Instead of just writing all the letters on the piece of paper, we use our rubber
 <p>There is plenty of good material which explains LSTMs much more accurately than I can ever do.
 Figure 6 shows a sketch of a very complicated-looking LSTM cell where each green square is a linear transformation, each red bar indicates a <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a> activation, and blue bars indicate a <a href="https://en.wikipedia.org/wiki/Hyperbolic_functions">tanh</a> activation.
 All the sigmoid activations are used to control the memorizing strategy (rubber and highlighter).
-First, the cell “decides” what to keep in the long-term state $\mathbf{c}_{t-1}$ via $f_t$.</p>
+First, the cell “decides” what to keep in the long-term state \(\mathbf{c}\_{t-1}\) via \(f_t\).</p>
 
 <p>Then $i_t$ decides what to add to the long-term state.
-In addition, $o_t$ decides what part of the new long-term state will make up the short-term state 
-$\mathbf{h}_t.$
-The importance is that along the path from 
-$\mathbf{c}_{t-1}$ 
-to 
-$\mathbf{c}_{t},$
-there is only a simple multiplication and addition!
+In addition, $o_t$ decides what part of the new long-term state will make up the short-term state \(\mathbf{h}_t.\)
+The importance is that along the path from \(\mathbf{c}_{t-1}\) 
+to \(\mathbf{c}\_{t},\) there is only a simple multiplication and addition!
 Therefore, information can persist for longer.</p>
 
-<p>Note, however, that LSTMs can still access information of time step $t$ only via time step $t-1$.
+<p>Note, however, that LSTMs can still access information of time step \(t\) only via time step \(t-1\).
 There is no direct access to information compared to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a>, and the <em>transformer</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>, which led to the most recent breakthroughs in the field of <em>deep learning</em>.
 Just a few days ago, another RNN, called <a href="https://github.com/BlinkDL/RWKV-LM">RWKV-LM</a>, claimed to achieve similar results; thus, the last word has yet to be spoken.</p>
 
@@ -3168,7 +3161,7 @@ One-hot encoding means that to represent $n$ different objects one uses a binary
 
 \[\mathbf{v}_k = (v_1, \ldots, v_n) \text{ s.t. } v_k = 1, v_i = 0 \text{ for } i \neq k.\]
 
-<p>For training, all the data is transposed to the MIDI pitch range $[48..84]$.
+<p>For training, all the data is transposed to the MIDI pitch range \([48..84]\).
 The output/label was the target next event (note-off, no event, note-on for each pitch), i.e., one value for each pitch (a vector).
 Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/models/melody_rnn/melody_rnn_model.py">code</a>, I assume they use 128 units for each layer.
 <code class="language-plaintext highlighter-rouge">MelodyOneHotEncoding</code> and <code class="language-plaintext highlighter-rouge">KeyMelodyEncoderDecoder</code> can be found <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">here</a>.</p>
@@ -3196,7 +3189,7 @@ Looking at the <a href="https://github.com/magenta/magenta/blob/main/magenta/mod
 <span class="p">)</span>
 </code></pre></div></div>
 
-<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. $[0..128]$.</p>
+<p><strong>(2) Mono RNN</strong>: Similar to <em>basic</em> but uses the full MIDI pitch range, i.e. \([0..128]\).</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">...</span>
 <span class="n">note_seq</span><span class="p">.</span><span class="n">OneHotEventSequenceEncoderDecoder</span><span class="p">(</span>
@@ -3255,16 +3248,16 @@ This “looking” is realized by an <em>attention mask</em> which determines ho
 
 \[\mathbf{a}_t = \text{softmax}(\mathbf{u}_t), \quad \mathbf{u}_t = \mathbf{v}^\top\text{tanh}\left( W_1 H + W_2 \mathbf{c}_t \right)\]
 
-<p>The columns of $H$ are the $n=40$ hidden states $h_{t-n}, \ldots, h_{t-1}$.
-So instead of seeing only the hidden state $\mathbf{h}_{t-1}$ the RNN is looking at</p>
+<p>The columns of \(H\) are the \(n=40\) hidden states \(h_{t-n}, \ldots, h_{t-1}\).
+So instead of seeing only the hidden state \(\mathbf{h}_{t-1}\) the RNN is looking at</p>
 
 \[\hat{\mathbf{h}}_{t} = \sum\limits_{i=t-n}^{t-1} a_{t,i} h_i,\]
 
-<p>where $a_{t,i}$ is a component of $\mathbf{a}_t$ and $\mathbf{c}_t$ is the current step’s RNN cell state.
-$a_{t,i}$ is the amount of attention spent to the hidden state $h_i$.
-$W_1, W_2$ and $\mathbf{v}$ are learnable parameters.
-This $\hat{\mathbf{h}}_t$ vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
-Furthermore, $\hat{\mathbf{h}}_t$ is injected into the input of the next step.
+<p>where \(a_{t,i}\) is a component of \(\mathbf{a}_t\) and \(\mathbf{c}_t\) is the current step’s RNN cell state.
+\(a_{t,i}\) is the amount of attention spent to the hidden state \(h_i\).
+\(W_1, W_2\) and \(\mathbf{v}\) are learnable parameters.
+This \(\hat{\mathbf{h}}_t\) vector is then concatenated with the RNN output from the current step, and a linear layer is applied to that concatenated vector to create the new output for the current step.
+Furthermore, \(\hat{\mathbf{h}}_t\) is injected into the input of the next step.
 Both concatenations are transformed via a <em>linear layer</em> directly after concatenation.</p>
 
 <p>In a technical report <a class="citation" href="#lou:2016">(Lou, 2016)</a> Lou compares <em>Attention RNN</em> with the <em>Bi-axial LSTM</em> and comes to a conclusion that, as many RNNs, <em>Attention RNN</em> quite often falls into the over-repeating rabbit hole when generating pieces longer than 16 seconds.
@@ -3332,7 +3325,7 @@ One way to do this is to consider the ratio of the length of the diagonal of a s
 This ratio is always irrational, because no matter how large or small the square is, its diagonal will never be a whole number multiple of its side. This can be shown using the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse (the longest side) is equal to the sum of the squares of the lengths of the other two sides. Since the diagonal of a square is a line that forms a right angle with each side of the square, it follows that the diagonal of a square is the hypotenuse of a right triangle. Therefore, the ratio of the diagonal of a square to the length of its side must be irrational.
 </span></p>
 
-<p>That is not really convincing if we do not know that $\sqrt{2}$ is irrational which we are actually trying to prove.
+<p>That is not really convincing if we do not know that \(\sqrt{2}\) is irrational which we are actually trying to prove.
 So let’s ask for a formula.</p>
 
 <p><span style="font-family:Courier New">
@@ -3360,7 +3353,7 @@ I hope this helps! Let me know if you have any other questions.
 </span></p>
 
 <p>This answer is kind of helpful but, at the same time, misleading. 
-Again, <em>ChatGPT</em> already assumes that $\sqrt{2}$ is irrational, which is part of what we wanted to prove in the first place.</p>
+Again, <em>ChatGPT</em> already assumes that \(\sqrt{2}\) is irrational, which is part of what we wanted to prove in the first place.</p>
 
 <p><span style="font-family:Courier New">
 <strong>My question:</strong>
@@ -3444,16 +3437,16 @@ Asking it repeatedly gives some other wrong but confident assertion.
 
 \[2 \cdot b^2 = a^2\]
 
-<p>and concluded that $a^2$ has to be odd (somehow) and therefore there is a contradiction, since $2 b^2$ is even.
-But it was unable to point out why $a^2$ has to be odd.
+<p>and concluded that \(a^2\) has to be odd (somehow) and therefore there is a contradiction, since \(2 b^2\) is even.
+But it was unable to point out why \(a^2\) has to be odd.
 I gave up.</p>
 
 <p>For the sake of completeness, let me finish the unfinised proof of <em>ChatGPT</em>.</p>
 
 \[2 \cdot b^2 = a^2\]
 
-<p>hence, $a^2$ and therefore, $a$ is even (since squaring an odd number gives us an odd number).
-Consequently, $\exists m \in \mathbb{N}$ such that $a = 2 \cdot m$,
+<p>hence, \(a^2\) and therefore, \(a\) is even (since squaring an odd number gives us an odd number).
+Consequently, \(\exists m \in \mathbb{N}\) such that \(a = 2 \cdot m\),
 hence,</p>
 
 \[2 \cdot b^2 = (2m)^2 = 4m^2.\]
@@ -3464,8 +3457,8 @@ hence,</p>
 
 <p>thus $b$ has to be even as well!</p>
 
-<p>However, we (not <em>ChatGPT</em>) assumed at the beginning that the fraction $a/b$ was fully shortened, i.e. there are no common divisors with respect to $a$ and $b$.
-Since we followed that $a$ and $b$ are even, the contradiction follows, since $2$ is a common divisor!</p>
+<p>However, we (not <em>ChatGPT</em>) assumed at the beginning that the fraction \(a/b\) was fully shortened, i.e. there are no common divisors with respect to \(a\) and \(b\).
+Since we followed that \(a\) and \(b\) are even, the contradiction follows, since \(2\) is a common divisor!</p>
 
 <h3 id="writing-code">Writing Code</h3>
 
@@ -3502,7 +3495,7 @@ This function takes an integer n as input and returns the sum of the squares of 
 I hope this helps! Let me know if you have any other questions.
 </span></p>
 
-<p>This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to $n^2$:</p>
+<p>This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to \(n^2\):</p>
 
 \[\frac{(n \cdot (n + 1) \cdot (2n + 1))}{6}.\]
 
@@ -3884,7 +3877,7 @@ P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
 \end{equation}</p>
 
 <p>A <em>first-order Markov chain</em> only considers <strong>one</strong> predecessor, i.e., only the most local part of the context.
-A <em>$n$-order Markov chain</em> does consider $n$ predecessors. In general, we define</p>
+A <em>\(n\)-order Markov chain</em> does consider \(n\) predecessors. In general, we define</p>
 
 <p>\begin{equation}
 P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
@@ -3895,7 +3888,7 @@ P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
 <h2 id="music-generation">Music Generation</h2>
 
 <p>We can generate a composition by traversing the graph if we represent our notes by states of a <em>Markov chain</em>.
-If we increase the order of the chein, i.e. $n$, the entropy decreases for small $n$.</p>
+If we increase the order of the chein, i.e. \(n\), the entropy decreases for small \(n\).</p>
 
 <p>Until now, I only tried to use and generate a <em>first-order Markov chain</em>.
 Even though I am not that familiar with <code class="language-plaintext highlighter-rouge">Ruby</code>, I used <a href="https://sonic-pi.net/">Sonic Pi</a> for this task such that I can play around with it directly within the IDE of Sonic Pi.
@@ -3904,11 +3897,11 @@ I decided to define a note as a tuple (list) consisting of the pitch and the len
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">:c4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span> <span class="c1"># a c of length 1/8 beat </span>
 </code></pre></div></div>
 
-<p>Instead of a graph, I use a transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = {q_1, \ldots, q_m}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.</p>
+<p>Instead of a graph, I use a transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
 
-<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> $P$, the <code class="language-plaintext highlighter-rouge">states</code> $Q$ and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
+<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> \(P\), the <code class="language-plaintext highlighter-rouge">states</code> \(Q\) and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_mmelody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">states</span><span class="o">|</span>
   <span class="c1">#</span>
@@ -3934,9 +3927,9 @@ The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going 
 </code></pre></div></div>
 
 <p>For each note, we roll the dice.
-Let’s say $p \in [0;1]$ is our result.
-And $q_i$ is our current state.
-Then we compute $j$ such that</p>
+Let’s say \(p \in [0;1]\) is our result.
+And \(q_i\) is our current state.
+Then we compute \(j\) such that</p>
 
 <p>\begin{equation}
 \sum\limits_{k=1}^{j-1} p_{ij} &lt; p \leq \sum\limits_{k=1}^{j} p_{ij}.
@@ -3950,25 +3943,25 @@ Then we compute $j$ such that</p>
 Given a melody, we can <em>learn</em> the <em>Markov chain</em> that <strong>most likely</strong> would generate the given melody.
 By doing so, we can then use the <em>learned chain</em> to generate music in a similar style.</p>
 
-<p>Let us use the same transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = {q_1, \ldots, q_m}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.</p>
+<p>Let us use the same transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
+Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
+The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
 
-<p>Furthermore, let us define our set of all possible melodies $M \subseteq Q^n$ of length $n$.
-Then a specific melody $\mathbf{m} = (m_1, \ldots, m_n) \in M$ is a tuple (list) of notes:</p>
+<p>Furthermore, let us define our set of all possible melodies \(M \subseteq Q^n\) of length \(n\).
+Then a specific melody \(\mathbf{m} = (m_1, \ldots, m_n) \in M\) is a tuple (list) of notes:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">notes</span> <span class="o">=</span> <span class="p">[[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:a4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="o">...</span> <span class="p">]</span>
 </code></pre></div></div>
 
-<p>We can compute the most likely $P$ by computing each entry of it where $p_{ij}$ is equal to</p>
+<p>We can compute the most likely \(P\) by computing each entry of it where \(p_{ij}\) is equal to</p>
 
 <p>\begin{equation}
 p_{ij} = \frac{n_{ij}}{n_i}
 \end{equation}</p>
 
-<p>where $n_{ij}$ is the number of transitions from $q_i$ to $q_j$ within $\mathbf{m}$ and $n_i$ is the number of transition starting at $q_i$.</p>
+<p>where \(n_{ij}\) is the number of transitions from \(q_i\) to \(q_j\) within \(\mathbf{m}\) and \(n_i\) is the number of transition starting at \(q_i\).</p>
 
-<p>Given $Q$ <code class="language-plaintext highlighter-rouge">states</code> and $\mathbf{m}$ <code class="language-plaintext highlighter-rouge">notes</code> the following function computes $P$ <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
+<p>Given \(Q\) <code class="language-plaintext highlighter-rouge">states</code> and \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code> the following function computes \(P\) <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_markov_matrix</span> <span class="k">do</span> <span class="o">|</span><span class="n">states</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
   <span class="c1">#</span>
@@ -4003,8 +3996,8 @@ p_{ij} = \frac{n_{ij}}{n_i}
 <span class="k">end</span>
 </code></pre></div></div>
 
-<p>Of course, we can easily compute $Q$ <code class="language-plaintext highlighter-rouge">states</code> from $\mathbf{m}$ <code class="language-plaintext highlighter-rouge">notes</code>.
-Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> $P$ based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
+<p>Of course, we can easily compute \(Q\) <code class="language-plaintext highlighter-rouge">states</code> from \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code>.
+Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> \(P\) based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:markov_melody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
   <span class="n">states</span> <span class="o">=</span> <span class="n">notes</span><span class="p">.</span><span class="nf">uniq</span>
@@ -4344,7 +4337,7 @@ Therefore, AI can bring forth what we perceive to be creative.</p>
 
 <p>For example, in August 2015, researchers from Tübingen created a convolutional neural network that uses neural representations to separate and recombine the content and style of arbitrary images.
 The network can turn images into stylistic imitations of works of art by artists such as a <em>Picasso</em> or <em>Van Gogh</em> in about an hour.
-In October 2018, the <a href="https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx">Portrait of Edmond de Belamy</a>, an algorithm-generated print, was sold for $432 500.
+In October 2018, the <a href="https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx">Portrait of Edmond de Belamy</a>, an algorithm-generated print, was sold for 432 500.
 In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual space, and (3) transformed previously impossible ideas.</p>
 
 <h2 id="disruptions-and-control">Disruptions and Control</h2>
