@@ -55,18 +55,18 @@ We aim to alter the synth's parameters while it is playing (modulation) in respo
 Unfortunately, a significant problem arises in this situation. 
 The number of parameters exceeds the number of positional values.
 We only have two coordinates to work with, and establishing a one-to-one mapping between these coordinates and parameters is not feasible.
-We want to avoid merely selecting two parameters and modifying them according to the dancer's $x$ and $y$ coordinates.
+We want to avoid merely selecting two parameters and modifying them according to the dancer's $$x$$ and $$y$$ coordinates.
 
-In mathematical terms, we are looking for a function that receives $2$ values ($x$ and $y$) and outputs $n$ values (one for each parameter), where $n > 2$.
+In mathematical terms, we are looking for a function that receives $$2$$ values ($$x$$ and $$y$$) and outputs $$n$$ values (one for each parameter), where $$n > 2$$.
 We want a function
 
 $$f : \mathbb{R}^2 \rightarrow \mathbb{R}^n.$$
 
-Additionally, it is necessary for $f$ to be smooth and meet our musical preferences. 
-As $f$ maps a lower-dimensional space to a higher-dimensional space and we require a seamless transition, we search for a two-dimensional *surface* in an $n$-dimensional space. 
-As the dancer moves in the $x$ and $y$ directions, $f$ translates this motion to a movement on the two-dimensional surface in the $n$-dimensional space.
+Additionally, it is necessary for $$f$$ to be smooth and meet our musical preferences. 
+As $$f$$ maps a lower-dimensional space to a higher-dimensional space and we require a seamless transition, we search for a two-dimensional *surface* in an $$n$$-dimensional space. 
+As the dancer moves in the $$x$$ and $$y$$ directions, $$f$$ translates this motion to a movement on the two-dimensional surface in the $$n$$-dimensional space.
 
-If we have only one coordinate and three parameters, $f$ represents a curve in the three-dimensional space.
+If we have only one coordinate and three parameters, $$f$$ represents a curve in the three-dimensional space.
 In this case, we can draw it.
 Compare Fig. 1.
 
@@ -75,12 +75,12 @@ Compare Fig. 1.
 </div>
 <br>
 
-This is a complex challenge, and several questions arise: How does $f$ look like? 
+This is a complex challenge, and several questions arise: How does $$f$$ look like? 
 How can we implement it?
 
 ### Reasoning about the World
 
-Before the advent of machine learning, we would have addressed this problem using the "traditional way" of abstract reasoning and programming to implement the function $f$ directly via code.
+Before the advent of machine learning, we would have addressed this problem using the "traditional way" of abstract reasoning and programming to implement the function $$f$$ directly via code.
 This approach involves roughly six steps:
 
 1. observer and analyse the system
@@ -103,7 +103,7 @@ This approach would have required a wealth of knowledge across diverse domains s
 Furthermore, to achieve our desired sound, we would have needed to understand the impact of parameter changes on various aspects of the sound, such as pitch and timbre.
 
 In essence, we would have aimed to create a model of the synth "world" to enable us to reason about its structures and rules.
-We would have then written code to manipulate the $n$ parameters concurrently, relative to the dancer's position.
+We would have then written code to manipulate the $$n$$ parameters concurrently, relative to the dancer's position.
 
 While I value the traditional approach for its ability to provide insights into actual and imaginative structures, it is not the optimal solution for our specific scenario. I believe that creative practitioners do not necessarily avoid analytical work but tend to focus on creation, thereby enabling a more tangible understanding of the problem. I welcome this approach, particularly in the field of machine learning.
 In contrast, the traditional approach can be challenging and less accessible, particularly in achieving our artistic objectives.
@@ -118,15 +118,15 @@ Therefore, like models constructed manually, machine learning models are an impe
 This is the fundamental idea behind machine learning, albeit an oversimplification.
 
 In our scenario, we replace manual modeling with machine learning by defining what we want and letting the machine learning models provided by the [Wekinator](http://www.wekinator.org/) figure out how to achieve it.
-We present an algorithm $A$ with examples $D$ that represent our requirements and ask it to "program" a function $f$ that fulfills our needs.
+We present an algorithm $A$ with examples $D$ that represent our requirements and ask it to "program" a function $$f$$ that fulfills our needs.
 
-*Machine learning* involves learning $f$ from data $D$ using algorithm $A$, where $A$ is essentially just another function that produces functions:
+*Machine learning* involves learning $$f$$ from data $$D$$ using algorithm $$A$$, where $$A$$ is essentially just another function that produces functions:
 
 $$A(D) = f$$
 
-The [Wekinator](http://www.wekinator.org/) allows us to choose algorithm $A$ from a list of algorithms and provides a graphical user interface (GUI) for recording $D$ and feeding it into $A$ to compute $f$.
-The algorithm $A$ is predetermined, and $f$ will be computed.
-As a result, we need to provide data/observation $D$ by recording it, so let's get started!
+The [Wekinator](http://www.wekinator.org/) allows us to choose algorithm $$A$$ from a list of algorithms and provides a graphical user interface (GUI) for recording $$D$$ and feeding it into $$A$$ to compute $$f$$.
+The algorithm $$A$$ is predetermined, and $$f$$ will be computed.
+As a result, we need to provide data/observation $$D$$ by recording it, so let's get started!
 
 **Disclaimer:**
 Utilizing *machine learning* does not imply that we cease rationalizing about the world.
@@ -345,11 +345,11 @@ void sendOsc() {
 }
 ```
 
-sends the coordinates $x$ and $y$ of the mouse (with respect to the window) to the port ``6448`` and the path ``'/wek/inputs'``. 
+sends the coordinates $$x$$ and $$y$$ of the mouse (with respect to the window) to the port ``6448`` and the path ``'/wek/inputs'``. 
 OSC uses these paths such that it is possible to differentiate different types of messages that got sent to some port.
 
 Now we have to set up OSC communication of our sound generating system, i.e. [SuperCollider](https://supercollider.github.io/).
-Let us first listen to port ``6448``and path ``'/wek/inputs'`` and let's just print the raw data we perceive, i.e., the $x$ and $y$ values of our dancer (the green square).
+Let us first listen to port ``6448``and path ``'/wek/inputs'`` and let's just print the raw data we perceive, i.e., the $$x$$ and $$y$$ values of our dancer (the green square).
 
 ```supercollider
 (
@@ -372,8 +372,8 @@ These messages look like this:
 ```
 
 Now, let's take it a step further and modify two synth parameters based on these values. 
-The following code maps $x$ and $y$ to a suitable range. 
-While $x$ ranges from 0 to 650 and $y$ from 0 to 460, we aim to obtain values between 0.1 and 20.
+The following code maps $$x$$ and $$y$$ to a suitable range. 
+While $$x$$ ranges from 0 to 650 and $$y$$ from 0 to 460, we aim to obtain values between 0.1 and 20.
 
 ```supercollider
 (
@@ -394,13 +394,13 @@ OSCdef(
 
 The impact of this code should be noticeable in the audio output. When the dancer is positioned at the top left, fewer impulses are produced.
 If situated at the bottom right, impulses emit from both speakers, while being at the bottom left results in only the right speaker activating.
-This effect may not seem extraordinary, as our function $f$ is quite elementary, involving a linear mapping from one interval to another.
+This effect may not seem extraordinary, as our function $$f$$ is quite elementary, involving a linear mapping from one interval to another.
 
 ### The Machine in the Middle
 
 We now introduce the [Wekinator](http://www.wekinator.org/) in the middle of the communication.
 That is, the dancer sends their position to the [Wekinator](http://www.wekinator.org/), and [SuperCollider](https://supercollider.github.io/) listens to the messages from the [Wekinator](http://www.wekinator.org/) and changes the values of the synth accordingly.
-The [Wekinator](http://www.wekinator.org/) translates positions into synth parameters, and it realizes the function $f$.
+The [Wekinator](http://www.wekinator.org/) translates positions into synth parameters, and it realizes the function $$f$$.
 The 6 output signals 
 
 $$(v_1, \ldots, v_6) = f(x,y)$$ 
@@ -442,9 +442,9 @@ OSCdef(
 **If you use [SuperCollider](https://supercollider.github.io/) be careful with your choices and protect your ears** since it will try to use even unreasonable values like an amplitude of 10 or higher.
 
 Now we start the [Wekinator](http://www.wekinator.org/).
-First, we have to specify the port for the input signals of $f$, i.e., the dancer's position.
+First, we have to specify the port for the input signals of $$f$$, i.e., the dancer's position.
 This is equal to ``6448``, and the OSC path is ``'/wek/inputs'``.
-Then we have to specify the port of the output signal $f(x,y)$, i.e., the port used in SuperCollider, which is ``7448`` furthermore, we specify a path ``'/wek/outputs'`` such that we do not confuse input and output.
+Then we have to specify the port of the output signal $$f(x,y)$$, i.e., the port used in SuperCollider, which is ``7448`` furthermore, we specify a path ``'/wek/outputs'`` such that we do not confuse input and output.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/wekinator-screen-started.png %}" alt="Runnig Processing sketch">
 <div style="display: table;margin: 0 auto;">Figure 4: Wekinator after it has started.</div>
@@ -475,17 +475,17 @@ Of course, you have to remember which slider represents which parameter.
 
 To connect the sound to the dancer's position, we have to 
 
-1. record samples, i.e., construct the data set $D$
-2. train the model, i.e. compute $f = A(D)$.
+1. record samples, i.e., construct the data set $$D$$
+2. train the model, i.e. compute $$f = A(D)$$.
 
-To construct $D$ we need multiple tuples 
+To construct $$D$$ we need multiple tuples 
 
 $$(\text{input}, \text{output}) = ((x,y), (v_1, \ldots, v_6)).$$
 
-First, we move the square to a desired position and choose a set of desired parameters $(v_1, \ldots, v_6)$.
+First, we move the square to a desired position and choose a set of desired parameters $$(v_1, \ldots, v_6)$$.
 Next, we click ``Start Recording``, and after a few seconds, we press ``Stop Recording``.
-In doing so, we generate portions of the data $D$.
-We repeat this step multiple times until we have accumulated sufficient data $D$.
+In doing so, we generate portions of the data $$D$$.
+We repeat this step multiple times until we have accumulated sufficient data $$D$$.
 
 Once completed, we press ``Train`` to compute
 
@@ -493,7 +493,7 @@ $$A(D) = f.$$
 
 This process should only take a few seconds.
 
-Finally, we can utilize $f$ by clicking ``Run``.
+Finally, we can utilize $$f$$ by clicking ``Run``.
 At this point, both ``OSC In`` and ``OSC Out`` indicators should be green, and as you move the square around, the sound should change accordingly. 
 Moreover, all parameters (assuming they were all manipulated during recording) should transition smoothly.
 
@@ -501,7 +501,7 @@ Moreover, all parameters (assuming they were all manipulated during recording) s
 
 Keep in mind that we did not specify any algorithm A.
 By default, [Wekinator](http://www.wekinator.org/) employs a *feed-forward neural network* and assumes a *regression task*.
-This means that the output $f(x,y)$ is continuous and does not represent an element within a finite set of classes.
+This means that the output $$f(x,y)$$ is continuous and does not represent an element within a finite set of classes.
 
 You can choose algorithms by modifying the ``Type`` setting, as shown in Fig. 4. 
 This selection includes classification algorithms. 

@@ -262,7 +262,7 @@ Therefore, AI can bring forth what we perceive to be creative.
 
 For example, in August 2015, researchers from Tübingen created a convolutional neural network that uses neural representations to separate and recombine the content and style of arbitrary images.
 The network can turn images into stylistic imitations of works of art by artists such as a *Picasso* or *Van Gogh* in about an hour.
-In October 2018, the [Portrait of Edmond de Belamy](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx), an algorithm-generated print, was sold for $432 500.
+In October 2018, the [Portrait of Edmond de Belamy](https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx), an algorithm-generated print, was sold for 432 500.
 In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual space, and (3) transformed previously impossible ideas.
 
 ## Disruptions and Control

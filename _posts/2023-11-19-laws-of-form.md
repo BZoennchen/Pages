@@ -26,7 +26,7 @@ Another famous paradox is Russell’s antinomy of the naïve set theory:
 
 $$R := \left\{ x \ | \ x \not\in x \right\}.$$
 
-$R$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+$$R$$ is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
 However, if we introduce the self-referential relation, we run into a paradox:
 
 \begin{equation} 
@@ -42,7 +42,7 @@ The machine does not halt if the machine it checks halts, and it halts if the ma
 Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.
 
 The idea of Spencer-Brown is to resolve these paradoxes over time.
-$R \in R$ holds at one moment in time and $R \not\in R$ holds at the next moment.
+$$R \in R$$ holds at one moment in time and $$R \not\in R$$ holds at the next moment.
 Note however that he does not resolve Russell’s antinomy {% cite cull:1979 %}.
 His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic---a process of self-creation.
 The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.
@@ -124,21 +124,21 @@ Interestingly, the *Law of Crossing* and the *Law of Calling* are implicitly est
 There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.
 
 Let’s see what we can do with this calculus.
-Let $a, b$ variables, then the following holds:
+Let $$a, b$$ variables, then the following holds:
 
 <br>
 <div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/transformations.png %}" alt="Transformations."></div>
 <br>
 
 Let’s have a look at the last transformation.
-Let us assume $a$ is a **mark**.
+Let us assume $$a$$ is a **mark**.
 Then we get:
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/transformation-1.png %}" alt="First possibility."></div>
 <br>
 
-Let $a$ be **unmarked** instead, then we can follow:
+Let $$a$$ be **unmarked** instead, then we can follow:
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/transformation-2.png %}" alt="Second possibility."></div>
@@ -155,7 +155,7 @@ x^2 = ax + b, \quad a, b \in \mathbb{R}.
 \end{equation}
 
 This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., $x$ might be of the for $r + si$ with $r, s \in \mathbb{R}$ and $i^2 = -1$.
+It is also known that solutions can be imaginary, i.e., $$x$$ might be of the for $$r + si$$ with $$r, s \in \mathbb{R}$ and $i^2 = -1$$.
 To see the re-entry, we can rewrite the equation above to get
 
 \begin{equation}
@@ -174,7 +174,7 @@ Using this infinite formalism it is literally the case that
 x = a + b/x,
 \end{equation}
 holds.
-Using the same formalism, we can define the imaginary number $i = -1/i$ as literally
+Using the same formalism, we can define the imaginary number $$i = -1/i$$ as literally
 
 \begin{equation}
 i = -1 /(-1 /(-1 / (-1 / \ldots )))
@@ -182,7 +182,7 @@ i = -1 /(-1 /(-1 / (-1 / \ldots )))
 
 but what does this mean?
 The system is not a number but a process, a generator that generates itself.
-$i$ alternates between 1 and -1.
+$$i$$ alternates between 1 and -1.
 Interestingly, this is precisely how we use the equal sign in most programming languages.
 Writing ``i = i / -1`` in a programming language means
 
@@ -191,7 +191,7 @@ i \leftarrow \frac{i}{-1}.
 \end{equation}
 
 The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number $i$, Spencer-Brown gives us the following fundamental paradox (*The Re-Entry of the Mark*):
+Similar to the imaginary number $$i$$, Spencer-Brown gives us the following fundamental paradox (*The Re-Entry of the Mark*):
 
 <br>
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/j.png %}" alt="Imaginary truth value."></div>
@@ -206,7 +206,7 @@ To highlight the re-entry, Spencer-Brown also uses the following notation:
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/j-2.png %}" alt="Notation of the re-entry."></div>
 <br>
 
-We could similarily notate $i$ as
+We could similarily notate $$i$$ as
 
 <br>
 <div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/i-2.png %}" alt="Notation of the re-entry for the imaginary number."></div>
@@ -219,7 +219,7 @@ For example, we can state the following:
 <div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="{% link /assets/images/laws-of-form/j-calculations.png %}" alt="Calculating with the re-entry."></div>
 <br>
 
-However, it is forbidden to only change one appearance of $J$!
+However, it is forbidden to only change one appearance of $$J$$!
 Following this simple rule, no paradox or inconsistency arises.
 We can go on and evaluate the following transformation:
 

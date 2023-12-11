@@ -133,7 +133,7 @@ P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
 \end{equation}
 
 A *first-order Markov chain* only considers **one** predecessor, i.e., only the most local part of the context.
-A *$n$-order Markov chain* does consider $n$ predecessors. In general, we define 
+A *$$n$$-order Markov chain* does consider $$n$$ predecessors. In general, we define 
 
 \begin{equation}
 P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
@@ -144,7 +144,7 @@ The visualization of such a chain is a little bit more complicated.
 ## Music Generation
 
 We can generate a composition by traversing the graph if we represent our notes by states of a *Markov chain*.
-If we increase the order of the chein, i.e. $n$, the entropy decreases for small $n$.
+If we increase the order of the chein, i.e. $$n$$, the entropy decreases for small $$n$$.
 
 Until now, I only tried to use and generate a *first-order Markov chain*.
 Even though I am not that familiar with ``Ruby``, I used [Sonic Pi](https://sonic-pi.net/) for this task such that I can play around with it directly within the IDE of Sonic Pi.
@@ -154,11 +154,11 @@ I decided to define a note as a tuple (list) consisting of the pitch and the len
 [:c4, 1.0/8] # a c of length 1/8 beat 
 ```
 
-Instead of a graph, I use a transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = \{q_1, \ldots, q_m\}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.
+Instead of a graph, I use a transition matrix $$P \in \mathbb{R}^{m \times m}$$ where $$m$$ is the number of states/notes.
+Let $$Q = \{q_1, \ldots, q_m\}$$ be the set of states/notes.
+The entry of row $$i$$ and column $$j$$, i.e., $$p_{ij}$$ is the probability of going from state $$q_i$$ to state $$q_j$$.
 
-After constructing the ``matrix`` $P$, the ``states`` $Q$ and picking a ``start`` (state number), the following function generates a random melody of length ``n``.
+After constructing the ``matrix`` $$P$$, the ``states`` $$Q$$ and picking a ``start`` (state number), the following function generates a random melody of length ``n``.
 
 ```ruby
 define :gen_mmelody do |n, matrix, start, states|
@@ -185,9 +185,9 @@ end
 ```
 
 For each note, we roll the dice.
-Let's say $p \in [0;1]$ is our result.
-And $q_i$ is our current state.
-Then we compute $j$ such that
+Let's say $$p \in [0;1]$$ is our result.
+And $$q_i$$ is our current state.
+Then we compute $$j$$ such that
 
 \begin{equation}
 \sum\limits_{k=1}^{j-1} p_{ij} < p \leq \sum\limits_{k=1}^{j} p_{ij}.
@@ -201,26 +201,26 @@ Instead of generating a melody or rhythm given a *Markov chain*, we can do the r
 Given a melody, we can *learn* the *Markov chain* that **most likely** would generate the given melody.
 By doing so, we can then use the *learned chain* to generate music in a similar style.
 
-Let us use the same transition matrix $P \in \mathbb{R}^{m \times m}$ where $m$ is the number of states/notes.
-Let $Q = \{q_1, \ldots, q_m\}$ be the set of states/notes.
-The entry of row $i$ and column $j$, i.e., $p_{ij}$ is the probability of going from state $q_i$ to state $q_j$.
+Let us use the same transition matrix $$P \in \mathbb{R}^{m \times m}$$ where $$m$$ is the number of states/notes.
+Let $$Q = \{q_1, \ldots, q_m\}$$ be the set of states/notes.
+The entry of row $$i$$ and column $$j$$, i.e., $$p_{ij}$$ is the probability of going from state $$q_i$$ to state $$q_j$$.
 
-Furthermore, let us define our set of all possible melodies $M \subseteq Q^n$ of length $n$.
-Then a specific melody $\mathbf{m} = (m_1, \ldots, m_n) \in M$ is a tuple (list) of notes:
+Furthermore, let us define our set of all possible melodies $$M \subseteq Q^n$$ of length $$n$$.
+Then a specific melody $$\mathbf{m} = (m_1, \ldots, m_n) \in M$$ is a tuple (list) of notes:
 
 ```ruby
 notes = [[:g4, 1.0/8], [:g4, 1.0/8], [:a4, 1.0/4], [:g4, 1.0/4], ... ]
 ```
 
-We can compute the most likely $P$ by computing each entry of it where $p_{ij}$ is equal to
+We can compute the most likely $$P$$ by computing each entry of it where $$p_{ij}$$ is equal to
 
 \begin{equation}
 p_{ij} = \frac{n_{ij}}{n_i}
 \end{equation}
 
-where $n_{ij}$ is the number of transitions from $q_i$ to $q_j$ within $\mathbf{m}$ and $n_i$ is the number of transition starting at $q_i$.
+where $$n_{ij}$$ is the number of transitions from $$q_i$$ to $$q_j$$ within $$\mathbf{m}$$ and $$n_i$$ is the number of transition starting at $$q_i$$.
 
-Given $Q$ ``states`` and $\mathbf{m}$ ``notes`` the following function computes $P$ ``matrix``.
+Given $$Q$$ ``states`` and $$\mathbf{m}$$ ``notes`` the following function computes $$P$$ ``matrix``.
 
 ```ruby
 define :gen_markov_matrix do |states, notes|
@@ -256,8 +256,8 @@ define :gen_markov_matrix do |states, notes|
 end
 ```
 
-Of course, we can easily compute $Q$ ``states`` from $\mathbf{m}$ ``notes``.
-Finally, the following function takes a number ``n`` and a melody ``notes`` and generates a random melody of length ``n`` by *learning* $P$ based on ``notes``.
+Of course, we can easily compute $$Q$$ ``states`` from $$\mathbf{m}$$ ``notes``.
+Finally, the following function takes a number ``n`` and a melody ``notes`` and generates a random melody of length ``n`` by *learning* $$P$$ based on ``notes``.
 
 ```ruby
 define :markov_melody do |n, notes|

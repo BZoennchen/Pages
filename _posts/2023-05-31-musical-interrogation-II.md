@@ -138,12 +138,12 @@ To implement a *first-order Markov chain*, we aim to construct a Markov matrix
 
 $$\mathbf{P} \in [0;1]^{m \times m}$$
 
-where the element at the $i^{\text{th}}$ row and $j^{\text{th}}$ column represents the conditional probability
+where the element at the $$i^{\text{th}}$$ row and $$j^{\text{th}}$$ column represents the conditional probability
 
 $$P(e_i\ | \ e_j) = p_{ij}.$$
 
-It describes the (conditional) probability of event $e_i$ (a note or rest of specific length) immediately following event $e_j$.
-For this purpose, I construct a matrix $\mathbf{N}$ that counts these transitions.
+It describes the (conditional) probability of event $$e_i$$ (a note or rest of specific length) immediately following event $$e_j$$.
+For this purpose, I construct a matrix $$\mathbf{N}$$ that counts these transitions.
 
 ### Markov Matrix Computation
 
@@ -160,7 +160,7 @@ for enc_song in enc_songs:
         N[ix1, ix2] += 1
 ```
 
-To construct $\mathbf{P}$ we have to divide each entry $n_{ij}$ in $\mathbf{N}$ by the sum over the row $i$.
+To construct $$\mathbf{P}$$ we have to divide each entry $$n_{ij}$$ in $$\mathbf{N}$$ by the sum over the row $$i$$.
 
 ```python
 P = N.float()
@@ -171,7 +171,7 @@ In order to compute the sum over a row (instead of a column), i.e., "summing all
 Additionally, to properly exploit broadcasting, it's necessary to set ``keepdim=True``. 
 This ensures that the sum results in a ``(1,m)`` tensor, as opposed to a ``(m,)`` tensor.
 
-Plotting the probabilities reviels that $\mathbf{P}$ is a rather sparse matrix containing many zeros.
+Plotting the probabilities reviels that $$\mathbf{P}$$ is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/mc-probs.png %}" alt="Probabilities">
@@ -228,7 +228,7 @@ Let's listen to some of the generated scores:
 ### Negative Log Likelihood Loss.
 
 The outcome is not particularly outstanding, but this is unsurprising given our very simple model. 
-To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point $e_1, e_2, \ldots, e_k$, i.e.,
+To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point $$e_1, e_2, \ldots, e_k$$, i.e.,
 
 $$P(e_1) \cdot P(e_2 \ | \ e_1) \cdot \ldots \cdot P(e_{k-1} \ | \ e_k).$$
 
@@ -265,8 +265,8 @@ However, from this starting point we could expand our model into a *multi-layer 
 By avoiding the activation function, it is easier for me to explain exactly what is going on.
 
 If we think in terms of classification a sequence of note should be classified as some successor note.
-So let us assume $t$ consecutive notes are given then our aim is to identify the note that this sequence "represents".
-For simplicity, I assume we only want to predict the next note given the previous one, that is, $t=1$ holds.
+So let us assume $$t$$ consecutive notes are given then our aim is to identify the note that this sequence "represents".
+For simplicity, I assume we only want to predict the next note given the previous one, that is, $$t=1$$ holds.
 This stipulation means we won't require substantial modifications compared to our previous approach.
 
 Since our training process will be more computationally intensive than merely computing frequencies, it's advisable to use hardware accelerators, if available. 
@@ -285,24 +285,24 @@ print(f'{device=}')
 ```
 
 What we are going to implement is a *fully-visible softmax belief network* which only predicts the very next note given the previous note.
-However, instead of multiplying $x_1$ to predict $x_2$ via
+However, instead of multiplying $$x_1$$ to predict $$x_2$$ via
 
 $$h_{\theta}(x)_{j=1,\ldots,m} = \left(\alpha_0^{(j)} + \alpha_1^{(j)} \cdot x \right)_{j=1,\ldots,m}, $$
 
 we do something similar but not quite the same.
-We *hot-encode* our alphabet $\mathcal{X}$ of notes into 
+We *hot-encode* our alphabet $$\mathcal{X}$$ of notes into 
 
 $$|\mathcal{X}| = m$$
 
-vectors $\mathbf{x}_j = (x_1, \ldots, x_m)$, $j=1, \ldots, m$ of length $m$, such that, 
+vectors $$\mathbf{x}_j = (x_1, \ldots, x_m)$$, $$j=1, \ldots, m$$ of length $$m$$, such that, 
 
 $$h_{\theta}(\mathbf{x}_i)_{j=1,\ldots,m} = \left( w_{1}^{(j)} \cdot x_1 + w_{2}^{(j)} \cdot x_2 + \ldots + w_{m}^{(j)} \cdot x_m \right)_{j=1,\ldots,m} = \left( w_{i}^{(j)} x_i \right)_{j=1,\ldots,m}.$$
 
-In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an $m$-dimensional vector.
+In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an $$m$$-dimensional vector.
 This vector represents the probabilities of the next note.
 To transform these embeddings into probabilities we apply the softmax function.
 Our network is depicted in Fig. 2.
-Note that we do not use a bias term, i.e., there is no replacement for $\alpha_0^{(j)}$.
+Note that we do not use a bias term, i.e., there is no replacement for $$\alpha_0^{(j)}$$.
 
 <br>
 <div style="display:block; margin-left:auto; margin-right:auto; width:75%;">
@@ -315,7 +315,7 @@ Similar as before, our loss is the empirical mean of the negative log likelyhood
 
 $$-\frac{1}{M} \sum_{i=1,j=y_i}^M \log(\sigma(\mathbf{o})_j),$$
 
-where $j$ is the $j^\text{th}$ note in our alphabet and $y_i$, that is $(\mathbf{x}, y_j)$ is in our training data set.
+where $$j$$ is the $$j^\text{th}$$ note in our alphabet and $$y_i$$, that is $$(\mathbf{x}, y_j)$$ is in our training data set.
 
 
 ### Training Data Construction
@@ -341,28 +341,28 @@ xenc = F.one_hot(xs, num_classes=len(stoi)).float()
 ```
 
 As mentioned, I employ a *[one-hot encoding](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html)* for the input data.
-That is, for encoding $m$ unique elements one uses $m$ unique $m$-dimensional vectors.
+That is, for encoding $$m$$ unique elements one uses $$m$$ unique $$m$$-dimensional vectors.
 One component of these vectors is set to 1.0 and all others are 0.0.
-``F.one_hot`` assumes that our alphabet consists of whole numbers between 0 and $m-1$, compare the [documentation](https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html).
+``F.one_hot`` assumes that our alphabet consists of whole numbers between 0 and $$m-1$$, compare the [documentation](https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html).
 
 $$(0, \ldots, 0, 1, 0, \ldots, 0)$$
 
-The $i^{\text{th}}$ element is represented by a vetor where the $i^{\text{th}}$ component is 1.0.
+The $$i^{\text{th}}$$ element is represented by a vetor where the $$i^{\text{th}}$$ component is 1.0.
 Note that our labels ``ys`` are not one-hot encoded.
 
 ### Training
 
-Next, I initialize a random matrix $\mathbf{W} \in [-1;1]^{m \times m}$, or tensor, ``W`` with values ranging from -1.0 to 1.0.
+Next, I initialize a random matrix $$\mathbf{W} \in [-1;1]^{m \times m}$$, or tensor, ``W`` with values ranging from -1.0 to 1.0.
 This tensor includes our trainable parameters, which represent the single layer of our neural network.
 
 ```python
 W = torch.randn((len(stoi), len(stoi)), requires_grad=True, device=device)
 ```
 
-Our network includes $m$ inputs and outputs, with the *[softmax](https://en.wikipedia.org/wiki/Softmax_function)* values of the outputs being interpreted as probabilities.
+Our network includes $$m$$ inputs and outputs, with the *[softmax](https://en.wikipedia.org/wiki/Softmax_function)* values of the outputs being interpreted as probabilities.
 Essentially, our "network" is just one large matrix!
 
-The operation ``xenc @ W`` represents a matrix multiplication where ``xenc`` is an $1700 \times m$ matrix and ``W`` is our $m \times m$ matrix.
+The operation ``xenc @ W`` represents a matrix multiplication where ``xenc`` is an $$1700 \times m$$ matrix and ``W`` is our $$m \times m$$ matrix.
 Here I use the power of parallel computation.
 By employing ``probs[torch.arange(len(ys), device=device), ys]``, I address a single entry for each row.
 
@@ -399,7 +399,7 @@ One iteration of the loop consist of the
 
 $$\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \nabla_\mathbf{W} L$$
 
-where $\eta = 10$ is the *learning rate*.
+where $$\eta = 10$$ is the *learning rate*.
 
 After the initial 2000 epochs the loss is approximately ``2.865``. 
 This performance is somewhat inferior compared to the results achieved by our *Markov chain*. 
@@ -407,7 +407,7 @@ However, by prolonging the training period, I managed to reduce the loss to arou
 
 ### What is going on?
 
-Let us assume we have only one sample $\mathbf{x}$.
+Let us assume we have only one sample $$\mathbf{x}$$.
 
 #### Forward Pass:
 
@@ -415,17 +415,17 @@ The *forward pass* starts with
 
 $$\mathbf{o} = \mathbf{x} \cdot \mathbf{W}$$
 
-where $\mathbf{x}$ is a *one-hot encoded* training data point.
-$\mathbf{o}$ gets interpreted as (component-wise) logarithm of the odds
+where $$\mathbf{x}$$ is a *one-hot encoded* training data point.
+$$\mathbf{o}$$ gets interpreted as (component-wise) logarithm of the odds
 
 $$\mathbf{o} = \ln\left(\frac{\mathbf{p}}{\mathbf{1}-\mathbf{p}}\right)$$
 
 which is the [logit](https://en.wikipedia.org/wiki/Logit), i.e., the inverse of the *standard logistic function* also called *sigmoid*.
-In fact, each data point in $\mathbf{x}$ selects one row of $\mathbf{W}$
+In fact, each data point in $$\mathbf{x}$$ selects one row of $$\mathbf{W}$$
 
 $$\mathbf{o} = \mathbf{x} \cdot \mathbf{W} = \begin{bmatrix} o_1 & o_2 & \ldots & o_m \end{bmatrix}.$$
 
-To compute "probabilities" we compute the *[softmax function](https://en.wikipedia.org/wiki/Softmax_function)* (``probs``) of $\mathbf{o}$, i.e.,
+To compute "probabilities" we compute the *[softmax function](https://en.wikipedia.org/wiki/Softmax_function)* (``probs``) of $$\mathbf{o}$$, i.e.,
 
 $$
 \sigma(\mathbf{o}) = \begin{bmatrix} \sigma(\mathbf{o})_1 & \sigma(\mathbf{o})_2 & \ldots & \sigma(\mathbf{o})_m \end{bmatrix}
@@ -461,11 +461,11 @@ Similar then before, our loss $L$ is the mean *negative log likelihood*.
 
 $$L(\mathbf{y}, \sigma) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\sigma)^\top$$
 
-where $\mathbf{y}$ is the one-hot encoded label vector, i.e.,
+where $$\mathbf{y}$$ is the one-hot encoded label vector, i.e.,
 
 ``loss = -probs[torch.arange(len(ys), device=device), ys].log().mean()``.
 
-Note that $\mathbf{y}$ is a one-hot encoded vector, ``ys`` is not.
+Note that $$\mathbf{y}$$ is a one-hot encoded vector, ``ys`` is not.
 
 #### Backword Pass:
 
@@ -476,7 +476,7 @@ $$
 $$
 
 Here we employ the *chain rule*.
-The sensitivity of cost $L$ to the input to the softmax layer, $\mathbf{o}$ is given by a gradient-Jacobian product, each of which we’ve already computed:
+The sensitivity of cost $$L$$ to the input to the softmax layer, $$\mathbf{o}$$ is given by a gradient-Jacobian product, each of which we’ve already computed:
 
 $$
 \begin{align}
@@ -490,7 +490,7 @@ $$
 \end{align}
 $$
 
-The $\log$ and the devision operates component-wise and 
+The $$\log$$ and the devision operates component-wise and 
 
 $$
 \text{diag}\left(\sigma\right) =
@@ -503,7 +503,7 @@ $$
 $$
 
 holds.
-We have to apply the *chain rule* once again to finally get the desired update values for our weight matrix $\mathbf{W}$:
+We have to apply the *chain rule* once again to finally get the desired update values for our weight matrix $$\mathbf{W}$$:
 
 $$
 \begin{align}
@@ -513,10 +513,10 @@ $$
 \end{align}
 $$
 
-Given that $\sigma$ represents probabilities, and $\mathbf{y}$ contains only zeros except for one instance of 1 at the position of the "correct" probability, the entries of the $j^\text{th}$ row ($x_j=1$) of the gradient is $p_i$ if the $i^\text{th}$ probability is deemed "incorrect", and $(p_i-1)$ otherwise. 
+Given that $$\sigma$$ represents probabilities, and $$\mathbf{y}$$ contains only zeros except for one instance of 1 at the position of the "correct" probability, the entries of the $$j^\text{th}$$ row ($$x_j=1$$) of the gradient is $$p_i$$ if the $$i^\text{th}$$ probability is deemed "incorrect", and $$(p_i-1)$$ otherwise. 
 All other entries are zero.
-Note also that $\mathbf{x}$ is also a one-hot encoded vector.
-Consequently, if a probability is correct, it gets increased by $1-p_i$ and decreased by $p_i-1$ otherwise.
+Note also that $$\mathbf{x}$$ is also a one-hot encoded vector.
+Consequently, if a probability is correct, it gets increased by $$1-p_i$$ and decreased by $$p_i-1$$ otherwise.
 Therefore, probabilities that are more incorrect experience a larger increase or decrease.
 
 We can actually check this result!
@@ -550,7 +550,7 @@ print(W.grad == xenc.T @ (probs-y)) # all true
 
 #### Batching:
 
-So far we only considered the math using a single data point $\mathbf{x}$.
+So far we only considered the math using a single data point $$\mathbf{x}$$.
 Let us consider a batch of points, i.e., 
 
 $$\mathbf{O} = \mathbf{X}\mathbf{W} = \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{x}_2 \\ \vdots \\ \mathbf{x}_n \end{bmatrix} \mathbf{W}$$

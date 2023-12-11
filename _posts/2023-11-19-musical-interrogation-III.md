@@ -6,13 +6,13 @@ comments: true
 series: "Musical Interrogation"
 ---
 
-This article is the continuation of my series Musical Interrogation.
-It is recommended that you read the these articles first.
-This time we use a recurrent neural network, more preceisly an **LSTM** which I explained a little bit in [Introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
-An LSTM is a **RNN** that couter acts the problem of exploding and vanishing gradients.
+This article is the continuation of a series.
+It is recommended that you read part I and II first.
+This time we use a recurrent neural network (**RNN**), more preceisly an **LSTM**, which I explained a little bit in the [introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
+An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.
 
-The article gives some explanation to the code in the following [notebook](https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb) which can be executed on [Google Colab](https://colab.research.google.com/?hl=de).
-Because our model is now able to learn long-time relations, we can use the ``GridEncoder``, i.e., a piano roll data representation which is exaclty what we do.
+This article gives some explanation to the code in the following [notebook](https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb), which can be executed on [Google Colab](https://colab.research.google.com/?hl=de).
+Because our model is now able to learn long-time relations, we can use the ``GridEncoder``, i.e., a *piano roll data representation*, which is exaclty what we do.
 
 ## Recurrent Neural Networks
 
@@ -25,7 +25,7 @@ $$\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}$$
 
 of inputs one at a time. 
 With each new input, the network not only considers this current input but also incorporates a *hidden state*---a representation of previous inputs—thanks to its recurrent connections.
-This hidden state $\mathbf{h}_t$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.
+This hidden state $$\mathbf{h}_t$$ is updated at each step, ensuring that the network retains a memory of what it has processed so far.
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:80%;" src="{% link /assets/images/rnn-unfold.png %}" alt="Sketch of an RNN unfolded in time">
@@ -139,7 +139,7 @@ The following is the model description of our RNN/LSTM.
 To understand what's going on, look at the forward method.
 This sends our data through the network.
 
-The first two lines create the short-term $\mathbf{h}_0$ and long-term memory $\mathbf{c}_0$ and fill them with zeros.
+The first two lines create the short-term $$\mathbf{h}_0$$ and long-term memory $$\mathbf{c}_0$$ and fill them with zeros.
 
 Then an embedding takes place: ``x = self.embedding(x)``.
 This is nothing more than what we did with our simple feedforward net in [Part II - FNN]({% post_url 2023-05-31-musical-interrogation-II %}): Each element of the input ``x`` is first one-hot encoded and then multiplied by a matrix. 
@@ -147,15 +147,7 @@ The result: Each event is represented by the row of a matrix (with learnable par
 The matrix has ``vocab_size`` rows and ``input_dim`` columns.
 
 Next, we send our transformed input through our LSTM out, ``(ht, ct) = self.lstm(x, (h0, c0))``.
-This basically computes 
-
-$$\mathbf{h}_t, \mathbf{c}_t$$
-
-based on 
-
-$$\mathbf{h}_{t-1}, \mathbf{c}_{t-1}$$
-
-as indicated in Fig. 2.
+This basically computes $$\mathbf{h}_t, \mathbf{c}_t$$ based on $$\mathbf{h}_{t-1}, \mathbf{c}_{t-1}$$ as indicated in Fig. 2.
 We get as many outputs as our sequence is long, i.e., ``sequence_len`` many.
 But we are only interested in the last output, which we get by ``out[:, -1, :]``.
 This is a vector with ``hidden_dim elements``. 
@@ -338,8 +330,11 @@ def train_one_epoch(epoch_index, tb_writer, n_epochs):
             
             steps = epoch_index * len(train_loader) + (i+1)
             
-            print(
-                f'Epoch [{epoch_index+1}/{n_epochs}], Step [{steps}/{all_steps}], Loss: {last_loss:.4f}')
+            ep_str = f'Epoch [{epoch_index+1}/{n_epochs}]'
+            step_str = f'Step [{steps}/{all_steps}]'
+            loss_str = f'Loss: {last_loss:.4f}'
+            print(f'{ep_str}, {step_str}, {loss_str}')
+
             tb_x = epoch_index * len(train_loader) + i + 1
             tb_writer.add_scalar('Loss/train', last_loss, tb_x)
             running_loss = 0.
@@ -369,7 +364,11 @@ def train(n_epochs,respect_val=False):
             running_vloss += vloss
             
         avg_vloss = running_vloss / (i+1)
-        print(f'Epoch [{epoch+1}/{n_epochs}], Train-Loss: {avg_loss:.4f}, Val-Loss: {avg_vloss:.4f}')
+
+        ep_str = f'Epoch [{epoch+1}/{n_epochs}]'
+        tloss_str = f'Train-Loss: {avg_loss:.4f}'
+        vloss_str = f'Val-Loss: {avg_vloss:.4f}'
+        print(f'{ep_str}, {tloss_str}, {vloss_str}')
         
         writer.add_scalars('Training vs. Validation Loss', {'Training': avg_loss, 'Validation': avg_vloss}, epoch)
         writer.flush()
