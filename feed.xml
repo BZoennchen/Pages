@@ -1,288 +1,510 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2023-12-11T10:37:57+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
-My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
-What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
-However, any observer is itself a distinction between system and environment.
-I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
-So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-01-02T00:25:33+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas, even if the topic is depressing. 
+Writing helps in transforming the mess into a structured and coherent concept. 
+The process of rethinking and reflecting can be invaluable.</p>
 
-<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
+<p>In this piece, I attempt to draw connections between diverse topics: linking <em>The Matrix</em> with our current struggle to deal with the <em>climate crisis</em>, bridging the concept of <em>second-order observation</em> with Plato’s <em>Allegory of the Cave</em>, and relating <em>conspiracy theories</em> to the notions of <em>complexity</em> and <em>contingency</em>.</p>
 
-<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
+<p>But first, let’s have a definition for conspiracy theory taken from Joseph E. Uscinski:</p>
 
 <blockquote>
-  <p>This statement is wrong.</p>
+  <p>By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. – Joseph E. Uscinski</p>
 </blockquote>
 
-<p>The statement is logically problematic because it is self-referential. 
-If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
-Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
+<h2 id="the-matrix-and-the-cave">The Matrix and the Cave</h2>
 
-\[R := \left\{ x \ | \ x \not\in x \right\}.\]
+<p><em>The Matrix</em> is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
+As a child, I fantasized about being <em>The One</em>, akin to the hacker Neo, who could hack the matrix. 
+The movie is famously inspired by French philosopher and theorist of postmodern media and culture Jean Baudrillard, especially by his book <em>Simulacra and Simulation</em> <a class="citation" href="#baudrillard:1983">(Baudrillard, 1983)</a>.
+The book makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients.
+Apart from its presence in the movie, <em>The Matrix</em> explores themes similar to those in <em>Simulacra and Simulation</em>.
+The actors were even reportedly required to read it.</p>
 
-<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
-However, if we introduce the self-referential relation, we run into a paradox:</p>
+<p>Baudrillard focused on analyzing what can be termed <em>postmodern media</em>, although postmodernity is challenging to define.
+Thinkers in the field of postmodern theory frequently hold different opinions. 
+For some, such as Niklas Luhmann, the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed <a class="citation" href="#luhmann:2000">(Luhmann, 2000)</a>. 
+Jean Baudrillard, a significant figure in this discussion, wasn’t taken very seriously by the academic community.
+His writing style is polemical and his worldview extremely cynical. 
+Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society.</p>
 
-<p>\begin{equation} 
-R \in R \iff R \not\in R
-\end{equation}</p>
+<p>What particularly makes <em>The Matrix</em> fascinating in connection with Baudrillard is how the film embodies the type of pop-cultural phenomenon he often discussed in his philosophy.
+The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.
+But did it succeed?</p>
 
-<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
-If that is the case, does the barber shave themselves?</p>
+<p>When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
+He listens to music through headphones while lying on his desk, asleep. 
+This scene introduces the difficulty of distinguishing between a dream and reality—a concept discussed by Descartes—or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
+The abundance of disjointed information and excessive transparency makes it nearly impossible to organize the world and assign meaning to it.
+Faces transform into screens or terminals that passively absorb.</p>
 
-<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
-To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
-The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
-Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
+<p>In his early career, Jean Baudrillard aimed to merge Marxism with structuralism but eventually abandoned the former.
+He applied structuralism in his analysis of <em>The System of Objects</em>. 
+Baudrillard theorized that the significance of commodities stems not primarily from their use or exchange value, but rather from their sign value. 
+In structuralism, the meaning of elements, such as words, doesn’t derive from what they represent. 
+For instance, teaching a child the word ‘tree’ isn’t as simple as pointing to one and stating, “Look, this is a tree!”
+The child wouldn’t know if ‘tree’ refers to that specific tree, its leaves, or a category of trees. 
+Understanding the word ‘tree’ requires knowledge of many other words and examining their relationships to ‘tree’—their difference.</p>
 
-<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
-\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
-Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
-His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
-The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
+<p>Baudrillard believed that in a postmodern society, the meaning and value of an object are primarily defined by its relationship to other objects. 
+Apple products serve as a pertinent example. 
+They appear overpriced when considering solely their use value.
+However, their value arises from what they signify and their relationship to other objects.
+Baudrillard, known for his cynical views, believed that objects have triumphed over subjects. 
+He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, <em>the code</em> has made every sign integratable thus also exchangeable. 
+This leads to a kind of dissolution of the ‘real’ meaning behind these signs. 
+According to Baudrillard, experiences such as a teenager’s first kiss are no longer <em>authentic</em>; instead, they are mere simulations of a Hollywood love story.
+The problem is not a virtualized reality but a reality that is no longer distinguishable from simulation.
+The difference between the real and simulation dissolves.</p>
 
-<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
-He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
+<p>Even I love <em>The Matrix</em>, I have to assess that it did not succeed in capturing Baudrillard’s themes.
+The main problem is a clear line between simulation and reality; between the matrix and Zion.
+Rather than exploring the new problem of simulation, the movie falls back on the <em>Allegory of the Cave</em> presented in Plato’s <em>Republic</em> and instead of investigating further questions, it solves the problem via religion—the analogy between Neo and a Christ-like figure in the third movie is undeniable.</p>
 
-<p>Luhmann integrated this idea into his social systems theory.
-For example, the media can observe and reintroduce itself into itself. 
-It can use its systemic operations on itself, i.e. it can report on itself.</p>
+<p>The <em>cave allegory</em> is a metaphor for exploring the nature of knowledge and reality.
+Plato imagined a group of people who lived their entire live chained inside a dark cave.
+The only thing they can see are the shadows projected on the wall of the cave by objects passing in front of a fire behind them. 
+These shadows are the only reality they know.
+The cave dwellers believe the shadows to be the real objects, not knowing that these are mere reflections. 
+Their knowledge and understanding of the world are based solely on this limited perspective.
+One day, a prisoner breaks free. 
+He struggles to adjust to the light outside the cave, but eventually, he sees and understands the true nature of reality. 
+He realizes that the sun illuminates the world and that what he saw in the cave were just shadows of real objects.
+The freed prisoner returns to the cave to enlighten the others. 
+However, his eyes have adjusted to the sunlight, so the cave is now blindingly dark to him. 
+The other prisoners, unable to understand his experiences and seeing his blindness in the dark, refuse to believe him. 
+They cling to their old beliefs about the shadows being the real objects.</p>
 
-<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
+<p>In Plato’s metaphysics, the form (true essence of things) are more real than their physical representations.
+The shadows represent the physical world, while the objects outside the cave symbolize the forms.
+Plato also emphasizes that education is not just a matter of transferring information, but a transformative experience that leads to understanding, or to the seeing of a different world that opens up.
+Of course, it is the philosopher that seeks the truth (outside the cave) and then attempts to bring this knowledge back to the people (inside the cave).</p>
+
+<p>We can draw a neat parallel between Plato’s <em>Allegory of the Cave</em> and the film <em>The Matrix</em> by replacing the <em>cave</em> with <em>the matrix</em> and the philosopher with the character Morpheus. 
+In this parallel, Morpheus takes on the role of guiding Neo (and others) out of the matrix—similar to leading prisoners out of the cave. 
+Neo learns to understand and manipulate the matrix on his terms, which parallels the ability to manipulate the shadows on the cave walls.</p>
+
+<p>In <em>The Matrix</em>, Neo is confronted with a crucial binary decision, symbolized by the choice between a red pill and a blue pill. 
+As revealed in the sequels, this choice is, in itself, a part of a predetermined simulation—a much more Baudrillardian take.
+Morpheus presents Neo with this decision and advises him to trust his instinct that something is fundamentally wrong with the world. 
+This guidance emphasizes the importance of an emotional rather than a logical conclusion, steering Neo to follow his feelings in making this pivotal choice.</p>
+
+<p>Once Neo makes his choice, the distinction between the matrix and reality is clear to him. 
+In a sense, the sign of simulation is re-integrated through the code. 
+This reinterpretation highlights the film’s exploration of reality, perception, and the nature of choice, themes that resonate with Plato’s allegory but not with <em>Simulacra and Simulation</em>.
+Thus Baudrillard concludes:</p>
 
 <blockquote>
-  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
+  <p>The radical illusion of the world is a problem faced by all great cultures, which they have solved through art and symbolization.
+What we have invented, in order to support this suffering, is a simulated real, which henceforth supplants the real and is its final solution, a virtual universe from which everything dangerous and negative has ben expelled.
+And The Matrix is undeniably part of that.
+Everything belonging to the order of dream, utopia and phantasm is given expression, ‘realized’.
+We are in the uncut transparency.
+The Matrix is surely the kind of film about the matrix that the matrix would have been albe to produce. – Jean Baudrillard</p>
 </blockquote>
 
-<p>The sentence has mainly two different meanings.
-One is:</p>
+<h2 id="neo-a-conspiratorial-narcissist">Neo, a Conspiratorial Narcissist?</h2>
+
+<p>Now, what has this to do with <em>conspiracy theories</em>?
+Well, other than Baudrillard’s theory of an increasingly simulated reality, the <em>cave allegory</em> offers a theoretical justification for doubting established institutions, which are likened to the matrix.
+Doubting reality—a known or presented world—is the starting point of any conspiracy theory.
+The perspective is compelling because it feeds the allure of knowing a secret, akin to Neo’s experience in the matrix.
+Such knowledge is seen as something that sets an individual apart from ‘the herd’, giving them a sense of being special or enlightened.
+It is similar to some propagated <em>New Age</em> belief in some sort of special knowledge about the universe presented in movies like <em>The Secret</em>.</p>
+
+<p>Belief in conspiracy theories appears to be driven by motives that can be characterized as epistemic (understanding one’s environment), existential (being safe and in control of one’s environment), and social (maintaining a positive image of the self and the social group) <a class="citation" href="#douglas:2017">(Douglas et al., 2017)</a>.
+One important facet of conspiracy theories that often goes without much notice is that they are notions about power: who has it and how are they using it?
+Conspiracy theories accuse an implicitly powerful group of conspiring.
+Usually that group is already powerful—even if that power is a fantasy—i.e., the president, a legislative body, industries or corporations, foreign countries, multinational groups, etc. 
+Powerless groups are rarely accused of conspiring <a class="citation" href="#uscinski:2018">(Uscinski, 2018)</a>.
+This also reflects the plot of <em>The Matrix</em> where agents of the matrix are much more powerful than ‘enlightened’ humans.</p>
+
+<p>Studies show that some people are more prone to believing in conspiracy theories than others.
+Some people will believe in any conspiracy theory even on light evidence while others, at the opposite end of the spectrum, are naive and will deny the existence of conspiracies even on accumulating evidence <a class="citation" href="#uscinski:2018">(Uscinski, 2018)</a>.
+According to Jan-Willem Prooijen, conspiracy theories orginate through the same cognitive process that produce other types of belief (e.g. spirituality), they reflect a desire to protect one’s own group against a potentially hostile outgroup, and they are often grounded in strong ideologies.
+They are a natural defensive reaction to feelings of uncertainty and fear <a class="citation" href="#prooijen:2018">(Prooijen, 2018)</a>.</p>
+
+<p>We are risk calculating creatures, always on the watch for new dangerous patterns.
+This is evolutionary advantageous.</p>
 
 <blockquote>
-  <p>The beginning of heaven and earth is without a name.</p>
+  <p>Conspiracy is a stubborn creed because humans are pattern-seeking animals.
+Show us a sky full of stars, and we will arrange them into animals and giant spoons.
+Show us a world full of random misery, and we will use the same trick to connect the dots into secret conspiracies. – Jonathan Kay <a class="citation" href="#kay:2011">(Kay, 2011)</a>.</p>
 </blockquote>
 
-<p>The other one is:</p>
+<p>Perceiving patterns is the opposite of perceiving randomness, and randomness cannot be the basis for making sense. 
+Of course, quite often, events occur randomly, without any discernible purpose or meaning. 
+Sometimes, foolish mistakes simply happen unintentionally.</p>
+
+<p>Interestingly, in studies, individuals who perceive patterns in abstract paintings, random dots, or coin tosses were more inclined to believe in conspiracy theories, paranormal phenomena, and hold religious beliefs. 
+Belief in conspiracies also tends to rise during natural disasters when people feel a lack of control. 
+Due to their tendency to seek patterns, conspiracy theorists tend to categorize everything neatly into a framework of good versus evil.
+Even though the world that is constructed is miserable, it is without uncertainty.</p>
+
+<p>Research indicates that education reduces the likelihood of believing in conspiracy theories (with exceptions). 
+This may initially appear counterintuitive because education encourages skepticism toward received wisdom. 
+Shouldn’t skepticism lead one to think that there might be something hidden behind the scenes?
+Well, skepticism is only one aspect of the equation. Education teaches individuals to scrutinize the evidence and seek primary sources, or more precisely, to consider all available evidence.
+Under such scrutiny conspiracy theories fall apart.
+Moreover, having a greater understanding tends to foster humility since individuals become increasingly aware of the vast expanse of knowledge that remains beyond their grasp.</p>
+
+<p>Scrutiny is built into our institutions.
+In the context of academic publishing, one must demonstrate a comprehensive understanding of the relevant literature and show how experiments can be reproduced to validate the published findings.
+A peer review process by experts in the field checks for the soundness of the work and identifies possible errors. 
+While this system is not flawless, makes mistakes, overemphasis the number instead of the value of publications, can be biased, and often favours the middle to upper class, it remains open to critique and has propelled us a long way.
+Science is a discourse.
+Theories are never absolute true but are seen as true as long as there is no evidence or proof that gives rise to different conclusions.
+Mistakes have been made and will continue to be made in the future, but the system is self-correcting, self-preserving, and has advanced our knowledge considerably.</p>
+
+<p>Conspiracy theories are also fueled by our cognitive biases. 
+For instance, the <strong>proportionality bias</strong> tends to make us believe that a substantial effect must have a significant cause. 
+Consider a scenario where either a neighbor or the President of the United States dies randomly; which one is more likely to trigger a conspiracy theory?
+Studies have revealed that when people are informed about the assassination of a president, they are more inclined to believe in a conspiracy theory if it coincides with the outbreak of a subsequent civil war <a class="citation" href="#prooijen:2018">(Prooijen, 2018)</a>.
+<strong>Tribalism</strong> encourages us to protect our own ingroup and establish a clear division between ‘us vs. them’, often framing it as a battle between good and evil.
+The <strong>intentionality bias</strong> leads us to believe that negative consequences of our actions are unintentional, while attributing intentionality to others when they cause harm. 
+For example, we may view bankers as evil, but perceive our own pension fund as a necessary institution.</p>
+
+<p>Seeing patterns everywhere is the need for control <a class="citation" href="#shermer:2022">(Shermer, 2022)</a>.</p>
 
 <blockquote>
-  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
+  <p>The economy is not this crazy patchwork of supply and demand laws, market forces, interest rate changes, tax policies, business cycles, boom-and-bust fluctuations, recessions and upwings, bull and bear markets, and the like.
+Instead, it is a conspiracy of a handful of powerful people variously identified as the Illuminati, the Bilderberger group, the Council on Foreign Relations, the Trilateral Commission, the Rockefellers and Rothshields.
+[…] Conspiracists believe that the complex and messy world of politics, economics, and culture can all be explained by a single conspiracy and conspiratorial event that downplays chance and attributes everything to this final end of history. – Michael Shermer</p>
 </blockquote>
 
-<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
-Furthermore, the quote points to a distinction between heaven and earth.
-Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
-Spencer-Brown begins by the assumption that there is no such thing:</p>
+<p><a class="citation" href="#landau:2015">(Landau et al., 2015)</a> show that people compensate for perceived loss of control by trying to restore control themselves by</p>
 
 <blockquote>
-  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
-Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
+  <p>bolstering personal agency, affiliating with external systems perceived to be acting on the self’s behalf, and affirming clear contingencies between actions and outcomes [… and] seeking out and preferring simple, clear, and consistent interpretations of the social and physical environments.</p>
 </blockquote>
 
-<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
-There is no clear separation between the object or the result of distinction and the process of distinguishing.
-Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
-Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
-I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
-
-<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
-The mark is, calls, and makes a difference.</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
-<p><br /></p>
-
-<p>There is an interior of the mark and not the interior—the system and its environment.
-I can make a distinction again (repetition):</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
-<p><br /></p>
-
-<p>But making a distinction again does not change the distinction.</p>
+<p><strong>Narcissism</strong>, characterized by a belief in one’s superiority and the desire for special treatment, strongly correlates with a tendency to believe in conspiracy theories. 
+Narcissists also exhibit heightened sensitivity to perceived threats <a class="citation" href="#cichocka:2022">(Cichocka et al., 2022)</a>.
+Within the realm of narcissism, grandiose narcissists seek admiration by bolstering their egos through a sense of uniqueness, charm, and grandiose fantasies. 
+It’s worth noting that narcissists often display naivety and are less likely to engage in <strong>cognitive reflection</strong>.
+Surprisingly, studies have uncovered evidence suggesting that, contrary to expectations, education increases the likelihood of narcissists adopting conspiracy beliefs <a class="citation" href="#cosgrove:2023">(Cosgrove &amp; Murphy, 2023)</a>. 
+This underscores the critical role of cognitive reflection as one of the most, if not the most, essential abilities to guard against narcissistic tendencies towards conspiracy beliefs.</p>
 
 <blockquote>
-  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
+  <p>[Conspiracy believers] are relatively untrusting, ideologically eccentric, concerned about personal safety, and prone to perceiving agency in action – <a class="citation" href="#hart:2015">(Hart &amp; Graether, 2015)</a></p>
 </blockquote>
 
-<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
+<p>Similar to the experience of emerging from the cave in Plato’s allegory, delving into a conspiracy theory is not merely a transfer of knowledge, but a transformative experience. 
+It involves a world being shattered and a new one being constructed in its place.
+This process signifies a profound shift in perception and understanding, where previously accepted realities are dismantled and replaced with an entirely different framework of belief and interpretation.</p>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
-<p><br /></p>
+<p>Like Morpheus’ emphasis on trusting one’s instincts in <em>The Matrix</em>, conspiracy theories often accurately capture the emotional aspects of a person’s situation. 
+These theories provide compelling descriptions of emotional states but tend to offer simplistic and reactionary explanations for complex situations. 
+Additionally, much like the concept of the matrix, they seek an all-encompassing explanation for everything.
+Essentially, these theories represent a futile effort to eliminate contingency and the growing uncertainty about the future. 
+They attempt to provide a sense of certainty and understanding in a world that is inherently open, unpredictable and complex. 
+This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.</p>
 
-<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
-Crossing twice reverses the first crossing.</p>
+<h2 id="escaping-the-matrix">Escaping The Matrix?</h2>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
-<p><br /></p>
+<p>The incorporation of expressions like ‘escaping the matrix’ and ‘being red-pilled’ into the vocabulary of conspiracy theory groups as metaphorical language is unsurprising.
+These terms, which originated from <em>The Matrix</em>, are used metaphorically to describe the experience of awakening to a hidden or suppressed truth.
+Specifically, ‘escaping the matrix’ denotes the recognition and liberation from a controlling system or an illusionary world, while ‘being red-pilled’ represents a moment of profound revelation or enlightenment, often regarding societal structures or purported conspiracies.
+These metaphors have gained traction within certain groups as a way to express their beliefs in uncovering what they perceive as hidden truths within society.
+They believe to be the philosophers of our age, teaching us how real man behave and how ‘the system’ keeps them weak and small.</p>
+
+<p>Contrary to the common belief that ignorance fuels the acceptance of a matrix-like reality, it is curiosity that often propels this belief. 
+People are attracted to the notion of discovering hidden truths and understanding the world in ways that differ from the majority’s perspective.
+The group forms, in a manner reminiscent of a cult, and establishes easily comprehensible guidelines, resembling the revolutionaries from another pop-cultural and frequently misunderstood film—<em>Fight Club</em>.
+The theme of ‘stepping out of the dark’ is central to Plato’s cave allegory, <em>The Matrix</em>, and various conspiracy theories. 
+Such curiosity ignites a desire to investigate and question conventional narratives, leading some individuals to adopt alternative interpretations of reality.
+Interestingly, critical thinking and intelligence do not necessarily prevent one from falling into this rabbit hole.
+As described above, these attributes can sometimes drive narcissits deeper into exploring and accepting these alternate realities—the problem is a lack of reflection.
+The quest for understanding and the allure of uncovering hidden knowledge can be so compelling that even the most critical and intelligent minds are susceptible to these alternate explanations.</p>
+
+<p>Furthermore, it is a fact that people do engage in conspiracies. 
+A brief examination of history reveals numerous instances of conspiracies, some of which have even led to wars between nations. 
+However, in retrospect, these conspiracies can often be explained without assuming the involvement of thousands of people. 
+The complexity and impact of these historical events do not necessarily require large-scale collusion; often, they can be understood through the actions and decisions of a relatively small number of individuals or groups. 
+This understanding helps differentiate between plausible historical conspiracies and the more elaborate, less credible theories that claim widespread secret collaboration.
+If it exists, the matrix is not a planned construction of anybody but a Baudrillardian process beyond anyones control.</p>
+
+<p>In addition, it’s important to recognize that the world is inherently unjust. 
+Justice, as Hegel argued, is a human concept, one that evolves over time as we make progress. 
+However, in the realm of nature, there is no concept of justice; nature operates without morality. 
+Nietzsche, in his work <em>Human, All Too Human</em> <a class="citation" href="#nietzsche:1878">(Nietzsche, 1878)</a>, characterizes justice as a form of fairness and connects it to the concept of power.</p>
 
 <blockquote>
-  <p>If a boundary is crossed twice, the original state will be reestablished.
-The repetition of the crossing has a different value than the single crossing.
-The reason is that in-between the reversal happens.
-Crossing changes the side.
-Re-crossing reverses this operation. – Spencer-Brown</p>
+  <p>Thus justice is repayment and exchange on the assumption of an approximately equal power position; revenge originally belongs in the domain of justice, being an exchange. Gratitude, too. – Friedrich Nietzsche</p>
 </blockquote>
 
-<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
-Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
-There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
+<p>I’m uncertain if I can endorse his claim, as it implies that the least powerful in society will inevitably always be deprived of justice. 
+However, it is indeed accurate to acknowledge that absolute justice remains elusive, and there exists a significant amount of injustice in the world.
+If we seek an explanation for the world’s injustice, conspiracy theories provide a sense of comfort.</p>
 
-<p>Let’s see what we can do with this calculus.
-Let \(a, b\) variables, then the following holds:</p>
+<p>It appears to me that the belief in having escaped the matrix or emerged from the cave is a strong indication of someone having entrenched themselves deeply in their own perspective—failing to see that their perspective also relies on some sort of <em>second-order observation</em>; a following of the herd (which is a meaningless expression without context).
+This belief offers comfort by addressing various uncertainties and the realization of one’s own ignorance. 
+No one desires to be ignorant and no one wants to rely on some sort of authority, yet in many ways, we all are.
+In our complex world, this is an unavoidable reality. 
+Conspiracy theories provide a sense of understanding and control in a world where complete knowledge is unattainable, helping individuals cope with the inherent limitations of human understanding.</p>
 
-<p><br /></p>
-<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
-<p><br /></p>
+<p>Therefore, I believe that individuals who are particularly uncomfortable with uncertainty, who seek control over their lives, and who are actively aware of their lack of control, are more susceptible to falling into these rabbit holes of alternate realities. 
+Additionally, a certain degree of narcissism may be necessary to believe in the premise that one possesses a superior ability to understand complex matters better than trained experts and to assume that the media consisting of hundred of thousand of journalists is a monolith.
+This combination of a need for control, discomfort with uncertainty, and a self-perceived exceptional understanding can lead individuals to embrace alternative explanations that offer a sense of clarity and personal significance in a complex world.</p>
 
-<p>Let’s have a look at the last transformation.
-Let us assume \(a\) is a <strong>mark</strong>.
-Then we get:</p>
+<p>If we contemplate the matrix envisioned by Baudrillard, then attempting to escape it through the immersion in an alternate version of reality, fostered by extensive consumption of social media and digital content, appears absurd. 
+Perhaps a more appropriate approach to disengaging from the machinery of simulation and countering the sensation that reality seems increasingly tenuous is to simply disconnect from it all (from time to time).
+When advertisements, repetitive media, individuals transformed into brands, and an incessant stream of content seize our attention, the signal overflow—the noise—overshadows a more tangible reality. 
+In a scenario where there may be no external escape from the simulation, it could be valuable, from time to time, to focus on what is immediately before us: to experience, touch, smell, listen to our bodies, engage with physical sensations, concentrate, savor awareness, and relinquish the illusion of the “real.”</p>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
-<p><br /></p>
+<p>We are not superheroes; we are composed of the same fundamental elements as everything else. 
+While it might feel like we inhabit a sort of matrix, it’s essential to acknowledge that this is a choice we make. 
+From childhood, we develop self-conceptions and fantasies, but this doesn’t negate the existence of the world itself. 
+Fantasies are constructs, and doubting the existence of the world presupposes a profound level of experience and knowledge of that world—a world where we learn to eat, walk, dance, and understand the nuances of correct and incorrect language usage.
+We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—our home—is still there. 
+The central question here is what is more reasonable to doubt: the world you intimately grew up in or your doubts about doubting it?</p>
 
-<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
+<h2 id="our-dependence-on-second-order-observation">Our Dependence on Second-order Observation</h2>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
-<p><br /></p>
+<p>Thinking critically and maintaining a sense of curiosity are attributes that I certainly hope everyone possesses.
+It is crucial that institutions, including large media operations, research institutions, and particularly governments, are consistently challenged and kept under close scrutiny.
+Conspiracy theories can serve as a force to encourage the prevention of corruption.
+I would be quite suspicious if there were no conspiracy theories!</p>
 
-<h2 id="the-re-entry">The Re-Entry</h2>
+<p>Simultaneously, these theories have the potential to divert attention from genuine issues. 
+The public should advocate for accountability and transparency, cultivating a healthy and well-informed society in which decisions and policies undergo scrutiny and improvement through public discourse and critical examination.</p>
 
-<p>How can we re-introduce the system (here an equation) into itself?
-Or in other words: How does the <em>re-entry</em> work?
-We can start by a simple self-referential algebraic equation:</p>
+<p>However, as the current state of affairs stands, the notion that everyone can participate in the marketplace of ideas and engage in public discourse seems somewhat impractical. 
+This dream may appear overly optimistic, excessively humanistic, and excessively individualistic. 
+Instead, according to Luhmann, there exists an interdependent network of social systems that co-evolve together—not individual souls but interconnected systems.</p>
 
-<p>\begin{equation}
-x^2 = ax + b, \quad a, b \in \mathbb{R}.
-\end{equation}</p>
+<p>Similarily we demand the media should try to be as objective as they can be but it is naive to think that they are able to present reality as it is.
+Here I agree with Luhmann:</p>
 
-<p>This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
-To see the re-entry, we can rewrite the equation above to get</p>
+<blockquote>
+  <p>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—–as if they could do otherwise. – Niklas Luhmann</p>
+</blockquote>
 
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}</p>
+<p>If one anticipates that the primary purpose of the media is to deliver accurate information, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
+The media is inherently self-preserving and functions in a manner that constructs and sustains itself. 
+While it is certainly beneficial for the media to provide accurate information, this is not its foremost objective.
+Media irritates politics and the political system, economics and the scientific system irritate the media.</p>
 
-<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
+<p>In my view, this mistaken perception of the media contributes to the proliferation of conspiracy theories, as it portrays the entire system as corrupt. 
+Instead of recognizing the various shortcomings within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public. 
+This leads to a pervasive distrust, particularly directed towards well-established media outlets.
+As a consequence, consumers may turn to ‘alternative’ media sources, even though these alternatives often inadvertently rely on established media institutions for their information. 
+Reporting, conducting on-site investigations, collecting information, and managing extensive archives are expensive endeavors that only large institutions can effectively undertake. 
+These institutions are essential if we are to have any hope of acquiring reliable information about the world.</p>
 
-<p>\begin{equation}
-x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
-\end{equation}</p>
+<p>The core issue lies in our reliance on what Niklas Luhmann refers to as <em>second-order observation</em> and is consequently a trust issue.
+In modern society, directly observing reality is increasingly challenging. 
+To stay informed about various aspects such as the state of the economy, job market trends, recent fashion styles, developments in one’s favorite sports league, or new scientific inventions and studies, it is impractical to personally verify these facets. 
+Instead, we depend on the observations made by others.
+This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers. 
+This reliance on second-hand information shapes our understanding of the world, as we depend on external observers to provide us with insights and knowledge about various domains that we cannot directly experience or verify ourselves.</p>
 
-<p>Using this infinite formalism it is literally the case that</p>
+<p>We frequently depend on multiple layers of <em>second-order observations</em> or various levels of abstraction.
+Scientific papers serve as a prime example of this. 
+These papers are typically not intended for a general audience but are meant for peers within the specific field of research. 
+As a result, the average person often finds them inaccessible.
+Consequently, we turn to science communicators and mass media to distill and present scientific information. 
+These intermediaries play a crucial role in interpreting and translating complex scientific data and studies into ‘facts’ that are understandable and relevant to the general public. 
+This reliance on filtered and simplified interpretations highlights our dependence on external sources to understand and engage with specialized knowledge areas.</p>
 
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}
-holds.
-Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
+<p>At the core of our society is the notion of the individual as a subject capable of making their own decisions and drawing sound conclusions. 
+However, it’s evident that our understanding of the numerous processes occurring around us is limited. 
+The complexity of the modern world can only be managed through <em>functional differentiation</em> and <em>second-order observation</em>. 
+We are heavily dependent on specialists and experts, and our understanding is largely shaped by observing their observations.
+We are a society of interdependent social system without anyone or any group being in control.
+We are, in fact, <em>out of control</em>.</p>
 
-<p>\begin{equation}
-i = -1 /(-1 /(-1 / (-1 / \ldots )))
-\end{equation}</p>
+<p>Without knowing it, conspiracy theorists reject this model of <em>second-order observation</em>, viewing it as a form of manipulation akin to the matrix. 
+However, this rejection of second-order observation is a perilous illusion.
+There is no position outside of second-order observation, no external vantage point from which to objectively assess ‘reality’ as it is, separate from the interpretations and understandings provided by others.
+This perspective underscores the intricate and interconnected nature of knowledge and understanding in contemporary society.</p>
 
-<p>but what does this mean?
-The system is not a number but a process, a generator that generates itself.
-\(i\) alternates between 1 and -1.
-Interestingly, this is precisely how we use the equal sign in most programming languages.
-Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
+<p>Philosophers ranging from Plato, Fichte, and Kierkegaard to Russell, Kant, and Heidegger have provided insights that prompt us to question the application of second-order observation.
+These philosophical teachings encourage us to contemplate whether we should exercise independent thinking and challenge the prevailing mainstream narrative.
+This concept is epitomized in Heidegger’s notion of avoiding assimilation into <em>das Man</em> (the they), Kierkegaard’s emphasis on distancing oneself from the public, or Fichte’s focus on the ego. 
+The stories goes like this: There exists an inner truth within us, and we should search within our <em>authentic</em> selves to discover it. 
+As sovereign individuals in a libertarian society, we should not solely rely on the opinions, or observations, of others. 
+As Kant famously articulated, we should have the courage to employ our own intellect (Verstand). 
+I align with Kant with a caveat: we should also have the courage to acknowledge our own ignorance and cultivate the ability to rectify it.
+By utilizing second-order observation wisely, we can develop a cultural intelligence more akin to Hegel’s concept of the world spirit than Kant’s emphasis on the individual.</p>
 
-<p>\begin{equation}
-i \leftarrow \frac{i}{-1}.
-\end{equation}</p>
+<h2 id="conviction-under-constructivism">Conviction under Constructivism</h2>
 
-<p>The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+<p>Biologists Humberto Maturana, Francisco Varela, Samy Frenk, and Gabriela Uribe made a significant discovery regarding our understanding of color perception.
+Rather than focusing solely on the correlation between the physical source of color and the retina’s response, they emphasized another more important correlation: the one between the retina and subjective color perception. 
+In this context, the external source of color functions as a trigger, not the sole determinant.</p>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
-<p><br /></p>
+<p>This structure of subjective color perception effectively maintains the perception of colors under various objective conditions, even when there are substantial discrepancies between the perceived and ‘emitted’ color, as seen in deception experiments. 
+Maturana and Varela extended this insight to introduce the concept of autopoesis, integral to the biological theory of cognition <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.</p>
 
-<p>The solution is an alternation between a marked and unmarked state—between true and false.
-A state that might seem contradictory in space, makes sense if it is observed in time and space.
-Again, time resolves the paradox.
-To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
+<p>In line with their constructivist theory, every individual constructs their own cognition and, by extension, their reality.
+Maturana theory is not far from Kant’s and to an extend Fichte’s understanding of cognition.
+Constructivism does not imply an absence of a single reality or a state of complete subjectivity, but rather, it leads to some noteworthy conclusions:</p>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
-<p><br /></p>
+<ol>
+  <li>An absolute system of values and knowledge cannot exist because personal experience forms an unshakable foundation.</li>
+  <li>Convincing someone can only succeed when they develop their own system of conviction.</li>
+  <li>Humans, capable of observing their cognitive actions and recognizing the relativity of their seemingly valid knowledge, face the responsibility of choosing and adhering to their own value system.</li>
+</ol>
 
-<p>We could similarily notate \(i\) as</p>
+<p>These conclusions have significant relevance to our current discussion. 
+Maturana’s framework explains the challenge of debunking conspiracy theories and how individuals can inhabit vastly different realities. 
+It also underscores our responsibility to acknowledge our inherently constructed perspective on reality and the value system we embrace.</p>
 
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
-<p><br /></p>
+<p>Now, I should mention that there are numerous critics of constructivism, including Markus Gabriel, who advocates for what he refers to as <em>new realism</em>.
+In his book <em>Der Sinn des Denkens</em> (English: <em>The Sense of Thinking</em>) <a class="citation" href="#gabriel:2018">(Gabriel, 2018)</a>, he writes:</p>
 
-<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
-For example, we can state the following:</p>
+<blockquote>
+  <p>Constructivism is incorrect. New Realism asserts that we can perceive reality as it is, without there being precisely one world or reality that encompasses all objects or facts that exist. – Markus Gabriel</p>
+</blockquote>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
-<p><br /></p>
+<p>I read his book with the expectation of finding a plausible justification for why this should be the case, but I couldn’t find any consistent argument. 
+Admittedly, this might be unfair as the book is a popular science book and doesn’t aim to provide a rigorous theory. 
+Nevertheless, Gabriel often labels assertions as obvious without offering a reasonable explanation. 
+Based on what I’ve encountered and also observed in my own life, I lean toward believing in constructivism.</p>
 
-<p>However, it is forbidden to only change one appearance of \(J\)!
-Following this simple rule, no paradox or inconsistency arises.
-We can go on and evaluate the following transformation:</p>
+<p>Certainly, this form of relativism raises several pressing issues. 
+For instance, how can we justify the actions of individuals whose worldviews may vastly differ from our own? Additionally, how can international bodies like the United Nations apply pressure on nations that violate human rights if their value systems diverge significantly from ours?
+Nonetheless, it’s worth noting that similar challenges emerge when we consider the concept of <em>free will</em>, which is itself a highly contentious notion, compare for example <a class="citation" href="#sapolsky:2023">(Sapolsky, 2023)</a>.</p>
 
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
-<p><br /></p>
+<p>In a world with no singular perspective, multiple viewpoints coexist, each with its inherent blind spots. 
+This principle applies to any observing system, whether it’s a psychological system, like the human mind, or a social system. 
+The diversity of perspectives inherently limits each view, preventing it from fully encompassing all facets of a situation or concept. 
+This inherent limitation in observation highlights the intricate and multifaceted nature of comprehending and interpreting the world around us.</p>
 
-<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
+<p>The diversity of perspectives among individuals often complicates accurate communication because each of us essentially speaks a slightly different language. Communication, in itself, can be seen as improbable. 
+Nevertheless, it remains a crucial element as it plays a central role in stabilizing the chaos and connecting psychic and social systems. Interestingly, it can be effective even when we don’t fully comprehend each other. 
+A prime example of this is ChatGPT, which may not understand as humans do but still manages to communicate effectively.</p>
 
-<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
+<p>So, can we embrace and navigate this diversity of perspectives? Can we tolerate the uncanny sensation of numerous distinct realities coexisting? 
+Is it possible for us to, to some extent, accept that others may inhabit a different world while simultaneously acknowledging the existence of something that persists, even if we cease to believe in it—namely, <em>reality</em>?</p>
 
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
-<p><br /></p>
+<h2 id="the-reality-of-the-climate-crisis">The Reality of the Climate Crisis</h2>
 
-<p>which can be transformed into</p>
+<p>The COVID-19 pandemic had a measurable positive effect on pollution levels—which did not last long.
+However, one could argue that it also had a negative impact on trust in institutions, especially scientific ones. 
+This erosion of trust may ultimately hinder efforts to address the climate crisis.
+The ongoing debate regarding climate change’s origins and the necessity of curbing CO2 and equivalent gas emissions continues to persist even if the scientific community is clear on the matter.</p>
 
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
-<p><br /></p>
+<p>Emissions are not the only problems on our hand.
+Many ecological systems are on the bringe of collapse.
+Our agriculture is under threat.
+Water shortages are on the horizon.
+Increased carbon dioxide absorption by oceans leads to ocean acidification, which can harm marine life, especially coral reefs and shellfish.
+Climate change can exacerbate health issues by increasing the spread of diseases, heat-related illnesses, and air quality problems due to wildfires and increased pollen levels.
+Changing weather patterns and more frequent extreme events can disrupt agriculture and water supplies, potentially leading to food shortages and conflicts over resources.
+As climate impacts worsen, there may be increased migration and displacement of populations, both within and across borders, as people seek refuge from areas affected by climate-related hazards.
+Climate change is likely to intensify extreme weather events such as hurricanes, droughts, heatwaves, and heavy rainfall. 
+These events can lead to increased property damage, displacement of populations, and economic losses.
+Sea levels are expected to continue rising, posing a threat to coastal communities, infrastructure, and ecosystems. 
+Flooding and saltwater intrusion into freshwater sources may become more common.</p>
 
-<p>thus gives us the re-entry</p>
+<p>Considering all the points I discussed, the resistance to transitioning away from fossil fuels is expected, given the various parties involved. 
+It would be a relief if we were in a simulated reality, where everything could be dismissed as a bad dream.
+However, we are faced with the pressing need to convince everyone that climate change is a real problem that demands immediate action.
+Individuals who have limited information can often be persuaded through sound arguments and credible sources. 
+However, those who actively reject the mainstream narrative may ultimately question the legitimacy of <em>second-order observation</em>.</p>
 
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
-<p><br /></p>
+<p>An example of this dynamic in action was during a BBC News panel where Brian Cox (physics professor and science communicator) clashed with skeptic Malcolm Roberts (politician). 
+Roberts insisted on <em>empirical evidence</em> and rejected <em>appeals to authority</em>. 
+All seemed well and logical, but when Cox presented a graph as evidence, Roberts dismissed it, alleging that the data had been corrupted by NASA.
+At this juncture, a discussion is no longer possible because there are no external empirical evidence available beyond that produced by scientific institutions.</p>
 
-<p>or</p>
+<p>Undeniable empirical evidence, including temperature records, ice melt data, and rising sea levels, serves as a compelling testament to the tangible effects of climate change. 
+To promote a more informed perspective, it is advisable to encourage individuals to explore and critically evaluate reputable, peer-reviewed scientific sources, rather than relying on fringe or biased information.</p>
 
-<p><br /></p>
-<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
-<p><br /></p>
+<p>Let’s now delve into some influential contributions from the scientific community that have shaped our understanding of climate change.
+Note that this is only a tiny selection from the whole corpus:</p>
 
-<h2 id="final-words">Final Words</h2>
+<p>As early as 1896, Svante Arrhenius published a groundbreaking paper on the greenhouse effect, demonstrating how rising concentrations of greenhouse gases lead to an increase in global average surface temperatures <a class="citation" href="#arrhenius:1896">(Arrhenius, 1896)</a>.</p>
 
-<p>In the act of programming there is no problem of using expressions such as</p>
+<p>Another significant milestone occurred in 1967 when Manabe and Wetherald published the first paper that incorporated the fundamental elements of Earth’s climate into a computer model, exploring the implications of doubling carbon dioxide levels for global temperatures <a class="citation" href="#manabe:1967">(Manabe &amp; Wetherald, 1967)</a>. 
+Remarkably, the results of their work remain valid today, according to Prof. Forster.</p>
 
-<p>\begin{equation}
-i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
-\end{equation}</p>
+<p>In 1976, Charles D. Keeling and his team documented a pivotal moment by revealing the sharp rise in carbon dioxide levels at the Mauna Loa observatory in Hawaii <a class="citation" href="#keeling:1976">(Keeling et al., 1976)</a>. 
+This paper highlighted the observable increase in atmospheric CO2 resulting from the combustion of carbon, petroleum, and natural gas.</p>
 
-<p>but in mathematics—at least since Plato—we assume some sort of eternity.
-Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
-It is like in physics where multiple theories are equivalent but start from very different viewpoints.
-It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
-To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
+<p>Fast-forwarding to 2006, Held and Soden advanced the concept known as <em>wet-get-wetter, dry-get-drier</em> precipitation in the context of global warming <a class="citation" href="#held:2006">(Held &amp; Soden, 2006)</a>. 
+This idea, though occasionally misunderstood and misapplied, remains the first and perhaps the only systematic conclusion regarding regional precipitation and global warming based on a robust physical understanding of the atmosphere.</p>
 
-<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
-To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
-According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
+<p>Additionally, the <em>Intergovernmental Panel on Climate Change</em> (IPCC) reports have played an integral role in consolidating and disseminating crucial climate science findings, further enhancing our collective comprehension of climate change.
+If one is convinced that there may be some shadiness going on, I encourage the reader to delve into the extensive history of climate change science, for example <em>The Discovery of Global Warming</em> <a class="citation" href="#weart:2009">(Weart, 2008)</a>.</p>
 
-<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
+<p>I can also highlight the overwhelming consensus among climate scientists and scientific organizations that climate change is real and largely caused by human activities, compare <a class="citation" href="#myers:2021">(Myers et al., 2021; Lynas et al., 2021; Cook et al., 2016; Cook et al., 2013; Doran &amp; Zimmerman, 2009)</a>.
+In addition, one can argue that there is no plausible alternative theory apart from the effects humans caused by polluting the planet.</p>
+
+<p>But if an individual has lost trust in institutions all these efforts will be fruitless.
+Therefore, it is so deeply important that our scientific institutions as well as the media defends and improve their reputation.
+Without the trust in the other, I see great danger on the horizon, especially if things become increasingly difficult.</p>
+
+<p>The challenge lies in persuading individuals who harbor skepticism, particularly toward what climate change deniers label as <em>mainstream science</em>.
+The engagement with these individuals must maintain a respectful tone. 
+It’s essential to take the worries, fears, and arguments of deniers seriously, even when they appear unreasonable.</p>
+
+<p>According to Maturana, convincing someone can only happen when they develop their own system of conviction. 
+This aspect is especially crucial to consider. 
+However, it’s important to remember that while we encourage others to develop their convictions, we should also acknowledge our own unique and potentially flawed convictions and remain true to them if we are not convinced otherwise.</p>
+
+<blockquote>
+  <p>I think I do it always through stories, never through direct confrontation.
+Because if you directly confront somebody who’s thinking polar opposite to you, they don’t really listen.
+They are thinking of arguments to refute to. […]
+The first thing is to listen to them because maybe they’ve got a point, maybe they’re doing something you never thought about.
+But if you still feel that you’re right, then you must have the courage of your conviction. – Jane Goodall</p>
+</blockquote>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I have no intention of passing moral judgment on conspiracy theorists. Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
+Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience.</p>
+
+<p>Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is getting ‘less real’, the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society.
+Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs. 
+As a result, we heavily rely on the concept of <em>second-order observation</em>, and there is no shame in acknowledging this fact.
+In our complex society, there is no shame in turning to experts and authorities, provided that their authority is derived from genuine competence. 
+However, it’s crucial to subject these authorities to scrutiny and verification.</p>
+
+<p>Nothing in what I’ve said here should be interpreted as a defense of the media for its issues, nor should it downplay the problem of increasing wealth inequality or any other ecological, social or economic problems. 
+Both, the mass media and the scientific system have their problems, but this doesn’t negate their incredible value.</p>
+
+<p>Moreover, independent media outlets play a crucial role, but we must be under no illusion that the verification of information is becoming increasingly challenging. 
+Social media platforms present us with an overwhelming array of viewpoints, claims, and video content. With the ascent of generative artificial intelligence, the task of verifying this deluge of information becomes even more daunting.</p>
+
+<p>In contrast, conspiracy theorists do not bear the burden of this demanding verification process.
+They can simply draw upon fringe and unvalidated stories, presenting them in an entertaining, sensational style akin to news pornography.</p>
+
+<p>Believing in a conspiracy theory is akin to being the prisoner in Plato’s cave, presuming that everyone else is in fact the in prison.
+The most effective remedy is to harbor doubts about our own competence, to be skeptical of ourselves, and to maintain self-awareness at a metacognitive level. 
+The goal is not merely to be smart but to be wise.
+In the case of the climate crisis there is no room for alternative truths.
+Even if we all construct our own perspective on the world, the reality of the climate crisis will not disappear if we stop believing in it.</p>
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
-<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
+<ol class="bibliography"><li><span id="baudrillard:1983">Baudrillard, J. (1983). <i>Simulacra and Simulation</i>. Semiotext(e).</span></li>
+<li><span id="luhmann:2000">Luhmann, N. (2000). Why Does Society Describe Itself as Postmodern. In W. Rasch &amp; C. Wolfe (Eds.), <i>Observing Complexity: Systems Theory and Postmodernity</i> (pp. 35–49). University of Minnesota.</span></li>
+<li><span id="douglas:2017">Douglas, K. M., Sutton, R. M., &amp; Cichocka, A. (2017). The Psychology of Conspiracy Theories. <i>Current Directions in Psychological Science</i>, <i>26</i>(6), 538–542. https://doi.org/10.1177/0963721417718261</span></li>
+<li><span id="uscinski:2018">Uscinski, J. E. (2018). The study of conspiracy theories. <i>Argumenta</i>, 233–245. https://doi.org/10.23811/53.arg2017.usc</span></li>
+<li><span id="prooijen:2018">Prooijen, J.-W. (2018). <i>The Psychology of Conspiracy Theories</i>. Taylor &amp; Francis Group. https://doi.org/10.4324/9781315525419</span></li>
+<li><span id="kay:2011">Kay, J. (2011). <i>Among the Truthers: A Journey Through America’s Growing Conspiracist Underground</i>. Harper.</span></li>
+<li><span id="shermer:2022">Shermer, M. (2022). <i>Conspiracy: Why the Rational Believe the Irrational</i>. Johns Hopkins University Press.</span></li>
+<li><span id="landau:2015">Landau, M. J., Kay, A. C., &amp; Whitson, J. A. (2015). Compensatory control and the appeal of a structured world. <i>Psychol Bull</i>. https://doi.org/10.1037/a0038703</span></li>
+<li><span id="cichocka:2022">Cichocka, A., Marchlewska, M., &amp; Biddlestone, M. (2022). Why do narcissists find conspiracy theories so appealing? <i>Curr Opin Psychol</i>. https://doi.org/10.1016/j.copsyc.2022.101386</span></li>
+<li><span id="cosgrove:2023">Cosgrove, T. J., &amp; Murphy, C. P. (2023). Narcissistic susceptibility to conspiracy beliefs exaggerated by education, reduced by cognitive reflection. <i>Front Psychol</i>. https://doi.org/10.3389/fpsyg.2023.1164725</span></li>
+<li><span id="hart:2015">Hart, J., &amp; Graether, M. (2015). Something’s Going on Here: Psychological Predictors of Belief in Conspiracy Theories. <i>Journal of Individual Differences</i>.</span></li>
+<li><span id="nietzsche:1878">Nietzsche, F. (1878). <i>Menschliches, Allzumenschliches</i>.</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li>
+<li><span id="gabriel:2018">Gabriel, M. (2018). <i>Der Sinn des Denkens</i>. Ullstein Buchverlag.</span></li>
+<li><span id="sapolsky:2023">Sapolsky, R. M. (2023). <i>Determined</i>. Bodley Head.</span></li>
+<li><span id="arrhenius:1896">Arrhenius, S. (1896). XXXI. On the influence of carbonic acid in the air upon the temperature of the ground . <i>The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</i>, <i>41</i>(251), 237–276. https://doi.org/10.1080/14786449608620846</span></li>
+<li><span id="manabe:1967">Manabe, S., &amp; Wetherald, R. T. (1967). Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity. <i>Journal of Atmospheric Sciences</i>, <i>24</i>(3), 241–259. https://doi.org/10.1175/1520-0469(1967)024&lt;0241:TEOTAW&gt;2.0.CO;2</span></li>
+<li><span id="keeling:1976">Keeling, C. D., Bacastow, R. B., Bainbridge, A. E., Ekdahl Jr., C. A., Guenther, P. R., Waterman, L. S., &amp; Chin, J. F. S. (1976). Atmospheric carbon dioxide variations at Mauna Loa Observatory, Hawaii. <i>Tellus</i>, <i>28</i>(6), 538–551. https://doi.org/https://doi.org/10.1111/j.2153-3490.1976.tb00701.x</span></li>
+<li><span id="held:2006">Held, I. M., &amp; Soden, B. J. (2006). Robust Responses of the Hydrological Cycle to Global Warming. <i>Journal of Climate</i>, <i>19</i>(21), 5686–5699. https://doi.org/https://doi.org/10.1175/JCLI3990.1</span></li>
+<li><span id="weart:2009">Weart, S. R. (2008). <i>The Discovery of Global Warming</i>. Harvard University Press.</span></li>
+<li><span id="myers:2021">Myers, K. F., Doran, P. T., Cook, J., Kotcher, J. E., &amp; Myers, T. A. (2021). Consensus revisited: quantifying scientific agreement on climate change and climate expertise among Earth scientists 10 years later. <i>Environmental Research Letters</i>, <i>16</i>(10), 104030. https://doi.org/10.1088/1748-9326/ac2774</span></li>
+<li><span id="lynas:2021">Lynas, M., Houlton, B. Z., &amp; Perry, S. (2021). Greater than 99% consensus on human caused climate change in the peer-reviewed scientific literature. <i>Environmental Research Letters</i>, <i>16</i>(11), 114005. https://doi.org/10.1088/1748-9326/ac2966</span></li>
+<li><span id="cook:2016">Cook, J., Oreskes, N., Doran, P. T., Anderegg, W. R. L., Verheggen, B., Maibach, E. W., Carlton, J. S., Lewandowsky, S., Skuce, A. G., Green, S. A., Nuccitelli, D., Jacobs, P., Richardson, M., Winkler, B., Painting, R., &amp; Rice, K. (2016). Consensus on consensus: a synthesis of consensus estimates on human-caused global warming. <i>Environmental Research Letters</i>, <i>11</i>(4), 048002. https://doi.org/10.1088/1748-9326/11/4/048002</span></li>
+<li><span id="cook:2013">Cook, J., Nuccitelli, D., Green, S. A., Richardson, M., Winkler, B., Painting, R., Way, R., Jacobs, P., &amp; Skuce, A. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. <i>Environmental Research Letters</i>, <i>8</i>(2), 024024. https://doi.org/10.1088/1748-9326/8/2/024024</span></li>
+<li><span id="doran:2009">Doran, P. T., &amp; Zimmerman, M. K. (2009). Examining the Scientific Consensus on Climate Change. <i>Eos, Transactions American Geophysical Union</i>, <i>90</i>(3), 22–23. https://doi.org/https://doi.org/10.1029/2009EO030002</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas, even if the topic is depressing. Writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
 It is recommended that you read part I and II first.
 This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
 An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
@@ -638,7 +860,12 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
         <span class="n">vloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
         <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">tloss_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">vloss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
         
-        <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> <span class="n">epoch</span><span class="p">)</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span>
+            <span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> 
+            <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> 
+            <span class="n">epoch</span>
+        <span class="p">)</span>
+
         <span class="n">writer</span><span class="p">.</span><span class="n">flush</span><span class="p">()</span>
         
         <span class="k">if</span> <span class="ow">not</span> <span class="n">respect_val</span> <span class="ow">or</span> <span class="p">(</span><span class="n">respect_val</span> <span class="ow">and</span> <span class="n">avg_vloss</span> <span class="o">&lt;</span> <span class="n">best_vloss</span><span class="p">):</span>
@@ -686,7 +913,314 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
 <audio controls="">
   <source src="/Pages/assets/audio/a_g_song.mp3" type="audio/mp3" />
   Your browser does not support the audio element.
-</audio>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+</audio>
+
+<h2 id="real-world-example">Real World Example</h2>
+
+<p>In the realm of musical innovation, a significant advancement occurred with the development of a sophisticated <strong>LSTM</strong> model designed to create expressive piano roll music. 
+This model was introduced in a notable study by <a class="citation" href="#oore:2018">(Oore et al., 2018)</a>. 
+The researchers devised a unique discrete-event based representation for piano rolls, encompassing a diverse range of 413 different events. 
+The architecture of their model was meticulously structured, comprising three hidden LSTM layers, each equipped with 512 cells. 
+This design choice facilitated the processing of a 413-dimensional one-hot vector as input, with the model subsequently generating a categorical distribution over the same dimensional space.</p>
+
+<p>The training process of the model was finely tuned, employing a mini-batch size of 64 and a learning rate of 0.001, alongside the implementation of teacher forcing techniques. 
+For those interested in experiencing the model’s capabilities firsthand, a collection of generated music pieces is available for listening at this <a href="https://clyp.it/user/3mdslat4">link</a>. 
+However, it’s important to note a primary limitation of this model: its tendency to produce relatively brief musical compositions, typically ranging from 10 to 20 seconds in duration. 
+The authors also emphasized the critical role of high-quality data in achieving optimal results with this model.</p>
+
+<p>Following this development, the field witnessed the emergence of the Music Transformer, introduced by <a class="citation" href="#huang:2018">(Huang et al., 2018)</a>.
+This model also utilized a similar piano roll representation but marked a significant leap forward by employing the <strong>transformer</strong> architecture. 
+This innovative approach enabled the Music Transformer to learn and reproduce longer sequences, demonstrating the capability to capture more extended musical dependencies. 
+The transformer architecture and its implications in music generation will be further explored in the next installment of this series.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
+<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
+What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
+However, any observer is itself a distinction between system and environment.
+I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
+So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+
+<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
+
+<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
+
+<blockquote>
+  <p>This statement is wrong.</p>
+</blockquote>
+
+<p>The statement is logically problematic because it is self-referential. 
+If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
+Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
+
+\[R := \left\{ x \ | \ x \not\in x \right\}.\]
+
+<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+However, if we introduce the self-referential relation, we run into a paradox:</p>
+
+<p>\begin{equation} 
+R \in R \iff R \not\in R
+\end{equation}</p>
+
+<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
+If that is the case, does the barber shave themselves?</p>
+
+<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
+To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
+The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
+Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
+
+<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
+\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
+Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
+His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
+The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
+
+<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
+
+<p>Luhmann integrated this idea into his social systems theory.
+For example, the media can observe and reintroduce itself into itself. 
+It can use its systemic operations on itself, i.e. it can report on itself.</p>
+
+<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
+
+<blockquote>
+  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
+</blockquote>
+
+<p>The sentence has mainly two different meanings.
+One is:</p>
+
+<blockquote>
+  <p>The beginning of heaven and earth is without a name.</p>
+</blockquote>
+
+<p>The other one is:</p>
+
+<blockquote>
+  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
+</blockquote>
+
+<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
+Furthermore, the quote points to a distinction between heaven and earth.
+Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
+Spencer-Brown begins by the assumption that there is no such thing:</p>
+
+<blockquote>
+  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
+Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
+</blockquote>
+
+<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
+There is no clear separation between the object or the result of distinction and the process of distinguishing.
+Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
+Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
+I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
+
+<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
+The mark is, calls, and makes a difference.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
+<p><br /></p>
+
+<p>There is an interior of the mark and not the interior—the system and its environment.
+I can make a distinction again (repetition):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
+<p><br /></p>
+
+<p>But making a distinction again does not change the distinction.</p>
+
+<blockquote>
+  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
+</blockquote>
+
+<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
+<p><br /></p>
+
+<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
+Crossing twice reverses the first crossing.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
+<p><br /></p>
+
+<blockquote>
+  <p>If a boundary is crossed twice, the original state will be reestablished.
+The repetition of the crossing has a different value than the single crossing.
+The reason is that in-between the reversal happens.
+Crossing changes the side.
+Re-crossing reverses this operation. – Spencer-Brown</p>
+</blockquote>
+
+<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
+Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
+There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
+
+<p>Let’s see what we can do with this calculus.
+Let \(a, b\) variables, then the following holds:</p>
+
+<p><br /></p>
+<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
+<p><br /></p>
+
+<p>Let’s have a look at the last transformation.
+Let us assume \(a\) is a <strong>mark</strong>.
+Then we get:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
+<p><br /></p>
+
+<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
+<p><br /></p>
+
+<h2 id="the-re-entry">The Re-Entry</h2>
+
+<p>How can we re-introduce the system (here an equation) into itself?
+Or in other words: How does the <em>re-entry</em> work?
+We can start by a simple self-referential algebraic equation:</p>
+
+<p>\begin{equation}
+x^2 = ax + b, \quad a, b \in \mathbb{R}.
+\end{equation}</p>
+
+<p>This equation has well-known solutions. 
+It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
+To see the re-entry, we can rewrite the equation above to get</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}</p>
+
+<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
+
+<p>\begin{equation}
+x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
+\end{equation}</p>
+
+<p>Using this infinite formalism it is literally the case that</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}
+holds.
+Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
+
+<p>\begin{equation}
+i = -1 /(-1 /(-1 / (-1 / \ldots )))
+\end{equation}</p>
+
+<p>but what does this mean?
+The system is not a number but a process, a generator that generates itself.
+\(i\) alternates between 1 and -1.
+Interestingly, this is precisely how we use the equal sign in most programming languages.
+Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
+
+<p>\begin{equation}
+i \leftarrow \frac{i}{-1}.
+\end{equation}</p>
+
+<p>The next step is to introduce such a re-entry into logic.
+Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
+<p><br /></p>
+
+<p>The solution is an alternation between a marked and unmarked state—between true and false.
+A state that might seem contradictory in space, makes sense if it is observed in time and space.
+Again, time resolves the paradox.
+To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
+<p><br /></p>
+
+<p>We could similarily notate \(i\) as</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
+<p><br /></p>
+
+<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
+For example, we can state the following:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
+<p><br /></p>
+
+<p>However, it is forbidden to only change one appearance of \(J\)!
+Following this simple rule, no paradox or inconsistency arises.
+We can go on and evaluate the following transformation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
+<p><br /></p>
+
+<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
+
+<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
+<p><br /></p>
+
+<p>which can be transformed into</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
+<p><br /></p>
+
+<p>thus gives us the re-entry</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<p>or</p>
+
+<p><br /></p>
+<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<h2 id="final-words">Final Words</h2>
+
+<p>In the act of programming there is no problem of using expressions such as</p>
+
+<p>\begin{equation}
+i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
+\end{equation}</p>
+
+<p>but in mathematics—at least since Plato—we assume some sort of eternity.
+Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
+It is like in physics where multiple theories are equivalent but start from very different viewpoints.
+It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
+To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
+
+<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
+To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
+According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
+
+<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). Flaws of Form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -2129,7 +2663,7 @@ For instance, introducing a <em>hidden layer</em> results in a loss of <code cla
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). This Time with Feeling: Learning Expressive Musical Performance. <i>CoRR</i>, <i>abs/1808.03715</i>. http://arxiv.org/abs/1808.03715</span></li>
+<ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
 <li><span id="johnson:2017">Johnson, D. D. (2017). Generating Polyphonic Music Using Tied Parallel Networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[The code shown here can be found in the following GitHub repository. In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. This consists of two approaches: (1) A first-order Markov chain (MC) and (2) a feedforward neural network (FNN)]]></summary></entry><entry><title type="html">Replacing Code with ML Models</title><link href="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html" rel="alternate" type="text/html" title="Replacing Code with ML Models" /><published>2023-04-23T00:00:00+02:00</published><updated>2023-04-23T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/04/23/wekinator</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/04/23/wekinator.html"><![CDATA[<p>This blog post aims to explore how <em>machine learning</em> can empower creative practitioners to bring to life projects that traditionally demanded significant technical expertise, such as programming skills.
 To make my case immediately understandable, I will provide a specific example.
 However, it’s worth noting that this is just one of countless possible instances.</p>
@@ -3297,7 +3831,7 @@ I was unable to find the code of their implementation.</p>
 <li><span id="kotecha:2018">Kotecha, N., &amp; Young, P. (2018). Generating Music using an LSTM Network. <i>CoRR</i>, <i>abs/1804.07300</i>. http://arxiv.org/abs/1804.07300</span></li>
 <li><span id="lou:2016">Lou, Q. (2016). <i>Music Generation Using Neural Networks</i>. http://cs229.stanford.edu/proj2016/report/Lou-MusicGenerationUsingNeuralNetworks-report.pdf</span></li>
 <li><span id="hadjeres:2018">Hadjeres, G., &amp; Nielsen, F. (2018). Anticipation-RNN: enforcing unary constraints in sequence generation, with application to interactive music generation. <i>Neural Computing and Applications</i>. https://doi.org/10.1007/s00521-018-3868-4</span></li>
-<li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). The Piano Inpainting Application. <i>CoRR</i>, <i>abs/2107.05944</i>. https://arxiv.org/abs/2107.05944</span></li>
+<li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). <i>The piano inpainting application</i>.</span></li>
 <li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music Generation Using Bidirectional Recurrent Network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
@@ -4447,34 +4981,4 @@ Can everyday people control it, and if so, how can we get there?</p>
 <li><span id="lee:2010">Lee, D. (2021). <i>Birth of Intelligence: From RNA to Artificial Intelligence</i>. New York: Oxford University Press.</span></li>
 <li><span id="liu:2017">Liu, S., &amp; Spelke, E. S. (2017). Six-month-old infants expect agents to minimize the cost of their actions. <i>Cognition</i>, <i>160</i>, 35–42. https://doi.org/10.1016/j.cognition.2016.12.007</span></li>
 <li><span id="olson:2008">Olson, K. R., &amp; Spelke, E. S. (2008). Foundations of cooperation in young children. <i>Cognition</i>, <i>108</i>(1), 222–231. https://doi.org/10.1016/j.cognition.2007.12.003</span></li>
-<li><span id="boden:1998">Boden, M. A. (1998). Creativity and artificial intelligence. <i>Artificial Intelligence</i>, <i>103</i>(1), 347–356. https://doi.org/10.1016/S0004-3702(98)00055-1</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="AI" /><summary type="html"><![CDATA[Panel Discussion]]></summary></entry><entry><title type="html">Interactive Computational Thinking</title><link href="https://bzoennchen.github.io/Pages/2021/10/27/computational-thinking-with-python.html" rel="alternate" type="text/html" title="Interactive Computational Thinking" /><published>2021-10-27T00:00:00+02:00</published><updated>2021-10-27T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2021/10/27/computational-thinking-with-python</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2021/10/27/computational-thinking-with-python.html"><![CDATA[<p>Currently, I am working as a lecturer at the <a href="https://www.cs.hm.edu/en/home/index.en.html">Munich University of Applied Sciences (MUAS)</a> for the course <strong>Computational Thinking</strong>.
-We decided to use <code class="language-plaintext highlighter-rouge">Python</code> as our primary programming language.
-To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the <a href="https://jupyterbook.org/intro.html">Jupyter book</a> technology.</p>
-
-<p>Furthermore, we decided to publish the unfinished book publicly.
-It is a work in progress, and I will work on it during the semesters.
-The book is written in German.
-We may translate it into English in the future.</p>
-
-<ul>
-  <li>The book is available here: <a href="https://bzoennchen.github.io/ct-book/intro.html">Computational Thinking</a></li>
-  <li>The source code of the book is available here: <a href="https://github.com/BZoennchen/ct-book">Source of the book</a></li>
-</ul>
-
-<p>We will see how our students will receive the book.
-In my opinion, the <a href="https://jupyterbook.org/intro.html">Jupyter book</a> technology covers many features to write an excellent online book.
-I will use the technology for other future projects.</p>
-
-<p>If you like <code class="language-plaintext highlighter-rouge">LaTeX</code> as I do, <a href="https://jupyterbook.org/intro.html">Jupyter book</a> might also be something worth your time.
-It offers similar features, and the working flow is very similar.
-One can reference external sources (you can even include a BibTex file), internal sections, figures, equations, and definitions.
-On top of that, the reader can execute the code directly within the book (for Python) and on Binder or another Service providing Jupyter Notebooks if the correct kernel is available.
-I only tried this with <code class="language-plaintext highlighter-rouge">Python</code>, but this should also work for other languages such as <code class="language-plaintext highlighter-rouge">Java</code>.</p>
-
-<p>It is less flexible than <code class="language-plaintext highlighter-rouge">LaTeX</code> because one is bound to <code class="language-plaintext highlighter-rouge">HTML</code>, <code class="language-plaintext highlighter-rouge">CSS</code>, and <code class="language-plaintext highlighter-rouge">JavaScript</code>.
-For example, positioning tables and figures differently than intended is pretty tricky – I have given up on it.
-The intelligence of <code class="language-plaintext highlighter-rouge">LaTeX</code> is also missing, e.g., no automatic hyphenation.
-Aside from executing code directly within the document, another advantage is the referencing.
-As a reader, It is much easier to navigate a well-referenced web page than navigate a large PDF file.</p>
-
-<p>Overall, I quite like it!</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Education" /><summary type="html"><![CDATA[Currently, I am working as a lecturer at the Munich University of Applied Sciences (MUAS) for the course Computational Thinking. We decided to use Python as our primary programming language. To provide students with a textbook that covers our content and is stylistically sound, we decided to test out the Jupyter ecosystem, i.e., the Jupyter book technology.]]></summary></entry></feed>
+<li><span id="boden:1998">Boden, M. A. (1998). Creativity and artificial intelligence. <i>Artificial Intelligence</i>, <i>103</i>(1), 347–356. https://doi.org/10.1016/S0004-3702(98)00055-1</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="AI" /><summary type="html"><![CDATA[Panel Discussion]]></summary></entry></feed>

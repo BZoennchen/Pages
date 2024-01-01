@@ -143,6 +143,8 @@
         </li>
         
         
+        
+        
     </ul>
 </div>
 
@@ -505,7 +507,12 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
         <span class="n">vloss_str</span> <span class="o">=</span> <span class="sa">f</span><span class="s">'Val-Loss: </span><span class="si">{</span><span class="n">avg_vloss</span><span class="si">:</span><span class="p">.</span><span class="mi">4</span><span class="n">f</span><span class="si">}</span><span class="s">'</span>
         <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">ep_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">tloss_str</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">vloss_str</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
         
-        <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span><span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> <span class="n">epoch</span><span class="p">)</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">add_scalars</span><span class="p">(</span>
+            <span class="s">'Training vs. Validation Loss'</span><span class="p">,</span> 
+            <span class="p">{</span><span class="s">'Training'</span><span class="p">:</span> <span class="n">avg_loss</span><span class="p">,</span> <span class="s">'Validation'</span><span class="p">:</span> <span class="n">avg_vloss</span><span class="p">},</span> 
+            <span class="n">epoch</span>
+        <span class="p">)</span>
+
         <span class="n">writer</span><span class="p">.</span><span class="n">flush</span><span class="p">()</span>
         
         <span class="k">if</span> <span class="ow">not</span> <span class="n">respect_val</span> <span class="ow">or</span> <span class="p">(</span><span class="n">respect_val</span> <span class="ow">and</span> <span class="n">avg_vloss</span> <span class="o">&lt;</span> <span class="n">best_vloss</span><span class="p">):</span>
@@ -555,12 +562,37 @@ An <code class="language-plaintext highlighter-rouge">epoch</code> is defined by
   Your browser does not support the audio element.
 </audio>
 
+<h2 id="real-world-example">Real World Example</h2>
+
+<p>In the realm of musical innovation, a significant advancement occurred with the development of a sophisticated <strong>LSTM</strong> model designed to create expressive piano roll music. 
+This model was introduced in a notable study by <a class="citation" href="#oore:2018">(Oore et al., 2018)</a>. 
+The researchers devised a unique discrete-event based representation for piano rolls, encompassing a diverse range of 413 different events. 
+The architecture of their model was meticulously structured, comprising three hidden LSTM layers, each equipped with 512 cells. 
+This design choice facilitated the processing of a 413-dimensional one-hot vector as input, with the model subsequently generating a categorical distribution over the same dimensional space.</p>
+
+<p>The training process of the model was finely tuned, employing a mini-batch size of 64 and a learning rate of 0.001, alongside the implementation of teacher forcing techniques. 
+For those interested in experiencing the model’s capabilities firsthand, a collection of generated music pieces is available for listening at this <a href="https://clyp.it/user/3mdslat4">link</a>. 
+However, it’s important to note a primary limitation of this model: its tendency to produce relatively brief musical compositions, typically ranging from 10 to 20 seconds in duration. 
+The authors also emphasized the critical role of high-quality data in achieving optimal results with this model.</p>
+
+<p>Following this development, the field witnessed the emergence of the Music Transformer, introduced by <a class="citation" href="#huang:2018">(Huang et al., 2018)</a>.
+This model also utilized a similar piano roll representation but marked a significant leap forward by employing the <strong>transformer</strong> architecture. 
+This innovative approach enabled the Music Transformer to learn and reproduce longer sequences, demonstrating the capability to capture more extended musical dependencies. 
+The transformer architecture and its implications in music generation will be further explored in the next installment of this series.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
+<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>
+
   </div>
 
   <div class="PageNavigation">
     
     <a class="prev" href="/Pages/2023/11/19/laws-of-form.html">&laquo; Laws of Form</a>
     
+    
+    <a class="next" href="/Pages/2024/01/02/conspiracy.html">Escaping the Reality of the Climate Crisis? &raquo;</a>
     
   </div><a class="u-url" href="/Pages/2023/11/19/musical-interrogation-III.html" hidden></a>
 </article>
