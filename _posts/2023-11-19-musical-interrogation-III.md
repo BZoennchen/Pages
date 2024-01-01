@@ -370,7 +370,12 @@ def train(n_epochs,respect_val=False):
         vloss_str = f'Val-Loss: {avg_vloss:.4f}'
         print(f'{ep_str}, {tloss_str}, {vloss_str}')
         
-        writer.add_scalars('Training vs. Validation Loss', {'Training': avg_loss, 'Validation': avg_vloss}, epoch)
+        writer.add_scalars(
+            'Training vs. Validation Loss', 
+            {'Training': avg_loss, 'Validation': avg_vloss}, 
+            epoch
+        )
+
         writer.flush()
         
         if not respect_val or (respect_val and avg_vloss < best_vloss):
@@ -422,3 +427,25 @@ We start to hear repetition and some structure within the piece:
   <source src="{% link /assets/audio/a_g_song.mp3 %}" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
+
+## Real World Example
+
+In the realm of musical innovation, a significant advancement occurred with the development of a sophisticated **LSTM** model designed to create expressive piano roll music. 
+This model was introduced in a notable study by {% cite oore:2018 %}. 
+The researchers devised a unique discrete-event based representation for piano rolls, encompassing a diverse range of 413 different events. 
+The architecture of their model was meticulously structured, comprising three hidden LSTM layers, each equipped with 512 cells. 
+This design choice facilitated the processing of a 413-dimensional one-hot vector as input, with the model subsequently generating a categorical distribution over the same dimensional space.
+
+The training process of the model was finely tuned, employing a mini-batch size of 64 and a learning rate of 0.001, alongside the implementation of teacher forcing techniques. 
+For those interested in experiencing the model's capabilities firsthand, a collection of generated music pieces is available for listening at this [link](https://clyp.it/user/3mdslat4). 
+However, it's important to note a primary limitation of this model: its tendency to produce relatively brief musical compositions, typically ranging from 10 to 20 seconds in duration. 
+The authors also emphasized the critical role of high-quality data in achieving optimal results with this model.
+
+Following this development, the field witnessed the emergence of the Music Transformer, introduced by {% cite huang:2018 %}.
+This model also utilized a similar piano roll representation but marked a significant leap forward by employing the **transformer** architecture. 
+This innovative approach enabled the Music Transformer to learn and reproduce longer sequences, demonstrating the capability to capture more extended musical dependencies. 
+The transformer architecture and its implications in music generation will be further explored in the next installment of this series.
+
+## References
+
+{% bibliography --cited_in_order %}

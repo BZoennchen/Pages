@@ -11,32 +11,34 @@ series: "Musical Interrogation"
 
 This time in the series we use the most famous model architecture for generative purposes: the **transformer** {% cite vaswani:2017 %}.
 Transformers were initially targeted at natural language processing (NLP) problems, where the network input is a series of high-dimensional embeddings representing words or word fragments.
-It was introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
+Transformers were introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
 
 One of the problems with RNNs is that they can forget information that is further back in the sequence.
-While more sophisticated architecture such as LSTMs {% cite hochreiter:1997 %} and *gated recurrent units* (GRUs) {% cite chung2014 %} partially addressed this problem, but they still struggle with long term dependecies.
+While more sophisticated architectures, such as LSTMs {% cite hochreiter:1997 %} and *gated recurrent units* (GRUs) {% cite chung2014 %} partially, addressed this problem, they still struggle with long term dependecies.
 The idea that intermediate representations in the RNN should be exploited to produce the output led to the *attention mechanism* {% cite bahdanau:2014 %} and, in the end, to the transformer architecture {% cite vaswani:2017 %}.
-The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency that is by utilizing the whole sequence in parallel.
+The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.
 
 Today, all successful large language model (LLMs) utilize the transformer architecture.
-It brought us ChatGPT, LLama and BERT.
-To this day, there is no clear explanation why transformers are so effective.
-It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
-One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information).
+It brought us ChatGPT (based on GPT-3 {% cite brown:2020 %} and GPT-4 {% cite openai:2023 bubeck:2023 %}), LLaMA {% cite touvron:2023 %}, LLaMA 2 {% cite touvron:2023b %}, BERT {% cite devlin:2019 %} and many fine-tuned derivates such as CodeX {% cite chen:2021 %} .
+In the domain of symbolic music, transformers where also employed.
+Examples are the Music Transformer {% cite huang:2018 %}, the Pop Music Transformer {% cite huang:2020 %}, multi-track music generation {% cite ens:2020 %}, piano inpainting {% cite hadjeres:2021 %}, Theme Transformer {% cite shih:2022 %} and more.
+Furthermore there are transformers, such as MusicGen {% cite copet:2023 %} that generate audio output directly.
 
-Their parallel computation make them especially suitable for the exploitation of multicore processors such as GPUs.
+While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective---there is rigorous mathematical proof.
+It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
+One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information) and the independence of multiple execution paths make them especially suitable for the exploitation of multicore processors such as GPUs and TPUs.
 However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
-Therefore, to train transformers you require GPUs with a lot of memory which is concerning for artists who want to utilize transformers independently from proprietary cloud services.
+Therefore, to train transformers you require GPUs with a lot of memory which is concerning for artists who might want to utilize transformers independently from proprietary cloud services.
 
 Original transformers where introduced for natural language processing.
 However, since language datasets share some of the characteristics of musical notations, transformers achieve good results in learning the structure of symbolic pieces.
 In music as well as in language the number of input variables can be very large, and the statistics are similar at every position; it's not sensible to re-learn the meaning of the word *dog* at every possible position in a body of text.
-Language datasets and music datasets have the complication that their sequences very in length.
+Language datasets and music datasets have the complication that their sequences vary in length.
 
 However, we also have to remember that there are also differences between the two domains.
 The alphabet of musical notations has more than 26 symbols and there is a strong relation between certain symbols.
 For example, there is a strong relation between the C's of each octave or a whole and half note in the same pitch class.
-Furthermore, shifting all the letters in the text changes the meaning of the text dramatically while in the case of music this is not the case.
+Furthermore, shifting all the letters in a text changes the meaning of that text dramatically while in the case of music this is most often not the case.
 
 ## Attention in RNNs
 
@@ -48,7 +50,7 @@ The attention mechanism enables the model to learn the importance of (previous) 
 $$\mathbf{x}_{0}, \ldots \mathbf{x}_{n-1},$$ 
 
 in relation to the $$(n+1)^\text{th}$$ token, i.e. $$\mathbf{x}_n$$.
-We want to predict the output $$\mathbf{y}_{n}$$ and in our autoregessive case this is equal to the input $$\mathbf{x}_{n}$$
+We want to predict the output $$\mathbf{y}_{n}$$ and in our autoregessive case this is equal to the input $$\mathbf{x}_{n}$$.
 As before, the RNN also has access to the hidden state $$\mathbf{h}_{n}.$$
 
 For example, to predict the word "banana" in the sentence: "I eat a lot of fruit, therefore, I like ____", the model should learn that "fruit" is somehow important for the prediction of the missing word.
@@ -81,7 +83,7 @@ The weights determine how "strong" the information of the input will be utilized
 </div>
 <br>
 
-In case of a decoder, this results in a quadratic complexity of $$\mathcal{O}(n^2)$$ because for each of the $$n$$ tokens we want to decode, we have $$n$$ weights.
+In case of a decoder, this results in a quadratic complexity of $$\mathcal{O}(n^2)$$ because for each of the $$n$$ tokens, we want to decode, we have $$n$$ weights.
 
 ## The Transformer Architecture
 
@@ -128,7 +130,7 @@ Simple RNNs for predicting the next tokens only see the previous token and the h
 But, as I discussed in previous articles, the information of the hidden state gets washed away over time and without attention there seem to be little control over the importance of certain tokens of the sequence.
 
 The fundamental operation of the transformer, i.e. the attention mechanism, is implemented in its ``Head``.
-Let $$\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}$$ the $$n$$ tokens of a sequence.
+Let $$\mathbf{x}_0, \ldots, \mathbf{x}_{n-1} \in \mathbb{R}^{D \times 1}$$ be the $$n$$ tokens of a sequence.
 A standard neural network layer $$f(\mathbf{x})$$, takes a $$D \times 1$$ input $$f(\mathbf{x})$$ and applies a linear transformation followed by an activation function like a $$\text{ReLU}$$:
 
 $$f(\mathbf{x}) = \text{ReLU}\left( \mathbf{W}\mathbf{x} + \mathbf{b }\right),$$
@@ -142,7 +144,7 @@ First, a set of *values* are computed for each input:
 $$\mathbf{v}_i = \mathbf{b}_v + \mathbf{W}_v \mathbf{x}_i,$$
 
 where $$\mathbf{b}_v \in \mathbb{R}^D \text{ and } \mathbf{W}_v \in \mathbb{R}^{D \times D}$$ represent biases and weights, respectively (**for all inputs**). 
-The the $$j^\text{th}$$ output $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})$$ is a weighted sum of all the values $$\mathbf{v}_i, i = 0, \ldots n-1$$:
+The $$j^\text{th}$$ output $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})$$ is a weighted sum of all the values $$\mathbf{v}_i, i = 0, \ldots n-1$$ where the weight each weight depends on $$\mathbf{x}_j$$:
 
 $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.$$
 
@@ -151,7 +153,7 @@ The $$n$$ weights $$\alpha(\cdot, \mathbf{x}_j)$$ are non-negative and sum to on
 Hence, self-attention can be thought of as *routing* the values in different proportions to create each output.
 
 <br>
-<div><img style="display:block; margin-left:auto; margin-right:auto; width:50%;" src="{% link /assets/images/routing.png %}" alt="Routing principle">
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:35%;" src="{% link /assets/images/routing.png %}" alt="Routing principle">
 <div style="display: table;margin: 0 auto;">Figure 2: Routing principle.</div>
 </div>
 <br>
@@ -167,17 +169,18 @@ $$
 
 The **dot product** of two vectors $$\mathbf{q}_j$$, $$\mathbf{k}_i$$ is a measurement of their similarity.
 In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
-In general this relationship is expressed by the following equation:
+In general, this relationship is expressed by the following equation:
 
 $$\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),$$
 
 where $$\beta$$ is the angle between the two verctors.
 Computing the *dot product* between the queries and keys gives us the similarities we desire.
-We pass the result through a *softmax* function:
+To normalize, we then pass the result through a *softmax* function:
 
 $$\alpha(\mathbf{x}_i, \mathbf{x}_j) = \frac{\exp(\mathbf{q}_j^\top \mathbf{k}_i \sqrt{D_q})}{\sum\limits_{r=0}^{n-1} \exp(\mathbf{q}_j^\top \mathbf{k}_r \sqrt{D_q})},$$
 
 where $$D_q$$ is the dimension of the queries and keys (i.e., the number of rows in $$\mathbf{W}_q$$ and $$\mathbf{W}_k$$, which must be the same).
+You can think of the *key* of what is offered and the *query* of what is searched.
 If $$\mathbf{X}$$, $$\mathbf{K}$$, $$\mathbf{Q}$$, and $$\mathbf{V}$$ contain all the values, keys, queries and values then we can compute the self-attention by
 
 $$\mathbf{Sa}(\mathbf{X}) = \mathbf{V} \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D_q} }\right).$$
@@ -190,14 +193,17 @@ $$\mathbf{Sa}(\mathbf{X}) = \mathbf{V} \cdot \text{Softmax}\left( \frac{\mathbf{
 
 ## Masking Attention Head
 
-Since our transformer should not look into the future, because when we use it in the prediction mode it also can not look ahead of the token it predicts, we have to mask entries in $$\text{Softmax}(\mathbf{K}^\top \mathbf{Q} / \sqrt{D}_q)$$:
+Since our transformer should not look into the future, because when we use it in the prediction mode it also can not look ahead of the token it predicts, we have to mask entries in 
+
+$$\text{Softmax}\left(\frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D}_q}\right).$$
+
+If you look into the code, I did this by setting the respective values in $$\mathbf{K}^\top \mathbf{Q}$$ to negative infinite before computing the softmax.
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="{% link /assets/images/transformer-head.png %}" alt="Transformer head">
 <div style="display: table;margin: 0 auto;">Figure 4: Transformer head for a sequence length equal to 5.</div>
 </div>
 <br>
-
 
 ```python
 class Head(nn.Module):
@@ -241,7 +247,7 @@ To do this we transform the input into a ``head_size``-dimensional space.
 Suppose we use 4 heads than ``head_size * 4`` should be equal to the rows of $$\mathbf{W}_0$$ (compare Fig. 5) of the multi-head attention layer which is ``m``, i.e. the dimension of the encoded input $$\mathbf{x}$$.
 $$\mathbf{W}_0$$ transforms the concatenated results of the heads back to the dimension equal to ``n_embd``. 
 This is needed to stack ``Block``s (each consisting of a ``MultiHeadAttention``) on top of each other.
-The output of ``Block`` $i$ has to fit into block $i+1$.
+The output of ``Block`` $$i$$ has to fit into block $$i+1$$.
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="{% link /assets/images/multi-head.png %}" alt="Multi-head attention">
@@ -319,10 +325,14 @@ class FeedForward(nn.Module):
 ## Positional Encoding
 
 The Transformer has no more hidden state.
-Therefore, instead of processing token by token trying to memorize important information via the hidden state, it processes all $n$ tokens at in parallel which is good for parallel computation but increases the time and space complexity from $$\mathcal{O}(n)$$ (LSTM) to $$\mathcal{O}(n^2)$$.
+Therefore, instead of processing token by token trying to memorize important information via the hidden state, it processes all $$n$$ tokens at in parallel, which is good for parallel computation but increases the time and space complexity from $$\mathcal{O}(n)$$ (LSTM) to $$\mathcal{O}(n^2)$$.
 
 Furthermore, we have to encode the position of the tokens into $$\mathbf{x}$$ because we lost the implicit order of computation.
-Therefore, we transform our input ``idx`` to the concatenation of a **positional embedding** and **token embedding**.
+In the original paper {% cite vaswani:2017 %} the authors utilized a embdding that involved sine and cosine functions.
+Their embedding is a very clever use of peridoic functions but I will not go into details here.
+Instead of using a fixed embedding, I let the transformer learn the positional embedding.
+
+Therefore, I transform the input ``idx`` into two vectors **positional embedding** and **token embedding**, which are **added** together.
 Note that our input ``idx`` is an array of numbers each representing the id of the token.
 Each number will be transformed into a specific vector (i.e. its embedding).
 The embedding will be learned.
@@ -332,11 +342,13 @@ class TransformerDecoder(nn.Module):
     
     def __init__(self, vocab_size, sequence_len, n_embd, n_heads, n_blocks, dropout):
         super().__init__()
+
         # vocab_size is the size of our alphabet
         self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
 
         # sequence_len is equal to n
         self.position_embedding_table = nn.Embedding(sequence_len, n_embd)
+
         self.blocks = nn.Sequential(
             *[Block(n_embd, n_heads, sequence_len, dropout) for _ in range(n_blocks)]
         )
@@ -365,6 +377,89 @@ However, this will rapidly increase the memory requirements and training time.
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="{% link /assets/images/decoder.png %}" alt="Decoder-only transformer">
 <div style="display: table;margin: 0 auto;">Figure 7: Our simplified decoder-only transformer.</div>
 </div>
+<br>
+
+Futhermore, it is very important to understand that what really matters is a **high-quality training dataset**!
+Of course, your model achitecture matters too, but your model can not learn what is not there.
+Additionally, the **musical representation** you feed into the transformer matters as well.
+In our case this representation, using basically piano rolls, is very simple.
+It does not contain any high level information such as the end of a bar, section, phrase or musical theme.
+We just hope that the transformer will eventually learn all these concepts.
+It is a active research question what impact a good musical representation has on the result the trained transformer generates.
+
+## Relative Positional Self-Attention
+
+So far our positional encoding was just a sequence of natural numbers $$0, 1, \ldots, n-1$$ and we used an embbedding which was added to the input, that is, the embedding of $$i$$ was added to the embedding of $$\mathbf{x}_i$$ of the input sequence.
+However, this encoding might not be optimal in the context of music where we tones, phrases, musical ideas and themes reapeat frequently.
+A relative position representation to allow attention to be informed by how far two positions are apart in a sequence might be much more effective.
+
+So, instead of learning the index of a token within a sequence we want the mode to learn relative distances between tokens.
+In other words, instead of learning the attention spent by token with index $$j$$ on $$i$$, that is, $$\alpha(\mathbf{x}_i, \mathbf{x}_j)$$ we want to compute an attention score based on the (directed) distance $$i-j$$.
+This concept was introduced by {% cite shaw:2018 %}.
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="{% link /assets/images/relative-attention.png %}" alt="Relative positional encoding">
+<div style="display: table;margin: 0 auto;">Figure 8: Relative positional encoding.</div>
+</div>
+<br>
+
+Note that if there are $$\mathcal{O}(n)$$ absolute positions $$0, 1, \ldots, n-1$$ then there are $$\mathcal{O}(n)$$ relative positions $$-(n-1), \ldots, -1, 0, 1,\ldots, n-1$$.
+The authors also introduce a maximal distance $$k$$ such that they only learn weights
+
+$$\mathbf{w}^{V}_{\text{clip}(i-j,k)} \text{ with } \text{clip}(x,k) = \max(-k, \min(k,x))$$
+
+Therefore, they learn relative position representations for the keys $$\mathbf{w}^K_{-k}, \ldots, \mathbf{w}^K_{k}$$ and for the values $$\mathbf{w}^V_{-k}, \ldots, \mathbf{w}^V_{k}$$.
+They introduce the relative position between $$\mathbf{x}_i$$ and $$\mathbf{x}_j$$ to be 
+
+$$\mathbf{a}_{ij} = \mathbf{w}_{\text{clip}(i-j,k)}$$
+
+Thus there are $$\mathcal{O}(n^2)$$ different such vectors but many share the same value.
+Of course, they drop the absolute positional encoding.
+And they adapt the **self-attention comuputation** from
+
+$$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.$$
+
+to
+
+$$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) (\mathbf{v}_i + \mathbf{a}^V_{ij}).$$
+
+and the computation of the similarity between **query** and **key** from 
+
+$$\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j)}{\sqrt{D_q}}$$
+
+to
+
+$$\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}}.$$
+
+Computation-wise the first manipulation can be easily achieved by adding a matrx $$\mathbf{A}$$ to $$\mathbf{V}$$.
+However, the second manipulation destroys parallelism, i.e. the possibility to compute everything by matrix-matrix multiplications.
+This can be mitigated by splitting the computation into two parts:
+
+$$\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}} = \frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j) + (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij}}{\sqrt{D_q}}$$
+
+## TODO
+
+Going back to the matrix form, this gives us
+
+$$\mathbf{Sa}(\mathbf{X}) = (\mathbf{V} + \mathbf{A}^V) \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q} + \mathbf{S}}{\sqrt{D_q} }\right).$$
+
+where $$\mathbf{S} = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij} + $$ involves 
+
+The first part is identical to what we had before and can be computed as described before.
+For the second term involving relative position representations, tensor reshaping can be used to compute $$n$$ parallel multiplications.
+The authors state that this caused a modest 7% decrease in steps per seconds on their machine.
+
+## The Music Transformer
+
+The Music Transformer {% cite huang:2018 %} was one of the first transformer utilized to generate symbolic music.
+Even if it was introduced five years ago (which is like a century in the AI-world) it is worth studying it.
+In the paper you find two different datasets 
+
+1. [J.S. Bach chorales dataset](https://github.com/czhuang/JSB-Chorales-dataset)
+2. [Piano-e-Competition dataset](https://www.piano-e-competition.com/)
+
+and they used an impressive sequence length of **2048-tokens**!
+They used GPUs for the training.
+With such a large number of token, one question arises: How did they manage to put 2000-tokens and all the respective matrices in the GPUs' memory?
 
 ## Attention-Free Transformer
 
