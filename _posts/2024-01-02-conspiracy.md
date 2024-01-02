@@ -370,9 +370,17 @@ Is it possible for us to, to some extent, accept that others may inhabit a diffe
 ## The Reality of the Climate Crisis
 
 The COVID-19 pandemic had a measurable positive effect on pollution levels---which did not last long.
-However, one could argue that it also had a negative impact on trust in institutions, especially scientific ones. 
+However, one could argue that it also had a negative impact on trust in institutions, especially scientific ones.
 This erosion of trust may ultimately hinder efforts to address the climate crisis.
 The ongoing debate regarding climate change's origins and the necessity of curbing CO2 and equivalent gas emissions continues to persist even if the scientific community is clear on the matter.
+
+It appears to me that COVID, combined with the rapid and highly polarizing consumption of "news" on social media, has fractured our social discourse. 
+The culture of dialogue has suffered, forcing individuals to align with one of two extreme sides. 
+It now seems impossible to critique one party without facing accusations of working for the other.
+The language we employ has become more moralizing. 
+Instead of characterizing people as simply incompetent, misled, misguided, or influenced by flawed incentives within a system, they are often labeled as evil. 
+This focus on the individual impedes progress in reforming social systems, which are in need of change to provide alternative incentives that prioritize social, ecological, and economic measures for all inhabitants of the planet.
+Part of the reality of the climate crisis is that we need trusted institutions that need to be aligned in a way that dealing with the crisis becomes possible.
 
 Emissions are not the only problems on our hand.
 Many ecological systems are on the bringe of collapse.
@@ -441,8 +449,10 @@ However, it's important to remember that while we encourage others to develop th
 
 ## Conclusion
 
-I have no intention of passing moral judgment on conspiracy theorists. Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
-Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience.
+I have no intention of passing moral judgment on conspiracy theorists. 
+Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
+Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. 
+Being a conspiracy theorist is generally not an enjoyable experience.
 
 Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is getting 'less real', the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society.
 Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs. 
@@ -450,11 +460,23 @@ As a result, we heavily rely on the concept of *second-order observation*, and t
 In our complex society, there is no shame in turning to experts and authorities, provided that their authority is derived from genuine competence. 
 However, it's crucial to subject these authorities to scrutiny and verification.
 
+Nothing in what I've stated here should be misconstrued as a defense of the political system. 
+Lobbyism, which sometimes is indistinguishable from outright corruption, represents a significant issue. 
+The consistent failure to fulfill promises, whether it be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous "conferences" like COP that, at this point, are merely part of a hope economy, offering a false and pacifying sense of hope.
+
+COP28 proved to be a disaster for the majority of the world's population.
+There was essentially no consensus on even the most basic measures. 
+No accord on phasing out fossil fuels, and not even a genuine commitment to promoting renewable energy. 
+The decision to have COP led by one of the world's largest oil and gas companies is, at this point, satirical if it were not true.
+In an assessment by journalist Jonathan Watts in The Guardian, the winners of the conference were identified as the oil and gas industry, the United States, China, COP28 President Sultan Al Jaber, the green energy sector, and lobbyists. 
+Conversely, the losers encompassed the climate, small island nations, climate justice, future generations, other species, and scientists.
+
 Nothing in what I've said here should be interpreted as a defense of the media for its issues, nor should it downplay the problem of increasing wealth inequality or any other ecological, social or economic problems. 
 Both, the mass media and the scientific system have their problems, but this doesn't negate their incredible value.
 
 Moreover, independent media outlets play a crucial role, but we must be under no illusion that the verification of information is becoming increasingly challenging. 
-Social media platforms present us with an overwhelming array of viewpoints, claims, and video content. With the ascent of generative artificial intelligence, the task of verifying this deluge of information becomes even more daunting.
+Social media platforms present us with an overwhelming array of viewpoints, claims, and video content. 
+With the ascent of generative artificial intelligence, the task of verifying this deluge of information becomes even more daunting.
 
 In contrast, conspiracy theorists do not bear the burden of this demanding verification process.
 They can simply draw upon fringe and unvalidated stories, presenting them in an entertaining, sensational style akin to news pornography.
