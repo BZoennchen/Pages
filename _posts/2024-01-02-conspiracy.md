@@ -441,6 +441,27 @@ According to Maturana, convincing someone can only happen when they develop thei
 This aspect is especially crucial to consider. 
 However, it's important to remember that while we encourage others to develop their convictions, we should also acknowledge our own unique and potentially flawed convictions and remain true to them if we are not convinced otherwise.
 
+There may be another reason for the denial of climate change: it provides an opportunity to oppose intellectual elites, who are perceived as hypocritical and arrogant. 
+To elaborate, in his book *Bullshit Jobs* {% cite graeber:2018 %}, David Graeber presents a hypothesis explaining why the political right in the US often supports the military while criticizing teachers and other social workers. 
+This occurs despite both groups---unlike hedge fund managers—performing---doing 'real' work that positively impacts society.
+
+Graeber argues that in our system, jobs with a tangible positive societal impact are often undervalued and poorly compensated, partly because these roles already offer the intrinsic reward of doing something meaningful. 
+Conversely, *bullshit jobs*, which achieve little or are outright useless, are often better compensated.
+These jobs typically involve managing other managers and offer little in terms of societal contribution. 
+Graeber supports his argument with qualitative reports from individuals who themselves believe their jobs serve no meaningful purpose. 
+This discrepancy leads to a situation where the pain of feeling useless is offset by a higher salary, while workers in more impactful roles are deprived of fair benefits.
+
+From his perspective, the intellectual elite are not only well-compensated but also engage in work that is perceived as both  interesting and meaningful, akin to being paid for a hobby. 
+This perceived privilege, coupled with the tendency of some intellectuals to look down on blue-collar workers, breeds strong resentment against them, including the scientific community. 
+Furthermore, for someone growing up in a working-class family, the perceived impossibility of breaking into this elite exacerbates the resentment, possibly even more than the resentment towards billionaires. 
+The notion is that, theoretically, anyone could become rich, but entering the intellectual elite seems far less attainable.
+
+Additionally, there is an entire industry centered around climate denial. 
+Our society has fostered an army of lobbyists whose primary aim is to actively sabotage progress in addressing climate issues. 
+In contrast to these deniers, scientists are required to rigorously justify every aspect of their research repeatedly and tend to be cautious about offering concrete advice. 
+Conversely, climate deniers merely need to sow seeds of doubt; their strategy revolves around raising questions rather than providing evidence-based answers. 
+This asymmetry in approach creates a challenging environment for advancing scientific understanding and consensus on climate change.
+
 >I think I do it always through stories, never through direct confrontation.
 >Because if you directly confront somebody who's thinking polar opposite to you, they don't really listen.
 >They are thinking of arguments to refute to. [...]
@@ -450,7 +471,11 @@ However, it's important to remember that while we encourage others to develop th
 ## Conclusion
 
 I have no intention of passing moral judgment on conspiracy theorists. 
+<<<<<<< HEAD
 Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
+=======
+Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit in most cases not a positive one.
+>>>>>>> 030edb7 (Build site at 2024-01-06 00:41:48 UTC)
 Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. 
 Being a conspiracy theorist is generally not an enjoyable experience.
 
