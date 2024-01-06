@@ -108,7 +108,7 @@ This leads to a kind of dissolution of the 'real' meaning behind objects.
 Accroding to Baudrillard, in the postmodern world, simulacra (e.g. images) have replaced the reality they once represented.
 In other words, our current reality is dominated by these simulacra---representations, images, and symbols---that no longer have any connection to any real objects or events they might have originally represented.
 Importantly, the simulacrum is not just covering up the truth or reality; it's not a mask over something real!
-What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality.
+What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality; we enter simulation.
 In other words, what we consider 'real' is just a construct of our perceptions and societal argreements.
 In our current postmodern state, the simulacrum has become the truth for us, because there is no other reality against which to measure it.
 
