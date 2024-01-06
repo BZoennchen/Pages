@@ -117,6 +117,7 @@ In our current postmodern state, the simulacrum has become the truth for us, bec
 
 Following Baudrillard's perspective, experiences such as a teenager's first kiss are no longer real in a sense that they express true love;
 instead, they are mere simulations of a Hollywood love story because these stories are the truth!
+Life imitates advertisement.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth but that the truth is simulation.
 People are fake but they are turthfully fake because being fake is the truth.
 That is the depressing and cynical viewpoint of Baudrillard.
