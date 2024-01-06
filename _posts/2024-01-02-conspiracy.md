@@ -7,13 +7,13 @@ tags:
     - Conspiracy Theories
 ---
 
-Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas, even if the topic is depressing. 
+Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
 Writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.
 
 In this piece, I attempt to draw connections between diverse topics: linking *The Matrix* with our current struggle to deal with the *climate crisis*, bridging the concept of *second-order observation* with Plato's *Allegory of the Cave*, and relating *conspiracy theories* to the notions of *complexity* and *contingency*.
 
-But first, let's have a definition for conspiracy theory taken from Joseph E. Uscinski:
+To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:
 
 >By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
 
@@ -21,17 +21,16 @@ But first, let's have a definition for conspiracy theory taken from Joseph E. Us
 
 *The Matrix* is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
 As a child, I fantasized about being *The One*, akin to the hacker Neo, who could hack the matrix. 
-The movie is famously inspired by French philosopher and theorist of postmodern media and culture Jean Baudrillard, especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
-The book makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients.
-Apart from its presence in the movie, *The Matrix* explores themes similar to those in *Simulacra and Simulation*.
-The actors were even reportedly required to read it.
+The movie is famously inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard, especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
+The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients and the actors were reportedly required to read it.
 
 Baudrillard focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
-Thinkers in the field of postmodern theory frequently hold different opinions. 
+Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: There are no all encompassing meta-narratives.
 For some, such as Niklas Luhmann, the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed {% cite luhmann:2000 %}. 
 Jean Baudrillard, a significant figure in this discussion, wasn't taken very seriously by the academic community.
 His writing style is polemical and his worldview extremely cynical. 
 Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society.
+Furthermore, he was highly influencial in the media and culture he studied.
 
 What particularly makes *The Matrix* fascinating in connection with Baudrillard is how the film embodies the type of pop-cultural phenomenon he often discussed in his philosophy.
 The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.
@@ -39,11 +38,11 @@ But did it succeed?
 
 When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
 He listens to music through headphones while lying on his desk, asleep. 
-This scene introduces the difficulty of distinguishing between a dream and reality---a concept discussed by Descartes---or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
+This scene introduces the difficulty of distinguishing between a dream and reality or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
 The abundance of disjointed information and excessive transparency makes it nearly impossible to organize the world and assign meaning to it.
 Faces transform into screens or terminals that passively absorb.
 
-In his early career, Jean Baudrillard aimed to merge Marxism with structuralism but eventually abandoned the former.
+In his early career, Baudrillard aimed to merge Marxism with structuralism but eventually abandoned the former.
 He applied structuralism in his analysis of *The System of Objects*. 
 Baudrillard theorized that the significance of commodities stems not primarily from their use or exchange value, but rather from their sign value. 
 In structuralism, the meaning of elements, such as words, doesn't derive from what they represent. 
@@ -62,11 +61,11 @@ According to Baudrillard, experiences such as a teenager's first kiss are no lon
 The problem is not a virtualized reality but a reality that is no longer distinguishable from simulation.
 The difference between the real and simulation dissolves.
 
-Even I love *The Matrix*, I have to assess that it did not succeed in capturing Baudrillard's themes.
+I love *The Matrix* but I have to assess that it did not succeed in capturing Baudrillard's main themes.
 The main problem is a clear line between simulation and reality; between the matrix and Zion.
 Rather than exploring the new problem of simulation, the movie falls back on the *Allegory of the Cave* presented in Plato's *Republic* and instead of investigating further questions, it solves the problem via religion---the analogy between Neo and a Christ-like figure in the third movie is undeniable.
 
-The *cave allegory* is a metaphor for exploring the nature of knowledge and reality.
+The *Allegory of the Cave* is a metaphor for exploring the nature of knowledge and reality.
 Plato imagined a group of people who lived their entire live chained inside a dark cave.
 The only thing they can see are the shadows projected on the wall of the cave by objects passing in front of a fire behind them. 
 These shadows are the only reality they know.
@@ -89,7 +88,7 @@ We can draw a neat parallel between Plato's *Allegory of the Cave* and the film 
 In this parallel, Morpheus takes on the role of guiding Neo (and others) out of the matrix---similar to leading prisoners out of the cave. 
 Neo learns to understand and manipulate the matrix on his terms, which parallels the ability to manipulate the shadows on the cave walls.
 
-In *The Matrix*, Neo is confronted with a crucial binary decision, symbolized by the choice between a red pill and a blue pill. 
+In *The Matrix*, Neo is confronted with a crucial binary decision, symbolized by the choice between a red and a blue pill. 
 As revealed in the sequels, this choice is, in itself, a part of a predetermined simulation---a much more Baudrillardian take.
 Morpheus presents Neo with this decision and advises him to trust his instinct that something is fundamentally wrong with the world. 
 This guidance emphasizes the importance of an emotional rather than a logical conclusion, steering Neo to follow his feelings in making this pivotal choice.
@@ -471,11 +470,7 @@ This asymmetry in approach creates a challenging environment for advancing scien
 ## Conclusion
 
 I have no intention of passing moral judgment on conspiracy theorists. 
-<<<<<<< HEAD
-Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
-=======
 Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit in most cases not a positive one.
->>>>>>> 030edb7 (Build site at 2024-01-06 00:41:48 UTC)
 Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. 
 Being a conspiracy theorist is generally not an enjoyable experience.
 
