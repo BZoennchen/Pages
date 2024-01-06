@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-01-06T02:11:10+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas, even if the topic is depressing. 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-01-06T02:29:37+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
 Writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.</p>
 
 <p>In this piece, I attempt to draw connections between diverse topics: linking <em>The Matrix</em> with our current struggle to deal with the <em>climate crisis</em>, bridging the concept of <em>second-order observation</em> with Plato’s <em>Allegory of the Cave</em>, and relating <em>conspiracy theories</em> to the notions of <em>complexity</em> and <em>contingency</em>.</p>
 
-<p>But first, let’s have a definition for conspiracy theory taken from Joseph E. Uscinski:</p>
+<p>To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:</p>
 
 <blockquote>
   <p>By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. – Joseph E. Uscinski</p>
@@ -14,17 +14,16 @@ The process of rethinking and reflecting can be invaluable.</p>
 
 <p><em>The Matrix</em> is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
 As a child, I fantasized about being <em>The One</em>, akin to the hacker Neo, who could hack the matrix. 
-The movie is famously inspired by French philosopher and theorist of postmodern media and culture Jean Baudrillard, especially by his book <em>Simulacra and Simulation</em> <a class="citation" href="#baudrillard:1983">(Baudrillard, 1983)</a>.
-The book makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients.
-Apart from its presence in the movie, <em>The Matrix</em> explores themes similar to those in <em>Simulacra and Simulation</em>.
-The actors were even reportedly required to read it.</p>
+The movie is famously inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard, especially by his book <em>Simulacra and Simulation</em> <a class="citation" href="#baudrillard:1983">(Baudrillard, 1983)</a>.
+The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients and the actors were reportedly required to read it.</p>
 
 <p>Baudrillard focused on analyzing what can be termed <em>postmodern media</em>, although postmodernity is challenging to define.
-Thinkers in the field of postmodern theory frequently hold different opinions. 
+Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: There are no all encompassing meta-narratives.
 For some, such as Niklas Luhmann, the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed <a class="citation" href="#luhmann:2000">(Luhmann, 2000)</a>. 
 Jean Baudrillard, a significant figure in this discussion, wasn’t taken very seriously by the academic community.
 His writing style is polemical and his worldview extremely cynical. 
-Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society.</p>
+Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society.
+Furthermore, he was highly influencial in the media and culture he studied.</p>
 
 <p>What particularly makes <em>The Matrix</em> fascinating in connection with Baudrillard is how the film embodies the type of pop-cultural phenomenon he often discussed in his philosophy.
 The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.
@@ -32,11 +31,11 @@ But did it succeed?</p>
 
 <p>When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
 He listens to music through headphones while lying on his desk, asleep. 
-This scene introduces the difficulty of distinguishing between a dream and reality—a concept discussed by Descartes—or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
+This scene introduces the difficulty of distinguishing between a dream and reality or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
 The abundance of disjointed information and excessive transparency makes it nearly impossible to organize the world and assign meaning to it.
 Faces transform into screens or terminals that passively absorb.</p>
 
-<p>In his early career, Jean Baudrillard aimed to merge Marxism with structuralism but eventually abandoned the former.
+<p>In his early career, Baudrillard aimed to merge Marxism with structuralism but eventually abandoned the former.
 He applied structuralism in his analysis of <em>The System of Objects</em>. 
 Baudrillard theorized that the significance of commodities stems not primarily from their use or exchange value, but rather from their sign value. 
 In structuralism, the meaning of elements, such as words, doesn’t derive from what they represent. 
@@ -55,11 +54,11 @@ According to Baudrillard, experiences such as a teenager’s first kiss are no l
 The problem is not a virtualized reality but a reality that is no longer distinguishable from simulation.
 The difference between the real and simulation dissolves.</p>
 
-<p>Even I love <em>The Matrix</em>, I have to assess that it did not succeed in capturing Baudrillard’s themes.
+<p>I love <em>The Matrix</em> but I have to assess that it did not succeed in capturing Baudrillard’s main themes.
 The main problem is a clear line between simulation and reality; between the matrix and Zion.
 Rather than exploring the new problem of simulation, the movie falls back on the <em>Allegory of the Cave</em> presented in Plato’s <em>Republic</em> and instead of investigating further questions, it solves the problem via religion—the analogy between Neo and a Christ-like figure in the third movie is undeniable.</p>
 
-<p>The <em>cave allegory</em> is a metaphor for exploring the nature of knowledge and reality.
+<p>The <em>Allegory of the Cave</em> is a metaphor for exploring the nature of knowledge and reality.
 Plato imagined a group of people who lived their entire live chained inside a dark cave.
 The only thing they can see are the shadows projected on the wall of the cave by objects passing in front of a fire behind them. 
 These shadows are the only reality they know.
@@ -82,7 +81,7 @@ Of course, it is the philosopher that seeks the truth (outside the cave) and the
 In this parallel, Morpheus takes on the role of guiding Neo (and others) out of the matrix—similar to leading prisoners out of the cave. 
 Neo learns to understand and manipulate the matrix on his terms, which parallels the ability to manipulate the shadows on the cave walls.</p>
 
-<p>In <em>The Matrix</em>, Neo is confronted with a crucial binary decision, symbolized by the choice between a red pill and a blue pill. 
+<p>In <em>The Matrix</em>, Neo is confronted with a crucial binary decision, symbolized by the choice between a red and a blue pill. 
 As revealed in the sequels, this choice is, in itself, a part of a predetermined simulation—a much more Baudrillardian take.
 Morpheus presents Neo with this decision and advises him to trust his instinct that something is fundamentally wrong with the world. 
 This guidance emphasizes the importance of an emotional rather than a logical conclusion, steering Neo to follow his feelings in making this pivotal choice.</p>
@@ -484,27 +483,9 @@ But if you still feel that you’re right, then you must have the courage of you
 <h2 id="conclusion">Conclusion</h2>
 
 <p>I have no intention of passing moral judgment on conspiracy theorists. 
-«««&lt; HEAD
-Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit not always a positive one.
-=======
-Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit in most cases not a positive one.</p>
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>030edb7 (Build site at 2024-01-06 00:41:48 UTC)
+Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit in most cases not a positive one.
 Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. 
 Being a conspiracy theorist is generally not an enjoyable experience.</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
 
 <p>Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is getting ‘less real’, the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society.
 Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs. 
@@ -566,7 +547,7 @@ Even if we all construct our own perspective on the world, the reality of the cl
 <li><span id="cook:2016">Cook, J., Oreskes, N., Doran, P. T., Anderegg, W. R. L., Verheggen, B., Maibach, E. W., Carlton, J. S., Lewandowsky, S., Skuce, A. G., Green, S. A., Nuccitelli, D., Jacobs, P., Richardson, M., Winkler, B., Painting, R., &amp; Rice, K. (2016). Consensus on consensus: a synthesis of consensus estimates on human-caused global warming. <i>Environmental Research Letters</i>, <i>11</i>(4), 048002. https://doi.org/10.1088/1748-9326/11/4/048002</span></li>
 <li><span id="cook:2013">Cook, J., Nuccitelli, D., Green, S. A., Richardson, M., Winkler, B., Painting, R., Way, R., Jacobs, P., &amp; Skuce, A. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. <i>Environmental Research Letters</i>, <i>8</i>(2), 024024. https://doi.org/10.1088/1748-9326/8/2/024024</span></li>
 <li><span id="doran:2009">Doran, P. T., &amp; Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. <i>Eos, Transactions American Geophysical Union</i>, <i>90</i>(3), 22–23. https://doi.org/https://doi.org/10.1029/2009EO030002</span></li>
-<li><span id="graeber:2018">Graeber, D. (2018). <i>Bullshit Jobs</i>. Simon &amp; Schuster.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas, even if the topic is depressing. Writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
+<li><span id="graeber:2018">Graeber, D. (2018). <i>Bullshit Jobs</i>. Simon &amp; Schuster.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
 It is recommended that you read part I and II first.
 This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
 An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
