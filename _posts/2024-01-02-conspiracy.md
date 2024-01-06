@@ -60,7 +60,7 @@ As a child, I fantasized about being *The One*, akin to the hacker Neo, who coul
 The movie is famously inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard (1929 -- 2007), especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
 The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients and the actors were reportedly required to read it.
 
-Baudrillard focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
+Baudrillard---the prophet of post-truth---focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
 Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: there are no all encompassing meta-narratives.
 For some, such as Niklas Luhmann (1927 -- 1998), the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed {% cite luhmann:2000 %}. 
 Jean Baudrillard, a significant figure in this discussion, wasn't taken very seriously by the academic community.
