@@ -5,6 +5,7 @@ description: An animation that can be categorized as pure generative art.
 image: animations/flake.png
 permalink: /works/snowflake/
 youtubeId: s7KU13ZpbmU
+video: snowflake.mp4
 ---
 
 # {{ page.title }}
@@ -28,4 +29,4 @@ For now, I must say it feels good to be back in a statically typed language afte
 
 I also used [ffmpeg](https://ffmpeg.org/) to create a smooth video:
 
-{% include youtubePlayer.html id=page.youtubeId %}
+{% include video.html video=page.video %}
