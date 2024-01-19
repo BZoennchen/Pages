@@ -72,6 +72,8 @@ What particularly makes *The Matrix* fascinating in connection with Baudrillard 
 The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.
 But did it succeed?
 
+### The Simularcum is True
+
 When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
 He listens to music through headphones while lying on his desk, asleep. 
 This scene introduces the difficulty of distinguishing between a dream and reality or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
@@ -97,7 +99,7 @@ Sign value is an object's value within a system of objects signifying, for examp
 Baudrillard, known for his cynical views, believed that objects have triumphed over subjects. 
 He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, *the code* has made every sign integratable thus also exchangeable.
 It is not that subjects or objects stand no longer for something 'real' but that the referent, that does not exist, disappeared.
-For example, in the Renaissance people or object appear to stand for a real referent that does not exist, for instance, royalty, nobility, holiness, etc.
+For example, in the Renaissance people or objects appear to stand for a real referent that does not exist, for instance, royalty, nobility, holiness, etc.
 According to Baudrillard, instead of disimulating something, now signs dissimulate that there is nothing.
 
 >The transition from signs which dissimulate something to signs which dissimulate that there is nothing, marks the decisive turning point. 
@@ -119,17 +121,21 @@ Following Baudrillard's perspective, experiences such as a teenager's first kiss
 instead, they are mere simulations of a Hollywood love story because these stories are the truth!
 Life imitates advertisement.
 This does not mean that there is no more love.
-However, behind the 'Hollywood love story' is nothing, it is true itself.
+However, there is nothing behind the 'Hollywood love story'---it is true itself.
 We are compelled to reproduce these images and to participate, even if we know or suspect it is all a simulation.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth but that the truth is simulation.
 People are fake but they are turthfully fake because being fake is the truth.
 That is the depressing and cynical viewpoint of Baudrillard.
 
+### Back to Plato
+
 I love *The Matrix* but I have to assess that it did not succeed in capturing Baudrillard's main themes.
 The main problem is a clear line between simulation and reality; between the matrix and Zion.
 The matrix clearly is not the truth but hides it.
-Rather than exploring the new problem of simulation, the movie falls back on the *Allegory of the Cave* presented in Plato's *Republic* and instead of investigating further questions, it solves the problem via religion---the analogy between Neo and a Christ-like figure in the third movie is undeniable.
-Thus *The Matrix* brings us back where it all started.
+Rather than exploring the new problem of simulation, the movie falls back on the *Allegory of the Cave* presented in Plato's *Republic*.
+Instead of investigating further questions, it postulates a true world behind the simulation by re-introducing religion.
+Thus *The Matrix* brings us back where it all started but, according to Baudrillard, this is no longer possible.
+In Baudrillard framework, the movie is itself the truth that hides the fact that there is none and therefore distracts the audience from acknowledging *hyperreality*.
 
 The *Allegory of the Cave* is a metaphor for exploring the nature of knowledge and reality.
 Plato imagined a group of people who lived their entire live chained inside a dark cave.
@@ -161,7 +167,7 @@ This guidance emphasizes the importance of an emotional rather than a logical co
 
 Once Neo makes his choice, the distinction between the matrix and reality is clear to him. 
 True love is still possible outside and even inside the matrix, even if it is predetermined.
-In a sense, the sign of simulation is re-integrated through the code.
+In a sense, the sign of simulation is re-integrated into the simulation itself.
 This reinterpretation highlights the film's exploration of reality, perception, and the nature of choice, themes that resonate with Plato's allegory but not with *Simulacra and Simulation*.
 Thus Baudrillard concludes:
 
@@ -176,10 +182,16 @@ Thus Baudrillard concludes:
 
 Now, what has this to do with *conspiracy theories*?
 Well, other than Baudrillard's theory of a reality that is simulation, the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to the matrix.
+One might discover that parts of reality, e.g. institutions, norms, moral judgements, ideologies, is constructed and that there has to be something real behind it.
+This suspicion of a matrix is not unfounded, however, believing in some absolut point of view behind it opens the door to confusion.
+We are in a cave but going outside might only lead to another cave.
+This does not mean that any cave is as useful, functional or equally connected to some underlying reality.
+Although not all interpretations of a text are equally meaningful, a good text offers numerous interesting and valuable interpretations and the same seems to be true of our *lifeworld*.
+
 Doubting reality---a known or presented world---is the starting point of any conspiracy theory.
 The perspective is compelling because it feeds the allure of knowing a secret, akin to Neo's experience in the matrix.
 Such knowledge is seen as something that sets an individual apart from 'the herd', giving them a sense of being special or enlightened.
-It is similar to some propagated *New Age* belief in some sort of special knowledge about the universe presented in movies like *The Secret*.
+It is similar to *New Age* beliefs in some sort of special knowledge about the universe presented in movies like *The Secret*.
 
 Belief in conspiracy theories appears to be driven by motives that can be characterized as epistemic (understanding one's environment), existential (being safe and in control of one's environment), and social (maintaining a positive image of the self and the social group) {% cite douglas:2017 %}.
 One important facet of conspiracy theories that often goes without much notice is that they are notions about power: who has it and how are they using it?
