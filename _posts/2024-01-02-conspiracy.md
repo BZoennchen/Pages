@@ -274,7 +274,7 @@ Essentially, these theories represent a futile effort to eliminate contingency a
 They attempt to provide a sense of certainty and understanding in a world that is inherently open, unpredictable and complex. 
 This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.
 
-## Escaping The Matrix?
+## Escaping the Matrix?
 
 The incorporation of expressions like 'escaping the matrix' and 'being red-pilled' into the vocabulary of conspiracy theory groups as metaphorical language is unsurprising.
 These terms, which originated from *The Matrix*, are used metaphorically to describe the experience of awakening to a hidden or suppressed truth.
