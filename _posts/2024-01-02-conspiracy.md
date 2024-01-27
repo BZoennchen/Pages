@@ -87,6 +87,10 @@ In structuralism, the meaning of elements, such as words, doesn't derive from wh
 For instance, teaching a child the word 'tree' isn't as simple as pointing to one and stating, "Look, this is a tree!"
 The child wouldn't know if 'tree' refers to that specific tree, its leaves, or a category of trees. 
 Understanding the word 'tree' requires knowledge of many other words and examining their relationships to 'tree'---their difference.
+Baudrillard argues that ina postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise and to place the individual in the position of consumer.
+As these signs are lifted out of the social, they lose all possibility of stable reference.
+They may be used for anything, for any purpose.
+All that remains is a yawning abyss of meaninglessness---a placeless surface that is incapable of holding personal identity, self, or society.
 
 Baudrillard believed that in a postmodern society, the meaning and value of an object are primarily defined by its relationship to other objects. 
 Apple products serve as a pertinent example. 
@@ -165,8 +169,20 @@ As revealed in the sequels, this choice is, in itself, a part of a predetermined
 Morpheus presents Neo with this decision and advises him to trust his instinct that something is fundamentally wrong with the world. 
 This guidance emphasizes the importance of an emotional rather than a logical conclusion, steering Neo to follow his feelings in making this pivotal choice.
 
-Once Neo makes his choice, the distinction between the matrix and reality is clear to him. 
+Once Neo makes his choice, the distinction between the matrix and reality is clear to him; it is a clear binary: reality and simulation.
 True love is still possible outside and even inside the matrix, even if it is predetermined.
+According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the thing in itself, and of course Nietzsche who tells us that there are only constructed values.
+Simualation is nothing bad or something to fear.
+It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity towards its own perfection.
+What Baudriallard feared is a world akin to the movie *Minority Report*.
+A world without reversability where everything is already decided in advance and there is no more place for ambiguity.
+The perfect simulation gets rid of illusions and imaginations; it is too real; it is *hyperreal*;
+Therefore, Baudriallard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e., pornography leads to the removal of all the wonderful illusions.
+Like the main character in *Jon Don* imagines pornographic content during sex because it is a perfect simulation; it is obscene.
+
+>Reality and simulation aren't opposed to one another. There are two sides of the same coin. -- Jean Baudrillard {% cite baudrillard:2008 %}
+
+With this in mind, if we reexamine *The Matrix* it becomes clear that Baudrillard would describe it to be a pretty good simulation of the matrix.
 In a sense, the sign of simulation is re-integrated into the simulation itself.
 This reinterpretation highlights the film's exploration of reality, perception, and the nature of choice, themes that resonate with Plato's allegory but not with *Simulacra and Simulation*.
 Thus Baudrillard concludes:
@@ -301,11 +317,9 @@ This understanding helps differentiate between plausible historical conspiracies
 If it exists, the matrix is not a planned construction of anybody but a Baudrillardian process beyond anyones control.
 
 In addition, it's important to recognize that the world is inherently unjust. 
-Justice, as Hegel argued, is a human concept, one that evolves over time as we make progress. 
-However, in the realm of nature, there is no concept of justice; nature operates without morality. 
-Nietzsche, in his work *Human, All Too Human* {% cite nietzsche:1878 %}, characterizes justice as a form of fairness and connects it to the concept of power.
-
->Thus justice is repayment and exchange on the assumption of an approximately equal power position; revenge originally belongs in the domain of justice, being an exchange. Gratitude, too. -- Friedrich Nietzsche
+Justice is a human concept, one that evolves over time as we make what we call progress. 
+However, in the realm of nature, there is no concept of justice at least none I am aware of;
+nature operates outside of morality.
 
 I'm uncertain if I can endorse his claim, as it implies that the least powerful in society will inevitably always be deprived of justice. 
 However, it is indeed accurate to acknowledge that absolute justice remains elusive, and there exists a significant amount of injustice in the world.
@@ -543,43 +557,81 @@ This asymmetry in approach creates a challenging environment for advancing scien
 
 ## Conclusion
 
-I have no intention of passing moral judgment on conspiracy theorists. 
-Conspiracy theories represent a social phenomenon that can sometimes serve a purpose, albeit in most cases not a positive one.
-Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. 
-Being a conspiracy theorist is generally not an enjoyable experience.
+What I wanted to emphasize is the idea that we are constantly existing within a simulation, relying on second-order observation. 
+The root cause of descending into the rabbit hole may not be a detachment from reality but rather an attachment to certainty. 
+Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
+According to him, we cannot escape our simulation; certainty exists only in a pure form of simulation. 
+In a constructivist sense, we cannot access the absolute true reality (the thing in itself) because it is always already mediated.
+If we cannot accept this fundamental ambiguity of our reality (by which Baudrillard does not mean physical reality but that which is intelligible via signs), we run the risk of constructing the one and only reality, i.e., hegemony.
+Since this realm does not allow contradictions, it tends to integrate everything, including disasters, into it.
 
-Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is getting 'less real', the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society.
-Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs. 
-As a result, we heavily rely on the concept of *second-order observation*, and there is no shame in acknowledging this fact.
-In our complex society, there is no shame in turning to experts and authorities, provided that their authority is derived from genuine competence. 
-However, it's crucial to subject these authorities to scrutiny and verification.
+Contradictions form the very foundation of our environment. 
+We perceive the reality of nature when it manifests as a non-human force of destruction, such as a natural disaster or a pandemic. 
+What occurs is incomprehensible. 
+In hyperreality, nature ceases to be a conflicting force and becomes merely an element within the simulation---a floating sign. 
+Destruction transforms into a calculated event.
+Displaying graphs of death tolls repeatedly can be interpreted as an effort to reintegrate death (arguably the greatest contradiction of all) into the simulation.
+The negative, along with contradictions, is either integrated or discriminated against.
+Wars, natural disasters, and pandemics metamorphose into a spectacle on the television screen, a tourist attraction for our theme park, and are more disastrous than the disaster, more natural than nature---in short, a perfect simulation that surpasses and supplants reality.
+
+In a postmodern society, the absence of any central value system and firm, objective evaluative guides tends to create a demand for substitutes. 
+These substitutes are symbolically created rather than being actual or socially produced. 
+The need for these symbolic group tokens results in tribal politics and defines self-constructing practices that are collectivized but not socially produced. 
+These neo-tribes function solely as imagined communities and, unlike their premodern namesake, exist only in symbolic form through the commitment of individual 'members' to the idea of an identity. 
+They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition.
+
+Therefore, I have no intention of passing moral judgment on conspiracy theorists.
+One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for the hyperreal.
+Baudrillard argues that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
+Disneyland is more real than America.
+Conspiracy theories operate similarly; they are pure simulations and, in this regard, true. 
+The outsider is convinced of his or her reality, and the contradictory nature of these theories is not contradictory for him or her. 
+Instead, (obvious) contradictions are necessary to make the theory hyperreal. 
+The suspicion of the theorists is not unreasonable, but their conclusion is fatal---they demand a simple metanarrative and cannot see that this can only be another far more harmful simulation.
+We should also not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
+
+Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is becoming 'less real,' the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society. 
+Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs.
+As a result, we heavily rely on the concept of second-order observation, and there is no shame in acknowledging this fact.
+In our complex society, there is no shame in turning to experts and authorities, provided that their authority is derived from genuine competence. However, it's crucial to subject these authorities to scrutiny and verification.
 
 Nothing in what I've stated here should be misconstrued as a defense of the political system. 
-Lobbyism, which sometimes is indistinguishable from outright corruption, represents a significant issue. 
-The consistent failure to fulfill promises, whether it be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a hope economy---offering a false and pacifying sense of hope---fuel the distrust in institutions, and I am one of those losing it.
+Lobbyism, which is sometimes indistinguishable from outright corruption, represents a significant issue. 
+The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a hope economy---offering a false and pacifying sense of hope—fuels the distrust in institutions, and I am one of those losing it.
 
-COP28 proved to be a disaster for the majority of the world's population.
+COP28 proved to be a disaster for the majority of the world's population. 
 There was essentially no consensus on even the most basic measures. 
 No accord on phasing out fossil fuels, and not even a genuine commitment to promoting renewable energy. 
 The decision to have COP led by one of the world's largest oil and gas companies is, at this point, satirical if it were not true.
-In an assessment by journalist Jonathan Watts in The Guardian, the winners of the conference were identified as the oil and gas industry, the United States, China, COP28 President Sultan Al Jaber, the green energy sector, and lobbyists. 
-Conversely, the losers encompassed the climate, small island nations, climate justice, future generations, other species, and scientists.
+In an assessment by journalist Jonathan Watts in The Guardian, the winners of the conference were identified as the oil and gas industry, the United States, China, COP28 President Sultan Al Jaber, the green energy sector, and lobbyists. Conversely, the losers encompassed the climate, small island nations, climate justice, future generations, other species, and scientists.
 
-Nothing in what I've said here should be interpreted as a defense of the media for its issues, nor should it downplay the problem of increasing wealth inequality or any other ecological, social or economic problems. 
-Both, the mass media and the scientific system have their problems, but this doesn't negate their incredible value.
-
+Nothing in what I've said here should be interpreted as a defense of the media for its issues, nor should it downplay the problem of increasing wealth inequality or any other ecological, social, or economic problems.
+Both mass media and the scientific system have their problems, but this doesn't negate their incredible value.
 Moreover, independent media outlets play a crucial role, but we must be under no illusion that the verification of information is becoming increasingly challenging. 
-Social media platforms present us with an overwhelming array of viewpoints, claims, and video content. 
-With the ascent of generative artificial intelligence, the task of verifying this deluge of information becomes even more daunting.
+Social media platforms present us with an overwhelming array of viewpoints, claims, and video content. With the ascent of generative artificial intelligence, the task of verifying this deluge of information becomes even more daunting.
+The power of the image is indeed huge. 
+The blurred line between hyperreality and lower forms of simulations makes it difficult to navigate through the mass of information. In contrast, conspiracy theorists do not bear the burden of a demanding verification process. 
+They can simply draw upon fringe and unvalidated stories, presenting them in an entertaining, sensational style akin to news pornography. 
+They can use the power of high-order simulacra which are disconnected from the real.
 
-In contrast, conspiracy theorists do not bear the burden of this demanding verification process.
-They can simply draw upon fringe and unvalidated stories, presenting them in an entertaining, sensational style akin to news pornography.
+Believing in a conspiracy theory is akin to being the prisoner in Plato's cave, presuming that everyone else is, in fact, in prison. 
+It is the belief in something outside of simulation.
+The most effective remedy is to harbor doubts about our own competence, to be skeptical of ourselves, to maintain self-awareness at a metacognitive level, and to be able to live in a contradictory world and recognize those contradictions.
+These contradictions live on the borders of hyperreality---in slums, cobalt mines, the streets of New York City, the border of Mexico, the forests of the European sea, refugee camps, and the 'ugly' parts of the world.
+However, the spectacle of disasters makes the individual insignificant.
 
-Believing in a conspiracy theory is akin to being the prisoner in Plato's cave, presuming that everyone else is in fact in prison.
-The most effective remedy is to harbor doubts about our own competence, to be skeptical of ourselves, and to maintain self-awareness at a metacognitive level. 
-The goal is not merely to be smart but to be wise.
-In the case of the climate crisis there is no room for alternative truths.
-Even if we all construct our own perspective on the world, the reality of the climate crisis will not disappear if we stop believing in it.
+Now, I am not sure if I can agree with the cynical viewpoint of Baudrillard. 
+His overly dramatic and playful writings are interesting but also contradictory, probably by design.
+He would probably be horrified at our attempt to [simulate the whole earth](https://blogs.nvidia.com/blog/earth-2-supercomputer/) to predict and control our future. 
+But how else can we deal with an open, unpredictable future other than the pursuit of more and more accurate predictions? Esposito asks if this future will still be open {% cite esposito:2024 esposito:2023 %}.
+
+We have reached an alarming point at which millions of people can no longer discriminate between hyperreality and reality. 
+That which cannot be simulated disappears. 
+There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
+In the case of the climate crisis, there is no room for alternative truths.
+The reality of the crisis will eventually bleed into the hyperreal.
+Will we be able to give it symbolic meaning, or will it be integrated into the void filled with media and electronic simulations? 
+Even if we all construct our own perspective on the world, the (physical) reality of the climate crisis will not disappear if we stop believing in it.
 
 ## References
 
