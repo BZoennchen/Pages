@@ -581,7 +581,7 @@ These neo-tribes function solely as imagined communities and, unlike their premo
 They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition.
 
 Therefore, I have no intention of passing moral judgment on conspiracy theorists.
-One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for the hyperreal.
+One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for the hyperreality.
 Baudrillard argues that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
 Conspiracy theories operate similarly; they are pure simulations and, in this regard, true. 
@@ -591,13 +591,14 @@ The suspicion of the theorists is not unreasonable, but their conclusion is fata
 We should also not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
 
 Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is becoming 'less real,' the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society. 
-Our modern world is so complex that it is virtually impossible for any single individual to comprehensively understand all that occurs.
+Our modern world is so complex that it is virtually impossible for any single individual to comprehensively make sense all that occurs.
 As a result, we heavily rely on the concept of second-order observation, and there is no shame in acknowledging this fact.
-In our complex society, there is no shame in turning to experts and authorities, provided that their authority is derived from genuine competence. However, it's crucial to subject these authorities to scrutiny and verification.
+Turning to experts and authorities, provided that their authority is derived from genuine competence, is necessary. 
+However, it's crucial to subject these authorities to scrutiny and verification.
 
 Nothing in what I've stated here should be misconstrued as a defense of the political system. 
 Lobbyism, which is sometimes indistinguishable from outright corruption, represents a significant issue. 
-The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a hope economy---offering a false and pacifying sense of hope—fuels the distrust in institutions, and I am one of those losing it.
+The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a *hope economy*---offering a false and pacifying sense of hope--- that fuels the distrust in institutions.
 
 COP28 proved to be a disaster for the majority of the world's population. 
 There was essentially no consensus on even the most basic measures. 
@@ -629,7 +630,7 @@ We have reached an alarming point at which millions of people can no longer disc
 That which cannot be simulated disappears. 
 There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
 In the case of the climate crisis, there is no room for alternative truths.
-The reality of the crisis will eventually bleed into the hyperreal.
+The reality of the crisis will eventually bleed into hyperreality.
 Will we be able to give it symbolic meaning, or will it be integrated into the void filled with media and electronic simulations? 
 Even if we all construct our own perspective on the world, the (physical) reality of the climate crisis will not disappear if we stop believing in it.
 
