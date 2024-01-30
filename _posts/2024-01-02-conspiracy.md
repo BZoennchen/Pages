@@ -11,9 +11,9 @@ Diverging from my area of expertise is always a risky endeavor, but since this i
 Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.
 
-In this piece, I aim to explore various aspects by drawing connections myself, linking the movie *The Matrix*, Plato's *Allegory of the Cave*, and *conspiracy theories*. 
+In this piece, I aim to explore various aspects by drawing connections myself, linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*. 
 Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*. 
-I will relate this skepticism to the notions of *complexity* and *contingency*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
+I will relate this skepticism to the notions of *complexity*, *contingency* and *hyperreality*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
 Through these connections, I hope to shed light on the interplay between our perception of reality, the challenges of understanding complex systems, and our responses to global issues.
 
 To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:
@@ -29,7 +29,7 @@ The shock and uncertainty that the Western world experienced after these events,
 These 'documentaries' were not only entertaining, but they also sparked my interest in geopolitics, the history of religion, history in general, and even philosophy. 
 They managed to make historical events captivating, and I often wished that my history classes were similarly engaging.
 Fortunately, I never embraced the logic presented in these films; for me, they remained within the realm of entertainment but I could see how easy it is to fall for them on an emotional level.
-Interestingly, years later, when a real plot unfolded to deceive the public (and other nations) into supporting the war in Iraq, there was no corresponding emergence of conspiracy theories like those seen previously.
+Interestingly, years later, when a real plot unfolded to deceive the public (and other nations) into supporting the war against Iraq, there was no corresponding emergence of conspiracy theories like those seen previously.
 
 During the pandemic, I observed a repetition of history in the form of similar documentaries emerging, and I became interested in how they were designed and how they relate to the conspiratorial 'documentaries' I encountered in my childhood. Indeed, they bore striking similarities.
 
@@ -45,15 +45,15 @@ Consequently, it was no surprise to me that at the protests against COVID-19 res
 This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (postmodern) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
 I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.
 
-For example, it is far to easy to make fun of people believing in mythologies.
+It is far to easy to make fun of people believing in mythologies.
 In an objective scientific sense, myths are eihter false or unfalsifiable.
-However, socially they can be very useful adn very powerful.
+However, socially they can be very useful and powerful.
 They explain experience.
 A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
-One can say that they serve a useful purpose, particularly in politics.
+They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
+Here, spirituality plays an important role, be in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
 
-Here, spirituality plays an important role, be it *Siegfried the dragonslayer*, Achilleus *the greatest of all the Greek wariors* or Donald Trump *the warrior King*.
 I believe that spirituality is a significant aspect of life and is deeply intertwined with philosophy, a field that ideally should stand in stark contrast to conspiratorial thinking.
 This raises an intersting question: where does the connection lie?
 Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
@@ -64,40 +64,43 @@ While philosophy seeks to understand the nature of reality and existence, conspi
 This similarity in seeking comprehensive understandings can blur the lines between philosophical inquiry and the development of overarching conspiratorial narratives.
 The difference here seem to be that duo to their mythological structure, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
 
-If one values reasoning, myth can be very dangerous.
+If one values reasoning, myths can be very dangerous.
 They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
 Instead of delivering arguments, they short-circuit the entire argumentative process.
-Myth do not make logical claims but significations {% cite barthes:1973 %}.
+Myths do not make logical claims but significations {% cite barthes:1973 %}.
 For example, calling someone *a snake* is not a logical conclusion but signifies deceptive behaviour.
 Real snakes, of course, are not significantly more or less deceptive than any other animal.
 But mythological snakes often are and calling someone a snake can be a powerful gesture in our culture.
 
 >Poetry feeds and waters the passions instead of drying them up; she lets them rule, although they ought to be controlled, if mankind are ever to increase in happiness and virtue. -- Socrates
 
-If Trump speaks of *America* or our far right-wingers speak of Germany, they do not mean literal countries.
+If Trump speaks of *America* or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
 To critique their definition as being racist, irrational, exclusive, inhumane, disastrous only demontrate to them that you are of 'the them'; that you are jealous that they won.
-An effective myth is a self-contained world of signs were everythin has a marked position making it very hard to signify otherwise with a believer.
+An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
 ## The Matrix and the Cave
 
 *The Matrix* is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
 As a child, I fantasized about being *The One*, akin to the hacker Neo, who could hack the matrix. 
-The movie is famously inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard (1929 -- 2007), especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
+Interestingly, the movie is inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard (1929 -- 2007), especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
 The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients and the actors were reportedly required to read it.
 
 Baudrillard---the prophet of post-truth---focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
 Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: there are no all encompassing meta-narratives.
 For some, such as Niklas Luhmann (1927 -- 1998), the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed {% cite luhmann:2000 %}. 
-Jean Baudrillard, a significant figure in this discussion, wasn't taken very seriously by the academic community.
+But back to Baudrillard.
+
+He was an interesting figure but not taken very seriously by the academic community.
 His writing style is polemical and his worldview extremely cynical. 
-Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society.
-Furthermore, he was highly influencial in the media and culture he studied.
+Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society today.
+In many sense, he was ahead of his time and highly influencial in the media and culture he studied.
 
 What particularly makes *The Matrix* fascinating in connection with Baudrillard is how the film embodies the type of pop-cultural phenomenon he often discussed in his philosophy.
 The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.
-But did it succeed?
+Furthermore, Baudrillard was still alive when the movie hit the theatre.
+So, did it succeed in bringing his theory to the big screen?
 
 ### The Simularcum is True
 
@@ -114,7 +117,7 @@ In structuralism, the meaning of elements, such as words, doesn't derive from wh
 For instance, teaching a child the word 'tree' isn't as simple as pointing to one and stating, "Look, this is a tree!"
 The child wouldn't know if 'tree' refers to that specific tree, its leaves, or a category of trees. 
 Understanding the word 'tree' requires knowledge of many other words and examining their relationships to 'tree'---their difference.
-Baudrillard argues that ina postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise and to place the individual in the position of consumer.
+Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise and to place the individual in the position of a consumer.
 As these signs are lifted out of the social, they lose all possibility of stable reference.
 They may be used for anything, for any purpose.
 All that remains is a yawning abyss of meaninglessness---a placeless surface that is incapable of holding personal identity, self, or society.
@@ -139,7 +142,7 @@ According to Baudrillard, instead of disimulating something, now signs dissimula
  
 This leads to a kind of dissolution of the 'real' meaning behind objects.
 Accroding to Baudrillard, in the postmodern world, simulacra (e.g. images) have replaced the reality they once represented.
-In other words, our current reality is dominated by these simulacra---representations, images, and symbols---that no longer have any connection to any real objects or events they might have originally represented.
+In other words, our current reality is dominated by these simulacra---representations, images, and symbols---that no longer have any connection to any real object or event they might have originally represented.
 Importantly, the simulacrum is not just covering up the truth or reality; it's not a mask over something real!
 What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality; we enter simulation.
 In other words, what we consider 'real' is just a construct of our perceptions and societal argreements.
@@ -153,15 +156,16 @@ instead, they are mere simulations of a Hollywood love story because these stori
 Life imitates advertisement.
 This does not mean that there is no more love.
 However, there is nothing behind the 'Hollywood love story'---it is true itself.
+
 We are compelled to reproduce these images and to participate, even if we know or suspect it is all a simulation.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth, but that the truth is simulation.
 People are fake but they are turthfully fake because being fake is the truth.
-That is the depressing and cynical viewpoint of Baudrillard.
 
 >[...] pretending [...] leaves the principle of reality intact: the difference is always clear, it is simply masked, whereas simulation threatens the difference between the 'true' and the 'false', the 'real' and the 'imaginary'. -- Jean Baudrillard
 
 When more and more simulacra transform into simulation we enter the matrix.
-Pictures of ourselves no longer represent us, or us pretending to be someone else, but they are a simulation of some specific and often stereotypical fantasy that has no reference to something real.
+Pictures of ourselves no longer represent us, or us pretending to be someone else, but they are a simulation of some specific and often stereotypical fantasy that has no reference to something real other than different parts of the code.
+That is the depressing and cynical viewpoint of Baudrillard.
 
 ### Back to Plato
 
@@ -203,16 +207,17 @@ This guidance emphasizes the importance of an emotional rather than a logical co
 
 Once Neo makes his choice, the distinction between the matrix and reality is clear to him; it is a clear binary: reality and simulation.
 True love is still possible outside and even inside the matrix, even if it is predetermined.
-According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the thing in itself, and of course Nietzsche who tells us that there are only constructed values.
+According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the thing in itself, and of course Nietzsche, who tells us that there are only constructed values.
 Simualation is nothing bad or something to fear.
 It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity towards its own perfection.
 What Baudrillard feared is a world akin to the movie *Minority Report*.
 A world without reversability where everything is already decided in advance and there is no more place for ambiguity.
 The perfect simulation gets rid of illusions and imaginations; it is too real; it is *hyperreal*;
-Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e., pornography leads to the removal of all the wonderful illusions.
-Like the main character in *Jon Don* imagines pornographic content during sex because it is a perfect simulation; it is obscene.
+Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e. pornography, leads to the removal of sexuality and intimacy.
+This is thematized in *Jon Don* where the main character imagines pornographic content during sex and needs to learn how to be intimate.
 
->Reality and simulation aren't opposed to one another. There are two sides of the same coin. -- {% cite baudrillard:2008 %}
+>Reality and simulation aren't opposed to one another. 
+>There are two sides of the same coin. -- {% cite baudrillard:2008 %}
 
 With this in mind, if we reexamine *The Matrix* it becomes clear that Baudrillard would describe it to be a pretty good simulation of the matrix.
 In a sense, the sign of simulation is re-integrated into the simulation itself.
@@ -658,13 +663,13 @@ His overly dramatic and playful writings are interesting but also contradictory,
 He would probably be horrified at our attempt to [simulate the whole earth](https://blogs.nvidia.com/blog/earth-2-supercomputer/) to predict and control our future. 
 But how else can we deal with an open, unpredictable future other than the pursuit of more and more accurate predictions? Esposito asks if this future will still be open {% cite esposito:2024 esposito:2023 %}.
 
-We have reached an alarming point at which millions of people can no longer discriminate between hyperreality and reality. 
-That which cannot be simulated disappears. 
+We have reached an alarming point at which millions of people can no longer discriminate between reality and hyperreality. 
+That which cannot be simulated seems to disappear. 
 There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
 In the case of the climate crisis, there is no room for alternative truths.
-The reality of the crisis will eventually bleed into hyperreality.
-Will we be able to give it symbolic meaning, or will it be integrated into the void filled with media and electronic simulations? 
-Even if we all construct our own perspective on the world, the (physical) reality of the climate crisis will not disappear if we stop believing in it.
+Sooner or later the reality of the crisis will eventually bleed into hyperreality.
+Will we be able to give it symbolic meaning, or will it be re-integrated into the void filled with media and simulations? 
+Even if we construct our own perspective on the world, the physical reality of the climate crisis will not disappear if we stop believing in it.
 
 ## References
 
