@@ -35,7 +35,7 @@ During the pandemic, I observed a repetition of history in the form of similar d
 
 Apart from the obvious parallels, such as misrepresentation and drawing connections between completely unrelated events, there were also more bizarre links.
 For instance, these documentaries often incorporate some form of spiritual concept, promising a return to or discovery of a 'true self', an 'inner peace' or a 'forgotten innocence'. 
-For example, the *Zeitgeist* series uses a speech from the Indian philosopher Jiddu Krishnamurti (1895-1986) but only as an emotional device:
+For example, the *Zeitgeist* series uses a speech from the Indian philosopher Jiddu Krishnamurti (1895 -- 1986) but only as an emotional device:
 
 >We will see how very important it is to bring about in the human mind the radical revolution.
 >The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
@@ -201,10 +201,10 @@ True love is still possible outside and even inside the matrix, even if it is pr
 According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the thing in itself, and of course Nietzsche who tells us that there are only constructed values.
 Simualation is nothing bad or something to fear.
 It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity towards its own perfection.
-What Baudriallard feared is a world akin to the movie *Minority Report*.
+What Baudrillard feared is a world akin to the movie *Minority Report*.
 A world without reversability where everything is already decided in advance and there is no more place for ambiguity.
 The perfect simulation gets rid of illusions and imaginations; it is too real; it is *hyperreal*;
-Therefore, Baudriallard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e., pornography leads to the removal of all the wonderful illusions.
+Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e., pornography leads to the removal of all the wonderful illusions.
 Like the main character in *Jon Don* imagines pornographic content during sex because it is a perfect simulation; it is obscene.
 
 >Reality and simulation aren't opposed to one another. There are two sides of the same coin. -- Jean Baudrillard {% cite baudrillard:2008 %}
