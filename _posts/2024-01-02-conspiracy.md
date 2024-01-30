@@ -158,7 +158,7 @@ Critically, the problem (if it is in fact one) is not a virtualized reality that
 People are fake but they are turthfully fake because being fake is the truth.
 That is the depressing and cynical viewpoint of Baudrillard.
 
->[...] pretending [...] leaves the principle of reality intact: the difference is always clear, it is simply masked, whereas simulation threatens the difference between the 'true' and the 'false', the 'real' and the 'imaginary'. -- Baudrillard
+>[...] pretending [...] leaves the principle of reality intact: the difference is always clear, it is simply masked, whereas simulation threatens the difference between the 'true' and the 'false', the 'real' and the 'imaginary'. -- Jean Baudrillard
 
 When more and more simulacra transform into simulation we enter the matrix.
 Pictures of ourselves no longer represent us, or us pretending to be someone else, but they are a simulation of some specific and often stereotypical fantasy that has no reference to something real.
@@ -212,7 +212,7 @@ The perfect simulation gets rid of illusions and imaginations; it is too real; i
 Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e., pornography leads to the removal of all the wonderful illusions.
 Like the main character in *Jon Don* imagines pornographic content during sex because it is a perfect simulation; it is obscene.
 
->Reality and simulation aren't opposed to one another. There are two sides of the same coin. -- Jean Baudrillard {% cite baudrillard:2008 %}
+>Reality and simulation aren't opposed to one another. There are two sides of the same coin. -- {% cite baudrillard:2008 %}
 
 With this in mind, if we reexamine *The Matrix* it becomes clear that Baudrillard would describe it to be a pretty good simulation of the matrix.
 In a sense, the sign of simulation is re-integrated into the simulation itself.
