@@ -8,8 +8,19 @@ tags:
 ---
 
 Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
-Writing helps in transforming the mess into a structured and coherent concept. 
+Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.
+
+In this piece, I aim to explore various aspects by drawing connections myself, linking the movie *The Matrix*, Plato's *Allegory of the Cave*, and *conspiracy theories*. 
+Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*. 
+I will relate this skepticism to the notions of *complexity* and *contingency*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
+Through these connections, I hope to shed light on the interplay between our perception of reality, the challenges of understanding complex systems, and our responses to global issues.
+
+To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:
+
+>By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
+
+## Mythology and Conspiracy Theories
 
 The phenomena of conspiracy theories hunts me since the terror attacks of 9/11 happened back when I was a child.
 I remember watching the *Zeitgeist* series, which linked various conspiracy theories involving religion, the September 11 attacks and the financial sector.
@@ -20,38 +31,54 @@ They managed to make historical events captivating, and I often wished that my h
 Fortunately, I never embraced the logic presented in these films; for me, they remained within the realm of entertainment but I could see how easy it is to fall for them on an emotional level.
 Interestingly, years later, when a real plot unfolded to deceive the public (and other nations) into supporting the war in Iraq, there was no corresponding emergence of conspiracy theories like those seen previously.
 
-During the pandemic, I observed a repetition of history in the form of similar documentaries emerging, and I became interested in how they were designed and how they related to the conspiratorial 'documentaries' I encountered in my childhood. Indeed, they bore striking similarities.
+During the pandemic, I observed a repetition of history in the form of similar documentaries emerging, and I became interested in how they were designed and how they relate to the conspiratorial 'documentaries' I encountered in my childhood. Indeed, they bore striking similarities.
 
 Apart from the obvious parallels, such as misrepresentation and drawing connections between completely unrelated events, there were also more bizarre links.
-For instance, these documentaries often incorporate some form of spiritual concept, promising a return to or discovery of a 'true self' or 'inner peace'. 
-For example, the *Zeitgeist* series uses a speech from the Indian philosopher Jiddu Krishnamurti (1895-1986) (without really going into his teachings):
+For instance, these documentaries often incorporate some form of spiritual concept, promising a return to or discovery of a 'true self', an 'inner peace' or a 'forgotten innocence'. 
+For example, the *Zeitgeist* series uses a speech from the Indian philosopher Jiddu Krishnamurti (1895-1986) but only as an emotional device:
 
 >We will see how very important it is to bring about in the human mind the radical revolution.
 >The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
 >And considering what the world is now with all the misery, conflict, destructive brutality, aggresion, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. -- Jiddu Krishnamurti
 
 Consequently, it was no surprise to me that at the protests against COVID-19 restrictions and at QAnon gatherings, there was a peculiar blend of people, including everyone from right-wingers to faith healers.
-This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for a good (postmodern) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a myth one can live by.
+This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (postmodern) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
 I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.
 
-However, there is a tendency, which is interesting.
+For example, it is far to easy to make fun of people believing in mythologies.
+In an objective scientific sense, myths are eihter false or unfalsifiable.
+However, socially they can be very useful adn very powerful.
+They explain experience.
+A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
+One can say that they serve a useful purpose, particularly in politics.
+They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
+
+Here, spirituality plays an important role, be it *Siegfried the dragonslayer*, Achilleus *the greatest of all the Greek wariors* or Donald Trump *the warrior King*.
 I believe that spirituality is a significant aspect of life and is deeply intertwined with philosophy, a field that ideally should stand in stark contrast to conspiratorial thinking.
 This raises an intersting question: where does the connection lie?
 Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
 
 First of all, there is a strong relation between philosphy, religion and spirituality, e.g. between Platonism and Christianity.
-Furthermore, in my view, there are similarities between *metaphysics* and the construction of a grand conspiratorial theory that attempts to explain everything. 
+Furthermore, in my view, there are similarities between *metaphysics* and the construction of a grand conspiratorial theory (or myths) that attempts to explain everything. 
 While philosophy seeks to understand the nature of reality and existence, conspiracy theories often attempt to provide all-encompassing explanations for complex events or phenomena. 
 This similarity in seeking comprehensive understandings can blur the lines between philosophical inquiry and the development of overarching conspiratorial narratives.
+The difference here seem to be that duo to their mythological structure, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
 
-In this piece, I aim to explore various aspects by drawing connections myself, linking the movie *The Matrix*, Plato's *Allegory of the Cave*, and *conspiracy theories*. 
-Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*. 
-I will relate this skepticism to the notions of *complexity* and *contingency*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
-Through these connections, I hope to shed light on the interplay between our perception of reality, the challenges of understanding complex systems, and our responses to global issues.
+If one values reasoning, myth can be very dangerous.
+They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
+Instead of delivering arguments, they short-circuit the entire argumentative process.
+Myth do not make logical claims but significations {% cite barthes:1973 %}.
+For example, calling someone *a snake* is not a logical conclusion but signifies deceptive behaviour.
+Real snakes, of course, are not significantly more or less deceptive than any other animal.
+But mythological snakes often are and calling someone a snake can be a powerful gesture in our culture.
 
-To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:
+>Poetry feeds and waters the passions instead of drying them up; she lets them rule, although they ought to be controlled, if mankind are ever to increase in happiness and virtue. -- Socrates
 
->By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
+If Trump speaks of *America* or our far right-wingers speak of Germany, they do not mean literal countries.
+They signify a mythological symbol.
+To critique their definition as being racist, irrational, exclusive, inhumane, disastrous only demontrate to them that you are of 'the them'; that you are jealous that they won.
+An effective myth is a self-contained world of signs were everythin has a marked position making it very hard to signify otherwise with a believer.
+Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
 ## The Matrix and the Cave
 

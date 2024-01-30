@@ -91,7 +91,8 @@ Software Developer (Education)<br>
 
 **2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
 Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
-In *[Tagungsband des MINT-Symposiums](https://didaktikzentrum.de/Tagungsband/MINT-Symposium-2023)*, Nürnberg, September 2023, SS. 298-307.
+In *Tagungsband zum 5. Symposium zur Hochschullehre in den MINT-Fächern*.<br>
+DOI: [10.57825/repo_in-4411](https://doi.org/10.57825/repo_in-4411).<br>
 
 **2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
 Bonding in Times of Pandemia -- A Concept for Purely Virtual Kick-off Days to the Student Entry Phase.<br>
