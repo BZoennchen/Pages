@@ -332,7 +332,7 @@ class FeedForward(nn.Module):
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="{% link /assets/images/block.png %}" alt="Transformer block">
-<div style="display: table;margin: 0 auto;">Figure 6: Our decoder transformer block with only one (masked) multi-head attention layer.</div>
+<div style="display: table;margin: 0 auto;">Figure 8: Our decoder transformer block with only one (masked) multi-head attention layer.</div>
 </div>
 
 ## Positional Encoding
@@ -388,7 +388,7 @@ By increasing the dimension of the embedding, the sequence length, the number of
 However, this will rapidly increase the memory requirements and training time.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="{% link /assets/images/decoder.png %}" alt="Decoder-only transformer">
-<div style="display: table;margin: 0 auto;">Figure 7: Our simplified decoder-only transformer.</div>
+<div style="display: table;margin: 0 auto;">Figure 9: Our simplified decoder-only transformer.</div>
 </div>
 <br>
 
@@ -411,7 +411,7 @@ In other words, instead of learning the attention spent by token with index $$j$
 This concept was introduced by {% cite shaw:2018 %}.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="{% link /assets/images/relative-attention.png %}" alt="Relative positional encoding">
-<div style="display: table;margin: 0 auto;">Figure 8: Relative positional encoding.</div>
+<div style="display: table;margin: 0 auto;">Figure 10: Relative positional encoding.</div>
 </div>
 <br>
 
