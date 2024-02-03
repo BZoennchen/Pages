@@ -1,4 +1,547 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-02-03T21:44:29+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-02-03T22:54:37+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
+  <p>Recurrent models trained in practice are effectively feed-forward.
+This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller</p>
+</blockquote>
+
+<p>This time in the series we use the most famous model architecture for generative purposes: the <strong>transformer</strong> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>.
+Transformers were initially targeted at natural language processing (NLP) problems, where the network input is a series of high-dimensional embeddings representing words or word fragments.
+Transformers were introduced in 2017 by the authors of <em>Attention Is All You Need</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> to basically replace <em>recurrency</em> with <em>attention</em>.</p>
+
+<p>One of the problems with RNNs is that they can forget information that is further back in the sequence.
+While more sophisticated architectures, such as LSTMs <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a> and <em>gated recurrent units</em> (GRUs) <a class="citation" href="#chung2014">(Chung et al., 2014)</a> partially, addressed this problem, they still struggle with long term dependecies.
+The idea that intermediate representations in the RNN should be exploited to produce the output led to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> and, in the end, to the transformer architecture <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>.
+The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.</p>
+
+<p>Today, all successful large language model (LLMs) utilize the transformer architecture.
+It brought us ChatGPT (based on GPT-3 <a class="citation" href="#brown:2020">(Brown et al., 2020)</a> and GPT-4 <a class="citation" href="#openai:2023">(OpenAI, 2023; Bubeck et al., 2023)</a>), LLaMA <a class="citation" href="#touvron:2023">(Touvron et al., 2023)</a>, LLaMA 2 <a class="citation" href="#touvron:2023b">(Touvron et al., 2023)</a>, BERT <a class="citation" href="#devlin:2019">(Devlin et al., 2019)</a> and many fine-tuned derivates such as Codex <a class="citation" href="#chen:2021">(Chen et al., 2021)</a> .
+In the domain of symbolic music, transformers where also employed.
+Examples are the Music Transformer <a class="citation" href="#huang:2018">(Huang et al., 2018)</a>, the Pop Music Transformer <a class="citation" href="#huang:2020">(Huang &amp; Yang, 2020)</a>, multi-track music generation <a class="citation" href="#ens:2020">(Ens &amp; Pasquier, 2020)</a>, piano inpainting <a class="citation" href="#hadjeres:2021">(Hadjeres &amp; Crestel, 2021)</a>, Theme Transformer <a class="citation" href="#shih:2022">(Shih et al., 2022)</a> and more.
+Furthermore there are transformers, such as MusicGen <a class="citation" href="#copet:2023">(Copet et al., 2023)</a> that generate audio output directly.</p>
+
+<p>While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective—there is no rigorous mathematical proof.
+It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
+One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information) and the independence of multiple execution paths make them especially suitable for the exploitation of multicore processors such as GPUs and TPUs.
+However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
+Therefore, to train transformers you require GPUs with a lot of memory which is concerning for artists who might want to utilize transformers independently from proprietary cloud services.</p>
+
+<p>Original transformers where introduced for natural language processing.
+However, since language datasets share some of the characteristics of musical notations, transformers achieve good results in learning the structure of symbolic pieces.
+In music as well as in language the number of input variables can be very large, and the statistics are similar at every position; it’s not sensible to re-learn the meaning of the word <em>dog</em> at every possible position in a body of text.
+Language datasets and music datasets have the complication that their sequences vary in length.</p>
+
+<p>However, we also have to remember that there are also differences between the two domains.
+The alphabet of musical notations has more than 26 symbols and there is a strong relation between certain symbols.
+For example, there is a strong relation between the C’s of each octave or a whole and half note in the same pitch class.
+Furthermore, shifting all the letters in a text changes the meaning of that text dramatically while in the case of music this is most often not the case.</p>
+
+<h2 id="attention-in-encoder-decoder-rnns">Attention in Encoder-Decoder RNNs</h2>
+
+<p>What is the idea behind the attention mechanism?
+Attention was introduced to bidirectional recurrent neural networks (RNNs) in 2014 <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> for language translation, that is, for an <em>encoder-decoder architecture</em>.
+In this scenario we want to translate a sentence from e.g. English into e.g. German.
+The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoders ouput (representations of the English words) differently.
+Therefore, it helps to preserve long term dependencies.</p>
+
+<p>The <strong>encoder’s</strong> input is a sequence of tokens, let’s say words for simplicity, i.e. a sequence</p>
+
+\[\mathbf{x}_{0}, \ldots \mathbf{x}_{n-1}.\]
+
+<p>For each word \(\mathbf{x}_{i}\) it computes some output \(\mathbf{y}_{i}\).
+The assumption is that the probability for \(\mathbf{x}_{i}\) depends on \(\mathbf{x}_{j}\).
+Since we have the whole sentence given, we can use a <em>bidirectional RNN</em> and look into the future.
+Thus, with respect to dependency, the probability for token \(i\) can depend on the probability for token \(j\) and vice versa.</p>
+
+<p>The <strong>decoder’s</strong> input is the <strong>whole</strong> sequence computed by the <strong>encoder</strong> but as a weighted sum.
+The output is a sequence of German words, let’s say</p>
+
+\[\mathbf{y'}_{0}, \ldots \mathbf{y'}_{n-1}.\]
+
+<p>This time however, the <strong>decoder</strong> RNN is unidirectional.
+It can not look into the future and computes each German word strictly from left to right.
+To compute the weights or attenion scores of \(\mathbf{y'}_{i}\), an <strong>alignment model</strong> receives the hidden state \(\mathbf{h'}_{i-1}\) and the outputs of the encode as input.
+First a simple dot product is comuted:</p>
+
+\[e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.\]
+
+<p>Later it was suggested to us an additional linear transformation on the output:</p>
+
+\[e_{i,j} = \mathbf{h'}_{i}^\top (\mathbf{W}\mathbf{y}_{j}) \quad \text{ for } j = 0, \ldots, i-1.\]
+
+<p>where \(\mathbf{W}\) is learned.
+All these scores are normalized by the softmax function giving us \(n\) weights:</p>
+
+\[\alpha_{i,j} = \frac{\exp\left( e_{i,j} \right)}{\sum\limits_{k=0}^{n-1} \exp\left( e_{i, k}\right)}.\]
+
+<p>Then the <strong>decoder’s</strong> ‘real’ input is computed by a weighted sum of the <strong>encoder’s</strong> output:</p>
+
+\[\hat{\mathbf{h}}_i = \sum_j \alpha_{i,j} \mathbf{y}_j.\]
+
+<p>The weights determine how “strong” the information of the input will be utilized, i.e., how much attention is spent on each previous output of the model.</p>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="/Pages/assets/images/rnn-attention.png" alt="RNN with attention" />
+<div style="display: table;margin: 0 auto;">Figure 1: RNN with self-attention.</div>
+</div>
+<p><br /></p>
+
+<p>In case of a decoder, this results in a quadratic complexity of \(\mathcal{O}(n^2)\) because for each of the \(n\) tokens, we want to decode, we have \(n\) weights.</p>
+
+<h2 id="the-transformer-architecture">The Transformer Architecture</h2>
+
+<p>The original transformer was introduced for the task of machine translation thus it was an encoder-decoder architecture.
+In Fig. 2 you see a slightly modified version where the addition (residual connections) and the layer norm are in front of the attention layer.</p>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="/Pages/assets/images/transformer.png" alt="RNN with attention" />
+<div style="display: table;margin: 0 auto;">Figure 2: The slightly modified transformer.</div>
+</div>
+<p><br /></p>
+
+<p>Let’s consider a scenario in which we have an English sentence that we want to translate into French. 
+In this process, the encoder plays a crucial role by transforming the English sentence into a highly compressed and information-rich representation.</p>
+
+<p>Subsequently, the decoder comes into play, generating the French translation word by word. 
+It relies on the previously computed French words to predict and produce the next one. 
+It’s important to note that the input provided to the decoder is a partial translation, essentially a shifted version of what it is currently working on. 
+This is because the decoder should lack the ability to see into the future; it only has access to the portion of the translation it has computed up to that point—otherwise it would cheat while training which would hurt the learning process.</p>
+
+<p>To address this limitation, the decoder employs a masked version of the multi-head attention layer. 
+This mechanism ensures that the decoder focuses on the relevant information without peeking ahead.</p>
+
+<p>Furthermore, the utilization of residual connections and layer normalization over a mini-batch (layer norm) serves as a valuable tool to combat the issue of vanishing gradients in deep neural networks, ensuring the efficient training and optimization of the translation model.</p>
+
+<p>In our case we do not acutally want to translate a sentence but we want to generate musical notes from a sequence of given notes.
+Therfore, we have no encoded information and there is no encoding envolved.
+We only need the decoder part.
+Furthermore, I only use one (masked) multi-head attention layer in each block.</p>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/decoder.png" alt="Decoder-only transformer" />
+<div style="display: table;margin: 0 auto;">Figure 3: Our decoder-only transformer.</div>
+</div>
+<p><br /></p>
+
+<p>Ok, but how does this really works?
+What is going on here?
+Well, the key to understand transformers is to understand the self-attention mechanism which I try to explain below.</p>
+
+<h2 id="self-attention">Self-Attention</h2>
+
+<p>The idea of the transformer is to just rely on (self-)attention thus remove recurrency.
+This means that the model “sees” \(n\) tokens to generate the \((n+1)^\text{th}\) token.
+Simple RNNs for predicting the next tokens only see the previous token and the hidden state which represents all the tokens before.
+But, as I discussed in previous articles, the information of the hidden state gets washed away over time and without attention there seem to be little control over the importance of certain tokens of the sequence.</p>
+
+<p>The fundamental operation of the transformer, i.e. the attention mechanism, is implemented in its <code class="language-plaintext highlighter-rouge">Head</code>.
+Let \(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1} \in \mathbb{R}^{D \times 1}\) be the \(n\) tokens of a sequence.
+A standard neural network layer \(f(\cdot)\), takes a \(D \times 1\) input and applies a linear transformation followed by an activation function like a \(\text{ReLU}\):</p>
+
+\[f(\mathbf{x}) = \text{ReLU}\left( \mathbf{W}\mathbf{x} + \mathbf{b }\right),\]
+
+<p>where \(\mathbf{b}\) contains the biases, and \(\mathbf{W}\) contains the weights.</p>
+
+<p>A self-attention \(\mathbf{sa}(\cdot)\) block takes all the \(n\) inputs, each of dimension \(D \times 1\), and returns \(n\) output vectors of the same size.
+Note that in our case each input represents a musical note or event.
+First, a set of <strong>values</strong> is computed for each input:</p>
+
+\[\mathbf{v}_i = \mathbf{b}_v + \mathbf{W}_v \mathbf{x}_i, \quad \text{ (value)}\]
+
+<p>where \(\mathbf{b}_v \in \mathbb{R}^D \text{ and } \mathbf{W}_v \in \mathbb{R}^{D \times D}\) represent biases and weights, respectively (<strong>for all inputs</strong>). 
+The \(j^\text{th}\) output \(\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})\) is a weighted sum of all the values \(\mathbf{v}_i, i = 0, \ldots n-1\) where the weight each weight depends on \(\mathbf{x}_j\):</p>
+
+\[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.\]
+
+<p>The scalar weight \(\alpha(\mathbf{x}_i, \mathbf{x}_j)\) is the <strong>attention</strong> that the \(j^\text{th}\) output pays to the input \(\mathbf{x}_i\).
+The \(n\) weights \(\alpha(\cdot, \mathbf{x}_j)\) are non-negative and sum to one.
+Hence, self-attention can be thought of as <em>routing</em> the values in different proportions to create each output.</p>
+
+<p><br /></p>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:35%;" src="/Pages/assets/images/routing.png" alt="Routing principle" />
+<div style="display: table;margin: 0 auto;">Figure 4: Routing principle.</div>
+</div>
+<p><br /></p>
+
+<p>To compute the attention, we apply two more linear transformations to the inputs:</p>
+
+\[\begin{aligned}
+\mathbf{q}_j &amp;= \mathbf{b}_q + \mathbf{W}_q \mathbf{x}_j \quad \text{ (query)}\\
+\mathbf{k}_i &amp;= \mathbf{b}_k + \mathbf{W}_k \mathbf{x}_i \quad \text{ (key).}
+\end{aligned}\]
+
+<p>The <strong>dot product</strong> of two vectors \(\mathbf{q}_j\), \(\mathbf{k}_i\) is a measurement of their similarity.
+In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
+In general, this relationship is expressed by the following equation:</p>
+
+\[\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),\]
+
+<p>where \(\beta\) is the angle between the two verctors.
+Computing the <em>dot product</em> between queries and keys gives us the similarities we desire.
+To normalize, we then pass the result through a <em>softmax</em> function:</p>
+
+\[\alpha(\mathbf{x}_i, \mathbf{x}_j) = \frac{\exp(\mathbf{q}_j^\top \mathbf{k}_i \sqrt{D_q})}{\sum\limits_{r=0}^{n-1} \exp(\mathbf{q}_j^\top \mathbf{k}_r \sqrt{D_q})},\]
+
+<p>where \(D_q\) is the dimension of the queries and keys (i.e., the number of rows in \(\mathbf{W}_q\) and \(\mathbf{W}_k\), which must be the same).
+You can think of the <em>key</em> of what is offered and the <em>query</em> of what is searched.
+If \(\mathbf{X}\), \(\mathbf{K}\), \(\mathbf{Q}\), and \(\mathbf{V}\) contain all the inputs, keys, queries and values then we can compute the self-attention by</p>
+
+\[\mathbf{Sa}(\mathbf{X}) = \mathbf{V} \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D_q} }\right).\]
+
+<p>The overall computation is illustrated in Figure 5.</p>
+
+<p><br /></p>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="/Pages/assets/images/self-attention.png" alt="Self-attention in matrix-form" />
+<div style="display: table;margin: 0 auto;">Figure 5: Self-attention in matrix-form.</div>
+</div>
+<p><br /></p>
+
+<h2 id="masking-attention-head">Masking Attention Head</h2>
+
+<p>Since our transformer should not look into the future, because when we use it in the prediction mode it also can not look ahead of the token it predicts, we have to mask entries in</p>
+
+\[\text{Softmax}\left(\frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D}_q}\right).\]
+
+<p>If you look into the code, I did this by setting the respective values in \(\mathbf{K}^\top \mathbf{Q}\) to negative infinite before computing the softmax.</p>
+
+<p><br /></p>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="/Pages/assets/images/transformer-head.png" alt="Transformer head" />
+<div style="display: table;margin: 0 auto;">Figure 6: Transformer head for a sequence length equal to 5.</div>
+</div>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Head</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="s">""" one head of self-attention """</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">key</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>   <span class="c1"># key embedding
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">query</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span> <span class="c1"># query embedding
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">bias</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span> <span class="c1"># value embedding
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">register_buffer</span><span class="p">(</span><span class="s">'tril'</span><span class="p">,</span> <span class="n">torch</span><span class="p">.</span><span class="n">tril</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">ones</span><span class="p">(</span><span class="n">sequence_len</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">)))</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span> <span class="c1"># to avoid overfitting
+</span>        
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="n">B</span><span class="p">,</span><span class="n">T</span><span class="p">,</span><span class="n">C</span> <span class="o">=</span> <span class="n">x</span><span class="p">.</span><span class="n">shape</span>
+        <span class="n">k</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">key</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># B, T, head_size, compute all keys
+</span>        <span class="n">q</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">query</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># B, T, head_size, compute all queries
+</span>        <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">head_size</span> <span class="o">=</span> <span class="n">q</span><span class="p">.</span><span class="n">shape</span>
+        
+         <span class="c1"># B, T, head_size @ B, head_size, 
+</span>        <span class="n">wei</span> <span class="o">=</span> <span class="n">q</span> <span class="o">@</span> <span class="n">k</span><span class="p">.</span><span class="n">transpose</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">head_size</span> <span class="o">**</span> <span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">))</span> <span class="c1"># T =&gt; B, T, T
+</span>
+        <span class="c1"># because we can not look into the future 
+</span>        <span class="n">wei</span> <span class="o">=</span> <span class="n">wei</span><span class="p">.</span><span class="n">masked_fill</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">tril</span><span class="p">[:</span><span class="n">T</span><span class="p">,</span> <span class="p">:</span><span class="n">T</span><span class="p">]</span><span class="o">==</span><span class="mi">0</span><span class="p">,</span> <span class="nb">float</span><span class="p">(</span><span class="s">'-inf'</span><span class="p">))</span>
+        <span class="n">wei</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">wei</span><span class="p">,</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">wei</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">wei</span><span class="p">)</span>
+
+        <span class="n">v</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">value</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># B, T, head_size
+</span>        <span class="n">out</span> <span class="o">=</span> <span class="n">wei</span> <span class="o">@</span> <span class="n">v</span> <span class="c1"># T, T @ B, T, head_size =&gt; B, T, head_size
+</span>        <span class="k">return</span> <span class="n">out</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p>The multi-head attention layer consists of multiple heads.
+Note that apart from <strong>masked</strong> <strong>self-attention</strong>, the head also applys a <strong>dropout</strong> which helps with regularization.</p>
+
+<h2 id="stacked-multi-head-attention">Stacked Multi-Head Attention</h2>
+
+<p>Instead of using only one <code class="language-plaintext highlighter-rouge">Head</code> it is usually a good idea to use multiple ones.
+To do this we transform the input into a <code class="language-plaintext highlighter-rouge">head_size</code>-dimensional space.
+Suppose we use 4 heads than <code class="language-plaintext highlighter-rouge">head_size * 4</code> should be equal to the rows of \(\mathbf{W}_0\) (compare Fig. 7) of the multi-head attention layer.
+Since I add the input to the output of <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code> (via residual connections), the columns of \(\mathbf{W}_0\) should be equal to the dimension of the input of the <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>.
+In my case this is <code class="language-plaintext highlighter-rouge">n_embd</code>, i.e. the dimension of our embedded tokens.</p>
+
+<p>\(\mathbf{W}_0\) transforms the concatenated results of the heads back to the dimension equal to <code class="language-plaintext highlighter-rouge">n_embd</code>. 
+This is needed to stack <code class="language-plaintext highlighter-rouge">Block</code>s (each consisting of a <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>) on top of each other.
+The output of <code class="language-plaintext highlighter-rouge">Block</code> \(i\) has to fit into block \(i+1\).</p>
+
+<p><br /></p>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="/Pages/assets/images/multi-head.png" alt="Multi-head attention" />
+<div style="display: table;margin: 0 auto;">Figure 7: Multi-head attention.</div>
+</div>
+<p><br /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">MultiHeadAttention</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">heads</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">ModuleList</span><span class="p">(</span>
+            <span class="p">[</span><span class="n">Head</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_heads</span><span class="p">)]</span>
+        <span class="p">)</span>
+
+        <span class="c1"># W_0
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">W0</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">head_size</span> <span class="o">*</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">)</span> 
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="c1"># concatenation of the results of each head
+</span>        <span class="n">out</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">cat</span><span class="p">([</span><span class="n">head</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">head</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">heads</span><span class="p">],</span> <span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span> 
+
+        <span class="c1"># Figure 7
+</span>        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">W0</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="n">out</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">out</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p>The hope is that each <code class="language-plaintext highlighter-rouge">Head</code> concentrates on different parts of the structure we want to learn.</p>
+
+<h2 id="transformer-block">Transformer Block</h2>
+
+<p>A <code class="language-plaintext highlighter-rouge">Block</code> consists of a <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>-layer and a relatively simple FFN-layer followed by two <code class="language-plaintext highlighter-rouge">LayerNorm</code> which applies <em>layer normalization</em> over a mini-batch of inputs.
+This helps the gradients to stay in a “good” range.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Block</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="c1"># head_size could be defined differently
+</span>        <span class="n">head_size</span> <span class="o">=</span> <span class="n">n_embd</span> <span class="o">//</span> <span class="n">n_heads</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">sa</span> <span class="o">=</span> <span class="n">MultiHeadAttention</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">head_size</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">ffwd</span> <span class="o">=</span> <span class="n">FeedForward</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">ln1</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">LayerNorm</span><span class="p">(</span><span class="n">n_embd</span><span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">ln2</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">LayerNorm</span><span class="p">(</span><span class="n">n_embd</span><span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">sa</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">ln1</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># residual connection
+</span>        <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="bp">self</span><span class="p">.</span><span class="n">ffwd</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">ln2</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="c1"># residual connection
+</span>        <span class="k">return</span> <span class="n">x</span>
+
+<span class="k">class</span> <span class="nc">FeedForward</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">net</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(</span>
+            <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="mi">4</span> <span class="o">*</span> <span class="n">n_embd</span><span class="p">),</span> 
+            <span class="n">nn</span><span class="p">.</span><span class="n">ReLU</span><span class="p">(),</span>
+            <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">),</span>
+            <span class="n">nn</span><span class="p">.</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">),</span>
+        <span class="p">)</span>
+        
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">.</span><span class="n">net</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p><br /></p>
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/block.png" alt="Transformer block" />
+<div style="display: table;margin: 0 auto;">Figure 8: Our decoder transformer block with only one (masked) multi-head attention layer.</div>
+</div>
+
+<h2 id="positional-encoding">Positional Encoding</h2>
+
+<p>The Transformer has no more hidden state.
+Therefore, instead of processing token by token trying to memorize important information via the hidden state, it processes all \(n\) tokens at in parallel, which is good for parallel computation but increases the time and space complexity from \(\mathcal{O}(n)\) (LSTM) to \(\mathcal{O}(n^2)\).</p>
+
+<p>Furthermore, we have to encode the position of the tokens into \(\mathbf{x}\) because we lost the implicit order of computation.
+In the original paper <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> the authors utilized a embdding that involved sine and cosine functions.
+Their embedding is a very clever use of peridoic functions but I will not go into details here.
+Instead of using a fixed embedding, I let the transformer learn the positional embedding.</p>
+
+<p>Therefore, I transform the input <code class="language-plaintext highlighter-rouge">idx</code> into two vectors <strong>positional embedding</strong> and <strong>token embedding</strong>, which are <strong>added</strong> together.
+Note that our input <code class="language-plaintext highlighter-rouge">idx</code> is an array of numbers each representing the id of the token.
+Each number will be transformed into a specific vector (i.e. its embedding).
+The embedding will be learned.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">TransformerDecoder</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">,</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">n_blocks</span><span class="p">,</span> <span class="n">dropout</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+
+        <span class="c1"># vocab_size is the size of our alphabet
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">token_embedding_table</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Embedding</span><span class="p">(</span><span class="n">vocab_size</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">)</span>
+
+        <span class="c1"># sequence_len is equal to n
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">position_embedding_table</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Embedding</span><span class="p">(</span><span class="n">sequence_len</span><span class="p">,</span> <span class="n">n_embd</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="p">.</span><span class="n">blocks</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Sequential</span><span class="p">(</span>
+            <span class="o">*</span><span class="p">[</span><span class="n">Block</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">n_heads</span><span class="p">,</span> <span class="n">sequence_len</span><span class="p">,</span> <span class="n">dropout</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_blocks</span><span class="p">)]</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">lm_head</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">n_embd</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">idx</span><span class="p">):</span>
+        <span class="n">B</span><span class="p">,</span> <span class="n">T</span> <span class="o">=</span> <span class="n">idx</span><span class="p">.</span><span class="n">shape</span>
+        
+        <span class="c1"># token embedding. B, T, n_embd
+</span>        <span class="n">token_emb</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">token_embedding_table</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span> 
+
+        <span class="c1"># positional embedding. T, n_embd 
+</span>        <span class="n">pos_emb</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">position_embedding_table</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="n">T</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">))</span> 
+
+        <span class="n">x</span> <span class="o">=</span> <span class="n">token_emb</span> <span class="o">+</span> <span class="n">pos_emb</span> <span class="c1"># B, T, n_embd + T, n_embd =&gt; B, T, n_embd
+</span>        <span class="n">x</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">blocks</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># B, T, head_size
+</span>        <span class="n">logits</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">lm_head</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="c1"># B, T, vocab_size
+</span>        <span class="k">return</span> <span class="n">logits</span>
+
+<span class="p">...</span>
+</code></pre></div></div>
+
+<p>By increasing the dimension of the embedding, the sequence length, the number of heads within a block and the number of blocks we can drastically increase the size and power of our decoder-only transformer.
+However, this will rapidly increase the memory requirements and training time.</p>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:40%;" src="/Pages/assets/images/decoder.png" alt="Decoder-only transformer" />
+<div style="display: table;margin: 0 auto;">Figure 9: Our simplified decoder-only transformer.</div>
+</div>
+<p><br /></p>
+
+<p>Futhermore, it is very important to understand that what really matters is a <strong>high-quality training dataset</strong>!
+Of course, your model achitecture matters too, but your model can not learn what is not there.
+Additionally, the <strong>musical representation</strong> you feed into the transformer matters as well.
+In our case this representation, using basically piano rolls, is very simple.
+It does not contain any high level information such as the end of a bar, section, phrase or musical theme.
+We just hope that the transformer will eventually learn all these concepts.
+It is a active research question what impact a good musical representation has on the result the trained transformer generates.</p>
+
+<h2 id="relative-positional-self-attention">Relative Positional Self-Attention</h2>
+
+<p>So far our positional encoding was just a sequence of natural numbers \(0, 1, \ldots, n-1\) and we used an embbedding which was added to the input, that is, the embedding of \(i\) was added to the embedding of \(\mathbf{x}_i\) of the input sequence.
+However, this encoding might not be optimal in the context of music where we tones, phrases, musical ideas and themes reapeat frequently.
+A relative position representation to allow attention to be informed by how far two positions are apart in a sequence might be much more effective.</p>
+
+<p>So, instead of learning the index of a token within a sequence we want the mode to learn relative distances between tokens.
+In other words, instead of learning the attention spent by token with index \(j\) on \(i\), that is, \(\alpha(\mathbf{x}_i, \mathbf{x}_j)\) we want to compute an attention score based on the (directed) distance \(i-j\).
+This concept was introduced by <a class="citation" href="#shaw:2018">(Shaw et al., 2018)</a>.</p>
+
+<div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="/Pages/assets/images/relative-attention.png" alt="Relative positional encoding" />
+<div style="display: table;margin: 0 auto;">Figure 10: Relative positional encoding.</div>
+</div>
+<p><br /></p>
+
+<p>Note that if there are \(\mathcal{O}(n)\) absolute positions \(0, 1, \ldots, n-1\) then there are \(\mathcal{O}(n)\) relative positions \(-(n-1), \ldots, -1, 0, 1,\ldots, n-1\).
+The authors also introduce a maximal distance \(k\) such that they only learn weights</p>
+
+\[\mathbf{w}^{V}_{\text{clip}(i-j,k)} \text{ with } \text{clip}(x,k) = \max(-k, \min(k,x))\]
+
+<p>Therefore, they learn relative position representations for the keys \(\mathbf{w}^K_{-k}, \ldots, \mathbf{w}^K_{k}\) and for the values \(\mathbf{w}^V_{-k}, \ldots, \mathbf{w}^V_{k}\).
+They introduce the relative position between \(\mathbf{x}_i\) and \(\mathbf{x}_j\) to be</p>
+
+\[\mathbf{a}_{ij} = \mathbf{w}_{\text{clip}(i-j,k)}\]
+
+<p>Thus there are \(\mathcal{O}(n^2)\) different such vectors but many share the same value.
+Of course, they drop the absolute positional encoding.
+And they adapt the <strong>self-attention comuputation</strong> from</p>
+
+\[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.\]
+
+<p>to</p>
+
+\[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) (\mathbf{v}_i + \mathbf{a}^V_{ij}).\]
+
+<p>and the computation of the similarity between <strong>query</strong> and <strong>key</strong> from</p>
+
+\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j)}{\sqrt{D_q}}\]
+
+<p>to</p>
+
+\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}}.\]
+
+<p>Computation-wise the first manipulation can be easily achieved by adding a matrx \(\mathbf{A}\) to \(\mathbf{V}\).
+However, the second manipulation destroys parallelism, i.e. the possibility to compute everything by matrix-matrix multiplications.
+This can be mitigated by splitting the computation into two parts:</p>
+
+\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}} = \frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j) + (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij}}{\sqrt{D_q}}\]
+
+<p>Assuming that \(\mathbf{S}\) contains all the relative attention scores, that is,</p>
+
+<p>\(\mathbf{S}_{ij}\) = (\mathbf{W}<em>q \mathbf{x}_i)^\top \mathbf{a}^K</em>{ij},$$</p>
+
+<p>then we can go back to the matrix form which gives us</p>
+
+\[\mathbf{Sa}(\mathbf{X}) = (\mathbf{V} + \mathbf{A}^V) \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q} + \mathbf{S}}{\sqrt{D_q} }\right).\]
+
+<p>To compute \(\mathbf{S}\) <a class="citation" href="#shaw:2018">(Shaw et al., 2018)</a> instantiate an intermediate tensor \(\mathbf{R} \in \mathbf{R}^{k \times k \times D_q},\) containing the embeddings that correspond to the relative distance between all keys and queries.
+\(\mathbf{Q}\) is then reshaped to an \((k, 1, D_q\)) tensor, and \(\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.\)
+This incurs a total space complexity of \(\mathcal{O}(k^2 D_q)\).</p>
+
+<h2 id="the-music-transformer">The Music Transformer</h2>
+
+<p>The Music Transformer <a class="citation" href="#huang:2018">(Huang et al., 2018)</a> was one of the first transformer utilized to generate symbolic music.
+Even if it was introduced five years ago (which is like a century in the AI-world) it is worth studying it.
+In the paper you find two different datasets</p>
+
+<ol>
+  <li><a href="https://github.com/czhuang/JSB-Chorales-dataset">J.S. Bach chorales dataset</a></li>
+  <li><a href="https://www.piano-e-competition.com/">Piano-e-Competition dataset</a></li>
+</ol>
+
+<p>and they used an impressive sequence length of <strong>2048-tokens</strong>!
+They used GPUs for the training.
+With such a large number of token, one question arises: How did they manage to put 2000-tokens and all the respective matrices in the GPUs’ memory?</p>
+
+<p>The authors correctly identify the space complexity of \(\mathcal{O}(k^2 D_q)\) to be problematic for GPU computation and they reduce the complexity to \(\mathcal{O}(k D_q)\) by exchanging space for re-computation.
+This is possible due to the structure of the tensor \(\mathbf{R}\) which contains many equal values.</p>
+
+<p>To handly very long sequences, the authors use local attention <a class="citation" href="#liu:2018">(Liu et al., 2018)</a> by chunking the input sequence into non-overlapping blocks.
+Each block then attends to itself and the one before.</p>
+
+<h2 id="attention-free-transformer">Attention-Free Transformer</h2>
+
+<p>Basically, the attention mechanism, regardless of the specifics, solves a routing problem, that it, which information is transported to the next layer of the neural network.
+Thus, it has a quadratic time and space complexity of \(\mathcal{O}(n^2)\) where \(n\) is our sequence length.
+Therefore, if you have limited ressources, it is hard to scale it to larger sequences.
+As with the local attention and other techniques, like the Linformer <a class="citation" href="#wang:2020">(Wang et al., 2020)</a>, Longformer <a class="citation" href="#"></a>, Reformer <a class="citation" href="#kitaev:2020">(Kitaev et al., 2020)</a>, and Synthesizer <a class="citation" href="#tay:2021">(Tay et al., 2021)</a>, and Performer <a class="citation" href="#choromanski:2022">(Choromanski et al., 2022)</a> there are ways to improve this but in principle the complexity will bite us eventually.</p>
+
+<p>Now we enter in an era in deep learning where we question if we actually need the attention layers in the transformer!
+This was proposed in 2022.
+Instead of computing attention, <em>FNet</em> <a class="citation" href="#leethorp:2022">(Lee-Thorp et al., 2022)</a> just mixes tokens according to the discrete Fourier transformation (DFT).
+First, a 1D transformation is computed with respect to the embedding and then another with respect to time.
+Amazingly even though there is no parameter to learn within the <code class="language-plaintext highlighter-rouge">Fourier</code>-layer (which replaces the <code class="language-plaintext highlighter-rouge">Head</code>) this strategy seems to work almost as good as the far more computational expensive task of learning all the required attention scores.</p>
+
+<p>The Fourier transform decomposes a function (in our case a discrete signal) into its constituent frequencies.
+Given a sequence \(x_0, \ldots, x_{N-1}\), the discrete Fourier transform (DFT) is defined by</p>
+
+\[X_k = \sum\limits_{n=0}^{N-1} x_n \exp\left( - \frac{2\pi i}{N} nk \right), \quad 0 \leq k \leq N-1.\]
+
+<p>\(X_k\) encodes the <strong>phase</strong> and <strong>power</strong> of frequency \(k\) within the signal.</p>
+
+<p><em>FNet</em> consists of a Fourier <strong>mixing sublayer</strong> followed by a feed-forward sublayer.
+Essentially, the self-attention sublayer of each transformer decoder layer is replaced with a <strong>Fourier sublayer</strong> which applies a 2D DFT to its</p>
+
+\[(\text{sequence length} \times \text{hidden dimension})\]
+
+<p>embedding input.
+This can be achieved using two 1D DFTs—one 1D DFT along the sequence dimension, \(\mathcal{F}_\text{seq}\), and one 1D DFT along the hidden dimension, \(\mathcal{F}_\text{h}\):</p>
+
+\[y = \text{Real}\left( \mathcal{F}_\text{seq} \left( \mathcal{F}_\text{h}(\mathbf{x}) \right) \right)\]
+
+<p>The authors only consider the real part of the DFT.</p>
+
+<p>Now, as emphasized by the title of their paper, the Fourier transform is probably not the important part.
+It is just a special case of how you can mix tokens.
+Important is the mixing itself which allows information to flow from one token to all the other tokens and the Fourier transform happens to be a nice why of mixing.
+The paper indicate that it might not be so important to let the model learn how exaclty information flows around.
+It might be just enough if information flows at all (to all tokens).
+In other words, the exact routing might be less important than we thought.</p>
+
+<p>Now, the results of the paper are not better than using a traditional transformer.
+But one trades accuracy for resources thus longer sequence length and a faster computation.</p>
+
+<p>To the best of my knowledge, I have not seen this tried out for symbolic music generation.
+But when I have time, I play around with it.
+Futhermore, one might think about a special mixing which is effective for our specific task.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="vaswani:2017">Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., &amp; Polosukhin, I. (2017). attention is all you need. <i>CoRR</i>, <i>abs/1706.03762</i>. http://arxiv.org/abs/1706.03762</span></li>
+<li><span id="hochreiter:1997">Hochreiter, S., &amp; Schmidhuber, J. (1997). Long short-term memory. <i>Neural Computation</i>, <i>9</i>(8), 1735–1780. https://doi.org/10.1162/neco.1997.9.8.1735</span></li>
+<li><span id="chung2014">Chung, J., Gulcehre, C., Cho, K. H., &amp; Bengio, Y. (2014). <i>Empirical evaluation of gated recurrent neural networks on sequence modeling</i>.</span></li>
+<li><span id="bahdanau:2014">Bahdanau, D., Cho, K., &amp; Bengio, Y. (2014). Neural machine translation by jointly learning to align and translate. <i>CoRR</i>, <i>abs/1409.0473</i>.</span></li>
+<li><span id="brown:2020">Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D. M., Wu, J., Winter, C., … Amodei, D. (2020). <i>Language models are few-shot learners</i>.</span></li>
+<li><span id="openai:2023">OpenAI. (2023). <i>GPT-4 rechnical report</i>.</span></li>
+<li><span id="bubeck:2023">Bubeck, S., Chandrasekaran, V., Eldan, R., Gehrke, J., Horvitz, E., Kamar, E., Lee, P., Lee, Y. T., Li, Y., Lundberg, S., Nori, H., Palangi, H., Ribeiro, M. T., &amp; Zhang, Y. (2023). <i>Sparks of artificial general intelligence: Early experiments with GPT-4</i>.</span></li>
+<li><span id="touvron:2023">Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., Rozière, B., Goyal, N., Hambro, E., Azhar, F., Rodriguez, A., Joulin, A., Grave, E., &amp; Lample, G. (2023). <i>LLaMA: Open and efficient foundation language models</i>.</span></li>
+<li><span id="touvron:2023b">Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., Bashlykov, N., Batra, S., Bhargava, P., Bhosale, S., Bikel, D., Blecher, L., Ferrer, C. C., Chen, M., Cucurull, G., Esiobu, D., Fernandes, J., Fu, J., Fu, W., … Scialom, T. (2023). <i>LlaMA 2: Open foundation and fine-tuned chat models</i>.</span></li>
+<li><span id="devlin:2019">Devlin, J., Chang, M.-W., Lee, K., &amp; Toutanova, K. (2019). <i>BERT: Pre-training of deep bidirectional transformers for language understanding</i>.</span></li>
+<li><span id="chen:2021">Chen, M., Tworek, J., Jun, H., Yuan, Q., de Oliveira Pinto, H. P., Kaplan, J., Edwards, H., Burda, Y., Joseph, N., Brockman, G., Ray, A., Puri, R., Krueger, G., Petrov, M., Khlaaf, H., Sastry, G., Mishkin, P., Chan, B., Gray, S., … Zaremba, W. (2021). <i>Evaluating large language models trained on code</i>.</span></li>
+<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li>
+<li><span id="huang:2020">Huang, Y.-S., &amp; Yang, Y.-H. (2020). <i>Pop Music Transformer: Beat-based modeling and generation of expressive pop piano compositions</i>.</span></li>
+<li><span id="ens:2020">Ens, J., &amp; Pasquier, P. (2020). <i>MMM: Exploring conditional multi-track music generation with the transformer</i>.</span></li>
+<li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). <i>The piano inpainting application</i>.</span></li>
+<li><span id="shih:2022">Shih, Y.-J., Wu, S.-L., Zalkow, F., Müller, M., &amp; Yang, Y.-H. (2022). <i>Theme Transformer: Symbolic music generation with theme-conditioned transformer</i>.</span></li>
+<li><span id="copet:2023">Copet, J., Kreuk, F., Gat, I., Remez, T., Kant, D., Synnaeve, G., Adi, Y., &amp; Défossez, A. (2023). <i>Simple and controllable music generation</i>.</span></li>
+<li><span id="shaw:2018">Shaw, P., Uszkoreit, J., &amp; Vaswani, A. (2018). Self-attention with relative position representations. <i>CoRR</i>, <i>abs/1803.02155</i>. http://arxiv.org/abs/1803.02155</span></li>
+<li><span id="liu:2018">Liu, P. J., Saleh, M., Pot, E., Goodrich, B., Sepassi, R., Kaiser, L., &amp; Shazeer, N. (2018). Generating Wikipedia by summarizing long sequences. <i>International Conference on Learning Representations</i>. https://openreview.net/forum?id=Hyg0vbWC-</span></li>
+<li><span id="wang:2020">Wang, S., Li, B. Z., Khabsa, M., Fang, H., &amp; Ma, H. (2020). <i>Linformer: Self-Attention with linear complexity</i>.</span></li>
+<li><span id="kitaev:2020">Kitaev, N., Kaiser, Ł., &amp; Levskaya, A. (2020). <i>Reformer: The Efficient Transformer</i>.</span></li>
+<li><span id="tay:2021">Tay, Y., Bahri, D., Metzler, D., Juan, D.-C., Zhao, Z., &amp; Zheng, C. (2021). <i>Synthesizer: Rethinking self-attention in transformer models</i>.</span></li>
+<li><span id="choromanski:2022">Choromanski, K., Likhosherstov, V., Dohan, D., Song, X., Gane, A., Sarlos, T., Hawkins, P., Davis, J., Mohiuddin, A., Kaiser, L., Belanger, D., Colwell, L., &amp; Weller, A. (2022). <i>Rethinking Attention with Performers</i>. https://arxiv.org/abs/2009.14794</span></li>
+<li><span id="leethorp:2022">Lee-Thorp, J., Ainslie, J., Eckstein, I., &amp; Ontanon, S. (2022). <i>FNet: Mixing tokens with Fourier transforms</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="Transformer" /><summary type="html"><![CDATA[Recurrent models trained in practice are effectively feed-forward. This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller]]></summary></entry><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
 Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.</p>
 
@@ -745,7 +1288,291 @@ Will we be able to give it symbolic meaning, or will it be re-integrated into th
 <li><span id="doran:2009">Doran, P. T., &amp; Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. <i>Eos, Transactions American Geophysical Union</i>, <i>90</i>(3), 22–23. https://doi.org/https://doi.org/10.1029/2009EO030002</span></li>
 <li><span id="graeber:2018">Graeber, D. (2018). <i>Bullshit Jobs</i>. Simon &amp; Schuster.</span></li>
 <li><span id="esposito:2024">Esposito, E. (2024). Can we use the open future? Preparedness and innovation in times of self-generated uncertainty. <i>European Journal of Social Theory</i>, <i>0</i>(0). https://doi.org/10.1177/13684310231224546</span></li>
-<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
+<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
+What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
+However, any observer is itself a distinction between system and environment.
+I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
+So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+
+<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
+
+<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
+
+<blockquote>
+  <p>This statement is wrong.</p>
+</blockquote>
+
+<p>The statement is logically problematic because it is self-referential. 
+If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
+Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
+
+\[R := \left\{ x \ | \ x \not\in x \right\}.\]
+
+<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+However, if we introduce the self-referential relation, we run into a paradox:</p>
+
+<p>\begin{equation} 
+R \in R \iff R \not\in R
+\end{equation}</p>
+
+<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
+If that is the case, does the barber shave themselves?</p>
+
+<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
+To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
+The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
+Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
+
+<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
+\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
+Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
+His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
+The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
+
+<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
+
+<p>Luhmann integrated this idea into his social systems theory.
+For example, the media can observe and reintroduce itself into itself. 
+It can use its systemic operations on itself, i.e. it can report on itself.</p>
+
+<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
+
+<blockquote>
+  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
+</blockquote>
+
+<p>The sentence has mainly two different meanings.
+One is:</p>
+
+<blockquote>
+  <p>The beginning of heaven and earth is without a name.</p>
+</blockquote>
+
+<p>The other one is:</p>
+
+<blockquote>
+  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
+</blockquote>
+
+<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
+Furthermore, the quote points to a distinction between heaven and earth.
+Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
+Spencer-Brown begins by the assumption that there is no such thing:</p>
+
+<blockquote>
+  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
+Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
+</blockquote>
+
+<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
+There is no clear separation between the object or the result of distinction and the process of distinguishing.
+Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
+Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
+I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
+
+<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
+The mark is, calls, and makes a difference.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
+<p><br /></p>
+
+<p>There is an interior of the mark and not the interior—the system and its environment.
+I can make a distinction again (repetition):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
+<p><br /></p>
+
+<p>But making a distinction again does not change the distinction.</p>
+
+<blockquote>
+  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
+</blockquote>
+
+<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
+<p><br /></p>
+
+<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
+Crossing twice reverses the first crossing.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
+<p><br /></p>
+
+<blockquote>
+  <p>If a boundary is crossed twice, the original state will be reestablished.
+The repetition of the crossing has a different value than the single crossing.
+The reason is that in-between the reversal happens.
+Crossing changes the side.
+Re-crossing reverses this operation. – Spencer-Brown</p>
+</blockquote>
+
+<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
+Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
+There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
+
+<p>Let’s see what we can do with this calculus.
+Let \(a, b\) variables, then the following holds:</p>
+
+<p><br /></p>
+<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
+<p><br /></p>
+
+<p>Let’s have a look at the last transformation.
+Let us assume \(a\) is a <strong>mark</strong>.
+Then we get:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
+<p><br /></p>
+
+<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
+<p><br /></p>
+
+<h2 id="the-re-entry">The Re-Entry</h2>
+
+<p>How can we re-introduce the system (here an equation) into itself?
+Or in other words: How does the <em>re-entry</em> work?
+We can start by a simple self-referential algebraic equation:</p>
+
+<p>\begin{equation}
+x^2 = ax + b, \quad a, b \in \mathbb{R}.
+\end{equation}</p>
+
+<p>This equation has well-known solutions. 
+It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
+To see the re-entry, we can rewrite the equation above to get</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}</p>
+
+<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
+
+<p>\begin{equation}
+x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
+\end{equation}</p>
+
+<p>Using this infinite formalism it is literally the case that</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}
+holds.
+Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
+
+<p>\begin{equation}
+i = -1 /(-1 /(-1 / (-1 / \ldots )))
+\end{equation}</p>
+
+<p>but what does this mean?
+The system is not a number but a process, a generator that generates itself.
+\(i\) alternates between 1 and -1.
+Interestingly, this is precisely how we use the equal sign in most programming languages.
+Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
+
+<p>\begin{equation}
+i \leftarrow \frac{i}{-1}.
+\end{equation}</p>
+
+<p>The next step is to introduce such a re-entry into logic.
+Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
+<p><br /></p>
+
+<p>The solution is an alternation between a marked and unmarked state—between true and false.
+A state that might seem contradictory in space, makes sense if it is observed in time and space.
+Again, time resolves the paradox.
+To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
+<p><br /></p>
+
+<p>We could similarily notate \(i\) as</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
+<p><br /></p>
+
+<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
+For example, we can state the following:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
+<p><br /></p>
+
+<p>However, it is forbidden to only change one appearance of \(J\)!
+Following this simple rule, no paradox or inconsistency arises.
+We can go on and evaluate the following transformation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
+<p><br /></p>
+
+<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
+
+<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
+<p><br /></p>
+
+<p>which can be transformed into</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
+<p><br /></p>
+
+<p>thus gives us the re-entry</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<p>or</p>
+
+<p><br /></p>
+<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<h2 id="final-words">Final Words</h2>
+
+<p>In the act of programming there is no problem of using expressions such as</p>
+
+<p>\begin{equation}
+i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
+\end{equation}</p>
+
+<p>but in mathematics—at least since Plato—we assume some sort of eternity.
+Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
+It is like in physics where multiple theories are equivalent but start from very different viewpoints.
+It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
+To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
+
+<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
+To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
+According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
+
+<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). flaws of form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
 It is recommended that you read part I and II first.
 This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
 An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
@@ -1177,291 +2004,7 @@ The transformer architecture and its implications in music generation will be fu
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
-<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
-My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
-What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
-However, any observer is itself a distinction between system and environment.
-I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
-So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
-
-<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
-
-<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
-
-<blockquote>
-  <p>This statement is wrong.</p>
-</blockquote>
-
-<p>The statement is logically problematic because it is self-referential. 
-If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
-Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
-
-\[R := \left\{ x \ | \ x \not\in x \right\}.\]
-
-<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
-However, if we introduce the self-referential relation, we run into a paradox:</p>
-
-<p>\begin{equation} 
-R \in R \iff R \not\in R
-\end{equation}</p>
-
-<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
-If that is the case, does the barber shave themselves?</p>
-
-<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
-To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
-The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
-Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
-
-<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
-\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
-Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
-His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
-The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
-
-<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
-He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
-
-<p>Luhmann integrated this idea into his social systems theory.
-For example, the media can observe and reintroduce itself into itself. 
-It can use its systemic operations on itself, i.e. it can report on itself.</p>
-
-<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
-
-<blockquote>
-  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
-</blockquote>
-
-<p>The sentence has mainly two different meanings.
-One is:</p>
-
-<blockquote>
-  <p>The beginning of heaven and earth is without a name.</p>
-</blockquote>
-
-<p>The other one is:</p>
-
-<blockquote>
-  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
-</blockquote>
-
-<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
-Furthermore, the quote points to a distinction between heaven and earth.
-Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
-Spencer-Brown begins by the assumption that there is no such thing:</p>
-
-<blockquote>
-  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
-Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
-</blockquote>
-
-<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
-There is no clear separation between the object or the result of distinction and the process of distinguishing.
-Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
-Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
-I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
-
-<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
-The mark is, calls, and makes a difference.</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
-<p><br /></p>
-
-<p>There is an interior of the mark and not the interior—the system and its environment.
-I can make a distinction again (repetition):</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
-<p><br /></p>
-
-<p>But making a distinction again does not change the distinction.</p>
-
-<blockquote>
-  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
-</blockquote>
-
-<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
-<p><br /></p>
-
-<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
-Crossing twice reverses the first crossing.</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
-<p><br /></p>
-
-<blockquote>
-  <p>If a boundary is crossed twice, the original state will be reestablished.
-The repetition of the crossing has a different value than the single crossing.
-The reason is that in-between the reversal happens.
-Crossing changes the side.
-Re-crossing reverses this operation. – Spencer-Brown</p>
-</blockquote>
-
-<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
-Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
-There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
-
-<p>Let’s see what we can do with this calculus.
-Let \(a, b\) variables, then the following holds:</p>
-
-<p><br /></p>
-<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
-<p><br /></p>
-
-<p>Let’s have a look at the last transformation.
-Let us assume \(a\) is a <strong>mark</strong>.
-Then we get:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
-<p><br /></p>
-
-<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
-<p><br /></p>
-
-<h2 id="the-re-entry">The Re-Entry</h2>
-
-<p>How can we re-introduce the system (here an equation) into itself?
-Or in other words: How does the <em>re-entry</em> work?
-We can start by a simple self-referential algebraic equation:</p>
-
-<p>\begin{equation}
-x^2 = ax + b, \quad a, b \in \mathbb{R}.
-\end{equation}</p>
-
-<p>This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
-To see the re-entry, we can rewrite the equation above to get</p>
-
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}</p>
-
-<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
-
-<p>\begin{equation}
-x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
-\end{equation}</p>
-
-<p>Using this infinite formalism it is literally the case that</p>
-
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}
-holds.
-Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
-
-<p>\begin{equation}
-i = -1 /(-1 /(-1 / (-1 / \ldots )))
-\end{equation}</p>
-
-<p>but what does this mean?
-The system is not a number but a process, a generator that generates itself.
-\(i\) alternates between 1 and -1.
-Interestingly, this is precisely how we use the equal sign in most programming languages.
-Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
-
-<p>\begin{equation}
-i \leftarrow \frac{i}{-1}.
-\end{equation}</p>
-
-<p>The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
-<p><br /></p>
-
-<p>The solution is an alternation between a marked and unmarked state—between true and false.
-A state that might seem contradictory in space, makes sense if it is observed in time and space.
-Again, time resolves the paradox.
-To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
-<p><br /></p>
-
-<p>We could similarily notate \(i\) as</p>
-
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
-<p><br /></p>
-
-<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
-For example, we can state the following:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
-<p><br /></p>
-
-<p>However, it is forbidden to only change one appearance of \(J\)!
-Following this simple rule, no paradox or inconsistency arises.
-We can go on and evaluate the following transformation:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
-<p><br /></p>
-
-<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
-
-<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
-
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
-<p><br /></p>
-
-<p>which can be transformed into</p>
-
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
-<p><br /></p>
-
-<p>thus gives us the re-entry</p>
-
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
-<p><br /></p>
-
-<p>or</p>
-
-<p><br /></p>
-<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
-<p><br /></p>
-
-<h2 id="final-words">Final Words</h2>
-
-<p>In the act of programming there is no problem of using expressions such as</p>
-
-<p>\begin{equation}
-i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
-\end{equation}</p>
-
-<p>but in mathematics—at least since Plato—we assume some sort of eternity.
-Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
-It is like in physics where multiple theories are equivalent but start from very different viewpoints.
-It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
-To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
-
-<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
-To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
-According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
-
-<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
-<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). flaws of form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -4818,407 +5361,4 @@ The code include some additional functions, e.g., a function that prints out the
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
-<li><span id="loy:2006">Loy, G. (2006). <i>Musimathics: The Mathematical Foundations of Music</i> (Vol. 1). MIT Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="Sonic-Pi" /><category term="AI" /><summary type="html"><![CDATA[One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody. But what makes a good melody? Or, in a more generative sense:]]></summary></entry><entry><title type="html">Creative Artificial Intelligence</title><link href="https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence.html" rel="alternate" type="text/html" title="Creative Artificial Intelligence" /><published>2022-06-21T00:00:00+02:00</published><updated>2022-06-21T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/06/21/creative-artifical-intelligence.html"><![CDATA[<h2 id="panel-discussion">Panel Discussion</h2>
-
-<p><strong>Disclaimer:</strong> This text contains my own personal, speculative opinions. You might disagree heavily and that’s ok.</p>
-
-<p>On the 20th of Mai, I joined a penal to discuss the role of <em>artificial intelligence (AI)</em> in the <em>creative process</em>.
-It was held in the context of the Munich Creative Business Week by the Wavelet (University for Music and Theater) and the <a href="https://sites.hm.edu/mucdai/news_mucdai/details_news_mucdai_26944.de.html">Munich Center for Digital Science and AI</a>.
-Let me first summarize our discussion:</p>
-
-<p>The penal consisted of two computer scientists and two artists.
-After each of us opened with a general statement, we discussed different aspects of AI in the realm of art, science, and economics.
-We came close to an agreement regarding the question of how creative AI can be: AI can facilitate and enable great artwork but to this day, AI is yet another tool, similar to pen and paper, to support humans in their creative work.</p>
-
-<p>In general, it wasn’t easy to talk about <em>creativity</em> and <em>intelligence</em> because unsurprisingly each of us had a slightly different definition in mind.
-My colleague rightfully problematized the black box principle of many modern machine learning techniques, e.g., deep neural networks.
-Despite their effectiveness, real-world decisions are still made on the basis of human understanding.
-Since neural networks do not provide an “easy” explanation of how they draw their conclusion, it is often necessary to go back to simpler models, such as statistics, to explain the neural network.</p>
-
-<p>One artist described her experience with the chatbot <em>Replika</em>, an AI that tries to mimic your behavior to become your friend or romantic partner.
-She was pretty impressed. 
-Some people even fell in love with the machine – they reported strong emotions echoing the science fiction movie <em>Her</em>.
-However, it was always possible for her to spot a machine-like behavior behind the scenes.</p>
-
-<p>The other artist argued that AI opens up possibilities for novel artistic expressions.
-She assumes that working with AI will be her daily bread and butter.
-She also criticized the <em>cult</em> around famous artists by arguing that most of the time, incredible art resulted from a collaboration of multiple people.
-Consequently, she hopes that AI will bring a kind of democratization to the art world.</p>
-
-<blockquote>
-  <p>There is no single genius.</p>
-</blockquote>
-
-<p>I stated that AI could potentially increase the pressure on the artist because it will become more and more challenging to create something unique and even harder to create something non-reproducible.
-Democratization in consumer societies can enhance competitiveness and an ever-growing flow of products that lose their symbolic value.
-It is not necessarily the case that attempting to sell more art will constitute more art.
-The reverse might happen.
-<em>Commercial art</em> is rarely publicly symbolic.
-How could it, if one has to pay for its perception.</p>
-
-<h2 id="defining-artificial-intelligence">Defining Artificial Intelligence</h2>
-
-<p>In my opinion, without <em>artificial intelligence AI</em> there is no <em>artificial creatifity AC</em>.
-So let us talk about AI.</p>
-
-<p>In his paper <em>What is Artificial Intelligence?</em> <a class="citation" href="#mccarthy:1998">(McCarthy, 1998)</a> published in 2004, <a href="https://www.artificial-solutions.com/blog/homage-to-john-mccarthy-the-father-of-artificial-intelligence"><em>John McCarthy</em></a> stated:</p>
-
-<blockquote>
-  <p>[Artificial intelligence] is the science and engineering of making intelligent machines, especially intelligent computer programs. It is related to the similar task of using computers to understand human intelligence, but AI does not have to confine itself to methods that are biologically observable. – <em>John McCarthy</em></p>
-</blockquote>
-
-<p>In his definition, we do not find any explanation of what he actually means by <em>intelligence</em> which is unfortunate.
-<em><a href="https://en.wikipedia.org/wiki/Alan_Turing">Alan Turing</a></em>, the father of computer science, gave us at least some criteria at hand.
-He asks in his article <em>Computing Machinery and Intelligence</em> <a class="citation" href="#turing:1950">(Turing, 1950)</a> more than 50 years before <em>McCarthy</em></p>
-
-<blockquote>
-  <p>Can machines think?</p>
-</blockquote>
-
-<p>And from there, he offers us his famous and widely criticized <em>Turing test</em>.
-The test is not very helpful because it defines no objective measurement for intelligence.
-It consists of a human interrogator trying to distinguish between a computer and a human based on text responses – very similar to the chatbot <em>Replica</em>.
-If a human can not tell if he or she interacted with a machine or another human being, the machine passed the test and can be regarded as <em>intelligent</em>.</p>
-
-<p>I call this <em>simulated intelligence</em> or <em>weak AI</em>.
-It is a requirement, but it is not sufficient.
-Compared to a baby, a machine can <strong>appear</strong> to be much more intelligent, but a baby <strong>is</strong> intelligent while a machine is not.
-Therefore, the <em>Turing test</em> does not help us to spot <em>natural intelligence</em>.
-It might even lead us on a path where we become experts in <em>faking/simulating intelligence</em> by wasting all our resources.</p>
-
-<p><em>Stuart Russell</em> and <em>Peter Norvig</em> published their book <em>Artificial Intelligence: A Modern Approach</em> <a class="citation" href="#russel:2010">(Russell &amp; Norvig, 2010)</a> in 2010, which is one of the leading textbooks for the subject today.
-They differentiate four different goals or definitions of AI:</p>
-
-<ul>
-  <li>human approach
-    <ul>
-      <li>systems that think like humans (<em>strong AI</em>)</li>
-      <li>systems that act like humans (<em>weak AI</em>)</li>
-    </ul>
-  </li>
-  <li>ideal approach
-    <ul>
-      <li>systems that think rationally</li>
-      <li>systems that act rationally</li>
-    </ul>
-  </li>
-</ul>
-
-<p><em>Turing’s</em> definition of AI would have fallen under the category of <em>systems that act like humans</em>.
-A comprehensive, thus useless definition would be the following:</p>
-
-<blockquote>
-  <p>Artificial intelligence is intelligence demonstrated by machines.</p>
-</blockquote>
-
-<p>Again we avoid the definition of <em>intelligence</em>.
-Is an ant intelligent?
-Does the universe implement some sort of intelligence?
-Is consciousness or liveliness a precondition for intelligence?
-Based on our definition of <em>intelligence</em>, everything from simple algorithms and machines (including the thermostat) to neural networks can be either called <em>intelligent</em> or not.</p>
-
-<p>These definitions are somewhat fuzzy and vague because we do not know what intelligence is.
-We have an intuitive understanding of it (which might be an illision), but we can not express what it is linguistically.
-In its simplest form, artificial intelligence is <strong>a field</strong> (not a machine) that combines computer science, data science, machine learning, deep learning, robotics, neurosciences, and more <strong>to enable problem-solving</strong>.</p>
-
-<p>In his book <em>Birth of Intelligence</em> <a class="citation" href="#lee:2010">(Lee, 2021)</a> <em><a href="https://krieger.jhu.edu/mbi/directory/daeyeol-lee/">Daeyeol Lee</a></em> writes:</p>
-
-<blockquote>
-  <p>Intelligence can be defined as the ability to solve complex problems or make decisions with outcomes benefiting the actor and has evolved in lifeforms to adapt to diverse environments for their survival and reproduction. – <em>Daeyeol Lee</em></p>
-</blockquote>
-
-<p>Daeyeol Lee argues that a few essential principles emerge from an evolutionary perspective.
-For example, different lifeforms can have very different types of intelligence because they have other evolutionary roots and have adapted to different environments. 
-It is misleading, unhelpful, and meaningless if we try to order different animal species on a scale of intelligence.</p>
-
-<p>Following his advice, comparing human and artificial intelligence may be meaningless as well.
-Machines can solve specific problems much more efficiently than humans.
-At the same time, they are hopelessly overwhelmed in dealing with the most simple tasks.
-Humans, and many other animals, can not only identify complex objects and produce agile behaviors, but they can do this in so many different ways in many different environments.
-Concerning specialization, machines are still infants.
-Therefore, I suggest that we use three different terms to distinguish three different kinds of intelligence:</p>
-
-<ul>
-  <li><strong>lively intelligence:</strong> the intelligence of living beings</li>
-  <li><strong>human intelligence:</strong> the intelligence of human beings (a subset of lively intelligence)</li>
-  <li><strong>artificial intelligence:</strong> the intelligence of machines and programs</li>
-</ul>
-
-<p>By using these categories, I call machines not <em>human-like intelligent</em> but <em>artificial intelligent</em> which is a distinct category for a special kind of intelligence.</p>
-
-<blockquote>
-  <p>Artificial intelligence (AI) is an ability of a machine or program to solve specific problems.</p>
-</blockquote>
-
-<h2 id="a-brief-history-of-ai">A Brief History of AI</h2>
-
-<p>The general public was first impressed by <em>artificial intelligence</em> when it became clear that computers would beat any chess grandmaster of the future.
-Soon after the success, accompanied by big headlines, critics argued that the program won via a sort of <em>brute-force approach</em> which can not be called <em>intelligent</em> – here we go again.
-Based on a database, the program just searches the whole state space.
-In contrast, a chess master finds good moves through pattern matching and intuition.
-He or she is very limited in searching the state space.</p>
-
-<p>The next step toward more sophisticated artificial intelligence was made by <em>AlphaZero</em>, a program that plays board games with superhuman skill.
-It famously discovered several chess strategies and even invented one.
-It certainly seemed like a machine eclipsing human cognitive abilities.
-But <em>AlphaZero</em> needs to play millions more games than a person during practice to learn a game.</p>
-
-<p>What followed was the artificial intelligence called <em>AlphaGo</em> which was able to beat the world’s best <em>Go</em> players.
-The significant difference compared to former approaches was that <em>AlphaGo</em> not only partially searched the state space but also constructed a cost function autonomously.
-<em>AlphaGo</em> is based on <em>reinforcement learning</em>, i.e., it uses rewards and punishments to train itself while playing millions of games.
-The only prior defined goal was to win the game; thus, no evaluation strategy of a game state was given.</p>
-
-<p>In 2019 the success was translated to another AI called <em>AlphaStar</em>.
-<em>AlphaStar</em> was able to defeat one of the best players in a real-time strategy game (<em>Starcraft II</em>).
-Again the machine required millions of games and could only play a single map.</p>
-
-<p><em>AlphaGo</em> as well as <em>AlphaStar</em> revealed novel strategies that human players could potentially adapt.
-Furthermore, it developed a distinct game style.
-For example, <em>AlphaGo</em> tends to avoid pressing the issue.
-It sometimes makes seemingly suboptimal moves while staying slightly ahead.
-<em>AlphaStar</em> lost a game because it moved into an unobserved game state and heavily overreacted.
-The observers called it <em>weird gameplay</em>.</p>
-
-<p>These examples show that <em>artificial intelligence</em> can already create something novel that we identify as creative.
-Finding a new strategy in an RTS game is undoubtedly a creative process.
-The AI is perfectly able to simulate intelligence and creativity but has a fundamentally different quality than living beings.
-As <em><a href="https://www.ynharari.com/de/">Yuval Noah Harari</a></em> stresses:</p>
-
-<blockquote>
-  <p>Even though we do not really understand intelligence and consciousness, artificial intelligence is perfectly able to hack humanity. – <em>Yuval Noah Harari</em></p>
-</blockquote>
-
-<h2 id="shortcomings-of-ai">Shortcomings of AI</h2>
-
-<p>However, it also shows that <em>artificial intelligence</em> is still highly specialized in solving one specific task.
-I stand by the provocative claim that there is still no fundamental difference between modern AI and a thermostat.
-Regardless of how sophisticated an AI is, it can only solve a specific problem – it can not transfer knowledge or any strategy to a new area.
-While public figures, such as <em>Elon Musk</em>, make horrific claims about AI to push their story to please and attract financiers, experts are aware of its shortcomings and the vast difference between human and artificial intelligence.
-<em><a href="https://fchollet.com/">Francois Chollet</a></em>, the creator of <em>Keras</em>, stated:</p>
-
-<blockquote>
-  <p>What makes human intelligence special is its adaptability; its power to generalize to never-seen-before situations – <em>Francois Chollet</em></p>
-</blockquote>
-
-<p><em>Chollet</em> argues that, it is misguided to measure machine intelligence solely according to its skills at specific tasks.
-Unlike most animals humans do not start out with skills.
-As a baby we are horribly helpless but we start out with a broad ability to acquire new skills.
-A chess player can transfer his abilities to other areas.
-For example, in World War II, chess players joined the allied forces to decrypt military messages from Nazi Germany.
-Humans can solve tasks of similar difficulty which is a very different capability compared to what AI currently does.</p>
-
-<p><em><a href="https://www.harvardlds.org/our-labs/spelke-labspelke-lab-members/elizabeth-spelke/">Prof. Elizabeth Spelke</a></em> describes in her articles that even 3-month-olds appear puzzeled when someone grabs something in an inefficient way.
-In <a class="citation" href="#liu:2017">(Liu &amp; Spelke, 2017)</a> she and <a href="https://cbmm.mit.edu/about/people/liu">Shari Liu</a> argue that infants’ expects others to minimize the cost of their action, e.g., using the shortest path to a location.
-Humans seem to be born with an innate ability to quickly learn certain things, such as what a smile means or what happens if you move some object.
-We also develop social behaviors early on without being exposed to a massive amount of experiencing it.
-In their article <em>Foundations of cooperation in young children</em> <a class="citation" href="#olson:2008">(Olson &amp; Spelke, 2008)</a>, <em>Kristina R. Olson</em> and <em>Elizabeth Spelke</em> found evidence that 3.5-year-old children share resources with people who have shared with them (reciprocity), and with people who have shared with others (inidirect reciprocity). 
-Even the most sophisticated artificial intelligence of our age can not grasp such concepts.
-A self-driving car can not predict from <em>common sense</em> what will happen if a tree falls down on the street; it can not translate knowledge to an unexperienced situation.</p>
-
-<p><em><a href="https://mitibmwatsonailab.mit.edu/people/joshua-tenenbaum/">Joshua Tenenbaum</a></em>, a professor in MIT’s Center for Brains, Minds &amp; Machines thinks that AI programs will need a basic understanding of physics and psychology in order to acquire and use knowledge as efficiently as a baby.</p>
-
-<blockquote>
-  <p>At some point you know, if you’re intelligent; you realize maybe there’s something else out there. – Joshua Tenenbaum</p>
-</blockquote>
-
-<p>This might be a problem because, as we know, quantum theory and relativity theory, i.e., the physics of the small and big, do not work together, and Gödel’s incompleteness theorem hints at the depressing reality that there might never be a theory of everything.
-Another problem is cognition.
-We still know very little about what we perceive.
-Call me crazy, but it might have nothing to do with reality, so how can we program a machine to perceive like we do if we have no clue what we actually perceive and how?</p>
-
-<p>But there is even more.
-<em><a href="https://krieger.jhu.edu/mbi/directory/daeyeol-lee/">Daeyeol Lee</a></em> argues that true intelligence (<em>lively intelligence</em>) should promote – not interfere with – the replication of the genes responsible for its creation.
-The will to reproduce and to self-preserve ones own being and species injects the world with <em>meaning</em>.
-Until then, machines will always only be surrogates of human intelligence, which unfortunately still leaves open the possibility of an abusive relation between people and artificial intelligence.
-<strong>Replication</strong> and <strong>self-preservation</strong> seems to be the one and only predefined rule at which living beings operate.</p>
-
-<p>Today, a lot of hype still surrounds AI development, which is expected of any new emerging technology in the market.
-Surely we accomplished a lot in building more sophisticated thermostats.
-AI also helped us in the sciences but it may be the case that we did not come any closer towards creating <em>human intelligence</em>.
-The overenthusiasm of the tech-industry is slowly crumbeling and a period of disillusionment is on the horizon.
-Maybe this gives us the possibility to breathe and think about the technology we really wanna create and use.</p>
-
-<h2 id="creativity">Creativity</h2>
-
-<p>The question we discussed at the penal that is exciting and frightening at the same time is:</p>
-
-<blockquote>
-  <p>To what extent can artificial intelligence challenge human creativity?</p>
-</blockquote>
-
-<p>So far, we have established a clear difference between <em>human</em> and <em>artificial intelligence</em>.
-If creativity requires intelligence, does the question under this assumption matter?</p>
-
-<p>Before tackling this question, we have to define or at least get an intuitive idea of what we mean by <em>creativity</em>.
-This is, of course, a complex and maybe even impossible task.</p>
-
-<p>First, we can attribute creativity to a subject, object or process.
-A creative product or idea has to be <strong>novel</strong> and <strong>useful</strong> (which might be highly subjective).
-The product might just be aesthetically pleasing (or even disgusting), which is in itself useful.
-Novelty, as well as usefulness, can be either <em>psychological (P)</em>, i.e., it is novel/useful to the agent that produces it, or <em>historical (H)</em>, i.e., novel/useful to society.</p>
-
-<p>Every human being is creative.
-In other words, creativity is not reserved for a special elite; instead, it is a feature of human intelligence in general.
-Creativity involves everyday capacities, e.g., perception, searching for a structure, reminding, and combining concepts.</p>
-
-<p>Lastly, creativity involves motivation and emotion and is closely linked to historical, political, cultural, social and personal/subjective factors.</p>
-
-<h2 id="artificial-creativity">Artificial Creativity</h2>
-
-<p>In her article <em>Creativity and Artificial Intelligence</em> <a class="citation" href="#boden:1998">(Boden, 1998)</a> <em>M. A. Boden</em> lists three ways to create new ideas:</p>
-
-<ol>
-  <li>combination of familiar ideas</li>
-  <li>exploration of the conceptual space</li>
-  <li>transformation of previously impossible ideas</li>
-</ol>
-
-<p>Since creative products have to be novel and useful, artificial creative systems are typically structured into two phases:</p>
-
-<ol>
-  <li><strong>generation</strong> and</li>
-  <li><strong>evaluation</strong>.</li>
-</ol>
-
-<p>Artificial intelligence can help us with the generation.
-Algorithms can realize all three ways of idea creation, but at some point in the process, subjective factors have to come into play.
-Machines and algorithms are not motivated by anything; they are not emotional.</p>
-
-<p>Let us look at a famous example: the proof of <em>the four-color problem</em>.
-The four-color problem asks if it is possible to color a map in such a way that there are no two adjacent parts with the same color, using only four colors.
-It was proven in 1976 by <em>Kenneth Appel</em> and <em>Wolfgang Haken</em> with the help of a computer.
-Four colors are enough!
-An algorithm helped check different possibilities.
-Clearly, the machine is part of the creative process of proving a mathematical statement, but at the same time, it is instructed by the programmers who injected their subjective motivation and cultural background.
-They decided to take up the task of proving the statement.
-They decided it was worth their time and developed a strategy that a machine could execute.</p>
-
-<p>No artificial intelligence decided to prove <em>the four-color problem</em>, but humans did.
-Proving a mathematical statement does not start with the proof itself.
-This point is important!
-Scientists choose what they want to prove and what they think is essential.
-This choice can not be reduced to an <em>objective, rational</em>; it is a <em>subjective evaluation of values and symbols of meaning</em>.
-But to this day, machines can not infuse symbols with meaning.
-They work on a purely syntactical level.</p>
-
-<p>This is no argument against <em>simulated creativity</em>.
-Artificial intelligence is perfectly suitable to find, generate, combine or create what we humans value and attach meaning to.
-Therefore, AI can bring forth what we perceive to be creative.</p>
-
-<blockquote>
-  <p>In principle, artificial intelligence can create something novel that is meaningful to us.</p>
-</blockquote>
-
-<p>For example, in August 2015, researchers from Tübingen created a convolutional neural network that uses neural representations to separate and recombine the content and style of arbitrary images.
-The network can turn images into stylistic imitations of works of art by artists such as a <em>Picasso</em> or <em>Van Gogh</em> in about an hour.
-In October 2018, the <a href="https://www.christies.com/features/A-collaboration-between-two-artists-one-human-one-a-machine-9332-1.aspx">Portrait of Edmond de Belamy</a>, an algorithm-generated print, was sold for 432 500.
-In both cases, the AI (1) combined familiar ideas, (2) explored a conceptual space, and (3) transformed previously impossible ideas.</p>
-
-<h2 id="disruptions-and-control">Disruptions and Control</h2>
-
-<p>Humans have created and enjoyed all art forms for viewing, aesthetic, and even therapeutic purposes.
-We should not forget that technology has impacted how art is created and enjoyed for the last 100 years.
-The invention of <em>portable paint tubes</em>, for example, enabled artists to paint outdoors and sparked a contingent of stunning landscape and horizon paintings.
-Today cameras and software like <em>Photoshop</em> have redefined how art is created and enjoyed.
-Even if we disagree on what art is, it is safe to say that these technological advances have not changed our antiquated meaning of it.</p>
-
-<p>Regardless of the technology, there was always some human intervention required to create art.
-Since machines can not make sense of our social, cultural, transcendental, and physical world, I highly doubt that this will change in the near future.
-As long as we fail in creating <em>human intelligence</em>, there is no reason to believe that <em>artificial intelligence</em> can replace the human artist.
-But why do we even want to create <em>human intelligence</em>?
-Why shall we copy ourselves?</p>
-
-<p>Technologies got introduced long before the digital era.
-However, what changed is <em>the speed of disruption</em>.
-At the rate at which technology is being accepted in every industry, it is no longer difficult to imagine a future of fewer artists.
-The increased usage of all kinds of AI in all kinds of art suggests that it is here to stay.
-From AI-written books, such as <a href="https://en.wikipedia.org/wiki/1_the_Road">The Road</a>, to blooming tulip videos, creators have found value in utilizing artificial intelligence.</p>
-
-<blockquote>
-  <p>We all hope for a world where our technologies help us and not replace us.</p>
-</blockquote>
-
-<p>Our current technologically and competitively driven economic system neglects any profound confrontation with technology.
-Competition leads to <em>the fear of missing out</em>; of losing some advantage over others.
-We are so used to technology, comforted by it, and convinced that it has become our new religion – at least for some of us.
-We lost the distinction between <em>technological progress</em> and <em>evolution</em>.
-Now, technology <strong>is</strong> evolution.
-We no longer think about it. 
-Instead, if it is properly marketed and channeled into our desires, we buy and use it.</p>
-
-<p>Every broadly accepted new technology leads to disruption.
-The increasing speed of disruption makes it more and more difficult to attach meaning to the new.
-Solid structures get replaced by a liquid stream of information.
-We can no longer get too invested in something because it might be replaced the next day.
-Artists might be in trouble if this superficiality becomes a reality in the art world.</p>
-
-<p>In the article <em><a href="https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704">What worries me about AI</a></em>, <em>Francois Chollet</em> states his personal opinion about the real destructive potential of AI; he hits the mark.
-First, he convincingly argues that we are painfully bad at predicting future threats but we can be easily driven towards illusive fears.
-For example, who could forecast that the transportation and manufacturing technologies we were developing would enable a new form of industrial warfare that would wipe out tens of millions in two World Wars?
-According to Chollet, the danger is not the singularity of AI; it is not about automation and job replacement; aligned with <em><a href="https://www.ynharari.com/de/">Yuval Noah Harari</a></em>, he states it is about hacking human societies, and I have to agree.
-Brexit and other political disruptions already show a trend.
-When consumption and creation mainly happen in the digital world, we become vulnerable to that which rules it – AI algorithms.
-And these AI algorithms serve the interest of big corporations and governments, i.e., aggregations of power.</p>
-
-<blockquote>
-  <p>We’re looking at a company that builds fine-grained psychological profiles of almost two billion humans, that serves as a primary news source for many of them, that runs large-scale behavior manipulation experiments, and that aims at developing the best AI technology the world has ever seen. Personally, it scares me. – <em>Francois Chollet</em></p>
-</blockquote>
-
-<p>The history of psychological tricks applied by marketing and advertisers was born with the introduction of surplus production.
-It started with <em><a href="https://en.wikipedia.org/wiki/Edward_Bernays">Edward Louis Bernays</a></em>, a nephew of <em><a href="https://en.wikipedia.org/wiki/Sigmund_Freud">Sigmund Freud</a></em> and horrific misanthrope with grand ambitions.
-His story is worth studying.
-Today, <em>accessibility</em> and <em>AI</em> guarantees constant exposure to this resonating and highly individualized noise.
-<em>Reinforcement learning</em> can easily be applied to whole human societies.
-Algorithms can decide what you see; they show you things you identify with to trick you into a particular belief.
-They can channel your unwanted opinions to a specific group of people, who will reject and oppose you.
-Constant rejection can then lead to alienation.
-This combination of <em>identification</em> and <em>alienation</em> can gently force you into <em>adaptations</em>.
-The system can potentially punish what it does not want to see; it can <em>train</em> you into the “correct” mindset.</p>
-
-<p>I think we have to educate ourselves not only about AI but how we can be manipulated by it.
-In the past, we learned about the influence of pollution on the quality of life.
-We have regulations for fine particles, chemicals, and CO2 emissions.
-Now it is time to learn about the pollution of our mind.</p>
-
-<blockquote>
-  <p>We have to learn about the pollution of our mind.</p>
-</blockquote>
-
-<p>We need transparency and control for the public and the customer.
-I want to be in charge of the objective function of <em>YouTube’s</em> algorithms feeding me with suggestions.
-I want to decide on what bases I will be manipulated.
-Paradoxically enough, AI can help us with these tasks.</p>
-
-<blockquote>
-  <p>The issue is not AI itself. The issue is control. – <em>Francois Chollet</em></p>
-</blockquote>
-
-<p>Of course, this would destroy most business models; thus, corporations will not implement these changes voluntarily.
-Governments are another beast.
-Right now, it is unimaginable that China will change its way of using AI and Western governments are not innocent either.</p>
-
-<p>AI will be, most likely, part of our future life – our window to the world made of digital information.
-As I stated in my <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">love letter</a>, informatics and AI can be empowering disciplines.
-AI can emancipate us.
-But it can also lead to a total loss of self-determination and agency.
-I believe we still have enough leftover to steer the wheel in the right direction.</p>
-
-<p>In the progress of a possible democratization of AI, art could play a major role.
-Art, as an aesthetic counterpart to the kind of destructive advertisement polluting our thoughts, can reveal its manipulative power.
-Future artists might have to revolt against <em>the speed of disruption</em>.
-Artwork may be the product of technology, but <strong>also</strong> offers a window into it.
-Maybe in art lies the possibility, on the one hand, to disengage, but also to profoundly engage with technology;
-to reveal who is in charge for what reason;
-To ask: What is it good for?
-How does it change our social, economic, political, and transcendental systems?
-Can everyday people control it, and if so, how can we get there?</p>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="mccarthy:1998">McCarthy, J. (1998). <i>What is artificial intelligence?</i></span></li>
-<li><span id="turing:1950">Turing, A. M. (1950). Computing machinery and intelligence. <i>Mind</i>, <i>59</i>(236), 433–460. http://www.jstor.org/stable/2251299</span></li>
-<li><span id="russel:2010">Russell, S., &amp; Norvig, P. (2010). <i>Artificial Intelligence: A Modern Approach</i> (3rd ed.). Prentice Hall.</span></li>
-<li><span id="lee:2010">Lee, D. (2021). <i>Birth of Intelligence: From RNA to Artificial Intelligence</i>. New York: Oxford University Press.</span></li>
-<li><span id="liu:2017">Liu, S., &amp; Spelke, E. S. (2017). Six-month-old infants expect agents to minimize the cost of their actions. <i>Cognition</i>, <i>160</i>, 35–42. https://doi.org/10.1016/j.cognition.2016.12.007</span></li>
-<li><span id="olson:2008">Olson, K. R., &amp; Spelke, E. S. (2008). Foundations of cooperation in young children. <i>Cognition</i>, <i>108</i>(1), 222–231. https://doi.org/10.1016/j.cognition.2007.12.003</span></li>
-<li><span id="boden:1998">Boden, M. A. (1998). Creativity and artificial intelligence. <i>Artificial Intelligence</i>, <i>103</i>(1), 347–356. https://doi.org/10.1016/S0004-3702(98)00055-1</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="AI" /><summary type="html"><![CDATA[Panel Discussion]]></summary></entry></feed>
+<li><span id="loy:2006">Loy, G. (2006). <i>Musimathics: The Mathematical Foundations of Music</i> (Vol. 1). MIT Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="Sonic-Pi" /><category term="AI" /><summary type="html"><![CDATA[One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody. But what makes a good melody? Or, in a more generative sense:]]></summary></entry></feed>
