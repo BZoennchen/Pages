@@ -415,7 +415,7 @@ These institutions are essential if we are to have any hope of acquiring reliabl
 The core issue lies in our reliance on what Niklas Luhmann refers to as *second-order observation* and is consequently a trust issue.
 In modern society, directly observing reality is increasingly challenging. 
 To stay informed about various aspects such as the state of the economy, job market trends, recent fashion styles, developments in one's favorite sports league, or new scientific inventions and studies, it is impractical to personally verify these facets. 
-Instead, we depend on the observations made by others.
+Instead, we depend on the observations made by others and, of course, machines.
 This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers. 
 This reliance on second-hand information shapes our understanding of the world, as we depend on external observers to provide us with insights and knowledge about various domains that we cannot directly experience or verify ourselves.
 
@@ -429,12 +429,12 @@ This reliance on filtered and simplified interpretations highlights our dependen
 
 At the core of our society is the notion of the individual as a subject capable of making their own decisions and drawing sound conclusions. 
 However, it's evident that our understanding of the numerous processes occurring around us is limited. 
-The complexity of the modern world can only be managed through *functional differentiation* and *second-order observation*. 
+The complexity of the modern world might only be manageable through *functional differentiation* and *second-order observation*. 
 We are heavily dependent on specialists and experts, and our understanding is largely shaped by observing their observations.
 
 Conspiracy theorists seemingly reject *second-order observation*, viewing it as a form of manipulation akin to the matrix. 
 However, this rejection is a perilous illusion.
-There is no position outside of second-order observation, no external vantage point from which to objectively assess 'reality' as it is, separate from the interpretations and understandings provided by other---the simulacrum is true.
+There is no position outside of second-order observation, no external vantage point from which to objectively assess 'reality' as it is, separate from the interpretations and understandings provided by others.
 This perspective underscores the intricate and interconnected nature of knowledge and understanding in contemporary society.
 
 Philosophers ranging from Plato, Fichte, and Kierkegaard to Russell, Kant, and Heidegger have provided insights that prompt us to question the application of second-order observation.
@@ -444,7 +444,7 @@ The stories goes like this: There exists an inner truth within us, and we should
 As sovereign individuals in a libertarian society, we should not solely rely on the opinions, or observations, of others. 
 As Kant famously articulated, we should have the courage to employ our own intellect (Verstand). 
 I align with Kant with a caveat: we should also have the courage to acknowledge our own ignorance and cultivate the ability to rectify it.
-By utilizing second-order observation wisely, we can develop a cultural intelligence more akin to Hegel's concept of the world spirit than Kant's emphasis on the individual.
+By utilizing second-order observation wisely, we can develop a *cultural intelligence* more akin to Hegel's concept of the world spirit than Kant's emphasis on the individual.
 
 ## Conviction under Constructivism
 
@@ -478,11 +478,19 @@ Nevertheless, Gabriel often labels assertions as obvious without offering a reas
 Based on what I've encountered and also observed in my own life, I lean toward believing in constructivism.
 
 Certainly, this form of relativism raises several pressing issues. 
-For instance, how can we justify the actions of individuals whose worldviews may vastly differ from our own? Additionally, how can international bodies like the United Nations apply pressure on nations that violate human rights if their value systems diverge significantly from ours?
-Nonetheless, it's worth noting that similar challenges emerge when we consider the concept of *free will*, which is itself a highly contentious notion, compare for example {% cite sapolsky:2023 %}.
+For instance, how can we justify the actions of individuals whose worldviews may vastly differ from our own?
+Additionally, how can international bodies like the United Nations apply pressure on nations that violate human rights if their value systems diverge significantly from a Western dominated notion of values?
+Richard Rorty has an intreresting take on that question.
+If we want universal acceptance of and respect for human rights, we shouldn't try to argue about it. 
+We shouldn't attempt to work out rational justifications of human rights, or arguments that will convince people that human rights are a good thing. 
+Instead, according to Rorty, we would achieve better results if we try to influence people's feelings instead of their minds---philosophy as poetry {% cite rorty:2016 %}!
+This approach to human rights doesn’t justifying human rights in an abstract and philosophical way---something which according to Rorty isn’t possible anyway.
+In a sense, Rorty suggest that, instead of arguing rationally against mythologies, we should imagine, construct and present better ones.
+He does not believe in a second enlightenment---in which logic and rationality will triumph over evil.
+It is worth noting that similar challenges and questions arise when we consider the concept of *free will*, which is itself a highly contentious notion, compare for example {% cite sapolsky:2023 %}.
 
-In a world with no singular perspective, multiple viewpoints coexist, each with its inherent blind spots. 
-This principle applies to any observing system, whether it's a psychological system, like the human mind, or a social system. 
+In a world with no singular perspective there are multiple viewpoints coexisting and each has its inherent blind spots. 
+According to Luhmann, this principle applies to any observing system, whether it's a psychological system, like the human mind, or a social system. 
 The diversity of perspectives inherently limits each view, preventing it from fully encompassing all facets of a situation or concept. 
 This inherent limitation in observation highlights the intricate and multifaceted nature of comprehending and interpreting the world around us.
 
@@ -491,12 +499,12 @@ Nevertheless, it remains a crucial element as it plays a central role in stabili
 A prime example of this is ChatGPT, which may not understand as humans do but still manages to communicate effectively.
 
 So, can we embrace and navigate this diversity of perspectives? Can or should we tolerate the uncanny sensation of numerous distinct realities coexisting? 
-Is it possible for us to, to some extent, accept that others may inhabit a different world while simultaneously acknowledging the existence of something that persists, even if we cease to believe in it---namely, *reality*?
+Is it possible for us to, to some extent, accept that others may inhabit a differently constructed world while simultaneously acknowledging the existence of something that persists, even if we cease to believe in it---namely, the measureable physical *reality*?
 
 ## The Reality of the Climate Crisis
 
 The COVID-19 pandemic had a measurable positive effect on pollution levels---which did not last for long.
-However, one could argue that it also had a negative impact on trust in institutions, especially scientific ones.
+However, one could argue that it also had a negative impact on trust levels in institutions, especially scientific ones.
 This erosion of trust may ultimately hinder efforts to address the climate crisis.
 The ongoing debate regarding climate change's origins and the necessity of curbing CO2 and equivalent gas emissions continues to persist even if the scientific community is clear on the matter---a conviction I have established via *second-order* observation.
 
@@ -515,16 +523,18 @@ Water shortages are on the horizon.
 Increased carbon dioxide absorption by oceans leads to ocean acidification, which can harm marine life, especially coral reefs and shellfish.
 Climate change can exacerbate health issues by increasing the spread of diseases, heat-related illnesses, and air quality problems due to wildfires and increased pollen levels.
 Changing weather patterns and more frequent extreme events can disrupt agriculture and water supplies, potentially leading to food shortages and conflicts over resources.
-As climate impacts worsen, there may be increased migration and displacement of populations, both within and across borders, as people seek refuge from areas affected by climate-related hazards.
-Climate change is likely to intensify extreme weather events such as hurricanes, droughts, heatwaves, and heavy rainfall. 
+As climate impacts worsen, there will be never-seen increased migration and displacement of populations, both within and across borders, as people seek refuge from areas affected by climate-related hazards.
+Climate change is very likely to intensify extreme weather events such as hurricanes, droughts, heatwaves, and heavy rainfall. 
 These events can lead to increased property damage, displacement of populations, and economic losses.
 Sea levels are expected to continue rising, posing a threat to coastal communities, infrastructure, and ecosystems. 
 Flooding and saltwater intrusion into freshwater sources may become more common.
+I imagine that at some point borders certain countries will be closed dividing the world in a *real* and a *hyperreal* one.
 
 Considering all the points I discussed, the resistance to transitioning away from fossil fuels is expected, given the various parties involved. 
 It would be a relief if we were in a simulated reality, where everything could be dismissed as a bad dream.
 However, we are faced with the pressing need to convince everyone that climate change is a real problem that demands immediate action.
-Individuals who have limited information can often be persuaded through sound arguments and credible sources. 
+And that it is worth to sacrifice for the unknown other.
+Individuals who have limited information may be persuaded through sound arguments and credible sources. 
 However, those who actively reject the mainstream narrative may ultimately question the legitimacy of *second-order observation*.
 
 An example of this dynamic in action was during a BBC News panel where Brian Cox (physics professor and science communicator) clashed with skeptic Malcolm Roberts (politician). 
@@ -548,7 +558,7 @@ Additionally, the *Intergovernmental Panel on Climate Change* (IPCC) reports hav
 If one is convinced that there may be some shadiness going on, I encourage the reader to delve into the extensive history of climate change science, for example *The Discovery of Global Warming* {% cite weart:2009 %}.
 
 Additional, one can highlight the overwhelming consensus among climate scientists and scientific organizations that climate change is real and largely caused by human activities, compare {% cite myers:2021 lynas:2021 cook:2016 cook:2013 doran:2009 %}.
-Of course, if we only rely on those papers we have to trust an even higher-order observation*!
+Of course, if we only rely on those papers we have to trust an even *higher-order observation*!
 In addition, one can argue that there is no plausible alternative theory apart from the effects humans caused by polluting the planet.
 
 But if an individual has lost trust in institutions all these efforts will be fruitless.
@@ -591,10 +601,12 @@ This asymmetry in approach creates a challenging environment for advancing scien
 
 ## Conclusion
 
-What I wanted to emphasize is the idea that we are constantly existing within a simulation, relying on second-order observation. 
-The root cause of descending into the rabbit hole may not be a detachment from reality but rather an attachment to certainty. 
+What I wanted to emphasize is the idea that we are constantly existing within a blurred world of reality and simulation, relying on second-order observation. 
+The root cause of descending into the rabbit hole may not be a detachment from reality but rather an *attachment to certainty*. 
 Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
-According to him, we cannot escape our simulation; certainty exists only in a pure form of simulation. 
+According to him, we cannot ceanse ourselfs from simulation.
+What we are trying to do is to purge the world of all mysteries, illusions and imaginations.
+But certainty exists only in a pure form of simulation. 
 In a constructivist sense, we cannot access the absolute true reality (the thing in itself) because it is always already mediated.
 If we cannot accept this fundamental ambiguity of our reality (by which Baudrillard does not mean physical reality but that which is intelligible via signs), we run the risk of constructing the one and only reality, i.e., hegemony.
 Since this realm does not allow contradictions, it tends to integrate everything, including disasters, into it.
@@ -604,7 +616,8 @@ We perceive the reality of nature when it manifests as a non-human force of dest
 What occurs is incomprehensible. 
 In hyperreality, nature ceases to be a conflicting force and becomes merely an element within the simulation---a floating sign. 
 Destruction transforms into a calculated event.
-Displaying graphs of death tolls repeatedly can be interpreted as an effort to reintegrate death (arguably the greatest contradiction of all) into the simulation.
+For example, repeatedly displaying graphs of death tolls gives as the illusion of control.
+It can be seen as an attempt to reintegrate death (arguably the greatest contradiction of all) into the simulation.
 The negative, along with contradictions, is either integrated or discriminated against.
 Wars, natural disasters, and pandemics metamorphose into a spectacle on the television screen, a tourist attraction for our theme park, and are more disastrous than the disaster, more natural than nature---in short, a perfect simulation that surpasses and supplants reality.
 
@@ -616,7 +629,7 @@ They exist as imagined communities through a multitude of agent acts of self-ide
 
 Therefore, I have no intention of passing moral judgment on conspiracy theorists.
 One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for the hyperreality.
-Baudrillard argues that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
+Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
 Conspiracy theories operate similarly; they are pure simulations and, in this regard, true. 
 The outsider is convinced of his or her reality, and the contradictory nature of these theories is not contradictory for him or her. 
@@ -624,8 +637,8 @@ Instead, (obvious) contradictions are necessary to make the theory hyperreal.
 The suspicion of the theorists is not unreasonable, but their conclusion is fatal---they demand a simple metanarrative and cannot see that this can only be another far more harmful simulation.
 We should also not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
 
-Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is becoming 'less real,' the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society. 
-Our modern world is so complex that it is virtually impossible for any single individual to comprehensively make sense all that occurs.
+Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is becoming 'less real', the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society. 
+Our modern world is so complex that it is virtually impossible for any single individual to comprehensively make sense of all that occurs.
 As a result, we heavily rely on the concept of second-order observation, and there is no shame in acknowledging this fact.
 Turning to experts and authorities, provided that their authority is derived from genuine competence, is necessary. 
 However, it's crucial to subject these authorities to scrutiny and verification.
@@ -660,12 +673,21 @@ His overly dramatic and playful writings are interesting but also contradictory,
 He would probably be horrified at our attempt to [simulate the whole earth](https://blogs.nvidia.com/blog/earth-2-supercomputer/) to predict and control our future. 
 But how else can we deal with an open, unpredictable future other than the pursuit of more and more accurate predictions? Esposito asks if this future will still be open {% cite esposito:2024 esposito:2023 %}.
 
+It appears to me that logical reasoning alone is not sufficiently compelling.
+Maybe Rorty is right about the importance of empathic stories.
+But where are these stories in the mainstream?
+Are we already too cynical, too ironic?
+We need storytellers and artists to craft more persuasive mythologies, narratives, and stories that resonate on an emotional level.
+I want a serious vision which is shamelessly emphatic towards all forms of life.
+This anti-Socratic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors.
+
 We have reached an alarming point at which millions of people can no longer discriminate between reality and hyperreality. 
 That which cannot be simulated seems to disappear. 
 There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
 In the case of the climate crisis, there is no room for alternative truths.
 Sooner or later the reality of the crisis will eventually bleed into hyperreality.
-Will we be able to give it symbolic meaning, or will it be re-integrated into the void filled with media and simulations? 
+Will we be able to give it symbolic meaning, or will it be re-integrated into the simulation?
+
 Even if we construct our own perspective on the world, the physical reality of the climate crisis will not disappear if we stop believing in it.
 
 ## References
