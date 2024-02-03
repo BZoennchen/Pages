@@ -449,17 +449,17 @@ This can be mitigated by splitting the computation into two parts:
 
 $$\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}} = \frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j) + (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij}}{\sqrt{D_q}}$$
 
-## TODO
+Assuming that $$\mathbf{S}$$ contains all the relative attention scores, that is, 
 
-Going back to the matrix form, this gives us
+$$\mathbf{S}_{ij}$$ = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij},$$
+
+then we can go back to the matrix form which gives us
 
 $$\mathbf{Sa}(\mathbf{X}) = (\mathbf{V} + \mathbf{A}^V) \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q} + \mathbf{S}}{\sqrt{D_q} }\right).$$
 
-where $$\mathbf{S} = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij} + $$ involves 
-
-The first part is identical to what we had before and can be computed as described before.
-For the second term involving relative position representations, tensor reshaping can be used to compute $$n$$ parallel multiplications.
-The authors state that this caused a modest 7% decrease in steps per seconds on their machine.
+To compute $$\mathbf{S}$$ {% cite shaw:2018 %} instantiate an intermediate tensor $$\mathbf{R} \in \mathbf{R}^{k \times k \times D_q},$$ containing the embeddings that correspond to the relative distance between all keys and queries.
+$$\mathbf{Q}$$ is then reshaped to an $$(k, 1, D_q$$) tensor, and $$\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.$$
+This incurs a total space complexity of $$\mathcal{O}(k^2 D_q)$$.
 
 ## The Music Transformer
 
@@ -474,10 +474,23 @@ and they used an impressive sequence length of **2048-tokens**!
 They used GPUs for the training.
 With such a large number of token, one question arises: How did they manage to put 2000-tokens and all the respective matrices in the GPUs' memory?
 
+The authors correctly identify the space complexity of $$\mathcal{O}(k^2 D_q)$$ to be problematic for GPU computation and they reduce the complexity to $$\mathcal{O}(k D_q)$$ by exchanging space for re-computation.
+This is possible due to the structure of the tensor $$\mathbf{R}$$ which contains many equal values.
+
+To handly very long sequences, the authors use local attention {% cite liu:2018 %} by chunking the input sequence into non-overlapping blocks.
+Each block then attends to itself and the one before.
+
 ## Attention-Free Transformer
 
-In 2022 a further simplification was brought to the table.
-Instead of computing attention *FNet* {% cite leethorp:2022 %} just mixes tokens according to the Fourier discrete transformation (DFT).
+Basically, the attention mechanism, regardless of the specifics, solves a routing problem, that it, which information is transported to the next layer of the neural network.
+Thus, it has a quadratic time and space complexity of $$\mathcal{O}(n^2)$$ where $$n$$ is our sequence length.
+Therefore, if you have limited ressources, it is hard to scale it to larger sequences.
+As with the local attention and other techniques, like the Linformer {% cite wang:2020 %}, Longformer {% cite %}, Reformer {% cite kitaev:2020 %}, and Synthesizer {% cite tay:2021 %}, and Performer {% cite choromanski:2022 %} there are ways to improve this but in principle the complexity will bite us eventually.
+
+Now we enter in an era in deep learning where we question if we actually need the attention layers in the transformer!
+This was proposed in 2022.
+Instead of computing attention, *FNet* {% cite leethorp:2022 %} just mixes tokens according to the discrete Fourier transformation (DFT).
+First, a 1D transformation is computed with respect to the embedding and then another with respect to time.
 Amazingly even though there is no parameter to learn within the ``Fourier``-layer (which replaces the ``Head``) this strategy seems to work almost as good as the far more computational expensive task of learning all the required attention scores.
 
 The Fourier transform decomposes a function (in our case a discrete signal) into its constituent frequencies.
@@ -486,14 +499,32 @@ Given a sequence $$x_0, \ldots, x_{N-1}$$, the discrete Fourier transform (DFT) 
 $$X_k = \sum\limits_{n=0}^{N-1} x_n \exp\left( - \frac{2\pi i}{N} nk \right), \quad 0 \leq k \leq N-1.$$
 
 $$X_k$$ encodes the **phase** and **power** of frequency $$k$$ within the signal.
+
 *FNet* consists of a Fourier **mixing sublayer** followed by a feed-forward sublayer.
 Essentially, the self-attention sublayer of each transformer decoder layer is replaced with a **Fourier sublayer** which applies a 2D DFT to its 
 
 $$(\text{sequence length} \times \text{hidden dimension})$$
 
-embedding input---one 1D DFT along the sequence dimension, $$\mathcal{F}_\text{seq}$$, and one 1D DFT along the hidden dimension, $$\mathcal{F}_\text{h}$$:
+embedding input.
+This can be achieved using two 1D DFTs---one 1D DFT along the sequence dimension, $$\mathcal{F}_\text{seq}$$, and one 1D DFT along the hidden dimension, $$\mathcal{F}_\text{h}$$:
 
 $$y = \text{Real}\left( \mathcal{F}_\text{seq} \left( \mathcal{F}_\text{h}(\mathbf{x}) \right) \right)$$
+
+The authors only consider the real part of the DFT.
+
+Now, as emphasized by the title of their paper, the Fourier transform is probably not the important part.
+It is just a special case of how you can mix tokens.
+Important is the mixing itself which allows information to flow from one token to all the other tokens and the Fourier transform happens to be a nice why of mixing.
+The paper indicate that it might not be so important to let the model learn how exaclty information flows around.
+It might be just enough if information flows at all (to all tokens).
+In other words, the exact routing might be less important than we thought.
+
+Now, the results of the paper are not better than using a traditional transformer.
+But one trades accuracy for resources thus longer sequence length and a faster computation.
+
+To the best of my knowledge, I have not seen this tried out for symbolic music generation.
+But when I have time, I play around with it.
+Futhermore, one might think about a special mixing which is effective for our specific task.
 
 ## References
 
