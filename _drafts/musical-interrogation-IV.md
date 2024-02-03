@@ -19,12 +19,12 @@ The idea that intermediate representations in the RNN should be exploited to pro
 The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.
 
 Today, all successful large language model (LLMs) utilize the transformer architecture.
-It brought us ChatGPT (based on GPT-3 {% cite brown:2020 %} and GPT-4 {% cite openai:2023 bubeck:2023 %}), LLaMA {% cite touvron:2023 %}, LLaMA 2 {% cite touvron:2023b %}, BERT {% cite devlin:2019 %} and many fine-tuned derivates such as CodeX {% cite chen:2021 %} .
+It brought us ChatGPT (based on GPT-3 {% cite brown:2020 %} and GPT-4 {% cite openai:2023 bubeck:2023 %}), LLaMA {% cite touvron:2023 %}, LLaMA 2 {% cite touvron:2023b %}, BERT {% cite devlin:2019 %} and many fine-tuned derivates such as Codex {% cite chen:2021 %} .
 In the domain of symbolic music, transformers where also employed.
 Examples are the Music Transformer {% cite huang:2018 %}, the Pop Music Transformer {% cite huang:2020 %}, multi-track music generation {% cite ens:2020 %}, piano inpainting {% cite hadjeres:2021 %}, Theme Transformer {% cite shih:2022 %} and more.
 Furthermore there are transformers, such as MusicGen {% cite copet:2023 %} that generate audio output directly.
 
-While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective---there is rigorous mathematical proof.
+While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective---there is no rigorous mathematical proof.
 It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
 One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information) and the independence of multiple execution paths make them especially suitable for the exploitation of multicore processors such as GPUs and TPUs.
 However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
@@ -40,41 +40,47 @@ The alphabet of musical notations has more than 26 symbols and there is a strong
 For example, there is a strong relation between the C's of each octave or a whole and half note in the same pitch class.
 Furthermore, shifting all the letters in a text changes the meaning of that text dramatically while in the case of music this is most often not the case.
 
-## Attention in RNNs
+## Attention in Encoder-Decoder RNNs
 
 What is the idea behind the attention mechanism?
 Attention was introduced to bidirectional recurrent neural networks (RNNs) in 2014 {% cite bahdanau:2014 %} for language translation, that is, for an *encoder-decoder architecture*.
-The idea is that the decoder emulates a search through a source sentence during decoding a translation.
-The attention mechanism enables the model to learn the importance of (previous) $$n^{\text{th}}$$ tokens 
+In this scenario we want to translate a sentence from e.g. English into e.g. German.
+The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoders ouput (representations of the English words) differently.
+Therefore, it helps to preserve long term dependencies.
 
-$$\mathbf{x}_{0}, \ldots \mathbf{x}_{n-1},$$ 
+The **encoder's** input is a sequence of tokens, let's say words for simplicity, i.e. a sequence
 
-in relation to the $$(n+1)^\text{th}$$ token, i.e. $$\mathbf{x}_n$$.
-We want to predict the output $$\mathbf{y}_{n}$$ and in our autoregessive case this is equal to the input $$\mathbf{x}_{n}$$.
-As before, the RNN also has access to the hidden state $$\mathbf{h}_{n}.$$
+$$\mathbf{x}_{0}, \ldots \mathbf{x}_{n-1}.$$ 
 
-For example, to predict the word "banana" in the sentence: "I eat a lot of fruit, therefore, I like ____", the model should learn that "fruit" is somehow important for the prediction of the missing word.
-For each output of the RNN a score (or energy) is computed.
-This score measures how well each output is aligned with the RNNs previous hidden state $$\mathbf{h}_{n}$$.
-Since the similarity between the outputs of the RNN and the hidden state is computed, the dot product was proposed shortly after, i.e.,
+For each word $$\mathbf{x}_{i}$$ it computes some output $$\mathbf{y}_{i}$$.
+The assumption is that the probability for $$\mathbf{x}_{i}$$ depends on $$\mathbf{x}_{j}$$.
+Since we have the whole sentence given, we can use a *bidirectional RNN* and look into the future.
+Thus, with respect to dependency, the probability for token $$i$$ can depend on the probability for token $$j$$ and vice versa.
 
-$$e_{n,i} = \mathbf{h}_{n}^\top \mathbf{y}_{i} \quad \text{ for } i = 0, \ldots, n-1$$
+The **decoder's** input is the **whole** sequence computed by the **encoder** but as a weighted sum.
+The output is a sequence of German words, let's say
 
-and it was suggested to use an additional linear transformation on the output:
+$$\mathbf{y'}_{0}, \ldots \mathbf{y'}_{n-1}.$$ 
 
-$$e_{n,i} = \mathbf{h}_{n}^\top (\mathbf{W} \mathbf{y}_{i}) \quad \text{ for } i = 0, \ldots, n-1,$$
+This time however, the **decoder** RNN is unidirectional.
+It can not look into the future and computes each German word strictly from left to right.
+To compute the weights or attenion scores of $$\mathbf{y'}_{i}$$, an **alignment model** receives the hidden state $$\mathbf{h'}_{i-1}$$ and the outputs of the encode as input.
+First a simple dot product is comuted:
+
+$$e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.$$
+
+Later it was suggested to us an additional linear transformation on the output:
+
+$$e_{i,j} = \mathbf{h'}_{i}^\top (\mathbf{W}\mathbf{y}_{j}) \quad \text{ for } j = 0, \ldots, i-1.$$
 
 where $$\mathbf{W}$$ is learned.
-
-The input for the RNN is not only $$\mathbf{x}_{n}$$ but also all the previous $$n-1$$ outputs and the last hidden state.
-And for each of the $$n$$ inputs, other than the hidden state, a score is computed.
 All these scores are normalized by the softmax function giving us $$n$$ weights:
 
-$$\alpha_{n,i} = \frac{\exp\left( e_{n,i} \right)}{\sum\limits_{j=0}^{n-1} \exp\left( e_{n, j}\right)}.$$
+$$\alpha_{i,j} = \frac{\exp\left( e_{i,j} \right)}{\sum\limits_{k=0}^{n-1} \exp\left( e_{i, k}\right)}.$$
 
-Then the hidden state is computed by a weighted sum:
+Then the **decoder's** 'real' input is computed by a weighted sum of the **encoder's** output:
 
-$$\hat{\mathbf{h}}_t = \sum_i \alpha_{t,i} \mathbf{y}_i.$$
+$$\hat{\mathbf{h}}_i = \sum_j \alpha_{i,j} \mathbf{y}_j.$$
 
 The weights determine how "strong" the information of the input will be utilized, i.e., how much attention is spent on each previous output of the model.
 
@@ -118,7 +124,7 @@ Furthermore, I only use one (masked) multi-head attention layer in each block.
 </div>
 <br>
 
-Ok, but how does this really work?
+Ok, but how does this really works?
 What is going on here?
 Well, the key to understand transformers is to understand the self-attention mechanism which I try to explain below.
 
@@ -131,30 +137,30 @@ But, as I discussed in previous articles, the information of the hidden state ge
 
 The fundamental operation of the transformer, i.e. the attention mechanism, is implemented in its ``Head``.
 Let $$\mathbf{x}_0, \ldots, \mathbf{x}_{n-1} \in \mathbb{R}^{D \times 1}$$ be the $$n$$ tokens of a sequence.
-A standard neural network layer $$f(\mathbf{x})$$, takes a $$D \times 1$$ input $$f(\mathbf{x})$$ and applies a linear transformation followed by an activation function like a $$\text{ReLU}$$:
+A standard neural network layer $$f(\cdot)$$, takes a $$D \times 1$$ input and applies a linear transformation followed by an activation function like a $$\text{ReLU}$$:
 
 $$f(\mathbf{x}) = \text{ReLU}\left( \mathbf{W}\mathbf{x} + \mathbf{b }\right),$$
 
 where $$\mathbf{b}$$ contains the biases, and $$\mathbf{W}$$ contains the weights.
 
 A self-attention $$\mathbf{sa}(\cdot)$$ block takes all the $$n$$ inputs, each of dimension $$D \times 1$$, and returns $$n$$ output vectors of the same size.
-In our case each input represents a musical note or event.
-First, a set of *values* are computed for each input:
+Note that in our case each input represents a musical note or event.
+First, a set of **values** is computed for each input:
 
-$$\mathbf{v}_i = \mathbf{b}_v + \mathbf{W}_v \mathbf{x}_i,$$
+$$\mathbf{v}_i = \mathbf{b}_v + \mathbf{W}_v \mathbf{x}_i, \quad \text{ (value)}$$
 
 where $$\mathbf{b}_v \in \mathbb{R}^D \text{ and } \mathbf{W}_v \in \mathbb{R}^{D \times D}$$ represent biases and weights, respectively (**for all inputs**). 
 The $$j^\text{th}$$ output $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})$$ is a weighted sum of all the values $$\mathbf{v}_i, i = 0, \ldots n-1$$ where the weight each weight depends on $$\mathbf{x}_j$$:
 
 $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.$$
 
-The scalar weight $$\alpha(\mathbf{x}_i, \mathbf{x}_j)$$ is the *attention* that the $$j^\text{th}$$ output pays to the input $$\mathbf{x}_i$$.
+The scalar weight $$\alpha(\mathbf{x}_i, \mathbf{x}_j)$$ is the **attention** that the $$j^\text{th}$$ output pays to the input $$\mathbf{x}_i$$.
 The $$n$$ weights $$\alpha(\cdot, \mathbf{x}_j)$$ are non-negative and sum to one.
 Hence, self-attention can be thought of as *routing* the values in different proportions to create each output.
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:35%;" src="{% link /assets/images/routing.png %}" alt="Routing principle">
-<div style="display: table;margin: 0 auto;">Figure 2: Routing principle.</div>
+<div style="display: table;margin: 0 auto;">Figure 4: Routing principle.</div>
 </div>
 <br>
 
@@ -174,20 +180,22 @@ In general, this relationship is expressed by the following equation:
 $$\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),$$
 
 where $$\beta$$ is the angle between the two verctors.
-Computing the *dot product* between the queries and keys gives us the similarities we desire.
+Computing the *dot product* between queries and keys gives us the similarities we desire.
 To normalize, we then pass the result through a *softmax* function:
 
 $$\alpha(\mathbf{x}_i, \mathbf{x}_j) = \frac{\exp(\mathbf{q}_j^\top \mathbf{k}_i \sqrt{D_q})}{\sum\limits_{r=0}^{n-1} \exp(\mathbf{q}_j^\top \mathbf{k}_r \sqrt{D_q})},$$
 
 where $$D_q$$ is the dimension of the queries and keys (i.e., the number of rows in $$\mathbf{W}_q$$ and $$\mathbf{W}_k$$, which must be the same).
 You can think of the *key* of what is offered and the *query* of what is searched.
-If $$\mathbf{X}$$, $$\mathbf{K}$$, $$\mathbf{Q}$$, and $$\mathbf{V}$$ contain all the values, keys, queries and values then we can compute the self-attention by
+If $$\mathbf{X}$$, $$\mathbf{K}$$, $$\mathbf{Q}$$, and $$\mathbf{V}$$ contain all the inputs, keys, queries and values then we can compute the self-attention by
 
 $$\mathbf{Sa}(\mathbf{X}) = \mathbf{V} \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D_q} }\right).$$
 
+The overall computation is illustrated in Figure 5.
+
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="{% link /assets/images/self-attention.png %}" alt="Self-attention in matrix-form">
-<div style="display: table;margin: 0 auto;">Figure 3: Self-attention in matrix-form.</div>
+<div style="display: table;margin: 0 auto;">Figure 5: Self-attention in matrix-form.</div>
 </div>
 <br>
 
@@ -201,7 +209,7 @@ If you look into the code, I did this by setting the respective values in $$\mat
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="{% link /assets/images/transformer-head.png %}" alt="Transformer head">
-<div style="display: table;margin: 0 auto;">Figure 4: Transformer head for a sequence length equal to 5.</div>
+<div style="display: table;margin: 0 auto;">Figure 6: Transformer head for a sequence length equal to 5.</div>
 </div>
 <br>
 
@@ -244,14 +252,17 @@ Note that apart from **masked** **self-attention**, the head also applys a **dro
 
 Instead of using only one ``Head`` it is usually a good idea to use multiple ones.
 To do this we transform the input into a ``head_size``-dimensional space.
-Suppose we use 4 heads than ``head_size * 4`` should be equal to the rows of $$\mathbf{W}_0$$ (compare Fig. 5) of the multi-head attention layer which is ``m``, i.e. the dimension of the encoded input $$\mathbf{x}$$.
+Suppose we use 4 heads than ``head_size * 4`` should be equal to the rows of $$\mathbf{W}_0$$ (compare Fig. 7) of the multi-head attention layer.
+Since I add the input to the output of ``MultiHeadAttention`` (via residual connections), the columns of $$\mathbf{W}_0$$ should be equal to the dimension of the input of the ``MultiHeadAttention``.
+In my case this is ``n_embd``, i.e. the dimension of our embedded tokens.
+
 $$\mathbf{W}_0$$ transforms the concatenated results of the heads back to the dimension equal to ``n_embd``. 
 This is needed to stack ``Block``s (each consisting of a ``MultiHeadAttention``) on top of each other.
 The output of ``Block`` $$i$$ has to fit into block $$i+1$$.
 
 <br>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="{% link /assets/images/multi-head.png %}" alt="Multi-head attention">
-<div style="display: table;margin: 0 auto;">Figure 5: Multi-head attention.</div>
+<div style="display: table;margin: 0 auto;">Figure 7: Multi-head attention.</div>
 </div>
 <br>
 
@@ -263,8 +274,8 @@ class MultiHeadAttention(nn.Module):
             [Head(n_embd, head_size, sequence_len, dropout) for _ in range(n_heads)]
         )
 
-        # W_0 this could also be (m, n_embd)
-        self.proj = nn.Linear(n_embd, n_embd) 
+        # W_0
+        self.W0 = nn.Linear(head_size * n_heads, n_embd) 
 
         self.dropout = nn.Dropout(dropout)
 
@@ -272,7 +283,8 @@ class MultiHeadAttention(nn.Module):
         # concatenation of the results of each head
         out = torch.cat([head(x) for head in self.heads], dim=-1) 
 
-        out = self.proj(out)
+        # Figure 7
+        out = self.W0(out)
         out = self.dropout(out)
         return out
 ...
@@ -290,6 +302,7 @@ class Block(nn.Module):
     
     def __init__(self, n_embd, n_heads, sequence_len, dropout):
         super().__init__()
+        # head_size could be defined differently
         head_size = n_embd // n_heads
         self.sa = MultiHeadAttention(n_embd, n_heads, head_size, sequence_len, dropout)
         self.ffwd = FeedForward(n_embd, dropout)
