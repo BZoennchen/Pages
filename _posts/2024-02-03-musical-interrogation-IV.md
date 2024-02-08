@@ -458,7 +458,7 @@ then we can go back to the matrix form which gives us
 $$\mathbf{Sa}(\mathbf{X}) = (\mathbf{V} + \mathbf{A}^V) \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q} + \mathbf{S}}{\sqrt{D_q} }\right).$$
 
 To compute $$\mathbf{S}$$ {% cite shaw:2018 %} instantiate an intermediate tensor $$\mathbf{R} \in \mathbf{R}^{k \times k \times D_q},$$ containing the embeddings that correspond to the relative distance between all keys and queries.
-$$\mathbf{Q}$$ is then reshaped to an $$(k, 1, D_q$$) tensor, and $$\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.$$
+$$\mathbf{Q}$$ is then reshaped to an $$(k, 1, D_q)$$ tensor, and $$\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.$$
 This incurs a total space complexity of $$\mathcal{O}(k^2 D_q)$$.
 
 ## The Music Transformer

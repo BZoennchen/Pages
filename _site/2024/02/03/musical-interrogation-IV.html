@@ -608,7 +608,7 @@ This can be mitigated by splitting the computation into two parts:</p>
 \[\mathbf{Sa}(\mathbf{X}) = (\mathbf{V} + \mathbf{A}^V) \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q} + \mathbf{S}}{\sqrt{D_q} }\right).\]
 
 <p>To compute \(\mathbf{S}\) <a class="citation" href="#shaw:2018">(Shaw et al., 2018)</a> instantiate an intermediate tensor \(\mathbf{R} \in \mathbf{R}^{k \times k \times D_q},\) containing the embeddings that correspond to the relative distance between all keys and queries.
-\(\mathbf{Q}\) is then reshaped to an \((k, 1, D_q\)) tensor, and \(\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.\)
+\(\mathbf{Q}\) is then reshaped to an \((k, 1, D_q)\) tensor, and \(\mathbf{S} = \mathbf{Q} \mathbf{R}^\top.\)
 This incurs a total space complexity of \(\mathcal{O}(k^2 D_q)\).</p>
 
 <h2 id="the-music-transformer">The Music Transformer</h2>
