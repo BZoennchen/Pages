@@ -451,7 +451,7 @@ $$\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}
 
 Assuming that $$\mathbf{S}$$ contains all the relative attention scores, that is, 
 
-$$\mathbf{S}_{ij}$$ = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij},$$
+$$\mathbf{S}_{ij} = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij},$$
 
 then we can go back to the matrix form which gives us
 
