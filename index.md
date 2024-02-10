@@ -7,7 +7,7 @@ title: About
 
 Welcome, everyone! 
 I'm Benedikt.
-Currently, I am working as a Postdoc in the field of applied machine learning at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/) which is part of the [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html).
+Currently, I am working as a Postdoc in the field of applied machine learning at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/) which is part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
 I am especially interested in the effect of artificial intelligence on society (education, art, communication).
 
 During my master's program, I had the opportunity to focus primarily on theory-heavy subjects such as automata theory, logic, complexity theory, approximation and online algorithms.
@@ -16,7 +16,7 @@ In my research, I was interested in realistic large-scale pedestrian simulation.
 I analyzed different microscopic pedestrian simulation models and studied efficient parallel algorithms for pedestrian simulation.
 In particular, I discussed and analyzed navigation field computation in a large-scale setting, a problem strongly connected to the eikonal equation.
 Furthermore, I introduced parallelism to the so-called optimal steps models, an essential class of microscopic simulation models.
-I did my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the Munich University of Applied Sciences (MUAS).
+I did my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the Hochschule München University of Applied Sciences (HM).
 During that time, I was a member of the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich and a major contributor to the open-source framework for pedestrian simulation [Vadere](http://www.vadere.org).
 
 Starting my research in the field of modeling and simulation of pedestrian streams, I am currently interested in the communicating ability of artificial intelligence systems and their impact on societies.

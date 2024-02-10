@@ -52,14 +52,14 @@ They explain experience.
 A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
 They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
-Here, spirituality plays an important role, be in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
+Here, spirituality plays an important role, be it in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
 
 I believe that spirituality is a significant aspect of life and is deeply intertwined with philosophy, a field that ideally should stand in stark contrast to conspiratorial thinking.
 This raises an intersting question: where does the connection lie?
 Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
 
 First of all, there is a strong relation between philosphy, religion and spirituality, e.g. between Platonism and Christianity.
-Furthermore, in my view, there are similarities between *metaphysics* and the construction of a grand conspiratorial theory (or myths) that attempts to explain everything. 
+Furthermore, in my view, there are similarities between *metaphysics* and the construction of a grand conspiratorial theory (or myth) that attempts to explain everything. 
 While philosophy seeks to understand the nature of reality and existence, conspiracy theories often attempt to provide all-encompassing explanations for complex events or phenomena. 
 This similarity in seeking comprehensive understandings can blur the lines between philosophical inquiry and the development of overarching conspiratorial narratives.
 The difference here seem to be that duo to their mythological structure, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
@@ -142,7 +142,7 @@ According to Baudrillard, instead of disimulating something, now signs dissimula
  
 This leads to a kind of dissolution of the 'real' meaning behind objects.
 Accroding to Baudrillard, in the postmodern world, simulacra (e.g. images) have replaced the reality they once represented.
-In other words, our current reality is dominated by these simulacra---representations, images, and symbols---that no longer have any connection to any real object or event they might have originally represented.
+In other words, our current reality is dominated by these simulacra---representations, images, and signs---that no longer have any connection to any real object or event they might have originally represented.
 Importantly, the simulacrum is not just covering up the truth or reality; it's not a mask over something real!
 What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality; we enter simulation.
 In other words, what we consider 'real' is just a construct of our perceptions and societal argreements.
@@ -175,7 +175,7 @@ The matrix clearly is not the truth but hides it.
 Rather than exploring the new problem of simulation, the movie falls back on the *Allegory of the Cave* presented in Plato's *Republic*.
 Instead of investigating further questions, it postulates a true world behind the simulation by re-introducing religion.
 Thus *The Matrix* brings us back where it all started but, according to Baudrillard, this is no longer possible.
-In Baudrillard framework, the movie is itself the truth that hides the fact that there is none and therefore distracts the audience from acknowledging *hyperreality*.
+In Baudrillard's framework, the movie is itself the truth that hides the fact that there is none and therefore distracts the audience from acknowledging *hyperreality*.
 
 The *Allegory of the Cave* is a metaphor for exploring the nature of knowledge and reality.
 Plato imagined a group of people who lived their entire live chained inside a dark cave.

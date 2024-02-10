@@ -9,14 +9,14 @@ PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/fil
 
 ## Current Position
 
-**10/2023 - today** | [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/), Munich, Germany<br>
+**10/2023 - today** | [Munich Center for Digital Science and AI](https://mucdai.hm.edu/index.de.html), Munich, Germany<br>
 Head of Research (Postdoc)<br>
-*Applied machine learning and its impact on society*
+*Applied Machine Learning and its Impact on Society*
 
 ## Academic Education
 
 **03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & <br>
-[Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
+[Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
 Computer Science (Dr. rer. nat.)<br>
 *Thesis:* Efficient Parallel Algorithms for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
@@ -25,7 +25,7 @@ Computer Science (Dr. rer. nat.)<br>
 Computer Science (M. Sc.)<br>
 *Thesis:* Implementation of an Efficient Equivalence Test for Sequential and Linear Tree-to-Word Transducers ([pdf]({% link /assets/files/master-thesis.pdf %}))
 
-**10/2010 - 09/2013** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**10/2010 - 09/2013** | [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
 Computer Science (B. Sc.)<br>
 *Thesis:* Navigation Around Pedestrian Groups and Queueing using a Dynamic Adaption of Travelling Times in the Fast Marching Algorithm ([pdf]({% link /assets/files/bachelor-thesis.pdf %}))
 
@@ -33,11 +33,11 @@ Computer Science (B. Sc.)<br>
 
 ## Non-Academic Job History
 
-**02/2022 - 09/2023** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/mitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
-Educational-Tech Engineer for Educational Tools<br>
+**02/2022 - 09/2023** | [HM](https://www.cs.hm.edu/), FK07, Munich, Germany<br>
+Educational-Tech Engineer<br>
 *CSplus and PlusCS Education*
 
-**08/2020 - 01/2022** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/die_fakultaet/ansprechpartner/wissenschaftlichemitarbeiter/zoennchen/index.de.html), Munich, Germany<br>
+**08/2020 - 01/2022** | [HM](https://www.cs.hm.edu/), FK07, Munich, Germany<br>
 Senior Advisor for Computer Science Education,<br>
 *CSplus and PlusCS Education*
 
@@ -53,9 +53,12 @@ Software Developer (Education)<br>
 ***
 
 ## Research Interests
-+ Applied Machine Learning (e.g. AI for Sustainability, AI in Culture and Arts)
-+ Free and Open Education in the Digital Era
-+ Modelling and Simulation
+
+**AI4All:** How can machine learning methods enhance the capability of action of the general public?<br>
+
+**CreativeAI:** How can the intentionality of artists find expression through the use of generative methods of machine learning? Which methods are suitable and how can intentionality be better realized?<br>
+
+**AI4S & SAI:** How can the methods of machine learning assist us in achieving sustainability goals, and to what extent do they endanger these goals? How can we reduce energy consumption during training and inference?<br>
 
 ## Private Interests
 + Philosophy (e.g. Constructivism) & Technology
@@ -83,7 +86,7 @@ Software Developer (Education)<br>
 (Max Weber-Programm Bayern)<br>
 
 **2013** | [RiMEA Sponsorship Award](https://rimea.de/de/rimea-award/), Valedictorian of the Academic year 2013 <br>
-(Computer Science and Mathematics [MUAS](https://www.cs.hm.edu/en/home/index.en.html))<br>
+(Computer Science and Mathematics [HM](https://www.cs.hm.edu/en/home/index.en.html))<br>
 
 ***
 
@@ -143,39 +146,53 @@ Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation.<br>
 In *Transportation Research Procedia*,<br>
 DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
+## Recent Talks
+
+**2013** | Generative AI in the context of XR,<br>
+XR for the Middle Class, IHK Munich, [Link](https://www.ihk-muenchen.de/xr-mittelstand/).
+
+**2013** | Generative AI: Between Tool and Communication Partner,<br>
+Ready for the Future: AI-Skills as Part of the Curriculum, Dialogue Forum, HM, [Link](https://www.hm.edu/lehren/generative_ki/dialogforum.de.html).
+
 ***
 
 ## Teaching
 
-**Winter 2023/24** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2023/24** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
+*[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Project-based Workshop, Trainer<br>
+
+**Winter 2023/24** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Sustainable AI* (Bachelor), Lecturer<br>
 
-**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Summer 2023** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
+*[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Workshop, Trainer<br>
+
+**Winter 2022/23** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Sustainable AI* (Bachelor), Lecturer<br>
 
-**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2022/23** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Computational Thinking* (Bachelor), Lecturer<br>
 
-**Winter 2022/23** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2022/23** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
 
-**Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2021/22** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Computational Thinking* (Bachelor), Lecturer<br>
 
-**Winter 2021/22** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2021/22** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
 
-**Winter 2020/21** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2020/21** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Preparation Course for Computer Science* (Bachelor), Trainer and Coordinator<br>
 
-**Winter 2019/20** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/), Garching, Germany<br>
+**Winter 2019/20** | [TUM](https://www.in.tum.de/en/cover-page/), Garching, Germany<br>
 *Machine Learning in Crowd Modeling and Simulation* (Master), Guest Lecturer<br>
 
-**Winter 2016/17** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Winter 2016/17** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Linear Algebra* (Bachelor), Lecturer<br>
 
-**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Summer 2016** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Scientific Computing* (Bachelor), Lecturer<br>
 
-**Summer 2016** | [Munich University of Applied Sciences (MUAS)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br>
+**Summer 2016** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Theoretical Computer Science* (Bachelor), Trainer<br>
