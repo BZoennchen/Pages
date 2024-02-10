@@ -148,7 +148,7 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
 ## Recent Talks
 
-**2013** | Generative AI in the context of XR,<br>
+**2013** | Generative AI in the Context of XR,<br>
 XR for the Middle Class, IHK Munich, [Link](https://www.ihk-muenchen.de/xr-mittelstand/).
 
 **2013** | Generative AI: Between Tool and Communication Partner,<br>
