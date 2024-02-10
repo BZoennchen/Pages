@@ -33,11 +33,11 @@ Computer Science (B. Sc.)<br>
 
 ## Non-Academic Job History
 
-**02/2022 - 09/2023** | [HM](https://www.cs.hm.edu/), FK07, Munich, Germany<br>
+**02/2022 - 09/2023** | [HM](https://www.cs.hm.edu/), Munich, Germany<br>
 Educational-Tech Engineer<br>
 *CSplus and PlusCS Education*
 
-**08/2020 - 01/2022** | [HM](https://www.cs.hm.edu/), FK07, Munich, Germany<br>
+**08/2020 - 01/2022** | [HM](https://www.cs.hm.edu/), Munich, Germany<br>
 Senior Advisor for Computer Science Education,<br>
 *CSplus and PlusCS Education*
 
