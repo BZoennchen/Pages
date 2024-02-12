@@ -506,7 +506,7 @@ Is it possible for us to, to some extent, accept that others may inhabit a diffe
 The COVID-19 pandemic had a measurable positive effect on pollution levels---which did not last for long.
 However, one could argue that it also had a negative impact on trust levels in institutions, especially scientific ones.
 This erosion of trust may ultimately hinder efforts to address the climate crisis.
-The ongoing debate regarding climate change's origins and the necessity of curbing CO2 and equivalent gas emissions continues to persist even if the scientific community is clear on the matter---a conviction I have established via *second-order* observation.
+The ongoing debate regarding climate change's origins and the necessity of curbing CO2 and equivalent gas emissions continues to persist even if the scientific community is clear on the matter---a conviction I have established via *second-order observation*.
 
 It appears to me that COVID, combined with the rapid and highly polarizing consumption of "news" on social media, has fractured our social discourse. 
 The culture of dialogue has suffered, forcing individuals to align with one of two extreme sides. 
@@ -528,7 +528,7 @@ Climate change is very likely to intensify extreme weather events such as hurric
 These events can lead to increased property damage, displacement of populations, and economic losses.
 Sea levels are expected to continue rising, posing a threat to coastal communities, infrastructure, and ecosystems. 
 Flooding and saltwater intrusion into freshwater sources may become more common.
-I imagine that at some point borders certain countries will be closed dividing the world in a *real* and a *hyperreal* one.
+I imagine that, at some point, borders of certain countries will be closed, dividing the world in a *real* and a *hyperreal* one.
 
 Considering all the points I discussed, the resistance to transitioning away from fossil fuels is expected, given the various parties involved. 
 It would be a relief if we were in a simulated reality, where everything could be dismissed as a bad dream.
@@ -628,7 +628,7 @@ These neo-tribes function solely as imagined communities and, unlike their premo
 They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition.
 
 Therefore, I have no intention of passing moral judgment on conspiracy theorists.
-One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for the hyperreality.
+One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for hyperreality.
 Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
 Conspiracy theories operate similarly; they are pure simulations and, in this regard, true. 
@@ -665,8 +665,7 @@ They can use the power of high-order simulacra which are disconnected from the r
 Believing in a conspiracy theory is akin to being the prisoner in Plato's cave, presuming that everyone else is, in fact, in prison. 
 It is the belief in something outside of simulation.
 The most effective remedy is to harbor doubts about our own competence, to be skeptical of ourselves, to maintain self-awareness at a metacognitive level, and to be able to live in a contradictory world and recognize those contradictions.
-These contradictions live on the borders of hyperreality---in slums, cobalt mines, the streets of New York City, the border of Mexico, the forests of the European sea, refugee camps, and the 'ugly' parts of the world.
-However, the spectacle of disasters makes the individual insignificant.
+These contradictions live on the borders of hyperreality---in slums, cobalt mines, the streets of New York City, the border of Mexico, the fortress of the European sea, refugee camps, and the 'ugly' parts of the world.
 
 Now, I am not sure if I can agree with the cynical viewpoint of Baudrillard. 
 His overly dramatic and playful writings are interesting but also contradictory, probably by design.
@@ -678,8 +677,9 @@ Maybe Rorty is right about the importance of empathic stories.
 But where are these stories in the mainstream?
 Are we already too cynical, too ironic?
 We need storytellers and artists to craft more persuasive mythologies, narratives, and stories that resonate on an emotional level.
+But I believe this can only be possible if we do not filter out the negative and the ugly part of society.
 I want a serious vision which is shamelessly emphatic towards all forms of life.
-This anti-Socratic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors.
+This anti-Socratic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors and, in the end, matter more than any rational argument could be.
 
 We have reached an alarming point at which millions of people can no longer discriminate between reality and hyperreality. 
 That which cannot be simulated seems to disappear. 
