@@ -645,7 +645,7 @@ However, it's crucial to subject these authorities to scrutiny and verification 
 
 Nothing in what I've stated here should be misconstrued as a defense of the political system. 
 Lobbyism, which is sometimes indistinguishable from outright corruption, represents a significant issue. 
-The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a *hope economy*---offering a false and pacifying sense of hope--- that fuels the distrust in institutions.
+The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a *hope economy*---offering a false and pacifying sense of hope---that fuels the distrust in institutions.
 
 COP28 proved to be a disaster for the majority of the world's population. 
 There was essentially no consensus on even the most basic measures. 
