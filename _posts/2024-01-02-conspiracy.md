@@ -568,7 +568,7 @@ The challenge lies in persuading individuals who harbor skepticism, particularly
 
 According to Maturana, convincing someone can only happen when they develop their own system of conviction. 
 This aspect is especially crucial to consider. 
-Therefore, engagement must be a respectful. 
+Therefore, engagement must be respectful. 
 It's essential to take the worries, fears, and arguments of deniers seriously, even when they appear unreasonable.
 However, it's important to remember that while we encourage others to develop their convictions, we should also acknowledge our own unique and potentially flawed convictions and remain true to them if we are not convinced otherwise.
 
