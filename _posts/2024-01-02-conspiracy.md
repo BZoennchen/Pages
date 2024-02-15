@@ -641,7 +641,7 @@ Several factors contribute to the prevalence of conspiracy theories, including i
 Our modern world is so complex that it is virtually impossible for any single individual to comprehensively make sense of all that occurs.
 As a result, we heavily rely on the concept of second-order observation, and there is no shame in acknowledging this fact.
 Turning to experts and authorities, provided that their authority is derived from genuine competence, is necessary. 
-However, it's crucial to subject these authorities to scrutiny and verification.
+However, it's crucial to subject these authorities to scrutiny and verification and to be aware that their observation has always a blind spot.
 
 Nothing in what I've stated here should be misconstrued as a defense of the political system. 
 Lobbyism, which is sometimes indistinguishable from outright corruption, represents a significant issue. 
