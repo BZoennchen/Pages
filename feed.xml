@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-02-16T23:37:52+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-03-09T22:53:54+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
   <p>Recurrent models trained in practice are effectively feed-forward.
 This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller</p>
 </blockquote>
@@ -596,13 +596,24 @@ Here, spirituality plays an important role, be it in the form of <em>the light o
 This raises an intersting question: where does the connection lie?
 Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?</p>
 
-<p>First of all, there is a strong relation between philosphy, religion and spirituality, e.g. between Platonism and Christianity.
-Furthermore, in my view, there are similarities between <em>metaphysics</em> and the construction of a grand conspiratorial theory (or myth) that attempts to explain everything. 
-While philosophy seeks to understand the nature of reality and existence, conspiracy theories often attempt to provide all-encompassing explanations for complex events or phenomena. 
-This similarity in seeking comprehensive understandings can blur the lines between philosophical inquiry and the development of overarching conspiratorial narratives.
-The difference here seem to be that duo to their mythological structure, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).</p>
+<p>First of all, there is a strong relation between philosophy, religion, and spirituality, e.g., between Platonism and Christianity.
+Monolithic religions offer a rather rigorous explanation of why things are as they are, based on the presumption of a creator.
+Especially, non-believers sometimes misunderstand that religious people dislike logic when, in fact, it was Thomas Aquinas who attempted to synthesize Aristotelian philosophy (and logic) with the principles of Christianity.
+He produced a vast body of precise, detailed, and systematic philosophical writings, in which he integrated Aristotle’s encyclopedic work and medieval Christian theology into a seamless whole.
+The dark side of this was that any contradiction by future scientists would necessarily have to be seen as heresy.
+Furthermore, philosopher Bertrand Russell pointed out that Aquinas started by already knowing the truth in the form of the Catholic faith.
+Aquinas used logic to strengthen his belief system and not to question it.
+Some postmodern thinkers might argue that philosophers who did metaphysics did basically the same but in a more clever way and without involving God.
+Famous is Nietzsche’s suspicion of Kant’s categorical imperative, which is, after all, categorical.
+From this perspective, one might say that conspiracists are in the same business.
+It is certainly the case that there are similarities in doing metaphysics and constructing a grand conspiratorial theory (or myth) that attempts to explain everything.
+And like Aquinas, theorists try to establish a kind of system synthesizing the world into the theory.
+But there are also differences.
+Metaphysicians (as well as many religious texts) tried to be consistent, while conspiracy theorists are liberated from such limitations.
+They openly replace rationality with mythology.
+By constructing and emphasizing mythological symbols, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).</p>
 
-<p>If one values reasoning, myths can be very dangerous.
+<p>Myths can be very dangerous.
 They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
 Instead of delivering arguments, they short-circuit the entire argumentative process.
 Myths do not make logical claims but significations <a class="citation" href="#barthes:1973">(Barthes, 1973)</a>.
