@@ -636,9 +636,9 @@ In a postmodern society, the absence of any central value system and firm, objec
 These substitutes are symbolically created rather than being actual or socially produced. 
 The need for these symbolic group tokens results in tribal politics and defines self-constructing practices that are collectivized but not socially produced. 
 These neo-tribes function solely as imagined communities and, unlike their premodern namesake, exist only in symbolic form through the commitment of individual 'members' to the idea of an identity. 
-They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition.
+They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition; as an identity technology termed *profilicaty*.
 
-Therefore, I have no intention of passing moral judgment on conspiracy theorists.
+I have no intention of passing moral judgment on conspiracy theorists.
 One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for our reality as always partly simulated.
 Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
