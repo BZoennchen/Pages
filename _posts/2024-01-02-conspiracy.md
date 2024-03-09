@@ -58,13 +58,24 @@ I believe that spirituality is a significant aspect of life and is deeply intert
 This raises an intersting question: where does the connection lie?
 Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
 
-First of all, there is a strong relation between philosphy, religion and spirituality, e.g. between Platonism and Christianity.
-Furthermore, in my view, there are similarities between *metaphysics* and the construction of a grand conspiratorial theory (or myth) that attempts to explain everything. 
-While philosophy seeks to understand the nature of reality and existence, conspiracy theories often attempt to provide all-encompassing explanations for complex events or phenomena. 
-This similarity in seeking comprehensive understandings can blur the lines between philosophical inquiry and the development of overarching conspiratorial narratives.
-The difference here seem to be that duo to their mythological structure, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
+First of all, there is a strong relation between philosophy, religion, and spirituality, e.g., between Platonism and Christianity.
+Monolithic religions offer a rather rigorous explanation of why things are as they are, based on the presumption of a creator.
+Especially, non-believers sometimes misunderstand that religious people dislike logic when, in fact, it was Thomas Aquinas who attempted to synthesize Aristotelian philosophy (and logic) with the principles of Christianity.
+He produced a vast body of precise, detailed, and systematic philosophical writings, in which he integrated Aristotle's encyclopedic work and medieval Christian theology into a seamless whole.
+The dark side of this was that any contradiction by future scientists would necessarily have to be seen as heresy.
+Furthermore, philosopher Bertrand Russell pointed out that Aquinas started by already knowing the truth in the form of the Catholic faith.
+Aquinas used logic to strengthen his belief system and not to question it.
+Some postmodern thinkers might argue that philosophers who did metaphysics did basically the same but in a more clever way and without involving God.
+Famous is Nietzsche's suspicion of Kant's categorical imperative, which is, after all, categorical.
+From this perspective, one might say that conspiracists are in the same business.
+It is certainly the case that there are similarities in doing metaphysics and constructing a grand conspiratorial theory (or myth) that attempts to explain everything.
+And like Aquinas, theorists try to establish a kind of system synthesizing the world into the theory.
+But there are also differences.
+Metaphysicians (as well as many religious texts) tried to be consistent, while conspiracy theorists are liberated from such limitations.
+They openly replace rationality with mythology.
+By constructing and emphasizing mythological symbols, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
 
-If one values reasoning, myths can be very dangerous.
+Myths can be very dangerous.
 They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
 Instead of delivering arguments, they short-circuit the entire argumentative process.
 Myths do not make logical claims but significations {% cite barthes:1973 %}.
