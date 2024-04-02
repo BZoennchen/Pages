@@ -11,7 +11,7 @@ Diverging from my area of expertise is always a risky endeavor, but since this i
 Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.
 
-In this piece, I aim to explore various aspects by drawing connections myself, linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*. 
+In this piece, I aim to explore various aspects by linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*. 
 Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*. 
 I will relate this skepticism to the notions of *complexity*, *contingency* and *hyperreality*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
 Through these connections, I hope to shed light on the interplay between our perception of reality, the challenges of understanding complex systems, and our responses to global issues.
@@ -23,7 +23,7 @@ To do this, I first need a definition for conspiracy theory and I think the one 
 ## Mythology and Conspiracy Theories
 
 The phenomena of conspiracy theories hunts me since the terror attacks of 9/11 happened back when I was a child.
-I remember watching the *Zeitgeist* series, which linked various conspiracy theories involving religion, the September 11 attacks and the financial sector.
+I remember watching the *Zeitgeist series*, which linked various conspiracy theories involving religion, the September 11 attacks and the financial sector.
 During that time, even German TV occasionally presented documentaries that portrayed certain events in a conspiratorial light.
 The shock and uncertainty that the Western world experienced after these events, combined with a sense of lack of control, created a fertile ground for such theories. 
 These 'documentaries' were not only entertaining, but they also sparked my interest in geopolitics, the history of religion, history in general, and even philosophy. 
@@ -35,7 +35,7 @@ During the pandemic, I observed a repetition of history in the form of similar d
 
 Apart from the obvious parallels, such as misrepresentation and drawing connections between completely unrelated events, there were also more bizarre links.
 For instance, these documentaries often incorporate some form of spiritual concept, promising a return to or discovery of a 'true self', an 'inner peace' or a 'forgotten innocence'. 
-For example, the *Zeitgeist* series uses a speech from the Indian philosopher Jiddu Krishnamurti (1895 -- 1986) but only as an emotional device:
+For example, the *Zeitgeist series* uses a speech from the Indian philosopher Jiddu Krishnamurti (1895 -- 1986) but only as an emotional device:
 
 >We will see how very important it is to bring about in the human mind the radical revolution.
 >The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
@@ -46,34 +46,48 @@ This mix reflects the broad, albeit unusual, appeal of such conspiratorial narra
 I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.
 
 It is far to easy to make fun of people believing in mythologies.
-In an objective scientific sense, myths are eihter false or unfalsifiable.
+In an objective scientific sense, myths are either inconsistent or unfalsifiable.
 However, socially they can be very useful and powerful.
-They explain experience.
+They explain experience and reduce complexity.
 A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
 They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
-Here, spirituality plays an important role, be it in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
+Here, a shadow of spirituality plays an important role, be it in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
 
-I believe that spirituality is a significant aspect of life and is deeply intertwined with philosophy, a field that ideally should stand in stark contrast to conspiratorial thinking.
-This raises an intersting question: where does the connection lie?
-Why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
+In my view, spirituality and science harmonize with one another rather than clash.
+Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic.
+Bu it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
+It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe's intricate complexity.
 
+>We have a working theory, which we know is true, which explains how you can go from great simplicity to prodigious complexity.
+>And finally to the sort of complexity which is capable of designing things, of creating things, of working out how to do things.
+>If you suddenly going to insert a designing machine, a creator, an intelligence at the root of the universe you have just undermined your entire enterprise because your entire enterprise has been to explain how you get to something complicated enough to do design. -- Richard Dawkins
+
+It's unlikely that individuals with a non-dogmatic spiritual outlook adhere to a literal interpretation of the Earth's creation in seven days or dismiss evolutionary theory.
+However, Dawkins and similar critics may overlook a crucial point: the pursuit of absolute truth is elusive.
+Even Dawkins' assertion that "the theory is true" misrepresents the nature of scientific inquiry, which he is undoubtedly aware of.
+Science provides models that explain phenomena until new evidence suggests otherwise.
+The profound questions regarding the existence of time, space, causality, and our place within this framework extend beyond scientific inquiry into the realm of spirituality.
+These questions delve into the *essence of being* and the universe, inviting a spiritual exploration alongside scientific understanding.
+
+But why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
 First of all, there is a strong relation between philosophy, religion, and spirituality, e.g., between Platonism and Christianity.
 Monolithic religions offer a rather rigorous explanation of why things are as they are, based on the presumption of a creator.
 Especially, non-believers sometimes misunderstand that religious people dislike logic when, in fact, it was Thomas Aquinas who attempted to synthesize Aristotelian philosophy (and logic) with the principles of Christianity.
 He produced a vast body of precise, detailed, and systematic philosophical writings, in which he integrated Aristotle's encyclopedic work and medieval Christian theology into a seamless whole.
 The dark side of this was that any contradiction by future scientists would necessarily have to be seen as heresy.
-Furthermore, philosopher Bertrand Russell pointed out that Aquinas started by already knowing the truth in the form of the Catholic faith.
+Philosopher Bertrand Russell pointed out that Aquinas started by already knowing the truth in the form of the Catholic faith.
 Aquinas used logic to strengthen his belief system and not to question it.
-Some postmodern thinkers might argue that philosophers who did metaphysics did basically the same but in a more clever way and without involving God.
+Some postmodern thinkers might argue that philosophers, who did metaphysics, did basically the same but in a more clever way and without involving God.
 Famous is Nietzsche's suspicion of Kant's categorical imperative, which is, after all, categorical.
-From this perspective, one might say that conspiracists are in the same business.
+
+From this perspective, one might say that conspiracists are in the business of doing metaphyics poorly.
 It is certainly the case that there are similarities in doing metaphysics and constructing a grand conspiratorial theory (or myth) that attempts to explain everything.
-And like Aquinas, theorists try to establish a kind of system synthesizing the world into the theory.
+And like Aquinas, theorists of a conspiracy try to establish a kind of system, synthesizing the world into one big theory.
 But there are also differences.
-Metaphysicians (as well as many religious texts) tried to be consistent, while conspiracy theorists are liberated from such limitations.
+Metaphysicians (as well as many religious texts) at least tried to be consistent, while conspiracy theorists are liberated from such limitations.
 They openly replace rationality with mythology.
-By constructing and emphasizing mythological symbols, conspiracy theories provide a shortcut into our soul (psyche, mind, unconsciousness).
+By constructing and emphasizing mythological symbols, conspiracy theories provide a shortcut into our soul, psyche, mind, or the unconscious.
 
 Myths can be very dangerous.
 They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
@@ -87,7 +101,7 @@ But mythological snakes often are and calling someone a snake can be a powerful 
 
 If Trump speaks of *America* or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
-To critique their definition as being racist, irrational, exclusive, inhumane, disastrous only demontrate to them that you are of 'the them'; that you are jealous that they won.
+To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrate to them that you are of 'the them'; that you are jealous that they won.
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
@@ -100,7 +114,7 @@ The book even makes an appearance (as an empty prop) at the beginning of the fil
 
 Baudrillard---the prophet of post-truth---focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
 Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: there are no all encompassing meta-narratives.
-For some, such as Niklas Luhmann (1927 -- 1998), the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed {% cite luhmann:2000 %}. 
+For some, such as Niklas Luhmann (1927--1998), the concept of postmodernity itself is contentious, with Luhmann believing it never truly existed {% cite luhmann:2000 %}. 
 But back to Baudrillard.
 
 He was an interesting figure but not taken very seriously by the academic community.
@@ -118,8 +132,7 @@ So, did it succeed in bringing his theory to the big screen?
 When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
 He listens to music through headphones while lying on his desk, asleep. 
 This scene introduces the difficulty of distinguishing between a dream and reality or more precisely, the problem of informational overload and sensory input that, according to Baudrillard, leads to passivity.
-The abundance of disjointed information and excessive transparency makes it nearly impossible to organize the world and assign meaning to it.
-Faces transform into screens or terminals that passively absorb.
+The abundance of disjointed information and excessive transparency makes it nearly impossible to organize the world and assign meaning to it---faces transform into screens or terminals that passively absorb.
 
 In his early career, Baudrillard aimed to merge (post-)Marxism with (post-)structuralism but eventually abandoned the former.
 He applied structuralism in his analysis of *The System of Objects* {% cite baudrillard:1968 %}. 
@@ -128,7 +141,8 @@ In structuralism, the meaning of elements, such as words, doesn't derive from wh
 For instance, teaching a child the word 'tree' isn't as simple as pointing to one and stating, "Look, this is a tree!"
 The child wouldn't know if 'tree' refers to that specific tree, its leaves, or a category of trees. 
 Understanding the word 'tree' requires knowledge of many other words and examining their relationships to 'tree'---their difference.
-Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise and to place the individual in the position of a consumer.
+Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise.
+The individual is placed in the position of a consumer.
 As these signs are lifted out of the social, they lose all possibility of stable reference.
 They may be used for anything, for any purpose.
 All that remains is a yawning abyss of meaninglessness---a placeless surface that is incapable of holding personal identity, self, or society.
@@ -141,7 +155,7 @@ For example, a pen given to you for your graduation, has probably a high symboli
 Symbolic values are a assigned by a subject in relation to another subject.
 Sign value is an object's value within a system of objects signifying, for example, social status.
 
-Baudrillard, known for his cynical views, believed that objects have triumphed over subjects. 
+Baudrillard, known for his cynical views, also believed that objects essentially have triumphed over subjects. 
 He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, *the code* has made every sign integratable thus also exchangeable.
 It is not that subjects or objects stand no longer for something 'real' but that the referent, that does not exist, disappeared.
 For example, in the Renaissance people or objects appear to stand for a real referent that does not exist, for instance, royalty, nobility, holiness, etc.
@@ -156,7 +170,7 @@ Accroding to Baudrillard, in the postmodern world, simulacra (e.g. images) have 
 In other words, our current reality is dominated by these simulacra---representations, images, and signs---that no longer have any connection to any real object or event they might have originally represented.
 Importantly, the simulacrum is not just covering up the truth or reality; it's not a mask over something real!
 What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality; we enter simulation.
-In other words, what we consider 'real' is just a construct of our perceptions and societal argreements.
+In other words, what we consider 'real' is just a construct of our perceptions and societal agreement.
 In our current postmodern state, the simulacrum has become the truth for us, because there is no other reality against which to measure it.
 
 >The simulacrum is never what hides the truth---it is the truth that hides the fact that there is none.
@@ -218,14 +232,14 @@ This guidance emphasizes the importance of an emotional rather than a logical co
 
 Once Neo makes his choice, the distinction between the matrix and reality is clear to him; it is a clear binary: reality and simulation.
 True love is still possible outside and even inside the matrix, even if it is predetermined.
-According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the thing in itself, and of course Nietzsche, who tells us that there are only constructed values.
+According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the *thing-in-itself*, and of course Nietzsche, who tells us that there are only *constructed* values.
 Simualation is nothing bad or something to fear.
 It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity towards its own perfection.
 What Baudrillard feared is a world akin to the movie *Minority Report*.
-A world without reversability where everything is already decided in advance and there is no more place for ambiguity.
+A world without *reversability* where everything is already decided in advance; a world without ambiguity.
+In a sense, Baudrillard feared the modern project that started with Plato by looking for some absolut truth or perfect idea.
 The perfect simulation gets rid of illusions and imaginations; it is too real; it is *hyperreal*;
-Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the technical perfection of sex, i.e. pornography, leads to the removal of sexuality and intimacy.
-This is thematized in *Jon Don* where the main character imagines pornographic content during sex and needs to learn how to be intimate.
+Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the 'technical perfection of sex', i.e. pornography, leads to the removal of sexuality and intimacy.
 
 >Reality and simulation aren't opposed to one another. 
 >There are two sides of the same coin. -- {% cite baudrillard:2008 %}
@@ -245,14 +259,14 @@ Thus Baudrillard concludes:
 ## Neo, a Conspiratorial Narcissist?
 
 Now, what has this to do with *conspiracy theories*?
-Well, other than Baudrillard's theory of a reality that is simulation, the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to the matrix.
+Well, other than Baudrillard's theory of a reality that is simulation, I claim that the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to 'the matrix'.
 One might discover that parts of reality, e.g. institutions, norms, moral judgements, ideologies, is constructed and that there has to be something real behind it.
-This suspicion of a matrix is not unfounded, however, believing in some absolut point of view behind it opens the door to confusion.
+This suspicion of a matrix is not unfounded, however, believing in some *absolut point* of view behind it, opens the door to confusion.
 We are in a cave but going outside might only lead to another cave.
-This does not mean that any cave is as useful, functional or equally connected to some underlying reality.
+Importantly, this does not mean that any cave is as useful or functional!
 Although not all interpretations of a text are equally meaningful, a good text offers numerous interesting and valuable interpretations and the same seems to be true of our *lifeworld*.
 
-Doubting reality---a known or presented world---is the starting point of any conspiracy theory.
+Doubting parts of reality---a known or presented world---is the starting point of any conspiracy theory.
 The perspective is compelling because it feeds the allure of knowing a secret, akin to Neo's experience in the matrix.
 Such knowledge is seen as something that sets an individual apart from 'the herd', giving them a sense of being special or enlightened.
 It is similar to *New Age* beliefs in some sort of special knowledge about the universe presented in movies like *The Secret*.
@@ -335,7 +349,7 @@ Like Morpheus' emphasis on trusting one's instincts in *The Matrix*, conspiracy 
 These theories provide compelling descriptions of emotional states but tend to offer simplistic and reactionary explanations for complex situations. 
 Additionally, much like the concept of the matrix, they seek an all-encompassing explanation for everything.
 Essentially, these theories represent a futile effort to eliminate contingency and the growing uncertainty about the future. 
-They attempt to provide a sense of certainty and understanding in a world that is inherently open, unpredictable and complex. 
+They attempt to provide a sense of certainty and understanding in a world that is inherently open, contingent, unpredictable and complex. 
 This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.
 
 ## Escaping the Matrix?
@@ -376,20 +390,20 @@ No one desires to be ignorant and no one wants to rely on some sort of authority
 In our complex world, this is an unavoidable reality. 
 Conspiracy theories provide a sense of understanding and control in a world where complete knowledge is unattainable, helping individuals cope with the inherent limitations of human understanding.
 
-Therefore, I believe that individuals who are particularly uncomfortable with uncertainty, who seek control over their lives, and who are actively aware of their lack of control, are more susceptible to falling into these rabbit holes of alternate realities. 
+Therefore, I believe that individuals who are particularly uncomfortable with uncertainty, who seek control over their life, and who are actively aware of their lack of control, are more susceptible to falling into these rabbit holes of alternate realities. 
 Additionally, a certain degree of narcissism may be necessary to believe in the premise that one possesses a superior ability to understand complex matters better than trained experts and to assume that the media consisting of hundred of thousand of journalists is a monolith.
 This combination of a need for control, discomfort with uncertainty, and a self-perceived exceptional understanding can lead individuals to embrace alternative explanations that offer a sense of clarity and personal significance in a complex world.
 
 If we contemplate the matrix envisioned by Baudrillard, then attempting to escape it through the immersion in an alternate version of reality, fostered by extensive consumption of social media and digital content, appears absurd. 
 Perhaps a more appropriate approach to disengaging from the machinery of simulation and countering the sensation that reality seems increasingly tenuous is to simply disconnect from it all (from time to time).
 When advertisements, repetitive media, individuals transformed into brands, and an incessant stream of content seize our attention, the signal overflow---the noise---overshadows a more tangible reality. 
-In a scenario where there may be no external escape from the simulation, it could be valuable, from time to time, to focus on what is immediately before us: to experience, touch, smell, listen to our bodies, engage with physical sensations, concentrate, savor awareness, and relinquish the illusion of the "real."
+In a scenario where there may be no external escape from the simulation, it could be valuable, from time to time, to focus on what is immediately before us: to experience, touch, smell, listen to our bodies, engage with physical sensations, concentrate, savor awareness, and relinquish the illusion of the "real" by re-connecting to a spiritual world.
 
 We are not superheroes; we are composed of the same fundamental elements as everything else. 
 While it might feel like we inhabit a sort of matrix, it's essential to acknowledge that this is a choice we make. 
 From childhood, we develop self-conceptions and fantasies, but this doesn't negate the existence of the world itself. 
 Fantasies are constructs, and doubting the existence of the world presupposes a profound level of experience and knowledge of that world---a world where we learn to eat, walk, dance, and understand the nuances of correct and incorrect language usage.
-We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—our home—is still there. 
+We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—--our home---is still there. 
 The central question here is what is more reasonable to doubt: the world you intimately grew up in or your doubts about doubting it?
 
 ## Our Dependence on Second-order Observation
@@ -397,12 +411,12 @@ The central question here is what is more reasonable to doubt: the world you int
 Thinking critically and maintaining a sense of curiosity are attributes that I certainly hope everyone possesses.
 It is crucial that institutions, including large media operations, research institutions, and particularly governments, are consistently challenged and kept under close scrutiny.
 Conspiracy theories can serve as a force to encourage the prevention of corruption.
-I would be quite suspicious if there were no conspiracy theories!
+I would be quite suspicious if there were no conspiracy theories present!
 
 Simultaneously, these theories have the potential to divert attention from genuine issues. 
 The public should advocate for accountability and transparency, cultivating a healthy and well-informed society in which decisions and policies undergo scrutiny and improvement through public discourse and critical examination.
 
-However, as the current state of affairs stands, the notion that everyone can participate in the marketplace of ideas and engage in public discourse seems somewhat impractical. 
+However, as the current state of affairs stands, the notion that everyone can participate in the *marketplace of ideas* and engage in public discourse seems somewhat impractical and utopian. 
 This dream may appear overly optimistic, excessively humanistic, and excessively individualistic. 
 Instead, according to Luhmann, there exists an interdependent network of social systems that co-evolve together---not individual souls but interconnected systems.
 
@@ -414,14 +428,16 @@ Here I agree with Luhmann:
 If one anticipates that the primary purpose of the media is to deliver accurate information, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
 The media is inherently self-preserving and functions in a manner that constructs and sustains itself. 
 While it is certainly beneficial for the media to provide accurate information, this is not its foremost objective.
+The media provides *what is known to be known*.
 Media irritates politics and the political system, economics and the scientific system irritate the media.
+The media makes society restless.
 
 In my view, this mistaken perception of the media contributes to the proliferation of conspiracy theories, as it portrays the entire system as corrupt. 
 Instead of recognizing the various shortcomings within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public. 
 This leads to a pervasive distrust, particularly directed towards well-established media outlets.
 As a consequence, consumers may turn to 'alternative' media sources, even though these alternatives often inadvertently rely on established media institutions for their information. 
 Reporting, conducting on-site investigations, collecting information, and managing extensive archives are expensive endeavors that only large institutions can effectively undertake. 
-These institutions are essential if we are to have any hope of acquiring reliable information about the world.
+These institutions are essential if we are to have any hope to share a world that is at least partly commonly known.
 
 The core issue lies in our reliance on what Niklas Luhmann refers to as *second-order observation* and is consequently a trust issue.
 In modern society, directly observing reality is increasingly challenging. 
@@ -467,7 +483,8 @@ This structure of subjective color perception effectively maintains the percepti
 Maturana and Varela extended this insight to introduce the concept of autopoesis, integral to the biological theory of cognition {% cite maturana:1987 %}.
 
 In line with their constructivist theory, every individual constructs their own cognition and, by extension, their reality.
-Maturana theory seems not far from Kant's and to an extend Fichte's understanding of cognition.
+In fact, for Maturana cognition is living.
+His theory seems not far from Kant's and to an extend Fichte's understanding of cognition.
 Constructivism does not imply an absence of a single reality or a state of complete subjectivity, but rather, it leads to some noteworthy conclusions:
 
 1. An absolute system of values and knowledge cannot exist because personal experience forms an unshakable foundation.
@@ -495,22 +512,29 @@ Richard Rorty has an intreresting take on that question.
 If we want universal acceptance of and respect for human rights, we shouldn't try to argue about it. 
 We shouldn't attempt to work out rational justifications of human rights, or arguments that will convince people that human rights are a good thing. 
 Instead, according to Rorty, we would achieve better results if we try to influence people's feelings instead of their minds---philosophy as poetry {% cite rorty:2016 %}!
-This approach to human rights doesn’t justifying human rights in an abstract and philosophical way---something which according to Rorty isn’t possible anyway.
+Rational justifying human rights is an abstract and philosophical way---something which according to Rorty isn’t possible anyway.
 In a sense, Rorty suggest that, instead of arguing rationally against mythologies, we should imagine, construct and present better ones.
 He does not believe in a second enlightenment---in which logic and rationality will triumph over evil.
 It is worth noting that similar challenges and questions arise when we consider the concept of *free will*, which is itself a highly contentious notion, compare for example {% cite sapolsky:2023 %}.
 
-In a world with no singular perspective there are multiple viewpoints coexisting and each has its inherent blind spots. 
-According to Luhmann, this principle applies to any observing system, whether it's a psychological system, like the human mind, or a social system. 
+In a world with no singular perspective, there are multiple viewpoints coexisting and each has its inherent blind spots. 
+According to Luhmann, this principle applies to any observing system, whether it's a psychological system, like the human mind, or a social system.
 The diversity of perspectives inherently limits each view, preventing it from fully encompassing all facets of a situation or concept. 
+Observation is blind to its own conditions.
+When I observe a tree I can not (at the same time) observe myself observing the tree.
 This inherent limitation in observation highlights the intricate and multifaceted nature of comprehending and interpreting the world around us.
 
-The diversity of perspectives among individuals often complicates accurate communication because each of us essentially speaks a slightly different language. Communication, in itself, can be seen as improbable. 
-Nevertheless, it remains a crucial element as it plays a central role in stabilizing the chaos and connecting psychic and social systems. Interestingly, it can be effective even when we don't fully comprehend each other. 
+The diversity of perspectives among individuals often complicates accurate communication because each of us essentially speaks a slightly different language.
+Communication, in itself, can be seen as improbable. 
+In addition, language is not something we use to describe reality accurately but a technique we employ to get things done.
+Nevertheless, communication remains a crucial element as it plays a central role in stabilizing the chaos and connecting psychic and social systems.
+Interestingly, it can be effective even when we don't fully comprehend each other. 
 A prime example of this is ChatGPT, which may not understand as humans do but still manages to communicate effectively.
 
-So, can we embrace and navigate this diversity of perspectives? Can or should we tolerate the uncanny sensation of numerous distinct realities coexisting? 
-Is it possible for us to, to some extent, accept that others may inhabit a differently constructed world while simultaneously acknowledging the existence of something that persists, even if we cease to believe in it---namely, the measureable physical *reality*?
+So, can we embrace and navigate this diversity of perspectives?
+Can or should we tolerate the uncanny sensation of numerous distinct realities coexisting? 
+Is it possible for us to, to some extent, accept that others may inhabit a differently constructed world while simultaneously acknowledging the existence of something that persists, even if we cease to believe in it.
+After all, our constructions do not follow our beliefs---we can not dream the problem away.
 
 ## The Reality of the Climate Crisis
 
@@ -522,8 +546,8 @@ The ongoing debate regarding climate change's origins and the necessity of curbi
 It appears to me that COVID, combined with the rapid and highly polarizing consumption of "news" on social media, has fractured our social discourse. 
 The culture of dialogue has suffered, forcing individuals to align with one of two extreme sides. 
 It now seems impossible to critique one party without facing accusations of working for the other.
-The language we employ has become more moralizing. 
-Instead of characterizing people as simply incompetent, misled, misguided, or influenced by flawed incentives within a system, they are often labeled as evil. 
+The language we employ has become more **moralizing**. 
+Instead of characterizing people as simply incompetent, misled, misguided, or influenced by flawed incentives within a system, they are often labeled as **evil**. 
 This focus on the individual impedes progress in reforming social systems, which are in need of change to provide alternative incentives that prioritize social, ecological, and economic measures for all inhabitants of the planet.
 Part of the reality of the climate crisis is that we need trusted institutions that need to be aligned in a way that dealing with the crisis becomes possible.
 
@@ -572,16 +596,16 @@ Additional, one can highlight the overwhelming consensus among climate scientist
 Of course, if we only rely on those papers we have to trust an even *higher-order observation*!
 In addition, one can argue that there is no plausible alternative theory apart from the effects humans caused by polluting the planet.
 
-But if an individual has lost trust in institutions all these efforts will be fruitless.
+But if an individual has lost trust in institutions, all these efforts will be fruitless.
 Therefore, it is so deeply important that our scientific institutions as well as the media defend and improve their reputation.
 Without the trust in *the other*, I see great danger on the horizon, especially if things become increasingly difficult.
 The challenge lies in persuading individuals who harbor skepticism, particularly toward what climate change deniers label as *mainstream science*.
 
-According to Maturana, convincing someone can only happen when they develop their own system of conviction. 
+According to Maturana, convincing someone can only happen when they develop **their own system of conviction**. 
 This aspect is especially crucial to consider. 
 Therefore, engagement must be respectful. 
 It's essential to take the worries, fears, and arguments of deniers seriously, even when they appear unreasonable.
-However, it's important to remember that while we encourage others to develop their convictions, we should also acknowledge our own unique and potentially flawed convictions and remain true to them if we are not convinced otherwise.
+However, it is also important to remember that while we encourage others to develop their convictions, we should also acknowledge our own unique and potentially flawed convictions and remain true to them if we are not convinced otherwise.
 
 >I think I do it always through stories, never through direct confrontation.
 >Because if you directly confront somebody who's thinking polar opposite to you, they don't really listen.
@@ -589,22 +613,7 @@ However, it's important to remember that while we encourage others to develop th
 >The first thing is to listen to them because maybe they've got a point, maybe they're doing something you never thought about.
 >But if you still feel that you're right, then you must have the courage of your conviction. -- Jane Goodall
 
-There may be another reason for the denial of climate change: it provides an opportunity to oppose intellectual elites, who are perceived as hypocritical and arrogant. 
-To elaborate, in his book *Bullshit Jobs* {% cite graeber:2018 %}, David Graeber presents a hypothesis explaining why the political right in the US supports the military while criticizing teachers and other social workers. 
-This occurs despite both groups---unlike hedge fund managers---doing 'real' work that positively impacts society.
-
-Graeber argues that in our system, jobs with a tangible positive societal impact are often undervalued and poorly compensated, partly because these roles already offer the intrinsic reward of doing something meaningful. 
-Conversely, *bullshit jobs*, which achieve little or are outright useless, are often better compensated.
-These jobs typically involve managing other managers and offer little in terms of societal contribution. 
-Graeber supports his argument with qualitative reports from individuals who themselves believe their jobs serve no meaningful purpose. 
-This discrepancy leads to a situation where the pain of feeling useless is offset by a higher salary, while workers in more impactful roles are deprived of fair benefits.
-
-From his perspective, the intellectual elite are not only well-compensated but also engage in work that is perceived as both  interesting and meaningful, akin to being paid for a hobby. 
-This perceived privilege, coupled with the tendency of some intellectuals to look down on blue-collar workers, breeds strong resentment against them, including the scientific community. 
-Furthermore, for someone growing up in a working-class family, the perceived impossibility of breaking into this elite exacerbates the resentment, possibly even more than the resentment towards billionaires. 
-The notion is that, theoretically, anyone could become rich, but entering the intellectual elite seems far less attainable.
-
-Additionally, there is an entire industry centered around climate denial. 
+There is another more systemic problem at hand: There is an entire self-producing industry centered around climate denial. 
 Our society has fostered an army of lobbyists whose primary aim is to actively sabotage progress in addressing climate issues. 
 In contrast to these 'knowledgable' deniers, scientists are required to rigorously justify every aspect of their research repeatedly and tend to be cautious about offering concrete advice. 
 Conversely, climate deniers merely need to sow seeds of doubt; their strategy revolves around raising questions rather than providing evidence-based answers. 
@@ -612,8 +621,8 @@ This asymmetry in approach creates a challenging environment for advancing scien
 
 ## Conclusion
 
-What I wanted to emphasize is the idea that we are constantly existing within a blurred world of reality and simulation, relying on second-order observation. 
-The root cause of descending into the rabbit hole may not be a detachment from reality but rather an *attachment to certainty*. 
+What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of reality and simulation, relying on second-order observation. 
+The root cause of descending into the rabbit hole may not be a detachment from reality but rather an **attachment to certainty**. 
 Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
 According to him, we cannot ceanse ourselfs from simulation.
 What we are trying to do is to purge the world of all mysteries, illusions and imaginations.
@@ -627,7 +636,7 @@ We perceive the reality of nature when it manifests as a non-human force of dest
 What occurs is incomprehensible. 
 In hyperreality, nature ceases to be a conflicting force and becomes merely an element within the simulation---a floating sign. 
 Destruction transforms into a calculated event.
-For example, repeatedly displaying graphs of death tolls gives us the illusion of control.
+Repeatedly displaying graphs of death tolls gives us the illusion of control.
 It can be seen as an attempt to reintegrate death (arguably the greatest contradiction of all) into the simulation.
 The negative, along with contradictions, is either integrated or discriminated against.
 Wars, natural disasters, and pandemics metamorphose into a spectacle on the television screen, a tourist attraction for our theme park, and are more disastrous than the disaster, more natural than nature---in short, a perfect simulation that surpasses and supplants reality.
@@ -639,6 +648,7 @@ These neo-tribes function solely as imagined communities and, unlike their premo
 They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition; as an identity technology termed *profilicaty*.
 
 I have no intention of passing moral judgment on conspiracy theorists.
+We should not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
 One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for our reality as always partly simulated.
 Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
@@ -646,7 +656,6 @@ Conspiracy theories operate similarly; they are pure simulations and, in this re
 The outsider is convinced of his or her reality, and the contradictory nature of these theories is not contradictory for him or her. 
 Instead, (obvious) contradictions are necessary to make the theory hyperreal. 
 The suspicion of the theorists is not unreasonable, but their conclusion is fatal---they demand a simple metanarrative and cannot see that this can only be another far more harmful simulation.
-We should also not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
 
 Several factors contribute to the prevalence of conspiracy theories, including information overload, the perception of a reality that is becoming 'less real', the sensation of living in a quasi-simulated reality, natural disasters, ongoing conflicts, and the rapid pace of our society. 
 Our modern world is so complex that it is virtually impossible for any single individual to comprehensively make sense of all that occurs.
@@ -678,12 +687,14 @@ It is the belief in something outside of simulation.
 The most effective remedy is to harbor doubts about our own competence, to be skeptical of ourselves, to maintain self-awareness at a metacognitive level, and to be able to live in a contradictory world and recognize those contradictions.
 These contradictions live on the borders of hyperreality---in slums, cobalt mines, the streets of New York City, the border of Mexico, the fortress of the European sea, refugee camps, and the 'ugly' parts of the world.
 
-Now, I am not sure if I can agree with the cynical viewpoint of Baudrillard. 
+I am not sure if I can agree with the cynical viewpoint of Baudrillard. 
 His overly dramatic and playful writings are interesting but also contradictory, probably by design.
 He would probably be horrified at our attempt to [simulate the whole earth](https://blogs.nvidia.com/blog/earth-2-supercomputer/) to predict and control our future. 
 But how else can we deal with an open, unpredictable future other than the pursuit of more and more accurate predictions? Esposito asks if this future will still be open {% cite esposito:2024 esposito:2023 %}.
 
 It appears to me that logical reasoning alone is not sufficiently compelling.
+Science and technology is not enough.
+It feels like we lack spiritual growth.
 Maybe Rorty is right about the importance of empathic stories.
 But where are these stories in the mainstream?
 Are we already too cynical, too ironic?
@@ -696,6 +707,7 @@ We have reached an alarming point at which millions of people can no longer disc
 That which cannot be simulated seems to disappear. 
 There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
 In the case of the climate crisis, there is no room for alternative truths.
+The best we can do is to trust in the scientific method to provide us with knowledege and spirituality that may spend us wisdom.
 Sooner or later the reality of the crisis will eventually bleed into hyperreality.
 Will we be able to give it symbolic meaning, or will it be re-integrated into the simulation?
 
