@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-04-02T21:37:01+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-07-09T21:58:15+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
   <p>Recurrent models trained in practice are effectively feed-forward.
 This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller</p>
 </blockquote>
@@ -541,7 +541,7 @@ Futhermore, one might think about a special mixing which is effective for our sp
 <li><span id="kitaev:2020">Kitaev, N., Kaiser, Ł., &amp; Levskaya, A. (2020). <i>Reformer: The Efficient Transformer</i>.</span></li>
 <li><span id="tay:2021">Tay, Y., Bahri, D., Metzler, D., Juan, D.-C., Zhao, Z., &amp; Zheng, C. (2021). <i>Synthesizer: Rethinking self-attention in transformer models</i>.</span></li>
 <li><span id="choromanski:2022">Choromanski, K., Likhosherstov, V., Dohan, D., Song, X., Gane, A., Sarlos, T., Hawkins, P., Davis, J., Mohiuddin, A., Kaiser, L., Belanger, D., Colwell, L., &amp; Weller, A. (2022). <i>Rethinking Attention with Performers</i>. https://arxiv.org/abs/2009.14794</span></li>
-<li><span id="leethorp:2022">Lee-Thorp, J., Ainslie, J., Eckstein, I., &amp; Ontanon, S. (2022). <i>FNet: Mixing tokens with Fourier transforms</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="Transformer" /><summary type="html"><![CDATA[Recurrent models trained in practice are effectively feed-forward. This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller]]></summary></entry><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
+<li><span id="leethorp:2022">Lee-Thorp, J., Ainslie, J., Eckstein, I., &amp; Ontanon, S. (2022). <i>FNet: Mixing tokens with Fourier transforms</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="Transformer" /><summary type="html"><![CDATA[Recurrent models trained in practice are effectively feed-forward. This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller]]></summary></entry><entry><title type="html">Escaping the Reality of the Climate Crisis?</title><link href="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html" rel="alternate" type="text/html" title="Escaping the Reality of the Climate Crisis?" /><published>2024-01-02T00:00:00+01:00</published><updated>2024-01-02T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/01/02/conspiracy</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/01/02/conspiracy.html"><![CDATA[<p>Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
 Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.</p>
 
@@ -584,17 +584,17 @@ This mix reflects the broad, albeit unusual, appeal of such conspiratorial narra
 I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.</p>
 
 <p>It is far to easy to make fun of people believing in mythologies.
-In an objective scientific sense, myths are either inconsistent or unfalsifiable.
+Scienficially speaking, myths are either inconsistent or unfalsifiable.
 However, socially they can be very useful and powerful.
 They explain experience and reduce complexity.
 A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
 They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal—a mission greater than oneself.
-Here, a shadow of spirituality plays an important role, be it in the form of <em>the light of God</em>, <em>Siegfried the dragonslayer</em>, <em>Achilleus the greatest of all the Greek warriors</em> or <em>Donald Trump the warrior King</em>.</p>
+Here, a shadow of spirituality plays an important role, be it in the form of <em>the Light of God</em>, <em>Siegfried the Dragonslayer</em>, <em>Achilleus the Greatest of All the Greek Warriors</em> or <em>Donald Trump the Warrior King</em>.</p>
 
 <p>In my view, spirituality and science harmonize with one another rather than clash.
 Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic.
-Bu it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
+But it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
 It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe’s intricate complexity.</p>
 
 <blockquote>
@@ -643,7 +643,7 @@ But mythological snakes often are and calling someone a snake can be a powerful 
 
 <p>If Trump speaks of <em>America</em> or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
-To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrate to them that you are of ‘the them’; that you are jealous that they won.
+To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of ‘the them’; that you are jealous that they won.
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the ‘chosen ones’.</p>
 
@@ -683,7 +683,7 @@ In structuralism, the meaning of elements, such as words, doesn’t derive from 
 For instance, teaching a child the word ‘tree’ isn’t as simple as pointing to one and stating, “Look, this is a tree!”
 The child wouldn’t know if ‘tree’ refers to that specific tree, its leaves, or a category of trees. 
 Understanding the word ‘tree’ requires knowledge of many other words and examining their relationships to ‘tree’—their difference.
-Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise.
+Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used (or abused) for advertisement and marketing.
 The individual is placed in the position of a consumer.
 As these signs are lifted out of the social, they lose all possibility of stable reference.
 They may be used for anything, for any purpose.
@@ -694,13 +694,13 @@ Apple products serve as a pertinent example.
 They appear overpriced when considering solely their use value.
 However, their value arises from what they signify in relation to other objects which leads to the demishing of <em>symbolic values</em>.
 For example, a pen given to you for your graduation, has probably a high symbolic value to you.
-Symbolic values are a assigned by a subject in relation to another subject.
-Sign value is an object’s value within a system of objects signifying, for example, social status.</p>
+Symbolic values are assigned by a subject in relation to another subject.
+Sign value is on the other hand is the object’s value within a system of objects signifying, for example, social status.</p>
 
 <p>Baudrillard, known for his cynical views, also believed that objects essentially have triumphed over subjects. 
 He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, <em>the code</em> has made every sign integratable thus also exchangeable.
-It is not that subjects or objects stand no longer for something ‘real’ but that the referent, that does not exist, disappeared.
-For example, in the Renaissance people or objects appear to stand for a real referent that does not exist, for instance, royalty, nobility, holiness, etc.
+It is not that subjects or objects stand no longer for something ‘real’ but that the imagined referent, that does not exist, disappeared.
+For example, in the Renaissance people or objects appear to stand for an imagined referent, for instance, royalty, nobility, holiness, etc.
 According to Baudrillard, instead of disimulating something, now signs dissimulate that there is nothing.</p>
 
 <blockquote>
@@ -726,7 +726,7 @@ The simularcum is true. – Jean Baudrillard</p>
 instead, they are mere simulations of a Hollywood love story because these stories are the truth!
 Life imitates advertisement.
 This does not mean that there is no more love.
-However, there is nothing behind the ‘Hollywood love story’—it is true itself.</p>
+However, there is nothing behind the ‘Hollywood love story’—it is true as it is.</p>
 
 <p>We are compelled to reproduce these images and to participate, even if we know or suspect it is all a simulation.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth, but that the truth is simulation.
@@ -963,7 +963,7 @@ In a scenario where there may be no external escape from the simulation, it coul
 While it might feel like we inhabit a sort of matrix, it’s essential to acknowledge that this is a choice we make. 
 From childhood, we develop self-conceptions and fantasies, but this doesn’t negate the existence of the world itself. 
 Fantasies are constructs, and doubting the existence of the world presupposes a profound level of experience and knowledge of that world—a world where we learn to eat, walk, dance, and understand the nuances of correct and incorrect language usage.
-We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—–our home—is still there. 
+We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—our home—is still there. 
 The central question here is what is more reasonable to doubt: the world you intimately grew up in or your doubts about doubting it?</p>
 
 <h2 id="our-dependence-on-second-order-observation">Our Dependence on Second-order Observation</h2>
@@ -984,17 +984,18 @@ Instead, according to Luhmann, there exists an interdependent network of social 
 Here I agree with Luhmann:</p>
 
 <blockquote>
-  <p>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—–as if they could do otherwise. – Niklas Luhmann</p>
+  <p>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—as if they could do otherwise. – Niklas Luhmann</p>
 </blockquote>
 
-<p>If one anticipates that the primary purpose of the media is to deliver accurate information, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
-The media is inherently self-preserving and functions in a manner that constructs and sustains itself. 
+<p>If one anticipates that the primary purpose of the media is to deliver accurate information or facts, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
+The media is inherently self-preserving.
+It functions in a manner that constructs and sustains itself. 
 While it is certainly beneficial for the media to provide accurate information, this is not its foremost objective.
 The media provides <em>what is known to be known</em>.
-Media irritates politics and the political system, economics and the scientific system irritate the media.
-The media makes society restless.</p>
+It irritates politics, our economy and the scientific system while bing irritated by all these systems.
+<strong>The media makes society restless</strong>.</p>
 
-<p>In my view, this mistaken perception of the media contributes to the proliferation of conspiracy theories, as it portrays the entire system as corrupt. 
+<p>Our view that the media presents ‘the Truth’ contributes to the proliferation of conspiracy theories, as we portrays the entire system as corrupt. 
 Instead of recognizing the various shortcomings within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public. 
 This leads to a pervasive distrust, particularly directed towards well-established media outlets.
 As a consequence, consumers may turn to ‘alternative’ media sources, even though these alternatives often inadvertently rely on established media institutions for their information. 
@@ -1005,10 +1006,12 @@ These institutions are essential if we are to have any hope to share a world tha
 In modern society, directly observing reality is increasingly challenging. 
 To stay informed about various aspects such as the state of the economy, job market trends, recent fashion styles, developments in one’s favorite sports league, or new scientific inventions and studies, it is impractical to personally verify these facets. 
 Instead, we depend on the observations made by others and, of course, machines.
-This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers. 
+This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers.
+In science, we write review papers about review papers.
+We track how often papers are cited, i.e. how these papers are being observed.
 This reliance on second-hand information shapes our understanding of the world, as we depend on external observers to provide us with insights and knowledge about various domains that we cannot directly experience or verify ourselves.</p>
 
-<p>We frequently depend on multiple layers of <em>second-order observations</em> or various levels of abstraction.
+<p>We are frequently depend on multiple layers of <em>second-order observations</em> or various levels of abstraction.
 Scientific papers serve as a prime example. 
 These papers are typically not intended for a general audience but are meant for peers within the specific field of research. 
 As a result, the average person often finds them inaccessible.
@@ -1312,7 +1315,7 @@ Will we be able to give it symbolic meaning, or will it be re-integrated into th
 <li><span id="cook:2013">Cook, J., Nuccitelli, D., Green, S. A., Richardson, M., Winkler, B., Painting, R., Way, R., Jacobs, P., &amp; Skuce, A. (2013). Quantifying the consensus on anthropogenic global warming in the scientific literature. <i>Environmental Research Letters</i>, <i>8</i>(2), 024024. https://doi.org/10.1088/1748-9326/8/2/024024</span></li>
 <li><span id="doran:2009">Doran, P. T., &amp; Zimmerman, M. K. (2009). Examining the scientific consensus on climate change. <i>Eos, Transactions American Geophysical Union</i>, <i>90</i>(3), 22–23. https://doi.org/https://doi.org/10.1029/2009EO030002</span></li>
 <li><span id="esposito:2024">Esposito, E. (2024). Can we use the open future? Preparedness and innovation in times of self-generated uncertainty. <i>European Journal of Social Theory</i>, <i>0</i>(0). https://doi.org/10.1177/13684310231224546</span></li>
-<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
 My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.

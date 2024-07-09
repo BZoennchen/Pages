@@ -7,7 +7,7 @@ tags:
     - Conspiracy Theories
 ---
 
-Diverging from my area of expertise is always a risky endeavor, but since this is a blog rather than a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
+Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
 Often writing helps in transforming the mess into a structured and coherent concept. 
 The process of rethinking and reflecting can be invaluable.
 
@@ -46,17 +46,17 @@ This mix reflects the broad, albeit unusual, appeal of such conspiratorial narra
 I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.
 
 It is far to easy to make fun of people believing in mythologies.
-In an objective scientific sense, myths are either inconsistent or unfalsifiable.
+Scienficially speaking, myths are either inconsistent or unfalsifiable.
 However, socially they can be very useful and powerful.
 They explain experience and reduce complexity.
 A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
 They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
-Here, a shadow of spirituality plays an important role, be it in the form of *the light of God*, *Siegfried the dragonslayer*, *Achilleus the greatest of all the Greek warriors* or *Donald Trump the warrior King*.
+Here, a shadow of spirituality plays an important role, be it in the form of *the Light of God*, *Siegfried the Dragonslayer*, *Achilleus the Greatest of All the Greek Warriors* or *Donald Trump the Warrior King*.
 
 In my view, spirituality and science harmonize with one another rather than clash.
 Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic.
-Bu it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
+But it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
 It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe's intricate complexity.
 
 >We have a working theory, which we know is true, which explains how you can go from great simplicity to prodigious complexity.
@@ -101,7 +101,7 @@ But mythological snakes often are and calling someone a snake can be a powerful 
 
 If Trump speaks of *America* or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
-To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrate to them that you are of 'the them'; that you are jealous that they won.
+To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of 'the them'; that you are jealous that they won.
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
@@ -141,7 +141,7 @@ In structuralism, the meaning of elements, such as words, doesn't derive from wh
 For instance, teaching a child the word 'tree' isn't as simple as pointing to one and stating, "Look, this is a tree!"
 The child wouldn't know if 'tree' refers to that specific tree, its leaves, or a category of trees. 
 Understanding the word 'tree' requires knowledge of many other words and examining their relationships to 'tree'---their difference.
-Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used to advertise.
+Baudrillard argues that in a postmodern society, any cultural idea, image, sign, or symbol is apt to be pulled out of its social context and used (or abused) for advertisement and marketing.
 The individual is placed in the position of a consumer.
 As these signs are lifted out of the social, they lose all possibility of stable reference.
 They may be used for anything, for any purpose.
@@ -152,13 +152,13 @@ Apple products serve as a pertinent example.
 They appear overpriced when considering solely their use value.
 However, their value arises from what they signify in relation to other objects which leads to the demishing of *symbolic values*.
 For example, a pen given to you for your graduation, has probably a high symbolic value to you.
-Symbolic values are a assigned by a subject in relation to another subject.
-Sign value is an object's value within a system of objects signifying, for example, social status.
+Symbolic values are assigned by a subject in relation to another subject.
+Sign value is on the other hand is the object's value within a system of objects signifying, for example, social status.
 
 Baudrillard, known for his cynical views, also believed that objects essentially have triumphed over subjects. 
 He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, *the code* has made every sign integratable thus also exchangeable.
-It is not that subjects or objects stand no longer for something 'real' but that the referent, that does not exist, disappeared.
-For example, in the Renaissance people or objects appear to stand for a real referent that does not exist, for instance, royalty, nobility, holiness, etc.
+It is not that subjects or objects stand no longer for something 'real' but that the imagined referent, that does not exist, disappeared.
+For example, in the Renaissance people or objects appear to stand for an imagined referent, for instance, royalty, nobility, holiness, etc.
 According to Baudrillard, instead of disimulating something, now signs dissimulate that there is nothing.
 
 >The transition from signs which dissimulate something to signs which dissimulate that there is nothing, marks the decisive turning point. 
@@ -180,7 +180,7 @@ Following Baudrillard's perspective, experiences such as a teenager's first kiss
 instead, they are mere simulations of a Hollywood love story because these stories are the truth!
 Life imitates advertisement.
 This does not mean that there is no more love.
-However, there is nothing behind the 'Hollywood love story'---it is true itself.
+However, there is nothing behind the 'Hollywood love story'---it is true as it is.
 
 We are compelled to reproduce these images and to participate, even if we know or suspect it is all a simulation.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth, but that the truth is simulation.
@@ -403,7 +403,7 @@ We are not superheroes; we are composed of the same fundamental elements as ever
 While it might feel like we inhabit a sort of matrix, it's essential to acknowledge that this is a choice we make. 
 From childhood, we develop self-conceptions and fantasies, but this doesn't negate the existence of the world itself. 
 Fantasies are constructs, and doubting the existence of the world presupposes a profound level of experience and knowledge of that world---a world where we learn to eat, walk, dance, and understand the nuances of correct and incorrect language usage.
-We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world—--our home---is still there. 
+We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world---our home---is still there. 
 The central question here is what is more reasonable to doubt: the world you intimately grew up in or your doubts about doubting it?
 
 ## Our Dependence on Second-order Observation
@@ -423,16 +423,17 @@ Instead, according to Luhmann, there exists an interdependent network of social 
 Similarily we demand the media should try to be as objective as they can be but it is naive to think that they are able to present reality as it is.
 Here I agree with Luhmann:
 
->It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion—--as if they could do otherwise. -- Niklas Luhmann
+>It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion---as if they could do otherwise. -- Niklas Luhmann
 
-If one anticipates that the primary purpose of the media is to deliver accurate information, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
-The media is inherently self-preserving and functions in a manner that constructs and sustains itself. 
+If one anticipates that the primary purpose of the media is to deliver accurate information or facts, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
+The media is inherently self-preserving.
+It functions in a manner that constructs and sustains itself. 
 While it is certainly beneficial for the media to provide accurate information, this is not its foremost objective.
 The media provides *what is known to be known*.
-Media irritates politics and the political system, economics and the scientific system irritate the media.
-The media makes society restless.
+It irritates politics, our economy and the scientific system while bing irritated by all these systems.
+**The media makes society restless**.
 
-In my view, this mistaken perception of the media contributes to the proliferation of conspiracy theories, as it portrays the entire system as corrupt. 
+Our view that the media presents 'the Truth' contributes to the proliferation of conspiracy theories, as we portrays the entire system as corrupt. 
 Instead of recognizing the various shortcomings within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public. 
 This leads to a pervasive distrust, particularly directed towards well-established media outlets.
 As a consequence, consumers may turn to 'alternative' media sources, even though these alternatives often inadvertently rely on established media institutions for their information. 
@@ -443,10 +444,12 @@ The core issue lies in our reliance on what Niklas Luhmann refers to as *second-
 In modern society, directly observing reality is increasingly challenging. 
 To stay informed about various aspects such as the state of the economy, job market trends, recent fashion styles, developments in one's favorite sports league, or new scientific inventions and studies, it is impractical to personally verify these facets. 
 Instead, we depend on the observations made by others and, of course, machines.
-This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers. 
+This means we have to engage with various forms of reporting and analysis: reading reports about the GDP, considering the opinions of fashion critics, watching sports programs, and reviewing scientific papers.
+In science, we write review papers about review papers.
+We track how often papers are cited, i.e. how these papers are being observed.
 This reliance on second-hand information shapes our understanding of the world, as we depend on external observers to provide us with insights and knowledge about various domains that we cannot directly experience or verify ourselves.
 
-We frequently depend on multiple layers of *second-order observations* or various levels of abstraction.
+We are frequently depend on multiple layers of *second-order observations* or various levels of abstraction.
 Scientific papers serve as a prime example. 
 These papers are typically not intended for a general audience but are meant for peers within the specific field of research. 
 As a result, the average person often finds them inaccessible.

@@ -10,7 +10,7 @@ PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/fil
 ## Current Position
 
 **10/2023 - today** | [Munich Center for Digital Science and AI](https://mucdai.hm.edu/index.de.html), Munich, Germany<br>
-Head of Research (Postdoc)<br>
+Head of Research (Research Associate)<br>
 *Applied Machine Learning and its Impact on Society*
 
 ## Academic Education
@@ -92,6 +92,26 @@ Software Developer (Education)<br>
 
 ## Publications
 
+**2024** | **Benedikt Zönnchen**, Veronika Thurner and Axel Böttcher<br>
+On the Impact of ChatGPT on Teaching and Studying Software Engineering.<br>
+In *2024 IEEE Global Engineering Education Conference (EDUCON)*.<br>
+DOI: [10.1109/educon60312.2024.10578680](https://doi.org/10.1109/educon60312.2024.10578680).<br>
+
+**2024** | Sabine Hammer, Sarah Ottinger, **Benedikt Zönnchen**,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michel Hohendanner, Martin Hobelsberger and Veronika Thurner <br>
+ChatGPT in Higher Education: Perceptions of Computer Science-Related Students.<br>
+In *2024 IEEE Global Engineering Education Conference (EDUCON)*.<br>
+DOI: [10.1109/educon60312.2024.10578742](https://doi.org/10.1109/educon60312.2024.10578742).<br>
+
+**2024** | **Benedikt Zönnchen**, Charloote Böhm and Gudrun Socher<br>
+Bridging Disciplines in Higher Education: The Convergence of AI and Sustainability.<br>
+In *International Conference on Higher Education Advances (HEAd)*.<br>
+DOI: [10.4995/HEAd24.2024.17278](https://doi.org/10.4995/HEAd24.2024.17278).<br>
+
+**2024** | **Benedikt Zönnchen**<br>
+Generative AI: Between Tool and Communication Partner.<br>
+URL: [MUC.DAI Website](https://mediapool.hm.edu/media/mucdai/mucdai_research/Beitrag_Artifical_Communication_Benedikt_Zoennchen_en.pdf).<br>
+
 **2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
 Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
 In *Tagungsband zum 5. Symposium zur Hochschullehre in den MINT-Fächern*.<br>
@@ -148,6 +168,12 @@ DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
 
 ## Recent Talks
 
+**2024** | A Systemic View on Society,<br>
+Munich Creative Business Week 2024, MUC.DAI, [Link](https://www.mcbw.de/en/magazine/annual-theme-2024).
+
+**2024** | AI as a Tool of Emancipation?<br>
+IGA Tagung.
+
 **2023** | Generative AI in the Context of XR,<br>
 XR for the Middle Class, IHK Munich, [Link](https://www.ihk-muenchen.de/xr-mittelstand/).
 
@@ -157,6 +183,9 @@ Ready for the Future: AI-Skills as Part of the Curriculum, Dialogue Forum, HM, [
 ***
 
 ## Teaching
+
+**Summer 2024** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
+*[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Workshop, Trainer<br>
 
 **Winter 2023/24** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
 *[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Project-based Workshop, Trainer<br>
