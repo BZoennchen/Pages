@@ -862,6 +862,7 @@ We have reached an alarming point at which millions of people can no longer disc
 That which cannot be simulated seems to disappear. 
 There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by an authoritarian rebellion against the authority of knowledge.
 Even in the case of the climate crisis, if we want to preserve a liberal democracy, politics has to discuss alternatives based on the consideration of different values.
+We need imagination to draw larger circles and rationalty to make valid moves within these circles.
 We have to trust in the scientific method to provide us with good knowledege, politics (not politicians) that is informed by science to provide us with good politics, and spirituality that may spend us wisdom and psychologic stability.
 Sooner or later the reality of the crisis will eventually bleed into hyperreality.
 Even if we construct our own perspective on the world, the reality of the climate crisis will not disappear if we stop believing in it.
