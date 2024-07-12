@@ -20,7 +20,7 @@ To do this, I first need a definition for conspiracy theory and I think the one 
 
 >By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
 
-## Mythology and Conspiracy Theories
+## Mythologies and Conspiracy Theories
 
 The phenomena of conspiracy theories hunts me since the terror attacks of 9/11 happened back when I was a child.
 I remember watching the *Zeitgeist series*, which linked various conspiracy theories involving religion, the September 11 attacks and the financial sector.
@@ -105,7 +105,7 @@ To critique their definition as being racist, irrational, exclusive, inhumane, o
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
-## The Matrix and the Cave
+## Taking the Wrong Pill
 
 *The Matrix* is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
 As a child, I fantasized about being *The One*, akin to the hacker Neo, who could hack the matrix. 
@@ -192,7 +192,7 @@ When more and more simulacra transform into simulation we enter the matrix.
 Pictures of ourselves no longer represent us, or us pretending to be someone else, but they are a simulation of some specific and often stereotypical fantasy that has no reference to something real other than different parts of the code.
 That is the depressing and cynical viewpoint of Baudrillard.
 
-### Back to Plato
+### Plato's Allegory of the Cave
 
 I love *The Matrix* but I have to assess that it did not succeed in capturing Baudrillard's main themes.
 The main problem is a clear line between simulation and reality; between the matrix and Zion.
@@ -256,7 +256,7 @@ Thus Baudrillard concludes:
 >We are in the uncut transparency.
 >The Matrix is surely the kind of film about the matrix that the matrix would have been albe to produce. -- Jean Baudrillard
 
-## Neo, a Conspiratorial Narcissist?
+## The Desire for Certainty
 
 Now, what has this to do with *conspiracy theories*?
 Well, other than Baudrillard's theory of a reality that is simulation, I claim that the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to 'the matrix'.
@@ -352,7 +352,7 @@ Essentially, these theories represent a futile effort to eliminate contingency a
 They attempt to provide a sense of certainty and understanding in a world that is inherently open, contingent, unpredictable and complex. 
 This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.
 
-## Escaping the Matrix?
+## Escaping Simulation?
 
 The incorporation of expressions like 'escaping the matrix' and 'being red-pilled' into the vocabulary of conspiracy theory groups as metaphorical language is unsurprising.
 These terms, which originated from *The Matrix*, are used metaphorically to describe the experience of awakening to a hidden or suppressed truth.
@@ -425,6 +425,7 @@ Here I agree with Luhmann:
 
 >It is impossible to understand the reality of the mass media if you assume it is their job to provide correct information on the world and then assess how they fail, distort reality, and manipulate opinion---as if they could do otherwise. -- Niklas Luhmann
 
+Basically, Luhmann observed something very similar to the *Manufacturing Consent* {% cite herman:1988 %} but explains it slightly differently without the need for a *propaganda model*.
 If one anticipates that the primary purpose of the media is to deliver accurate information or facts, they are likely to encounter inconsistencies that raise significant doubts about the credibility of the mass media apparatus. 
 The media is inherently self-preserving.
 It functions in a manner that constructs and sustains itself. 
@@ -433,8 +434,9 @@ The media provides *what is known to be known*.
 It irritates politics, our economy and the scientific system while bing irritated by all these systems.
 **The media makes society restless**.
 
-Our view that the media presents 'the Truth' contributes to the proliferation of conspiracy theories, as we portrays the entire system as corrupt. 
-Instead of recognizing the various shortcomings within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public. 
+The view that the media presents 'the Truth' contributes to the proliferation of conspiracy theories, since it portrays the entire system as corrupt.
+If the media presents objective facts and these facts are inconsistent, distorted, incomplete and open for interpretation then it is disfunctional or corrupt.
+Instead of recognizing the various shortcomings (which serve the internal logic of the system) within the media (of which there are many), one tends to assume a broad conspiracy aimed at deliberately deceiving the public.
 This leads to a pervasive distrust, particularly directed towards well-established media outlets.
 As a consequence, consumers may turn to 'alternative' media sources, even though these alternatives often inadvertently rely on established media institutions for their information. 
 Reporting, conducting on-site investigations, collecting information, and managing extensive archives are expensive endeavors that only large institutions can effectively undertake. 
@@ -515,7 +517,7 @@ Richard Rorty has an intreresting take on that question.
 If we want universal acceptance of and respect for human rights, we shouldn't try to argue about it. 
 We shouldn't attempt to work out rational justifications of human rights, or arguments that will convince people that human rights are a good thing. 
 Instead, according to Rorty, we would achieve better results if we try to influence people's feelings instead of their minds---philosophy as poetry {% cite rorty:2016 %}!
-Rational justifying human rights is an abstract and philosophical way---something which according to Rorty isn’t possible anyway.
+Rational justifying human rights is an abstract and philosophical way---something that, according to Rorty, isn’t possible anyway.
 In a sense, Rorty suggest that, instead of arguing rationally against mythologies, we should imagine, construct and present better ones.
 He does not believe in a second enlightenment---in which logic and rationality will triumph over evil.
 It is worth noting that similar challenges and questions arise when we consider the concept of *free will*, which is itself a highly contentious notion, compare for example {% cite sapolsky:2023 %}.
@@ -622,9 +624,154 @@ In contrast to these 'knowledgable' deniers, scientists are required to rigorous
 Conversely, climate deniers merely need to sow seeds of doubt; their strategy revolves around raising questions rather than providing evidence-based answers. 
 This asymmetry in approach creates a challenging environment for advancing scientific understanding and consensus on climate change.
 
+## Rebels of Authority
+
+Apart from ignorance, selfish interests and plain stupidity, I have not yet pointed to the root problem.
+I cited papers that suggest that there is a link between pattern matching skills, narcissism and believing in conspiracy theory.
+Stupid people elect stupid and corrupt politicians, right?
+But that is too easy of an explanation.
+Whenever I have to fall back on stupidity or evilness, I get the feeling that I am missing something.
+Most of the time peope are not evil or stupid.
+Similar to conspiracy theories, such a rational is too simple, too individualistic and also too dangerous.
+So what is the systemic reaosn why people reject actions required to keep the planet sustainable for us all?
+
+Of course, there are many complex reasons but I want to focus on one that fits the meat of this article.
+I more or less successfully tried problematize the search for an absolute objective truth by pointing out that those who believe in stepping out of the cave go probably deeper into it.
+And I pointed to Baudrillard's imagined eradication of imagination leading to a *true simulacra* that no longer stands for anything but itself.
+A description of *hyperreality* that hits me emotionally.
+Now, let us imagine that conspiracy theorists rightly point to a problem they might not really understand rationally but feel intuitively.
+What might it be?
+
+If we want to describe our modern Western society, I think it's fair to say that we are a *knowledge-based society*.
+Most of our decisions are informed by some scientifically produced piece of knowledge.
+For example, our diet or how often we go to the doctor is informed by science.
+In fact, we wittness a whole industry of self-optimization that claim to be scientific.
+There is a whole cult trying to establish a 'science' of finding a breeding mate.
+Or take this article.
+My desire is similar, i.e. I try to argue for more radical actions by using knowledge and second-order observation by citing scientific papers.
+In that sense, I fall into the same trap.
+Political decisions are also mostly informed by science; 
+where there is power, there is also knowledge.
+
+In such a society, we tend to search for the *perfect algorithm* that can make the best decisions for any situation.
+In fact, many decisions are already made by algorithms based on the observation of large amounts of data.
+Even policies are crafted by utilizing artificial intelligence.
+The idea is simple: instead of shouting at each other about the right course of action, let the *objective reality* be the final judge; let 'the Truth' decide---let science guide us through the mess.
+This was the dream born out of the Enlightenment and it sparked many ideologies that promised to fulfill this utopian harmony.
+It is supported by the *mechanistic viewpoint* on the universe that we can eventually understand all causal relations going back to some final cause we might call God;
+In its current interpretation, I call it **algocracy** {% cite danaher:2016 %}, i.e., rule by algorithms.
+
+Interstingly, most conspiracy theorist argue within this framework, that is, they argue not in terms of values but in terms of better knowledge.
+At the same time they rebell against the authority of such algorithmic rigor.
+Therefore, on the one hand, they believe in a complete understanding of reality or at least a big and very complex chunk of it.
+Consequently, they also buy the idea that politics is basically determined by the most powerful authority: the truth.
+On the other hand, they rebell against this doctrine by using its own logic.
+That is why it is so dangerous because **the system harms itself by its own operation** which is the exact opposite of autopoiesis i.e. what a social system should do to sustain itself.
+
+Like Pippi Longstocking, conspiracy theorists create their world or imagine it based on an alternative system of turth.
+In the case of Pippi Longstocking, I find this antiauthoritarian attitude charming, creative, and imaginative, but in the case of conspiracy theorists, I find it dangerous, idiotic, and ignorant---an inconsistency worth investigating.
+According to the sociologist Alexander Bogner an overdose of  antiauthoritarian attitude becomes problematic if we no longer agree on any foundation making any conflict impossible since there is nothing to argue about.
+One of such foundation is the belief in an objective truth.
+He pragmatically argues that:
+
+>For libaral democracies, the idea of objective truth is a necessary fiction. -- {% cite bogner:2021 %}
+
+This statement seems reasonable but I will problematize it later.
+Bogner points out that a liberal democratic society requires conflicts grounded in dissent.
+However, dissent is only possible if there is at least a shared foundation and also an alternative to think about.
+Overall, I think Bogner essay aligns closely with the constructivists viewpoint shared by e.g. Luhmann even if he criticizes the theory for attacking the idea of an objective truth..
+For example, he argues in a Luhmannian manner about the root problem of conspiracy theories, or what many call the *post-truth society*, pointing out the crossing of boundaries between two interdependent but operationally closed systems:
+**science** and **politics**.
+
+Due to the *functional differentiation* of modern societies, politics communicates about **values** and science communicates about **facts**.
+Bogner argues that today this distinction is blurred leading to dysfunctional systems.
+Nowadays, politics communicates about facts but is still guided by values.
+This makes *productive dissent* difficult because different value systems no longer compete within the boundary of values but hide behind the battle for better knowledge.
+Values are no longer up for debate.
+Instead we argue for superior facts.
+In this context, *fake news* take part in a new *language game* that is born out from the lack of alternatives.
+Fake news do not attack values but knowledge itself.
+
+>This could also be observed during the coronavirus crisis: 
+>Due to the high pressure of scientification, the will for fundamental opposition in some places was discharged through the spread of 'alternative facts'.
+>[...] It was directed against a (supposedly) authoritative instance that claimed to determine what is real, rational, and politically necessary through superior rationality.
+>From the perspective of this protest, political emancipation could only be an emancipation from the facts.
+>Alternative facts are evidently in vogue when politics (due to its alignment with science) appears to be without alternatives. -- {% cite bogner:2021 %}
+
+Bogner correclty points out that scientific knowledge can be dangerous for politics because it dismantles or defuses the discourse.
+It is also attractive if one wants to surrender responsibility because in science it is far easier to agree on statements because it follows a strict true-false-distinction.
+In this sense, science is authoritarian.
+
+Take a simple example such as health.
+Before talking about it, we already share certain values.
+For example, most people probably assume that a long healthy life is preferable over a short or unhealthy life.
+This seems reaonable.
+However, even this seemingly simple assumption can not be proven.
+It is a value and values are mutually constructed.
+I can, for example, easily argue that it is better to live to the fullest even if this means that my life expectancy drops.
+
+In politics we argue about values and try to find some common ground.
+This requires some degree of cohesion.
+It goes against our more and more individualistc togetherness.
+Bogner points out that people are considerably constrained in their expression of dissent if scientific truth is translated into a politic that knows no alternative.
+He writes:
+
+>The struggle against science and experts can thus be understood as a struggle against determinations that were not chosen by oneself.
+>For such determinations must appear as an impudent imposition to the individualized, modern person, who is increasingly called upon today as a self-responsible shaper of their destiny, as a self-entrepreneur or 'Me Inc'. 
+>Therefore, the struggle against facts is, not least, a struggle for autonomy.
+>From this perspective, *science denial* appears as a critique that is in tune with the times, insofar as it derives its plausibility from the current conditions of subjectification.
+>In the protest against established knowledge, the disappointed hope of the highly individualized, activated subject for complete sovereignty and a fully comprehensible, decision-open world is discharged. -- {% cite bogner:2021 %}
+
+If politicians give knowledge absolute authority over political decisions, and these decisions realize certain values, the only way to fight for different values is to fight a different truth.
+Using Bogner's perspective, fake news are not the cause of the problem but a symptom of a society that feels impotent because certain values are always already presupposed to be the right values.
+Therefore, what Bogner calls *productive dissent* becomes impossible.
+
+>The rebellion of the knowledge deniers can overall be understood as a covert appeal directed against a (looming) colonization of politics by expert consensus, 
+>regardless of how reasonable the expert recommendations may be in individual cases. -- {% cite bogner:2021 %}
+
+I agree with Bogner that a culture needs a common foundation, a reference world, which, according to Luhmann, should be provided by the media.
+And we also need a more flexible and ambagious reference world on a global scale.
+Furthermore, I also agree that science cannot do politics and that better knowledge does not automatically lead to better politics.
+Science should continue to operate on the true-false distinction, while politics should use a different code that differentiates values.
+
+In case of climate activism, it might be a far more effective strategy to demand the values people want to be realized instead of discussing the facts they believe in.
+Instead of calling people deniers, it might be healthier to find and employ strategies that reveal their value system.
+Then, we should reinvigorate the discourse about values since it now seems obvious that more and better facts alone cannot move a society towards change.
+
+However, I do not agree with Bogner's claim that we need to agree that there is an *objective truth* to be found. 
+I even suspect he does not fully believe this himself, as he refers to the **idea of an objective truth as a necessary fantasy**, akin to *Plato's noble lie*---a myth knowingly propagated by an elite to maintain social harmony.
+I reject this in favor of an embracing uncertainty because, as I argued above, I think it drives the individual deeper into the cave. 
+As the philosopher Slavoj Žižek argues---contrary to Dostoevsky and many others—--that the belief in God enables us to commit horrific crimes, believing in an objectively accessible truth can serve the same purpose.
+If we no longer live in the same world, society might break, but this does not diminish the great value of doubt and uncertainty in restraining our tendency for megalomania.
+
+As you might expect, I lean more towards Rorty, believing that we are mature enough to handle the pragmatist view that it is socially more useful to reject the idea of an objective truth (in the Platonist sense).
+According to Rorty, Pippi Longstocking should be allowed to argue for her position, and we should accept her position to be true if it emerges out of the struggle for truth.
+The American pragmatist rejects the Platonist's notion of truth, considering it unintelligible and meaningless.
+
+>For the idea of a liberal society, it is of central importance that everything is allowed as long as it pertains to words as opposed to actions, to persuasion as opposed to violence. 
+>This openness should not be maintained because, as the Bible says, the truth is great and will prevail, nor because, as Milton believes, in a free and open fight, the Truth will always win. A society is liberal when it is content to call 'true' whatever emerges as the result of such struggles. -- {% cite rorty:1989 %}
+
+Many, including Bogner, believe that such an attitude leads to **indifference**. 
+He argues that if we take Rorty's comment literally, we would bury both the idea of *objective truth* and our *liberal democracy*, since the realization of individual freedom through social change requires productive dissent.
+I think Bogner, like many others, misinterprets Rorty or at least applies his statement to the wrong level of society---the wrong reality, so to speak. 
+The implication that if we stop believing in an objective truth, we end up in a sort of absolute relativism or complete indifference remains unfounded. 
+It's a huge leap. We should also note that Bogner does not argue against the validity of Rorty's claim that the *Platonic idea of truth* is wrong but rather that it is not useful.
+
+Rejecting the belief in an objective truth does not mean that we lose the ground for productive dissent.
+On the contrary, it allows for a more pragmatic approach to dialogue and disagreement.
+When we drop the belief in an objective truth, we recognize that our conversations and disagreements are grounded in our contingent vocabularies and cultural practices.
+This recognition does not lead to indifference but rather to a greater appreciation of the diversity of perspectives.
+It encourages us to engage with others' values and beliefs not because they correspond to an objective reality, but because they are part of the **shared human experience**.
+Productive dissent arises from the acknowledgment that our beliefs and values are fallible and open to revision through conversation.
+It promotes a kind of solidarity where we strive to understand and negotiate our differences rather than impose a supposed objective truth.
+This process fosters mutual respect and a more inclusive society, where different viewpoints can coexist and contribute to a richer, more nuanced understanding of the world.
+By focusing on the practical consequences of our beliefs and actions, we can still engage in meaningful debates about what kind of society we want to create.
+This pragmatic approach encourages us to find common ground and work together to address shared problems, rather than being paralyzed by the quest for an elusive objective truth.
+
 ## Conclusion
 
-What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of reality and simulation, relying on second-order observation. 
+What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of a reality that we can not directly acceess.
+We are always already in a simulation, relying on second-order observation. 
 The root cause of descending into the rabbit hole may not be a detachment from reality but rather an **attachment to certainty**. 
 Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
 According to him, we cannot ceanse ourselfs from simulation.
@@ -651,7 +798,10 @@ These neo-tribes function solely as imagined communities and, unlike their premo
 They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition; as an identity technology termed *profilicaty*.
 
 I have no intention of passing moral judgment on conspiracy theorists.
-We should not forget that conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends. Being a conspiracy theorist is generally not an enjoyable experience
+As I said, they rebel against authority via the same use of authority.
+This is dangerous but also points to a deeper problem of a violation of the operational clousure of social systems which we should take serious if our goal is to preserve these systems.
+Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends.
+Being a conspiracy theorist is generally not an enjoyable experience.
 One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for our reality as always partly simulated.
 Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
@@ -670,7 +820,7 @@ Nothing in what I've stated here should be misconstrued as a defense of the poli
 Lobbyism, which is sometimes indistinguishable from outright corruption, represents a significant issue. 
 The consistent failure to fulfill promises, whether they be pledges for a transaction tax, the cessation of subsidies that actively contribute to global warming, or the numerous 'conferences' like COP that, at this point, are merely part of a *hope economy*---offering a false and pacifying sense of hope---that fuels the distrust in institutions.
 
-COP28 proved to be a disaster for the majority of the world's population. 
+In my view, COP28 proved to be a disaster for the majority of the world's population. 
 There was essentially no consensus on even the most basic measures. 
 No accord on phasing out fossil fuels, and not even a genuine commitment to promoting renewable energy. 
 The decision to have COP led by one of the world's largest oil and gas companies is, at this point, satirical if it were not true.
@@ -695,26 +845,26 @@ His overly dramatic and playful writings are interesting but also contradictory,
 He would probably be horrified at our attempt to [simulate the whole earth](https://blogs.nvidia.com/blog/earth-2-supercomputer/) to predict and control our future. 
 But how else can we deal with an open, unpredictable future other than the pursuit of more and more accurate predictions? Esposito asks if this future will still be open {% cite esposito:2024 esposito:2023 %}.
 
-It appears to me that logical reasoning alone is not sufficiently compelling.
+It appears to me that logical reasoning and providing 'better' facts alone is not sufficiently compelling.
 Science and technology is not enough.
 It feels like we lack spiritual growth.
 Maybe Rorty is right about the importance of empathic stories.
-But where are these stories in the mainstream?
-Are we already too cynical, too ironic?
+Maybe science should provide us with that what we call truth and politics should offer us a story that moves us.
+But where are these stories?
+Are we already as cynical as Baudrillard?
 We need storytellers and artists to craft more persuasive mythologies, narratives, and stories that resonate on an emotional level.
-But I believe this can only be possible if we do not filter out the negative and the ugly part of society.
+I believe this can only be possible if we do not filter out the negative and the ugly part of society.
+We have to be serious.
 I want a serious vision which is shamelessly emphatic towards all forms of life.
-This anti-Socratic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors and, in the end, matter more than any rational argument could be.
+This anti-Platonistic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors and, in the end, matter more than any rational argument could be.
 
 We have reached an alarming point at which millions of people can no longer discriminate between reality and hyperreality. 
 That which cannot be simulated seems to disappear. 
-There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by ludicrous, unsubstantiated conspiracy theories due to proliferation.
-In the case of the climate crisis, there is no room for alternative truths.
-The best we can do is to trust in the scientific method to provide us with knowledege and spirituality that may spend us wisdom.
+There is a confusion between truth claims grounded in evidence and sound logic and alternative facts inspired by an authoritarian rebellion against the authority of knowledge.
+Even in the case of the climate crisis, if we want to preserve a liberal democracy, politics has to discuss alternatives based on the consideration of different values.
+We have to trust in the scientific method to provide us with good knowledege, politics (not politicians) that is informed by science to provide us with good politics, and spirituality that may spend us wisdom and psychologic stability.
 Sooner or later the reality of the crisis will eventually bleed into hyperreality.
-Will we be able to give it symbolic meaning, or will it be re-integrated into the simulation?
-
-Even if we construct our own perspective on the world, the physical reality of the climate crisis will not disappear if we stop believing in it.
+Even if we construct our own perspective on the world, the reality of the climate crisis will not disappear if we stop believing in it.
 
 ## References
 

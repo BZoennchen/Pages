@@ -103,7 +103,7 @@ ChatGPT in Higher Education: Perceptions of Computer Science-Related Students.<b
 In *2024 IEEE Global Engineering Education Conference (EDUCON)*.<br>
 DOI: [10.1109/educon60312.2024.10578742](https://doi.org/10.1109/educon60312.2024.10578742).<br>
 
-**2024** | **Benedikt Zönnchen**, Charloote Böhm and Gudrun Socher<br>
+**2024** | **Benedikt Zönnchen**, Charlotte Böhm and Gudrun Socher<br>
 Bridging Disciplines in Higher Education: The Convergence of AI and Sustainability.<br>
 In *International Conference on Higher Education Advances (HEAd)*.<br>
 DOI: [10.4995/HEAd24.2024.17278](https://doi.org/10.4995/HEAd24.2024.17278).<br>
