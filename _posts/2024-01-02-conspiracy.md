@@ -755,7 +755,9 @@ Many, including Bogner, believe that such an attitude leads to **indifference**.
 He argues that if we take Rorty's comment literally, we would bury both the idea of *objective truth* and our *liberal democracy*, since the realization of individual freedom through social change requires productive dissent.
 I think Bogner, like many others, misinterprets Rorty or at least applies his statement to the wrong level of society---the wrong reality, so to speak. 
 The implication that if we stop believing in an objective truth, we end up in a sort of absolute relativism or complete indifference remains unfounded. 
-It's a huge leap. We should also note that Bogner does not argue against the validity of Rorty's claim that the *Platonic idea of truth* is wrong but rather that it is not useful.
+It's a huge leap.
+For example, even if we reject the idea of objective truth, empirical evidence is still valuable for discussions.
+We should also note that Bogner does not argue against the validity of Rorty's claim that the *Platonic idea of truth* is wrong but rather that it is not useful.
 
 Rejecting the belief in an objective truth does not mean that we lose the ground for productive dissent.
 On the contrary, it allows for a more pragmatic approach to dialogue and disagreement.
@@ -864,6 +866,16 @@ There is a confusion between truth claims grounded in evidence and sound logic a
 Even in the case of the climate crisis, if we want to preserve a liberal democracy, politics has to discuss alternatives based on the consideration of different values.
 We need imagination to draw larger circles and rationalty to make valid moves within these circles.
 We have to trust in the scientific method to provide us with good knowledege, politics (not politicians) that is informed by science to provide us with good politics, and spirituality that may spend us wisdom and psychologic stability.
+
+Most importantly, instead of appealing to objective truth, it is more productive to focus on the practical consequences and shared values that can mobilize action.
+Instead of arguing that climate change is an objective truth that everyone must accept, we should emphasize the practical and tangible consequences of climate inaction.
+By highlighting concrete consequences, we may make a compelling case for action based on the observable and lived experiences of people.
+We should frame the argument for climate action in terms of shared values and common interests.
+The goal is to find common ground and motivate people to act based on their own interests and values, rather than trying to convince them of an abstract objective truth.
+Acknowledging the contingency and fallibility of our beliefs does not mean we cannot act decisively.
+We can adopt policies and actions that are based on the best available evidence while remaining open to revising them as new information emerges. 
+While rejecting objective truth might complicate the traditional ways of arguing for action, it also opens up new avenues for persuasion and coalition-building.
+
 Sooner or later the reality of the crisis will eventually bleed into hyperreality.
 Even if we construct our own perspective on the world, the reality of the climate crisis will not disappear if we stop believing in it.
 
