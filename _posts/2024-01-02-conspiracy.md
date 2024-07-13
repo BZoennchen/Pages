@@ -633,43 +633,45 @@ But that is too easy of an explanation.
 Whenever I have to fall back on stupidity or evilness, I get the feeling that I am missing something.
 Most of the time peope are not evil or stupid.
 Similar to conspiracy theories, such a rational is too simple, too individualistic and also too dangerous.
-So what is the systemic reaosn why people reject actions required to keep the planet sustainable for us all?
+So what is the systemic reason why people reject actions required to keep the planet sustainable for us all?
 
 Of course, there are many complex reasons but I want to focus on one that fits the meat of this article.
-I more or less successfully tried problematize the search for an absolute objective truth by pointing out that those who believe in stepping out of the cave go probably deeper into it.
-And I pointed to Baudrillard's imagined eradication of imagination leading to a *true simulacra* that no longer stands for anything but itself.
-A description of *hyperreality* that hits me emotionally.
+I more or less successfully tried to problematize the search for an absolute objective truth by pointing out that those who believe in stepping out of the cave go probably deeper into it.
+And I pointed to Baudrillard's imagined eradication of imagination leading to a *true simulacra* that no longer stands for anything but itself---a description of *hyperreality* that hits me emotionally.
 Now, let us imagine that conspiracy theorists rightly point to a problem they might not really understand rationally but feel intuitively.
 What might it be?
 
 If we want to describe our modern Western society, I think it's fair to say that we are a *knowledge-based society*.
-Most of our decisions are informed by some scientifically produced piece of knowledge.
-For example, our diet or how often we go to the doctor is informed by science.
-In fact, we wittness a whole industry of self-optimization that claim to be scientific.
-There is a whole cult trying to establish a 'science' of finding a breeding mate.
+Since Foucault's historical analysis, we know that knowledge and power are linked. 
+In our daily life, most of our decisions are informed by some scientifically produced piece of knowledge.
+For example, our diet is informed by scientific research that gives us guidance to stay healthy.
+How often or for what reason we go to the doctor is informed by science.
+In fact, we wittness a whole industry of self-optimization that claims to be scientific.
+There are cults trying to establish a 'science' of finding a breeding mate.
 Or take this article.
-My desire is similar, i.e. I try to argue for more radical actions by using knowledge and second-order observation by citing scientific papers.
-In that sense, I fall into the same trap.
-Political decisions are also mostly informed by science; 
-where there is power, there is also knowledge.
+My goal and strategy of achieving it is similar: I employ knowledge and second-order observation by citing scientific papers.
+In that sense, I fall into the same trap, that is, I try to convince my opponents by displaying superious knowledge.
+Since Foucault 
 
 In such a society, we tend to search for the *perfect algorithm* that can make the best decisions for any situation.
 In fact, many decisions are already made by algorithms based on the observation of large amounts of data.
 Even policies are crafted by utilizing artificial intelligence.
-The idea is simple: instead of shouting at each other about the right course of action, let the *objective reality* be the final judge; let 'the Truth' decide---let science guide us through the mess.
-This was the dream born out of the Enlightenment and it sparked many ideologies that promised to fulfill this utopian harmony.
-It is supported by the *mechanistic viewpoint* on the universe that we can eventually understand all causal relations going back to some final cause we might call God;
-In its current interpretation, I call it **algocracy** {% cite danaher:2016 %}, i.e., rule by algorithms.
+The idea is simple: instead of shouting at each other about the right course of action, let *objective reality* be the final judge; let 'the Truth' decide---let science guide us through the mess.
+This is the dream born out of the Enlightenment and it sparked many ideologies that promised to fulfill this utopian harmony.
+It is supported by the *mechanistic view* on the universe suggesting that we can eventually understand all causal relations going back to some final cause we might call God;
+In its current interpretation, I call it **algocracy** {% cite danaher:2016 %}, i.e., *rule by algorithms*.
 
 Interstingly, most conspiracy theorist argue within this framework, that is, they argue not in terms of values but in terms of better knowledge.
-At the same time they rebell against the authority of such algorithmic rigor.
+At the same time they rebel against the authority of such algorithmic rigor.
 Therefore, on the one hand, they believe in a complete understanding of reality or at least a big and very complex chunk of it.
 Consequently, they also buy the idea that politics is basically determined by the most powerful authority: the truth.
-On the other hand, they rebell against this doctrine by using its own logic.
-That is why it is so dangerous because **the system harms itself by its own operation** which is the exact opposite of autopoiesis i.e. what a social system should do to sustain itself.
+On the other hand, they rebel against this doctrine by using its own logic.
+I think here lies a great danger because **the system harms itself by its own operation**.
+The system enters a process of selfdestruction.
 
 Like Pippi Longstocking, conspiracy theorists create their world or imagine it based on an alternative system of turth.
-In the case of Pippi Longstocking, I find this antiauthoritarian attitude charming, creative, and imaginative, but in the case of conspiracy theorists, I find it dangerous, idiotic, and ignorant---an inconsistency worth investigating.
+In the case of Pippi Longstocking, we find this antiauthoritarian attitude charming, creative, and imaginative, but in the case of conspiracy theorists, many find it dangerous, idiotic, and ignorant---an inconsistency worth investigating.
+
 According to the sociologist Alexander Bogner an overdose of  antiauthoritarian attitude becomes problematic if we no longer agree on any foundation making any conflict impossible since there is nothing to argue about.
 One of such foundation is the belief in an objective truth.
 He pragmatically argues that:
@@ -679,7 +681,7 @@ He pragmatically argues that:
 This statement seems reasonable but I will problematize it later.
 Bogner points out that a liberal democratic society requires conflicts grounded in dissent.
 However, dissent is only possible if there is at least a shared foundation and also an alternative to think about.
-Overall, I think Bogner essay aligns closely with the constructivists viewpoint shared by e.g. Luhmann even if he criticizes the theory for attacking the idea of an objective truth..
+Overall, I think Bogner's essay aligns closely with the constructivists viewpoint shared by e.g. Luhmann even if he criticizes the theory for attacking the idea of an objective truth.
 For example, he argues in a Luhmannian manner about the root problem of conspiracy theories, or what many call the *post-truth society*, pointing out the crossing of boundaries between two interdependent but operationally closed systems:
 **science** and **politics**.
 
@@ -699,7 +701,7 @@ Fake news do not attack values but knowledge itself.
 >Alternative facts are evidently in vogue when politics (due to its alignment with science) appears to be without alternatives. -- {% cite bogner:2021 %}
 
 Bogner correclty points out that scientific knowledge can be dangerous for politics because it dismantles or defuses the discourse.
-It is also attractive if one wants to surrender responsibility because in science it is far easier to agree on statements because it follows a strict true-false-distinction.
+It is also attractive if one wants to surrender responsibility because in science it is far easier to agree on statements since it follows a strict true-false distinction.
 In this sense, science is authoritarian.
 
 Take a simple example such as health.
@@ -714,12 +716,13 @@ In politics we argue about values and try to find some common ground.
 This requires some degree of cohesion.
 It goes against our more and more individualistc togetherness.
 Bogner points out that people are considerably constrained in their expression of dissent if scientific truth is translated into a politic that knows no alternative.
+His statement resonates with the relation between the belief in conspiracy theory and narcism.
 He writes:
 
 >The struggle against science and experts can thus be understood as a struggle against determinations that were not chosen by oneself.
 >For such determinations must appear as an impudent imposition to the individualized, modern person, who is increasingly called upon today as a self-responsible shaper of their destiny, as a self-entrepreneur or 'Me Inc'. 
 >Therefore, the struggle against facts is, not least, a struggle for autonomy.
->From this perspective, *science denial* appears as a critique that is in tune with the times, insofar as it derives its plausibility from the current conditions of subjectification.
+>From this perspective, science denial appears as a critique that is in tune with the times, insofar as it derives its plausibility from the current conditions of subjectification.
 >In the protest against established knowledge, the disappointed hope of the highly individualized, activated subject for complete sovereignty and a fully comprehensible, decision-open world is discharged. -- {% cite bogner:2021 %}
 
 If politicians give knowledge absolute authority over political decisions, and these decisions realize certain values, the only way to fight for different values is to fight a different truth.
@@ -730,13 +733,13 @@ Therefore, what Bogner calls *productive dissent* becomes impossible.
 >regardless of how reasonable the expert recommendations may be in individual cases. -- {% cite bogner:2021 %}
 
 I agree with Bogner that a culture needs a common foundation, a reference world, which, according to Luhmann, should be provided by the media.
-And we also need a more flexible and ambagious reference world on a global scale.
-Furthermore, I also agree that science cannot do politics and that better knowledge does not automatically lead to better politics.
+And we also need a more flexible and ambiguous reference world on a global scale, see {% cite bauer:2018 %}.
+Furthermore, I agree that science cannot and should not realize politics and that better knowledge does not automatically lead to better politics.
 Science should continue to operate on the true-false distinction, while politics should use a different code that differentiates values.
 
 In case of climate activism, it might be a far more effective strategy to demand the values people want to be realized instead of discussing the facts they believe in.
-Instead of calling people deniers, it might be healthier to find and employ strategies that reveal their value system.
-Then, we should reinvigorate the discourse about values since it now seems obvious that more and better facts alone cannot move a society towards change.
+Instead of calling people deniers, it might be healthier to find and employ strategies that reveal their value system and how this value system supports certain actions.
+We should reinvigorate the discourse about values since it is save to say that more and better facts alone cannot move a society towards change.
 
 However, I do not agree with Bogner's claim that we need to agree that there is an *objective truth* to be found. 
 I even suspect he does not fully believe this himself, as he refers to the **idea of an objective truth as a necessary fantasy**, akin to *Plato's noble lie*---a myth knowingly propagated by an elite to maintain social harmony.
@@ -744,7 +747,7 @@ I reject this in favor of an embracing uncertainty because, as I argued above, I
 As the philosopher Slavoj Žižek argues---contrary to Dostoevsky and many others—--that the belief in God enables us to commit horrific crimes, believing in an objectively accessible truth can serve the same purpose.
 If we no longer live in the same world, society might break, but this does not diminish the great value of doubt and uncertainty in restraining our tendency for megalomania.
 
-As you might expect, I lean more towards Rorty, believing that we are mature enough to handle the pragmatist view that it is socially more useful to reject the idea of an objective truth (in the Platonist sense).
+On this matter, I lean more towards Rorty, believing that we are mature enough to handle the pragmatist view that it is socially more useful to reject the idea of an objective truth (in the Platonist sense).
 According to Rorty, Pippi Longstocking should be allowed to argue for her position, and we should accept her position to be true if it emerges out of the struggle for truth.
 The American pragmatist rejects the Platonist's notion of truth, considering it unintelligible and meaningless.
 
@@ -754,14 +757,13 @@ The American pragmatist rejects the Platonist's notion of truth, considering it 
 Many, including Bogner, believe that such an attitude leads to **indifference**. 
 He argues that if we take Rorty's comment literally, we would bury both the idea of *objective truth* and our *liberal democracy*, since the realization of individual freedom through social change requires productive dissent.
 I think Bogner, like many others, misinterprets Rorty or at least applies his statement to the wrong level of society---the wrong reality, so to speak. 
-The implication that if we stop believing in an objective truth, we end up in a sort of absolute relativism or complete indifference remains unfounded. 
+The implication that we end up in a sort of absolute relativism or complete indifference if we stop believing in an objective truth remains unfounded. 
 It's a huge leap.
-For example, even if we reject the idea of objective truth, empirical evidence is still valuable for discussions.
-We should also note that Bogner does not argue against the validity of Rorty's claim that the *Platonic idea of truth* is wrong but rather that it is not useful.
+Even if we reject the idea of an objective truth, empirical evidence is still valuable for discussions.
 
 Rejecting the belief in an objective truth does not mean that we lose the ground for productive dissent.
 On the contrary, it allows for a more pragmatic approach to dialogue and disagreement.
-When we drop the belief in an objective truth, we recognize that our conversations and disagreements are grounded in our contingent vocabularies and cultural practices.
+When we drop this belief, we recognize that our conversations and disagreements are grounded in our contingent vocabularies and cultural practices.
 This recognition does not lead to indifference but rather to a greater appreciation of the diversity of perspectives.
 It encourages us to engage with others' values and beliefs not because they correspond to an objective reality, but because they are part of the **shared human experience**.
 Productive dissent arises from the acknowledgment that our beliefs and values are fallible and open to revision through conversation.
@@ -772,14 +774,13 @@ This pragmatic approach encourages us to find common ground and work together to
 
 ## Conclusion
 
-What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of a reality that we can not directly acceess.
+What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of a reality that we can not directly access.
 We are always already in a simulation, relying on second-order observation. 
 The root cause of descending into the rabbit hole may not be a detachment from reality but rather an **attachment to certainty**. 
 Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
-According to him, we cannot ceanse ourselfs from simulation.
-What we are trying to do is to purge the world of all mysteries, illusions and imaginations.
+According to him, what we are trying to do is to purge the world of all mysteries, illusions and imaginations.
 But certainty exists only in a pure form of simulation. 
-In a constructivist sense, we cannot access the absolute true reality (the thing in itself) because it is always already mediated.
+In a constructivist sense, we cannot access the absolute true reality (Kant's *the thing in itself*) because it is always already mediated.
 If we cannot accept this fundamental ambiguity of our reality (by which Baudrillard does not mean physical reality but that which is intelligible via signs), we run the risk of constructing the one and only reality, i.e., hegemony.
 Since this realm does not allow contradictions, it tends to integrate everything, including disasters, into it.
 
@@ -800,11 +801,13 @@ These neo-tribes function solely as imagined communities and, unlike their premo
 They exist as imagined communities through a multitude of agent acts of self-identification and endure solely because people use them as vehicles of self-definition; as an identity technology termed *profilicaty*.
 
 I have no intention of passing moral judgment on conspiracy theorists.
-As I said, they rebel against authority via the same use of authority.
-This is dangerous but also points to a deeper problem of a violation of the operational clousure of social systems which we should take serious if our goal is to preserve these systems.
-Conspiracy theorists often risk a significant amount of social capital, leading to alienation from their relatives and friends.
+They often risk a significant amount of social capital, leading to alienation from their relatives and friends.
 Being a conspiracy theorist is generally not an enjoyable experience.
-One might even argue that they perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for our reality as always partly simulated.
+As I said, they rebel against authority via the same use of authority---a conflict of knowledge against 'better' knowledge in the realm of politics.
+This is dangerous.
+It points to a deeper problem of a violation of the *operational clousure* of social systems which we should take serious if our goal is to preserve these systems.
+One might even argue that conspiracy theorists perceive cracks in the simulation but mistakenly believe in a way out of it, which, and this misinterprets *The Matrix* as well, serves as the perfect cover-up for our reality as always partly simulated.
+
 Baudrillard famously argued that Disneyland does not hide the fact that it is a simulation, but rather conceals the fact that America is a simulation too. 
 Disneyland is more real than America.
 Conspiracy theories operate similarly; they are pure simulations and, in this regard, true. 
@@ -856,7 +859,7 @@ But where are these stories?
 Are we already as cynical as Baudrillard?
 We need storytellers and artists to craft more persuasive mythologies, narratives, and stories that resonate on an emotional level.
 I believe this can only be possible if we do not filter out the negative and the ugly part of society.
-We have to be serious.
+We have to be serious yet playful and imaginative.
 I want a serious vision which is shamelessly emphatic towards all forms of life.
 This anti-Platonistic approach, while potentially controversial, could prove more effective in influencing beliefs and behaviors and, in the end, matter more than any rational argument could be.
 
