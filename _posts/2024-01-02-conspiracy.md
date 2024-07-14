@@ -8,15 +8,22 @@ tags:
 ---
 
 Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 
-Often writing helps in transforming the mess into a structured and coherent concept. 
+Often writing helps in transforming the mess into a structured and coherent concept.
 The process of rethinking and reflecting can be invaluable.
+It helps to make ones thought *anschlussfähig* which literally means *to be capable for connections* and in this context means *enabling the continuation of communication*.
 
-In this piece, I aim to explore various aspects by linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*. 
-Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*. 
-I will relate this skepticism to the notions of *complexity*, *contingency* and *hyperreality*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
-Through these connections, I hope to shed light on the interplay between our perception of reality, the challenges of understanding complex systems, and our responses to global issues.
+In this piece, I aim to explore various aspects by linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*.
+Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*.
+I will relate this skepticism to the notions of *complexity* and *hyperreality*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
+Some parts of this text will escape a clear interpretation, especially when I offer my interpretation of Baudrillard's writings.
+Some parts might even be contradictory.
+But this is the point: enduring or even enjoying ambiguity!
 
-To do this, I first need a definition for conspiracy theory and I think the one given by Joseph E. Uscinski fits well:
+Overall, I hope to give good reasons for the emergence of conspiracy theories and our state of inaction in the face of disaster; reasons that do not rely on a good and evil dichotomy of individuals.
+I will argue that our perception of reality makes effective communication between each other improbable and that complex systems follow their own stabalizing dynamic.
+In the end, conspiracy theorist will appear as anti-authoritarian rebels that fight against the power of knowledge using the same source of authority, that is, knowledge.
+
+Before we start, let us agree on a definition of conspiracy theories:
 
 >By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
 
@@ -41,11 +48,18 @@ For example, the *Zeitgeist series* uses a speech from the Indian philosopher Ji
 >The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
 >And considering what the world is now with all the misery, conflict, destructive brutality, aggresion, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. -- Jiddu Krishnamurti
 
-Consequently, it was no surprise to me that at the protests against COVID-19 restrictions and at QAnon gatherings, there was a peculiar blend of people, including everyone from right-wingers to faith healers.
-This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (postmodern) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
-I think there was also reasonable protest and the situation is certainly much more complex than I am every able to understand.
+In my interpretation, this reflects a lost connection to the wholeness of the universe. 
+At the extreme end, I experience sometimes two contradictory moods. 
+First, there is this feeling of alienation in an absurd world, which Albert Camus described best in his book *The Stranger*.
+Second, there is a sense of profound connection within us, especially when we are in touch with nature.
+For example, when we stand atop a mountain, not thinking but simply being present in the world, or even feeling as if we are the world.
+Such a feeling can also arise when we are completely immersed in an activity, like a drummer who dissolves entirely into the act of drumming.
+This state of existence requires to a quiet mind and to stop thinking.
 
-It is far to easy to make fun of people believing in mythologies.
+Consequently, it was no surprise to me that at the protests against COVID-19 restrictions and at QAnon gatherings, there was a peculiar blend of people, including everyone from right-wingers to faith healers.
+This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (post-truth) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
+
+On the basis of knowledge, it is easy to make fun of people believing in mythologies.
 Scienficially speaking, myths are either inconsistent or unfalsifiable.
 However, socially they can be very useful and powerful.
 They explain experience and reduce complexity.
@@ -54,8 +68,9 @@ They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
 Here, a shadow of spirituality plays an important role, be it in the form of *the Light of God*, *Siegfried the Dragonslayer*, *Achilleus the Greatest of All the Greek Warriors* or *Donald Trump the Warrior King*.
 
-In my view, spirituality and science harmonize with one another rather than clash.
-Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic.
+Later I will argue that we should keep the source for spirituality, that is, imagination, ambiguity, and contradictions alive but science can be abused in the *crusade against ambiguity*.
+In my view, spirituality and science can harmonize with quite well.
+Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic, that is, if it starts a crusade against ambiguity.
 But it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
 It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe's intricate complexity.
 
@@ -64,7 +79,7 @@ It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage 
 >If you suddenly going to insert a designing machine, a creator, an intelligence at the root of the universe you have just undermined your entire enterprise because your entire enterprise has been to explain how you get to something complicated enough to do design. -- Richard Dawkins
 
 It's unlikely that individuals with a non-dogmatic spiritual outlook adhere to a literal interpretation of the Earth's creation in seven days or dismiss evolutionary theory.
-However, Dawkins and similar critics may overlook a crucial point: the pursuit of absolute truth is elusive.
+However, Dawkins and similar critics overlook a crucial point: the pursuit of absolute truth is elusive.
 Even Dawkins' assertion that "the theory is true" misrepresents the nature of scientific inquiry, which he is undoubtedly aware of.
 Science provides models that explain phenomena until new evidence suggests otherwise.
 The profound questions regarding the existence of time, space, causality, and our place within this framework extend beyond scientific inquiry into the realm of spirituality.
@@ -78,7 +93,7 @@ He produced a vast body of precise, detailed, and systematic philosophical writi
 The dark side of this was that any contradiction by future scientists would necessarily have to be seen as heresy.
 Philosopher Bertrand Russell pointed out that Aquinas started by already knowing the truth in the form of the Catholic faith.
 Aquinas used logic to strengthen his belief system and not to question it.
-Some postmodern thinkers might argue that philosophers, who did metaphysics, did basically the same but in a more clever way and without involving God.
+Note that postmodern thinkers argue that philosophers, who practiced metaphysics, did basically the same but in a more clever way.
 Famous is Nietzsche's suspicion of Kant's categorical imperative, which is, after all, categorical.
 
 From this perspective, one might say that conspiracists are in the business of doing metaphyics poorly.
@@ -101,7 +116,7 @@ But mythological snakes often are and calling someone a snake can be a powerful 
 
 If Trump speaks of *America* or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
-To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of 'the them'; that you are jealous that they won.
+To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of 'the them' (das Man); that you are jealous that they won.
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
@@ -110,7 +125,8 @@ Any contrary narrative is spun by false prophets which conspire against the 'cho
 *The Matrix* is one of my all-time favorite movies, which increased my interest in computer science and philosophy.
 As a child, I fantasized about being *The One*, akin to the hacker Neo, who could hack the matrix. 
 Interestingly, the movie is inspired by French philosopher and theorist of postmodern media and culture, Jean Baudrillard (1929 -- 2007), especially by his book *Simulacra and Simulation* {% cite baudrillard:1983 %}.
-The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients and the actors were reportedly required to read it.
+The book even makes an appearance (as an empty prop) at the beginning of the film when Neo gives a disc to his clients.
+The actors were even reportedly required to read it.
 
 Baudrillard---the prophet of post-truth---focused on analyzing what can be termed *postmodern media*, although postmodernity is challenging to define.
 Thinkers in the field of postmodern theory frequently hold different opinions but there is one core agreement: there are no all encompassing meta-narratives.
@@ -153,12 +169,14 @@ They appear overpriced when considering solely their use value.
 However, their value arises from what they signify in relation to other objects which leads to the demishing of *symbolic values*.
 For example, a pen given to you for your graduation, has probably a high symbolic value to you.
 Symbolic values are assigned by a subject in relation to another subject.
-Sign value is on the other hand is the object's value within a system of objects signifying, for example, social status.
+Sign value, on the other hand, is the object's value within a system of objects signifying, for example, social status.
 
 Baudrillard, known for his cynical views, also believed that objects essentially have triumphed over subjects. 
 He posited that just as money has become a universal medium that renders everything comparable and thus exchangeable, *the code* has made every sign integratable thus also exchangeable.
 It is not that subjects or objects stand no longer for something 'real' but that the imagined referent, that does not exist, disappeared.
 For example, in the Renaissance people or objects appear to stand for an imagined referent, for instance, royalty, nobility, holiness, etc.
+A sign like Iron Man, stands for nothing other than itself in a network of other meaningless signs, i.e. the Marvel universe.
+It can be repackaged into a toy or a specific McDonalds meal because it has no sacred connection to the world.
 According to Baudrillard, instead of disimulating something, now signs dissimulate that there is nothing.
 
 >The transition from signs which dissimulate something to signs which dissimulate that there is nothing, marks the decisive turning point. 
@@ -167,8 +185,9 @@ According to Baudrillard, instead of disimulating something, now signs dissimula
  
 This leads to a kind of dissolution of the 'real' meaning behind objects.
 Accroding to Baudrillard, in the postmodern world, simulacra (e.g. images) have replaced the reality they once represented.
-In other words, our current reality is dominated by these simulacra---representations, images, and signs---that no longer have any connection to any real object or event they might have originally represented.
+In other words, our current reality is dominated by these simulacra---representations, images, and signs---that no longer have any connection to any real/imagined object or event they might have originally represented.
 Importantly, the simulacrum is not just covering up the truth or reality; it's not a mask over something real!
+In fact, it is quite the opposite.
 What we perceive as truth or reality is actually just a construct (the simulacrum) that conceals the fact that there is no underlying, original reality; we enter simulation.
 In other words, what we consider 'real' is just a construct of our perceptions and societal agreement.
 In our current postmodern state, the simulacrum has become the truth for us, because there is no other reality against which to measure it.
@@ -176,13 +195,14 @@ In our current postmodern state, the simulacrum has become the truth for us, bec
 >The simulacrum is never what hides the truth---it is the truth that hides the fact that there is none.
 >The simularcum is true. -- Jean Baudrillard
 
-Following Baudrillard's perspective, experiences such as a teenager's first kiss are no longer real in a sense that they express true love;
+Following Baudrillard's perspective, experiences such as a teenager's first kiss are no longer real in a sense that they express 'true love';
 instead, they are mere simulations of a Hollywood love story because these stories are the truth!
+Imaginations are not destroyed by hiding the truth but by showing it overtly naked, like pornography rips us of the imaginative allure of sexuality and intimacy.
 Life imitates advertisement.
 This does not mean that there is no more love.
 However, there is nothing behind the 'Hollywood love story'---it is true as it is.
 
-We are compelled to reproduce these images and to participate, even if we know or suspect it is all a simulation.
+We are compelled to reproduce these images and to participate, even if we know or suspect that it is all a simulation.
 Critically, the problem (if it is in fact one) is not a virtualized reality that hides the truth, but that the truth is simulation.
 People are fake but they are turthfully fake because being fake is the truth.
 
@@ -256,7 +276,7 @@ Thus Baudrillard concludes:
 >We are in the uncut transparency.
 >The Matrix is surely the kind of film about the matrix that the matrix would have been albe to produce. -- Jean Baudrillard
 
-## The Desire for Certainty
+## A Hunger for Certainty
 
 Now, what has this to do with *conspiracy theories*?
 Well, other than Baudrillard's theory of a reality that is simulation, I claim that the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to 'the matrix'.
@@ -352,7 +372,7 @@ Essentially, these theories represent a futile effort to eliminate contingency a
 They attempt to provide a sense of certainty and understanding in a world that is inherently open, contingent, unpredictable and complex. 
 This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.
 
-## Escaping Simulation?
+## Escaping the Simulation?
 
 The incorporation of expressions like 'escaping the matrix' and 'being red-pilled' into the vocabulary of conspiracy theory groups as metaphorical language is unsurprising.
 These terms, which originated from *The Matrix*, are used metaphorically to describe the experience of awakening to a hidden or suppressed truth.
