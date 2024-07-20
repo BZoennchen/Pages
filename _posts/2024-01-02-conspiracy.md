@@ -428,8 +428,34 @@ Such curiosity ignites a desire to investigate and question conventional narrati
 Interestingly, critical thinking and intelligence do not necessarily prevent one from falling into this rabbit hole.
 As described above, these attributes can sometimes drive narcissits deeper into exploring and accepting these alternate realities---the problem is a lack of reflection.
 The quest for understanding and the allure of uncovering hidden knowledge can be so compelling that even the most critical and intelligent minds are susceptible to these alternate explanations.
+Take the following speech performed by the actor James Caviezel at the end of *Sound of Freedom*, a conspitorial movie about child trafficking:
 
-Furthermore, it is a fact that people do engage in conspiracies. 
+>While watching this movie, I guess some of you were feeling sad, maybe overwhelmed, or even feel a sense of fear, which is understandable. But living in **fear** isn't how we solve this problem. It's living in **hope**. It's **believing that we can make a difference** because we can.
+>I want to make one thing clear: this movie you just watched isn't about me or Tim Ballard. 
+>It's about those kids. This film was actually made five years ago. 
+>It wasn't released until now, with every roadblock you can imagine being tossed in our way. [The powerful do not want you to see it, believe me]. 
+>And the names you see here, on the screen, **took a stand**! They made sure that this story could be shown to all of you. Now, all of you have the opportunity to continue **telling this story**; [the Truth].
+>We don't have big studio money to market this movie [(we only have Fox News, one of the biggest network in the country)], but we have **you**. The baton has now been passed to **you**. **You** are the storytellers who can get people to come see this film in theaters. Together, we have a chance to make these two kids and the countless children they represent the most powerful people in the world by telling their story in a way only cinema can.
+>For a couple of months, while Sound of Freedom is in theaters, these kids can be more powerful than the cartel kingpins, presidents, congressmen, or even tech billionaires. We believe this movie has the power to be a huge step forward toward ending child trafficking, but it will only have that effect if **millions of people see it**.
+>We don't want finances to be the reason someone doesn't see this movie, so Angel Studios has set up a forward program where you can pay for someone else's ticket who might not otherwise see it. If you're able, we invite you to pay it forward by buying a ticket for someone else, or if your budget is tight, share the already available free ticket with as many friends as you can.
+>Join us and millions of others as we ring Sound of Freedom and hope throughout the world. And just remember this: **God's children are not for sale**.
+
+During the speech a QR Code and the text "Give an Share Tickets / ANGLE.COM/freedom" is displayed.
+
+This speech is filled with pathos, it is shamelessly manipulative, moralistic, heroistic and serves a narcissist desire to 'wake up', spread the word of Truth or God and become the hero; a soldier of Freedom; an angle of God; a righteous martyred that saves us all.
+It is also conspiratorial.
+Of course, in the same breath Caviezel tells us to buy tickets to end child trafficking which is not only irrational but flat out unethical and morally dubious.
+It is so obviously a scam that it becomes an interesting field of study why people buy into it.
+Does the deeply religious actor James Caviezel believe what he is saying? I think he does on some level.
+
+The speech is also kind of Baudrillardian in that sense that even the fight for the Good is just a struggle to buy that god damn ticket; even God's angles are reduced to passive consumers.
+At the same time it is not about the kids but a much more sacred war of Good against Evil---a mystic war in a very **angry** United States of America!
+A country that is at the brink of an inwardly directed outburst.
+Everyone in the media is so angry all the time.
+This angry speech and movie, that abuses religion, confirms my believe that I should not fear the people who name themselves after the Devil but those who name themselves after a righteous God.
+Nietzsche was right about that.
+
+Now, it is a fact that people do engage in conspiracies (and that child trafficking is a big problem).
 A brief examination of history reveals numerous instances of conspiracies, some of which have even led to wars between nations. 
 However, in retrospect, these conspiracies can often be explained without assuming the involvement of thousands of people. 
 The complexity and impact of these historical events do not necessarily require large-scale collusion; often, they can be understood through the actions and decisions of a relatively small number of individuals or groups and through a systemic rationality. 
@@ -834,9 +860,11 @@ This pragmatic approach encourages us to find common ground and work together to
 ## Conclusion
 
 What I wanted to emphasize is the idea that we are existing within a subjective and distorted world of a reality that we can not directly access.
-We are always already in a simulation, relying on second-order observation. 
-The root cause of descending into the rabbit hole may not be a detachment from reality but rather an **attachment to certainty**. 
-Perhaps Baudrillard is correct in asserting that we are entering a hyperreality that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
+We are always already in a simulation, relying on second-order observation.
+What I call *angry media* outlets, many of which take part in spreading misinformation and conspiracy theories, use more and more frequently phrases like *literally*, *this is simply the truth*, *they all know it*, *its a fact*.
+They fight against ambiguity dragging anything into a culture war such that it has to be defined using one of two perspectives.
+Thus the root cause of descending into the rabbit hole may not be a detachment from reality but rather an **attachment to certainty**. 
+Perhaps Baudrillard is correct in asserting that we are entering a *hyperreality* that is no longer contradictory and dissolves all illusions, imaginations, and mysteries.
 According to him, what we are trying to do is to purge the world of all mysteries, illusions and imaginations.
 But certainty exists only in a pure form of simulation. 
 In a constructivist sense, we cannot access the absolute true reality (Kant's *the thing in itself*) because it is always already mediated.
