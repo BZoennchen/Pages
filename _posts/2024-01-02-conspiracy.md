@@ -428,7 +428,7 @@ Such curiosity ignites a desire to investigate and question conventional narrati
 Interestingly, critical thinking and intelligence do not necessarily prevent one from falling into this rabbit hole.
 As described above, these attributes can sometimes drive narcissits deeper into exploring and accepting these alternate realities---the problem is a lack of reflection.
 The quest for understanding and the allure of uncovering hidden knowledge can be so compelling that even the most critical and intelligent minds are susceptible to these alternate explanations.
-Take the following speech performed by the actor James Caviezel at the end of *Sound of Freedom*, a conspitorial movie about child trafficking:
+Take the following speech performed by the actor James Caviezel (an actor I once admired for his role in *The Thin Red Line*) at the end of *Sound of Freedom*, a conspitorial movie about child trafficking:
 
 >While watching this movie, I guess some of you were feeling sad, maybe overwhelmed, or even feel a sense of fear, which is understandable. But living in **fear** isn't how we solve this problem. It's living in **hope**. It's **believing that we can make a difference** because we can.
 >I want to make one thing clear: this movie you just watched isn't about me or Tim Ballard. 
@@ -447,6 +447,9 @@ It is also conspiratorial.
 Of course, in the same breath Caviezel tells us to buy tickets to end child trafficking which is not only irrational but flat out unethical and morally dubious.
 It is so obviously a scam that it becomes an interesting field of study why people buy into it.
 Does the deeply religious actor James Caviezel believe what he is saying? I think he does on some level.
+He explained at a promotion event for the movie that billionaires capture children to extract adrenalin out of their blood when they are scared of death, which is a famous QAnon conspiracy theory.
+
+>These people that do it; there will be no mercy for them! -- James Caviezel
 
 The speech is also kind of Baudrillardian in that sense that even the fight for the Good is just a struggle to buy that god damn ticket; even God's angles are reduced to passive consumers.
 At the same time it is not about the kids but a much more sacred war of Good against Evil---a mystic war in a very **angry** United States of America!
