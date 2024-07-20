@@ -13,7 +13,7 @@ The process of rethinking and reflecting can be invaluable.
 It helps to make ones thought *anschlussfähig* which literally means *to be capable for connections* and in this context means *enabling the continuation of communication*.
 
 In this piece, I aim to explore various aspects by linking the movie *The Matrix*, Plato's *Allegory of the Cave*, *myths*, and *conspiracy theories*.
-Additionally, I plan to delve into the understandable yet problematic skepticism surrounding *second-order observation*.
+Additionally, delve into the understandable yet problematic skepticism surrounding *second-order observation*.
 I will relate this skepticism to the notions of *complexity* and *hyperreality*, and discuss why we rely on *second-order observation* to address the *climate crisis*. 
 Some parts of this text will escape a clear interpretation, especially when I offer my interpretation of Baudrillard's writings.
 Some parts might even be contradictory.
@@ -27,9 +27,9 @@ Before we start, let us agree on a definition of conspiracy theories:
 
 >By conspiracy theory, I mean an explanation of historical, ongoing, or future events that cites as a main causal factor a group of powerful persons, the conspirators, acting in secret for their own benefit against the common good. -- Joseph E. Uscinski
 
-## Mythologies and Conspiracy Theories
+## Mythologies, Science and Conspiracy Theories
 
-The phenomena of conspiracy theories hunts me since the terror attacks of 9/11 happened back when I was a child.
+The phenomena of conspiracy theories hunts and intrigues me since the terror attacks of 9/11 happened back when I was a child.
 I remember watching the *Zeitgeist series*, which linked various conspiracy theories involving religion, the September 11 attacks and the financial sector.
 During that time, even German TV occasionally presented documentaries that portrayed certain events in a conspiratorial light.
 The shock and uncertainty that the Western world experienced after these events, combined with a sense of lack of control, created a fertile ground for such theories. 
@@ -51,13 +51,22 @@ For example, the *Zeitgeist series* uses a speech from the Indian philosopher Ji
 In my interpretation, this reflects a lost connection to the wholeness of the universe. 
 At the extreme end, I experience sometimes two contradictory moods. 
 First, there is this feeling of alienation in an absurd world, which Albert Camus described best in his book *The Stranger*.
-Second, there is a sense of profound connection within us, especially when we are in touch with nature.
-For example, when we stand atop a mountain, not thinking but simply being present in the world, or even feeling as if we are the world.
+For me, the absurdity of the world reveals itself when I am out in the city, observing people rushing through their lives, participating in the acceleration towards a promised utopia that no longer exists, not even in their imaginations.
+It is also connected to the realization that I was thrown into this world, culture, mess; this contradiction; this meaningless rat race.
+The second mood arises from a profound connection with the world.
+It feels as if we are the world, as if there is no separation between myself and my environment, between myself and the universe.
+Yet, at the same time, I sense a process that is not only mysterious but overwhelmingly greater than I can ever comprehend; a force beyond my intellect.
+Such feelings arise, for example, in nature.
+When we stand atop a mountain, not thinking but simply being present in the world, or even feeling as if we are the world.
 Such a feeling can also arise when we are completely immersed in an activity, like a drummer who dissolves entirely into the act of drumming.
-This state of existence requires to a quiet mind and to stop thinking.
+This state of existence requires a quiet mind and a cessation of thought.
 
-Consequently, it was no surprise to me that at the protests against COVID-19 restrictions and at QAnon gatherings, there was a peculiar blend of people, including everyone from right-wingers to faith healers.
-This mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (post-truth) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
+Consequently, it was no surprise to me that at the protests against COVID-19 restrictions and at QAnon gatherings, there was a peculiar blend of people, including everyone from far right-wingers to faith healers.
+Of course, one has to be careful with such categorization since such protests are often captured by extreme parties.
+Anyways, this mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (post-truth) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
+However, *ignorance* is too simple of an explanation.
+The MAGA cult is not disingaged in communication or the production of knowledge.
+Instead they (ab)use communication to construct quite imaginative but also inconsistant *alternative facts* effectively.
 
 On the basis of knowledge, it is easy to make fun of people believing in mythologies.
 Scienficially speaking, myths are either inconsistent or unfalsifiable.
@@ -68,22 +77,49 @@ They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
 Here, a shadow of spirituality plays an important role, be it in the form of *the Light of God*, *Siegfried the Dragonslayer*, *Achilleus the Greatest of All the Greek Warriors* or *Donald Trump the Warrior King*.
 
-Later I will argue that we should keep the source for spirituality, that is, imagination, ambiguity, and contradictions alive but science can be abused in the *crusade against ambiguity*.
+Later I will argue that we should keep the source for spirituality, that is, imagination, ambiguity, and contradictions alive and that science can be abused for a *Crusade Against Ambiguity*.
 In my view, spirituality and science can harmonize with quite well.
 Religion, as a subset of spirituality, should be criticised especially if it becomes dogmatic, that is, if it starts a crusade against ambiguity.
 But it is a narrow perspective to scientifically dispute the existence of a divine entity, just as it is misguided to interpret religious scriptures in a strictly literal sense.
-It seems peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe's intricate complexity.
+Religion needs ambiguity.
+Therefore, it is peculiar to witness esteemed intellectuals like Richard Dawkins engage in debates concerning the divine, overlooking the potential for a creator amidst the universe's intricate complexity.
 
 >We have a working theory, which we know is true, which explains how you can go from great simplicity to prodigious complexity.
 >And finally to the sort of complexity which is capable of designing things, of creating things, of working out how to do things.
 >If you suddenly going to insert a designing machine, a creator, an intelligence at the root of the universe you have just undermined your entire enterprise because your entire enterprise has been to explain how you get to something complicated enough to do design. -- Richard Dawkins
 
-It's unlikely that individuals with a non-dogmatic spiritual outlook adhere to a literal interpretation of the Earth's creation in seven days or dismiss evolutionary theory.
-However, Dawkins and similar critics overlook a crucial point: the pursuit of absolute truth is elusive.
+When Dawkins discusses evolution, it is easy to agree with him from a scientific perspective.
+I want him to defend his theory.
+However, he often speaks in absolutes, using the language of dogmatic religion that he himself criticizes.
+From a systems theory point of view, can resolve this paradox by re-entering itself, that is, by communicating about itself on its own terms---a sort of self-reflection.
+
+Dawkins and similar critics overlook a crucial point: the pursuit of absolute truth is elusive.
 Even Dawkins' assertion that "the theory is true" misrepresents the nature of scientific inquiry, which he is undoubtedly aware of.
 Science provides models that explain phenomena until new evidence suggests otherwise.
-The profound questions regarding the existence of time, space, causality, and our place within this framework extend beyond scientific inquiry into the realm of spirituality.
-These questions delve into the *essence of being* and the universe, inviting a spiritual exploration alongside scientific understanding.
+It mosty works on the basis of *falsifiability* for *demarcation*, a concept introduced by Karl Popper (a critic of the inductive theory of science).
+
+>The problem of finding a criterion which would enable us to distinguish between the empirical sciences on the one hand, and mathematics and logic as well as 'metaphysical' systems on the other, I call the problem of demarcation. -- {% cite popper:1934 %}
+
+A statement or system of statements (theory) is falsifiable if it is capable of conflicting with possible, or conceivable observation;
+The theory must be able to fail when tested against reality.
+Build on rigor and the combination of theory bound by empiricism makes scientific method incredibly useful, and according to philosophers like Markus Gabriel, brings us closer to the Truth.
+In contrast, others, such as Richard Rorty, completely reject the notion of absolute Truth and instead emphasize the practical usefulness of the scientific method.
+
+The question of ontology remains unanswered even if most of us operate on the assumption of some sort of *naturalism*. 
+It is the principle by which science operates and by which people in well-developed countries often live.
+Some define it as "the idea that only natural laws and forces operate in the universe".
+The philosopher Quine described naturalism as "the position that there is no higher tribunal for truth than natural science itself".
+Quine's more humble and pragmatic definition allows space for profound questions regarding the existence of time, space, causality, and our place within this framework—questions that lie beyond the scope of scientific inquiry.
+For him and many others, these are absolute unknowns that can be considered within the realm of spirituality.
+These unanswerable questions delve into the *essence of being* and the universe, inviting a spiritual exploration alongside scientific understanding.
+
+Dawkins seems also to be unaware of the usefulness of ambiguity.
+People can hold contradictory beliefs without being irrational or anti-science.
+For example, it is unlikely that individuals with a non-dogmatic spiritual outlook adhere to a literal interpretation of the Earth's creation in seven days or dismiss evolutionary theory but, at the same time, they might believe in a creator.
+They can operate in different social systems with different rationals.
+This is neither good or bad but a sign of diversity.
+I mean how many mathematicians still believe that math has something to do with a divine entity or realm?
+Such contradictions only become problematic if systems interfere in the other's operations, e.g., if religion operates in science or science in religion.
 
 But why can spirituality lead to the descent into the rabbit hole of conspiracy theories?
 First of all, there is a strong relation between philosophy, religion, and spirituality, e.g., between Platonism and Christianity.
@@ -95,17 +131,19 @@ Philosopher Bertrand Russell pointed out that Aquinas started by already knowing
 Aquinas used logic to strengthen his belief system and not to question it.
 Note that postmodern thinkers argue that philosophers, who practiced metaphysics, did basically the same but in a more clever way.
 Famous is Nietzsche's suspicion of Kant's categorical imperative, which is, after all, categorical.
+Kant, however, pointed to the source of the problem which is not logic or rational thinking but a lack of empirical evidence; a lack of outwardness; of asking nature.
 
 From this perspective, one might say that conspiracists are in the business of doing metaphyics poorly.
 It is certainly the case that there are similarities in doing metaphysics and constructing a grand conspiratorial theory (or myth) that attempts to explain everything.
 And like Aquinas, theorists of a conspiracy try to establish a kind of system, synthesizing the world into one big theory.
 But there are also differences.
-Metaphysicians (as well as many religious texts) at least tried to be consistent, while conspiracy theorists are liberated from such limitations.
+Metaphysicians (as well as many religious texts) at least try to be consistent, while conspiracy theorists are liberated from such limitations.
 They openly replace rationality with mythology.
 By constructing and emphasizing mythological symbols, conspiracy theories provide a shortcut into our soul, psyche, mind, or the unconscious.
+They can switch seamlessly from one theory to another.
 
 Myths can be very dangerous.
-They misconstrue associations, destroy nuances and advance subconscious theses without a required burden of evidence.
+They misconstrue associations, destroy nuances and advance subconscious theses without the necessary burden of evidence.
 Instead of delivering arguments, they short-circuit the entire argumentative process.
 Myths do not make logical claims but significations {% cite barthes:1973 %}.
 For example, calling someone *a snake* is not a logical conclusion but signifies deceptive behaviour.
@@ -116,8 +154,8 @@ But mythological snakes often are and calling someone a snake can be a powerful 
 
 If Trump speaks of *America* or our radical right-wingers speak of Germany, they do not mean literal countries.
 They signify a mythological symbol.
-To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of 'the them' (das Man); that you are jealous that they won.
 An effective myth is a self-contained world of signs were everything has a marked position, making it very hard to signify otherwise with a believer.
+To critique their definition as being racist, irrational, exclusive, inhumane, or disastrous only demontrates to them that you are of 'the them' (das Man); that you are jealous that they won.
 Any contrary narrative is spun by false prophets which conspire against the 'chosen ones'.
 
 ## Taking the Wrong Pill
@@ -254,20 +292,20 @@ Once Neo makes his choice, the distinction between the matrix and reality is cle
 True love is still possible outside and even inside the matrix, even if it is predetermined.
 According to Baudrillard reality is a simulation echoing Kant, who does not grant us the access to the *thing-in-itself*, and of course Nietzsche, who tells us that there are only *constructed* values.
 Simualation is nothing bad or something to fear.
-It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity towards its own perfection.
+It was always already there but the simulacrum (e.g. cave paintings, images) changed towards its own gravity; towards its own perfection.
 What Baudrillard feared is a world akin to the movie *Minority Report*.
-A world without *reversability* where everything is already decided in advance; a world without ambiguity.
+A world without *reversability* where everything is already decided in advance; a world without *ambiguity*.
 In a sense, Baudrillard feared the modern project that started with Plato by looking for some absolut truth or perfect idea.
 The perfect simulation gets rid of illusions and imaginations; it is too real; it is *hyperreal*;
-Therefore, Baudrillard does not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the 'technical perfection of sex', i.e. pornography, leads to the removal of sexuality and intimacy.
+Therefore, Baudrillard did not fear the loss of reality but an exzess of it which would lead to the destruction of illusions and imaginations like the 'technical perfection of sex', i.e. pornography, leads to the removal of sexuality and intimacy.
 
 >Reality and simulation aren't opposed to one another. 
 >There are two sides of the same coin. -- {% cite baudrillard:2008 %}
 
 With this in mind, if we reexamine *The Matrix* it becomes clear that Baudrillard would describe it to be a pretty good simulation of the matrix.
 In a sense, the sign of simulation is re-integrated into the simulation itself.
-This reinterpretation highlights the film's exploration of reality, perception, and the nature of choice, themes that resonate with Plato's allegory but not with *Simulacra and Simulation*.
-Thus Baudrillard concludes:
+This re-integration highlights the film's exploration of reality, perception, and the nature of choice, themes that resonate with Plato's allegory but not with *Simulacra and Simulation*.
+Thus Baudrillard concluded:
 
 >The radical illusion of the world is a problem faced by all great cultures, which they have solved through art and symbolization.
 >What we have invented, in order to support this suffering, is a simulated real, which henceforth supplants the real and is its final solution, a virtual universe from which everything dangerous and negative has ben expelled.
@@ -276,7 +314,7 @@ Thus Baudrillard concludes:
 >We are in the uncut transparency.
 >The Matrix is surely the kind of film about the matrix that the matrix would have been albe to produce. -- Jean Baudrillard
 
-## A Hunger for Certainty
+## A Hunger for Certainty and Definitude
 
 Now, what has this to do with *conspiracy theories*?
 Well, other than Baudrillard's theory of a reality that is simulation, I claim that the *cave allegory* offers a theoretical justification for doubting established institutions, which are likened to 'the matrix'.
@@ -368,9 +406,9 @@ This process signifies a profound shift in perception and understanding, where p
 Like Morpheus' emphasis on trusting one's instincts in *The Matrix*, conspiracy theories often accurately capture the emotional aspects of a person's situation. 
 These theories provide compelling descriptions of emotional states but tend to offer simplistic and reactionary explanations for complex situations. 
 Additionally, much like the concept of the matrix, they seek an all-encompassing explanation for everything.
-Essentially, these theories represent a futile effort to eliminate contingency and the growing uncertainty about the future. 
-They attempt to provide a sense of certainty and understanding in a world that is inherently open, contingent, unpredictable and complex. 
-This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly uncertain world.
+Essentially, these theories represent a futile effort to eliminate contingency and the future's uncertainty. 
+They attempt to provide a sense of certainty and understanding in a world that (hopefully) is still inherently open, contingent, unpredictable and complex. 
+This desire for comprehensive explanations reflects a deep-seated human need for order and predictability in an increasingly fatal looking world.
 
 ## Escaping the Simulation?
 
@@ -423,8 +461,9 @@ We are not superheroes; we are composed of the same fundamental elements as ever
 While it might feel like we inhabit a sort of matrix, it's essential to acknowledge that this is a choice we make. 
 From childhood, we develop self-conceptions and fantasies, but this doesn't negate the existence of the world itself. 
 Fantasies are constructs, and doubting the existence of the world presupposes a profound level of experience and knowledge of that world---a world where we learn to eat, walk, dance, and understand the nuances of correct and incorrect language usage.
+Doubting it requires a distance from it and that might be what social media does: it shrinks the world but increases the distance to it.
 We often employ our habits so routinely that we forget we are employing them, and in doing so, we forget that the world---our home---is still there. 
-The central question here is what is more reasonable to doubt: the world you intimately grew up in or your doubts about doubting it?
+The central question here is what is more reasonable to doubt: the world we intimately grew up in or our doubts about doubting it?
 
 ## Our Dependence on Second-order Observation
 
