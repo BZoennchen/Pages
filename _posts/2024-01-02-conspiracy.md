@@ -181,7 +181,7 @@ The movie not only reflects his ideas but might be able to bring them to life in
 Furthermore, Baudrillard was still alive when the movie hit the theatre.
 So, did it succeed in bringing his theory to the big screen?
 
-### The Simularcum is True
+### The Simulacrum is True
 
 When we first meet Neo, his computer is active, processing something, with the screen reflecting on his face. 
 He listens to music through headphones while lying on his desk, asleep. 
