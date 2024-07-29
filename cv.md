@@ -10,7 +10,7 @@ PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/fil
 ## Current Position
 
 **10/2023 - today** | [Munich Center for Digital Science and AI](https://mucdai.hm.edu/index.de.html), Munich, Germany<br>
-Head of Research (Research Associate)<br>
+Head of Research (Research Scientist)<br>
 *Applied Machine Learning and its Impact on Society*
 
 ## Academic Education
