@@ -108,9 +108,19 @@ Bridging Disciplines in Higher Education: The Convergence of AI and Sustainabili
 In *International Conference on Higher Education Advances (HEAd)*.<br>
 DOI: [10.4995/HEAd24.2024.17278](https://doi.org/10.4995/HEAd24.2024.17278).<br>
 
+**2024** | Téo Sanchez, **Benedikt Zönnchen**, Helena Held, Mariya Dzhimova and Gudrun Socher<br>
+Evaluating interdisciplinary and project-based learning on {AI} in culture and arts.<br>
+In *16th International Conference on Education and New Learning Technologies*.<br>
+DOI: [10.21125/edulearn.2024.0757](https://doi.org/10.21125/edulearn.2024.0757).<br>
+
 **2024** | **Benedikt Zönnchen**<br>
 Generative AI: Between Tool and Communication Partner.<br>
 URL: [MUC.DAI Website](https://mediapool.hm.edu/media/mucdai/mucdai_research/Beitrag_Artifical_Communication_Benedikt_Zoennchen_en.pdf).<br>
+
+**2024** | **Benedikt Zönnchen**, Charlotte Böhm, Helene von Schwichow, Gudrun Socher and Stefan Wurster<br>
+Empowering interdisciplinary expertise: evaluating the impact of challenge-based learning on {AI} and sustainability literacy in higher education.<br>
+In *16th International Conference on Education and New Learning Technologies*.<br>
+DOI: [10.21125/edulearn.2024.1433](https://doi.org/10.21125/edulearn.2024.1433).<br>
 
 **2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
 Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
