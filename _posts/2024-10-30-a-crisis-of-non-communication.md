@@ -25,8 +25,10 @@ As a German comedian once said:
 >If you know who is the devil, your day is already well-structured.
 
 Most would agree that this binary division of good versus evil is overly simplistic and, at times, dangerous.
-Yet, when we look toward the U.S. election or the languge used in the current conflict in the Middle East, we see a striking example of this polarization in action---a place where the framing of social and political conflicts as battles between absolute good and evil has become more pronounced than ever.
-Again, this moral dichotomy is very dangerous because it to defead the absolute evil everything is permitted.
+Yet, when we look toward the U.S. election or the languge used in the current horrific conflict in the Middle East, we see a striking example of this polarization in action---a place where the framing of social and political conflicts as battles between absolute good and evil has become more pronounced than ever.
+Especially the situation in Palestine is extremely hard swallow without being overwhelmed by emotions and breaking down in tears.
+Here the moral dichotomy shows its face.
+It is so dangerous because to defead absolute evil everything is permitted.
 
 Perhaps it's time to shift our perspective from judging individuals as good or evil to evaluating systems as either *functional* or *dysfunctional*. 
 Instead of moralizing, we could focus on understanding the underlying structures and processes that contribute to societal challenges.
