@@ -130,7 +130,7 @@ The following table shows more of these codes:
 | **Education**          | Success / Failure             | Concerned with the effectiveness of learning and teaching, evaluated by success in achieving educational goals. |
 | **Health**             | Healthy / Unhealthy           | Operates based on the state of health, determining whether a body or behavior is healthy. |
 | **Mass Media**         | Information / Non-information | Distinguishes between what is considered newsworthy (informative) versus uninformative content. |
-| **Art**                | fitting / unfitting           | Focused on e.g. aesthetic value, distinguishing what is perceived as beautiful or aesthetically valuable. |
+| **Art**                | Fitting / unfitting           | Focused on e.g. aesthetic value, distinguishing what is perceived as beautiful or aesthetically valuable. |
 | **Intimacy**           | Love / Non-love               | Operates on the basis of personal affection and emotional bonds, focusing on love as a guiding concept. |
 
 The specific code a system operates by is less important than the fact that each code differentiates one system from others.
