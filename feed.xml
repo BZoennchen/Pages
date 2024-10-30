@@ -1,4 +1,406 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-07-29T23:12:52+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-10-30T22:15:22+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">A Crisis of Non-Communication</title><link href="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html" rel="alternate" type="text/html" title="A Crisis of Non-Communication" /><published>2024-10-30T00:00:00+01:00</published><updated>2024-10-30T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html"><![CDATA[<p>I have to admit, I am kind of addicted to thinking about <em>social systems theory</em>, especially the theory developed by the German sociologist Niklas Luhmann (1927–1998).
+But it not joy that drives this addiction but a love-hate relationship.
+On the one hand, perceiving the state of the world through a Lumannian lense makes the world—with all its contradictions, crazyness, stupidity, brutality and injustice—not more just but sensible.
+Examples of this crazyness and brutality are the U.S. election, the catastrophic destruction of lives and infrastructure in the Middle East, and the increase in tension due to effects of the ongoing <em>climate crisis</em>.
+How can and how should we make sense of the seemingly senseless?
+Or shouldn’t we try to graps ongoing and possible future disasters?</p>
+
+<p>Clearly, attempting to make sense of complex issues should not be mistaken for rationalization.
+This is an easy trap to fall into, particularly when the topic is heavily charged with moral language, where any effort to explain events can be (willingly) misinterpreted as either justification or condemnation. 
+The framework within which sense-making occurs in such cases often defaults to the age-old binary of good versus evil—arguably the most effective, yet oversimplified, way to reduce complexity. 
+This moral framing gives us a manageable lens through which to view the world, but it risks obscuring deeper systemic dynamics and can hinder genuine understanding of the complex interactions at play.
+As a German comedian once said:</p>
+
+<blockquote>
+  <p>If you know who is the devil, your day is already well-structured.</p>
+</blockquote>
+
+<p>Most would agree that this binary division of good versus evil is overly simplistic and, at times, dangerous.
+Yet, when we look toward the U.S. election or the languge used in the current conflict in the Middle East, we see a striking example of this polarization in action—a place where the framing of social and political conflicts as battles between absolute good and evil has become more pronounced than ever.
+Again, this moral dichotomy is very dangerous because it to defead the absolute evil everything is permitted.</p>
+
+<p>Perhaps it’s time to shift our perspective from judging individuals as good or evil to evaluating systems as either <em>functional</em> or <em>dysfunctional</em>. 
+Instead of moralizing, we could focus on understanding the underlying structures and processes that contribute to societal challenges.
+As a wise man once said:</p>
+
+<blockquote>
+  <p>Don’t blame the people, blame the system.</p>
+</blockquote>
+
+<p>Thinking in terms of systems brings a certain relief from the confusion and frustration of modern life.
+It helps to lessen anger and bewilderment about why our <em>life-world</em> and the decisions made within it often seem so irrational or even absurd.
+Systems theory sheds light on why, even in an era where nearly everyone can participate in media production, we have neither reduced manipulation nor fostered more reasonable dialogue. 
+In many ways, the Enlightenment’s aspirations for rational discourse and universal truth have not materialized as hoped. The ideal of ‘Truth’—which Plato connected to the ‘Good’—has, it seems, drifted into obscurity.</p>
+
+<p>At the same time, adopting a Luhmannian perspective introduces a sense of helplessness.
+If we take Luhmann’s theory seriously, we must recognize that controlled, predictable change within society is extremely limited.
+Even with well-intentioned or radical actions, there is no guarantee that the outcomes will align with our intentions.
+As individuals, we find ourselves positioned outside the social systems that coevolve with their environment according to their own complex dynamics.
+This view is both awe-inspiring and disquieting: I admire the explanatory power of Luhmann’s theory, yet I feel a deep urge to challenge or even disprove it.
+It confronts us with the unsettling notion that society evolves autonomously, beyond our direct influence, regardless of our individual ideals and aspirations.</p>
+
+<p>I first encountered Luhmann’s theory while preparing a lecture on sustainable AI. 
+In researching future competencies, including sustainability competencies <a class="citation" href="#Brundiers2020">(Brundiers et al., 2020)</a>, I noted that systems thinking is emphasized as a fundamental skill for addressing complex issues. 
+However, I doubt that Luhmann’s work appears on the reading lists or syllabi of most courses on sustainability.
+Outside of Germany, he remains relatively unknown for a few reasons: his writing, e.g.,</p>
+
+<ul>
+  <li>Die Wissenschaft der Gesellschaft (The Science of Society) <a class="citation" href="#luhmann:1992">(Luhmann, 1992)</a></li>
+  <li>Die Wirtschaft der Gesellschaft (The Economy of Society) <a class="citation" href="#luhmann:1994">(Luhmann, 1994)</a></li>
+  <li>Die Kunst der Gesellschaft (The Art of Society) <a class="citation" href="#luhmann:1997">(Luhmann, 1997)</a></li>
+  <li>Die Politik der Gesllschaft (The Politics of Society) <a class="citation" href="#luhmann:2002">(Luhmann, 2002)</a></li>
+  <li>Die Gesllschaft der Gesellschaft (The Society of Society) <a class="citation" href="#luhmann:1998">(Luhmann, 1998)</a></li>
+</ul>
+
+<p>is notoriously dense, and his theory clashes with the Western concept of the <em>sovereign individual</em> <a class="citation" href="#moeller:2011">(Möller, 2011)</a>.</p>
+
+<p>Additionally, Luhmann sidesteps moral language and offers no prescriptive or normative framework.
+Those looking to his theory for answers on what to do will likely be disappointed.</p>
+
+<p>Today, <em>systems thinking</em> is widely discussed as a method to grasp the complexity of global issues by focusing on wholes and relationships rather than dissecting problems into isolated parts. 
+It seeks to move beyond Cartesian reductionism and the Newtonian view of linear cause-and-effect, proposing instead an anti-reductionist approach that emphasizes interdependencies, especially crucial in fields like climate science. 
+Here, we are not dealing with a computable universe but with complex and chaotic systems, where non-linearity and feedback loops disrupt straightforward causal relationships. 
+However, chaos does not mean randomness. Chaotic systems can exhibit intricate structures, yet the slightest change in initial conditions can drastically alter future outcomes, as we see with weather systems—classic examples of chaotic behavior.</p>
+
+<p>In essence, <em>systems thinking</em> itself is a kind of <em>technology</em>, and many hope it will equip us to address the <em>climate crisis</em>.
+However, I believe there are distinct schools of thought within <em>systems thinking</em>, each relying on different levels of abstraction, and they are not necessarily compatible.
+If systems thinking is indeed essential for tackling the <em>climate crisis</em>—a hypothesis I support—then it stands to reason that we should understand the social dimensions of climate and other global issues through the lens of one of sociology’s most sophisticated systems thinkers: Niklas Luhmann. His framework provides a unique approach to examining the complex, interdependent nature of social systems that underlie and influence our responses to the <em>climate crisis</em>.</p>
+
+<h2 id="so-what-is-a-system">So what is a System?</h2>
+
+<p>The term <em>system</em> is so loose and overused in so many contexts and in our daily language that it has hardly any specific meaning.
+We can talk about computer systems, a system of linear or differential equations, a system of thinking, systems of oppression, ecosystems and political systems.</p>
+
+<blockquote>
+  <p>[So] what is a system? 
+A system is a set of things […] interconnected in such a way that they produce their own pattern of behavior over time. […] 
+[T]he system’s repsonse to these forces is characteristic of itself, and that repsonses is seldom simple in the real world. – <a class="citation" href="#meadows:2008">(Meadows, 2008)</a></p>
+</blockquote>
+
+<p>For the environmental scientist Donella Meadows (1941–2001) a system is basically <strong>an interconnected set of elements that is coherently organized in a way that achieves something</strong>.
+A system is characterized by three key components:</p>
+
+<ol>
+  <li><strong>Elements</strong>: The parts or components of the system, such as individual actors, objects, or variables.</li>
+  <li><strong>Interconnections</strong>: The relationships or interactions between the elements, often in the form of flows of information, energy, or material.</li>
+  <li><strong>Purpose or Function</strong>: The overarching goal or behavior that the system is organized to achieve.</li>
+</ol>
+
+<p>But here the trouble begins because Luhmann defines a system very differently.
+It seems to me that Meadows’ definition still relies on the subject-object destinction which Luhmann wants to sublime.
+He thinks in interdependent but operationally closed processes instead of things and he very much dislike the concept of an externally given ‘purpose’.
+For Luhmann</p>
+
+<blockquote>
+  <p>A system is a self-referential, self-organizing set of operations that differentiates itself from its environment.</p>
+</blockquote>
+
+<p>This requires some explanation:</p>
+
+<ol>
+  <li><strong>Self-Referential</strong>: Systems create their own elements through their own operations. In social systems, these elements are not people but <em>communications</em>. Each communication refers back to the system, reaffirming its boundaries and identity.</li>
+  <li><strong>Autopoiesis</strong>: Systems are autopoietic, meaning they are self-producing. They continuously reproduce the <em>communications</em> that sustain them, distinguishing themselves from their environment. This process enables a system to maintain coherence and adapt to changes.</li>
+  <li><strong>Environment and Differentiation</strong>: Systems are defined by the distinction between themselves and their environment. Luhmann stresses that the environment is everything that the system excludes, setting clear boundaries. This differentiation allows the system to maintain its <em>identity</em> while interacting with, but remaining distinct from, external influences.</li>
+  <li><strong>Social Systems as Sense Making Networks</strong>: Luhmann focuses on social systems—such as organizations, institutions, the economy, the political system, and the mass media—as networks of meaning/sense (<em>Sinn</em> in German). In these systems, communication itself is the fundamental element, and these <em>communications</em> build the system’s reality.</li>
+</ol>
+
+<p>In essence, Luhmann views a system as a closed network of <em>communications</em> that operates independently of external elements and functions primarily by sustaining itself through self-generated, meaningful <em>communications</em>.
+If we want to be accurate we can not speak of a system without its environment because <strong>a system is the process that differentiates itself from its environment</strong> which is a circular definition—a paradox—that keeps the system (the system-environment differentiation) going.
+This definition contrasts sharply with definitions based on tangible components and external goals, focusing instead on processes of <em>sense-making</em>, self-production and self-maintenance.</p>
+
+<p>Luhmann read a lot of interdisciplinary material and borrowed from mathematics, classical systems theory, biology, cybernetics and other disciplines.
+For example, he took the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a> from biology, the concept of <em>feedback loops</em> and <em>second-order observation</em> from cybernetics and of <em>re-entry</em> and the fundamental operation of <em>differentiation</em> and <em>indication</em> from the mathematician Spancer-Brown <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+
+<p>For Luhmann, systems are <em>operationally closed</em> meaning that no system can interfer in the operation of another system.
+For example, the economic system communicates via payments and there is no way that the political system can interfer in it.
+Of course, the political system can observe these payments and can try to regulate them but only indirectly.
+It can pass laws.
+The economic system will observe this (digest it) and evolve with its environment (which contains the political system).
+Therefore, systems are <em>cognitively open</em>.
+They take everything in what they can digest and use it to continue their opertions, that is, their <em>autopoiesis</em>.</p>
+
+<p>To reduce complexity social systems work on simple <em>binary codes</em> under which they <em>differentiate</em>.
+The legal system interprets actions as legal or illegal but doesn’t engage with the ‘healthy/unhealthy’ distinctions from the health system.
+The following table shows more of these codes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Social System</strong></th>
+      <th><strong>Binary Code</strong></th>
+      <th><strong>Description</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Economy</strong></td>
+      <td>Payment / Non-payment</td>
+      <td>Decisions are guided by whether a transaction involves payment, focusing on economic exchanges.</td>
+    </tr>
+    <tr>
+      <td><strong>Politics</strong></td>
+      <td>Power / Non-power</td>
+      <td>Concerned with the distribution and exercise of power, focusing on who has authority and control.</td>
+    </tr>
+    <tr>
+      <td><strong>Law</strong></td>
+      <td>Legal / Illegal</td>
+      <td>Operates on legality, determining if actions or behaviors align with established legal norms.</td>
+    </tr>
+    <tr>
+      <td><strong>Science</strong></td>
+      <td>Truth / Falsehood</td>
+      <td>Guided by the pursuit of truth, evaluating claims based on their validity and scientific evidence.</td>
+    </tr>
+    <tr>
+      <td><strong>Religion</strong></td>
+      <td>Immanence / Transcendence</td>
+      <td>Focuses on distinctions between the sacred (transcendent) and the profane (immanent).</td>
+    </tr>
+    <tr>
+      <td><strong>Education</strong></td>
+      <td>Success / Failure</td>
+      <td>Concerned with the effectiveness of learning and teaching, evaluated by success in achieving educational goals.</td>
+    </tr>
+    <tr>
+      <td><strong>Health</strong></td>
+      <td>Healthy / Unhealthy</td>
+      <td>Operates based on the state of health, determining whether a body or behavior is healthy.</td>
+    </tr>
+    <tr>
+      <td><strong>Mass Media</strong></td>
+      <td>Information / Non-information</td>
+      <td>Distinguishes between what is considered newsworthy (informative) versus uninformative content.</td>
+    </tr>
+    <tr>
+      <td><strong>Art</strong></td>
+      <td>fitting / unfitting</td>
+      <td>Focused on e.g. aesthetic value, distinguishing what is perceived as beautiful or aesthetically valuable.</td>
+    </tr>
+    <tr>
+      <td><strong>Intimacy</strong></td>
+      <td>Love / Non-love</td>
+      <td>Operates on the basis of personal affection and emotional bonds, focusing on love as a guiding concept.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The specific code a system operates by is less important than the fact that each code differentiates one system from others.
+For instance, Luhmann struggled to pinpoint a definitive code for the art system, as its operations are complex and multifaceted.
+He proposed several possibilities, including ‘beautiful/ugly’, ‘coherent/incoherent’, ‘new/old’, and ‘fitting/unfitting’.</p>
+
+<p>Each code of a system gives the system its ‘character’ and consequently its operational specificity and functional closure.
+The <em>exclusivity</em> of the <em>binary code</em> ensures that each system maintains its autonomy and operates independently, even when interacting with other systems.
+<em>Operational closure</em> means that each system can only process information according to its own internal logic, thus keeping it <em>closed</em> to other systems’ codes and distinctions.</p>
+
+<p>Of course, further distinctions within a system are possible.
+For example <em>reputation</em> is an important distinction within science.
+While not a binary code in Luhmann’s strict sense, it is significant within the scientific community as it affects how research and findings are perceived, valued, and disseminated.
+Reputation can influence which scientists’ work is taken seriously, whose research is funded, and which publications are more widely read and cited.
+However, it does not drive the core distinction of ‘truth/falsehood’; rather, it shapes the social hierarchy, credibility, and visibility within the scientific community.</p>
+
+<p>Luhmann’s concept of <em>re-entry</em> (borrowed from <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>) is a mechanism, allowing a system to reflect on itself by reintroducing its primary binary code within its own operations. 
+Thus, this is an inherently recursive relation.
+<em>Re-entry</em> enables a system to apply its guiding binary distinction not only outwardly (to its environment or other systems) but also inwardly, to its own internal processes and <em>communications</em>. 
+This is crucial in complex systems, like science, where re-entry enables self-reference and internal differentiation.
+Science can use the truth/falsehood distinction to evaluate not only external hypotheses but also its own standards, research paradigms, and accepted theories.
+Another more familiar example is the media which reports on itself.</p>
+
+<p>Another important Luhmannian concept that is connected to <em>re-entry</em> and orignated from Heinz von Foerster (1911–2002) and Margaret Mead (1901–1978) <a class="citation" href="#foerster:2003">(von Foerster, 2003)</a> is <em>second-order observation</em>.
+<em>Second-order observation</em> is facilitated by re-entry, as it allows the scientific system to reintroduce its primary distinction, ‘truth/falsehood’, internally.
+It refers to observing observations rather than simply observing objects or phenomena directly.
+This concept is crucial for complex systems as it allows them to recognize and reflect on how they construct their own distinctions and interpretations.
+In science, second-order observation enables scientists to observe not only external phenomena but also the methods, theories, and interpretations of other scientists.
+This includes observing how truths are constructed within the scientific community and scrutinizing the frameworks, biases, and assumptions underlying those constructions.
+But it also includes how a specific scientist or science lab is being observerd.
+In this context, <em>reputation</em> is effectivly a measure of how a scientist is seen by other scientists.
+It furhter reduces complexity by accumulating the observation of others.
+I do not have to read and carefully analyse every paper of a specific researcher to find out if his or her research is trustworthy, i.e. if it is good research under the ‘truth/falshood’ code.
+In complex environments, <em>second-order observation</em> helps systems like science to deal with uncertainty and complexity.
+Rather than aiming for <strong>absolute certainty</strong>, science can adapt by recognizing different observational frameworks, revisiting previously accepted truths, and acknowledging limitations in current knowledge. 
+This adaptive flexibility, achieved through <em>second-order observation</em>, is vital for science’s resilience and continued evolution.</p>
+
+<p>But what exactly is <em>observation</em>?
+For Luhmann, every act of <em>observation</em> has two essential steps: <strong>distinction</strong> and <strong>indication</strong> (also borrowed from <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>).
+The system first creates a <em>distinction</em> (e.g., ‘legal/illegal’ in the legal system) and then <em>indicates</em> one side of that distinction. 
+This act of <em>indicating</em> one side of a <em>distinction</em> allows the system to focus on what it deems relevant or meaningful while leaving out what is not.
+For instance, the economic system distinguishes between ‘payment’ and ‘non-payment’ and then indicates whether a transaction falls into one category or the other.</p>
+
+<p>Luhmann also uses <em>feedback loops</em> but in a more complex, indirect way to explain self-referential and <em>autopoietic</em> (self-producing) processes within social systems.
+<em>Feedback loops</em> enable systems to observe and respond to their own operations and their environment without sacrificing their internal logic or autonomy.
+A system produces <em>communications</em> and then feeds those back into itself as input, creating a recursive process. 
+For instance, the scientific system continually generates new research findings that become part of its ongoing discourse, which shapes further research questions and methods.
+This recursive process enables a system to build on its own operations and maintain continuity over time.
+<em>Feedback loops</em> help systems to learn from past operations and adjust future <em>communications</em>. 
+However, instead of direct feedback that leads to specific, immediate corrections (as in a thermostat, for instance), feedback in Luhmann’s theory involves observing patterns over time and <em>adjusting structurally</em>.
+For instance, the legal system may notice shifts in societal values based on case outcomes or public reactions and eventually adjust interpretations of the law, but it does so in a way that remains consistent with its legal/illegal <em>binary code</em>.
+Through <em>repeated feedbac</em>k, systems can detect trends in their environment (e.g., shifts in public opinion or technological advances) and adapt their operations in response, but only when those trends become relevant within the system’s own code.
+Despite the use of <em>feedback loops</em>, systems remain <em>operationally closed</em>.
+Feedback is processed in terms of the system’s unique code, meaning that only information relevant to that code is taken in. 
+For instance, if the economic system receives feedback from the political system, it only integrates that feedback if it pertains to ‘payment/non-payment’ distinctions. 
+This allows each system to interact with its environment while preserving its autonomy and self-referential logic.
+Feedback loops help systems manage the complexity of their environments by selectively processing information.
+Each system filters out what is irrelevant to its operations, creating <em>blind spots</em>.</p>
+
+<p>Luhmann’s concept of <em>structural coupling</em> (borrowed from <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>) describes how different social systems develop stable, interdependent relationships with their environment or other systems without losing their <em>operational closure</em> or <em>autonomy</em>.
+<em>Structural coupling</em> is essential for maintaining a productive relationship with various other systems.
+For example, science and politics are structurally coupled when scientific research informs policy decisions, while political priorities influence the direction and funding of scientific research. 
+Despite this interaction, both systems remain <em>operationally closed</em>: science focuses on ‘truth/falsehood’, and politics operates on ‘power/non-power’.
+Another example: the economic system and the political system may engage in <em>structural coupling</em>, where economic data (like inflation) affects political decisions (like interest rate changes). 
+<em>Feedback loops</em> are crucial for <em>structural coupling</em> since they allow each system to remain sensitive to changes in the other system without changing its fundamental operations or logic.</p>
+
+<p>The last term we have to discuss is the term maybe most important and that is <em>communication</em>.
+As a computer scientist I understand communcation using Shannon’s framework <a class="citation" href="#shannon:1948">(Shannon, 1948)</a>, that is, a transfer of information over a error-prone or noisy channel.
+But this is not what Luhmann understands as <em>communication</em>.
+For him, <em>communication</em> is not merely the transfer of information between individuals (or machines). 
+Instead, it is a self-contained social process that occurs within and is produced by social systems, with <strong>individuals seen as part of the environment rather than as agents within the system</strong>.
+According to Luhmann, it is a three-part process of three interdependent elements:</p>
+
+<ol>
+  <li>Information: The content or <strong>what</strong> of communication, which could be new data, knowledge, or ideas relevant to the system.</li>
+  <li>Utterance: The <strong>how</strong> of communication, which includes the form, manner, or medium through which information is expressed. This could be spoken language, writing, or nonverbal cues, depending on the medium and context.</li>
+  <li>Understanding: The receiver’s interpretation of both the information and the utterance. Understanding is crucial, as it determines whether and how the communication is taken up within the system.</li>
+</ol>
+
+<p>For Luhmann, communication only ‘happens’ if all three elements are present. It’s not just about sending information; it’s about how information is expressed and then understood within a particular context.
+<em>Communication</em> is not generated by individuals but by the system thus it is autopoietic, meaning it is self-producing and self-sustaining.
+<em>Communication</em> is inherently selective; it involves making choices about what information to include, how to present it, and how to interpret it. 
+This selectivity creates <em>blind spots</em>, as each communication inherently excludes other possible meanings.
+It is based on the concept of <em>double contingency</em>—the idea that each party in a communication anticipates and adjusts to the other’s responses.
+Social systems manage this <em>contingency</em> through established expectations.
+For example, in the legal system, there is an expectation that communications follow the ‘legal/illegal’ code, which guides interactions between lawyers, judges, and citizens and maintains coherence in legal decisions.
+Since in Luhmann’s framework every system operates by its unique logic, <em>communication</em> can not be about transferring <strong>objective</strong> information; it is about processing meaning/sense which depends on the ‘processor’, i.e. the system. 
+Each <em>communication</em> within a system adds to the meaning that the system produces.
+For instance, in the scientific system, each new theory or finding creates meaning within the context of ‘truth/falsehood’ and is interpreted within that framework.
+<strong>Systems thus continuously build their own specific reality</strong>, shaped by the types of meaning they process through communication.</p>
+
+<p>Consequently, if we take Luhmann serious, we arrive at the revelation that there is not one ‘really real and objective reality’ but that there is a <strong>plurality of realities</strong>;
+that there is not one controlling system that leads all the others but that there anarchy in society;
+that we are not in control but that society is <strong>out of control</strong>;
+that there is not one objective truth but systemic interpretations;
+and maybe most importantly: that there is no outside of society, no view at the whole because <strong>any indication of something requires a distinction from something else</strong>.</p>
+
+<h2 id="the-climate-crisis-a-crisis-of-non-communication">The Climate Crisis: A Crisis of Non-Communication</h2>
+
+<p>One area where Luhmann’s theory seems to make unsettlingly accurate sense is the <em>climate crisis</em>—that is, the accelerating destabilization of the climate system.
+We see how Luhmann’s framework reveals the challenges of a complex, multi-systemic problem. 
+Each social system—politics, economy, science, and media—observes the climate crisis from within its own operations and distinctions.
+Science operates on a ‘truth/falsehood’ basis, producing reports on climate change’s reality and projections, while politics, operating on ‘power/non-power’, assesses climate issues according to political priorities, public opinion, and election cycles. 
+The economic system, structured by ‘payment/non-payment’, may respond to climate science only insofar as it impacts financial markets, investments, or regulatory demands.</p>
+
+<p>The <em>climate crisis</em>, however, does not ‘belong’ to any one system.
+Instead it spans across systems but is refracted through each one’s unique code.
+No single system can comprehensively address the crisis because its complexity exceeds the logic of any one system’s operations.
+Furthermore, there is essentailly no <em>climate communcation</em> ‘happening’, because (to the best of my knowledge) there is no <em>social system</em> that operates on a code that leads to the observation of the climate or the earth’s ecosystem.
+One might step in and argue that science certainly observes the climate but that is not really the case if we use Luhmann’s definiton of observation and communication.
+Science, despite its close engagement with ecological and climate issues, operates on a fundamentally different basis than a (hypothetical) climate-focused system.
+While many scientists care very much about the climate and the survival of human beings, science operates under the ‘truth/falshood’ distinction.
+Its observation of the climate does not directly lead to climate or political activism, or an economic transformation but to more ‘truth/falshood’ distinction;
+to research and funding opportunities and the building up of reputation.</p>
+
+<p>Similarly, the political system interprets the <em>climate crisis</em> through its own operational code of power/non-power, using it as an opportunity to gain influence and public support. 
+For example, in Germany, the Green Party views the climate crisis as a platform to expand its political reach and advocate for environmental policies that resonate with their voter base.
+Other parties, however, may leverage the crisis in the opposite direction, appealing to constituents who prioritize economic stability over environmental reform.
+Yet, even if the Green Party succeeds in passing policies aimed at accelerating economic transformation, it cannot directly control whether the economic system will fully implement these changes. 
+This limitation arises because each system—politics and the economy—operates autonomously according to its own logic.
+For politics to dictate economic outcomes would imply that the political system could override the economy’s fundamental payment/non-payment distinction, which, according to Luhmann, is structurally impossible.
+Note that this is not a critique of the members of the Green Party which might very much care and belief in the values they display.
+We do not consider individuals or people but systems.</p>
+
+<p>The climate crisis illustrates how <em>structurally coupled</em> systems face limits in their coordination.
+Each system’s response to climate issues is conditioned by its own operations, preventing unified action despite the existential threat posed by the destabilizing climate.
+As Luhmann’s theory reveals, social systems are inherently self-referential and cannot simply ‘combine’ their functions. 
+Thus, the climate crisis may persist without cohesive action precisely because <strong>no system is structured to address an issue that transcends its operational boundaries</strong>.</p>
+
+<p>This fragmentation of responsibility means that no single system is inherently designed to address global, cross-cutting issues like the climate crisis.
+Each system approaches climate issues only insofar as they relate to its own logic:</p>
+
+<ul>
+  <li><strong>Science</strong> seeks truth and thus investigates the mechanisms, causes, and projected impacts of climate change.</li>
+  <li><strong>Politics</strong> operates on power/non-power, framing climate policies in terms of public support, regulatory reach, and political gain or loss.</li>
+  <li><strong>Economy</strong> focuses on payment/non-payment, assessing climate initiatives based on profitability and market viability.</li>
+  <li><strong>Media</strong> works with information/non-information, spotlighting climate issues based on newsworthiness rather than scientific rigor or policy relevance.</li>
+</ul>
+
+<p>Systems only engage with climate issues when these issues align with their internal priorities.
+Science can produce overwhelming evidence of climate risks, but if political decisions are driven by short-term voter approval, economic costs, or geopolitical interests, the full implications of scientific knowledge may not translate into concrete action.
+Political decisions are often informed by scientific findings but are ultimately filtered through the political logic of power/non-power.
+Economies can adopt sustainable practices, but often only when such practices promise financial returns.
+This misalignment is evident in the delays or dilution of climate policies, where political and economic interests often override scientific findings.</p>
+
+<p>Luhmann’s theory suggests that issues of this magnitude may require a dedicated system with its own <em>binary code</em>—such as ‘sustainable/unsustainable’ or ‘ecologically balanced/unbalanced’—to assess and act on climate issues directly. 
+Social systems are so immensly effective (with respect to their function) because they reduce complexity by operating under a rather simple binary code.
+A new <em>sustainable system</em> could facilitate large enough irritations that resonate within other systems such that standards, goals, and measures across all systems are implemented (by themselves) in such a way that align with ecological stability and sustainability.
+Although hypothetical, this system would prioritize ecological concerns by constructing ‘sustainable communication’.
+Of course, the problem is: How can such a communication be possible without interferring in, e.g. economic communication?</p>
+
+<p>Howsoever, the time is up and I have almost no hope that such a system will suddenly emerge.
+If it does it should happen via the seperation by operational closure similar to how, for example, art was able to separate itself from religion.
+The only other option, using Luhmann’s framework, is to try to align all the systems in such a way that if they operate according to their logic, they also operate (at least close) to the logic of such a hypothetical <em>sustainable system</em>.
+Caring about the earth’s ecosystem and the climate has to be financially profitable;
+it has to lead to power for politicians;
+it has to lead to funding and furhter research in science;
+and it has to be a spectacle for the media to cover;</p>
+
+<p>Naturally, we might see it as hypocritical when a company adopts sustainable practices primarily to increase profits rather than out of genuine concern for the environment.
+And, indeed, companies may choose to appear sustainable rather than enact substantive changes if it proves more profitable.
+This dynamic holds for other issues as well, such as diversity and inclusion—and deep inside we all know it.
+However, from a systems theory perspective, it may be more productive to move beyond <em>moral judgments</em> about individuals as hypocritical, virtuous, or evil and instead to focus on  <em>systemic realities</em>.</p>
+
+<p>In the economic system, sustainability, diversity, and other social values are interpreted through the code of payment/non-payment; the system evaluates decisions based on profitability rather than intrinsic ethical value.
+We may not like it but that’s the <em>reality of the economic system</em>.
+While individuals within a company might personally care deeply about these issues, this personal commitment does not translate into the company’s operations, as employees are part of the system’s environment, not its core functions.
+People care, systems observe and operate on their own terms.</p>
+
+<p>In this light, ‘truthfully pretending’—adopting sustainability practices for economic gain—can still yield positive outcomes.
+From the perspective of systems theory, the motivations behind these actions matter less than the fact that they result in more sustainable practices, which in itself contributes to broader societal goals.
+This does not imply that public outrage about the state of affairs is misguided.
+On the contrary, if outrage <em>irritates</em> systems in ways that make sustainable practices more profitable for companies, it can drive meaningful change.
+However, outrage can also produce unintended effects.
+For instance, the media, which constructs a shared reference reality that shapes public discourse, may find it more sensational to focus on the ‘unlawfulness’ of protesters.
+This framing can prompt the political system to respond by mobilizing power against the protests, potentially reinforcing the very practices that climate advocates aim to change.</p>
+
+<p>These nonlinear and indirect effects, often amplified through feedback loops, illustrate the unpredictable and uncontrollable nature of systemic interactions. 
+In Luhmann’s terms, feedback loops create complex dynamics within and between systems, making it difficult to foresee or control the outcomes of public reactions, even when intentions are clear.</p>
+
+<p>Luhmann’s theory is not immune to criticism, and, by its own logic, it necessarily contains blind spots. 
+As a scientific theory communicated by the science system, it is a theory of society that society produces about itself—a quintessential example of second-order observation.
+The individual—the person, psychic system, and living body we identify as Luhmann—existed only as part of the environment of the social systems he studied. 
+So where is the individual in society? 
+We are we?
+Shouldn’t the individual be central to our understanding of social structures and dynamics? 
+Or perhaps there is merit in Luhmann’s perspective, which places individuals outside of society.
+From this view, individuals can observe society critically, without being fully subsumed by it, a perspective that may be worth remembering—illuminating an ironic distance that offers neither hope no fear.</p>
+
+<h2 id="the-treatment-of-an-illness">The Treatment of an Illness</h2>
+
+<p>One of Luhmann’s most influential critics, Jürgen Habermas, famously remarked of Luhmann’s work:</p>
+
+<blockquote>
+  <p>It’s all wrong, but it has quality.</p>
+</blockquote>
+
+<p>Habermas labeled Luhmann’s theory <em>metabiological</em>, drawing a comparison to metaphysics and suggesting it extends beyond empirical sociology into abstract structures that some argue make it detached from human agency.
+This comparison is spot on: Luhmann’s theory views society not as a product of individuals’ intentions but as an autonomous, complex system very similar to an organism.
+From this perspective, if we are to learn anything valuable from Luhmann, it might be that we should avoid treating society—and, by extension, the climate crisis—as an engineering problem, as something to be ‘solved’ with a clear-cut plan. 
+Instead, we might approach it more like a chronic condition or complex illness, where we, as doctors, explore, probe, and apply potential treatments without assuming a one-size-fits-all solution. 
+This approach requires continuous adjustment, sensitivity to feedback, and a readiness to adapt to the unexpected outcomes of our actions, reflecting the complex, interdependent nature of the systems we inhabit.
+But, of course, we are not in control!</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="Brundiers2020">Brundiers, K., Barth, M., Cebrián, G., Cohen, M., Diaz, L., Doucette-Remington, S., Dripps, W., Habron, G., Harré, N., Jarchow, M., Losch, K., Michel, J., Mochizuki, Y., Rieckmann, M., Parnell, R., Walker, P., &amp; Zint, M. (2020). Key competencies in sustainability in higher education—toward an agreed-upon reference framework. <i>Sustainability Science</i>, <i>16</i>(1), 13–29. https://doi.org/10.1007/s11625-020-00838-2</span></li>
+<li><span id="luhmann:1992">Luhmann, N. (1992). <i>Die Wissenschaft der Gesellschaft</i> (p. 732). Suhrkamp.</span></li>
+<li><span id="luhmann:1994">Luhmann, N. (1994). <i>Die Wirtschft der Gesellschaft</i> (p. 356). Suhrkamp.</span></li>
+<li><span id="luhmann:1997">Luhmann, N. (1997). <i>Die Kunst der Gesellschaft</i> (p. 517). Suhrkamp.</span></li>
+<li><span id="luhmann:2002">Luhmann, N. (2002). <i>Die Politik der Gesellschaft</i> (p. 444). Suhrkamp.</span></li>
+<li><span id="luhmann:1998">Luhmann, N. (1998). <i>Die Gesellschaft der Gesellschaft</i> (p. 1164). Suhrkamp.</span></li>
+<li><span id="moeller:2011">Möller, H.-G. (2011). <i>The Radical Luhmann</i> (p. 184). Columbia University Press.</span></li>
+<li><span id="meadows:2008">Meadows, D. H. (2008). <i>Thinking in Systems: A Primer</i> (p. 240). Chelsea Green Publishing.</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li>
+<li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="foerster:2003">von Foerster, H. (2003). Cybernetics of Cybernetics. In <i>Understanding understanding: Essays on cybernetics and cognition</i> (pp. 283–286). Springer New York. https://doi.org/10.1007/0-387-21722-3_13</span></li>
+<li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Sustainability" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[I have to admit, I am kind of addicted to thinking about social systems theory, especially the theory developed by the German sociologist Niklas Luhmann (1927–1998). But it not joy that drives this addiction but a love-hate relationship. On the one hand, perceiving the state of the world through a Lumannian lense makes the world—with all its contradictions, crazyness, stupidity, brutality and injustice—not more just but sensible. Examples of this crazyness and brutality are the U.S. election, the catastrophic destruction of lives and infrastructure in the Middle East, and the increase in tension due to effects of the ongoing climate crisis. How can and how should we make sense of the seemingly senseless? Or shouldn’t we try to graps ongoing and possible future disasters?]]></summary></entry><entry><title type="html">Musical Interrogation IV - Transformer</title><link href="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html" rel="alternate" type="text/html" title="Musical Interrogation IV - Transformer" /><published>2024-02-03T00:00:00+01:00</published><updated>2024-02-03T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/02/03/musical-interrogation-IV.html"><![CDATA[<blockquote>
   <p>Recurrent models trained in practice are effectively feed-forward.
 This could happen either because truncated backpropagation through time cannot learn patterns significantly longer than k steps, or, more provocatively, because models trainable by gradient descent cannot have long-term memory. – John Miller</p>
 </blockquote>
@@ -1578,7 +1980,7 @@ Even if we construct our own perspective on the world, the reality of the climat
 <li><span id="gabriel:2018">Gabriel, M. (2018). <i>Der Sinn des Denkens</i>. Ullstein Buchverlag.</span></li>
 <li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li>
 <li><span id="sapolsky:2023">Sapolsky, R. M. (2023). <i>Determined</i>. Bodley Head.</span></li>
-<li><span id="arrhenius:1896">Arrhenius, S. (1896). XXXI. On the influence of carbonic acid in the air upon the temperature of the ground . <i>The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</i>, <i>41</i>(251), 237–276. https://doi.org/10.1080/14786449608620846</span></li>
+<li><span id="arrhenius:1896">Arrhenius, S. (1896). XXXI. On the influence of carbonic acid in the air upon the temperature of the ground. <i>The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</i>, <i>41</i>(251), 237–276. https://doi.org/10.1080/14786449608620846</span></li>
 <li><span id="manabe:1967">Manabe, S., &amp; Wetherald, R. T. (1967). Thermal equilibrium of the atmosphere with a given distribution of relative humidity. <i>Journal of Atmospheric Sciences</i>, <i>24</i>(3), 241–259. https://doi.org/10.1175/1520-0469(1967)024&lt;0241:TEOTAW&gt;2.0.CO;2</span></li>
 <li><span id="keeling:1976">Keeling, C. D., Bacastow, R. B., Bainbridge, A. E., Ekdahl Jr., C. A., Guenther, P. R., Waterman, L. S., &amp; Chin, J. F. S. (1976). Atmospheric carbon dioxide variations at Mauna Loa Observatory, Hawaii. <i>Tellus</i>, <i>28</i>(6), 538–551. https://doi.org/10.1111/j.2153-3490.1976.tb00701.x</span></li>
 <li><span id="held:2006">Held, I. M., &amp; Soden, B. J. (2006). Robust responses of the hydrological cycle to global warming. <i>Journal of Climate</i>, <i>19</i>(21), 5686–5699. https://doi.org/10.1175/JCLI3990.1</span></li>
@@ -1591,293 +1993,9 @@ Even if we construct our own perspective on the world, the reality of the climat
 <li><span id="danaher:2016">Danaher, J. (2016). The Threat of Algocracy: Reality, Resistance and Accommodation. <i>Philosophy &amp; Technology</i>, <i>29</i>, 245–268. https://doi.org/10.1007/s13347-015-0211-1</span></li>
 <li><span id="bogner:2021">Bogner, A. (2021). <i>Die Epistemisierung des Politischen</i>. Reclam.</span></li>
 <li><span id="bauer:2018">Bauer, T. (2018). <i>Die Vereindeutigung der Welt</i> (p. 104). Reclam.</span></li>
-<li><span id="rorty:1989">Rorty, R. (1098). <i>Contingency, Irony, and Solidarity</i> (p. 201). 	Cambridge University Press.</span></li>
+<li><span id="rorty:1989">Rorty, R. (1098). <i>Contingency, Irony, and Solidarity</i> (p. 201). Cambridge University Press.</span></li>
 <li><span id="esposito:2024">Esposito, E. (2024). Can we use the open future? Preparedness and innovation in times of self-generated uncertainty. <i>European Journal of Social Theory</i>, <i>0</i>(0). https://doi.org/10.1177/13684310231224546</span></li>
-<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable. It helps to make ones thought anschlussfähig which literally means to be capable for connections and in this context means enabling the continuation of communication.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
-My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
-What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
-However, any observer is itself a distinction between system and environment.
-I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
-So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
-
-<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
-
-<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
-
-<blockquote>
-  <p>This statement is wrong.</p>
-</blockquote>
-
-<p>The statement is logically problematic because it is self-referential. 
-If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
-Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
-
-\[R := \left\{ x \ | \ x \not\in x \right\}.\]
-
-<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
-However, if we introduce the self-referential relation, we run into a paradox:</p>
-
-<p>\begin{equation} 
-R \in R \iff R \not\in R
-\end{equation}</p>
-
-<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
-If that is the case, does the barber shave themselves?</p>
-
-<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
-To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
-The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
-Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
-
-<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
-\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
-Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
-His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
-The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
-
-<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
-He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
-
-<p>Luhmann integrated this idea into his social systems theory.
-For example, the media can observe and reintroduce itself into itself. 
-It can use its systemic operations on itself, i.e. it can report on itself.</p>
-
-<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
-
-<blockquote>
-  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
-</blockquote>
-
-<p>The sentence has mainly two different meanings.
-One is:</p>
-
-<blockquote>
-  <p>The beginning of heaven and earth is without a name.</p>
-</blockquote>
-
-<p>The other one is:</p>
-
-<blockquote>
-  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
-</blockquote>
-
-<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
-Furthermore, the quote points to a distinction between heaven and earth.
-Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
-Spencer-Brown begins by the assumption that there is no such thing:</p>
-
-<blockquote>
-  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
-Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
-</blockquote>
-
-<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
-There is no clear separation between the object or the result of distinction and the process of distinguishing.
-Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
-Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
-I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
-
-<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
-The mark is, calls, and makes a difference.</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
-<p><br /></p>
-
-<p>There is an interior of the mark and not the interior—the system and its environment.
-I can make a distinction again (repetition):</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
-<p><br /></p>
-
-<p>But making a distinction again does not change the distinction.</p>
-
-<blockquote>
-  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
-</blockquote>
-
-<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
-<p><br /></p>
-
-<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
-Crossing twice reverses the first crossing.</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
-<p><br /></p>
-
-<blockquote>
-  <p>If a boundary is crossed twice, the original state will be reestablished.
-The repetition of the crossing has a different value than the single crossing.
-The reason is that in-between the reversal happens.
-Crossing changes the side.
-Re-crossing reverses this operation. – Spencer-Brown</p>
-</blockquote>
-
-<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
-Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
-There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
-
-<p>Let’s see what we can do with this calculus.
-Let \(a, b\) variables, then the following holds:</p>
-
-<p><br /></p>
-<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
-<p><br /></p>
-
-<p>Let’s have a look at the last transformation.
-Let us assume \(a\) is a <strong>mark</strong>.
-Then we get:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
-<p><br /></p>
-
-<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
-<p><br /></p>
-
-<h2 id="the-re-entry">The Re-Entry</h2>
-
-<p>How can we re-introduce the system (here an equation) into itself?
-Or in other words: How does the <em>re-entry</em> work?
-We can start by a simple self-referential algebraic equation:</p>
-
-<p>\begin{equation}
-x^2 = ax + b, \quad a, b \in \mathbb{R}.
-\end{equation}</p>
-
-<p>This equation has well-known solutions. 
-It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
-To see the re-entry, we can rewrite the equation above to get</p>
-
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}</p>
-
-<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
-
-<p>\begin{equation}
-x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
-\end{equation}</p>
-
-<p>Using this infinite formalism it is literally the case that</p>
-
-<p>\begin{equation}
-x = a + b/x,
-\end{equation}
-holds.
-Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
-
-<p>\begin{equation}
-i = -1 /(-1 /(-1 / (-1 / \ldots )))
-\end{equation}</p>
-
-<p>but what does this mean?
-The system is not a number but a process, a generator that generates itself.
-\(i\) alternates between 1 and -1.
-Interestingly, this is precisely how we use the equal sign in most programming languages.
-Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
-
-<p>\begin{equation}
-i \leftarrow \frac{i}{-1}.
-\end{equation}</p>
-
-<p>The next step is to introduce such a re-entry into logic.
-Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
-<p><br /></p>
-
-<p>The solution is an alternation between a marked and unmarked state—between true and false.
-A state that might seem contradictory in space, makes sense if it is observed in time and space.
-Again, time resolves the paradox.
-To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
-<p><br /></p>
-
-<p>We could similarily notate \(i\) as</p>
-
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
-<p><br /></p>
-
-<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
-For example, we can state the following:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
-<p><br /></p>
-
-<p>However, it is forbidden to only change one appearance of \(J\)!
-Following this simple rule, no paradox or inconsistency arises.
-We can go on and evaluate the following transformation:</p>
-
-<p><br /></p>
-<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
-<p><br /></p>
-
-<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
-
-<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
-
-<p><br /></p>
-<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
-<p><br /></p>
-
-<p>which can be transformed into</p>
-
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
-<p><br /></p>
-
-<p>thus gives us the re-entry</p>
-
-<p><br /></p>
-<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
-<p><br /></p>
-
-<p>or</p>
-
-<p><br /></p>
-<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
-<p><br /></p>
-
-<h2 id="final-words">Final Words</h2>
-
-<p>In the act of programming there is no problem of using expressions such as</p>
-
-<p>\begin{equation}
-i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
-\end{equation}</p>
-
-<p>but in mathematics—at least since Plato—we assume some sort of eternity.
-Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
-It is like in physics where multiple theories are equivalent but start from very different viewpoints.
-It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
-To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
-
-<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
-To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
-According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
-
-<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
-<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). flaws of form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
+<li><span id="esposito:2023">Esposito, E., Hofmann, D., &amp; Coloni, C. (2023). Can a predicted future still be an open future? Algorithmic forcasts and actionability in the precision medicine. <i>History and Theory</i>. https://doi.org/10.1111/hith.12327</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Social Systems Theory" /><category term="Conspiracy Theories" /><category term="Climate Crisis" /><summary type="html"><![CDATA[Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). Often writing helps in transforming the mess into a structured and coherent concept. The process of rethinking and reflecting can be invaluable. It helps to make ones thought anschlussfähig which literally means to be capable for connections and in this context means enabling the continuation of communication.]]></summary></entry><entry><title type="html">Musical Interrogation III - LSTM</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html" rel="alternate" type="text/html" title="Musical Interrogation III - LSTM" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/musical-interrogation-III.html"><![CDATA[<p>This article is the continuation of a series.
 It is recommended that you read part I and II first.
 This time we use a recurrent neural network (<strong>RNN</strong>), more preceisly an <strong>LSTM</strong>, which I explained a little bit in the <a href="/Pages/2023/04/02/musical-interrogation-I.html">introduction</a>.
 An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.</p>
@@ -2309,7 +2427,291 @@ The transformer architecture and its implications in music generation will be fu
 <h2 id="references">References</h2>
 
 <ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
-<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<li><span id="huang:2018">Huang, C.-Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Hawthorne, C., Dai, A. M., Hoffman, M. D., &amp; Eck, D. (2018). Music Transformer: Generating music with long-term structure. <i>ArXiv Preprint ArXiv:1809.04281</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="LSTM" /><summary type="html"><![CDATA[This article is the continuation of a series. It is recommended that you read part I and II first. This time we use a recurrent neural network (RNN), more preceisly an LSTM, which I explained a little bit in the introduction. An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.]]></summary></entry><entry><title type="html">Laws of Form</title><link href="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html" rel="alternate" type="text/html" title="Laws of Form" /><published>2023-11-19T00:00:00+01:00</published><updated>2023-11-19T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/11/19/laws-of-form.html"><![CDATA[<p>In my last blog <a href="/Pages/2023/10/07/system-theory-and-ai.html">post</a>, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations.
+My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences.
+What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
+However, any observer is itself a distinction between system and environment.
+I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
+So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+
+<h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
+
+<p>As mentioned, Luhmann’s theory is based on paradoxes such as</p>
+
+<blockquote>
+  <p>This statement is wrong.</p>
+</blockquote>
+
+<p>The statement is logically problematic because it is self-referential. 
+If the statement is false, it states that it is in fact true and if the statement is true, it states that it is false.
+Another famous paradox is Russell’s antinomy of the naïve set theory:</p>
+
+\[R := \left\{ x \ | \ x \not\in x \right\}.\]
+
+<p>\(R\) is the set of all sets that do not contain themselves which seems to be a well-defined mathematical object.
+However, if we introduce the self-referential relation, we run into a paradox:</p>
+
+<p>\begin{equation} 
+R \in R \iff R \not\in R
+\end{equation}</p>
+
+<p>This paradox is related to the barber that shaves everyone that does not shave themselves.
+If that is the case, does the barber shave themselves?</p>
+
+<p>Another example involves the the proof of the <a href="/Pages/2021/06/08/Informatics-a-love-letter.html">Halting Problem</a>.
+To prove it, one can establish a self-referential relation between a machine that presumable solves the Halting Problem.
+The machine does not halt if the machine it checks halts, and it halts if the machine it checks does not halt.
+Via the self-referential relation, that is, by letting the machine check itself, we get a contradiction.</p>
+
+<p>The idea of Spencer-Brown is to resolve these paradoxes over time.
+\(R \in R\) holds at one moment in time and \(R \not\in R\) holds at the next moment.
+Note however that he does not resolve Russell’s antinomy <a class="citation" href="#cull:1979">(Cull &amp; Frank, 1979)</a>.
+His idea of resolving paradoxes over time is reminiscent of the Hegelian dialectic—a process of self-creation.
+The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
+
+<p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
+
+<p>Luhmann integrated this idea into his social systems theory.
+For example, the media can observe and reintroduce itself into itself. 
+It can use its systemic operations on itself, i.e. it can report on itself.</p>
+
+<p>Spencer-Brown begins his work by a quote from Lao-Tse (a stand-in for many different authors) thus begins by philosophical considerations:</p>
+
+<blockquote>
+  <p>Wu ming tain di zhi shi. – Loa-Tse</p>
+</blockquote>
+
+<p>The sentence has mainly two different meanings.
+One is:</p>
+
+<blockquote>
+  <p>The beginning of heaven and earth is without a name.</p>
+</blockquote>
+
+<p>The other one is:</p>
+
+<blockquote>
+  <p>‘Nothing’ is the name of the beginning of heaven and earth.</p>
+</blockquote>
+
+<p>A paradox arises: How can Nothing be nothing if we can call it ‘Nothing’?
+Furthermore, the quote points to a distinction between heaven and earth.
+Can there be heaven without earth—a <em>calling</em> or <em>indication</em> without a <em>distinction</em>?
+Spencer-Brown begins by the assumption that there is no such thing:</p>
+
+<blockquote>
+  <p>We take the idea of distinction and the idea of indication and that we cannot make an indication without making a distinction as given.
+Therefore, we take the form of distinction as the form itself. – Georg Spencer-Brown</p>
+</blockquote>
+
+<p>In other words, what we normally identify as object (the form / system) is for Spencer-Brown equal to the distinction (system-environment differentiation).
+There is no clear separation between the object or the result of distinction and the process of distinguishing.
+Therefore, the process must be integrated into Spencer-Brown’s logic and as we will see, there is no clear separation between objects and operations in Spencer-Browns calculus.
+Spencer-Brown thinks that differentiation is a proto-operation that is more fundamental than performing calculations or writing text because to do these activities we have to differentiate beforehand.
+I cannot calculate 1 + 1 = 2 without distinguishing between the different symbols and a symbol and ‘nothing’ or the void.</p>
+
+<p>Spencer-Brown uses the mark or cross (result) which at the same time marks (process).
+The mark is, calls, and makes a difference.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/mark.png" alt="The mark." /></div>
+<p><br /></p>
+
+<p>There is an interior of the mark and not the interior—the system and its environment.
+I can make a distinction again (repetition):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/calling.png" alt="The calling." /></div>
+<p><br /></p>
+
+<p>But making a distinction again does not change the distinction.</p>
+
+<blockquote>
+  <p>Calling something back-to-back by its name does not change its name. – Spencer-Brown</p>
+</blockquote>
+
+<p>The reverse is also true; therefore, Spencer-Brown introduces the <em>Law of Calling</em>:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-calling.png" alt="Law of Calling." /></div>
+<p><br /></p>
+
+<p>The second transformation called <em>Law of Crossing</em> is less intuitive.
+Crossing twice reverses the first crossing.</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/law-of-crossing.png" alt="Law of Crossing." /></div>
+<p><br /></p>
+
+<blockquote>
+  <p>If a boundary is crossed twice, the original state will be reestablished.
+The repetition of the crossing has a different value than the single crossing.
+The reason is that in-between the reversal happens.
+Crossing changes the side.
+Re-crossing reverses this operation. – Spencer-Brown</p>
+</blockquote>
+
+<p>With only these two laws, Spencer-Brown established a logic calculus and we can start doing mathematics.
+Interestingly, the <em>Law of Crossing</em> and the <em>Law of Calling</em> are implicitly established via the position of the marks.
+There is no operator introduced because the result and process, indication and differentiation, the mark and the process of marking are not separated.</p>
+
+<p>Let’s see what we can do with this calculus.
+Let \(a, b\) variables, then the following holds:</p>
+
+<p><br /></p>
+<div><img style="height:230px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformations.png" alt="Transformations." /></div>
+<p><br /></p>
+
+<p>Let’s have a look at the last transformation.
+Let us assume \(a\) is a <strong>mark</strong>.
+Then we get:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-1.png" alt="First possibility." /></div>
+<p><br /></p>
+
+<p>Let \(a\) be <strong>unmarked</strong> instead, then we can follow:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/transformation-2.png" alt="Second possibility." /></div>
+<p><br /></p>
+
+<h2 id="the-re-entry">The Re-Entry</h2>
+
+<p>How can we re-introduce the system (here an equation) into itself?
+Or in other words: How does the <em>re-entry</em> work?
+We can start by a simple self-referential algebraic equation:</p>
+
+<p>\begin{equation}
+x^2 = ax + b, \quad a, b \in \mathbb{R}.
+\end{equation}</p>
+
+<p>This equation has well-known solutions. 
+It is also known that solutions can be imaginary, i.e., \(x\) might be of the for \(r + si\) with \(r, s \in \mathbb{R}$ and $i^2 = -1\).
+To see the re-entry, we can rewrite the equation above to get</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}</p>
+
+<p>thus the self-reference is obvious and we solve the equation by the re-entry</p>
+
+<p>\begin{equation}
+x = a + b/(a +b/(a+b/(a+b/a+b/(a + \ldots)))).
+\end{equation}</p>
+
+<p>Using this infinite formalism it is literally the case that</p>
+
+<p>\begin{equation}
+x = a + b/x,
+\end{equation}
+holds.
+Using the same formalism, we can define the imaginary number \(i = -1/i\) as literally</p>
+
+<p>\begin{equation}
+i = -1 /(-1 /(-1 / (-1 / \ldots )))
+\end{equation}</p>
+
+<p>but what does this mean?
+The system is not a number but a process, a generator that generates itself.
+\(i\) alternates between 1 and -1.
+Interestingly, this is precisely how we use the equal sign in most programming languages.
+Writing <code class="language-plaintext highlighter-rouge">i = i / -1</code> in a programming language means</p>
+
+<p>\begin{equation}
+i \leftarrow \frac{i}{-1}.
+\end{equation}</p>
+
+<p>The next step is to introduce such a re-entry into logic.
+Similar to the imaginary number \(i\), Spencer-Brown gives us the following fundamental paradox (<em>The Re-Entry of the Mark</em>):</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j.png" alt="Imaginary truth value." /></div>
+<p><br /></p>
+
+<p>The solution is an alternation between a marked and unmarked state—between true and false.
+A state that might seem contradictory in space, makes sense if it is observed in time and space.
+Again, time resolves the paradox.
+To highlight the re-entry, Spencer-Brown also uses the following notation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-2.png" alt="Notation of the re-entry." /></div>
+<p><br /></p>
+
+<p>We could similarily notate \(i\) as</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/i-2.png" alt="Notation of the re-entry for the imaginary number." /></div>
+<p><br /></p>
+
+<p>If we change <strong>all</strong> symbols within a system equally, there is no reason not to calculate with a self-generating process.
+For example, we can state the following:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/j-calculations.png" alt="Calculating with the re-entry." /></div>
+<p><br /></p>
+
+<p>However, it is forbidden to only change one appearance of \(J\)!
+Following this simple rule, no paradox or inconsistency arises.
+We can go on and evaluate the following transformation:</p>
+
+<p><br /></p>
+<div><img style="height:30px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/wave.png" alt="Wave equation." /></div>
+<p><br /></p>
+
+<p>which describes two alternating waves shifted by one cycle resulting in a mark.</p>
+
+<p>Spencer-Brown goes on and defines his <em>Echelon</em>:</p>
+
+<p><br /></p>
+<div><img style="height:35px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon.png" alt="Echelon." /></div>
+<p><br /></p>
+
+<p>which can be transformed into</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-transformation.png" alt="Echelon transformation." /></div>
+<p><br /></p>
+
+<p>thus gives us the re-entry</p>
+
+<p><br /></p>
+<div><img style="height:40px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<p>or</p>
+
+<p><br /></p>
+<div><img style="height:43px;display:block; margin-left:auto; margin-right:auto; " src="/Pages/assets/images/laws-of-form/echelon-equation-2.png" alt="Echelon equation." /></div>
+<p><br /></p>
+
+<h2 id="final-words">Final Words</h2>
+
+<p>In the act of programming there is no problem of using expressions such as</p>
+
+<p>\begin{equation}
+i \leftarrow i + 1 \quad  \text{ or } \quad a  \leftarrow f(a)
+\end{equation}</p>
+
+<p>but in mathematics—at least since Plato—we assume some sort of eternity.
+Of course, we can translate between the static world of “normal” mathematics and Spencer-Brown’s dynamic viewpoint, but it is a different viewpoint which might influence how we observe our environment.
+It is like in physics where multiple theories are equivalent but start from very different viewpoints.
+It starts by differentiation which gets reintroduced into the system which is constructed by this very same differentiation.
+To generate new numbers, such as irrational or transfinite numbers, Spencer-Brown proposes not to use the limit but the whole infinite process that defines such limit.</p>
+
+<p>Spancer-Brown beliefed that to be able to master the transition to new signs, something is necessary for which the previous signs are not sufficient.
+To be able to close this gap; to make this leap successfully; to resolve paradoxes; a specific language of one’s own is necessary. 
+According to Spancer-Brown this step is accomplished by <strong>thinking</strong> which provides us with its specific imaginations, playful freedom and contradictions.</p>
+
+<p>It is surprising that Spencer-Brown’s <em>Laws of Form</em> plays no role in computer science even though it fits quite neatly in the perspective of programs, processes and computation.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). flaws of form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -3137,7 +3539,7 @@ Is social evolution any different?</p>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, there and everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
 <li><span id="nagel:1974">Nagel, T. (1974). What is it like to be a bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li>
 <li><span id="foerster:1988">Foerster, H. (1985). <i>Sicht und Einsicht</i>. Vieweg.</span></li>
-<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - MC and FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - MC and FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
+<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - MC and FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - MC and FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches: (1) A <strong>first-order Markov chain (MC)</strong> and (2) a <strong>feedforward neural network (FNN)</strong></p>
 
@@ -4920,7 +5322,7 @@ I was unable to find the code of their implementation.</p>
 <li><span id="lou:2016">Lou, Q. (2016). <i>Music generation using neural networks</i>. http://cs229.stanford.edu/proj2016/report/Lou-MusicGenerationUsingNeuralNetworks-report.pdf</span></li>
 <li><span id="hadjeres:2018">Hadjeres, G., &amp; Nielsen, F. (2018). Anticipation-RNN: enforcing unary constraints in sequence generation, with application to interactive music generation. <i>Neural Computing and Applications</i>. https://doi.org/10.1007/s00521-018-3868-4</span></li>
 <li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). <i>The piano inpainting application</i>.</span></li>
-<li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music generation using bidirectional recurrent network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
+<li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music generation using bidirectional recurrent network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
 I want to share my current perspective on that astonishing technology.
 Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
 Furthermore, I am not an expert on the issue.
@@ -5359,311 +5761,4 @@ They are reactionary goals of mostly restless minds.</p>
 an education system that asks questions instead of repeating answers;
 an education system that is interested in making the experience of everyone richer and more sustainable.</p>
 
-<p>Teachers, who are often overworked and underpaid, need support to achieve such a shift.</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="AI" /><summary type="html"><![CDATA[At the moment, everyone in the sphere of AI is talking about OpenAI’s new invention: ChatGPT. I want to share my current perspective on that astonishing technology. Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. Furthermore, I am not an expert on the issue. I have a limited teaching experience within a certain community. In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.]]></summary></entry><entry><title type="html">Probabilistic Melody Modeling</title><link href="https://bzoennchen.github.io/Pages/2022/07/09/markov-chains-for-music-generation.html" rel="alternate" type="text/html" title="Probabilistic Melody Modeling" /><published>2022-07-09T00:00:00+02:00</published><updated>2022-07-09T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2022/07/09/markov-chains-for-music-generation</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/07/09/markov-chains-for-music-generation.html"><![CDATA[<p>One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody.
-But what makes a good melody?
-Or, in a more <em>generative</em> sense:</p>
-
-<blockquote>
-  <p>How can we generate a beautiful melody algorithmically?</p>
-</blockquote>
-
-<p>Because a melody can be seen as a series of numbers, it is not surprising that this question is a rather old one.
-Long before the digital computer, composers tried to constrain themselves by strategies and rules to limit the space of possibilities.
-In my opinion, limitations are necessary for a creative process.</p>
-
-<blockquote>
-  <p>If we can create everything, we become unable to express anything.</p>
-</blockquote>
-
-<p>Therefore, it makes sense to invent rules that limit our possibilities.</p>
-
-<h2 id="surprise-repetition-and-expectation">Surprise, Repetition and Expectation</h2>
-
-<p>One general consensus is that a good melody balances repetition and surprise.
-If we can no longer recognize a structure and cannot guess what might be the following note or chord, a melody begins to lose its ability to transport emotion; it can no longer tell a story.
-On the other hand, if the melody is too repetitive, we get bored because the <em>guessing game</em> is too simple.</p>
-
-<p>Computer scientists know the relation between surprise and repetition very well.
-We call it <em>entropy</em>.
-I will discuss the formal definition of <em>entropy</em> in another article.
-For now, it is only vital that entropy is a measure of surprise in a message we receive (on a purely syntactical level).
-For example, the result <em>heads</em> of a coin toss of a fair coin is less surprising than the result <em>heads</em> of a coin that is biassed towards <em>tails</em>.
-If an event is unlikely, its appearance is surprising.</p>
-
-<p>Concerning the coin toss example, a message consists of multiple coin toss results.
-Let’s say 0 represents <em>heads</em>, and 1 represents <em>tails</em>, then 010111 is a message.
-The <em>entropy of a message</em> is a measure of how surprising it is to appear in a system that generates messages.
-To compute the <em>entropy of a system</em> that generates messages of length $n$, we sum up all surprises of each possible message of length $n$ and divide the result by $n$.
-For example, for an unbiased coin, the messages 00, 01, 10, and 11 appear with equal probability, i.e., $1/4$.
-The entropy is</p>
-
-<p>\begin{equation}
-\frac{-1/4 \cdot \log_2(1/4) \cdot 4}{4} = 1.
-\end{equation}</p>
-
-<p>Let us compare this with a biased coin.
-So let us assume <em>heads</em> has probability $0.2$ and <em>tails</em> has probability $0.8$, then we have 00 with probability $0.2^2 = 0.04$, 01 and 10 with probability $0.2 \cdot 0.8 = 0.16$ and 11 with probability $0.8^2 = 0.64$.
-Consequently, we get</p>
-
-<p>\begin{equation}
-\frac{-0.04 \cdot \log_2(0.04) -2 \cdot 0.16 \cdot \log_2(0.16) -0.64 \cdot \log_2(0.64)}{4} \approx 0.361.
-\end{equation}</p>
-
-<p>One could say the second system is less surprising to observers;
-it is more repetitive.
-In <em>information theory</em> we say the second system generates less information, but the term <em>information</em> can be misleading because it has nothing to do with <em>meaning</em>.
-From this perspective, a bunch of random numbers is regarded as more informative than a book.</p>
-
-<p>In 1948 Claude E. Shannon established <em>A mathematical theory of information</em> <a class="citation" href="#shannon:1948">(Shannon, 1948)</a>.
-He established the term <em>entropy</em> as a measurement of information, but he emphasized its limitation to syntax:</p>
-
-<blockquote>
-  <p>Frequently, the messages have meaning; that is, they refer to or are correlated according to some system with certain physical or conceptual entities. These semantic aspects of communication are irrelevant to the engineering problem. The significant aspect is that the actual message is one selected from a set of possible messages. The system must be designed to operate for each possible selection, not just the one which will actually be chosen since this is unknown at the time of design. – Claude E. Shannon</p>
-</blockquote>
-
-<p>Even though there is no direct relation between <em>entropy / information</em> and <em>meaning</em>, we can look at extreme cases.
-If the entropy is very high (chaos) or very low (no information), a message will likely be meaningless to us, even subjectively.
-If we interpret a series of notes as a musical message, this statement is true in a musical context.
-We can apply the frequentist perspective, i.e., interpret frequencies as probabilities.
-We could generate melodies randomly and pick those within a predefined <em>entropy range</em> to achieve a balance between surprise and repetition.</p>
-
-<p>However, a far better measurement, with regards to music, is <em>expectation</em> in the time domain.
-Music indicates no concepts or objects but more music that is about to happen.
-Good music has to <em>make sense</em>.
-It can disrupt our model of the world but not too much, such that we can adapt our model.
-I refer to our <em>model of the world</em> as <em>interpretation</em>; we are all <em>interpreters</em> of our perceptions.
-In that sense, actively listening to music is a process of constant <em>model adaptation</em>; the interpretation changes if something can not be interpreted.</p>
-
-<p>Maybe that is, in fact, the key to the definition of <em>meaning</em> in general.
-Some observation is meaningful if it makes sense, and it can only make sense if we are able to adapt our <em>interpretation</em> in such a way that our observation fits in.
-This adaptation disrupts us; 
-it changes our predictions.
-If it is marginal, we avoid losing ourselves because most predictions are still valid.
-But if the disruption attacks the very essence of our constructed self, we can no longer make sense of it.</p>
-
-<blockquote>
-  <p>Embodied musical meaning is […] a <em>product of expectation</em> – Leonard Meyer (1959)</p>
-</blockquote>
-
-<p>Musical cognition implies the simultaneous recognition of a permanent and changeable element <a class="citation" href="#loy:2006">(Loy, 2006)</a>; it requires perception and memory.
-We have to perceive and compare pitches at the same time.
-The expectation is realized for different scales but has to be local and context-sensitive within the computation.
-Therefore, it is not only the distribution of notes (or rhythmic elements) within a composition but the distribution of their relation, i.e., their <em>conditional probability distribution</em>.</p>
-
-<h2 id="from-serialism-to-probabilty">From Serialism to Probabilty</h2>
-
-<p>One way to generate melodies is to use the mathematical branch of combinatorics.
-The idea is simple: define a bunch of chords or notes that fit together and use permutation, rotation, and other combinatoric tricks to combine them.
-This kind of composition method belongs to <em>serialism</em>.
-However, the problem with this approach is that each note appears with equal probability; it neglects the importance of distributions and context.
-Consequently, the <em>melody’s entropy</em> is high.</p>
-
-<p>In the 20th century, this approach was criticized by, for example, <em>Iannis Xenakis</em>.</p>
-
-<blockquote>
-  <p>Linear polyphony destroys itself by its very complexity; what one hears is, in reality, nothing but a mass of notes in various registers. The enormous complexity prevents the audience from following the intertwining of the lines and has as its macroscopic effect an irrational and fortuitous dispersion of sounds over the whole extent of the sonic spectrum. There is consequently a contradiction between polyphonic linear systems and the heard result, which is surface or mass. – <em>Iannis Xenakis</em> (1955)</p>
-</blockquote>
-
-<p>He and his fellow critics pointed at the lack of orientation.
-They argued that generating melodies by a series of notes that can appear equally likely, results in a sound without structure, thus a disengaged audience.</p>
-
-<p>Influenced by the development in quantum physics at that time (1971) and the isomorphism between the <em>Fourier series</em> and <em>quantum analysis of sound</em>, <em>Xenakis</em> believed that the listener experiences only the statistical aspects of serial music.
-Consequently, he reasoned that composers should switch from serial techniques to probability. 
-And as a logical step, he drew his attention to the computer.</p>
-
-<blockquote>
-  <p>With the aid of electronic computers, the composer becomes a sort of pilot: he presses the buttons, introduces coordinates, and supervises the controls of a cosmic vessel sailing in the space of sound across sonic constellations and galaxies that he could formerly glimpse only as a distant dream. – <em>Iannis Xenakis</em> (1971)</p>
-</blockquote>
-
-<h2 id="markov-chains">Markov Chains</h2>
-
-<p>Let us now dive into a first attempt to generate melodies that incorporates probability and, as a consequence, expectation.
-The mathematical tool is called <em>Markov chain</em>.</p>
-
-<p>A <em>first-order Markov chain</em> is a deterministic finite automaton where for each state transition, we assign a probability such that the sum of probability of all exiting transitions of each state sum up to 1.0.
-In other words, a <em>first-order Markov chain</em> is a directed graph where each node represents a state.
-We start with an initial node and traverse the graph probabilistically to generate an output.</p>
-
-<p>In the following figure, you can see a <em>first-order Markov chain</em>.
-One starts in the state <code class="language-plaintext highlighter-rouge">A</code> and transits to <code class="language-plaintext highlighter-rouge">B</code> with a probability of 0.2 or <code class="language-plaintext highlighter-rouge">C</code> with a probability of 0.8.
-<code class="language-plaintext highlighter-rouge">D</code> is a final state.
-A possible series of states would be: <code class="language-plaintext highlighter-rouge">ABCCACD</code></p>
-
-<div><img style="height:300px;float:right" src="/Pages/assets/images/markov-chain-ex1.png" alt="Markov Chain Example" /></div>
-
-<p>Given state <code class="language-plaintext highlighter-rouge">A</code>, the probability of moving to state <code class="language-plaintext highlighter-rouge">B</code> is equal to 0.2.
-In other words</p>
-
-<p>\begin{equation}
-P(X_{k+1} = B\ |\ X_{k} = A) = 0.2.
-\end{equation}</p>
-
-<p>A <em>first-order Markov chain</em> only considers <strong>one</strong> predecessor, i.e., only the most local part of the context.
-A <em>\(n\)-order Markov chain</em> does consider \(n\) predecessors. In general, we define</p>
-
-<p>\begin{equation}
-P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
-\end{equation}</p>
-
-<p>The visualization of such a chain is a little bit more complicated.</p>
-
-<h2 id="music-generation">Music Generation</h2>
-
-<p>We can generate a composition by traversing the graph if we represent our notes by states of a <em>Markov chain</em>.
-If we increase the order of the chein, i.e. \(n\), the entropy decreases for small \(n\).</p>
-
-<p>Until now, I only tried to use and generate a <em>first-order Markov chain</em>.
-Even though I am not that familiar with <code class="language-plaintext highlighter-rouge">Ruby</code>, I used <a href="https://sonic-pi.net/">Sonic Pi</a> for this task such that I can play around with it directly within the IDE of Sonic Pi.
-I decided to define a note as a tuple (list) consisting of the pitch and the length of the note.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">:c4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">]</span> <span class="c1"># a c of length 1/8 beat </span>
-</code></pre></div></div>
-
-<p>Instead of a graph, I use a transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
-Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
-The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
-
-<p>After constructing the <code class="language-plaintext highlighter-rouge">matrix</code> \(P\), the <code class="language-plaintext highlighter-rouge">states</code> \(Q\) and picking a <code class="language-plaintext highlighter-rouge">start</code> (state number), the following function generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code>.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_mmelody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">states</span><span class="o">|</span>
-  <span class="c1">#</span>
-  <span class="c1"># Generates a random melody of length n based on a transition matrix</span>
-  <span class="c1"># and an initial statenumber (start).</span>
-  <span class="c1">#</span>
-  <span class="n">notes</span> <span class="o">=</span> <span class="p">[</span><span class="n">states</span><span class="p">[</span><span class="n">start</span><span class="p">]]</span>
-  <span class="n">from</span> <span class="o">=</span> <span class="n">start</span>
-  <span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">).</span><span class="nf">times</span> <span class="k">do</span>
-    <span class="nb">p</span> <span class="o">=</span> <span class="n">rrand</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-    <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">to_row</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">]</span>
-    <span class="n">to</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">while</span> <span class="n">sum</span> <span class="o">&lt;</span> <span class="nb">p</span>
-      <span class="n">sum</span> <span class="o">+=</span> <span class="n">to_row</span><span class="p">[</span><span class="n">to</span><span class="p">]</span>
-      <span class="n">to</span> <span class="o">+=</span> <span class="mi">1</span>
-    <span class="k">end</span>
-    <span class="n">notes</span> <span class="o">+=</span> <span class="p">[</span><span class="n">states</span><span class="p">[</span><span class="n">to</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span>
-    <span class="n">from</span> <span class="o">=</span> <span class="n">to</span><span class="o">-</span><span class="mi">1</span>
-  <span class="k">end</span>
-  <span class="k">return</span> <span class="n">notes</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<p>For each note, we roll the dice.
-Let’s say \(p \in [0;1]\) is our result.
-And \(q_i\) is our current state.
-Then we compute \(j\) such that</p>
-
-<p>\begin{equation}
-\sum\limits_{k=1}^{j-1} p_{ij} &lt; p \leq \sum\limits_{k=1}^{j} p_{ij}.
-\end{equation}</p>
-
-<p>Note that the code is not optimized in any way.</p>
-
-<h2 id="learning-a-markov-chain">Learning a Markov Chain</h2>
-
-<p>Instead of generating a melody or rhythm given a <em>Markov chain</em>, we can do the reverse.
-Given a melody, we can <em>learn</em> the <em>Markov chain</em> that <strong>most likely</strong> would generate the given melody.
-By doing so, we can then use the <em>learned chain</em> to generate music in a similar style.</p>
-
-<p>Let us use the same transition matrix \(P \in \mathbb{R}^{m \times m}\) where \(m\) is the number of states/notes.
-Let \(Q = \{q_1, \ldots, q_m\}\) be the set of states/notes.
-The entry of row \(i\) and column \(j\), i.e., \(p_{ij}\) is the probability of going from state \(q_i\) to state \(q_j\).</p>
-
-<p>Furthermore, let us define our set of all possible melodies \(M \subseteq Q^n\) of length \(n\).
-Then a specific melody \(\mathbf{m} = (m_1, \ldots, m_n) \in M\) is a tuple (list) of notes:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">notes</span> <span class="o">=</span> <span class="p">[[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">8</span><span class="p">],</span> <span class="p">[</span><span class="ss">:a4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="ss">:g4</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">/</span><span class="mi">4</span><span class="p">],</span> <span class="o">...</span> <span class="p">]</span>
-</code></pre></div></div>
-
-<p>We can compute the most likely \(P\) by computing each entry of it where \(p_{ij}\) is equal to</p>
-
-<p>\begin{equation}
-p_{ij} = \frac{n_{ij}}{n_i}
-\end{equation}</p>
-
-<p>where \(n_{ij}\) is the number of transitions from \(q_i\) to \(q_j\) within \(\mathbf{m}\) and \(n_i\) is the number of transition starting at \(q_i\).</p>
-
-<p>Given \(Q\) <code class="language-plaintext highlighter-rouge">states</code> and \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code> the following function computes \(P\) <code class="language-plaintext highlighter-rouge">matrix</code>.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:gen_markov_matrix</span> <span class="k">do</span> <span class="o">|</span><span class="n">states</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
-  <span class="c1">#</span>
-  <span class="c1"># Generates the transition matrix based on the set of notes (states)</span>
-  <span class="c1"># and a given piece of music (notes).</span>
-  <span class="c1">#</span>
-  <span class="n">matrix</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-  
-  <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">matrix</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="no">Array</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-  <span class="k">end</span>
-  
-  <span class="c1"># (1) count transitions</span>
-  <span class="k">for</span> <span class="n">i</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">notes</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-    <span class="k">for</span> <span class="n">from</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-      <span class="k">for</span> <span class="n">to</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">notes</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">states</span><span class="p">[</span><span class="n">from</span><span class="p">]</span> <span class="o">&amp;&amp;</span> <span class="n">notes</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="n">states</span><span class="p">[</span><span class="n">to</span><span class="p">]</span>
-          <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">][</span><span class="n">to</span><span class="p">]</span> <span class="o">+=</span> <span class="mf">1.0</span>
-        <span class="k">end</span>
-      <span class="k">end</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
-  <span class="c1"># (2) normalize</span>
-  <span class="k">for</span> <span class="n">from</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-    <span class="n">s</span> <span class="o">=</span> <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">].</span><span class="nf">sum</span>
-    <span class="k">for</span> <span class="n">to</span> <span class="k">in</span> <span class="mi">0</span><span class="o">..</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
-      <span class="n">matrix</span><span class="p">[</span><span class="n">from</span><span class="p">][</span><span class="n">to</span><span class="p">]</span> <span class="o">/=</span> <span class="n">s</span>
-    <span class="k">end</span>
-  <span class="k">end</span>
-  <span class="n">print_matrix</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">states</span>
-  <span class="k">return</span> <span class="n">matrix</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<p>Of course, we can easily compute \(Q\) <code class="language-plaintext highlighter-rouge">states</code> from \(\mathbf{m}\) <code class="language-plaintext highlighter-rouge">notes</code>.
-Finally, the following function takes a number <code class="language-plaintext highlighter-rouge">n</code> and a melody <code class="language-plaintext highlighter-rouge">notes</code> and generates a random melody of length <code class="language-plaintext highlighter-rouge">n</code> by <em>learning</em> \(P\) based on <code class="language-plaintext highlighter-rouge">notes</code>.</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">define</span> <span class="ss">:markov_melody</span> <span class="k">do</span> <span class="o">|</span><span class="n">n</span><span class="p">,</span> <span class="n">notes</span><span class="o">|</span>
-  <span class="n">states</span> <span class="o">=</span> <span class="n">notes</span><span class="p">.</span><span class="nf">uniq</span>
-  <span class="n">matrix</span> <span class="o">=</span> <span class="n">gen_markov_matrix</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">ring</span><span class="p">,</span> <span class="n">notes</span><span class="p">.</span><span class="nf">ring</span><span class="p">)</span>
-  <span class="k">return</span> <span class="n">gen_mmelody</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">matrix</span><span class="p">,</span> <span class="n">rand_i</span><span class="p">(</span><span class="n">states</span><span class="p">.</span><span class="nf">length</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">states</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h2 id="example">Example</h2>
-
-<p>I use the beginning of Bach’s Minuet in G.</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/bach-ex1.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<p>I generate two melodies (by using a different seed) consisting of 34 notes:</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/markov-bach-ex1.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/markov-bach-ex2.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<p>Of course, this sound is not that musical.
-The rhythm is all over the place, but we recognize the original composition.
-Furthermore, no one said we have to stop there.
-We can continue to generate until we find something that sticks.
-Furthermore, this example is straightforward because I only use the beginning of <strong>one</strong> piece.
-Instead, we could use multiple compositions that fit together.</p>
-
-<h2 id="code">Code</h2>
-
-<p>This project was part of our workshop <em><a href="/Pages/2022/06/21/creative-artifical-intelligence.html">AI and Creativity</a></em> to show a basic example of using <em>artificial intelligence</em> to generate music.</p>
-
-<p>You can find the full example containing two different melodies on my <a href="https://github.com/BZoennchen/workshop-creative-ai">GitHub page</a>.
-The code include some additional functions, e.g., a function that prints out the <em>Markov matrix</em> in a readable format.</p>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
-<li><span id="loy:2006">Loy, G. (2006). <i>Musimathics: The Mathematical Foundations of Music</i> (Vol. 1). MIT Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="Sonic-Pi" /><category term="AI" /><summary type="html"><![CDATA[One of the most challenging tasks in building a beautiful piece of music lies in composing a well-received melody. But what makes a good melody? Or, in a more generative sense:]]></summary></entry></feed>
+<p>Teachers, who are often overworked and underpaid, need support to achieve such a shift.</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="AI" /><summary type="html"><![CDATA[At the moment, everyone in the sphere of AI is talking about OpenAI’s new invention: ChatGPT. I want to share my current perspective on that astonishing technology. Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. Furthermore, I am not an expert on the issue. I have a limited teaching experience within a certain community. In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.]]></summary></entry></feed>
