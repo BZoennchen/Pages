@@ -30,11 +30,8 @@ Especially the situation in Palestine is extremely hard swallow without being ov
 Here the moral dichotomy shows its face.
 It is so dangerous because to defead absolute evil everything is permitted.
 
-Perhaps it's time to shift our perspective from judging individuals as good or evil to evaluating systems as either *functional* or *dysfunctional*. 
-Instead of moralizing, we could focus on understanding the underlying structures and processes that contribute to societal challenges.
-As a wise man once said:
-
->Don't blame the people, blame the system.
+I have the luxury to shift my perspective from judging individuals as good or evil to evaluating systems as either *functional* or *dysfunctional*.
+Instead of moralizing, I can try to focus on understanding the underlying structures and processes that contribute to societal challenges.
 
 Thinking in terms of systems brings a certain relief from the confusion and frustration of modern life.
 It helps to lessen anger and bewilderment about why our *life-world* and the decisions made within it often seem so irrational or even absurd.
