@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Why Machines (Probably) Do Not Think"
-tags: 
-    - Opinion 
+tags:
     - Social Systems Theory
     - AI
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creative Artificial Intelligence"
-tags: Opinion AI
+tags: AI
 comments: true
 ---
 

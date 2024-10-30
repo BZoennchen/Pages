@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Escaping the Reality of the Climate Crisis?"
-tags: 
-    - Opinion 
+tags:
     - Social Systems Theory
     - Conspiracy Theories
+    - Climate Crisis
 ---
 
 Diverging from my area of expertise is always a risky endeavor, but since this is a blog and not a scientific journal, I’m giving myself the liberty to explore and have fun with different ideas (even if the topic is depressing). 

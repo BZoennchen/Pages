@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Informatics - A Love Letter"
-tags: Opinion
 comments: true
 ---
 

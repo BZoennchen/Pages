@@ -8,7 +8,7 @@ permalink: /about/
 
 Welcome, everyone! 
 I'm Benedikt.
-Currently, I am working as a Postdoc in the field of applied machine learning.
+Currently, I am working as a researcher in the field of applied machine learning.
 I am especially interested in the effect of artificial intelligence on society (education, art, communication).
 [Munich Center for Digital Science and AI](https://mucdai.hm.edu/index.de.html) which is part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
 

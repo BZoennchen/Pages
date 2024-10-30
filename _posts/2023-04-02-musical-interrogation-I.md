@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Musical Interrogation I - Intro"
-tags: Opinion Music MC HMM RNN
+tags: Music MC HMM RNN
 comments: true
 series: "Musical Interrogation"
 ---

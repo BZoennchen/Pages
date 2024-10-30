@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Disruption of Education"
-tags: Opinion AI
+tags: AI
 comments: true
 ---
 
