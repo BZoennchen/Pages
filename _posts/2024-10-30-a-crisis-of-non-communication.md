@@ -14,6 +14,8 @@ Examples of this crazyness and brutality are the U.S. election, the catastrophic
 How can and how should we make sense of the seemingly senseless?
 Or shouldn't we try to graps ongoing and possible future disasters?
 
+## Beyond Good and Evil
+
 Clearly, attempting to make sense of complex issues should not be mistaken for rationalization.
 This is an easy trap to fall into, particularly when the topic is heavily charged with moral language, where any effort to explain events can be (willingly) misinterpreted as either justification or condemnation. 
 The framework within which sense-making occurs in such cases often defaults to the age-old binary of good versus evil—arguably the most effective, yet oversimplified, way to reduce complexity. 
@@ -224,7 +226,7 @@ that we are not in control but that society is **out of control**;
 that there is not one objective truth but systemic interpretations;
 and maybe most importantly: that there is no outside of society, no view at the whole because **any indication of something requires a distinction from something else**.
 
-## The Climate Crisis: A Crisis of Non-Communication
+## The Climate Crisis through a Systems Viewpoint
 
 One area where Luhmann's theory seems to make unsettlingly accurate sense is the *climate crisis*---that is, the accelerating destabilization of the climate system.
 We see how Luhmann's framework reveals the challenges of a complex, multi-systemic problem. 
