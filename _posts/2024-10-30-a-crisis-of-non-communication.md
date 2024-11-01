@@ -4,6 +4,7 @@ title: "A Crisis of Communication: Sustainability and Trumpism"
 tags: 
     - Sustainability
     - Social Systems Theory
+    - Politics
 comments: true
 ---
 
@@ -426,7 +427,7 @@ Futhermore, by treating power as a form of communication (very different from Fo
 My current opinion is that Luhmann's theory is excellent for the sense-making of society.
 It can even clear the fog for making better intentional decisions but it can not provide us with suggestions of what we should do and if people want to change oppressive systems, they should know and understand their 'adversary'.
 
-## The Treatment of an Illness
+## Treatment of an Illness
 
 In their book *The Tree of Knowledge* {% cite maturana:1987 %} Maturana and Varela very briefly discuss society.
 Unlike cells serving the whole organism, a functioning society should prioritize the needs and well-being of the individual.
