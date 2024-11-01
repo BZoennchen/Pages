@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Crisis of Non-Communication"
+title: "A Crisis of Non-Communication: Sustainability and Trumpism"
 tags: 
     - Sustainability
     - Social Systems Theory
@@ -241,7 +241,7 @@ that we are not in control but that society is **out of control**;
 that there is not one objective truth but systemic interpretations;
 and maybe most importantly: that there is no outside of society, no view at the whole because **any indication of something requires a distinction from something else**.
 
-## The Climate Crisis through a Systems Viewpoint
+## Part I: The Climate Crisis through a Systems Viewpoint
 
 One area where Luhmann's theory seems to make unsettlingly accurate sense is the *climate crisis*---that is, the accelerating destabilization of the climate system.
 We see how Luhmann's framework reveals the challenges of a complex, multi-systemic problem. 
@@ -322,27 +322,136 @@ This framing can prompt the political system to respond by mobilizing power agai
 These nonlinear and indirect effects, often amplified through feedback loops, illustrate the unpredictable and uncontrollable nature of systemic interactions. 
 In Luhmann's terms, feedback loops create complex dynamics within and between systems, making it difficult to foresee or control the outcomes of public reactions, even when intentions are clear.
 
+## Part II: The U.S. Election
+
+Luhmann does not oppose elections, but he challenges the common assumption that they express *the will of the people*. 
+This skepticism follows directly from his understanding of society as an uncontrollable network of interdependent social systems, each operating according to its own logic. 
+Society, in Luhmann's view, evolves organically---like a self-reproducing system---and cannot be directly steered or micromanaged by politics.
+
+Politics, in this context, plays a specific role: it makes collectively binding decisions.
+Yet these decisions must then be processed and implemented by other systems.
+For instance, the legal system creates laws to enforce political decisions, while the economy and even religion may shape how these decisions are interpreted and realized in practice.
+
+Consider the example of childbirth. 
+How do different social systems contribute to this event? 
+The political system might legislate that abortion is legal, but religious beliefs may influence whether a person opts for or against it. 
+Socio-economic conditions affect whether one can afford to raise a child, and the health system plays a crucial role in medical support. 
+Political decisions matter, but they exist within a web of other systems, each with its own influence, sometimes more decisive than politics itself.
+
+The popular narrative around elections is that they make 'the people' the foundation of all political power. 
+After the election, politicians—servants of the people—are supposed to put the will of the people into action. 
+However, according to Luhmann, the idea that the people are the source of all power in a liberal democracy is a myth. 
+Instead, the people function more as an audience, much like in a talent show, where they get to elect a winner at specific, pre-determined moments, but do not control the larger system. 
+The 'show' of politics is a much larger, self-sustaining system, where politicians, the state, and the voters all play their roles and influence one another, but the system ultimately serves itself.
+
+In democratic politics, the state, politicians, and voters are mutually interdependent, each contributing to the reproduction of the political system. 
+Elections, therefore, are *symbolic procedures* in Luhmann's view.
+They confer legitimacy on the political system by symbolically invoking *the will of the people*, but in reality, such a unified will does not exist.
+Many people abstain from voting, and a significant portion of the population may not be eligible to vote at all.
+
+Moreover, election outcomes are shaped by arbitrary rules---they are contigent
+In the U.S., for example, the popular vote does not directly determine the outcome; instead, the electoral college decides the presidency, often making a few swing states the key deciders. 
+In Germany, government coalitions are typically formed after elections, yet no single voter casts a ballot for the specific coalition that ends up governing.
+These complexities highlight how elections, while significant, are far from a straightforward expression of a unified popular will.
+
+>How did we vote? But did we really vote, or did the people just roll the dice? [...] What individuals actually think, if anything at all, when they mark ballots, remains unknown. This alone suffice not to [...] conceive of public opinion as the general expression of the opinions of individuals. -- {% cite luhmann:2002 %}
+
+Elections seem to achieve the impossible: merging the diverse, individual wills of the people into a singular, cohesive 'general will'.
+For Luhmann, this process is almost magical, as it provides the symbolic foundation upon which liberal democracy rests.
+Elections create the *illusion of unity and consensus*, giving legitimacy to political decisions that, in reality, are based on a highly fragmented and complex societal landscape.
+However, as previously mentioned, Luhmann has no problem with this illusion. 
+In his view, *the miracle of democratic elections* is perfectly acceptable—provided it functions effectively for all involved and helps stabilize the political system.
+
+In fact, the *symbolic power of elections* is essential to maintaining social order, as it grants politics a legitimate mandate without requiring every individual's direct influence on policy decisions. 
+This symbolic function of elections allows the political system to operate independently, without collapsing under the weight of countless individual preferences.
+Elections serve to renew the legitimacy of the political system periodically, preventing it from stagnating, while also setting boundaries within which political decisions are accepted, even by those who disagree with the outcomes.
+
+For Luhmann, it is less important that elections genuinely express a collective will, which he considers a fiction, and more important that they fulfill their function: they create a momentary sense of unity and provide a mechanism for the orderly transition of power seemingly melting the individual will of 'the people' into the general will. 
+As long as elections maintain public confidence in the political process and prevent *systemic breakdown*, they serve their purpose, not by conveying truth but by ensuring continuity. 
+In this sense, elections are not a search for truth but a pragmatic solution to the challenge of political legitimacy in a complex, functionally differentiated society.
+
+Viewing the election as a performance---or as Baudrillard might call it, *hyperreality*---feels particularly fitting for the spectacle that Americans witness during the election weeks. 
+Do these debates between Trump and Biden, or Trump and Harris, genuinely convey new insights or substantive 'truths'? 
+Or are Americans, in many ways, simply the audience to a grand show, swept up in the drama, spectacle, and narrative arcs that these events offer? 
+There is, however, something distinct and potentially perilous about the American context.
+
+In the U.S., the problem for the political system seems to lie in the crumbling illusion of unity and consensus.
+This illusion is increasingly undermined by escalating economic and social inequalities.
+As living conditions deteriorate for many, regardless of who they vote for, it becomes glaringly apparent that there is no singular 'general will' guiding political outcomes. 
+The democratic promise that elections merge the will of the people into collective decisions feels hollow when so many are left feeling unrepresented and disillusioned.
+
+This breakdown makes it clear that those voting for Donald Trump, for example, are not simply misguided or irrational. 
+Many voters feel disconnected from a political system they perceive as indifferent to their realities and struggles.
+As one interviewee put it:
+
+>I agree that Trump is from the billionaire class and that's all he's going to work for.
+>It basically comes down to the lesser of the two evils right now?
+>I think about the four years he was president.
+>In my opinion he's the world's best crime boss.
+>And then you see people posting 'in the arms of Jesus' like 'I was persecuted too', and I think what a bunch of bullcrap.
+>The system is so captured that you need a crime boss to get out of it.
+>If it wasn't Trump I would love to have a working familiy candidate who stands up for the little guy.
+>The middle class, from day one of this United States, has built the United States, and we are the ones that always get shit on.
+
+But there's a second factor at play: a candidate who is so absurd, so obscene, that he disrupts the expected script of political 'producers'. 
+As the interviewee described, Trump is perceived as a *red button*--a tool voters can press to create enough disturbance in the system that it is forced to respond. 
+The level of desperation in the U.S. has become so acute that many are willing to risk an extreme disruption, effectively pushing for an 'over-irritation' of the system, hoping it will provoke meaningful change or even a systemic collapse.
+
+In this way, Trump embodies what Luhmann might call an agent of second-order observation—someone who leverages his own media persona to observe and exploit the expectations of the political system, creating feedback loops that intensify rather than stabilize.
+While Luhmann argued that elections are primarily a symbolic show, the outcomes of this particular show may indeed carry existential significance.
+The stakes are high, and the effects of a Trump victory or defeat could trigger unpredictable reactions. 
+What we are witnessing is both dangerous and volatile, and it exemplifies how systemic irritations--if strong enough---can shake the foundations of even the most stable-seeming structures.
+
+## Criticism of Luhmann's Theory
+
 Luhmann's theory is not immune to criticism, and, by its own logic, it necessarily contains blind spots. 
-As a scientific theory communicated by the science system, it is a theory of society that society produces about itself—a quintessential example of second-order observation.
-The individual---the person, psychic system, and living body we identify as Luhmann---existed only as part of the environment of the social systems he studied. 
-So where is the individual in society? 
-We are we?
-Shouldn't the individual be central to our understanding of social structures and dynamics? 
-Or perhaps there is merit in Luhmann's perspective, which places individuals outside of society.
-From this view, individuals can observe society critically, without being fully subsumed by it, a perspective that may be worth remembering---illuminating an ironic distance that offers neither hope no fear.
+One of the most common criticisms is that Luhmann's theory removes individuals from the core of social analysis.
+By focusing on self-referential systems rather than human actors, Luhmann places individuals in the environment of society, not within it.
+Human agency, emotions, and individual motivations are neglected and the role of intentional human actions and collective decision-making in shaping societal evolution is minimized.
+
+In addition, its theory lacks a normative direction or ethical foundation.
+By avoiding moral or ethical judgments, Luhmann's systems theory does not offer guidance on what should be done, especially concerning social justice, inequality, or human rights.
+His theory seems to be indifferent to power imbalances and fails to address issues of accountability and responsibility within social systems.
+
+Also Luhmann's concept of *operational closure* has been criticized for overemphasizing system autonomy.
+According to those critics, his perspective ignores the deep interdependencies and interconnectedness of social, economic, and political systems.
+They contend that while systems may have unique operations, they are often influenced by each other in ways that Luhmann’s model underestimates.
+Marxist thinkers argue that although Luhmann includes the economic system as one of society's core functional systems, he does not give sufficient attention to the economic forces shaping society, especially those tied to capitalism.
+By focusing primarily on the communication logic of payment/non-payment, Luhmann's theory fails to address the structural inequalities and exploitative dynamics inherent in modern economic systems.
+
+Because Luhmann’s theory emphasizes the self-reproduction of systems, it suggests that systems are largely resistant to intentional change from within.
+This perspective might downplay the role of social movements, activism, and democratic engagement as forces that can drive systemic transformation.
+Futhermore, by treating power as a form of communication (very different from Foucault's approach) within the political system rather than a force that operates across systems, critics argue that his approach obscures how power dynamics influence interactions between systems and shape societal outcomes.
+
+My current opinion is that Luhmann's theory is excellent for the sense-making of society.
+It can even clear the fog for making better intentional decisions but it can not provide us with suggestions of what we should do and if people want to change oppressive systems, they should know and understand their 'adversary'.
 
 ## The Treatment of an Illness
 
+In their book *The Tree of Knowledge* {% maturana:1987 %} Maturana and Varela very briefly discuss society.
+Unlike cells serving the whole organism, a functioning society should prioritize the needs and well-being of the individual.
+Can we bring their humanistic viewpoint in line with Luhmann's theory?
+That would be nice but probably not in the spirit of the author.
+While both views address the organization of society, Maturana and Varela focus on an ideal in which society exists for the benefit of individuals, whereas Luhmann's theory suggests that society, as a system, operates independently of individual well-being.
+We could evaluate societies (accroos time and space) according to the degree they served individual well-being and then learn from the lessons to irritate our society in such a way that it becomes more *functional*, in Maturana and Varela sense of the word.
+However, operationalizing this perspective would face challenges within Luhmann's framework.
+
+As a scientific theory communicated by the science system, it is a theory of society that society produces about itself---a quintessential example of second-order observation.
+The individual---the person, psychic system, and living body we identify as Luhmann---existed only as part of the environment of the social systems he studied. 
+If the individual is not the center of social structures and dynamics, the impossibility of controlled action might give some relief on an individual/personal level.
+Since society is out of control, we are also kind of out of control.
+We can observe society critically from an *ironic distance*, without being fully subsumed by it, a perspective that may be worth remembering---illuminating neither hope no fear.
+
 One of Luhmann's most influential critics, Jürgen Habermas, famously remarked of Luhmann's work:
 
->It’s all wrong, but it has quality.
+>It’s all wrong, but of high quality.
 
-Habermas labeled Luhmann's theory *metabiological*, drawing a comparison to metaphysics and suggesting it extends beyond empirical sociology into abstract structures that some argue make it detached from human agency.
+Habermas labeled Luhmann's theory *metabiological*, drawing a comparison to metaphysics and suggesting it extends beyond empirical sociology into abstract structures that make it detached from human agency.
 This comparison is spot on: Luhmann's theory views society not as a product of individuals' intentions but as an autonomous, complex system very similar to an organism.
 From this perspective, if we are to learn anything valuable from Luhmann, it might be that we should avoid treating society---and, by extension, the climate crisis---as an engineering problem, as something to be 'solved' with a clear-cut plan. 
 Instead, we might approach it more like a chronic condition or complex illness, where we, as doctors, explore, probe, and apply potential treatments without assuming a one-size-fits-all solution. 
 This approach requires continuous adjustment, sensitivity to feedback, and a readiness to adapt to the unexpected outcomes of our actions, reflecting the complex, interdependent nature of the systems we inhabit.
-But, of course, we are not in control!
+But, of course, **we are not in control**!
 
 ## References
 
