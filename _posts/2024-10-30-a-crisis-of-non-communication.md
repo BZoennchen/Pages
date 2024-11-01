@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Crisis of Non-Communication: Sustainability and Trumpism"
+title: "A Crisis of Communication: Sustainability and Trumpism"
 tags: 
     - Sustainability
     - Social Systems Theory
@@ -241,7 +241,7 @@ that we are not in control but that society is **out of control**;
 that there is not one objective truth but systemic interpretations;
 and maybe most importantly: that there is no outside of society, no view at the whole because **any indication of something requires a distinction from something else**.
 
-## Part I: The Climate Crisis through a Systems Viewpoint
+## Part I: A Crisis of Non-Communication
 
 One area where Luhmann's theory seems to make unsettlingly accurate sense is the *climate crisis*---that is, the accelerating destabilization of the climate system.
 We see how Luhmann's framework reveals the challenges of a complex, multi-systemic problem. 
@@ -322,7 +322,7 @@ This framing can prompt the political system to respond by mobilizing power agai
 These nonlinear and indirect effects, often amplified through feedback loops, illustrate the unpredictable and uncontrollable nature of systemic interactions. 
 In Luhmann's terms, feedback loops create complex dynamics within and between systems, making it difficult to foresee or control the outcomes of public reactions, even when intentions are clear.
 
-## Part II: The U.S. Election
+## Part II: A Crisis of Over-Communication
 
 Luhmann does not oppose elections, but he challenges the common assumption that they express *the will of the people*. 
 This skepticism follows directly from his understanding of society as an uncontrollable network of interdependent social systems, each operating according to its own logic. 
