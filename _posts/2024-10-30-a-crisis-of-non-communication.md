@@ -428,7 +428,7 @@ It can even clear the fog for making better intentional decisions but it can not
 
 ## The Treatment of an Illness
 
-In their book *The Tree of Knowledge* {% maturana:1987 %} Maturana and Varela very briefly discuss society.
+In their book *The Tree of Knowledge* {% cite maturana:1987 %} Maturana and Varela very briefly discuss society.
 Unlike cells serving the whole organism, a functioning society should prioritize the needs and well-being of the individual.
 Can we bring their humanistic viewpoint in line with Luhmann's theory?
 That would be nice but probably not in the spirit of the author.
