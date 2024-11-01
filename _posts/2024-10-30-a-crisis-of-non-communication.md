@@ -31,8 +31,8 @@ His perspective allows us to look past personal blame, seeing dysfunction not as
 
 Clearly, attempting to make sense of complex issues should not be mistaken for rationalization.
 This is an easy trap to fall into, particularly when the topic is heavily charged with moral language, where any effort to explain events can be (willingly) misinterpreted as either justification or condemnation. 
-The framework within which sense-making occurs in such cases often defaults to the age-old binary of good versus evil—arguably the most effective, yet oversimplified, way to reduce complexity. 
-This moral framing gives us a manageable lens through which to view the world, but it risks obscuring deeper systemic dynamics and can hinder genuine understanding of the complex interactions at play.
+The framework within which sense-making occurs in such cases often defaults to the age-old binary of good versus evil---arguably the most effective, yet oversimplified, way to reduce complexity. 
+This moral framing gives us a manageable lens through which to view the world, but it also makes as blind for a more nuanced perspective, risks obscuring deeper systemic dynamics and can hinder genuine understanding of the complex interactions at play.
 As a German comedian once said:
 
 >If you know who is the devil, your day is already well-structured.
@@ -45,17 +45,19 @@ It is so dangerous because to defead absolute evil everything is permitted.
 
 I have the luxury to shift my perspective from judging individuals as good or evil to evaluating systems as either *functional* or *dysfunctional*.
 Instead of moralizing, I can try to focus on understanding the underlying structures and processes that contribute to societal challenges.
+Someone directly affected by these conflicts probably cannot.
 
 Thinking in terms of systems brings a certain relief from the confusion and frustration of modern life.
 It helps to lessen anger and bewilderment about why our *life-world* and the decisions made within it often seem so irrational or even absurd.
 Systems theory sheds light on why, even in an era where nearly everyone can participate in media production, we have neither reduced manipulation nor fostered more reasonable dialogue. 
-In many ways, the Enlightenment's aspirations for rational discourse and universal truth have not materialized as hoped. The ideal of 'Truth'---which Plato connected to the 'Good'---has, it seems, drifted into obscurity.
+In many ways, the Enlightenment's aspirations for rational discourse and universal truth have not materialized as hoped. 
+The ideal of 'Truth'---which Plato connected to the 'Good'---has, it seems, drifted into obscurity.
 
 At the same time, adopting a Luhmannian perspective introduces a sense of helplessness.
 If we take Luhmann’s theory seriously, we must recognize that controlled, predictable change within society is extremely limited.
 Even with well-intentioned or radical actions, there is no guarantee that the outcomes will align with our intentions.
 As individuals, we find ourselves positioned outside the social systems that coevolve with their environment according to their own complex dynamics.
-This view is both awe-inspiring and disquieting: I admire the explanatory power of Luhmann’s theory, yet I feel a deep urge to challenge or even disprove it.
+This view is both awe-inspiring and disquieting: I admire the explanatory power of Luhmann's theory, yet I feel a deep urge to challenge or even disprove it.
 It confronts us with the unsettling notion that society evolves autonomously, beyond our direct influence, regardless of our individual ideals and aspirations.
 
 I first encountered Luhmann's theory while preparing a lecture on sustainable AI. 
@@ -69,7 +71,9 @@ Outside of Germany, he remains relatively unknown for a few reasons: his writing
 + Die Politik der Gesllschaft (The Politics of Society) {% cite luhmann:2002 %}
 + Die Gesllschaft der Gesellschaft (The Society of Society) {% cite luhmann:1998 %}
 
-is notoriously dense, and his theory clashes with the Western concept of the *sovereign individual* {% cite moeller:2011 %}. 
+is notoriously dense, and his theory clashes with the Western concept of the *sovereign individual* {% cite moeller:2011 %}.
+Note that each title has a double meaning, e.g. *The Science of Society* discusses the social system called science but it is also a description of society hinting at the fact that there is no perspective from outside.
+Therefore, *The Society of Society* is a self-description of society.
 
 Additionally, Luhmann sidesteps moral language and offers no prescriptive or normative framework.
 Those looking to his theory for answers on what to do will likely be disappointed.
