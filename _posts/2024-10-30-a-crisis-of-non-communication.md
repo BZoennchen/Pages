@@ -7,12 +7,25 @@ tags:
 comments: true
 ---
 
-I have to admit, I am kind of addicted to thinking about *social systems theory*, especially the theory developed by the German sociologist Niklas Luhmann (1927--1998).
-But it not joy that drives this addiction but a love-hate relationship.
-On the one hand, perceiving the state of the world through a Lumannian lense makes the world---with all its contradictions, crazyness, stupidity, brutality and injustice---not more just but sensible.
-Examples of this crazyness and brutality are the U.S. election, the catastrophic destruction of lives and infrastructure in the Middle East, and the increase in tension due to effects of the ongoing *climate crisis*.
-How can and how should we make sense of the seemingly senseless?
-Or shouldn't we try to graps ongoing and possible future disasters?
+I have to admit, I’m somewhat addicted to thinking about *social systems theory*, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
+But this addiction isn't driven by pure fascination—it's more of a love-hate relationship. 
+On one hand, seeing the world through a Luhmannian lens doesn't make it more just, but it does make it comprehensible. 
+The chaotic state of global affairs---the crazyness of U.S. elections, the brutal devastation in the Middle East, and the looming tensions brought by the climate crisis---appears senseless at times, even apocalyptic. 
+And yet, *systems theory* offers a framework that, paradoxically, brings coherence to this apparent madness, showing us how these outcomes emerge from the logic of *functionally differentiated systems*.
+
+Faced with such overwhelming disorder, how can anyone retain a sense of sanity? 
+We can protest, advocate for change, and try to amplify 'reasonable' voices, but as we'll see, whether these efforts have the desired effect is largely out of our hands.
+One might speculate that a Trump victory would worsen the Middle East conflict (and the conflict in Ukraine), but, as citizens of the world, we have no ballot for de-escalating global tensions.
+People outside the U.S. cannot vote in American elections, and even if Kamala Harris were to win, there's little reason to assume that U.S. policy would suddenly prioritize humanitarian investment in preserving lives and infrastructure abroad—the very foundations of a decent existence.
+
+The other option is to try to make sense of the seemingly senseless, not to justify what's happening but to deepen our understanding and foster empathy, even with those we might otherwise label as perpetrators of harm. 
+We have to move beyond simplistic judgments of good and evil. 
+Strangely enough, Luhmann's *anti-humanistic* theory might aid in this endeavor, as it places individuals outside the bounds of society, such that we can shift blame from *souls to systems*.
+In Luhmann’s view, social dynamics operate autonomously, driven by complex systems that rarely align with individual intentions.
+In many ways, Luhmann’s thinking aligns with the ideas of several twentieth-century French theorists, such as Baudrillard, Foucault, Deleuze, and Derrida.
+However, his approach is less dramatic and, in a stereotypically German way, more detached and methodical.
+While he shares many of the French theorists’ insights into power, society, and structural dynamics, he refrains from moral interpretations, neither labeling these dynamics as inherently good nor bad. Instead, he offers a cool, almost clinical description of society—a detached analysis that seeks to understand social mechanisms without prescribing judgment.
+His perspective allows us to look past personal blame, seeing dysfunction not as a failure of character but as a product of systemic logic that no one person controls.
 
 ## Beyond Good and Evil
 
