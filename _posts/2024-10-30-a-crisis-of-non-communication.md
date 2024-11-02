@@ -279,6 +279,7 @@ The climate crisis illustrates how *structurally coupled* systems face limits in
 Each system's response to climate issues is conditioned by its own operations, preventing unified action despite the existential threat posed by the destabilizing climate.
 As Luhmann's theory reveals, social systems are inherently self-referential and cannot simply 'combine' their functions. 
 Thus, the climate crisis may persist without cohesive action precisely because **no system is structured to address an issue that transcends its operational boundaries**.
+In fact, if systems cross boundaries, we call it corruption, for example when the economy system pays for a football goal or for a law.
 
 This fragmentation of responsibility means that no single system is inherently designed to address global, cross-cutting issues like the climate crisis.
 Each system approaches climate issues only insofar as they relate to its own logic:
