@@ -33,7 +33,7 @@ His perspective allows us to look past personal blame, seeing dysfunction not as
 Clearly, attempting to make sense of complex issues should not be mistaken for rationalization.
 This is an easy trap to fall into, particularly when the topic is heavily charged with moral language, where any effort to explain events can be (willingly) misinterpreted as either justification or condemnation. 
 The framework within which sense-making occurs in such cases often defaults to the age-old binary of good versus evil---arguably the most effective, yet oversimplified, way to reduce complexity. 
-This moral framing gives us a manageable lens through which to view the world, but it also makes as blind for a more nuanced perspective, risks obscuring deeper systemic dynamics and can hinder genuine understanding of the complex interactions at play.
+This moral framing gives us a manageable lens through which to view the world, but it also makes us blind for a more nuanced perspective, risks obscuring deeper systemic dynamics and can hinder genuine understanding of the complex interactions at play.
 As a German comedian once said:
 
 >If you know who is the devil, your day is already well-structured.
@@ -82,7 +82,11 @@ Those looking to his theory for answers on what to do will likely be disappointe
 Today, *systems thinking* is widely discussed as a method to grasp the complexity of global issues by focusing on wholes and relationships rather than dissecting problems into isolated parts. 
 It seeks to move beyond Cartesian reductionism and the Newtonian view of linear cause-and-effect, proposing instead an anti-reductionist approach that emphasizes interdependencies, especially crucial in fields like climate science. 
 Here, we are not dealing with a computable universe but with complex and chaotic systems, where non-linearity and feedback loops disrupt straightforward causal relationships. 
-However, chaos does not mean randomness. Chaotic systems can exhibit intricate structures, yet the slightest change in initial conditions can drastically alter future outcomes, as we see with weather systems—classic examples of chaotic behavior.
+However, chaos does not mean randomness. 
+Chaotic systems can exhibit intricate structures, yet the slightest change in initial conditions can drastically alter future outcomes, as we see with weather systems—classic examples of chaotic behavior.
+While accurate short-term predictions are challenging due to the chaotic nature of weather, long-term averages, such as the global average temperature, can be predicted with reasonable accuracy.
+Unlike weather, which is highly sensitive to initial conditions, climate trends respond more predictably to persistent external drivers like greenhouse gas concentrations and solar radiation. 
+However, when we consider societal factors, the picture becomes more complex, as human activities and policy decisions can significantly influence these long-term climate trends.
 
 In essence, *systems thinking* itself is a kind of *technology*, and many hope it will equip us to address the *climate crisis*.
 However, I believe there are distinct schools of thought within *systems thinking*, each relying on different levels of abstraction, and they are not necessarily compatible.
@@ -220,9 +224,9 @@ For him, *communication* is not merely the transfer of information between indiv
 Instead, it is a self-contained social process that occurs within and is produced by social systems, with **individuals seen as part of the environment rather than as agents within the system**.
 According to Luhmann, it is a three-part process of three interdependent elements:
 
-1. Information: The content or **what** of communication, which could be new data, knowledge, or ideas relevant to the system.
-2. Utterance: The **how** of communication, which includes the form, manner, or medium through which information is expressed. This could be spoken language, writing, or nonverbal cues, depending on the medium and context.
-2. Understanding: The receiver’s interpretation of both the information and the utterance. Understanding is crucial, as it determines whether and how the communication is taken up within the system.
+1. **Information**: The content or '**what**' of communication, which could be new data, knowledge, or ideas relevant to the system.
+2. **Utterance**: The '**how**' of communication, which includes the form, manner, or medium through which information is expressed. This could be spoken language, writing, or nonverbal cues, depending on the medium and context. E.g. a payment is a communication.
+2. **Understanding**: The receiver’s interpretation of both the information and the utterance. Understanding is crucial, as it determines whether and how the communication is taken up within the system. It is the differentiation between information and utterance.
 
 For Luhmann, communication only 'happens' if all three elements are present. It's not just about sending information; it's about how information is expressed and then understood within a particular context.
 *Communication* is not generated by individuals but by the system thus it is autopoietic, meaning it is self-producing and self-sustaining.
@@ -231,13 +235,15 @@ This selectivity creates *blind spots*, as each communication inherently exclude
 It is based on the concept of *double contingency*---the idea that each party in a communication anticipates and adjusts to the other’s responses.
 Social systems manage this *contingency* through established expectations.
 For example, in the legal system, there is an expectation that communications follow the 'legal/illegal' code, which guides interactions between lawyers, judges, and citizens and maintains coherence in legal decisions.
-Since in Luhmann's framework every system operates by its unique logic, *communication* can not be about transferring **objective** information; it is about processing meaning/sense which depends on the 'processor', i.e. the system. 
+Or take the education system.
+If I start singing in my lecture students would be quite confused.
+Since in Luhmann's framework every system operates by its unique logic, *communication* can **not** be about transferring **objective** information; it is about processing meaning/sense which depends on the 'processor', i.e. the system. 
 Each *communication* within a system adds to the meaning that the system produces.
 For instance, in the scientific system, each new theory or finding creates meaning within the context of 'truth/falsehood' and is interpreted within that framework.
 **Systems thus continuously build their own specific reality**, shaped by the types of meaning they process through communication.
 
 Consequently, if we take Luhmann serious, we arrive at the revelation that there is not one 'really real and objective reality' but that there is a **plurality of realities**;
-that there is not one controlling system that leads all the others but that there anarchy in society;
+that there is not one controlling system that steers all the others but that there is anarchy in society;
 that we are not in control but that society is **out of control**;
 that there is not one objective truth but systemic interpretations;
 and maybe most importantly: that there is no outside of society, no view at the whole because **any indication of something requires a distinction from something else**.
@@ -350,7 +356,7 @@ Elections, therefore, are *symbolic procedures* in Luhmann's view.
 They confer legitimacy on the political system by symbolically invoking *the will of the people*, but in reality, such a unified will does not exist.
 Many people abstain from voting, and a significant portion of the population may not be eligible to vote at all.
 
-Moreover, election outcomes are shaped by arbitrary rules---they are contigent
+Moreover, election outcomes are shaped by arbitrary rules---they are contigent.
 In the U.S., for example, the popular vote does not directly determine the outcome; instead, the electoral college decides the presidency, often making a few swing states the key deciders. 
 In Germany, government coalitions are typically formed after elections, yet no single voter casts a ballot for the specific coalition that ends up governing.
 These complexities highlight how elections, while significant, are far from a straightforward expression of a unified popular will.
@@ -374,8 +380,8 @@ In this sense, elections are not a search for truth but a pragmatic solution to 
 Viewing the election as a performance---or as Baudrillard might call it, *hyperreality*---feels particularly fitting for the spectacle that Americans witness during the election weeks. 
 Do these debates between Trump and Biden, or Trump and Harris, genuinely convey new insights or substantive 'truths'? 
 Or are Americans, in many ways, simply the audience to a grand show, swept up in the drama, spectacle, and narrative arcs that these events offer? 
-There is, however, something distinct and potentially perilous about the American context.
 
+There is, however, something distinct and potentially perilous about the American context.
 In the U.S., the problem for the political system seems to lie in the crumbling illusion of unity and consensus.
 This illusion is increasingly undermined by escalating economic and social inequalities.
 As living conditions deteriorate for many, regardless of who they vote for, it becomes glaringly apparent that there is no singular 'general will' guiding political outcomes. 
@@ -386,7 +392,7 @@ Many voters feel disconnected from a political system they perceive as indiffere
 As one interviewee put it:
 
 >I agree that Trump is from the billionaire class and that's all he's going to work for.
->It basically comes down to the lesser of the two evils right now?
+>It basically comes down to the lesser of the two evils right now.
 >I think about the four years he was president.
 >In my opinion he's the world's best crime boss.
 >And then you see people posting 'in the arms of Jesus' like 'I was persecuted too', and I think what a bunch of bullcrap.
@@ -394,11 +400,17 @@ As one interviewee put it:
 >If it wasn't Trump I would love to have a working familiy candidate who stands up for the little guy.
 >The middle class, from day one of this United States, has built the United States, and we are the ones that always get shit on.
 
-But there's a second factor at play: a candidate who is so absurd, so obscene, that he disrupts the expected script of political 'producers'. 
-As the interviewee described, Trump is perceived as a *red button*--a tool voters can press to create enough disturbance in the system that it is forced to respond. 
+But there's a second factor at play: a candidate who is so absurd, so obscene, that he disrupts the expected script of political 'producers'.
+Because Trump is taken seriously he (unconsciously) discloses the reality of elections and the political system.
+From a systems theory perspective, a showman does what one shouldn't do: making the big show, the big stage visible and dismanteling one myth but also replacing it with another, far more dangerous one *the deep state*.
+While the *illusion of unity and consensus* gives the system stability, Trump's *deep state myth* does the opposite, that is why he is dangerous for the system. 
+
+As the interviewee described, Trump is perceived as a *red button*--a tool voters can press to create enough disturbance in the system that it is forced to respond.
+Perceived *as the world's best crime boss* any accusation or scandal only feeds into his persona. 
+The interviewee's perception might not be far from the truth, howerver, if such an irritation is desirable is very questionable.
 The level of desperation in the U.S. has become so acute that many are willing to risk an extreme disruption, effectively pushing for an 'over-irritation' of the system, hoping it will provoke meaningful change or even a systemic collapse.
 
-In this way, Trump embodies what Luhmann might call an agent of second-order observation—someone who leverages his own media persona to observe and exploit the expectations of the political system, creating feedback loops that intensify rather than stabilize.
+In this way, Trump embodies what Luhmann might call an agent of second-order observation---someone who leverages his own media persona to observe and exploit the expectations of the political system, creating feedback loops that intensify rather than stabilize.
 While Luhmann argued that elections are primarily a symbolic show, the outcomes of this particular show may indeed carry existential significance.
 The stakes are high, and the effects of a Trump victory or defeat could trigger unpredictable reactions. 
 What we are witnessing is both dangerous and volatile, and it exemplifies how systemic irritations--if strong enough---can shake the foundations of even the most stable-seeming structures.
@@ -425,7 +437,8 @@ This perspective might downplay the role of social movements, activism, and demo
 Futhermore, by treating power as a form of communication (very different from Foucault's approach) within the political system rather than a force that operates across systems, critics argue that his approach obscures how power dynamics influence interactions between systems and shape societal outcomes.
 
 My current opinion is that Luhmann's theory is excellent for the sense-making of society.
-It can even clear the fog for making better intentional decisions but it can not provide us with suggestions of what we should do and if people want to change oppressive systems, they should know and understand their 'adversary'.
+It can even clear the fog for making better intentional decisions but it can not provide us with suggestions of what we should do.
+But if people want to change oppressive systems, they should know and understand their 'adversary'.
 
 ## Treatment of an Illness
 
@@ -434,7 +447,7 @@ Unlike cells serving the whole organism, a functioning society should prioritize
 Can we bring their humanistic viewpoint in line with Luhmann's theory?
 That would be nice but probably not in the spirit of the author.
 While both views address the organization of society, Maturana and Varela focus on an ideal in which society exists for the benefit of individuals, whereas Luhmann's theory suggests that society, as a system, operates independently of individual well-being.
-We could evaluate societies (accroos time and space) according to the degree they served individual well-being and then learn from the lessons to irritate our society in such a way that it becomes more *functional*, in Maturana and Varela sense of the word.
+We could evaluate societies (across time and space) according to the degree they served individual well-being and then learn from the lessons to irritate our society in such a way that it becomes more *functional*, in Maturana's and Varela's sense of the word.
 However, operationalizing this perspective would face challenges within Luhmann's framework.
 
 As a scientific theory communicated by the science system, it is a theory of society that society produces about itself---a quintessential example of second-order observation.
