@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Crisis of Communication: Sustainability and Trumpism"
+title: "Crises of Communication: Sustainability and Trumpism"
 tags: 
     - Sustainability
     - Social Systems Theory
