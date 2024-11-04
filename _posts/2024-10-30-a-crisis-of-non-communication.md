@@ -444,7 +444,7 @@ But if people want to change oppressive systems, they should know and understand
 ## Treatment of an Illness
 
 In their book *The Tree of Knowledge* {% cite maturana:1987 %} Maturana and Varela very briefly discuss society.
-Unlike cells serving the whole organism, a functioning society should prioritize the needs and well-being of the individual.
+They think that, unlike cells serving the whole organism, a functioning society should prioritize the needs and well-being of the individual.
 Can we bring their humanistic viewpoint in line with Luhmann's theory?
 That would be nice but probably not in the spirit of the author.
 While both views address the organization of society, Maturana and Varela focus on an ideal in which society exists for the benefit of individuals, whereas Luhmann's theory suggests that society, as a system, operates independently of individual well-being.
