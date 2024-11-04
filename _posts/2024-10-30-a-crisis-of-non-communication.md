@@ -403,7 +403,7 @@ As one interviewee put it:
 
 But there's a second factor at play: a candidate who is so absurd, so obscene, that he disrupts the expected script of political 'producers'.
 Because Trump is taken seriously he (unconsciously) discloses the reality of elections and the political system.
-From a systems theory perspective, a showman does what one shouldn't do: making the big show, the big stage visible and dismanteling one myth but also replacing it with another, far more dangerous one *the deep state*.
+From a systems theory perspective, a showman does what one shouldn't do: making the big show, the big stage visible and dismanteling one myth but also replacing it with another, far more dangerous one: *the deep state*.
 While the *illusion of unity and consensus* gives the system stability, Trump's *deep state myth* does the opposite, that is why he is dangerous for the system. 
 
 As the interviewee described, Trump is perceived as a *red button*--a tool voters can press to create enough disturbance in the system that it is forced to respond.
