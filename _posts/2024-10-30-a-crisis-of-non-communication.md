@@ -453,10 +453,13 @@ We could evaluate societies (across time and space) according to the degree they
 However, operationalizing this perspective would face challenges within Luhmann's framework.
 
 As a scientific theory communicated by the science system, it is a theory of society that society produces about itself---a quintessential example of second-order observation.
-The individual---the person, psychic system, and living body we identify as Luhmann---existed only as part of the environment of the social systems he studied. 
+The individual---the person, psychic system, and living body---we identify as Luhmann existed only as part of the environment of the social systems he studied.
+According to his own theory, his view, as every view, cannot be the objectively correct description of society.
+Therefore, I think, we should not take his ideas as absolutes but as irritations and sense-making foundation.
+
 If the individual is not the center of social structures and dynamics, the impossibility of controlled action might give some relief on an individual/personal level.
-Since society is out of control, we are also kind of out of control.
-We can observe society critically from an *ironic distance*, without being fully subsumed by it, a perspective that may be worth remembering---illuminating neither hope no fear.
+It emphasizes that individual human beings are observers of a greater force acting on them and since society is out of control, we are also out of control.
+We can observe society critically from an *ironic distance*, being *carefree* without being *careless* (as individuals) and without being fully subsumed by it, a perspective that may be worth remembering---illuminating neither hope nor fear.
 
 One of Luhmann's most influential critics, Jürgen Habermas, famously remarked of Luhmann's work:
 
