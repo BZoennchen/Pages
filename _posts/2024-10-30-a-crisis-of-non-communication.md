@@ -187,6 +187,7 @@ I do not have to read and carefully analyse every paper of a specific researcher
 In complex environments, *second-order observation* helps systems like science to deal with uncertainty and complexity.
 Rather than aiming for **absolute certainty**, science can adapt by recognizing different observational frameworks, revisiting previously accepted truths, and acknowledging limitations in current knowledge. 
 This adaptive flexibility, achieved through *second-order observation*, is vital for science's resilience and continued evolution.
+Today, second-order observation is everywhere, be it in the form of the housing or stock market, the social phenomena of *reaction videos* or the fact that we all are invested in our profiles, that is, **we are invested in how we are seen by an anonymous peer** {% cite moeller:2021 %}.
 
 But what exactly is *observation*?
 For Luhmann, every act of *observation* has two essential steps: **distinction** and **indication** (also borrowed from {% cite brown:1969 %}).
