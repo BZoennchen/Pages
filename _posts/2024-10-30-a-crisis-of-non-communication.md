@@ -475,4 +475,4 @@ But, of course, **we are not in control**!
 
 ## References
 
-{% bibliography %}
+{% bibliography --cited %}
