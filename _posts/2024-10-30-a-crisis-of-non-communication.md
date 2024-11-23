@@ -449,7 +449,7 @@ What we are witnessing is both dangerous and volatile, and it exemplifies how sy
 ## Criticism of Luhmann's Theory
 
 Luhmann's theory is not immune to criticism, and, by its own logic, it necessarily contains blind spots. 
-One of the most common criticisms is that Luhmann's theory removes individuals from the core of social analysis.
+One of the most common criticisms is that his theory removes individuals from the core of social analysis.
 By focusing on self-referential systems rather than human actors, Luhmann places individuals in the environment of society, not within it.
 Human agency, emotions, and individual motivations are neglected and the role of intentional human actions and collective decision-making in shaping societal evolution is minimized.
 
@@ -482,7 +482,7 @@ While both views address the organization of society, Maturana and Varela focus 
 We could evaluate societies (across time and space) according to the degree they served individual well-being and then learn from the lessons to irritate our society in such a way that it becomes more *functional*, in Maturana's and Varela's sense of the word.
 However, operationalizing this perspective would face challenges within Luhmann's framework.
 
-As a scientific theory communicated by the science system, it is a theory of society that society produces about itself---a quintessential example of second-order observation.
+As a scientific theory communicated by the science system, it is a theory of society that society produced about itself---a quintessential example of second-order observation.
 The individual---the person, psychic system, and living body---we identify as Luhmann existed only as part of the environment of the social systems he studied.
 According to his own theory, his view, as every view, cannot be the objectively correct description of society.
 Therefore, I think, we should not take his ideas as absolutes but as irritations and sense-making foundation.
@@ -490,6 +490,8 @@ Therefore, I think, we should not take his ideas as absolutes but as irritations
 If the individual is not the center of social structures and dynamics, the impossibility of controlled action might give some relief on an individual/personal level.
 It emphasizes that individual human beings are observers of a greater force acting on them and since society is out of control, we are also out of control.
 We can observe society critically from an *ironic distance*, being *carefree* without being *careless* (as individuals) and without being fully subsumed by it, a perspective that may be worth remembering---illuminating neither hope nor fear.
+We can look at us and our fellow human beings as beings thrown into fabric of society.
+By pointing to the limits of the individual we can rediscovering a sense of innocence and grace of the human being. 
 
 One of Luhmann's most influential critics, Jürgen Habermas, famously remarked of Luhmann's work:
 
@@ -497,10 +499,10 @@ One of Luhmann's most influential critics, Jürgen Habermas, famously remarked o
 
 Habermas labeled Luhmann's theory *metabiological*, drawing a comparison to metaphysics and suggesting it extends beyond empirical sociology into abstract structures that make it detached from human agency.
 This comparison is spot on: Luhmann's theory views society not as a product of individuals' intentions but as an autonomous, complex system very similar to an organism.
-From this perspective, if we are to learn anything valuable from Luhmann, it might be that we should avoid treating society---and, by extension, the climate crisis---as an engineering problem, as something to be 'solved' with a clear-cut plan. 
+From this perspective, if we are to learn anything valuable from Luhmann, it might be that we should avoid treating society---and, by extension, the climate crisis---either as an engineering problem, i.e. as something to be 'solved' with a clear-cut plan or a knowledge problem, i.e. something that can be solved if deniers just accept 'the Truth'.
 Instead, we might approach it more like a chronic condition or complex illness, where we, as doctors, explore, probe, and apply potential treatments without assuming a one-size-fits-all solution. 
 This approach requires continuous adjustment, sensitivity to feedback, and a readiness to adapt to the unexpected outcomes of our actions, reflecting the complex, interdependent nature of the systems we inhabit.
-But, of course, **we are not in control**!
+But, of course, **we are not in control** and there is no single medical doctor controlling the medication plan.
 
 ## References
 
