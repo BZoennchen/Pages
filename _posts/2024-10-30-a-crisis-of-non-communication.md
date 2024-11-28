@@ -39,7 +39,7 @@ As a German comedian once said:
 >If you know who is the devil, your day is already well-structured.
 
 Most would agree that this binary division of good versus evil is overly simplistic and, at times, dangerous.
-Yet, when we look toward the U.S. election or the languge used in the current horrific conflict in the Middle East, we see a striking example of this polarization in action---a place where the framing of social and political conflicts as battles between absolute good and evil has become more pronounced than ever.
+Yet, when we look toward the U.S. election or the language used in the current horrific conflict in the Middle East, we see a striking example of this polarization in action---a place where the framing of social and political conflicts as battles between absolute good and evil has become more pronounced than ever.
 Especially the situation in Palestine is extremely hard to swallow without being overwhelmed by emotions and breaking down in tears.
 Here the moral dichotomy shows its face and its power.
 It is so dangerous because to defeat absolute evil everything is permitted.
@@ -54,7 +54,7 @@ Systems theory sheds light on why, even in an era where nearly everyone can part
 In many ways, the Enlightenment's aspirations for rational discourse and universal truth have not materialized as hoped. 
 The ideal of 'Truth'---which Plato connected to the 'Good'---has, it seems, drifted into obscurity and we are left with a spectacular hyperreality; it seems we have been fallen deep into the cave of shadows.
 
-In a typcial postmodern move, Luhmann's conclusion to the 'lost Truth'---understood as singular objective truth---is (similar to Baudriallard) that it never existed in the first place.
+In a typical postmodern move, Luhmann's conclusion to the 'lost Truth'---understood as singular objective truth---is (similar to Baudriallard) that it never existed in the first place.
 As a constructivist, he avoids Plato's concept of 'the Truth' and shifts his attention to the *production of sense* via different systems.
 If we take Luhmann’s theory seriously, we must recognize that controlled, predictable change within society is extremely limited because each (social) system constructs its own reality.
 There is no agreement on what is true or real.
