@@ -490,7 +490,7 @@ Therefore, I think, we should not take his ideas as absolutes but as irritations
 If the individual is not the center of social structures and dynamics, the impossibility of controlled action might give some relief on an individual/personal level.
 It emphasizes that individual human beings are observers of a greater force acting on them and since society is out of control, we are also out of control.
 We can observe society critically from an *ironic distance*, being *carefree* without being *careless* (as individuals) and without being fully subsumed by it, a perspective that may be worth remembering---illuminating neither hope nor fear.
-We can look at us and our fellow human beings as beings thrown into fabric of society.
+We can look at us and our fellow human beings as beings thrown into the fabric of society.
 By pointing to the limits of the individual we can rediscovering a sense of innocence and grace of the human being. 
 
 One of Luhmann's most influential critics, Jürgen Habermas, famously remarked of Luhmann's work:
