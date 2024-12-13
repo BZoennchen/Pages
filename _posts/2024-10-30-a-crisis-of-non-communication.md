@@ -135,7 +135,7 @@ For example, he took the concept of *autopoiesis* {% cite maturana:1987 %} from 
 For Luhmann, systems are *operationally closed* meaning that no system can interfer in the operation of another system.
 For example, the economic system communicates via payments and there is almost no way that the political system can interfer in it.
 Of course, the political system can observe these payments and can try to regulate them but only indirectly.
-It can pass laws which the legal processes.
+It can pass laws which the legal system processes.
 The economic system will observe this---it will 'digest' it---and evolve with its environment (which contains the political system).
 Therefore, systems are *cognitively open* meaning that they can observe (based on their own logic) their environment which contains all the other systems.
 They take everything in what they are able to digest and use it to continue their opertions, that is, their *autopoiesis*.
