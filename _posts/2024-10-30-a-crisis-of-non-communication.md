@@ -237,7 +237,7 @@ Another example: the economic system and the political system may engage in *str
 *Feedback loops* are crucial for *structural coupling* since they allow each system to remain sensitive to changes in the other system without changing its fundamental operations or logic.
 
 The last term we have to discuss is the term maybe most important, and that is *communication*.
-As a computer scientist I understand communcation using Shannon's framework {% cite shannon:1948 %}, that is, a transfer of information over a error-prone or noisy channel.
+As a computer scientist I understand communcation using Shannon's framework {% cite shannon:1948 %}, that is, a transfer of information over an error-prone or noisy channel.
 But this is not what Luhmann understands as *communication*.
 For him, *communication* is not merely the transfer of information between individuals (or machines). 
 Instead, it is a self-contained social process that occurs within and is produced by social systems, with **individuals seen as part of the environment rather than as agents within the system**.
