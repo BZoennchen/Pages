@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2024-12-13T14:03:24+01:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Crises of Communication: Sustainability and Trumpism</title><link href="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html" rel="alternate" type="text/html" title="Crises of Communication: Sustainability and Trumpism" /><published>2024-10-30T00:00:00+01:00</published><updated>2024-10-30T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html"><![CDATA[<p>I have to admit, I’m somewhat addicted to thinking about <em>social systems theory</em>, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-04-16T11:18:29+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Crises of Communication: Sustainability and Trumpism</title><link href="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html" rel="alternate" type="text/html" title="Crises of Communication: Sustainability and Trumpism" /><published>2024-10-30T00:00:00+01:00</published><updated>2024-10-30T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html"><![CDATA[<p>I have to admit, I’m somewhat addicted to thinking about <em>social systems theory</em>, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
 But this addiction isn’t driven by pure fascination—it’s more of a love-hate relationship. 
 On one hand, seeing the world through a Luhmannian lens doesn’t make it more just or fantastic, but it does make it comprehensible. 
 The chaotic state of global affairs—the crazyness of U.S. elections, the brutal devastation in the Middle East, the war in Europe, and the looming tensions brought by the climate crisis—appears senseless at times, even apocalyptic.
@@ -132,7 +132,7 @@ If we want to be accurate we can not speak of a system without its environment b
 This definition contrasts sharply with definitions based on tangible components and external goals, focusing instead on processes of <em>sense-making</em>, self-production and self-maintenance.</p>
 
 <p>Luhmann read a lot of interdisciplinary material and borrowed from mathematics, classical systems theory, biology, cybernetics and other disciplines.
-For example, he took the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a> from biology, the concept of <em>feedback loops</em> and <em>second-order observation</em> from cybernetics and of <em>re-entry</em> and the fundamental operation of <em>differentiation</em> and <em>indication</em> from the mathematician Spancer-Brown <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+For example, he took the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a> from biology, the concept of <em>feedback loops</em> and <em>second-order observation</em> from cybernetics and of <em>re-entry</em> and the fundamental operation of <em>differentiation</em> and <em>indication</em> from the mathematician Spancer-Brown <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.</p>
 
 <p>For Luhmann, systems are <em>operationally closed</em> meaning that no system can interfer in the operation of another system.
 For example, the economic system communicates via payments and there is almost no way that the political system can interfer in it.
@@ -220,7 +220,7 @@ While not a binary code in Luhmann’s strict sense, it is significant within th
 Reputation can influence which scientists’ work is taken seriously, whose research is funded, and which publications are more widely read and cited.
 However, it does not drive the core distinction of truth/falsehood; rather, it shapes the social hierarchy, credibility, and visibility within the scientific community.</p>
 
-<p>Luhmann’s concept of <em>re-entry</em> (borrowed from <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>) is a mechanism, allowing a system to reflect on itself by reintroducing its primary binary code within its own operations. 
+<p>Luhmann’s concept of <em>re-entry</em> (borrowed from <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>) is a mechanism, allowing a system to reflect on itself by reintroducing its primary binary code within its own operations. 
 Thus, this is an inherently recursive relation.
 <em>Re-entry</em> enables a system to apply its guiding binary distinction not only outwardly (to its environment or other systems) but also inwardly, to its own internal processes and <em>communications</em>. 
 This is crucial in complex systems, like science, where re-entry enables self-reference and internal differentiation.
@@ -255,7 +255,7 @@ The problem arises when this focus on appearence no longer aligns with the syste
 For example, when the pursuit of appearing as a trustworthy scientist contradicts the truth/falsehood distinction that underpins the operation of science.</p>
 
 <p>But what exactly is <em>observation</em>?
-For Luhmann, every act of <em>observation</em> has two essential steps: <strong>distinction</strong> and <strong>indication</strong> (also borrowed from <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>).
+For Luhmann, every act of <em>observation</em> has two essential steps: <strong>distinction</strong> and <strong>indication</strong> (also borrowed from <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>).
 The system first creates a <em>distinction</em> (e.g., legal/illegal in the legal system) and then <em>indicates</em> one side of that distinction. 
 This act of <em>indicating</em> one side of a <em>distinction</em> allows the system to focus on what it deems relevant or meaningful while leaving out what is not.
 For instance, the economic system distinguishes between payment and non-payment and then indicates whether a transaction falls into one category or the other.</p>
@@ -572,7 +572,7 @@ But, of course, <strong>we are not in control</strong> and there is no single me
 <li><span id="moeller:2011">Möller, H.-G. (2011). <i>The Radical Luhmann</i> (p. 184). Columbia University Press.</span></li>
 <li><span id="meadows:2008">Meadows, D. H. (2008). <i>Thinking in Systems: A Primer</i> (p. 240). Chelsea Green Publishing.</span></li>
 <li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li>
-<li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="brown:1969">Spencer-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="foerster:2003">von Foerster, H. (2003). Cybernetics of Cybernetics. In <i>Understanding understanding: Essays on cybernetics and cognition</i> (pp. 283–286). Springer New York. https://doi.org/10.1007/0-387-21722-3_13</span></li>
 <li><span id="moeller:2021">Möller, H.-G., &amp; D’Ambrosio, P. J. (2021). <i>You and Your Profile: Identity After Authenticity</i>. Columbia University Press.</span></li>
 <li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
@@ -642,7 +642,7 @@ First a simple dot product is comuted:</p>
 
 \[e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.\]
 
-<p>Later it was suggested to us an additional linear transformation on the output:</p>
+<p>Later it was suggested to use an additional linear transformation on the output:</p>
 
 \[e_{i,j} = \mathbf{h'}_{i}^\top (\mathbf{W}\mathbf{y}_{j}) \quad \text{ for } j = 0, \ldots, i-1.\]
 
@@ -655,14 +655,14 @@ All these scores are normalized by the softmax function giving us \(n\) weights:
 
 \[\hat{\mathbf{h}}_i = \sum_j \alpha_{i,j} \mathbf{y}_j.\]
 
-<p>The weights determine how “strong” the information of the input will be utilized, i.e., how much attention is spent on each previous output of the model.</p>
+<p>The weights determine how “strong” the information of the decoder’s input will be utilized, i.e., how much attention is spent on each previous output of the model.</p>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="/Pages/assets/images/rnn-attention.png" alt="RNN with attention" />
 <div style="display: table;margin: 0 auto;">Figure 1: RNN with self-attention.</div>
 </div>
 <p><br /></p>
 
-<p>In case of a decoder, this results in a quadratic complexity of \(\mathcal{O}(n^2)\) because for each of the \(n\) tokens, we want to decode, we have \(n\) weights.</p>
+<p>This results in a quadratic complexity of \(\mathcal{O}(n^2)\) because for each of the \(n\) tokens, we want to decode, we have \(n\) weights.</p>
 
 <h2 id="the-transformer-architecture">The Transformer Architecture</h2>
 
@@ -697,7 +697,7 @@ Furthermore, I only use one (masked) multi-head attention layer in each block.</
 </div>
 <p><br /></p>
 
-<p>Ok, but how does this really works?
+<p>Ok, but how does this really work?
 What is going on here?
 Well, the key to understand transformers is to understand the self-attention mechanism which I try to explain below.</p>
 
@@ -727,7 +727,7 @@ The \(j^\text{th}\) output \(\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1
 
 \[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.\]
 
-<p>The scalar weight \(\alpha(\mathbf{x}_i, \mathbf{x}_j)\) is the <strong>attention</strong> that the \(j^\text{th}\) output pays to the input \(\mathbf{x}_i\).
+<p>The scalar weight \(\alpha(\mathbf{x}_i, \mathbf{x}_j)\) is the <strong>attention</strong> that the \(j^\text{th}\) note pays to the note \(\mathbf{x}_i\).
 The \(n\) weights \(\alpha(\cdot, \mathbf{x}_j)\) are non-negative and sum to one.
 Hence, self-attention can be thought of as <em>routing</em> the values in different proportions to create each output.</p>
 
@@ -745,7 +745,11 @@ Hence, self-attention can be thought of as <em>routing</em> the values in differ
 \end{aligned}\]
 
 <p>The <strong>dot product</strong> of two vectors \(\mathbf{q}_j\), \(\mathbf{k}_i\) is a measurement of their similarity.
-In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
+The matrices \(\mathbf{W}_q, \mathbf{W}_k\) and the respective bias are learned such that similarity of \(\mathbf{q}_j\), \(\mathbf{k}_i\) can be interpreted as how “important” \(\mathbf{x}_i\) is for \(\mathbf{x}_j\).
+Thus, the “magic” happens via a very simple linear transformation and one might ask if this operation is powerful enough to relate <strong>all</strong> words/tokens in a desireable way.
+The answer is most certainly “no” thus one adds feed forward layers which introduces non-linearity in between multiple attention layers.</p>
+
+<p>In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
 In general, this relationship is expressed by the following equation:</p>
 
 \[\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),\]
@@ -2609,7 +2613,7 @@ My general understanding of Luhmann’s radical constructivism in the most reduc
 What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external.
 However, any observer is itself a distinction between system and environment.
 I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say.
-So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.</p>
+So let me examine the logic of Georg Spencer-Brown presented in his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.</p>
 
 <h2 id="the-principle-of-differentiation">The Principle of Differentiation</h2>
 
@@ -2647,7 +2651,7 @@ His idea of resolving paradoxes over time is reminiscent of the Hegelian dialect
 The self-referential relation is a paradox if we ignore time and it becomes a generator if we consider time and place.</p>
 
 <p>This led the biologists Huberto R. Maturana and Francisco J. Varela to the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a>.
-Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+Furthermore, the importance of differentiation is inspired by the logic of Spencer-Brown and his work <em>Laws of Form</em> <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.
 He resolves the paradox by a similar idea that gave us imaginary numbers, that is, by using what he calls <em>Re-entry</em> which (re-)introduces a system into itself.</p>
 
 <p>Luhmann integrated this idea into his social systems theory.
@@ -2886,9 +2890,9 @@ According to Spancer-Brown this step is accomplished by <strong>thinking</strong
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<ol class="bibliography"><li><span id="brown:1969">Spencer-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="cull:1979">Cull, P., &amp; Frank, W. (1979). flaws of form. <i>International Journal of General Systems</i>, <i>5</i>(4), 201–211. https://doi.org/10.1080/03081077908547450</span></li>
-<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spence-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Logic" /><category term="Social Systems Theory" /><summary type="html"><![CDATA[In my last blog post, I discussed Niklas Luhmann’s Social Systems Theory and I emphasized that his theory is based on differentiation and seemingly paradox relations. My general understanding of Luhmann’s radical constructivism in the most reductive sense is that there are no unified and independent objects—there are only differences. What an observer can identify as an object is a differentiation of a system and its environment, a foreground and its background, an interior and the external. However, any observer is itself a distinction between system and environment. I want to further investigate this idea by looking into Luhmann’s inspiration—his muse so to say. So let me examine the logic of Georg Spencer-Brown presented in his work Laws of Form (Spencer-Brown, 1969).]]></summary></entry><entry><title type="html">Why Machines (Probably) Do Not Think</title><link href="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html" rel="alternate" type="text/html" title="Why Machines (Probably) Do Not Think" /><published>2023-10-07T00:00:00+02:00</published><updated>2023-10-07T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/10/07/system-theory-and-ai.html"><![CDATA[<p>Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about <em>machine intelligence</em>.
 I’m open for discussions and unafraid of confronting uncomfortable truths. 
 Indeed, our imagination and fearless thinking should pave the way for new possibilities. 
 Dreams and speculations are valuable, as long as they’re presented as such. 
@@ -3009,7 +3013,7 @@ In other words, the system creates its own functions by its operations (self-cre
 Thinking leads to more thinking and perception leads to more perception.
 The economy creates itself by doing economics, the mass media creates itself by its operation of differentiating between information and non-information.</p>
 
-<p>Another <em>theme</em> in Luhmann’s writing is the use of paradoxes which is certainly inspired by Spencer-Brown’s logic presented in <em>Law of Forms</em> <a class="citation" href="#brown:1969">(Spence-Brown, 1969)</a>.
+<p>Another <em>theme</em> in Luhmann’s writing is the use of paradoxes which is certainly inspired by Spencer-Brown’s logic presented in <em>Law of Forms</em> <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.
 Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
 Therefore, a paradoxical systems becomes genererative in time.
 One prime example is our mind which is capable of self-observation (<em>reentry</em>).
@@ -3706,7 +3710,7 @@ Is social evolution any different?</p>
 <li><span id="luhmann:1988">Luhmann, N. (1988). <i>Erkenntnis als Konstruktion</i>. Bern: Benteli.</span></li>
 <li><span id="luhmann:1993">Luhmann, N. (1993). <i>Deconstruction as second-Order observation</i>. New Literary History.</span></li>
 <li><span id="luhmann:2000">Luhmann, N. (2000). Why does society describe itself as postmodern. In W. Rasch &amp; C. Wolfe (Eds.), <i>Observing complexity: Systems theory and postmodernity</i> (pp. 35–49). University of Minnesota.</span></li>
-<li><span id="brown:1969">Spence-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
+<li><span id="brown:1969">Spencer-Brown, G. (1969). <i>Laws of Form</i>. London: Allen and Unwin.</span></li>
 <li><span id="esposito:2022">Esposito, E. (2022). <i>Artificial Communication</i>. The MIT Press. https://doi.org/10.7551/mitpress/14189.001.0001</span></li>
 <li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
 <li><span id="moeller:2021">Möller, H.-G., &amp; D’Ambrosio, P. J. (2021). <i>You and Your Profile: Identity After Authenticity</i>. Columbia University Press.</span></li>

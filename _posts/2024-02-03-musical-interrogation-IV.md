@@ -69,7 +69,7 @@ First a simple dot product is comuted:
 
 $$e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.$$
 
-Later it was suggested to us an additional linear transformation on the output:
+Later it was suggested to use an additional linear transformation on the output:
 
 $$e_{i,j} = \mathbf{h'}_{i}^\top (\mathbf{W}\mathbf{y}_{j}) \quad \text{ for } j = 0, \ldots, i-1.$$
 
@@ -82,14 +82,14 @@ Then the **decoder's** 'real' input is computed by a weighted sum of the **encod
 
 $$\hat{\mathbf{h}}_i = \sum_j \alpha_{i,j} \mathbf{y}_j.$$
 
-The weights determine how "strong" the information of the input will be utilized, i.e., how much attention is spent on each previous output of the model.
+The weights determine how "strong" the information of the decoder's input will be utilized, i.e., how much attention is spent on each previous output of the model.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:90%;" src="{% link /assets/images/rnn-attention.png %}" alt="RNN with attention">
 <div style="display: table;margin: 0 auto;">Figure 1: RNN with self-attention.</div>
 </div>
 <br>
 
-In case of a decoder, this results in a quadratic complexity of $$\mathcal{O}(n^2)$$ because for each of the $$n$$ tokens, we want to decode, we have $$n$$ weights.
+This results in a quadratic complexity of $$\mathcal{O}(n^2)$$ because for each of the $$n$$ tokens, we want to decode, we have $$n$$ weights.
 
 ## The Transformer Architecture
 
@@ -124,7 +124,7 @@ Furthermore, I only use one (masked) multi-head attention layer in each block.
 </div>
 <br>
 
-Ok, but how does this really works?
+Ok, but how does this really work?
 What is going on here?
 Well, the key to understand transformers is to understand the self-attention mechanism which I try to explain below.
 
@@ -154,7 +154,7 @@ The $$j^\text{th}$$ output $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1
 
 $$\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.$$
 
-The scalar weight $$\alpha(\mathbf{x}_i, \mathbf{x}_j)$$ is the **attention** that the $$j^\text{th}$$ output pays to the input $$\mathbf{x}_i$$.
+The scalar weight $$\alpha(\mathbf{x}_i, \mathbf{x}_j)$$ is the **attention** that the $$j^\text{th}$$ note pays to the note $$\mathbf{x}_i$$.
 The $$n$$ weights $$\alpha(\cdot, \mathbf{x}_j)$$ are non-negative and sum to one.
 Hence, self-attention can be thought of as *routing* the values in different proportions to create each output.
 
@@ -174,6 +174,10 @@ $$
 $$
 
 The **dot product** of two vectors $$\mathbf{q}_j$$, $$\mathbf{k}_i$$ is a measurement of their similarity.
+The matrices $$\mathbf{W}_q, \mathbf{W}_k$$ and the respective bias are learned such that similarity of $$\mathbf{q}_j$$, $$\mathbf{k}_i$$ can be interpreted as how "important" $$\mathbf{x}_i$$ is for $$\mathbf{x}_j$$.
+Thus, the "magic" happens via a very simple linear transformation and one might ask if this operation is powerful enough to relate **all** words/tokens in a desireable way.
+The answer is most certainly "no" thus one adds feed forward layers which introduces non-linearity in between multiple attention layers.
+
 In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
 In general, this relationship is expressed by the following equation:
 
