@@ -400,4 +400,16 @@ blockquote { border-left: 4px solid #2a7ae2; padding-left: 15px; }
 
 .panel-info .panel-heading { color: #3a87ad; background-color: #d9edf7; border-color: #bce8f1; }
 
+.publication-entry { padding: 1em; border-bottom: 2px solid #ddd; }
+
+.publication-list li { list-style-type: none; }
+
+.copy-button { padding: 0.4em 0.6em; font-size: 0.7em; cursor: pointer; background-color: #424242; color: #fff; border-radius: 7px; border-width: 0px; }
+
+.copy-button:hover { background-color: #999; color: #424242; }
+
+.talks li { list-style-type: none; }
+
+.talk-entry { padding: 1em; border-bottom: 2px solid #ddd; }
+
 /*# sourceMappingURL=style.css.map */
