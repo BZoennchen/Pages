@@ -1,0 +1,35 @@
+---
+---
+
+<div class="publication-entry">
+
+  <p>
+    {{entry.author | replace_first: 'Zönnchen, Benedikt', '<b>Zönnchen, Benedikt</b>'}} ({{entry.year}}). {% if entry.type == "PhD thesis" %} {{entry.type}}.{% endif %} 
+    <br>{{entry.title}}.
+    {% if entry.school %} 
+      <br><i>{{entry.school}}</i>. 
+    {% endif %}
+    {% if entry.journal %} 
+      <br><i>{{entry.journal}}{% if entry.volume %}, {{entry.volume}}{% endif %}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}. 
+    {% endif %}
+    {% if entry.editor and entry.booktitle %} 
+      <br>In {{entry.editor}}, <i>{{entry.booktitle}}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}.
+    {% endif %}
+    {% if entry.booktitle %} 
+      <br><i>{{entry.booktitle}}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}.
+    {% endif %}
+    {% if entry.publisher %} 
+      {{entry.publisher}}.
+    {% endif %}
+    {% if entry.doi %} 
+      <br>DOI: <a href="https://doi.org/{{ entry.doi }}">{{entry.doi}}</a>
+    {% elsif entry.url %}
+      <br>URL: <a href="{{ entry.url }}">link</a>
+    {% endif %} 
+  </p>
+
+  <button class="copy-button" onclick="copyBibtex('{{ entry.key }}')">Copy BibTeX</button>
+
+  <pre id="bibtex-{{ entry.key }}" style="display:none;">{{ entry.bibtex }}</pre>
+
+</div>

@@ -5,3 +5,36 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+.publication-entry {
+  padding: 1em;
+  border-bottom: 2px solid #ddd;
+}
+
+.publication-list li {
+  list-style-type: none;
+}
+
+.copy-button {
+  padding: 0.4em 0.6em;
+  font-size: 0.7em;
+  cursor: pointer;
+  background-color: #424242;
+  color: #fff;
+  border-radius: 7px;
+  border-width: 0px;
+}
+
+.copy-button:hover {
+  background-color: #999;
+  color: #424242;
+}
+
+.talks li {
+  list-style-type: none;
+}
+
+.talk-entry {
+  padding: 1em;
+  border-bottom: 2px solid #ddd;
+}

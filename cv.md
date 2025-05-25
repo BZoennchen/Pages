@@ -54,13 +54,14 @@ Software Developer (Education)<br>
 
 ## Research Interests
 
-**AI4All:** How can machine learning methods enhance the capability of action of the general public?<br>
+**Systems Theory and AI:** How can systems theory deepen our understanding and analysis of human–machine interactions, particularly in complex, adaptive environments?<br>
 
-**CreativeAI:** How can the intentionality of artists find expression through the use of generative methods of machine learning? Which methods are suitable and how can intentionality be better realized?<br>
+**AI4All:** How can machine learning empower the general public by enhancing their capacity to act, create, and make informed decisions?<br>
 
-**AI4S & SAI:** How can the methods of machine learning assist us in achieving sustainability goals, and to what extent do they endanger these goals? How can we reduce energy consumption during training and inference?<br>
+**CreativeAI:** How can artistic intentionality be expressed and preserved through generative machine learning methods? Which techniques best support creative agency, and how might intentionality be more effectively realized in computational processes?<br>
 
 ## Private Interests
+
 + Philosophy (e.g. Constructivism) & Technology
 + Film Reviews and Analysis
 + Computer Music & Music Theory
@@ -92,103 +93,11 @@ Software Developer (Education)<br>
 
 ## Publications
 
-**2024** | **Benedikt Zönnchen**, Veronika Thurner and Axel Böttcher<br>
-On the Impact of ChatGPT on Teaching and Studying Software Engineering.<br>
-In *2024 IEEE Global Engineering Education Conference (EDUCON)*.<br>
-DOI: [10.1109/educon60312.2024.10578680](https://doi.org/10.1109/educon60312.2024.10578680).<br>
-
-**2024** | Sabine Hammer, Sarah Ottinger, **Benedikt Zönnchen**,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michel Hohendanner, Martin Hobelsberger and Veronika Thurner <br>
-ChatGPT in Higher Education: Perceptions of Computer Science-Related Students.<br>
-In *2024 IEEE Global Engineering Education Conference (EDUCON)*.<br>
-DOI: [10.1109/educon60312.2024.10578742](https://doi.org/10.1109/educon60312.2024.10578742).<br>
-
-**2024** | **Benedikt Zönnchen**, Charlotte Böhm and Gudrun Socher<br>
-Bridging Disciplines in Higher Education: The Convergence of AI and Sustainability.<br>
-In *International Conference on Higher Education Advances (HEAd)*.<br>
-DOI: [10.4995/HEAd24.2024.17278](https://doi.org/10.4995/HEAd24.2024.17278).<br>
-
-**2024** | Téo Sanchez, **Benedikt Zönnchen**, Helena Held, Mariya Dzhimova and Gudrun Socher<br>
-Evaluating interdisciplinary and project-based learning on AI in culture and arts.<br>
-In *16th International Conference on Education and New Learning Technologies*.<br>
-DOI: [10.21125/edulearn.2024.0757](https://doi.org/10.21125/edulearn.2024.0757).<br>
-
-**2024** | **Benedikt Zönnchen**<br>
-Generative AI: Between Tool and Communication Partner.<br>
-URL: [MUC.DAI Website](https://mediapool.hm.edu/media/mucdai/mucdai_research/Beitrag_Artifical_Communication_Benedikt_Zoennchen_en.pdf).<br>
-
-**2024** | **Benedikt Zönnchen**, Charlotte Böhm, Helene von Schwichow, Gudrun Socher and Stefan Wurster<br>
-Empowering interdisciplinary expertise: evaluating the impact of challenge-based learning on AI and sustainability literacy in higher education.<br>
-In *16th International Conference on Education and New Learning Technologies*.<br>
-DOI: [10.21125/edulearn.2024.1433](https://doi.org/10.21125/edulearn.2024.1433).<br>
-
-**2023** | **Benedikt Zönnchen**, Markus Friedrich and Veronika Thurner<br>
-Nachhaltigkeit in der informatischen Lehre am Beispiel KI.<br>
-In *Tagungsband zum 5. Symposium zur Hochschullehre in den MINT-Fächern*.<br>
-DOI: [10.57825/repo_in-4411](https://doi.org/10.57825/repo_in-4411).<br>
-
-**2022** | Sabine Hammer, Sarah Ottinger, Veronika Thurner and **Benedikt Zönnchen**<br>
-Bonding in Times of Pandemia -- A Concept for Purely Virtual Kick-off Days to the Student Entry Phase.<br>
-In *Mobility for Smart Cities and Regional Development -- Challenges for Higher Education*,<br>
-DOI: [10.1007/978-3-030-93904-5_19](https://doi.org/10.1007/978-3-030-93904-5_19).<br>
-
-**2021** | **Benedikt Zönnchen (Ph. D. Thesis)**<br>
-Efficient parallel algorithms for large-scale pedestrian simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard)).<br>
-*Technical University of Munich*,<br>
-URN: [urn:nbn:de:bvb:91-diss-20210521-1593965-1-9](http://nbn-resolving.de/urn/resolver.pl?urn:nbn:de:bvb:91-diss-20210521-1593965-1-9).<br>
-
-**2020** | **Benedikt Zönnchen** and Gerta Köster,<br>
-GPGPU Computing for Microscopic Pedestrian Simulation.<br>
-In *Parallel Computing: Technology Trends*,<br>
-DOI: [10.3233/APC200029](https://doi.org/10.3233/APC200029).
-
-**2020** | **Benedikt Zönnchen**, Benedikt Kleinmeier and Gerta Köster,<br>
-Vadere -- A Simulation Framework to Compare Locomotion Models.<br>
-In *Traffic and Granular Flow 2019*<br>
-DOI: [10.1007/978-3-030-55973-1_41](https://doi.org/10.1007/978-3-030-55973-1_41).
-
-**2019** | **Benedikt Zönnchen**, Benedikt Kleinmeier, Marion Gödel and Gerta Köster,<br>
-Vadere: An Open-source Simulation Framework to Promote Interdisciplinary Understanding.<br>
-In *Collective Dynamics*, <br>
-DOI: [10.17815/CD.2019.21](https://doi.org/10.17815/CD.2019.21).
-
-**2019** | **Benedikt Zönnchen**, Matthias Laubinger and Gerta Köster,<br>
-Towards Faster Navigation Algorithms on Floor Fields.<br>
-In *Traffic and Granular Flow '17*,<br>
-DOI: [10.1007/978-3-030-11440-4_34](https://doi.org/10.1007/978-3-030-11440-4_34).
-
-**2018** | **Benedikt Zönnchen** and Gerta Köster,<br>
-A Parallel Generator for Sparse Unstructured Meshes to Solve the Eikonal Equation.<br>
-In *Journal of Computational Science*,<br>
-DOI: [10.1016/j.jocs.2018.09.009](https://doi.org/10.1016/j.jocs.2018.09.009).
-
-**2016** | **Benedikt Zönnchen** and Gerta Köster,<br>
-Detecting Arbitrarily Shaped Queues Using the Fast Marching Method.<br>
-In: *[Proceedings of Pedestrian and Evacuation Dynamics 2016](https://doi.org/10.17815/CD.2016.11)*, Collective Dynamics, 556-561 (2016)
-
-**2016** | Gerta Köster and **Benedikt Zönnchen**,<br>
-A Queuing Model Based On Social Attitudes.<br>
-In *Traffic and Granular Flow '15*,<br>
-DOI: [10.1007/978-3-319-33482-0_25](https://doi.org/10.1007/978-3-319-33482-0_25).
-
-**2014** | Gerta Köster and **Benedikt Zönnchen**,<br>
-Queuing at Bottlenecks Using a Dynamic Floor Field for Navigation.<br>
-In *Transportation Research Procedia*,<br>
-DOI: [10.1016/j.trpro.2014.09.029](https://doi.org/10.1016/j.trpro.2014.09.029).
+See [Selected Works](/Pages/works/).
 
 ## Recent Talks
 
-**2024** | A Systemic View on Society,<br>
-Munich Creative Business Week 2024, MUC.DAI, [Link](https://www.mcbw.de/en/magazine/annual-theme-2024).
-
-**2024** | AI as a Tool of Emancipation?<br>
-IGA Tagung.
-
-**2023** | Generative AI in the Context of XR,<br>
-XR for the Middle Class, IHK Munich, [Link](https://www.ihk-muenchen.de/xr-mittelstand/).
-
-**2023** | Generative AI: Between Tool and Communication Partner,<br>
-Ready for the Future: AI-Skills as Part of the Curriculum, Dialogue Forum, HM, [Link](https://www.hm.edu/lehren/generative_ki/dialogforum.de.html).
+See [Selected Works](/Pages/works/).
 
 ***
 

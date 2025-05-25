@@ -6,32 +6,31 @@ title: About
 <div><img style="float: right;height:205px;border-radius: 50%;" src="{% link /assets/images/BZoennchenMUCDAI.JPG %}" alt="Photo"></div>
 
 Welcome, everyone! 
-I'm Benedikt.
-Currently, I am working as a Postdoc in the field of applied machine learning at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/) which is part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
-I am especially interested in the effect of artificial intelligence on society (education, art, communication).
+I'm Benedikt, a postdoctoral researcher in applied machine learning at the at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/), part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
+My current research explores the societal impact of artificial intelligence, particularly in the domains of education, art, and communication.
 
-During my master's program, I had the opportunity to focus primarily on theory-heavy subjects such as automata theory, logic, complexity theory, approximation and online algorithms.
-I continued my academic journey by joining the computer science Ph.D. program in the field of pedestrian dynamics, switching from theoretical computer science to modeling and simulation.
-In my research, I was interested in realistic large-scale pedestrian simulation. 
-I analyzed different microscopic pedestrian simulation models and studied efficient parallel algorithms for pedestrian simulation.
-In particular, I discussed and analyzed navigation field computation in a large-scale setting, a problem strongly connected to the eikonal equation.
-Furthermore, I introduced parallelism to the so-called optimal steps models, an essential class of microscopic simulation models.
-I did my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/) of the [Technical University of Munich](https://www.in.tum.de/en/cover-page/) in cooperation with the Hochschule München University of Applied Sciences (HM).
-During that time, I was a member of the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) in Munich and a major contributor to the open-source framework for pedestrian simulation [Vadere](http://www.vadere.org).
+My academic journey began with a strong foundation in theoretical computer science during my master's studies, where I focused on automata theory, logic, complexity theory, and approximation and online algorithms. 
+I later transitioned to modeling and simulation, pursuing a Ph.D. in the field of pedestrian dynamics.
 
-Starting my research in the field of modeling and simulation of pedestrian streams, I am currently interested in the communicating ability of artificial intelligence systems and their impact on societies.
-Our way of life has to change fundamentally, and we seem to have decided that the digital is here to stay.
-Consequently, computer scientists should be at the forefront of the necessary transformation, not as an unrestrained power but as enablers of our time's most crucial trans- and interdisciplinary project.
+In my doctoral research, I specialized in large-scale pedestrian simulations, analyzing various microscopic models and developing efficient parallel algorithms
+Notably, I investigated dynamic navigation field computation in changing environments---a problem closely related to solving the Eikonal equation efficiently.
+I also introduced parallelism to the [optimal steps models](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.86.046108), a key class of microscopic simulation models developed by our research group.
 
-In my opinion, this project can only succeed if we reinvigorate the Kantian notion of a human being as an end in itself and if we extend this understanding of life to every living thing.
-Therefore, I am heavily drawn to the idea of creating art via code, i.e., coding beyond communicating with a machine, beyond being work, and beyond being the logical formal thing we do to build applications.
-Coding is not only an art form but a medium through which we can express ourselves -- it is not only useful but an end in itself.
+I earned my Ph.D. at the [Chair of Scientific Computing in Computer Science (SCCS)](https://www.in.tum.de/i05/startseite/), [Technical University of Munich](https://www.in.tum.de/en/cover-page/), in cooperation with Hochschule München University of Applied Sciences (HM).
+During this time, I was an active member of the [Pedestrian Research Group](https://www.cs.hm.edu/forschungprojekte/pedestrian_dynamics/index.de.html) and a core contributor to the open-source pedestrian simulation framework [Vadere](http://www.vadere.org).
 
-Computer science is a door into a world of self-determination, creativity, imagination, beauty, and freedom; in short: 
+Today, my interests have broadened to include the communicative capacity of AI systems and their transformative influence on society. 
+As digital technologies become central to our way of life, I believe computer scientists must help shape this transformation---not as unchecked forces of progress, but as thoughtful enablers of one of the most vital interdisciplinary projects of our time.
+
+At the heart of this project lies a philosophical conviction: that we must reassert the Kantian ideal of treating every human---and every living being---as an end in itself but at the same time we have to be critical of a clear cut subject/object distinction. 
+This principle also informs my fascination with creative coding, where programming transcends utility and becomes a mode of artistic expression.
+For me, code is not merely a tool for building applications---it is a medium for expression, a form of art, a way to couple mind and world, and an end in itself.
+
+Computer science, at its best, opens the door to self-determination, creativity, imagination, beauty, and freedom—in short:
 
 >"a world open for play."  -- Robin Williams
 
-Teaching should be an invitation to this playful world.
-It should be a guide to self-discovery and individuation.
-It seems that we concluded that everyone should know how to code and to think computational, at least a little bit.
-However, I firmly believe it can and must be more than useful!
+Teaching, in this light, should be an invitation into that playful world---a path to self-discovery, agancy, autonomy and individuation.
+While it is widely accepted that computational thinking is an important skill, I believe computer science has the potential to offer far more than utility. 
+It can---and should---be meaningful.
+As a scientific discipline, it should remain open to critique and mature enough to engage with other fields, learning from their perspectives.
