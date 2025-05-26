@@ -108,6 +108,7 @@ See [Selected Works](/Pages/works/).
 
 ***
 
+
 ## Teaching
 
 **Summer 2025** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
