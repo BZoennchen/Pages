@@ -13,6 +13,13 @@
 
 .publication-list li {
   list-style-type: none;
+  padding-left: 0;       /* removes indentation */
+  margin-left: 0;
+}
+
+.publication-list ol {
+  padding-left: 0;       /* removes indentation */
+  margin-left: 0;
 }
 
 .copy-button {
@@ -32,6 +39,11 @@
 
 .talks li {
   list-style-type: none;
+}
+
+.talks ol {
+  padding-left: 0;       /* removes indentation */
+  margin-left: 0;
 }
 
 .talk-entry {
