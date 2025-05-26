@@ -103,7 +103,7 @@ See [Selected Works](/Pages/works/).
 
 ## Certifications & Professional Qualifications
 
-**Since 2023** | IHK Trainer (Ausbilder) for IT Specialists<br>
+**Since 2024** | IHK Trainer (Ausbilder) for IT Specialists<br>
 [Industrie- und Handelskammer für München und Oberbayern](https://www.ihk-muenchen.de/)
 
 ***
