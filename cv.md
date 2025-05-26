@@ -101,6 +101,11 @@ See [Selected Works](/Pages/works/).
 
 ***
 
+## Certifications & Professional Qualifications
+
+**Since 2023** | IHK Trainer (Ausbilder) for Fachinformatiker<br>
+[Industrie- und Handelskammer für München und Oberbayern](https://www.ihk-muenchen.de/)
+
 ## Teaching
 
 **Summer 2025** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
