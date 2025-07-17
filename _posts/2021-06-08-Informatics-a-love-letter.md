@@ -330,7 +330,7 @@ Following Eq. \eqref{eq:halt:2} gives us $$\mathcal{H}(\hat{\mathcal{H}}) = 0$$.
 But by following Eq. \eqref{eq:halt:1} this implies that $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt.
 After all, $$\mathcal{H}$$ outputs 0.
 Thus, it recognizes that the analyzed program $$\hat{\mathcal{H}}$$ does not halt.
-But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $$\mathcal{H}(\hat{\mathcal{H}}) = 1$ which leads to a contradiction.
+But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ does not halt, it follows by Eq. \eqref{eq:halt:2} that $$\mathcal{H}(\hat{\mathcal{H}}) = 1$$ which leads to a contradiction.
 
 **It outputs 0:**
 Let us assume $$\hat{\mathcal{H}}(\hat{\mathcal{H}}) = \text{undefined}$$.
