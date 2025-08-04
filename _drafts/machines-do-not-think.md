@@ -6,16 +6,60 @@ tags: AI Philosophy Consciousness
 
 In January 2015, Stephen Hawking, Elon Musk, and dozens of artificial intelligence (AI) experts signed an open letter on AI, calling for research on the societal impacts of AI. 
 The letter highlighted both the positive and negative effects of AI, but warned that if human intelligence is achieved, the risks could be unpredictable. 
-This year, a second open letter, signed by Elon Musk, Steve Wozniak, Yuval Noah Harari and others, followed.
+In 2023, a second open letter, signed by Elon Musk, Steve Wozniak, Yuval Noah Harari and others, followed.
 The authors call for a six-month pause in developing systems more powerful than OpenAI's newly launched GPT-4.
 
+>Contemporary AI systems are now becoming human-competitive at general tasks, and we must ask ourselves: 
+>Should we let machines flood our information channels with propaganda and untruth? 
+>Should we automate away all the jobs, including the fulfilling ones?
+>Should we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us? 
+>Should we risk loss of control of our civilization? 
+>Such decisions must not be delegated to unelected tech leaders.
 >Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable
 
 said the letter issued by the *Future of Life Institute*.
+
+To all these "shoulds" I would respont: No, we shouldn't.
+And maybe we will learn retrospectively that we (whoever that is) should have indeed waited but not until the technology is ready but until society is.
+
+
 This statement reveals two assumptions which are problematic if they are taken for granted.
 First, the authors claim that we can be confident that the effects of powerful AI systems are positive if we only analyse those systems enough, assuming that technology is a mere tool that we (humans) can control. 
 Second, the letter attributes a power to AI systems that we as a society have to respect.
-In combination the authors imply that AI is powerful and will definitely be part of the life of a vast amount of people.
+In combination the authors imply that AI is powerful and will definitely be part of the lifes of a vast amount of people but it will be controlled by someone.
+
+As we all know, the development did not stop.
+Instead, fueled by such statements, the communication about AI increased and a certain kind of research, thinking and language took over.
+Magnificant results were presented.
+Laws were broken and people exploited.
+We are moving fast and we break a lot of things.
+
+Dreams, utopia and dystopia alike were created and some particular group got really excited while the majority of people got concerned.
+There are many reasons to be concerned but I feel like only people of a certain kind of priveledge would list the 
+They rightfully do not trust big cooperation to do the right thing or to act in their interest.
+In this regard the problem is not the technology but how and under which rational it is build.
+
+It is obvious that *Sam Altman* or any other CEO can not be trusted---not because they are bad people.
+I imagine they wanna do good in the world.
+No! They can not be trusted because they are people hosting a system that is geared towards profit.
+At the same time, they deal with a technology of unknown potential and risk while their companies hold all the resources to experiment with it.
+In other words, there is a clear imbalance between the economy and science where researchers working for profit-driven companies are now organizing the biggest conferences and deciding what papers should be published.
+Where a decently large group of scientists in this field tried to understand human *cognition* and *language*, the innovators for new technology pushed aggressivly for the contruction of a so-called *artificial intelligence*.
+In this environment, small labs can no longer compete which necessarily leads to a convergence of ideas, opinions and motives.
+
+If 
+
+
+It is a bizarre situation: 
+
+Studies show that a majority of people feel more concer
+
+ leading to an
+
+Instead the AI boomers won over the AI doomers in the industry especially within OpenAI which is as open as any private company.
+
+
+
 The warning thrusts AI deeper into our collective consciousness.
 
 AI research is in a state of uncertainty.
