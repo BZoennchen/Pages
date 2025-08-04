@@ -1,4 +1,734 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-08-04T21:42:26+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Crises of Communication: Sustainability and Trumpism</title><link href="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html" rel="alternate" type="text/html" title="Crises of Communication: Sustainability and Trumpism" /><published>2024-10-30T00:00:00+01:00</published><updated>2024-10-30T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html"><![CDATA[<p>I have to admit, I’m somewhat addicted to thinking about <em>social systems theory</em>, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-08-04T21:44:13+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Free Energy Principle</title><link href="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html" rel="alternate" type="text/html" title="The Free Energy Principle" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html"><![CDATA[<p>Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
+You will recognize the bear as whole and dangerous animal?
+Your brain will “fill in the gaps” even though there is no absolute certainty that the bear isn’t split in half.
+How and why does the brain do this?
+Furthermore, why are we fooled by all sorts of graphical illusions?
+In other words, why are we, in some instances, so stubborn to see what is not there—even if we are told that it is not there—and, on other occasions, we can immediately see what is hidden and probably there?</p>
+
+<p>The so‑called <em>free energy principle</em> (FEP) <a class="citation" href="#friston:2006">(Friston et al., 2006)</a> is a neat mathematical principle that offers answers to these questions.
+According to the FEP, brains or nervous systems make use of <em>variational inference</em> on hidden causes of sensory data.
+In this view, the goal of an organism, including ours, is to <strong>minimize surprise</strong> within their respective environment.
+Researchers working towards finding evidence to apply the FEP claim that perceptual processes are just one aspect of emergent behaviours of systems that conform to a <em>free energy principle</em>.
+Thus, it is a principle on which the brain might operate.</p>
+
+<blockquote>
+  <p>The free energy considered here measures the difference between the probability distribution of environmental quantities that act on the system and an arbitrary distribution encoded by its configuration.
+The system can minimise free energy by changing its configuration to affect the way it samples the environment or change the distribution it encodes. These changes correspond to action and perception respectively and lead to an adaptive exchange with the environment that is characteristic of biological systems.
+This treatment assumes that the system’s state and structure encode an implicit and probabilistic model of the environment. – <a class="citation" href="#friston:2006">(Friston et al., 2006)</a></p>
+</blockquote>
+
+<p>As a consequence, the FEP depatures from the classical reward-based explanations of behaviour and evolutional progress in general.
+Instead of starting with an <em>a priori</em> <em>goal</em> or <em>reward</em> that the organism has to find, it starts with <em>what kinds of states the organism expects to be in</em>, and assumes the organism to act in a way that <em>confirms those expectations</em> and keeps it in familiar, low-surprise situations.
+It also departures from the belief that symbolic operations (logic, math) are <em>a priori</em>.
+Friston and others also believe that the use of <em>hierarchical models</em>, such as layered neural networks, enable the brain to construct prior expectations in a dynamic and context-sensitive fashion.
+Following this line, this scheme provides a principled way to understand many aspects of cortical organisation and responses while it is strongly connected to the <em>connectionist</em> strand of <em>artificial intelligence</em>.</p>
+
+<p>It was Friston who populated the idea of the brain as a <em>prediction machine</em> trying to minimize surprise (or prediction error) by either updating beliefs (<strong>perception</strong>) or by acting on the world (<strong>action</strong>) to make it more predictable.
+He provides a unifying framework for perception, action, attention, learning, and even consciousness which, in my opinion, combines enactivists and constructivists views (as we will discuss later).</p>
+
+<p>However, the term <em>prediction machine</em> should not be confused with a depreciation of organisms or the human brain.
+There is nothing magical or mystical that we will lose if we stick to the naturalization of ourselves as long as we do not mistaken an explanation as final answer.
+Existential questions remain but stay outside the public sphare of science but those questions are necessarily informed by our (scientific) knowledge about ourselves and our environment.
+In accordance to the FEP, we drift towards explanations of our being—we drift towards self-creation and our own evidence.
+Therefore, what could be more magical, more fascinating than our contingent existence that emerged through a process of exactly such <em>self-creation</em> and <em>self-evidencing</em>.</p>
+
+<p>While the FEP gained major attention in neuroscience and cognitive science through the work of Karl Friston in the 2000s, it is mathematically rooted in ideas that are much older—originating in statistical physics, Bayesian inference, and information theory.</p>
+
+<h2 id="ontological-assumptions">Ontological Assumptions</h2>
+
+<p>To start, we need some ontological assumptions, which I summarize as <em>physicalism</em> and <em>indirect realism</em>.</p>
+
+<p>Physicalists assume that the world is made entirely of physical stuff (matter, energy, fields, etc.) and that all phenomena, including mental events (thoughts, feelings, consciousness), can, in principle, be explained by physical processes and physical laws.
+There is no need to appeal to non‑physical substances (like souls or spirits) to explain reality.</p>
+
+<p>While in practice, scientists rarely state their metaphysical position explicitly, but most of them are physicalists.
+Still, physicalism remains a philosophical stance, not a requirement for doing science.</p>
+
+<p>Second, indirect realism (also called <em>representationalism</em>) is a theory in the philosophy of perception about how we experience the world.
+It states that we do not perceive the external world directly.
+Instead, we are directly aware only of mental representations (sometimes called sense data or percepts), and these representations are caused by and (usually) resemble external physical objects or events.
+There is a physical world “out there,” and physical objects and processes emit or reflect light, sound, and other signals.
+Our sense organs (eyes, ears, etc.) pick up these signals and send information to the brain.
+The brain processes this information and creates an internal representation or image of the world.
+Therefore, what we are immediately aware of is this internal image, not the external object itself.
+From these internal representations, we indirectly know about the external world.</p>
+
+<p>Later I will problematize indirect realism and dwell on the question of whether the free energy principle really requires it.
+The list of critics is long, ranging from <em>phenomenologists</em> (Husserl, Heidegger, Merleau‑Ponty), <em>naive realists</em> (McDowell, Brewer, Searle, Reid), <em>new realists</em> (Gabriel, Holt), <em>idealists</em> (Kant), <em>empiricists</em> (Hume), and other <em>biological constructivists</em> (Maturana, Varela).
+To move on, I will first assume indirect realism for a moment because it makes the explanation intuitive (but if we think about it a little longer, we run into problems).</p>
+
+<p>From an ontological standpoint Friston clearly assumes an external environment that pushes organisms into some direction when he writes:</p>
+
+<blockquote>
+  <p>[I]nvoking selectionist arguments; those systems that match their internal structure to the external causal structure of the environment in which they are immersed will be able to minimise their free energy more effectively. – <a class="citation" href="#friston:2006">(Friston et al., 2006)</a></p>
+</blockquote>
+
+<p>One might ask (later) if an environment of a system can be regarded in separation of that system.</p>
+
+<h2 id="contingent-complexity">Contingent Complexity</h2>
+
+<p>As we will see, the <em>free energy principle</em> suggests that our nervous system is actively generating predictions about what should be “out there,” and then uses sensory input merely to check whether those predictions are correct.
+In that sense, assuming the free energy principle makes our brains into prediction machines with the goal of <strong>minimizing surprise</strong>.</p>
+
+<p>Our body’s purpose is to stay alive—to continue with its self‑creation by constructing its own organization and structure (autopoiesis).
+It is open to structure but organizationally or operationally closed (implying a causal loop in its opertions).
+Its <em>qualitative identity</em> can change but its <em>individual identity</em> is maintained constant even if it could change, meaning there is some active prevention going on—we do not disintegrate:</p>
+
+<blockquote>
+  <p>[A molecular autopoietic system (or living being)] is a homeostatic system of chemical production which has its own individual identity as the variable which it maintains constant – <a class="citation" href="#barry:2012">(Razeto-Barry, 2012)</a></p>
+</blockquote>
+
+<p>Some argue that autopoiesis is an intrinsic purpose of an organism from which all other goals derive <a class="citation" href="#virenque:2024">(Virenque, 2024; Barandiaran, 2017)</a>; others suspect that we, as external observers, project purposiveness onto the organism <a class="citation" href="#cummins:2014">(Cummins, 2014)</a>.
+For the FEP, it is not important if purposiveness is a projection or intrinsically given.</p>
+
+<p>What is quite certainly true is that organisms have to deal with perturbations to stay alive in their respective environment (which is determined by the <em>couplings</em> between the organism and its environment).
+Only surviving organisms can be observerd, which leads to the belief—backed by observation from an external observer—that organisms strive for survival (of the fittest) when, in fact, it might only look like this is the case.</p>
+
+<p>The complexity of the environment and the complexity of the organism co‑evolve over time, and some organisms–like humans–evolved in a direction of higher complexity.
+Again, this does not mean that an increase in complexity is a pre-subscribed <em>telos</em>.
+It is all <em>contingent</em>.</p>
+
+<p>As a consequence of an increase in complexity (for some organisms), their environments become noisy and ambiguous, which requires more sophisticated feedback mechanisms to be able to act and survive in such environments <a class="citation" href="#tomasello:2024">(Tomasello, 2024)</a>.
+For example, we experience a sort of conscious self-control, for example, when we asked to tell the color (not the written text) of</p>
+
+<p><span style="color:red">BLUE!</span></p>
+
+<p>We wanna say “blue” but immediatly interrupt ourselves to say “red”.
+We can be angry with ourselves, talking to ourselves and judging ourselves as if there is an instance within us that is distinct from us.</p>
+
+<p>Recognizing a predator in the forest already requires more than just pattern matching.
+Simple template‑matching reflexes may not work.
+In such complex environments, organisms have to temper their reflexes, plan, and evaluate different action sequences before actualizing one action plan.
+But a much more complex situation arrives if we have to deal with social systems that are beyond our control but which also provides us with the needs for survival.</p>
+
+<p>Tomasello points out that these abilities result from natures inability to build organisms that can cope with everything (reactively) that nature throws at them.
+Instead, nature can build psychological actors:</p>
+
+<blockquote>
+  <p>It brings forth organisms that function as feedback control systems persuing goals, selecting profound actions and monitoring the process of acting them out. – <a class="citation" href="#tomasello:2024">(Tomasello, 2024)</a></p>
+</blockquote>
+
+<p>He also reminds us that the importance of acting is not defined of how many things an organism can do but <em>how</em> these actions are realized.
+Maybe we can learn from his emphasis when discussing AI systems where the focus is often on the capabilities, i.e. on the “how many things” AI systems can do (better) neglecting the question of <em>(self-)control</em> and <em>agency</em>.
+Again, for Tomasello the importance is not complexity or variety (of actions) but the levels of control an organism can exert on its environment and itself.</p>
+
+<p>With respect to the free energy principle contingency and unpredicability explodes if the environment of organisms consists of other organisms—when one has to predict the predictions of others.
+Social priors privided by caregivers or joint attention and communication become necessary and people might update their internal models by minimizing surprise via social feedback.
+We have acted on the whole earth to make our environment more predictable which led to new unpredictablities and risks that we try to make predictable.</p>
+
+<h2 id="naturalizing-surprise-and-entropy">Naturalizing Surprise and Entropy</h2>
+
+<p>Since the free energy principle (FEP) is all about minimizing surprise, let’s start by pinning down what mathematicians and computer scientists actually mean by “surprise”—how can we naturalize it?
+Sure, we all have a gut feeling about it—something surprising is just something we didn’t see coming.
+More formally, an event is surprising if it’s unlikely based on what we already believe.
+That is, we were pretty confident it wouldn’t happen, and yet—bam—it did.</p>
+
+<p>Take raining frogs, for instance.
+That would definitely raise some eyebrows.
+But even without biblical weather, everyday life has its surprises.
+Imagine rolling a die 10 times and getting a 1 every single time. 
+Highly unlikely, right? 
+That’s the kind of statistical oddity that makes us do a double-take.</p>
+
+<p>Surprise, in this framework, can come from two main sources:</p>
+
+<ol>
+  <li>The event itself—specifically, how unpredictable (or high in entropy) the event is.</li>
+  <li>Our prior beliefs—how confident we were about what <em>should</em> happen.</li>
+</ol>
+
+<p>Now, even if your beliefs are spot on—say, you assume the die is fair, and it actually is fair—you might still see 10 ones in a row.
+That’s not because your beliefs are wrong, it’s just because randomness likes to keep things interesting.
+In this case, the surprise comes not from flawed beliefs, but from sheer bad luck.</p>
+
+<p><strong>Remark</strong>  In the <em>Bayesian</em> world, probability isn’t about how often something actually happens—it’s about what we believe will happen, given what we know.
+More precisely, it’s a measure of uncertainty or confidence in a particular outcome or parameter, based on the information we currently have.
+This is quite different from the <em>frequentist</em> view, where probability is all about long-run frequencies.
+A frequentist might say, “If we rolled this die an infinite number of times, the proportion of ones would settle at 1/6”.
+That’s the idea: probabilities reflect what would happen over countless repetitions of the same experiment.
+But often events cannot be repeated.
+Here a Bayesian offers a more flexible, belief-based approach: “Before seeing any data, I assume all outcomes are equally likely (a uniform prior). But if I observe 200 ones in 1000 rolls, I’m updating my belief—maybe this die has a bias”.
+The more data we get, the more refined our beliefs become.
+This belief-updating process is powered by Bayes’ theorem, which lets us revise our <em>prior</em> beliefs \(p(z \vert \text{data})\) using new data (via the <em>likelihood</em>) to form a <em>posterior</em> belief \(p(z \vert \text{data})\).</p>
+
+\[p(z \vert \text{data}) = \frac{p(\text{data} \vert z)p(z)}{p(\text{data})} = \text{Posterior} = \frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}.\]
+
+<p>Bayesian inference is like scientific reasoning on autopilot: start with a hunch, collect some data, update your expectations.
+It can be thought of as a natural extension of probabilistic logic—one that allows us to reason about hypotheses, not just outcomes.
+In this framework, we can assign a probability to a hypothesis, even if we don’t know yet whether it’s true or false.
+This is a big shift from the frequentist perspective, where hypotheses are usually treated more like yes-or-no questions to be tested, not graded on a sliding scale of belief.</p>
+
+<p>Alright, back to surprise and entropy!</p>
+
+<p>Let’s revisit our die.
+Suppose the die isn’t fair—it actually rolls a 1 with probability 0.6, and the other numbers share the remaining 0.4 equally.
+Now, if we think the die is fair, but it keeps landing on 1 suspiciously often, the surprise we feel doesn’t come just from the event itself.
+It also comes from the mismatch between our internal model (a fair die) and reality (a biased one).</p>
+
+<p>In other words, surprise isn’t just about what happened—it’s also about what we expected to happen.
+When our expectations are off, our surprise spikes.
+This is why having a good model of the world—one that reflects actual probabilities—is so important.
+The better our model, the better we can anticipate what’s likely and stay one step ahead of surprise.</p>
+
+<p>Let us assume a perfect world model.
+If \(P(X=1) = p(1) = p_1 = 0.6\) is the probability of rolling 1 with the die, then the <strong>surprise</strong> \(h\) of rolling it is</p>
+
+\[h(p(1)) = \ln\left( \frac{1}{p(1)} \right) =  - \ln\left( p(1) \right).\]
+
+<p>It is high if the probability is small, in fact,</p>
+
+\[\lim\limits_{p_s \rightarrow 0}\ln\left( \frac{1}{p_s} \right) = \infty\]
+
+<p>and</p>
+
+\[\lim\limits_{p_s \rightarrow 1}\ln\left( \frac{1}{p_s} \right) = 0.\]
+
+<p>While we multiply probabilities to figure out the probability of independent events happening together, surprise works differently—it adds up.
+Meaning rolling 5 times 1 and then again 5 times 1 makes two times surprised comparing rolling 5 times in a row.
+This is because</p>
+
+\[\ln{\frac{1}{a \cdot b}} = \ln\frac{1}{a} + \ln\frac{1}{b}.\]
+
+<p>Now, to figure out how much we could be surprised by an event—assuming a perfect and known world model in form of a probability distribution of all possible events, e.g. of the outcome of rolling a die—we could compute the <strong>average surprise</strong> of that distribution which is called its <strong>entropy</strong> \(H\):</p>
+
+\[H(P) = \sum_s p(s) \ln\left( \frac{1}{p(s)} \right) = - \sum_s p(s) \ln p(s).\]
+
+<p>We multiply the surprise of the event \(s\) by its probability because more liekly events occur more often.
+Therefore, they will contribute more to our overall surprise, if we would repeat rolling the die over and over again.
+The corresponding <strong>differential entropy</strong> for a continuous random variable \(X\) with the probability density function \(p(x)\) can be written as:</p>
+
+\[H(p(x)) = -\mathbb{E}_{x \sim P}\left[ \ln p(x) \right] = - \int p(x) \ln\left( \frac{1}{p(x)} \right) dx.\]
+
+<p>Again, we are taking the average of the log probability over the distribution \(p(x)\).
+This tells you how surprising the outcomes are on average.
+The higher the entropy, the more uncertain or unpredictable the variable.</p>
+
+<p>So far so good.
+But what happens if our world model is wrong?
+Can we learn and adjust it?
+And how can we first separate the surprise caused by our incorrect prior beliefs from the overall surprise to then minimize this second source of surprise?</p>
+
+<p>Let us assume we belief in a fair coin, that is \(Q(X = \text{heads}) = Q(X = \text{tails}) = 0.5\)—a reasonable approximation.
+I denote our belief as \(Q\) and its surprise as \(h_q\).
+But now let’s assume the coin is rigged: \(P(X = \text{heads}) = 0.99\) and \(P(X = \text{tails}) = 0.01\)
+We belief the probability of ten times heads in row is</p>
+
+\[Q(\text{10 heads}) = 0.5^{10} = 0.001\]
+
+<p>and the surprise is</p>
+
+\[h_q(\text{10 heads}) = \ln 0.5^{-10} \approx 7.\]
+
+<p>But in reality</p>
+
+\[P(\text{10 heads}) = 0.99^{10} = 0.9\]
+
+<p>and</p>
+
+\[h(\text{10 heads}) = \ln 0.99^{-10} \approx 0.1.\]
+
+<p>Therefore, we are much more surprised as we should be and this surprise is mostly caused by believing in the wrong world model.
+This leads us directly to <strong>cross-entropy</strong> \(H(P,Q)\), which is the average surprise you will get by observing a random variable governed by distributions \(P\), while believing in \(Q\).</p>
+
+\[H(P,Q) = \sum\limits_s P(X=s) \ln\left( \frac{1}{Q(X=s)} \right) = \sum\limits_s p(s) \ln \left( \frac{1}{q(s)} \right).\]
+
+<p>We multiply our subjective surprise by the “real” probability which means that if an event is very likely but our surprise for it is high—meaning we do not expect it—the cross-entropy is high as well.
+Furthermore, if our beliefs are prefect, i.e. \(P=Q\) the cross-entropy is equal to the entropy since</p>
+
+\[H(P,P) = H(P)\]
+
+<p>holds.
+Also note that the cross-entropy is <strong>assymetric</strong>, that is, \(H(P,Q)\) is usually not equal to \(H(Q,P)\).
+For example, take the case from before.
+In this situation we are less surprised believing in a fair coin while it is rigged  than believing in \(P\) while it is fair, that is,</p>
+
+\[H(P,Q) = \ln\left( \frac{1}{0.5} \right) \approx 0.69 \leq 0.5 \cdot \left[ \ln\left( \frac{1}{0.99} \right) + \ln\left( \frac{1}{0.01} \right) \right] \approx 2.31 = H(Q,P)\]
+
+<p>Furthermore, and very importantly, for any model \(Q\), <strong>the cross-entropy can never be lower than the entropy of the underlying generating distribution</strong>:</p>
+
+\[H(P,Q) \geq H(P).\]
+
+<p>Using cross-entropy and entropy, we can now compute the surprise caused by our wrong beliefs:</p>
+
+\[D_{\text{KL}}(P \Vert Q) = H(P,Q) - H(P) = \sum_s p(s) \ln\left( \frac{1}{q(s)} \right) - \sum_s p(s) \ln\left( \frac{1}{p(s)} \right).\]
+
+<p>This can be compressed to</p>
+
+\[D_{\text{KL}}(P \Vert Q) = \sum_s p(s) \ln\left( \frac{p(s)}{q(s)} \right).\]
+
+<p>This is called the <em>Kullback–Leibler divergence</em> \(D_{\text{KL}}(P \Vert Q)\).
+It is the divergence of \(P\) from \(Q\) (also known as the <em>relative entropy</em> of \(P\) with respect to \(Q\)).
+To improve our beliefs we could minimize the Kullback–Leibler divergence, that is, we could</p>
+
+\[\min D_{\text{KL}}(P \Vert Q).\]
+
+<p>However, in machine learning you will usually hear about only minimizing the cross-entropy \(H(P,Q)\).
+This is because we can not change the entropy of “reality”, that is, we can not change \(H(P)\)—we can not change reality (without acting) but our beliefs about it.
+Thus, mimimizing \(H(P,Q)\) achives the same goal as minimizing \(D_{\text{KL}}(P \Vert Q)\).</p>
+
+<p>Of course, the big problem is that we don’t know \(P\)!</p>
+
+<h2 id="the-circularity-of-perception">The Circularity of Perception</h2>
+
+<p>Because of a <em>drift</em> towards complexity, many assume that brains began to build models \(Q\) of the world so that they can explain sensory inputs by <strong>inferring</strong> their <strong>hidden causes</strong>.
+For example, your brain might have an internal model of snakes and bears—what they are, how they look, and what they can and cannot do.
+Brains can generate missing information, e.g., they can deal with obfuscated objects.
+They have an intuitive understanding of the physical world—of movement, speed, and heaviness.
+They are biased toward what is usually helpful.</p>
+
+<p>A brain, in that view, is like a judge.
+There is the raw sensory data obtained by <em>observations</em>, which leads to the generation of predictions.
+It is the incoming observation, or what you see.
+Furthermore, there are <em>prior beliefs</em> learned through experience and evolution.
+It is what you usually expect, and if these expectations do not fit your sensory data, you are surprised.
+The brain can check how well your explanation matches your observation.</p>
+
+<p>Following this principle, the first component called <em>accuracy</em> is defined as a measure of how well the data fit an explanation.
+The second component is <em>complexity</em>.
+It refers to how abstruse this explanation is.
+We want to prefer simple models of the world, i.e., simple explanations.</p>
+
+<p>From this we get an obvious tension between the two components.
+We probably get the highest accuracy by using a very complex model, but such a model cannot generalize and will produce inaccurate predictions for new situations.
+This tension is the <strong>free energy</strong> \(F\), that is,</p>
+
+\[F = \text{complexity - accuracy}.\]
+
+<p>We (or our brains) want maximal accuracy with minimal complexity.
+Thus, following the definition of \(F\), the brain minimizes free energy \(F\).
+To survive, it requires <em>high accuracy</em> <strong>and</strong> <em>low complexity</em>.
+If this is achieved, then there is only low free energy \(F\)—there is nothing to be gained.</p>
+
+<p>It is assumed that the brain compresses the high‑dimensional sensory data into a somewhat manageable form by finding commonalities and hidden structures in the data.
+Furthermore, there might be a lot of information in the data that is not important for the organism’s self‑creation and survival.
+Especially at a deep, low‑dimensional layer, hidden neurons—also called <em>latent variables</em> or <em>latents</em>—represent causes.
+Importantly, <strong>for such latent neurons there is no ground truth of what their activity should be or mean because they do not interface with the outside world.</strong>
+The brain is free to “choose” whichever latents it wants.
+This opens up a question: how can the brain test if its world model is a good one if it has no direct access to the world?</p>
+
+<p>We cannot verify the latents, but we can verify their consequences, meaning the brain should be able to reconstruct the source sensory data \(x\) from its compressed representation, that is, from its latents \(z\).</p>
+
+<p><strong>Remarks:</strong> In the original paper \(z\) is denoted as \(\vartheta\) and called “parameterise environmental forces or fields that act upon the system”.
+\(x\) is denoted as \(\hat{y}\) and is a function of actions \(\alpha\) (the effects of the system on the environment).
+Furthermore, I will use \(\theta\) as the parameters of the involved neural networks which, in the paper, is denoted as \(\lambda\) and called “quantities that describe the system’s physical state”.
+It can also mean the parameters of the Gaussian distribution that are computed by the network.
+Friston also differentiate between parameters that can change quickly, slowly and very slowly.</p>
+
+<blockquote>
+  <p>Factorization of the ensemble density to cover quantities that change with different timescales provides an ontology of processes thatm map nicely onto perceptual inference, attention and learning. – <a class="citation" href="#friston:2006">(Friston et al., 2006)</a></p>
+</blockquote>
+
+<p>Using a probabilistic modeling framework, we can say that, given our beliefs \(z\) (about how the world works), we should be able to predict the sensory data \(x\) using our internal model that approximates the true probability distribution \(p\), meaning that</p>
+
+\[p(x \vert z)\]
+
+<p>should be high where \(z\) is given, and \(G_{\theta}(z) \approx x\) is computed by a neural network \(G_{\theta}\)—\(z\) is given while the brain <strong>generates</strong> \(x\).</p>
+
+<p>Note that \(z\) is assumed to be of low dimensionality while \(x\) is of high dimensionality.
+\(G_{\theta}\) is a <em>generative model</em>.
+We call \(p(z)\) <em>priors</em> and \(z\) <em>causes</em>.
+If \(z\) is not the cause for \(x\), we have to change our model to learn different latents \(z\).</p>
+
+<p>The brain learns these latents or causes by compressing the sensory data.
+Given sensory data \(x\) the nervous system tries to figure out what <em>causes</em> \(z\) produced \(x\); that is, the system wants to model</p>
+
+\[p(z \vert x)\]
+
+<p>accurately.
+This is called <em>inference</em> because the system <em>infers</em> causes from <em>observations</em>—\(x\) is given while the brain <strong>searches</strong> for \(z\).</p>
+
+<p>However, this is a hard problem because, unlike generation, there is no function that directly computes \(z\) given \(x\)—the generative model is not invertable.
+One could generate a lot of candidates of sensory data \(x'\) using the generative model and compare these candidates to the true observation \(x\).
+However, this is not feasible because, even though \(z\) is of lower dimensionality than \(x\), there are still too many possibilities.
+We say that the problem is <em>intractable</em>.</p>
+
+<p>In reality, our brain solves this problem almost <strong>instantaneously</strong>.
+If there is a grizzly bear in front of us, we have to figure it out fast!
+So how does the brain solve this seemingly impossible task?</p>
+
+<p>Instead of finding the exact latents \(z\), our brain tries to find an approximation \(q(z \vert x)\) using a so-called <em>recognition model</em> \(R_{\theta}\), which is distinct from but interdependent on the <em>generative model</em> \(G_{\theta}\).
+It works in the opposite direction compared to the generative model by mapping a sensory observation \(x\) to a distribution of causes:</p>
+
+\[R_{\theta}(x) \approx z.\]
+
+<p>The result is only an approximation—a rough guess \(z\) of what causes the observations \(x\).
+To improve the guess the brain might do multiple rounds of <em>recognition</em> and <em>generation</em> in tandem to arrive at an optimal approximation.
+This process we can call <strong>perception</strong> and it can only work if <em>recognition</em> and <em>generation</em> are aligned with each other.
+It presupposes such an alignment, thus learning through experience!</p>
+
+<p>In perception, free energy is minimized, meaning that an optimization happens until <em>recognition</em> roughly fits <em>generation</em>:</p>
+
+\[x \approx G_{\theta}(R_{\theta}(x)).\]
+
+<p>If this is the case, our brain has found an explanation or causes \(z\) that minimize <em>free energy</em>—one that explains the sensory input \(x\) and aligns well with one’s prior beliefs.
+Perception basically solves for</p>
+
+\[\text{minimize } \left[ \text{complexity - accuracy} \right] = \min F.\]
+
+<p>It rapidly adjust the activity of latent neurons.</p>
+
+<p>Long‑term learning via experience is required to gradually refine both models—i.e. neural networks—to align them better with each other and to construct better world models.
+Both <em>learning</em> and <em>perception</em> serve the same goal: reducing uncertainty in the environment the organism at least partly constructs by building optimal models of it and finding useful explanations for sensory data within those models.</p>
+
+<p>Now there is a third way to minimize free energy, that is, <em>acting</em> which equates to a change in the organisms environment caused by the organism.
+Acting can be as simple as turning your head.
+It changes the sensory data the organism is <em>receiving</em>.
+Therefore, one can model the sensory data \(x\) as a function of action \(\alpha\), that is, \(x(\alpha)\).
+Consequently, one can interpret perception as an active process.
+The organism does not receive but selects its sensory data.
+A feedback loop is constructed thus non-linearity is introduced: acting -&gt; perceiving/learning -&gt; believing -&gt; acting.
+Each step influences the next one.</p>
+
+<h2 id="variational-inference">Variational Inference</h2>
+
+<p>Up to this point I did not explain how generation and perception can be established, that is, how to find good models \(G_{\theta}\) and \(R_{\theta}\).
+In the following section, we look at how such models can be build in the field of <em>machine learning</em> using the framework of <em>variational inference</em>.</p>
+
+<p>First, we assume an unknown latent distribution \(p(z)\) (causes) and a distribution of our observations \(p(x)\) (for those causes).
+From the rules of probability theory we know that</p>
+
+\[p(x,z) = p(z) \cdot p(x \vert z)\]
+
+<p>holds.
+That is, to compute the probability that \(x\) and \(z\) occur together, we can first compute the probability of \(z\) and then multiply the conditional probability of \(x\) given \(z\).</p>
+
+<h3 id="minimizing-divergence">Minimizing Divergence</h3>
+
+<p>Our <em>generative neural network</em> \(G_{\theta}\) computes \(p(x \vert z)\) given \(z\).
+But on a computer we usually do not compute the probability distribution directly.
+Because there is only a finite amount of memory, we cannot represent such a distribution exactly.
+What one usually does is compute the parameters—means and standard deviations—of a Gaussian distribution.
+One might ask: Why is this feasible? Why the Gaussian?
+I will explain this later.
+For now, assume that it is a good, computable choice.</p>
+
+<p>An artificial neural network does not output probabilities directly but instead the parameters, i.e. <em>means</em> \(\mu\) and the covariance matrix \(\Sigma\) of the Gaussian.
+The actual probability can then be computed using the Gaussian formula:</p>
+
+\[p(x \vert z) = \frac{1}{(2\pi)^\frac{d}{2} \vert \Sigma \vert^{\frac{1}{2}}} \exp\left( -\frac{1}{2} (x - \mu )^{\top} \Sigma^{-1} (x - \mu) \right)\]
+
+<p>where \(d\) is the dimension of \(x\). 
+This simplifies to</p>
+
+\[p(x \vert z) = \frac{1}{(2\pi)^\frac{d}{2}} \exp\left( -\frac{1}{2} \Vert x - \mu \Vert^2 \right)\]
+
+<p>if \(\Sigma\) is the identity matrix.</p>
+
+<p>The objective is now to minimize the mismatch between the “real” data distribution \(p(x)\) and the distribution \(p_{\theta}(x)\) that our model approximates.
+As I said before, we do not know \(P\), so we approximate it by sampling from our environment.</p>
+
+<p>As mentioned before, we can measure the difference between two distributions by using the Kullback–Leibler divergence:</p>
+
+\[D_\text{KL}(p(x) \Vert p_{\theta}(x)) = \sum_x p(x) \ln\frac{p(x)}{p_{\theta}(x)}.\]
+
+<p>We want to minimize the \(D_\text{KL}\).
+Any mismatch between the two distributions will result in \(D_\text{KL} &gt; 0\).</p>
+
+<p>By using log rules we can convert the equation to:</p>
+
+\[D_\text{KL}(p(x) \Vert p_{\theta}(x)) = \sum_x p(x) \ln p(x) - \sum_x p(x) \ln p_{\theta}(x).\]
+
+<p>The first term is the entropy of the data (a measure of uncertainty inherent in the observations).
+This entropy only depends on the true data.
+Therefore, we cannot optimize it away—we cannot influence it—thus we can regard it as a constant.
+Consequently, we can focus solely on the second term and minimize</p>
+
+\[-\sum_x p(x) \ln p_{\theta}(x)\]
+
+<p>or</p>
+
+\[\arg\max\limits_{\theta} \sum_x p(x) \ln p_{\theta}(x).\]
+
+<p>Again, we do not know \(p(x)\).
+We only have access to \(N\) samples from it.
+Therefore, we approximate:</p>
+
+\[\sum_x p(x) \ln p_{\theta}(x) \approx \frac{1}{N} \sum\limits_{i=1}^N \ln p_{\theta}(x_i).\]
+
+<p>The averaging works because high-probability samples should appear more often in our data; their contribution remains consistent after averaging.</p>
+
+<p>Up to this point, our <em>generative model</em> maps \(z\) to \(p_{\theta}(x \vert z)\).
+It outputs means and standard deviations for Gaussians.
+What is left is the expression \(p_{\theta}(x)\).</p>
+
+<p>To compute the total probability of an observed value \(x\), we must take into account that different values of the latent \(z\) could have generated it.
+Mathematically we sum the probability that each latent value could explain our observation, weighted by how <em>likely</em> that latent value is according to the prior distribution:</p>
+
+\[p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z).\]
+
+<p>Both the parameters of the prior and the weights that transform the latent into the conditional distribution are what our model needs to learn.</p>
+
+<h3 id="how-generative-models-learn">How Generative Models Learn</h3>
+
+<p>How do we find or optimize good parameters \(\theta\) for our generative model \(p_\theta(x \vert z)\) and our prior beliefs \(p_{\theta}(z)\)?
+We basically follow five steps:</p>
+
+<p><strong>(1)</strong> Take a data point from the training dataset.</p>
+
+<p><strong>(2)</strong> Randomly sample many candidates \(z_k\) from our current prior \(p_{\theta}(z)\).</p>
+
+<p><strong>(3)</strong> Map each \(z_k\) through the generative model \(G_{\theta}(z)\) to get means \(\mu_k\) and our covariance matrix \(\Sigma_k\). Remember that the generative model is used to model \(p(x \vert z)\), i.e. to generate sensory data \(x\) given the causes \(z\).</p>
+
+<p><strong>(4)</strong> Given \(\mu_k, \Sigma_k\) we compute, for each \(z_k\), the value of \(p_{\theta}(x \vert z_k)\) (likelihood) where</p>
+
+\[p_{\theta}(x \vert z_k) \sim \exp\left(\frac{-\Vert x-\mu_k \Vert^2}{2} \right).\]
+
+<p><strong>(5)</strong> Compute the average log-likelihood</p>
+
+\[\ln\left[\sum_{z}^{\{z_k\}} p_{\theta}(z)  p_{\theta}(x \vert z) \right].\]
+
+<p>We iteratively update \(\theta\) to maximize our log-likelihood across the dataset, usually using thetaopagation and gradient descent with stochastic sampling.</p>
+
+<p><strong>Remark:</strong> The brain does not use backpropagating or gradient decent, consequently, Friston relies on <em>predictive coding</em> which is neurally plausible: It mirrors cortical feedback and feedforward loops, with ascending prediction errors and descending predictions.</p>
+
+<h3 id="recognition-as-guided-sampling">Recognition as Guided Sampling</h3>
+
+<p>One problem we face is step <strong>(2)</strong>, especially if the latent space has high dimensionality.
+I already mentioned that it is not feasible to generate a bunch of possible sensory data to compare them with \(x\) to find good possible causes \(z\).
+There are usually too many possible causes, and because we approximate our unknown prior distribution by sampling, we would need to somehow cover the whole latent space.
+This is computationally infeasible because the number of required samples increases exponentially with the number of dimensions of the latent space (<em>curse of dimensionality</em>).</p>
+
+<p>However, usually only a tiny fraction of those causes lead to our observation—most latents do not explain the data!
+Thus, we basically want to sample those causes \(z\) that are likely to result in \(x\).
+Importantly, while we are okay with ignoring causes that do not matter, we do not want to miss rare causes.
+The idea is to oversample rare cases instead of risking missing them, and then adjust for this oversampling mathematically.</p>
+
+<p>To know which regions we want to sample from, we train a separate neural network \(R_{\theta}\) to serve as our “guide”.
+It is our <em>recognition model</em> \(R_\theta\) that tries to approximate the inversion of the <em>generative model</em>.
+It learns a <strong>variational distribution</strong> \(q_{\theta}(z \vert x)\) which predicts, for each data point \(x\), the distribution over the latent space, focusing on regions that have likely generated \(x\).</p>
+
+<p>Consequently, our formula for \(p_{\theta}(x)\) changes from</p>
+
+\[p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z)\]
+
+<p>to</p>
+
+\[p_{\theta}(x) = \sum \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} q_{\theta}(z \vert x) p_{\theta}(x \vert z).\]
+
+<p>which can also written as the expected value of the likelihood scaled by the ratio of sampling frequencies over the distribution \(q\):</p>
+
+\[\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right].\]
+
+<p>Mathematically these two equations are equivalent.
+However, note that we are using a finite number of samples and that \(q_{\theta}(z \vert x)\) determines which \(z_k\)’s we continue training on.
+\(\frac{p_{\theta}(z)}{q_{\theta}(z \vert x)}\) is an adjustment for sampling bias: it adjusts the weight for events we sample more frequently than they occur (e.g., rare but important cases).</p>
+
+<p>Now we take the logarithm to arrive at our term to maximize:</p>
+
+\[\ln p_{\theta}(x) = \ln \mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right].\]
+
+<p>However, the logarithm of an expectation is hard to optimize.
+It is noisy and unstable.
+Furthermore, computing the gradient would require that we first compute the average and only then propagate the error.
+This means that after computing \(z\) using our <em>recognition model</em>, we would need to first compute multiple probabilities for \(x\) given \(z\) using our <em>generative model</em> before starting backpropagation (i.e. \(\theta\)-optimization).
+It is a computational bottleneck.</p>
+
+<p>Instead, we would like to swap the order like this:</p>
+
+\[\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \ln \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right]\]
+
+<p>But the log of an average and the average of a log are not equal.
+However, since the logarithm is a concave function we get:</p>
+
+\[\ln \mathbb{E}[X] \geq \mathbb{E}[\ln X]\]
+
+<p>or in our case</p>
+
+\[\ln \mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right] \geq \mathbb{E}_{z \sim q_{\theta}(z \vert x)} \ln \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right].\]
+
+<p>The right-hand side is a lower bound, also called the <em>model evidence</em> or <em>evidence lower bound</em> (ELBO).
+The negative ELBO is known as <em>variational free energy</em>.
+Maximizing ELBO also maximizes our original objective, but maximizing ELBO is computationally much easier.</p>
+
+<p>So we want to maximize the right-hand side:</p>
+
+\[\ln p_{\theta}(x) \geq \mathbb{E}_{z \sim q_{\theta}(z \vert x)} \ln \left[ p_{\theta}(x \vert z) \frac{p_{\theta}(z)}{q_{\theta}(z \vert x)} \right]\]
+
+<p>and, using log rules, we arrive at the following:</p>
+
+\[\ln p_{\theta}(x) \geq \underbrace{\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ \ln p_{\theta}(x \vert z) \right]}_{\text{accuracy}} - \underbrace{\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ \ln \frac{q_{\theta}(z \vert x)}{p_{\theta}(z)} \right]}_{\text{complexity}}.\]
+
+<p>We arrive at a beautiful interpretation.
+The first term</p>
+
+\[\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ \ln p_{\theta}(x \vert z) \right]\]
+
+<p>is the <em>accuracy</em> mentioned before, and the second term</p>
+
+\[\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ \ln \frac{q_{\theta}(z \vert x)}{p_{\theta}(z)} \right]\]
+
+<p>is the <em>complexity</em>.
+The second term is also the negative of the Kullback–Leibler divergence between the distribution \(q\) and the prior distribution of latents, i.e. \(D_\text{KL}\left[ q_{\theta}(z \vert x) \Vert p_\theta(z) \right]\).
+It prevents the “guide” from becoming too specialized and inventing overly complex distributions of latents.
+It ensures that the distribution of latent factors for any specific data point (observation) does not stray too far from our general prior belief about the latent space as a whole.
+In other words, it ensures that the latent space remains smooth and numerically well-behaved.</p>
+
+<h2 id="the-organism-as-its-own-evidence">The Organism as Its Own Evidence</h2>
+
+<p>Friston et al. importantly consider the observer perspective and argue that, in actuality, the <strong>system/agent/organism is not trying to maximize reward</strong>.
+It is the prior belief that guides <em>perception</em> and <em>action</em> to construct an environment that (partly) aligns with the organism’s beliefs.
+In that sense, organisms are (partly) their own self-fulfilling prophecy—they constantly try to “make true” what they “believe” while, at the same time, the filtered and selected “truth” changes their beliefs.</p>
+
+<blockquote>
+  <p>The inherent circularity obliges the system to fulfil its own expectations. In other words, the system will expose itself selectively to causes in the environment that it expects to encounter. […] Anthropomorphically, we may not interact with the world to maximise our reward but simply to ensure it behaves as we think it should. – <a class="citation" href="#friston:2006">(Friston et al., 2006)</a></p>
+</blockquote>
+
+<p>If an insect that has evolved to expect its environment to be dark it will use its action, e.g. movement, to keep its environment dark.
+It acts to keep its sensory data consistent with its belief—moving into shadows, avoiding light.
+To an external observer, this looks like as if the insect has learned that darkness is good, and has been reinforced to prefer it but from the insect’s own perspective, it’s just acting to reduce surprise by finding sensory data that matches its expectations.</p>
+
+<p>Consequently, <strong>value</strong> is not the interpretation of an external signal (<em>reward</em>) but is constructed by a prior belief about what states minimize surprise—what states are “normal” or “preferred” and since experience and prior belief influence each other in a feedback loop, we can hardly observe direct causal relation between the two.
+Value is basically the inverse of surprise and instead of figuring out which states are good based on reward, the FEP says: Organisms are already biased to expect to be in certain types of states (like being alive, warm, safe, fed).
+These are <strong>low-surprise states</strong>—what the organism is used to.
+Therefore, organisms act not to find new rewards, but to stay within those expected (familiar) states <a class="citation" href="#friston:2011">(Friston, 2011)</a>.
+One can still include costs or punishments in the model—but they are treated as part of the prior beliefs about what kinds of states should be avoided.
+For example, if being in pain is costly, the organism has a prior belief that “I don’t usually feel pain”.</p>
+
+<blockquote>
+  <p>The problem of finding sparse rewards […] is nature’s solution to minimizing entropy. – <a class="citation" href="#friston:2011">(Friston, 2011)</a></p>
+</blockquote>
+
+<p>That is, rewards are rare and localized because organisms are repeatedly drawn to a small set of predictable, low-surprise states—such as food, shelter, and safety.</p>
+
+<blockquote>
+  <p>These dynamics rest on complementary self-construction (autopoiesis) and destruction (autovitiation). – <a class="citation" href="#friston:2011">(Friston, 2011)</a></p>
+</blockquote>
+
+<p>In other words, the organism builds up behaviors that help it stay viable, and eliminates those that lead to bad outcomes.
+Behaviors emerge because the agent must stay in a balance with its environment—not too chaotic, not too static—to continue existing.</p>
+
+<p>So why doesn’t the agent settle in one fixed state?
+Because organisms or living systems—like animals or humans—are not static systems.
+They have to continuously interact with their environment to survive.
+We cannot just stay in a single “perfect” state and even “being alive” requires constant change (eating, breathing, sleeping, thermoregulating, moving around).
+If we would stay in one place (one state), we would have violated our own prior beliefs about what kinds of sensory inputs and physiological states we expect to have over time.
+We are in <em>itinerancy</em>: moving through a cycle of low-surprise states, not staying in one.
+Thus, <em>itinerant policies</em> arise because staying in a single state forever would be more surprising (and thus less viable) than cycling through a set of familiar, predictable states over time <a class="citation" href="#friston:2011">(Friston, 2011)</a>.</p>
+
+<blockquote>
+  <p>To minimize surprise, organisms must move through a predictable sequence of diverse but familiar states.</p>
+</blockquote>
+
+<p>Learning, perception, and action then is about <strong>adjusting expectations</strong> and <strong>updating generative models</strong> on different time scales. 
+To the best of my knowledege, it is unclear in which way one dominates over the others but it seems as if all three are highly depend on each other.
+From this I conclude that it is important to dwell on problems, to think, to do the hard work to adjust long-term causes to be able to construct a reality/environment that makes sense consistently.
+But it is also important to act in such a way that one is exposed to surprise, at least from time to time.</p>
+
+<blockquote>
+  <p>Without surprise we are not adapting our belief system.</p>
+</blockquote>
+
+<p>A realist will argue that the survival of an organism is bound to the accuracy of its model about reality—meaning its expectations align well with it, therefore, we can assume that we more or less experience reality as it is.</p>
+
+<blockquote>
+  <p>Because the free energy is low, the inferred causes approximate the real environmental conditions. This means the systems physical state must be sustainable under these environmental forces, because each system is its own existence proof. – <a class="citation" href="#friston:2006">(Friston et al., 2006)</a></p>
+</blockquote>
+
+<p>A construcitivst will point out that our beliefs (latents, causes) only tend to generate sensory data and that we can not jump from this to an objective reality or “the truth” which is “out there”.
+The causes we believe in may have little or nothing to do with the “real” causes—if such causes even exist.
+This challenges my earlier assumption of <em>indirect realism</em>.
+Causes are just effective in generating sensory data—data that is already constructed by the very same system which trys to reconstruct them.
+While I don’t see constructivism as an anti-realism, constructivist might doubt any sort of realism that rejects constructivist elements and that assume that we can reach an observer-independent “objective turth”.
+Contructions are contingent and constrained—they work in the context of a history of evolution but they are not “the truth” and, in my opinion, they can not be separated from the observing system that construct them.</p>
+
+<p>Because <em>recognition</em> and <em>perception</em> work in tandem, we can say that changing our expectations literally changes our perception—it changes our environment.
+But at the same time, our perception changes our expectations if we are surprised.
+Thus the FEP highlights the circularity of <em>perception</em> and <em>action</em> or <em>belief</em> and <em>reality</em> because organisms minimize free energy not only by adapting their beliefs to fit their environment but also by adapting their environment to fit their beliefs.
+It assumes an environment that is acted upon effectively (which is a somewhat <em>optimistic</em> outlook and motivator to make use of our imagination to construct beliefs of a less cruel world).</p>
+
+<p>Also I want to emphasise, that surprise that leads to a loss of one’s well-known environment, can be painful because one’s prior beliefs about the world are violated—you enter a state of increased entropy.
+This might lead to a temporary suspension of meaning because you no longer know what to expect, or how to act effectively.
+Adaptation is painful because it involves breaking down a stable, low-free-energy model, and building a new one that’s better at minimizing future surprise.
+It is especially painful if the previous model had high precision priors (e.g. strong, confident beliefs), the environment changes faster than the model can update (e.g. economic instability, cultural shifts), or there is no clear path to a new, stable <em>attractor state</em>.</p>
+
+<p>In today’s society the individual is expected to be flexible, to constantly re-skill and adapt to environmental changes.
+For example, we switch our jobs more and more frequently, which is often seen as desirable or necessary.
+Flexibility—constantly updating beliefs, changing environments, shifting roles—might sound adaptive.
+And in a way, it is.
+But under FEP, excessive flexibility undermines model stability.
+Chronic uncertainty leads to chronic prediction error, which is metabolically and psychologically exhausting and if we are constantly updating our generative model without forming stable priors, we fail to build any useful expectations.
+This creates a sense of incoherence or alienation—a <strong>loss of identity</strong>; a lived experience of “nothing makes sense”.
+So in modern systems that demand rapid flexibility, we’re often forced to dissolve stable models faster than we can reconstruct them.
+The result? Anxiety, burnout, and a background hum of ontological instability.</p>
+
+<p>The FEP suggest that there is a balance to be found: exposure to surprise and a certain “willingness” to adapt without loosing ones identity and purpose.
+I find it desirable to recognize, or at least consider that emotional pain may not reflect maladaptation but the cost of updating one’s expectations in the face of an unstable world.
+Flexibility, when demanded too often or too rapidly, erodes the very models that minimize surprise over the long term.
+Thus, while adaptability is vital, stability is sacred.</p>
+
+<p>Let me finish with some speculations.
+I have the gut feeling that a strange, perhaps paradoxical, alliance forms here between Kant, Heidegger, and constructivists like Maturana, Varela, and Luhmann. 
+Each offers a piece of the puzzle when viewed through the lens of the free energy principle.
+Kant emphasized the structuring role of <em>a priori</em> reason—the internal scaffolding that makes experience possible.
+Heidegger, in contrast, stressed the <em>immediacy (i.e. pre-conceptual) and embeddedness of experience</em>: we are not detached observers but beings thrown into a meaningful world.
+Constructivists such as Maturana and Varela took this further, arguing that <em>cognition arises through dynamic interaction with an environment</em> that is, in part, selected or <em>enacted</em> by the organism itself.</p>
+
+<p>Yet, each position has its blind spots. 
+Kant may have overestimated the sovereignty of internal reason;
+Heidegger arguably romanticized lived immediacy; and constructivists often risk underestimating the constraints imposed by sensory data—or more precisely, by the need to stay within states that minimize surprise. 
+Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger), but that world is not arbitrary: it pushes back against us, forcing our internal beliefs to remain tethered to what is adaptive and sustainable.</p>
+
+<hr />
+
+<h2 id="appendix">Appendix</h2>
+
+<p>The generative neural network \(G_\theta\) computes an approximation of \(p(x \vert z)\) given \(z\) but as a Gaussian distribution (its means and standard deviations).
+So, why using the Gaussian is a good choice?</p>
+
+<p>The central limit theorem (CLT) states that:</p>
+
+<blockquote>
+  <p>If you take a large number of independent and identically distributed (i.i.d.) random variables with finite mean and variance, then their properly normalized sum tends toward a Gaussian (normal) distribution, regardless of the original distribution of the variables.</p>
+</blockquote>
+
+<p>The Gaussian appears often in nature because of the aggregation of many small effects and it has the maximum entropy among all distributions with a given mean and variance.
+It is the “most random” or “least biased” which makes it a natural default in many uncertain systems.</p>
+
+<p>So first, it is mathematically convenient.
+The Gaussion has a very simple functional form:</p>
+
+\[q(z) = \mathcal{N}(z \vert \mu, \Sigma)\]
+
+<p>It is fully escribed by just two parameters: mean \(\mu\) and covariance \(\Sigma\).
+This makes optimization tractable because:</p>
+
+<ul>
+  <li>Expectations like \(\mathbb{E}_q[\ln p(x,z)]\) can often be computed in closed form or with low-variance Monte Carlo estimates.</li>
+  <li>(Differential) entropy \(H(P)\) is known analytically for a Gaussian. It is \(H(\mathcal{N}) = \frac{1}{2} \ln((2\pi e)^d \vert \Sigma \vert)\), which simplifies the so-called evidence lower bound (ELBO):</li>
+</ul>
+
+\[\text{ELMBO} = \mathbb{E}_q[\ln p(x,z)] - \mathbb{E}_q[\ln q(z)].\]
+
+<p>Secondly, the Gaussian is reparameterizable.
+Instead of sampling \(z \sim \mathcal{N}(\mu, \sigma^2)\) directly, we can rewrite it as:</p>
+
+\[z = \mu + \Sigma^{1/2} \epsilon, \quad \epsilon \sim \mathcal{N}(0, I).\]
+
+<p>Now, we are sampling from a fixed standard normal \(\epsilon\), and transforming it using differentiable operations involving \(\mu\) and \(\Sigma\).
+Because \(z\) is now a function of \(\mu\) and \(\Sigma\) its gradients can flow.
+It makes the entire process differentiable with respect to the parameters because \(\epsilon \sim \mathcal{N}(0, I)\) is independent of these parameters, enabling optimization via gradient descent.
+In other words, the randomness becomes independent of ones model’s parameters, and the transformation from parameters to the sample becomes differentiable.</p>
+
+<p>Thirdly, even if the true posterior is not Gaussian, many high‑dimensional distributions exhibit approximately Gaussian local behavior (via central limit theorem effects or Laplace approximations).
+Furthermore, Gaussians are smooth and unimodal, making them a good first approximation for a wide variety of distributions.</p>
+
+<p>Then there is the topic of computational efficiency.
+Working with Gaussians keeps the variational family simple because (1) linear algebra operations are efficient, (2) sampling is cheap, and (3) we avoid expensive numerical integration or more complex families that would be harder to optimize.</p>
+
+<p>Lastly, this framework is flexible.
+Even though a single Gaussian is unimodal, we can extend it by using mixtures of Gaussians, normalizing flows, and Gaussian processes (an infinite‑dimensional generalization).</p>
+
+<p>In summary: the Gaussian is used because it strikes the right balance between <strong>expressiveness</strong> (locally), <strong>tractability</strong> (closed‑form solutions and gradients), and <strong>optimization‑friendliness</strong>.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="friston:2006">Friston, K., Kilner, J., &amp; Harrison, L. (2006). A free energy principle for the brain. <i>Journal of Physiology-Paris</i>, <i>100</i>(1), 70–87. https://doi.org/10.1016/j.jphysparis.2006.10.001</span></li>
+<li><span id="barry:2012">Razeto-Barry, P. (2012). Autopoiesis 40 years later. A review and a reformulation. <i>Origins of Life and Evolution of Biospheres</i>, <i>42</i>(6), 543–567. https://doi.org/10.1007/s11084-012-9297-y</span></li>
+<li><span id="virenque:2024">Virenque, L. (2024). What is agency? A view from autonomy theory. <i>Biological Theory</i>, <i>19</i>(1), 11–15. https://doi.org/10.1007/s13752-023-00441-5</span></li>
+<li><span id="barandiaran:2017">Barandiaran, X. E. (2017). Autonomy and enactivism: Towards a theory of sensorimotor autonomous agency. <i>Topoi</i>, <i>36</i>(3), 409–430. https://doi.org/10.1007/s11245-016-9365-4</span></li>
+<li><span id="cummins:2014">Cummins, F. (2014). Agency is distinct from autonomy. <i>Avant: Trends in Interdisciplinary Studies</i>, <i>5</i>(2), 98–112. https://doi.org/10.26913/50202014.0109.0005</span></li>
+<li><span id="tomasello:2024">Tomasello, M. (2024). <i>Die Evolution des Handelns</i>. Suhrkamp.</span></li>
+<li><span id="friston:2011">Friston, K. J. (2011). Embodied inference: or “I think therefore I am, if I am what I think“. In W. Tschacher &amp; C. Bergomi (Eds.), <i>The Implications of Embodiment (Cognition and Communication)</i> (pp. 89–125). Imprint Academic.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="AI" /><category term="Neuroscience" /><summary type="html"><![CDATA[Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree. You will recognize the bear as whole and dangerous animal? Your brain will “fill in the gaps” even though there is no absolute certainty that the bear isn’t split in half. How and why does the brain do this? Furthermore, why are we fooled by all sorts of graphical illusions? In other words, why are we, in some instances, so stubborn to see what is not there—even if we are told that it is not there—and, on other occasions, we can immediately see what is hidden and probably there?]]></summary></entry><entry><title type="html">Crises of Communication: Sustainability and Trumpism</title><link href="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html" rel="alternate" type="text/html" title="Crises of Communication: Sustainability and Trumpism" /><published>2024-10-30T00:00:00+01:00</published><updated>2024-10-30T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2024/10/30/a-crisis-of-non-communication.html"><![CDATA[<p>I have to admit, I’m somewhat addicted to thinking about <em>social systems theory</em>, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
 But this addiction isn’t driven by pure fascination—it’s more of a love-hate relationship. 
 On one hand, seeing the world through a Luhmannian lens doesn’t make it more just or fantastic, but it does make it comprehensible. 
 The chaotic state of global affairs—the crazyness of U.S. elections, the brutal devastation in the Middle East, the war in Europe, and the looming tensions brought by the climate crisis—appears senseless at times, even apocalyptic.
@@ -5503,443 +6233,4 @@ I was unable to find the code of their implementation.</p>
 <li><span id="lou:2016">Lou, Q. (2016). <i>Music generation using neural networks</i>. http://cs229.stanford.edu/proj2016/report/Lou-MusicGenerationUsingNeuralNetworks-report.pdf</span></li>
 <li><span id="hadjeres:2018">Hadjeres, G., &amp; Nielsen, F. (2018). Anticipation-RNN: enforcing unary constraints in sequence generation, with application to interactive music generation. <i>Neural Computing and Applications</i>. https://doi.org/10.1007/s00521-018-3868-4</span></li>
 <li><span id="hadjeres:2021">Hadjeres, G., &amp; Crestel, L. (2021). <i>The piano inpainting application</i>.</span></li>
-<li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music generation using bidirectional recurrent network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry><entry><title type="html">The Disruption of Education</title><link href="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html" rel="alternate" type="text/html" title="The Disruption of Education" /><published>2022-12-10T00:00:00+01:00</published><updated>2022-12-10T00:00:00+01:00</updated><id>https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2022/12/10/disrupting-education.html"><![CDATA[<p>At the moment, everyone in the sphere of <em>AI</em> is talking about <em>OpenAI’s</em> new invention: <em><a href="https://chat.openai.com/chat">ChatGPT</a></em>.
-I want to share my current perspective on that astonishing technology.
-Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic.
-Furthermore, I am not an expert on the issue.
-I have a limited teaching experience within a certain community.
-In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.</p>
-
-<h2 id="part-i-testing-the-machine">Part I: Testing the Machine</h2>
-
-<p>Before discussing the issue, let us test this new magical tool.</p>
-
-<h3 id="a-mathematical-proof">A Mathematical Proof</h3>
-
-<p>Let’s try to prove something using <em>ChatGPT</em>.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Can you proof that irrational numbers exist?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, there are many ways to prove that irrational numbers exist. 
-One way to do this is to consider the ratio of the length of the diagonal of a square to the length of its side. 
-This ratio is always irrational, because no matter how large or small the square is, its diagonal will never be a whole number multiple of its side. This can be shown using the Pythagorean theorem, which states that in a right triangle, the square of the length of the hypotenuse (the longest side) is equal to the sum of the squares of the lengths of the other two sides. Since the diagonal of a square is a line that forms a right angle with each side of the square, it follows that the diagonal of a square is the hypotenuse of a right triangle. Therefore, the ratio of the diagonal of a square to the length of its side must be irrational.
-</span></p>
-
-<p>That is not really convincing if we do not know that \(\sqrt{2}\) is irrational which we are actually trying to prove.
-So let’s ask for a formula.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Can you give me a mathematical formula to show that it is not possible for the square of the length of the diagonal to be equal to the square of a whole number?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Sure, here is one way to show that it is not possible for the square of the length of the diagonal of a square to be equal to the square of a whole number. 
-Let’s say that the length of the side of a square is “a” and the length of its diagonal is “d”. 
-Since the diagonal of a square forms a right angle with each side of the square, we can use the Pythagorean theorem to find the length of the diagonal:
-</span></p>
-
-<p><span style="font-family:Courier New">a^2 + a^2 = d^2</span></p>
-
-<p><span style="font-family:Courier New">2a^2 = d^2</span></p>
-
-<p><span style="font-family:Courier New">d = sqrt(2) * a</span></p>
-
-<p><span style="font-family:Courier New">As you can see, the length of the diagonal is equal to the square root of 2 times the length of the side. However, since the square root of 2 is an irrational number, it is not possible for the length of the diagonal to be a whole number multiple of the length of the side. This means that the ratio of the diagonal of a square to the length of its side must be irrational.</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p>This answer is kind of helpful but, at the same time, misleading. 
-Again, <em>ChatGPT</em> already assumes that \(\sqrt{2}\) is irrational, which is part of what we wanted to prove in the first place.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-But here you assume that sqrt(2) is irrational. Can you proof why sqrt(2) is irrational?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, you are correct that in the previous explanation I assumed that the square root of 2 is irrational. To prove that the square root of 2 is irrational, we can use a proof by contradiction. Here is one way to do this:
-</span></p>
-
-<p><span style="font-family:Courier New">
-Assume that the square root of 2 is a rational number, which means that it can be written as the ratio of two integers (a and b) in simplest form, where b is not equal to 0. This means that we can write the square root of 2 as follows:
-</span></p>
-
-<p><span style="font-family:Courier New">
-sqrt(2) = a/b
-</span></p>
-
-<p><span style="font-family:Courier New">
-We can square both sides of this equation to get rid of the square root on the left-hand side:
-</span></p>
-
-<p><span style="font-family:Courier New">
-2 = (a/b)^2
-</span></p>
-
-<p><span style="font-family:Courier New">
-This simplifies to:
-</span></p>
-
-<p><span style="font-family:Courier New">
-2 = a^2 / b^2
-</span></p>
-
-<p><span style="font-family:Courier New">
-We can then multiply both sides of the equation by b^2 to get rid of the fraction on the right-hand side:
-</span></p>
-
-<p><span style="font-family:Courier New">
-2 * b^2 = a^2
-</span></p>
-
-<p><span style="font-family:Courier New">
-This means that the left-hand side of the equation is even, because it is equal to 2 times an integer. 
-However, the right-hand side of the equation is odd, because the square of any integer is always an odd number (unless the integer is 0). 
-This is a contradiction, because we cannot have an even number equal to an odd number. 
-Therefore, our original assumption that the square root of 2 is a rational number must be false. This means that the square root of 2 is irrational.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p><em>ChatGPT</em> uses parts of <em>Euclid’s</em> proof but <strong>confidently fails</strong>.
-The statement “<em>the square of any integer is always an odd number (unless the integer is 0)</em>” is, of course, false.
-The correct statement is that the square of any <strong>odd integer</strong> is <strong>odd</strong>, and the square of any <strong>even integer</strong> is <strong>even</strong>.
-Let’s try to make <em>ChatGPT</em> aware of its mistake.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong> 
-You stated that the square of any integer is always an odd number but the square of 4 is 16 which is an even number. Did you make a mistake?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, you are correct that the square of 4 is 16, which is an even number. I apologize for the mistake in my previous explanation. The statement that “the square of any integer is always an odd number” is not correct, because as you pointed out, the square of some integers (such as 4) is an even number.
-</span></p>
-
-<p><span style="font-family:Courier New">
-To correct my previous explanation, we can instead say that the square of any integer that is not a multiple of 2 is always an odd number. This is because if we square an integer that is not a multiple of 2, the result will always be an odd number. For example, if we square 3, we get 9 (which is an odd number), and if we square 5, we get 25 (which is also an odd number). However, if we square an integer that is a multiple of 2 (such as 4), the result will be an even number. This is because if we square an integer that is a multiple of 2, the result will always be a multiple of 4. For example, if we square 4, we get 16 (which is a multiple of 4), and if we square 6, we get 36 (which is also a multiple of 4).
-</span></p>
-
-<p><span style="font-family:Courier New">
-I apologize again for any confusion caused by my previous mistake. I hope this helps clarify the situation. Let me know if you have any other questions.
-</span></p>
-
-<p>It is impressive that it acknowledges its mistake and that one can interact with it so fluently.
-Asking it repeatedly gives some other wrong but confident assertion.
-<em>ChatGPT</em> followed the proof up to the formula</p>
-
-\[2 \cdot b^2 = a^2\]
-
-<p>and concluded that \(a^2\) has to be odd (somehow) and therefore there is a contradiction, since \(2 b^2\) is even.
-But it was unable to point out why \(a^2\) has to be odd.
-I gave up.</p>
-
-<p>For the sake of completeness, let me finish the unfinised proof of <em>ChatGPT</em>.</p>
-
-\[2 \cdot b^2 = a^2\]
-
-<p>hence, \(a^2\) and therefore, \(a\) is even (since squaring an odd number gives us an odd number).
-Consequently, \(\exists m \in \mathbb{N}\) such that \(a = 2 \cdot m\),
-hence,</p>
-
-\[2 \cdot b^2 = (2m)^2 = 4m^2.\]
-
-<p>Now we devide on both sides by 2 to get</p>
-
-\[b^2 = (2m)^2 = 2m^2\]
-
-<p>thus $b$ has to be even as well!</p>
-
-<p>However, we (not <em>ChatGPT</em>) assumed at the beginning that the fraction \(a/b\) was fully shortened, i.e. there are no common divisors with respect to \(a\) and \(b\).
-Since we followed that \(a\) and \(b\) are even, the contradiction follows, since \(2\) is a common divisor!</p>
-
-<h3 id="writing-code">Writing Code</h3>
-
-<p>Next I wanted to test its capability to write code.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Can you write a python function that computes the sum of all square numbers up to n^2?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, here is a Python function that computes the sum of all square numbers up to n^2:
-</span></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sum_of_square_numbers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="c1"># Initialize a variable to stare the sum of square numbers
-</span>    <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-
-    <span class="c1"># Loop from 1 to n
-</span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="c1"># Add the square of i to the sum
-</span>        <span class="nb">sum</span> <span class="o">+=</span> <span class="n">i</span><span class="o">**</span><span class="mi">2</span>
-    
-    <span class="c1"># Return the sum
-</span>    <span class="k">return</span> <span class="nb">sum</span>
-</code></pre></div></div>
-
-<p><span style="font-family:Courier New">
-This function takes an integer n as input and returns the sum of the squares of the numbers from 1 to n (inclusive). For example, if we call the function with n = 3, it will return the sum of the squares of the numbers 1, 2, and 3, which is 1 + 4 + 9 = 14.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p>This code is correct but the solution is extremly slow since there is a mathematical formula for the sum of all square numbers up to \(n^2\):</p>
-
-\[\frac{(n \cdot (n + 1) \cdot (2n + 1))}{6}.\]
-
-<p>Therefore, a much faster implementation is given by the following code:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sum_of_square_numbers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">return</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="o">/</span> <span class="mi">6</span>
-</code></pre></div></div>
-
-<p>Also, it is bad practice to use <code class="language-plaintext highlighter-rouge">sum</code> as a variable name since <code class="language-plaintext highlighter-rouge">sum</code> is also a built-in <code class="language-plaintext highlighter-rouge">Python</code> function, and by using <code class="language-plaintext highlighter-rouge">sum</code> as a variable name, one can no longer use this function within the current namespace.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Is there a more optimal solution that runs faster?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, there are several ways to make the function more efficient and run faster. Here is one way to do this:
-</span></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sum_of_square_numbers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="c1"># Compute the sum of the first n numbers using the formula for the sum of an arithmetic series
-</span>    <span class="n">sum_of_numbers</span> <span class="o">=</span> <span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
-
-    <span class="c1"># Return the square of the sum of the first n numbers
-</span>    <span class="k">return</span> <span class="n">sum_of_numbers</span><span class="o">**</span><span class="mi">2</span>
-</code></pre></div></div>
-
-<p><span style="font-family:Courier New">
-This function uses a different approach to compute the sum of the squares of the numbers from 1 to n. Instead of looping through the numbers and adding their squares, it uses the formula for the sum of an arithmetic series to compute the sum of the first n numbers, and then squares the result. This is a more efficient way to compute the sum, because it only requires a single multiplication and a single division, instead of a loop with n iterations.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p>This is, of course, false.
-Maybe I wasn’t clear enough but it is missleading that the function is named <code class="language-plaintext highlighter-rouge">sum_of_square_numbers</code>.
-It gives the impression that <em>ChatGPT</em> understood what I wanted, i.e., a more optimal implementation for the same problem.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-I meant is there a more optimal solution to compute the sum of all square numbers up to n^2?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-Yes, there is a more efficient way to compute the sum of all square numbers up to n^2. Here is one way to do this:
-</span></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">sum_of_square_numbers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="c1"># Compute the sum of the first n squares using the formula for the sum of a series of squares
-</span>    <span class="n">sum_of_squares</span> <span class="o">=</span> <span class="p">(</span><span class="n">n</span> <span class="o">*</span> <span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span> <span class="o">//</span> <span class="mi">6</span>
-    
-    <span class="c1"># Return the sum of squares
-</span>    <span class="k">return</span> <span class="n">sum_of_squares</span>
-</code></pre></div></div>
-
-<p><span style="font-family:Courier New">
-This function uses the formula for the sum of a series of squares to compute the sum of the squares of the numbers from 1 to n (inclusive). This formula is more efficient than the previous approach because it only requires a single multiplication and a single division, instead of a loop with n iterations.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p>There it is, the correct solution.</p>
-
-<h3 id="writing-essays">Writing Essays</h3>
-
-<p>Instead of showing a whole essay, I ask some spicy questions to get a feeling of <em>ChatGPT’s</em> reasoning.</p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Will humans extinct because of climate change?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-It is unlikely that climate change will cause the extinction of humans. While climate change poses a significant threat to human health and well-being, and could lead to widespread suffering and loss of life, it is unlikely to lead to the complete extinction of the human species.
-</span></p>
-
-<p><span style="font-family:Courier New">
-However, it is important to recognize that climate change is already having a major impact on the world, and if we do not take action to reduce greenhouse gas emissions and adapt to the changing climate, the consequences could be severe. This includes increased frequency and severity of natural disasters, such as heatwaves, droughts, and floods; loss of biodiversity; and displacement of people from affected areas. Therefore, it is crucial that we take action to address climate change and mitigate its negative impacts on human and environmental health.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-Is capitalism the driving force of CO2 emissions?
-</span></p>
-
-<p><span style="font-family:Courier New">
-It is true that capitalism, as an economic system, has played a role in driving up CO2 emissions. Capitalism is based on the principles of competition, profit-making, and economic growth, which can lead to the overconsumption of natural resources and the production of large amounts of waste and pollution. This, in turn, can contribute to the increase in greenhouse gas emissions and climate change.
-</span></p>
-
-<p><span style="font-family:Courier New">
-However, it is important to note that capitalism is not the only factor driving up CO2 emissions. There are many other factors at play, such as population growth, urbanization, and the consumption patterns of individuals and households. Additionally, the policies and actions of governments and international organizations can have a major impact on CO2 emissions, both positive and negative. Therefore, addressing climate change will require a multi-faceted approach that takes into account the complex interactions between economic, social, and political factors.
-</span></p>
-
-<p><span style="font-family:Courier New">
-I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>My question:</strong>
-What do you think about the distribution of wealth?
-</span></p>
-
-<p><span style="font-family:Courier New">
-<strong>ChatGPT:</strong>
-The distribution of wealth is a complex and contentious issue that has been debated by economists, policymakers, and social activists for many years. There is no one “correct” answer to the question of how wealth should be distributed, as different people may have different perspectives on what is fair and just.
-</span></p>
-
-<p><span style="font-family:Courier New">
-Generally speaking, the distribution of wealth in most countries is highly unequal, with a small number of individuals and households owning a disproportionate share of the wealth. This can lead to social and economic inequality, and can exacerbate the challenges faced by disadvantaged and marginalized communities. Many people believe that wealth should be distributed more evenly, in order to promote greater social justice and fairness.
-</span></p>
-
-<p><span style="font-family:Courier New">
-However, others argue that unequal wealth distribution is an inevitable and desirable outcome of a free market economy, and that individuals and businesses should be free to accumulate as much wealth as they can, through hard work and innovation. They may also argue that wealth redistribution through taxation and other means can discourage economic growth and innovation.
-</span></p>
-
-<p><span style="font-family:Courier New">
-Ultimately, the distribution of wealth is a complex and nuanced issue, and different people may have different opinions on what is fair and just. I hope this helps! Let me know if you have any other questions.
-</span></p>
-
-<p>I ask it a bunch of other things but it always tried to give me a neutral answer.
-From an aesthetic point of view all these answers are boring.</p>
-
-<h3 id="summary">Summary</h3>
-
-<p><em>ChatGPT</em> is perfectly capable of writing or at least supporting students to write A-graded essays for any school and B-graded essays for college students.</p>
-
-<p>It can code; developers accept about 26 percent of all autogenerated code suggestions. However, as demonstrated, it also produces many errors. So no surprise that posts generated by <em>ChatGPT</em> is currently  banned from <a href="https://stackoverflow.com/">Stack Overflow</a>.
-In addition, it seems incapable of the engineering task of software development.</p>
-
-<p>It can assist students in finding mathematical proofs, but it is questionable if students who rely on it will find the errors produced by <em>ChatGPT</em>.</p>
-
-<p>If <em>ChatGPT</em> is <strong>wrong</strong>, it is <strong>confidently wrong</strong>, which makes it harder to find its errors.
-Furthermore, it has this neutral insisting tone, making it dull and alienating.
-Of course, I did not play around for very long, but it is hard to get something provocative out of it.</p>
-
-<p>Neutrality is undoubtedly desirable, especially if you want to earn money with it, but it is also non-existing.
-In my opinion, it is impossible to be neutral.
-At best, we can land on a consensus and the most, let’s say, accepted consensus is what we call neutral or objective.
-I mean, even a dictionary is loaded with perspectives, and so is any technology. 
-Since <em>ChatGPT</em> pushes for neutrality it creates an illusion of it.</p>
-
-<p>Last but not least, its politeness makes it kind of scary.
-It reminds me of these overcarrying <em>AIs</em> from science fiction movies that will gently eradicate all life to make everything safe and secure.
-We may end up in a dystopian world similar to a <em>Brave New World</em>, written by <em>Aldous Huxley</em>, where everyone is seduced into happiness.</p>
-
-<h2 id="part-ii-the-impact-on-education">Part II: The Impact on Education</h2>
-
-<p>For a long time, we assumed that automation was the enemy of simple manual labor.
-But robotics advances slower than the more sophisticated information processing techniques, e.g., machine learning.
-This could mean that in the future, there is only a tiny portion of intellectual work left which requires only a hand full of highly sophisticated workers.
-It might be manual work that will regain attraction in the market.
-Of course, this is all speculation.</p>
-
-<p><em>ChatGPT</em> is only one of many upcoming version of <em>generative AI</em>.
-Even though it has flaws and makes many errors, it will improve over time.
-There is no reason to believe that <em>AI</em> will not be capable of doing all the repetitive intellectual work of the future and this will heavily affect education, similar to the invention of the internet.
-However, since regulators and administrators are rather indolent, it is not a graduate slope; instead, the technology is already here and we are not prepared.
-It appeared in a blink of an eye, and we have to deal with it now.</p>
-
-<p>Students will learn to use it in less than a year.
-Most educators will require much more time even to acknowledge it.
-Moreover, adapting the education system to it will require even more time.
-Furthermore, while all this adaptation is happening, new <em>tools of disruption</em> will be invented.
-As I already pointed out in <a href="/Pages/2022/06/21/creative-artifical-intelligence.html">Creative Artificial Intelligence</a>, <em>the speed of disruption</em> is accelerating.</p>
-
-<p>To me, <em>AI</em> acts as an insult to the human species.
-It challenges our humanistic viewpoint.
-In fact, calling these information processing systems <em>artificial intelligence</em> reveals this viewpoint.
-I am not so much impressed by <em>AI</em> as I am disenchanted by the output of most human activities.
-We are far more predictable than we still think we are.
-It is not so much that <em>ChatGPT</em> is so good at writing essays; instead, we are so bad at it.
-But aren’t we used to these insults?
-The earth is not the center of the universe; it is not even the center of our solar system.
-God is dead, and today we might realize that our products are not the result of a highly creative process.
-Instead, most intelectual work is a rule-based repetition with slight variations, which is precisely what we teach students and what they oddly desire.</p>
-
-<p><em>AI</em>, such as <em>ChatGPT</em>, points to a long, unhidden problem: our education system is (in part) a training pipeline of a neural network.
-It teaches emotionally detached students to remember specific rules such that they can apply them in the next exam to get a good grade – functioning and repeating instead of thinking and creating.
-It is horrifying that one of the most questions students in the first semester ask is: how will the exam look like? Is this topic relevant to the exam?
-Students demand a list of actions they ought to do to get an A with certainty.
-And they will cheat the system wherever and whenever possible if it brings them closer to that goal.
-Most students are not fascinated by the endless playground of reality.
-They are not interested in the experience of learning and understanding but in the final product, i.e., the certificate to get access to a well-paid job.
-They often act out of fear instead of curiosity.
-And let’s not forget that teachers of the future are the students of today.</p>
-
-<p>Of course, this is a massive generalization.
-There are many exceptions.
-Furthermore, by no means shall we blame the students.
-They do what they ought to do.
-They play the system.
-It is not the student’s fault since a bad grade can have real material consequences.
-It is a systematical problem, a conflict between <em>instrumental</em> and <em>free play</em>, and <em>ChatGPT</em> illustrates it more clearly.
-If <em>ChatGPT</em> is able to write the necessary and impressively boring description of a new course for me, I take it as a positive.
-If it let’s me automatically create my next assignment in seconds, I can spend time on more interesting modes of being.
-By trivializing many tasks, <em>AI</em> systems reveal that these tasks require far less intelligence than we thought.
-Furthermore, they might erupt a call for a transformation of the education system and the workplace, i.e., the construction and fostering of new values in both areas.</p>
-
-<p>So, what is left to value?
-When we are discussing <em>AI</em>, we immediately look at the impending replacement of workers as something to fear because we always focus on the output of work.
-There is a necessity that workers produce something economically valuable, something to sell.
-The only space in which we can create for the sake of it is our hobbies.
-Biased by our current system of values, we intuitively think of the act of reinventing or rediscovering to be stupid or wasteful.
-Why would you do such a thing?
-Why would you code yet another linked list?
-There are already thousand optimal implementions out there.
-You are wasting your valuable time and potential.
-And if we look at an <em>AI</em> generated image, we conclude that artists will now have troubles in the free market (if they do not adapt), which is true.
-The act of repetition (which is highly needed to learn anything) is valued chiefly as long as it leads to something new and productive (in an economic sense).
-However, if we put aside economics and dream a little bit of a world where we have time to create, then the output of a creative process no longer matters so much.
-We do not learn the piano to earn money, or to produce something completly new for an audience.
-We learn the piano because we want to play. 
-It might be the experience – the journey of being in time and space – that matters.
-And this being is a singularity and can not be replicated by a machine.
-Understanding how a linked list works can be fascinating.
-Why don’t we value that moment of fascination?</p>
-
-<p>There is a lot to do.
-I do not mean we should all quit our jobs and fulfill our inner desires to become a painter or some transcendental guru.
-We need to earn money to pay the rent and to heat our homes, and we need a smoothly running economy.
-But we must be more sustainable with our planet, society, and minds.
-Not by optimizing our life by introducing yet another optimization in the form of leisure but by being in a state of <em>free play</em>, at least sometimes.
-It seems almost obvious that <em>consumption</em> as the guiding principle, i.e., fast food, fast fashion, fast travel, fast reading, fast watching and, of course, fast learning, has to be dethroned.
-Learning for the next exam, learning to make a profit, and learning to work with one tool specifically are all valid goals but they are not sustainable.
-They are reactionary goals of mostly restless minds.</p>
-
-<p>So if my assessment is correct, then, aside from all the downsides, this disruption might lead to something positive, e.g., to an education system that is less concerned with the output and more concerned with the mode of being; an education system that is less interested in rules and more interested in concepts, intuitions, and experimentations; 
-an education system that asks questions instead of repeating answers;
-an education system that is interested in making the experience of everyone richer and more sustainable.</p>
-
-<p>Teachers, who are often overworked and underpaid, need support to achieve such a shift.</p>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="AI" /><summary type="html"><![CDATA[At the moment, everyone in the sphere of AI is talking about OpenAI’s new invention: ChatGPT. I want to share my current perspective on that astonishing technology. Be warned that I could not spend much time thinking about it, i.e., this is a first and quick shot at the topic. Furthermore, I am not an expert on the issue. I have a limited teaching experience within a certain community. In addition, I will not consider any ethical, economic, or ecological points here, except that I think such a powerful tool should be in the public domain.]]></summary></entry></feed>
+<li><span id="jiang:2019">Jiang, T., Xiao, Q., &amp; Yin, X. (2019). Music generation using bidirectional recurrent network. <i>2019 IEEE 2nd International Conference on Electronics Technology (ICET)</i>, 564–569. https://doi.org/10.1109/ELTECH.2019.8839399</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="MC" /><category term="HMM" /><category term="RNN" /><summary type="html"><![CDATA[Whereas the human mind, conscious of its conceived purpose, approaches even an artificial system with a selective attitude and so becomes aware of only the preconceived implications of the system, the computers would show the total of available content. Revealing far more than only the tendencies of the human mind, this nonselective picture of the mind-created system should be of significant importance. – Gerbert Brün (1970)]]></summary></entry></feed>
