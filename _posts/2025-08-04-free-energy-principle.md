@@ -646,13 +646,17 @@ Let me finish with some speculations.
 I have the gut feeling that a strange, perhaps paradoxical, alliance forms here between Kant, Heidegger, and constructivists like Maturana, Varela, and Luhmann. 
 Each offers a piece of the puzzle when viewed through the lens of the free energy principle.
 Kant emphasized the structuring role of *a priori* reason---the internal scaffolding that makes experience possible.
-Heidegger, in contrast, stressed the *immediacy (i.e. pre-conceptual) and embeddedness of experience*: we are not detached observers but beings thrown into a meaningful world.
-Constructivists such as Maturana and Varela took this further, arguing that *cognition arises through dynamic interaction with an environment* that is, in part, selected or *enacted* by the organism itself.
+Futhermore, FEP mirrors Kant's view that perception is constructed by the mind's active faculties.
+The world "as it is" is unknowable directly---we only perceive it through mental filters and structure.
+Heidegger, in contrast, stressed the *immediacy (i.e. pre-conceptual) and embeddedness of experience*: we are not detached observers but beings thrown into a meaningful world. 
+Heidegger's philosophy fits tightly with theories that view perception as *embodied*, *skillful*, and *embedded in practical action*, not representational---just like enactivism and Gibson's direct perception.
+Constructivists such as Maturana and Varela also went with Heidegger but moved the world into the system itself, arguing that *cognition arises through dynamic interaction with an environment* that is, in part, *selected* or *enacted* by the organism itself.
 
 Yet, each position has its blind spots. 
 Kant may have overestimated the sovereignty of internal reason;
 Heidegger arguably romanticized lived immediacy; and constructivists often risk underestimating the constraints imposed by sensory data---or more precisely, by the need to stay within states that minimize surprise. 
-Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger), but that world is not arbitrary: it pushes back against us, forcing our internal beliefs to remain tethered to what is adaptive and sustainable.
+Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger), but that world is not arbitrary and quite different for different organisms.
+According to my interpretation of the FEP, it is an *environment* that we *actively* infer, that pushes back against us, forcing our internal beliefs to remain tethered to what is adaptive and sustainable.
 
 ---------------
 
