@@ -26,7 +26,7 @@ Thus, it is a principle on which the brain might operate.
 
 As a consequence, the FEP depatures from the classical reward-based explanations of behaviour and evolutional progress in general.
 Instead of starting with an *a priori* *goal* or *reward* that the organism has to find, it starts with *what kinds of states the organism expects to be in*, and assumes the organism to act in a way that *confirms those expectations* and keeps it in familiar, low-surprise situations.
-It also departures from the belief that symbolic operations (logic, math) are *a priori*.
+
 Friston and others also believe that the use of *hierarchical models*, such as layered neural networks, enable the brain to construct prior expectations in a dynamic and context-sensitive fashion.
 Following this line, this scheme provides a principled way to understand many aspects of cortical organisation and responses while it is strongly connected to the *connectionist* strand of *artificial intelligence*.
 
