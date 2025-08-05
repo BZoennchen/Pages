@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-08-05T11:50:09+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Free Energy Principle</title><link href="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html" rel="alternate" type="text/html" title="The Free Energy Principle" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html"><![CDATA[<p>Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-08-05T13:34:47+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Free Energy Principle</title><link href="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html" rel="alternate" type="text/html" title="The Free Energy Principle" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html"><![CDATA[<p>Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
 You will recognize the bear as whole and dangerous animal?
 Your brain will “fill in the gaps” even though there is no absolute certainty that the bear isn’t split in half.
 How and why does the brain do this?
@@ -499,7 +499,7 @@ It learns a <strong>variational distribution</strong> \(q_{\theta}(z \vert x)\) 
 
 <p>Consequently, our formula for \(p_{\theta}(x)\) changes from</p>
 
-\[p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z)\]
+\[p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z) = \mathbb{E}_{z \sim p_{\theta}(z)} \left[ p_{\theta}(x \vert z) \right]\]
 
 <p>to</p>
 
@@ -511,6 +511,7 @@ It learns a <strong>variational distribution</strong> \(q_{\theta}(z \vert x)\) 
 
 <p>Mathematically these two equations are equivalent.
 However, note that we are using a finite number of samples and that \(q_{\theta}(z \vert x)\) determines which \(z_k\)’s we continue training on.
+Therefore, we are computing an estimation of the expected value.
 \(\frac{p_{\theta}(z)}{q_{\theta}(z \vert x)}\) is an adjustment for sampling bias: it adjusts the weight for events we sample more frequently than they occur (e.g., rare but important cases).</p>
 
 <p>Now we take the logarithm to arrive at our term to maximize:</p>

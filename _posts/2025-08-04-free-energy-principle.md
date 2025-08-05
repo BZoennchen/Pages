@@ -496,7 +496,7 @@ It learns a **variational distribution** $$q_{\theta}(z \vert x)$$ which predict
 
 Consequently, our formula for $$p_{\theta}(x)$$ changes from
 
-$$p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z)$$
+$$p_{\theta}(x) = \sum p_{\theta}(z) p_{\theta}(x \vert z) = \mathbb{E}_{z \sim p_{\theta}(z)} \left[ p_{\theta}(x \vert z) \right]$$
 
 to
 
@@ -508,6 +508,7 @@ $$\mathbb{E}_{z \sim q_{\theta}(z \vert x)} \left[ p_{\theta}(x \vert z) \frac{p
 
 Mathematically these two equations are equivalent.
 However, note that we are using a finite number of samples and that $$q_{\theta}(z \vert x)$$ determines which $$z_k$$'s we continue training on.
+Therefore, we are computing an estimation of the expected value.
 $$\frac{p_{\theta}(z)}{q_{\theta}(z \vert x)}$$ is an adjustment for sampling bias: it adjusts the weight for events we sample more frequently than they occur (e.g., rare but important cases).
 
 Now we take the logarithm to arrive at our term to maximize:
