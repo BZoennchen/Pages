@@ -81,7 +81,11 @@ Its *qualitative identity* can change but its *individual identity* is maintaine
 
 >[A molecular autopoietic system (or living being)] is a homeostatic system of chemical production which has its own individual identity as the variable which it maintains constant -- {% cite barry:2012 %}
 
-Some argue that autopoiesis is an intrinsic purpose of an organism from which all other goals derive {% cite virenque:2024 barandiaran:2017 %}; others suspect that we, as external observers, project purposiveness onto the organism {% cite cummins:2014 %}.
+Some argue that autopoiesis is an intrinsic purpose of an organism from which all other goals derive {% cite virenque:2024 barandiaran:2017 %}.
+
+>Importantly, sense-making is intentional because it implies an organismic perspective from which meaning is brought forth. Because of the organism's precariousness, certain interactions with the environment are either positive or negative from the perspective of the organism. Consider a bacterium swimming up a gradient of glucose. The glucose is meaningful for the bacterium because it provides nutrients that are necessary for maintaining its metabolic processes (i.e., its autopoiesis). The meaning of the glucose gradient only makes sense from the perspective of the bacterium. Take away the bacterium from the situation and the glucose stops having its meaning. What brings forth such meaning is the organism’s adaptive and autopoietic organisation. Such bringing forth of meaning is what enactivists call sense-making. -- {% cite bogota:2024 %} (expample taken from {% cite varela:1997 %})
+
+Others suspect that we, as external observers, project purposiveness onto the organism {% cite cummins:2014 %}.
 For the FEP, it is not important if purposiveness is a projection or intrinsically given.
 
 What is quite certainly true is that organisms have to deal with perturbations to stay alive in their respective environment (which is determined by the *couplings* between the organism and its environment).
@@ -371,8 +375,8 @@ Now there is a third way to minimize free energy, that is, *acting* which equate
 Acting can be as simple as turning your head.
 It changes the sensory data the organism is *receiving*.
 Therefore, one can model the sensory data $$x$$ as a function of action $$\alpha$$, that is, $$x(\alpha)$$.
-Consequently, one can interpret perception as an active process.
-The organism does not receive but selects its sensory data.
+Consequently, one can interpret perception as an active process, therefore, variational inference becomes *active inference*.
+The organism does not receive but selects its sensory data and it can anticipate to minimize "future" free energy actively.
 A feedback loop is constructed thus non-linearity is introduced: acting -> perceiving/learning -> believing -> acting.
 Each step influences the next one.
 
@@ -643,20 +647,23 @@ Flexibility, when demanded too often or too rapidly, erodes the very models that
 Thus, while adaptability is vital, stability is sacred.
 
 Let me finish with some speculations.
-I have the gut feeling that a strange, perhaps paradoxical, alliance forms here between Kant, Heidegger, and constructivists like Maturana, Varela, and Luhmann. 
+I have the gut feeling that a strange, perhaps paradoxical, alliance forms here between Kant, Heidegger, and (embodied) constructivists like Maturana, Varela, and Luhmann. 
 Each offers a piece of the puzzle when viewed through the lens of the free energy principle.
 Kant emphasized the structuring role of *a priori* reason---the internal scaffolding that makes experience possible.
 Futhermore, FEP mirrors Kant's view that perception is constructed by the mind's active faculties.
 The world "as it is" is unknowable directly---we only perceive it through mental filters and structure.
-Heidegger, in contrast, stressed the *immediacy (i.e. pre-conceptual) and embeddedness of experience*: we are not detached observers but beings thrown into a meaningful world. 
+Heidegger, in contrast, stressed the *immediacy (i.e. pre-conceptual) and embeddedness of experience*: we are not detached observers but beings thrown into a meaningful world that is not build in the mind. 
 Heidegger's philosophy fits tightly with theories that view perception as *embodied*, *skillful*, and *embedded in practical action*, not representational---just like enactivism and Gibson's direct perception.
 Constructivists such as Maturana and Varela also went with Heidegger but moved the world into the system itself, arguing that *cognition arises through dynamic interaction with an environment* that is, in part, *selected* or *enacted* by the organism itself.
 
 Yet, each position has its blind spots. 
 Kant may have overestimated the sovereignty of internal reason;
 Heidegger arguably romanticized lived immediacy; and constructivists often risk underestimating the constraints imposed by sensory data---or more precisely, by the need to stay within states that minimize surprise. 
-Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger), but that world is not arbitrary and quite different for different organisms.
-According to my interpretation of the FEP, it is an *environment* that we *actively* infer, that pushes back against us, forcing our internal beliefs to remain tethered to what is adaptive and sustainable.
+Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger) but we still model it and it pushes back (Kant).
+
+If we want to go full Heideggerian, we probably need a different interpretation where free energy minimization becomes about maintaining practical grip on the world, not constructing a picture of it and where prediction errors don't refer to "incorrect beliefs" but breakdowns in coping (e.g., when the tool "refuses" to function).
+We have to move to a life-mind continuity thesis (see e.g. {% cite bogota:2024 %}).
+But this would be another topic for another time.
 
 ---------------
 
