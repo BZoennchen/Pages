@@ -2,7 +2,7 @@
 layout: post
 title: "The Free Energy Principle"
 tags: 
-  - AI
+  - ML
   - Neuroscience
 comments: true
 ---
