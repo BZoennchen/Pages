@@ -663,6 +663,7 @@ Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, th
 
 If we want to go full Heideggerian, we probably need a different interpretation where free energy minimization becomes about maintaining practical grip on the world, not constructing a picture of it and where prediction errors don't refer to "incorrect beliefs" but breakdowns in coping (e.g., when the tool "refuses" to function).
 We would have to move to a life-mind continuity thesis (LMCT) (see e.g. {% cite bogota:2024 %}).
+It would be interesting and maybe refreshing to depature from the representation-driven approaches (it is unsurprising that one of the most famous AI conferences is called "International Conference on Learning Representations").
 But this would be another topic for another time.
 
 ---------------
