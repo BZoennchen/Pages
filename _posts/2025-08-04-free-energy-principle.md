@@ -619,14 +619,14 @@ The causes we believe in may have little or nothing to do with the "real" causes
 This challenges my earlier assumption of *indirect realism*.
 Causes are just effective in generating sensory data---data that is already constructed by the very same system which trys to reconstruct them.
 While I don't see constructivism as an anti-realism, constructivist might doubt any sort of realism that rejects constructivist elements and that assume that we can reach an observer-independent "objective turth".
-Contructions are contingent and constrained---they work in the context of a history of evolution but they are not "the truth" and, in my opinion, they can not be separated from the observing system that construct them. 
+Constructions are contingent and constrained---they work in the context of a history of evolution but they are not "the truth" and, in my opinion, they can not be separated from the observing system that construct them. 
 
 Because *recognition* and *perception* work in tandem, we can say that changing our expectations literally changes our perception---it changes our environment.
 But at the same time, our perception changes our expectations if we are surprised.
 Thus the FEP highlights the circularity of *perception* and *action* or *belief* and *reality* because organisms minimize free energy not only by adapting their beliefs to fit their environment but also by adapting their environment to fit their beliefs.
 It assumes an environment that is acted upon effectively (which is a somewhat *optimistic* outlook and motivator to make use of our imagination to construct beliefs of a less cruel world).
 
-Also I want to emphasise, that surprise that leads to a loss of one's well-known environment, can be painful because one's prior beliefs about the world are violated---you enter a state of increased entropy.
+Also, I want to emphasise, that surprise that leads to a loss of one's well-known environment, can be painful because one's prior beliefs about the world are violated---you enter a state of increased entropy.
 This might lead to a temporary suspension of meaning because you no longer know what to expect, or how to act effectively.
 Adaptation is painful because it involves breaking down a stable, low-free-energy model, and building a new one that's better at minimizing future surprise.
 It is especially painful if the previous model had high precision priors (e.g. strong, confident beliefs), the environment changes faster than the model can update (e.g. economic instability, cultural shifts), or there is no clear path to a new, stable *attractor state*.
@@ -653,7 +653,7 @@ Kant emphasized the structuring role of *a priori* reason---the internal scaffol
 Futhermore, FEP mirrors Kant's view that perception is constructed by the mind's active faculties.
 The world "as it is" is unknowable directly---we only perceive it through mental filters and structure.
 Heidegger, in contrast, stressed the *immediacy (i.e. pre-conceptual) and embeddedness of experience*: we are not detached observers but beings thrown into a meaningful world that is not build in the mind. 
-Heidegger's philosophy fits tightly with theories that view perception as *embodied*, *skillful*, and *embedded in practical action*, not representational---just like enactivism and Gibson's direct perception.
+Heidegger's philosophy fits tightly with theories that view perception as *embodied*, *skillful*, and *embedded in practical action*, not representational---just like *enactivism* and Gibson's *direct perception*.
 Constructivists such as Maturana and Varela also went with Heidegger but moved the world into the system itself, arguing that *cognition arises through dynamic interaction with an environment* that is, in part, *selected* or *enacted* by the organism itself.
 
 Yet, each position has its blind spots. 
@@ -662,7 +662,7 @@ Heidegger arguably romanticized lived immediacy; and constructivists often risk 
 Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, the world is our best model of itself (Heidegger) but we still model it and it pushes back (Kant).
 
 If we want to go full Heideggerian, we probably need a different interpretation where free energy minimization becomes about maintaining practical grip on the world, not constructing a picture of it and where prediction errors don't refer to "incorrect beliefs" but breakdowns in coping (e.g., when the tool "refuses" to function).
-We have to move to a life-mind continuity thesis (see e.g. {% cite bogota:2024 %}).
+We would have to move to a life-mind continuity thesis (LMCT) (see e.g. {% cite bogota:2024 %}).
 But this would be another topic for another time.
 
 ---------------
