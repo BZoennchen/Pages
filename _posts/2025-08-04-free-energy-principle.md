@@ -85,8 +85,8 @@ Some argue that autopoiesis is an intrinsic purpose of an organism from which al
 
 >Importantly, sense-making is intentional because it implies an organismic perspective from which meaning is brought forth. Because of the organism's precariousness, certain interactions with the environment are either positive or negative from the perspective of the organism. Consider a bacterium swimming up a gradient of glucose. The glucose is meaningful for the bacterium because it provides nutrients that are necessary for maintaining its metabolic processes (i.e., its autopoiesis). The meaning of the glucose gradient only makes sense from the perspective of the bacterium. Take away the bacterium from the situation and the glucose stops having its meaning. What brings forth such meaning is the organism’s adaptive and autopoietic organisation. Such bringing forth of meaning is what enactivists call sense-making. -- {% cite bogota:2024 %} (expample taken from {% cite varela:1997 %})
 
-Others suspect that we, as external observers, project purposiveness onto the organism {% cite cummins:2014 %}.
-For the FEP, it is not important if purposiveness is a projection or intrinsically given.
+Others suspect that we, as external observers, project purposiveness onto the organism {% cite cummins:2014 %} and anti-naturalists like Markus Gabriel see meaning as ontological primary {% cite gabriel:2018 %}.
+For the FEP, it is not important if purposiveness is a projection or intrinsically given (if it is ontologically primary the whole story changes).
 
 What is quite certainly true is that organisms have to deal with perturbations to stay alive in their respective environment (which is determined by the *couplings* between the organism and its environment).
 Only surviving organisms can be observerd, which leads to the belief---backed by observation from an external observer---that organisms strive for survival (of the fittest) when, in fact, it might only look like this is the case.
