@@ -3,7 +3,7 @@ layout: project
 description: I wrote an interactive introductory book for the course Computational Thinking which I use for my teaching at the Munich University of Applied Sciences.
 image: writings/ct.png
 permalink: /works/ct/
-title: "Comutational Thinking"
+title: "Computational Thinking"
 ---
 
 # {{ page.title }}
