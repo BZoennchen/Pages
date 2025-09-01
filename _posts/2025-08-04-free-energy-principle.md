@@ -152,7 +152,7 @@ Now, even if your beliefs are spot on---say, you assume the die is fair, and it 
 That's not because your beliefs are wrong, it's just because randomness likes to keep things interesting.
 In this case, the surprise comes not from flawed beliefs, but from sheer bad luck.
 
-**Remark**  In the *Bayesian* world, probability isn't about how often something actually happens---it's about what we believe will happen, given what we know.
+**Remark:** In the *Bayesian* world, probability isn't about how often something actually happens---it's about what we believe will happen, given what we know---our **degree of belief**.
 More precisely, it's a measure of uncertainty or confidence in a particular outcome or parameter, based on the information we currently have.
 This is quite different from the *frequentist* view, where probability is all about long-run frequencies.
 A frequentist might say, "If we rolled this die an infinite number of times, the proportion of ones would settle at 1/6".
@@ -160,7 +160,7 @@ That's the idea: probabilities reflect what would happen over countless repetiti
 But often events cannot be repeated.
 Here a Bayesian offers a more flexible, belief-based approach: "Before seeing any data, I assume all outcomes are equally likely (a uniform prior). But if I observe 200 ones in 1000 rolls, I'm updating my belief---maybe this die has a bias".
 The more data we get, the more refined our beliefs become.
-This belief-updating process is powered by Bayes' theorem, which lets us revise our *prior* beliefs $$p(z \vert \text{data})$$ using new data (via the *likelihood*) to form a *posterior* belief $$p(z \vert \text{data})$$.
+This belief-updating process is powered by Bayes' theorem, which lets us revise our *prior* beliefs $$p(z)$$ using new data (via the *likelihood* $$p(\text{data} \vert z)$$) to form a *posterior* belief $$p(z \vert \text{data})$$.
 
 $$p(z \vert \text{data}) = \frac{p(\text{data} \vert z)p(z)}{p(\text{data})} = \text{Posterior} = \frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence}}.$$
 
