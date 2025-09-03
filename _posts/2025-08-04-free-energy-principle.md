@@ -8,7 +8,7 @@ comments: true
 ---
 
 Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
-You will recognize the bear as whole and dangerous animal?
+You will most certainly recognize the bear as whole and dangerous animal.
 Your brain will "fill in the gaps" even though there is no absolute certainty that the bear isn't split in half.
 How and why does the brain do this?
 Furthermore, why are we fooled by all sorts of graphical illusions?
@@ -48,7 +48,7 @@ To start, we need some metaphysical assumptions, which I summarize as *physicali
 Physicalists assume that the world is made entirely of physical stuff (matter, energy, fields, etc.) and that all phenomena, including mental events (thoughts, feelings, consciousness), can, in principle, be explained by physical processes and physical laws.
 There is no need to appeal to non‑physical substances (like souls or spirits) to explain reality.
 
-While in practice, scientists rarely state their metaphysical position explicitly, but most of them are physicalists.
+While in practice, scientists rarely state their metaphysical position explicitly, most of them are physicalists or at least act in their field as if they are physicalists.
 Still, physicalism remains a philosophical stance, not a requirement for doing science.
 
 Second, indirect realism (also called *representationalism*) is a theory in the philosophy of perception about how we experience the world.
@@ -99,12 +99,12 @@ For the FEP, it is not important if purposiveness is a projection or intrinsical
 What is quite certainly true is that organisms have to deal with perturbations to stay alive in their respective environment (which is determined by the *couplings* between the organism and its environment).
 Only surviving organisms can be observerd, which leads to the belief---backed by observation from an external observer---that organisms strive for survival (of the fittest) when, in fact, it might only look like this is the case.
 
-The complexity of the environment and the complexity of the organism co‑evolve over time, and some organisms--like humans--evolved in a direction of higher complexity.
+The complexity of the environment and the complexity of the organism co‑evolve over time, and some organisms---like humans---evolved in a direction of higher complexity.
 Again, this does not mean that an increase in complexity is a pre-subscribed *telos*.
 It is all *contingent*.
 
 As a consequence of an increase in complexity (for some organisms), their environments become noisy and ambiguous, which requires more sophisticated feedback mechanisms to be able to act and survive in such environments {% cite tomasello:2024 %}.
-For example, we experience a sort of conscious self-control, for example, when we asked to tell the color (not the written text) of
+For example, we experience a sort of conscious self-control when we asked to tell the color (not the written text) of
 
 <span style="color:red">BLUE!</span>
 
@@ -121,7 +121,7 @@ Instead, nature can build psychological actors:
 
 >It brings forth organisms that function as feedback control systems persuing goals, selecting profound actions and monitoring the process of acting them out. -- {% cite tomasello:2024 %}
 
-He also reminds us that the importance of acting is not defined of how many things an organism can do but *how* these actions are realized.
+He also reminds us that the importance of acting is not defined of how *many* things an organism can do but *how* these actions are realized.
 Maybe we can learn from his emphasis when discussing AI systems where the focus is often on the capabilities, i.e. on the "how many things" AI systems can do (better) neglecting the question of *(self-)control* and *agency*.
 Again, for Tomasello the importance is not complexity or variety (of actions) but the levels of control an organism can exert on its environment and itself.
 
@@ -195,7 +195,7 @@ and
 $$\lim\limits_{p_s \rightarrow 1}\ln\left( \frac{1}{p_s} \right) = 0.$$
 
 While we multiply probabilities to figure out the probability of independent events happening together, surprise works differently---it adds up.
-Meaning rolling 5 times 1 and then again 5 times 1 makes two times surprised comparing rolling 5 times in a row.
+Meaning rolling 5 times 1 and then again 5 times 1 makes us two times surprised comparing rolling 5 times in a row.
 This is because 
 
 $$\ln{\frac{1}{a \cdot b}} = \ln\frac{1}{a} + \ln\frac{1}{b}.$$
@@ -286,6 +286,7 @@ For example, your brain might have an internal model of snakes and bears---what 
 Brains can generate missing information, e.g., they can deal with obfuscated objects.
 They have an intuitive understanding of the physical world---of movement, speed, and heaviness.
 They are biased toward what is usually helpful.
+In that sense, our body "understands" e.g. gravity "intuitively" before knowing anything about Newton's or Einstein's theories.
 
 A brain, in that view, is like a judge.
 There is the raw sensory data obtained by *observations*, which leads to the generation of predictions.
@@ -385,7 +386,12 @@ It changes the sensory data the organism is *receiving*.
 Therefore, one can model the sensory data $$x$$ as a function of action $$\alpha$$, that is, $$x(\alpha)$$.
 Consequently, one can interpret perception as an active process, therefore, variational inference becomes *active inference*.
 The organism does not receive but selects its sensory data and it can anticipate to minimize "future" free energy actively.
-A feedback loop is constructed thus non-linearity is introduced: acting -> perceiving/learning -> believing -> acting.
+A feedback loop is constructed thus non-linearity is introduced: 
+
+```
+acting -> perceiving/learning -> believing -> acting.
+```
+
 Each step influences the next one.
 
 ## Variational Inference
@@ -581,7 +587,7 @@ In that sense, organisms are (partly) their own self-fulfilling prophecy---they 
 
 >The inherent circularity obliges the system to fulfil its own expectations. In other words, the system will expose itself selectively to causes in the environment that it expects to encounter. [...] Anthropomorphically, we may not interact with the world to maximise our reward but simply to ensure it behaves as we think it should. -- {% cite friston:2006 %}
 
-If an insect that has evolved to expect its environment to be dark it will use its action, e.g. movement, to keep its environment dark.
+If an insect has evolved to expect its environment to be dark, it will use its action, e.g. movement, to keep its environment dark.
 It acts to keep its sensory data consistent with its belief---moving into shadows, avoiding light.
 To an external observer, this looks like as if the insect has learned that darkness is good, and has been reinforced to prefer it but from the insect's own perspective, it's just acting to reduce surprise by finding sensory data that matches its expectations.
 
@@ -604,7 +610,8 @@ Behaviors emerge because the agent must stay in a balance with its environment--
 So why doesn’t the agent settle in one fixed state?
 Because organisms or living systems---like animals or humans---are not static systems.
 They have to continuously interact with their environment to survive.
-We cannot just stay in a single "perfect" state and even "being alive" requires constant change (eating, breathing, sleeping, thermoregulating, moving around).
+We cannot just stay in a single "perfect" state.
+"Being alive" requires constant change (eating, breathing, sleeping, thermoregulating, moving around).
 If we would stay in one place (one state), we would have violated our own prior beliefs about what kinds of sensory inputs and physiological states we expect to have over time.
 We are in *itinerancy*: moving through a cycle of low-surprise states, not staying in one.
 Thus, *itinerant policies* arise because staying in a single state forever would be more surprising (and thus less viable) than cycling through a set of familiar, predictable states over time {% cite friston:2011 %}.
@@ -626,7 +633,7 @@ A construcitivst will point out that our beliefs (latents, causes) only tend to 
 The causes we believe in may have little or nothing to do with the "real" causes---if such causes even exist.
 This challenges my earlier assumption of *indirect realism*.
 Causes are just effective in generating sensory data---data that is already constructed by the very same system which trys to reconstruct them.
-While I don't see constructivism as an anti-realism, constructivist might doubt any sort of realism that rejects constructivist elements and that assume that we can reach an observer-independent "objective turth".
+While I don't see constructivism as an anti-realism, constructivist might doubt any sort of realism that rejects constructivist elements and that assumes that we can reach an observer-independent "objective turth".
 Constructions are contingent and constrained---they work in the context of a history of evolution but they are not "the truth" and, in my opinion, they can not be separated from the observing system that construct them. 
 
 Because *recognition* and *perception* work in tandem, we can say that changing our expectations literally changes our perception---it changes our environment.
@@ -654,7 +661,7 @@ I find it desirable to recognize, or at least consider that emotional pain may n
 Flexibility, when demanded too often or too rapidly, erodes the very models that minimize surprise over the long term.
 Thus, while adaptability is vital, stability is sacred.
 
-Let me finish with some speculations.
+Let me finish with some speculations:
 I have the gut feeling that a strange, perhaps paradoxical, alliance forms here between Kant, Heidegger, and (embodied) constructivists like Maturana, Varela, and Luhmann. 
 Each offers a piece of the puzzle when viewed through the lens of the free energy principle.
 Kant emphasized the structuring role of *a priori* reason---the internal scaffolding that makes experience possible.
