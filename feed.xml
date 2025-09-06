@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-09-03T13:35:28+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Free Energy Principle</title><link href="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html" rel="alternate" type="text/html" title="The Free Energy Principle" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html"><![CDATA[<p>Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2025-09-06T12:11:49+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Free Energy Principle</title><link href="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html" rel="alternate" type="text/html" title="The Free Energy Principle" /><published>2025-08-04T00:00:00+02:00</published><updated>2025-08-04T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2025/08/04/free-energy-principle.html"><![CDATA[<p>Imagine you see a grizzly bear in the woods and half of its face is hidden behind a tree.
 You will most certainly recognize the bear as whole and dangerous animal.
 Your brain will “fill in the gaps” even though there is no absolute certainty that the bear isn’t split in half.
 How and why does the brain do this?
@@ -873,7 +873,7 @@ A system is characterized by three key components:</p>
 
 <p>But here the trouble begins because Luhmann defines a system very differently.
 It seems to me that Meadows’ definition still relies on the subject-object destinction which Luhmann wants to sublime.
-He thinks in interdependent but operationally closed processes instead of things and he very much dislike the concept of an externally given ‘purpose’.
+He thinks in interdependent but operationally closed processes instead of things and he very much dislikes the concept of an externally given ‘purpose’.
 For Luhmann</p>
 
 <blockquote>
@@ -894,7 +894,7 @@ If we want to be accurate we can not speak of a system without its environment b
 This definition contrasts sharply with definitions based on tangible components and external goals, focusing instead on processes of <em>sense-making</em>, self-production and self-maintenance.</p>
 
 <p>Luhmann read a lot of interdisciplinary material and borrowed from mathematics, classical systems theory, biology, cybernetics and other disciplines.
-For example, he took the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a> from biology, the concept of <em>feedback loops</em> and <em>second-order observation</em> from cybernetics and of <em>re-entry</em> and the fundamental operation of <em>differentiation</em> and <em>indication</em> from the mathematician Spancer-Brown <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.</p>
+For example, he took the concept of <em>autopoiesis</em> <a class="citation" href="#maturana:1987">(Maturana &amp; Varela, 1987)</a> from biology, the concept of <em>feedback loops</em> and <em>second-order observation</em> from cybernetics and of <em>re-entry</em> and the fundamental operation of <em>differentiation</em> and <em>indication</em> from the mathematician Spencer-Brown <a class="citation" href="#brown:1969">(Spencer-Brown, 1969)</a>.</p>
 
 <p>For Luhmann, systems are <em>operationally closed</em> meaning that no system can interfer in the operation of another system.
 For example, the economic system communicates via payments and there is almost no way that the political system can interfer in it.
@@ -997,7 +997,7 @@ In science, second-order observation enables scientists to observe not only exte
 This includes observing how truths are constructed within the scientific community and scrutinizing the frameworks, biases, and assumptions underlying those constructions.
 But it also includes how a specific scientist or science lab is being observerd.
 In this context, <em>reputation</em> is effectivly a measure of how a scientist is seen by other scientists.
-It furhter reduces complexity by accumulating the observation of others.
+It further reduces complexity by accumulating the observation of others.
 I do not have to read and carefully analyse every paper of a specific researcher to find out if his or her research is trustworthy, i.e. if it is good research under the truth/falshood code.
 In complex environments, <em>second-order observation</em> helps systems like science to deal with uncertainty and complexity.
 Rather than aiming for <strong>absolute certainty</strong>, science can adapt by recognizing different observational frameworks, revisiting previously accepted truths, and acknowledging limitations in current knowledge. 
@@ -1050,7 +1050,7 @@ As a computer scientist I understand communcation using Shannon’s framework <a
 But this is not what Luhmann understands as <em>communication</em>.
 For him, <em>communication</em> is not merely the transfer of information between individuals (or machines). 
 Instead, it is a self-contained social process that occurs within and is produced by social systems, with <strong>individuals seen as part of the environment rather than as agents within the system</strong>.
-According to Luhmann, it is a three-part process of three interdependent elements:</p>
+According to Luhmann, it is a three-part process of three interdependent elements/<strong>selections</strong>:</p>
 
 <ol>
   <li><strong>Information</strong>: The content or ‘<strong>what</strong>’ of communication, which could be new data, knowledge, or ideas relevant to the system.</li>
@@ -1058,7 +1058,7 @@ According to Luhmann, it is a three-part process of three interdependent element
   <li><strong>Understanding</strong>: The receiver’s interpretation of both the information and the utterance. Understanding is crucial, as it determines whether and how the communication is taken up within the system. It is the <strong>differentiation between information and utterance</strong>.</li>
 </ol>
 
-<p>For Luhmann, communication only ‘happens’ if all three elements are present. It’s not just about sending information; it’s about how information is expressed and then understood within a particular context.
+<p>For Luhmann, communication only ‘happens’ if all three elements are present. It’s not just about sending (selected) information; it’s about how information is expressed and then understood within a particular context.
 <em>Communication</em> is not generated by individuals but by the system and is itself autopoietic, meaning it is self-producing and self-sustaining.
 <em>Communication</em> is inherently selective; it involves making choices about what information to include, how to present it, and how to interpret it. 
 This selectivity creates <em>blind spots</em>, as each communication inherently excludes other possible meanings.
@@ -1069,11 +1069,14 @@ Or take the education system.
 If I start singing in my lecture students would be quite confused.
 Since in Luhmann’s framework every system operates by its unique logic, <em>communication</em> can <strong>not</strong> be about transferring <strong>objective</strong> information; it is about processing meaning/sense which depends on the ‘processor’, i.e. the system. 
 Each <em>communication</em> within a system adds to the meaning that the system produces.
-For instance, in the scientific system, each new theory or finding creates meaning within the context of the truth/falsehood code and is interpreted within that framework.
-<strong>Systems thus continuously build their own specific reality</strong>, shaped by the types of meaning they process through communication.</p>
+For instance, in the scientific system, each new theory or finding creates meaning within the context of the truth/falsehood code and is interpreted within that framework—it can change <em>the reality of science</em> as a whole.</p>
+
+<blockquote>
+  <p>Systems exist and they continuously build their own specific reality, shaped by the types of meaning they process through communication.</p>
+</blockquote>
 
 <p>Consequently, if we take Luhmann serious, we arrive at the revelation that there is not one ‘really real and objective reality’ but that there is a <strong>plurality of realities</strong>;
-that there is not one controlling system that steers all the others but that there is anarchy in society;
+that there is not one controlling system that steers all the others but that there is <em>anarchy</em> in society;
 that we are not in control but that society is <strong>out of control</strong>;
 that there is not one objective truth but systemic interpretations;
 and maybe most importantly: that there is no outside of society, no view at the whole because <strong>any indication of something requires a distinction from something else</strong>.</p>
@@ -1295,7 +1298,7 @@ They think that, unlike cells serving the whole organism, a functioning society 
 I totally agree.
 But can we bring their humanistic viewpoint in line with Luhmann’s <em>anti-humanistic</em> theory?
 That would be nice but is probably not in the spirit of the author.
-While both views address the organization of society, Maturana and Varela focus on an ideal in which society exists for the benefit of individuals, whereas Luhmann’s theory suggests that society, as a system, operates independently of individual well-being.
+While both views address the organization of society, Maturana and Varela focus on an ideal in which society exists for the benefit of individuals, whereas Luhmann’s theory suggests that society, as a system, operates rather independently of individual well-being.
 We could evaluate societies (across time and space) according to the degree they served individual well-being and then learn from the lessons to irritate our society in such a way that it becomes more <em>functional</em>, in Maturana’s and Varela’s sense of the word.
 However, operationalizing this perspective would face challenges within Luhmann’s framework.</p>
 
