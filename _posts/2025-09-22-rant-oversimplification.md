@@ -35,6 +35,7 @@ People can be criminals and kind. They can support terror and suffer horrific cr
 
 There is no way out of this complexity. There is only more complexity.
 
+<!--
 I know it is not possible to report without compression. I am compressing right now. But can't we do better? Must it always be only right and wrong, good and evil, friend and foe? Must every event and every person be collapsed into a single dot that fits neatly into our networks of signs?
-
+ -->
 It seems increasingly difficult to escape our *digital condition* where the lifeworld is increasingly structured by discrete representations, code, and networks---where the richness of experience is flattened into simplified, exchangeable symbols that can be used and abused to make sense and to draw simple conclusions which leads to yet another hurricane.
