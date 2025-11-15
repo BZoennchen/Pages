@@ -22,11 +22,11 @@ During this time, I was an active member of the [Pedestrian Research Group](http
 Today, my interests have broadened to include the communicative capacity of AI systems and their transformative influence on society. 
 As digital technologies become central to our way of life, I believe computer scientists must help shape this transformation---not as unchecked forces of progress, but as thoughtful enablers of one of the most vital interdisciplinary projects of our time.
 
-At the heart of this project lies a philosophical conviction: that we must reassert the Kantian ideal of treating every human---and every living being---as an end in itself but at the same time we have to be critical of a clear cut subject/object distinction. 
+At the heart of this project lies a philosophical conviction: we can be Nietzschian to **make life interesting** and Kantian to **make life bearable**.
 This principle also informs my fascination with creative coding, where programming transcends utility and becomes a mode of artistic expression.
 For me, code is not merely a tool for building applications---it is a medium for expression, a form of art, a way to couple mind and world, and an end in itself.
 
-Computer science, at its best, opens the door to self-determination, creativity, imagination, beauty, and freedom—in short:
+Computer science, at its best, opens the door to autonomy and agency, creativity and imagination, beauty and freedom---in short:
 
 >"a world open for play."  -- Robin Williams
 

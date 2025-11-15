@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 # Curriculum Vitae 
 
-PDF version: [en]({% link /assets/files/CV_en.pdf %}) / [de]({% link /assets/files/CV_de.pdf %})
+PDF version: [en]({% link /assets/files/CV_en.pdf %})
 
 ## Current Position
 
@@ -54,18 +54,17 @@ Software Developer (Education)<br>
 
 ## Research Interests
 
-**Systems Theory and AI:** How can systems theory deepen our understanding and analysis of human–machine interactions, particularly in complex, adaptive environments?<br>
+**Systems Theory and AI:** I explore human–AI co-creativity and co-evolution as emergent socio-technical processes, in which AI systems are shaped by feedback loops, develop operational closure, and draw on the contingencies generated through communication.<br>
 
-**AI4All:** How can machine learning empower the general public by enhancing their capacity to act, create, and make informed decisions?<br>
+**AI in Culture, Arts and Education:**I apply this lens to the fields of culture, arts, and education to examine how generative AI transforms creative practices, roles, and learning environments.<br>
 
-**CreativeAI:** How can artistic intentionality be expressed and preserved through generative machine learning methods? Which techniques best support creative agency, and how might intentionality be more effectively realized in computational processes?<br>
+## Other Interests
 
-## Private Interests
-
-+ Philosophy (e.g. Constructivism) & Technology
-+ Film Reviews and Analysis
-+ Computer Music & Music Theory
-+ Theoretical Computer Science
++ **Open Eduction:** Free and open education, schooling and education in the digital era
++ **Complex Systems:** How do complex system interact? What is the relation of entropy and complexity?
++ **Philosophy:** Constructivism, Philosophy of Mind, Phenomenology, Existentialism, Philosophy of Language
++ **Creative Coding:** Live Programming, Algorithmic Composition, Sound Design, Generative Design
++ **Formal Methods:** Automata Theory, Logic, Laws of Form
 
 ***
 
@@ -110,6 +109,9 @@ See [Selected Works](/Pages/works/).
 
 
 ## Teaching
+
+**Winter 2025/26** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
+*Sustainable AI* (Bachelor), Lecturer<br>
 
 **Summer 2025** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
 *[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Workshop, Trainer<br>
