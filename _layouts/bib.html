@@ -12,9 +12,9 @@
     {% if entry.journal %} 
       <br><i>{{entry.journal}}{% if entry.volume %}, {{entry.volume}}{% endif %}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}. 
     {% endif %}
-    {% if entry.editor and entry.booktitle %} 
+    <!-- {% if entry.editor and entry.booktitle %} 
       <br>In {{entry.editor}}, <i>{{entry.booktitle}}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}.
-    {% endif %}
+    {% endif %} -->
     {% if entry.booktitle %} 
       <br><i>{{entry.booktitle}}</i>{% if entry.pages %}, {{entry.pages}}{% endif %}.
     {% endif %}
