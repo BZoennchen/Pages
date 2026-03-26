@@ -144,7 +144,7 @@ For each iteration we play the beat according to <code class="language-plaintext
 
 <p>To bring a little more dynamic into the piece, we introduce a randomly generated melody.
 In algorithmic composition we have to find a balance between complete chaos and structure.
-To much chaos will sound unpleasant while too much structure is boring.
+Too much chaos will sound unpleasant while too much structure is boring.
 Therefore, I shuffle a specific scale which gives us notes that fit together:</p>
 
 <div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">melody</span> <span class="o">=</span> <span class="n">shuffle</span><span class="p">(</span><span class="n">scale</span><span class="p">(</span><span class="ss">:e4</span><span class="p">,</span> <span class="ss">:minor</span><span class="p">))</span>

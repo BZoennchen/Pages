@@ -177,7 +177,7 @@ We have to perceive and compare pitches at the same time.
 The expectation is realized for different scales but has to be local and context-sensitive within the computation.
 Therefore, it is not only the distribution of notes (or rhythmic elements) within a composition but the distribution of their relation, i.e., their <em>conditional probability distribution</em>.</p>
 
-<h2 id="from-serialism-to-probabilty">From Serialism to Probabilty</h2>
+<h2 id="from-serialism-to-probability">From Serialism to Probability</h2>
 
 <p>One way to generate melodies is to use the mathematical branch of combinatorics.
 The idea is simple: define a bunch of chords or notes that fit together and use permutation, rotation, and other combinatoric tricks to combine them.
@@ -237,7 +237,7 @@ P(X_{k+1} = x\ |\ X_{k} = x_k, X_{k-1} = x_{k-1}, \ldots X_{k-n} = x_{k-n}) = p.
 <h2 id="music-generation">Music Generation</h2>
 
 <p>We can generate a composition by traversing the graph if we represent our notes by states of a <em>Markov chain</em>.
-If we increase the order of the chein, i.e. \(n\), the entropy decreases for small \(n\).</p>
+If we increase the order of the chain, i.e. \(n\), the entropy decreases for small \(n\).</p>
 
 <p>Until now, I only tried to use and generate a <em>first-order Markov chain</em>.
 Even though I am not that familiar with <code class="language-plaintext highlighter-rouge">Ruby</code>, I used <a href="https://sonic-pi.net/">Sonic Pi</a> for this task such that I can play around with it directly within the IDE of Sonic Pi.
@@ -388,7 +388,7 @@ Instead, we could use multiple compositions that fit together.</p>
 <p>This project was part of our workshop <em><a href="/Pages/2022/06/21/creative-artifical-intelligence.html">AI and Creativity</a></em> to show a basic example of using <em>artificial intelligence</em> to generate music.</p>
 
 <p>You can find the full example containing two different melodies on my <a href="https://github.com/BZoennchen/workshop-creative-ai">GitHub page</a>.
-The code include some additional functions, e.g., a function that prints out the <em>Markov matrix</em> in a readable format.</p>
+The code includes some additional functions, e.g., a function that prints out the <em>Markov matrix</em> in a readable format.</p>
 
 <h2 id="references">References</h2>
 
