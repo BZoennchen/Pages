@@ -178,17 +178,17 @@ Transformers were initially targeted at natural language processing (NLP) proble
 Transformers were introduced in 2017 by the authors of <em>Attention Is All You Need</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> to basically replace <em>recurrency</em> with <em>attention</em>.</p>
 
 <p>One of the problems with RNNs is that they can forget information that is further back in the sequence.
-While more sophisticated architectures, such as LSTMs <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a> and <em>gated recurrent units</em> (GRUs) <a class="citation" href="#chung2014">(Chung et al., 2014)</a> partially, addressed this problem, they still struggle with long term dependecies.
+While more sophisticated architectures, such as LSTMs <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a> and <em>gated recurrent units</em> (GRUs) <a class="citation" href="#chung2014">(Chung et al., 2014)</a> partially, addressed this problem, they still struggle with long term dependencies.
 The idea that intermediate representations in the RNN should be exploited to produce the output led to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> and, in the end, to the transformer architecture <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>.
 The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.</p>
 
 <p>Today, all successful large language model (LLMs) utilize the transformer architecture.
 It brought us ChatGPT (based on GPT-3 <a class="citation" href="#brown:2020">(Brown et al., 2020)</a> and GPT-4 <a class="citation" href="#openai:2023">(OpenAI, 2023; Bubeck et al., 2023)</a>), LLaMA <a class="citation" href="#touvron:2023">(Touvron et al., 2023)</a>, LLaMA 2 <a class="citation" href="#touvron:2023b">(Touvron et al., 2023)</a>, BERT <a class="citation" href="#devlin:2019">(Devlin et al., 2019)</a> and many fine-tuned derivates such as Codex <a class="citation" href="#chen:2021">(Chen et al., 2021)</a> .
-In the domain of symbolic music, transformers where also employed.
+In the domain of symbolic music, transformers were also employed.
 Examples are the Music Transformer <a class="citation" href="#huang:2018">(Huang et al., 2018)</a>, the Pop Music Transformer <a class="citation" href="#huang:2020">(Huang &amp; Yang, 2020)</a>, multi-track music generation <a class="citation" href="#ens:2020">(Ens &amp; Pasquier, 2020)</a>, piano inpainting <a class="citation" href="#hadjeres:2021">(Hadjeres &amp; Crestel, 2021)</a>, Theme Transformer <a class="citation" href="#shih:2022">(Shih et al., 2022)</a> and more.
 Furthermore there are transformers, such as MusicGen <a class="citation" href="#copet:2023">(Copet et al., 2023)</a> that generate audio output directly.</p>
 
-<p>While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective—there is no rigorous mathematical proof.
+<p>While there is an intuitive explanation of the attention mechanism, it is still unclear why exactly the transformer is so effective—there is no rigorous mathematical proof.
 It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
 One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information) and the independence of multiple execution paths make them especially suitable for the exploitation of multicore processors such as GPUs and TPUs.
 However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
@@ -209,7 +209,7 @@ Furthermore, shifting all the letters in a text changes the meaning of that text
 <p>What is the idea behind the attention mechanism?
 Attention was introduced to bidirectional recurrent neural networks (RNNs) in 2014 <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> for language translation, that is, for an <em>encoder-decoder architecture</em>.
 In this scenario we want to translate a sentence from e.g. English into e.g. German.
-The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoders ouput (representations of the English words) differently.
+The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoder’s output (representations of the English words) differently.
 Therefore, it helps to preserve long term dependencies.</p>
 
 <p>The <strong>encoder’s</strong> input is a sequence of tokens, let’s say words for simplicity, i.e. a sequence</p>
@@ -228,7 +228,7 @@ The output is a sequence of German words, let’s say</p>
 
 <p>This time however, the <strong>decoder</strong> RNN is unidirectional.
 It can not look into the future and computes each German word strictly from left to right.
-To compute the weights or attenion scores of \(\mathbf{y'}_{i}\), an <strong>alignment model</strong> receives the hidden state \(\mathbf{h'}_{i-1}\) and the outputs of the encode as input.
+To compute the weights or attenion scores of \(\mathbf{y'}_{i}\), an <strong>alignment model</strong> receives the hidden state \(\mathbf{h'}_{i-1}\) and the outputs of the encoder as input.
 First a simple dot product is comuted:</p>
 
 \[e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.\]
@@ -279,7 +279,7 @@ This mechanism ensures that the decoder focuses on the relevant information with
 <p>Furthermore, the utilization of residual connections and layer normalization over a mini-batch (layer norm) serves as a valuable tool to combat the issue of vanishing gradients in deep neural networks, ensuring the efficient training and optimization of the translation model.</p>
 
 <p>In our case we do not acutally want to translate a sentence but we want to generate musical notes from a sequence of given notes.
-Therfore, we have no encoded information and there is no encoding envolved.
+Therfore, we have no encoded information and there is no encoding involved.
 We only need the decoder part.
 Furthermore, I only use one (masked) multi-head attention layer in each block.</p>
 
@@ -345,7 +345,7 @@ In general, this relationship is expressed by the following equation:</p>
 
 \[\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),\]
 
-<p>where \(\beta\) is the angle between the two verctors.
+<p>where \(\beta\) is the angle between the two vectors.
 Computing the <em>dot product</em> between queries and keys gives us the similarities we desire.
 To normalize, we then pass the result through a <em>softmax</em> function:</p>
 

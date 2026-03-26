@@ -173,7 +173,7 @@
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches: (1) A <strong>first-order Markov chain (MC)</strong> and (2) a <strong>feedforward neural network (FNN)</strong></p>
 
-<p>It’s important to note that I will disregard all forms of dynamics within a notated score (or performace), such as loudness, softness, etc.</p>
+<p>It’s important to note that I will disregard all forms of dynamics within a notated score (or performance), such as loudness, softness, etc.</p>
 
 <p>Despite these two approaches being significantly outdated, I believe their demonstration serves as a valuable exercise for familiarizing oneself with the inherent challenges of the subject matter. 
 The inspiration for this work comes from the tutorial series made by <a href="https://www.youtube.com/watch?v=FLr0r-QhqH0&amp;list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz">Valerio Velardo’s</a> and another series made by <a href="https://www.youtube.com/@AndrejKarpathy">Andrej Karpathy’s</a>.</p>
@@ -330,7 +330,7 @@ As the first event lacks a predecessor and the last lacks a successor, I append 
 Additionally, to properly exploit broadcasting, it’s necessary to set <code class="language-plaintext highlighter-rouge">keepdim=True</code>. 
 This ensures that the sum results in a <code class="language-plaintext highlighter-rouge">(1,m)</code> tensor, as opposed to a <code class="language-plaintext highlighter-rouge">(m,)</code> tensor.</p>
 
-<p>Plotting the probabilities reviels that \(\mathbf{P}\) is a rather sparse matrix containing many zeros.
+<p>Plotting the probabilities reveals that \(\mathbf{P}\) is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.</p>
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
