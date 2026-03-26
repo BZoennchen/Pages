@@ -20,7 +20,7 @@ Some parts might even be contradictory.
 But this is the point: enduring or even enjoying ambiguity!
 
 Overall, I hope to give good reasons for the emergence of conspiracy theories and our state of inaction in the face of disaster; reasons that do not rely on a good and evil dichotomy of individuals.
-I will argue that our perception of reality makes effective communication between each other improbable and that complex systems follow their own stabalizing dynamic.
+I will argue that our perception of reality makes effective communication between each other improbable and that complex systems follow their own stabilizing dynamic.
 In the end, conspiracy theorist will appear as anti-authoritarian rebels that fight against the power of knowledge using the same source of authority, that is, knowledge.
 
 Before we start, let us agree on a definition of conspiracy theories:
@@ -65,14 +65,14 @@ Consequently, it was no surprise to me that at the protests against COVID-19 res
 Of course, one has to be careful with such categorization since such protests are often captured by extreme parties.
 Anyways, this mix reflects the broad, albeit unusual, appeal of such conspiratorial narratives and the desire for an effective (post-truth) narrator, e.g. Donald Trump, who provides a myth that carries emotional weight rather than the difficulty and uncertainty of a complex world---a *myth* one can live by.
 However, *ignorance* is too simple of an explanation.
-The MAGA cult is not disingaged in communication or the production of knowledge.
+The MAGA cult is not disengaged in communication or the production of knowledge.
 Instead they (ab)use communication to construct quite imaginative but also inconsistant *alternative facts* effectively.
 
 On the basis of knowledge, it is easy to make fun of people believing in mythologies.
-Scienficially speaking, myths are either inconsistent or unfalsifiable.
+Scientifically speaking, myths are either inconsistent or unfalsifiable.
 However, socially they can be very useful and powerful.
 They explain experience and reduce complexity.
-A myth is ment to answer questions and offer solutions to quell the anxieties of the present through stories.
+A myth is meant to answer questions and offer solutions to quell the anxieties of the present through stories.
 They can serve a useful purpose, particularly in politics.
 They create visions, unities and identities among groups such that they can work together towards a meaningful goal---a mission greater than oneself.
 Here, a shadow of spirituality plays an important role, be it in the form of *the Light of God*, *Siegfried the Dragonslayer*, *Achilleus the Greatest of All the Greek Warriors* or *Donald Trump the Warrior King*.
@@ -91,7 +91,7 @@ Therefore, it is peculiar to witness esteemed intellectuals like Richard Dawkins
 When Dawkins discusses evolution, it is easy to agree with him from a scientific perspective.
 I want him to defend his theory.
 However, he often speaks in absolutes, using the language of dogmatic religion that he himself criticizes.
-From a systems theory point of view, can resolve this paradox by re-entering itself, that is, by communicating about itself on its own terms---a sort of self-reflection.
+From a systems theory point of view, it can resolve this paradox by re-entering itself, that is, by communicating about itself on its own terms---a sort of self-reflection.
 
 Dawkins and similar critics overlook a crucial point: the pursuit of absolute truth is elusive.
 Even Dawkins' assertion that "the theory is true" misrepresents the nature of scientific inquiry, which he is undoubtedly aware of.
@@ -133,7 +133,7 @@ Note that postmodern thinkers argue that philosophers, who practiced metaphysics
 Famous is Nietzsche's suspicion of Kant's categorical imperative, which is, after all, categorical.
 Kant, however, pointed to the source of the problem which is not logic or rational thinking but a lack of empirical evidence; a lack of outwardness; of asking nature.
 
-From this perspective, one might say that conspiracists are in the business of doing metaphyics poorly.
+From this perspective, one might say that conspiracists are in the business of doing metaphysics poorly.
 It is certainly the case that there are similarities in doing metaphysics and constructing a grand conspiratorial theory (or myth) that attempts to explain everything.
 And like Aquinas, theorists of a conspiracy try to establish a kind of system, synthesizing the world into one big theory.
 But there are also differences.
@@ -174,7 +174,7 @@ But back to Baudrillard.
 He was an interesting figure but not taken very seriously by the academic community.
 His writing style is polemical and his worldview extremely cynical. 
 Despite this, his texts are intriguing and thought-provoking, capturing a sentiment that resonates with many facets of our society today.
-In many sense, he was ahead of his time and highly influencial in the media and culture he studied.
+In many ways, he was ahead of his time and highly influential in the media and culture he studied.
 
 What particularly makes *The Matrix* fascinating in connection with Baudrillard is how the film embodies the type of pop-cultural phenomenon he often discussed in his philosophy.
 The movie not only reflects his ideas but might be able to bring them to life in a way that is accessible to a broader audience.

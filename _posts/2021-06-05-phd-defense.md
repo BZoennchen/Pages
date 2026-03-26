@@ -3,7 +3,7 @@ layout: post
 title:  "PhD Defense"
 ---
 
-Today, I just wanna note that I finally finished my academic journey on the 21st of Mai by successfully defending my PhD thesis.
+Today, I just wanna note that I finally finished my academic journey on the 21st of May by successfully defending my PhD thesis.
 The thesis will be published very soon and I post it here on this website.
 
 The following text is from the preface of the thesis and describes my personal struggles during and my perspective on the journey.
@@ -12,7 +12,7 @@ The following text is from the preface of the thesis and describes my personal s
 
 ## My Personal Journey
 
-I can pinpoint the exact moment when I decided to start my academic journey. At that time, my life was harshly disrupted by physical illness and the death of my father. Consequently, my family struggled on many levels. Despite, and probably because of the unfortunate circumstances and with my family’s blessing, I quit my job and rejoined school to get my (technical) A level. I wanted to comprehend the world more than ever and escape the meaningless play of presenting. At that difficult time, there was a financial intensive to graduate as fast as possible. Therefore, I did not join the university but the computer science program at the Munich University of Applied Sciences.
+I can pinpoint the exact moment when I decided to start my academic journey. At that time, my life was harshly disrupted by physical illness and the death of my father. Consequently, my family struggled on many levels. Despite, and probably because of the unfortunate circumstances and with my family’s blessing, I quit my job and rejoined school to get my (technical) A level. I wanted to comprehend the world more than ever and escape the meaningless play of presenting. At that difficult time, there was a financial incentive to graduate as fast as possible. Therefore, I did not join the university but the computer science program at the Munich University of Applied Sciences.
 
 During my undergraduate study, my former naive belief was crushed. I realized that I would never find any definitive objective truth about the physical world. It was a rather pessimistic but also liberating philosophical revelation that there is no definitive rule to follow and no absolute meaning to fulfill. My search was no longer aimed to find an objective meaning but a personal cause to follow. I still admired studying but for other more aesthetic reasons. I loved the clarity and usefulness of formal systems, the beauty of proofs, the elegance of algorithms, and the stu- dent’s lifestyle. I observed a transforming world where computer science spread out into many branches of science, economics, and society. It was a time of playful experimentation and the deconstruction of personal barriers.
 

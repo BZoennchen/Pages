@@ -84,7 +84,7 @@ As we will see, the *free energy principle* suggests that our nervous system is 
 In that sense, assuming the free energy principle makes our brains into prediction machines with the goal of **minimizing surprise**.
 
 Our body's purpose is to stay alive---to continue with its self‑creation by constructing its own organization and structure (autopoiesis).
-It is open to structure but organizationally or operationally closed (implying a causal loop in its opertions).
+It is open to structure but organizationally or operationally closed (implying a causal loop in its operations).
 Its *qualitative identity* can change but its *individual identity* is maintained constant even if it could change, meaning there is some active prevention going on---we do not disintegrate:
 
 >[A molecular autopoietic system (or living being)] is a homeostatic system of chemical production which has its own individual identity as the variable which it maintains constant -- {% cite barry:2012 %}
@@ -108,7 +108,7 @@ For example, we experience a sort of conscious self-control when we asked to tel
 
 <span style="color:red">BLUE!</span>
 
-We wanna say "blue" but immediatly interrupt ourselves to say "red".
+We wanna say "blue" but immediately interrupt ourselves to say "red".
 We can be angry with ourselves, talking to ourselves and judging ourselves as if there is an instance within us that is distinct from us.
 
 Recognizing a predator in the forest already requires more than just pattern matching.
@@ -126,7 +126,7 @@ Maybe we can learn from his emphasis when discussing AI systems where the focus 
 Again, for Tomasello the importance is not complexity or variety (of actions) but the levels of control an organism can exert on its environment and itself.
 
 With respect to the free energy principle contingency and unpredicability explodes if the environment of organisms consists of other organisms---when one has to predict the predictions of others.
-Social priors privided by caregivers or joint attention and communication become necessary and people might update their internal models by minimizing surprise via social feedback.
+Social priors provided by caregivers or joint attention and communication become necessary and people might update their internal models by minimizing surprise via social feedback.
 We have acted on the whole earth to make our environment more predictable which led to new unpredictablities and risks that we try to make predictable.
 
 ## Naturalizing Surprise and Entropy

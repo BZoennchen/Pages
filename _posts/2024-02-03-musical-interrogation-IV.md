@@ -14,17 +14,17 @@ Transformers were initially targeted at natural language processing (NLP) proble
 Transformers were introduced in 2017 by the authors of *Attention Is All You Need* {% cite vaswani:2017 %} to basically replace *recurrency* with *attention*.
 
 One of the problems with RNNs is that they can forget information that is further back in the sequence.
-While more sophisticated architectures, such as LSTMs {% cite hochreiter:1997 %} and *gated recurrent units* (GRUs) {% cite chung2014 %} partially, addressed this problem, they still struggle with long term dependecies.
+While more sophisticated architectures, such as LSTMs {% cite hochreiter:1997 %} and *gated recurrent units* (GRUs) {% cite chung2014 %} partially, addressed this problem, they still struggle with long term dependencies.
 The idea that intermediate representations in the RNN should be exploited to produce the output led to the *attention mechanism* {% cite bahdanau:2014 %} and, in the end, to the transformer architecture {% cite vaswani:2017 %}.
 The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.
 
 Today, all successful large language model (LLMs) utilize the transformer architecture.
 It brought us ChatGPT (based on GPT-3 {% cite brown:2020 %} and GPT-4 {% cite openai:2023 bubeck:2023 %}), LLaMA {% cite touvron:2023 %}, LLaMA 2 {% cite touvron:2023b %}, BERT {% cite devlin:2019 %} and many fine-tuned derivates such as Codex {% cite chen:2021 %} .
-In the domain of symbolic music, transformers where also employed.
+In the domain of symbolic music, transformers were also employed.
 Examples are the Music Transformer {% cite huang:2018 %}, the Pop Music Transformer {% cite huang:2020 %}, multi-track music generation {% cite ens:2020 %}, piano inpainting {% cite hadjeres:2021 %}, Theme Transformer {% cite shih:2022 %} and more.
 Furthermore there are transformers, such as MusicGen {% cite copet:2023 %} that generate audio output directly.
 
-While there is an intuitive explanation of the attention mechanism, it is still unclear why exaclty the transformer is so effective---there is no rigorous mathematical proof.
+While there is an intuitive explanation of the attention mechanism, it is still unclear why exactly the transformer is so effective---there is no rigorous mathematical proof.
 It is well-known how their components work and what mathematical operations are performed, but it is very hard to interpret the seemingly emerging power when all the small parts work together.
 One source of their effectiveness is that they relate tokens to other tokens more directly (without a hidden state which washes away the information) and the independence of multiple execution paths make them especially suitable for the exploitation of multicore processors such as GPUs and TPUs.
 However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
@@ -45,7 +45,7 @@ Furthermore, shifting all the letters in a text changes the meaning of that text
 What is the idea behind the attention mechanism?
 Attention was introduced to bidirectional recurrent neural networks (RNNs) in 2014 {% cite bahdanau:2014 %} for language translation, that is, for an *encoder-decoder architecture*.
 In this scenario we want to translate a sentence from e.g. English into e.g. German.
-The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoders ouput (representations of the English words) differently.
+The attention mechanism helps the decoder part of the RNN to focus on different parts of the encoder's output (representations of the English words) differently.
 Therefore, it helps to preserve long term dependencies.
 
 The **encoder's** input is a sequence of tokens, let's say words for simplicity, i.e. a sequence
@@ -64,7 +64,7 @@ $$\mathbf{y'}_{0}, \ldots \mathbf{y'}_{n-1}.$$
 
 This time however, the **decoder** RNN is unidirectional.
 It can not look into the future and computes each German word strictly from left to right.
-To compute the weights or attenion scores of $$\mathbf{y'}_{i}$$, an **alignment model** receives the hidden state $$\mathbf{h'}_{i-1}$$ and the outputs of the encode as input.
+To compute the weights or attenion scores of $$\mathbf{y'}_{i}$$, an **alignment model** receives the hidden state $$\mathbf{h'}_{i-1}$$ and the outputs of the encoder as input.
 First a simple dot product is comuted:
 
 $$e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.$$
@@ -115,7 +115,7 @@ This mechanism ensures that the decoder focuses on the relevant information with
 Furthermore, the utilization of residual connections and layer normalization over a mini-batch (layer norm) serves as a valuable tool to combat the issue of vanishing gradients in deep neural networks, ensuring the efficient training and optimization of the translation model.
 
 In our case we do not acutally want to translate a sentence but we want to generate musical notes from a sequence of given notes.
-Therfore, we have no encoded information and there is no encoding envolved.
+Therfore, we have no encoded information and there is no encoding involved.
 We only need the decoder part.
 Furthermore, I only use one (masked) multi-head attention layer in each block.
 
@@ -183,7 +183,7 @@ In general, this relationship is expressed by the following equation:
 
 $$\mathbf{q}_j \circ \mathbf{k}_i = \mathbf{q}_j^\top  \mathbf{k}_i = \Vert \mathbf{q}_j \Vert \cdot \Vert \mathbf{k}_i \Vert \cos(\beta),$$
 
-where $$\beta$$ is the angle between the two verctors.
+where $$\beta$$ is the angle between the two vectors.
 Computing the *dot product* between queries and keys gives us the similarities we desire.
 To normalize, we then pass the result through a *softmax* function:
 

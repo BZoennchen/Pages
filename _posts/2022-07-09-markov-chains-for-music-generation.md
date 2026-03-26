@@ -88,7 +88,7 @@ We have to perceive and compare pitches at the same time.
 The expectation is realized for different scales but has to be local and context-sensitive within the computation.
 Therefore, it is not only the distribution of notes (or rhythmic elements) within a composition but the distribution of their relation, i.e., their *conditional probability distribution*.
 
-## From Serialism to Probabilty
+## From Serialism to Probability
 
 One way to generate melodies is to use the mathematical branch of combinatorics.
 The idea is simple: define a bunch of chords or notes that fit together and use permutation, rotation, and other combinatoric tricks to combine them.
@@ -144,7 +144,7 @@ The visualization of such a chain is a little bit more complicated.
 ## Music Generation
 
 We can generate a composition by traversing the graph if we represent our notes by states of a *Markov chain*.
-If we increase the order of the chein, i.e. $$n$$, the entropy decreases for small $$n$$.
+If we increase the order of the chain, i.e. $$n$$, the entropy decreases for small $$n$$.
 
 Until now, I only tried to use and generate a *first-order Markov chain*.
 Even though I am not that familiar with ``Ruby``, I used [Sonic Pi](https://sonic-pi.net/) for this task such that I can play around with it directly within the IDE of Sonic Pi.
@@ -300,7 +300,7 @@ Instead, we could use multiple compositions that fit together.
 This project was part of our workshop *[AI and Creativity]({% post_url 2022-06-21-creative-artifical-intelligence %})* to show a basic example of using *artificial intelligence* to generate music.
 
 You can find the full example containing two different melodies on my [GitHub page](https://github.com/BZoennchen/workshop-creative-ai).
-The code include some additional functions, e.g., a function that prints out the *Markov matrix* in a readable format.
+The code includes some additional functions, e.g., a function that prints out the *Markov matrix* in a readable format.
 
 ## References
 

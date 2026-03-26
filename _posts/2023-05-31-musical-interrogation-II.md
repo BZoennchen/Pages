@@ -10,7 +10,7 @@ The code shown here can be found in the following GitHub [repository](https://gi
 In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
 This consists of two approaches: (1) A **first-order Markov chain (MC)** and (2) a **feedforward neural network (FNN)**
 
-It's important to note that I will disregard all forms of dynamics within a notated score (or performace), such as loudness, softness, etc.
+It's important to note that I will disregard all forms of dynamics within a notated score (or performance), such as loudness, softness, etc.
 
 Despite these two approaches being significantly outdated, I believe their demonstration serves as a valuable exercise for familiarizing oneself with the inherent challenges of the subject matter. 
 The inspiration for this work comes from the tutorial series made by [Valerio Velardo's](https://www.youtube.com/watch?v=FLr0r-QhqH0&list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz) and another series made by [Andrej Karpathy's](https://www.youtube.com/@AndrejKarpathy).
@@ -171,7 +171,7 @@ In order to compute the sum over a row (instead of a column), i.e., "summing all
 Additionally, to properly exploit broadcasting, it's necessary to set ``keepdim=True``. 
 This ensures that the sum results in a ``(1,m)`` tensor, as opposed to a ``(m,)`` tensor.
 
-Plotting the probabilities reviels that $$\mathbf{P}$$ is a rather sparse matrix containing many zeros.
+Plotting the probabilities reveals that $$\mathbf{P}$$ is a rather sparse matrix containing many zeros.
 In fact, only approximately 7.86 percent of the entries are non-zero.
 
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="{% link /assets/images/mc-probs.png %}" alt="Probabilities">

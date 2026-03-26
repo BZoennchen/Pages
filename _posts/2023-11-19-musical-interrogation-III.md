@@ -8,11 +8,11 @@ series: "Musical Interrogation"
 
 This article is the continuation of a series.
 It is recommended that you read part I and II first.
-This time we use a recurrent neural network (**RNN**), more preceisly an **LSTM**, which I explained a little bit in the [introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
+This time we use a recurrent neural network (**RNN**), more precisely an **LSTM**, which I explained a little bit in the [introduction]({% post_url 2023-04-02-musical-interrogation-I %}).
 An LSTM is a RNN that counteracts the problem of exploding and vanishing gradients.
 
 This article gives some explanation to the code in the following [notebook](https://github.com/BZoennchen/musical-interrogation/blob/main/partIII/melody_rnn.ipynb), which can be executed on [Google Colab](https://colab.research.google.com/?hl=de).
-Because our model is now able to learn long-time relations, we can use the ``GridEncoder``, i.e., a *piano roll data representation*, which is exaclty what we do.
+Because our model is now able to learn long-time relations, we can use the ``GridEncoder``, i.e., a *piano roll data representation*, which is exactly what we do.
 
 ## Recurrent Neural Networks
 
@@ -90,7 +90,7 @@ As we discussed in the last article, ``55 _ _ _`` stands for the midinote ``55``
 Therefore, this is a 1/4 note.
 Likewise, ``r _ _ _`` is a 1/4 rest.
 
-Netx the ``StringToIntEncoder`` converts our alphabet of tokens into positive integers.
+Next, the ``StringToIntEncoder`` converts our alphabet of tokens into positive integers.
 
 ```python
 string_to_int = StringToIntEncoder(enc_songs)
@@ -116,7 +116,7 @@ train_set, val_set, test_set = torch.utils.data.random_split(dataset, [0.8, 0.1,
 
 ## Model Definition
 
-Firt we define the rest of our *hyperparameters*:
+First we define the rest of our *hyperparameters*:
 
 ```python
 vocab_size = len(string_to_int) # size of our alphabet
@@ -274,7 +274,7 @@ temperature = 0.6
 before_new_songs = []
 for _ in range(n_scores):
     encoded_song = generate(max_len=13,temperature=temperature)
-    print(f'generated {" ".join(encoded_song)} conisting of {len(encoded_song)} notes')
+    print(f'generated {" ".join(encoded_song)} consisting of {len(encoded_song)} notes')
     before_new_songs.append(encoded_song)
 ```
 
@@ -414,7 +414,7 @@ temperature = 0.6
 after_new_songs = []
 for _ in range(n_scores):
     encoded_song = generate(max_len=120,temperature=temperature)
-    print(f'generated {" ".join(encoded_song)} conisting of {len(encoded_song)} notes')
+    print(f'generated {" ".join(encoded_song)} consisting of {len(encoded_song)} notes')
     after_new_songs.append(encoded_song)
 
 after_generated_scores = encoder.decode_songs(after_new_songs)

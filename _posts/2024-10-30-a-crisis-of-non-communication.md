@@ -11,7 +11,7 @@ comments: true
 I have to admit, I’m somewhat addicted to thinking about *social systems theory*, particularly the version developed by the German sociologist Niklas Luhmann (1927–1998). 
 But this addiction isn't driven by pure fascination—it's more of a love-hate relationship. 
 On one hand, seeing the world through a Luhmannian lens doesn't make it more just or fantastic, but it does make it comprehensible. 
-The chaotic state of global affairs---the crazyness of U.S. elections, the brutal devastation in the Middle East, the war in Europe, and the looming tensions brought by the climate crisis---appears senseless at times, even apocalyptic.
+The chaotic state of global affairs---the craziness of U.S. elections, the brutal devastation in the Middle East, the war in Europe, and the looming tensions brought by the climate crisis---appears senseless at times, even apocalyptic.
 And yet, *systems theory* offers a framework that, paradoxically, brings coherence to this apparent madness, showing us how these outcomes emerge from the logic of *functionally differentiated systems*.
 
 Faced with such overwhelming disorder, how can anyone retain a sense of sanity? 
@@ -54,7 +54,7 @@ Systems theory sheds light on why, even in an era where nearly everyone can part
 In many ways, the Enlightenment's aspirations for rational discourse and universal truth have not materialized as hoped. 
 The ideal of 'Truth'---which Plato connected to the 'Good'---has, it seems, drifted into obscurity and we are left with a spectacular hyperreality; it seems we have been fallen deep into the cave of shadows.
 
-In a typical postmodern move, Luhmann's conclusion to the 'lost Truth'---understood as singular objective truth---is (similar to Baudriallard) that it never existed in the first place.
+In a typical postmodern move, Luhmann's conclusion to the 'lost Truth'---understood as singular objective truth---is (similar to Baudrillard) that it never existed in the first place.
 As a constructivist, he avoids Plato's concept of 'the Truth' and shifts his attention to the *production of sense* via different systems.
 If we take Luhmann’s theory seriously, we must recognize that controlled, predictable change within society is extremely limited because each (social) system constructs its own reality.
 There is no agreement on what is true or real.
@@ -64,7 +64,7 @@ As individuals, we find ourselves positioned outside the social systems that coe
 This view is both awe-inspiring and disquieting: I admire the explanatory power of Luhmann's theory, yet I feel a deep urge to challenge or even disprove it.
 It confronts us with the unsettling notion that society evolves autonomously, beyond our direct influence, regardless of our individual ideals and aspirations.
 
-I first encountered Luhmann's theory while preparing a lecture on sustainable artificial intelligance. 
+I first encountered Luhmann's theory while preparing a lecture on sustainable artificial intelligence. 
 In researching future competencies, including sustainability competencies {% cite Brundiers2020 %}, I noted that systems thinking is emphasized as a fundamental skill for addressing complex issues. 
 However, I doubt that Luhmann's work appears on the reading lists or syllabi of most courses on sustainability.
 Outside of Germany, he remains relatively unknown for a few reasons. His writing, e.g.,
@@ -112,7 +112,7 @@ A system is characterized by three key components:
 3. **Purpose or Function**: The overarching goal or behavior that the system is organized to achieve.
 
 But here the trouble begins because Luhmann defines a system very differently.
-It seems to me that Meadows' definition still relies on the subject-object destinction which Luhmann wants to sublime.
+It seems to me that Meadows' definition still relies on the subject-object distinction which Luhmann wants to sublime.
 He thinks in interdependent but operationally closed processes instead of things and he very much dislikes the concept of an externally given 'purpose'.
 For Luhmann 
 
@@ -132,7 +132,7 @@ This definition contrasts sharply with definitions based on tangible components 
 Luhmann read a lot of interdisciplinary material and borrowed from mathematics, classical systems theory, biology, cybernetics and other disciplines.
 For example, he took the concept of *autopoiesis* {% cite maturana:1987 %} from biology, the concept of *feedback loops* and *second-order observation* from cybernetics and of *re-entry* and the fundamental operation of *differentiation* and *indication* from the mathematician Spencer-Brown {% cite brown:1969 %}.
 
-For Luhmann, systems are *operationally closed* meaning that no system can interfer in the operation of another system.
+For Luhmann, systems are *operationally closed* meaning that no system can interfere in the operation of another system.
 For example, the economic system communicates via payments and there is almost no way that the political system can interfer in it.
 Of course, the political system can observe these payments and can try to regulate them but only indirectly.
 It can pass laws which the legal system processes.
@@ -180,14 +180,14 @@ This is crucial in complex systems, like science, where re-entry enables self-re
 Science can use the truth/falsehood distinction to evaluate not only external hypotheses but also its own standards, research paradigms, and accepted theories.
 Another more familiar example is the media which reports on itself.
 
-Another important Luhmannian concept that is stronlgy connected to *re-entry* and orignated from Heinz von Foerster (1911--2002) and Margaret Mead (1901--1978) {% cite foerster:2003 %} is *second-order observation*.
+Another important Luhmannian concept that is strongly connected to *re-entry* and orignated from Heinz von Foerster (1911--2002) and Margaret Mead (1901--1978) {% cite foerster:2003 %} is *second-order observation*.
 *Second-order observation* is facilitated by re-entry, as it allows the scientific system to reintroduce its primary distinction, i.e. truth/falsehood, internally.
 It refers to observing observations rather than simply observing objects or phenomena directly.
 This concept is crucial for complex systems as it allows them to recognize and reflect on how they construct their own distinctions and interpretations.
 In science, second-order observation enables scientists to observe not only external phenomena but also the methods, theories, and interpretations of other scientists.
 This includes observing how truths are constructed within the scientific community and scrutinizing the frameworks, biases, and assumptions underlying those constructions.
 But it also includes how a specific scientist or science lab is being observerd.
-In this context, *reputation* is effectivly a measure of how a scientist is seen by other scientists.
+In this context, *reputation* is effectively a measure of how a scientist is seen by other scientists.
 It further reduces complexity by accumulating the observation of others.
 I do not have to read and carefully analyse every paper of a specific researcher to find out if his or her research is trustworthy, i.e. if it is good research under the truth/falshood code.
 In complex environments, *second-order observation* helps systems like science to deal with uncertainty and complexity.

@@ -65,7 +65,7 @@ end
 
 To bring a little more dynamic into the piece, we introduce a randomly generated melody.
 In algorithmic composition we have to find a balance between complete chaos and structure.
-To much chaos will sound unpleasant while too much structure is boring.
+Too much chaos will sound unpleasant while too much structure is boring.
 Therefore, I shuffle a specific scale which gives us notes that fit together:
 
 ```ruby

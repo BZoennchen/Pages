@@ -105,29 +105,29 @@ As a sociologist he acknowledges but leaves aside the biological systems of huma
 All psychic systems (minds) are in the environment of social systems and vice versa.
 
 He famously argued that communication between psychic systems happens not between (whole) persons or individuals.
-This seems counterintuitive but if we spent a little more thought into his claim and clarify some termonology, it makes sense.
+This seems counterintuitive but if we spent a little more thought into his claim and clarify some terminology, it makes sense.
 Hans-Georg Moeller put it the following way:
 
 >You cannot communicate with me with your mind or brain, you will have to perform another communicative operation such as writing or speaking. -- {% cite moeller:2006 %}
 
-Luhmann described the mind (the psychic system) as well as social systems as *operational closed, structurally coupled, autopoetic systems*.
+Luhmann described the mind (the psychic system) as well as social systems as *operational closed, structurally coupled, autopoietic systems*.
 That are a bunch of important terms right away which require some explanation.
 
 In Luhmann's view, a system is defined by its differentiation with its environment---**differentiation** plays one of the most important roles in his work.
-This differentiation is esablished and obtained through the operations of the system.
+This differentiation is established and obtained through the operations of the system.
 The system differentiates itself from its environment thus it defines itself.
 In other words, the system creates its own functions by its operations (self-creation and self-preservation).
 Thinking leads to more thinking and perception leads to more perception.
 The economy creates itself by doing economics, the mass media creates itself by its operation of differentiating between information and non-information.
 
-Another *theme* in Luhmann's writing is the use of paradoxes which is certainly inspired by Spencer-Brown's logic presented in *Law of Forms* {% cite brown:1969 %}.
-Inspired by imaginary numbers, Spencer-Brown introduced imaginare truth values which are paradoxically in space but the paradox is resolved in time.
-Therefore, a paradoxical systems becomes genererative in time.
+Another *theme* in Luhmann's writing is the use of paradoxes which is certainly inspired by Spencer-Brown's logic presented in *Laws of Form* {% cite brown:1969 %}.
+Inspired by imaginary numbers, Spencer-Brown introduced imaginary truth values which are paradoxically in space but the paradox is resolved in time.
+Therefore, a paradoxical system becomes generative in time.
 One prime example is our mind which is capable of self-observation (*reentry*).
-Paradoxically, the oberservation is part of what is observed.
+Paradoxically, the observation is part of what is observed.
 However, in time this gets resolved.
 While I am observing myself (second-order observation) I cannot observe my environment (first-order observation).
-I can switch to the first-order observation but then I lose track of my oberservation of myself.
+I can switch to the first-order observation but then I lose track of my observation of myself.
 In a sense, this back and forth observation and self-observation---this paradox---generates myself.
 
 A psychic or social system is *operational closed* because its operations can not leave the system.
@@ -135,7 +135,7 @@ Mental operations such as thoughts and emotions cannot leave the mind.
 An economic transaction, e.g. paying for goods, cannot 'leave' the economy.
 No mind can interfere with the operations of another mind.
 One cannot continue someone else's mental activities by thinking or feeling for him or her.
-It is also impossible to immediatly think what someone else is thinking.
+It is also impossible to immediately think what someone else is thinking.
 
 However, systems can observe their environment and act on their terms.
 We can hear what others say, see what they express and read what they have written.
@@ -160,10 +160,10 @@ Informing people or persuading might help to 'get enough food' but it is not the
 The same goes for the economy which trys to commodify everything to further commodify things.
 Politics politicizes anything and sciences produces papers with 'facts' to get more funding for more papers with 'facts'.
 
-Even though Luhmann's termology is close to the termonology of computer science, we have to be careful.
+Even though Luhmann's termology is close to the terminology of computer science, we have to be careful.
 It is more helpful to think of these systems as interdependent organisms feeding on each other and equipped with the will to live than to think of hierarchical or well-structured computer or network systems.
 
-Aside from being *autopoetic*, social and psychic systems are also *symbiotic*, that is, their *co-evolution* is *interdependent*.
+Aside from being *autopoietic*, social and psychic systems are also *symbiotic*, that is, their *co-evolution* is *interdependent*.
 Just as the trees in the forest need water and animals to survive, politics needs money from the economy, attention from the media, and 'facts' from science.
 Media needs politics or science to produce news, and money to operate.
 The economy uses media, politics, and science to make profits.

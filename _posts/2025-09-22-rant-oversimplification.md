@@ -17,11 +17,11 @@ Programming seems to offer firmer ground. Classes, objects, and definitions feel
 
 But our interpretations are not unique. We have to select from the reference horizon that we build and imagine together. This meaning is mediated by natural language---so we are already outside the pure formal system and also limited by our cultural memory. 
 
-The reference horizon is contingent but not random. When we listen to music, we anticipate the next tone based on what we have already heard and what we are used the hear. Similarily, the past gives us the structure to see the future, but it also conceals other ways to think, imagine, and live. We need the past, culture, traditions as memory function to be able to anticipate and realize the next step---our future.
+The reference horizon is contingent but not random. When we listen to music, we anticipate the next tone based on what we have already heard and what we are used the hear. Similarly, the past gives us the structure to see the future, but it also conceals other ways to think, imagine, and live. We need the past, culture, traditions as memory function to be able to anticipate and realize the next step---our future.
 
 Now step further outward into everyday life: the ambiguity multiplies. What does it mean to call someone a "mother"? Is there an essence of "motherhood"? I would argue there is not. Instead, there is a shifting pattern of experiences: shelter, protection, food, conflict, laughter, school lessons, beginnings, and countless other associations. A mother is not a father, not a flower, not a lake---but a fluid constellation of relations and meanings. It is also a *trace*. But this does not imply arbitrariness.
 
-Similarily, we can also ask the nowadays politically charged question: *What is a woman?*---and immediately run into difficulties. Yet, if we think about it, this is hardly surprising.
+Similarly, we can also ask the nowadays politically charged question: *What is a woman?*---and immediately run into difficulties. Yet, if we think about it, this is hardly surprising.
 How could language---a digital system of signs---ever objectively capture the infinite complexity of our realities that constantly drift in the ocean of evolution? The word *"woman"* only gains meaning in relation to the usage of terms like *man*, *not-man*, *mother*, or *feminine*. Its meaning is never fixed; it is always shifting, unstable, and deferred. To ask "What is a woman?" already risks reinforcing the *man/woman binary* as *natural*, when in fact that binary is itself the product of language, institutions, and history. It can and will change.
 Any attempt to pin down a definition will necessarily exclude certain possibilities and identities.
 
@@ -41,7 +41,7 @@ We can also ask more generally: *What is a human being?* Here too, the problems 
 
 A person is not a fixed substance but a pattern of modulated repetition. Life seems coherent over time because of habits, recurring desires, aspirations, and flaws. But a person is not a stable essence---it is a process, an event, a "happening". Like a hurricane, a person is a complex system: dynamic, shifting, and contingent. And this observation, of course, is made by yet another hurricane, observed by still others---each shaping and shaped by the rest.
 
-This is precisely why I find contemporary reporting so taxing. It systematically ignores this inherent complexity. While communication admittedly requires compression, must it always collapse into reductive binaries---right vs. wrong, friend vs. foe? Must every event and every individual be flattened into a single label just to fit a pre-existing semiotic network? Must every person has to have an opinion on any matter?
+This is precisely why I find contemporary reporting so taxing. It systematically ignores this inherent complexity. While communication admittedly requires compression, must it always collapse into reductive binaries---right vs. wrong, friend vs. foe? Must every event and every individual be flattened into a single label just to fit a pre-existing semiotic network? Must every person have an opinion on any matter?
 
 >Everything must be explained, everything should be understood, and if something cannot be understood, it counts as nothing. [... So believe] many people, who are constantly having everything explained to them and are presented with a world without secrets, without the inexplicable or the overly complex, eventually come to believe themselves that they understand everything. -- {% cite bauer:2018 %}
 

@@ -23,7 +23,7 @@ More recently, she has been working on a new tool called [InteractML](https://in
 It is worth noting that the project is currently in alpha release and may only have limited documentation available.
 
 One of the key advantages of the [Wekinator](http://www.wekinator.org/) is its ease of use, making it accessible to a wide range of users.
-The software's versatility is due to its ability to [open sound control (OSC)](https://en.wikipedia.org/wiki/Open_Sound_Control) messages, which are supported by numerous applications, especially in the artistic domain.
+The software's versatility is due to its ability to send and receive [open sound control (OSC)](https://en.wikipedia.org/wiki/Open_Sound_Control) messages, which are supported by numerous applications, especially in the artistic domain.
 If other systems can communicate via OSC, they can be integrated (via network) into the larger system. 
 For instance, most digital audio workstations (DAWs), [Processing](https://processing.org/) (a renowned creative coding environment), [TouchDesigner](https://derivative.ca/), [Max/MSP](https://cycling74.com/products/max), [PureData](https://puredata.info/), [SuperCollider](https://supercollider.github.io/) and APIs for popular programming languages support OSC.
 
@@ -75,7 +75,7 @@ Compare Fig. 1.
 </div>
 <br>
 
-This is a complex challenge, and several questions arise: How does $$f$$ look like? 
+This is a complex challenge, and several questions arise: What does $$f$$ look like? 
 How can we implement it?
 
 ### Reasoning about the World

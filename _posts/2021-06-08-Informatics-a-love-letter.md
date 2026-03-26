@@ -33,7 +33,7 @@ The degree of freedom and creativity this process of creation offers can hardly 
 In no way does programming start in isolation at the computer, nor can we do it seamlessly.
 It is neither a strictly analytical nor a purely experimental process.
 Like writing an exciting story, it is a struggle, always!
-If it isn't, we or someone else has already solved the puzzle - the exciting part has been gone.
+If it isn't, we or someone else has already solved the puzzle - the exciting part has gone.
 In that case, we do not create but translate.
 
 One of the fascinating facts is that, in the end, everything comes down to simple symbol manipulations, which we call information processes.
@@ -154,7 +154,7 @@ You can find a sketch of it in the appendix of this article.
 ### Roots of Informatics
 
 It is kind of funny that historically, informatics first struggled for recognition on a global scale.
-In academia, this struggle has been gone.
+In academia, this struggle has gone.
 However, in the general public's eye, the objective and research subject of the discipline is blurred, which still leads to confusion:
 yes, I am a computer scientist, but I won't fix your computer or software bugs!
 
@@ -235,7 +235,7 @@ The system has to be designed to operate for each possible selection, not just t
 
 In the humanities, researchers have a completely different understanding of information.
 They discuss cognition, representations, referencing, and interpretation in the context of information.
-What does a symbol mean, and what effect or interpretation does it has?
+What does a symbol mean, and what effect or interpretation does it have?
 How does data transform into information, and how do we harvest knowledge and wisdom?
 
 For the purpose of information transmitted via a technical channel, a purely syntactical perspective is appropriate.
@@ -339,7 +339,7 @@ But if $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ halts then by following Eq. \eqr
 
 In any case $$\hat{\mathcal{H}}(\hat{\mathcal{H}})$$ leads to a paradox!
 However, the construction of $$\hat{\mathcal{H}}$$ is correct if  $$\mathcal{H}$$ exists.
-Therefore, it follows that our assumption is wrong and $$\mathcal{H}$$ can not exists!
+Therefore, it follows that our assumption is wrong and $$\mathcal{H}$$ cannot exist!
 
 #### Meaning
 
