@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Probabilistic Melody Modeling"
 tags: Music Sonic-Pi AI

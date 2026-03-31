@@ -1,4 +1,5 @@
 ---
+math: true
 layout: p5js-collection
 title: Fourier Drawing
 description: This animation is inspired by the work of Daniel Shiffman and his tutorial 'Drawing with Fourier Transform and Epicycles', as well as the excellent explanation of the Fourier analysis done by Grant Sanderson in the video 'But what is a Fourier series?'.

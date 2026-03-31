@@ -8,7 +8,7 @@
 
 .publication-entry {
   padding: 1em;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid $border-color-01;
 }
 
 .publication-list li {
@@ -48,5 +48,5 @@
 
 .talk-entry {
   padding: 1em;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid $border-color-01;
 }

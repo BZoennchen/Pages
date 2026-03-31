@@ -1,4 +1,5 @@
 ---
+math: true
 layout: p5js-collection
 title: Forest Fire Simulation
 description: A cellular automaton to simulate and visualize forest fires. The visualization is simple but effective.

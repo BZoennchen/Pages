@@ -1,6 +1,7 @@
 ---
+math: true
 layout: p5js-collection
-description: 'A set of randomly initialized partiles that move inside a two-dimensional box. Each particle is initialized with some mass, position, and velocity. The color of the particle indicates its speed and its size indicates its mass.'
+description: 'A set of randomly initialized particles that move inside a two-dimensional box. Each particle is initialized with some mass, position, and velocity. The color of the particle indicates its speed and its size indicates its mass.'
 image: animations/collision.png
 title: Elastic Collisions
 permalink: /works/collisions/
@@ -8,7 +9,7 @@ permalink: /works/collisions/
 
 # {{ page.title }}
 
-A set of randomly initialized partiles move inside a two-dimensional box.
+A set of randomly initialized particles move inside a two-dimensional box.
 Each particle $$p_i$$ is initialized with some mass $$m_i$$, position $$\mathbf{x}_i$$, and velocity $$\mathbf{v}_i$$.
 The color of the particle indicates its speed $$|\mathbf{v}|$$ and its size indicates its mass $$m$$.
 

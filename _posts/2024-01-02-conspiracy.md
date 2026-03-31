@@ -46,7 +46,7 @@ For example, the *Zeitgeist series* uses a speech from the Indian philosopher Ji
 
 >We will see how very important it is to bring about in the human mind the radical revolution.
 >The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
->And considering what the world is now with all the misery, conflict, destructive brutality, aggresion, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. -- Jiddu Krishnamurti
+>And considering what the world is now with all the misery, conflict, destructive brutality, aggression, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. -- Jiddu Krishnamurti
 
 In my interpretation, this reflects a lost connection to the wholeness of the universe. 
 At the extreme end, I experience sometimes two contradictory moods. 

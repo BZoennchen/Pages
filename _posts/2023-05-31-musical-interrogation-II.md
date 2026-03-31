@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Musical Interrogation II - MC and FFN"
 tags: Music ML FFN MC

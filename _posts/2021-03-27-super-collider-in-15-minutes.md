@@ -225,7 +225,7 @@ For example ``SineOsc`` samples a sine wave.
 
 By default, the sine wave oscillates between ``-1`` and ``1``.
 We define a frequency of ``200`` Hz that is ``200`` cycles per second and a multiple of ``0.2`` such that the amplitude stays between ``-0.2`` and ``0.2``, which reduces the volume.
-Note we that the following two statements are equivalent:
+Note that the following two statements are equivalent:
 
 ```supercollider
 SinOsc.ar(freq, mul: 0.2);

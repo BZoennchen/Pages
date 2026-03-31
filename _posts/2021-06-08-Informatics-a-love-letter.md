@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Informatics - A Love Letter"
 comments: true
@@ -44,7 +45,7 @@ They command machines of blind obedience.
 The degree of control translates to a form of power and self-determination absent in the physical world.
 As Linus Torvalds rightfully noted:
 
->"[Phyisics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale." -- Linus Torvalds
+>"[Physics and computer science] are about how the world works at a rather fundamental level. The difference, of course, is that while in physics, you are supposed to figure out how the world is made up, in computer science, you create the world. Within the confines of the computer, you are the creator. You get ultimate control over everything that happens. If you are good enough, you can be God on a small scale." -- Linus Torvalds
 
 In contrast to most other kinds of engineers, software developers can use a highly flexible and versatile resource.
 Information can be easily exchanged among peers, reshaped, conceptually described, and analyzed.

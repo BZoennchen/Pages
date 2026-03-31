@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "The Disruption of Education"
 tags: AI

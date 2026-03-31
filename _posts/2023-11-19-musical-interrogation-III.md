@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Musical Interrogation III - LSTM"
 tags: Music ML LSTM

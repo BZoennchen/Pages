@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Replacing Code with ML Models"
 tags: ML Wekinator Music 

@@ -1,4 +1,5 @@
 ---
+math: true
 layout: p5js-collection
 title: Space-filling Curve
 description: Illustration of Sierpiński's space-filling curve in two dimensions.
@@ -15,6 +16,6 @@ $$\text{SFC} : \mathbb{R}^+ \rightarrow [0;1] \times [0;1],$$
 completely fill the unit square. 
 More precisely this is true in the limit $$k \rightarrow \infty$$, where $$k$$ is the order of the curve.
 The animation shows the curve for $$k = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10$$.
-The length of the curve grows expenentially.
+The length of the curve grows exponentially.
 
 <div id = "p5-sierpinksi" style="display:block; margin-left:auto; margin-right:auto; width:740px; margin-bottom:1.5em;"></div>

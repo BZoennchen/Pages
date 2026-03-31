@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Laws of Form"
 tags: 

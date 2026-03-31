@@ -2,6 +2,7 @@
 target/
 *.out
 *.preferences.xml
+CLAUDE.md
 
 #IntelliJ
 .idea/

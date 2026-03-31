@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hurricanes may be Dangerous but not Evil"
+title: "Hurricanes May Be Dangerous but Not Evil"
 tags: 
   - Opinion
 comments: true

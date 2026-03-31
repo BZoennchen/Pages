@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Musical Interrogation I - Intro"
 tags: Music MC HMM RNN

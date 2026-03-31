@@ -2,41 +2,18 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <div class="footer-col-wrapper" style="float:right;">
-      <div class="footer-col" style="text-align: right;">
-        <ul style="list-style:none;  line-height: 50%">
-        <li>
-        <p class="feed-subscribe">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><a style="color:#999"
-              href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">Subscribe</a>
-        </p>
-        </li>
-        <li>
-        <span style="font-size:14px;">
-        &#169; 2025. All rights reserved.
-        </span>
-        </li>
-        </ul>
-      <!-- {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}-->
-      </div>
-      <!-- <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div> -->
+    <div class="social-links">
+      {%- include social.html -%}
     </div>
 
-    <div class="social-links" style="float:left;">
-      {%- include social.html -%}
+    <div class="footer-subscribe-col">
+      <p class="feed-subscribe">
+        <svg class="svg-icon orange">
+          <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+        </svg>
+        <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">Subscribe</a>
+      </p>
+      <p class="footer-copyright">&#169; 2025. All rights reserved.</p>
     </div>
   </div>
 

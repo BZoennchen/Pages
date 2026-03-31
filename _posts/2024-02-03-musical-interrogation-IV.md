@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title:  "Musical Interrogation IV - Transformer"
 tags: Music ML Transformer

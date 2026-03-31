@@ -9,7 +9,7 @@ comments: true
 
 **Disclaimer:** This text contains my own personal, speculative opinions. You might disagree heavily and that's ok.
 
-On the 20th of Mai, I joined a panel to discuss the role of *artificial intelligence (AI)* in the *creative process*.
+On the 20th of May, I joined a panel to discuss the role of *artificial intelligence (AI)* in the *creative process*.
 It was held in the context of the Munich Creative Business Week by the Wavelet (University for Music and Theater) and the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/news_mucdai/details_news_mucdai_26944.de.html).
 Let me first summarize our discussion:
 
