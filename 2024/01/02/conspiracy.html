@@ -2,7 +2,10 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function(){try{var t=localStorage.getItem('theme-preference');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+  </script><!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Escaping the Reality of the Climate Crisis? | Bene’s Blog</title>
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Escaping the Reality of the Climate Crisis?" />
@@ -27,21 +30,8 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff" rel="stylesheet"  as="font" type="font/woff2" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<!--<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>-->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
-  type="text/javascript">
-</script>--></head>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-  <body><header class="site-header">
+</head>
+<body><header class="site-header">
     <div class="wrapper"><a class="site-title" rel="author" href="/Pages/">Bene&#39;s Blog</a><nav class="site-nav">
           <input type="checkbox" id="nav-trigger" class="nav-trigger" />
           <label for="nav-trigger">
@@ -66,6 +56,7 @@
               
 
             <!--<a class="page-link" href="/Pages/about/">About</a><a class="page-link" href="/Pages/contact/">Contact</a><a class="page-link" href="/Pages/cv/">CV</a><a class="page-link" href="/Pages/">About</a><a class="page-link" href="/Pages/posts/">Posts</a><a class="page-link" href="/Pages/animations/">Projects</a><a class="page-link" href="/Pages/works/">Selected Works</a>-->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode">🌙</button>
           </div>
         </nav></div>
   </header><main class="page-content" aria-label="Content">
@@ -128,7 +119,7 @@ For example, the <em>Zeitgeist series</em> uses a speech from the Indian philoso
 <blockquote>
   <p>We will see how very important it is to bring about in the human mind the radical revolution.
 The crisis is a crisis in consciousness, a crisis that cannot anymore accept the old norms, the old patterns, the ancient traditions.
-And considering what the world is now with all the misery, conflict, destructive brutality, aggresion, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. – Jiddu Krishnamurti</p>
+And considering what the world is now with all the misery, conflict, destructive brutality, aggression, and so on, man is still as he was, is still brutal, violent, aggressive, competitive and has built a society along these lines. – Jiddu Krishnamurti</p>
 </blockquote>
 
 <p>In my interpretation, this reflects a lost connection to the wholeness of the universe. 
@@ -1156,35 +1147,7 @@ Even if we construct our own perspective on the world, the reality of the climat
   <data class="u-url" href="/Pages/"></data>
 
   <div class="wrapper">
-    <div class="footer-col-wrapper" style="float:right;">
-      <div class="footer-col" style="text-align: right;">
-        <ul style="list-style:none;  line-height: 50%">
-        <li>
-        <p class="feed-subscribe">
-            <svg class="svg-icon orange">
-              <use xlink:href="/Pages/assets/minima-social-icons.svg#rss"></use>
-            </svg><a style="color:#999"
-              href="https://bzoennchen.github.io/Pages/feed.xml">Subscribe</a>
-        </p>
-        </li>
-        <li>
-        <span style="font-size:14px;">
-        &#169; 2025. All rights reserved.
-        </span>
-        </li>
-        </ul>
-      <!--
-        <ul class="contact-list">
-          <li class="p-name">Benedikt Zönnchen</li>
-          <li><a class="u-email" href="mailto:benedikt.zoennchen@web.de">benedikt.zoennchen@web.de</a></li>
-        </ul>-->
-      </div>
-      <!-- <div class="footer-col">
-        <p>A blog dedicated to computer science, education, music, philosophy and technology</p>
-      </div> -->
-    </div>
-
-    <div class="social-links" style="float:left;"><ul class="social-media-list"><li>
+    <div class="social-links"><ul class="social-media-list"><li>
   <a rel="me" href="https://mastodon.social/@BZoennchen" target="_blank" title="Mastodon">
     <svg class="svg-icon grey">
       <use xlink:href="/Pages/assets/minima-social-icons.svg#mastodon"></use>
@@ -1220,8 +1183,19 @@ Even if we construct our own perspective on the world, the reality of the climat
   </a>
 </li>
 </ul></div>
+
+    <div class="footer-subscribe-col">
+      <p class="feed-subscribe">
+        <svg class="svg-icon orange">
+          <use xlink:href="/Pages/assets/minima-social-icons.svg#rss"></use>
+        </svg>
+        <a href="https://bzoennchen.github.io/Pages/feed.xml">Subscribe</a>
+      </p>
+      <p class="footer-copyright">&#169; 2025. All rights reserved.</p>
+    </div>
   </div>
 
-</footer></body>
+</footer><script src="/Pages/assets/js/theme-toggle.js"></script>
+  </body>
 
 </html>
