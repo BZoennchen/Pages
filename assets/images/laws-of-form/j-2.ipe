@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231119132306" modified="D:20231119135707"/>
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20231119132306" modified="D:20260403134819"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -260,9 +260,9 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<text layer="alpha" matrix="1 0 0 1 48 -4" transformations="translations" pos="120 772" stroke="black" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
-<text matrix="1 0 0 1 44.5127 -4.0294" transformations="translations" pos="136 776" stroke="black" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
-<path stroke="black" pen="0.8">
+<text layer="alpha" matrix="1 0 0 1 48 -4" transformations="translations" pos="120 772" stroke="verydarkgray" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
+<text matrix="1 0 0 1 44.5127 -4.0294" transformations="translations" pos="136 776" stroke="verydarkgray" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
+<path stroke="verydarkgray" pen="0.8">
 196 784 m
 212 784 l
 212 768 l

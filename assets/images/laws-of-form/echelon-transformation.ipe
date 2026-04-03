@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231119132306" modified="D:20231119141122"/>
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20231119132306" modified="D:20260403134439"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -260,26 +260,26 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 8 0" stroke="black" pen="0.8">
+<path layer="alpha" matrix="1 0 0 1 8 0" stroke="verydarkgray" pen="0.8">
 160 800 m
 176 800 l
 176 784 l
 </path>
-<text matrix="1 0 0 1 0 -4" transformations="translations" pos="168 788" stroke="black" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
-<text transformations="translations" pos="188 784" stroke="black" type="label" width="4.276" height="6.918" depth="0" valign="baseline" style="math">b</text>
-<path stroke="black" pen="0.8">
+<text matrix="1 0 0 1 0 -4" transformations="translations" pos="168 788" stroke="verydarkgray" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
+<text transformations="translations" pos="188 784" stroke="verydarkgray" type="label" width="4.276" height="6.918" depth="0" valign="baseline" style="math">b</text>
+<path stroke="verydarkgray" pen="0.8">
 200 784 m
 200 804 l
 168 804 l
 </path>
-<text matrix="1 0 0 1 36 -4" transformations="translations" pos="168 788" stroke="black" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
-<text matrix="1 0 0 1 32 0" transformations="translations" pos="188 784" stroke="black" type="label" width="4.276" height="6.918" depth="0" valign="baseline" style="math">b</text>
-<path stroke="black" pen="0.8">
+<text matrix="1 0 0 1 36 -4" transformations="translations" pos="168 788" stroke="verydarkgray" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
+<text matrix="1 0 0 1 32 0" transformations="translations" pos="188 784" stroke="verydarkgray" type="label" width="4.276" height="6.918" depth="0" valign="baseline" style="math">b</text>
+<path stroke="verydarkgray" pen="0.8">
 216 784 m
 216 808 l
 168 808 l
 </path>
-<path stroke="black" pen="0.8">
+<path stroke="verydarkgray" pen="0.8">
 232 784 m
 232 812 l
 168 812 l
