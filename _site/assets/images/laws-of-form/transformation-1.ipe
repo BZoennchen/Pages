@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231119132306" modified="D:20231119134352"/>
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20231119132306" modified="D:20260403135056"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -260,55 +260,55 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<text layer="alpha" matrix="1 0 0 1 -8 -40" transformations="translations" pos="120 772" stroke="black" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
-<text matrix="1 0 0 1 12 -40" transformations="translations" pos="120 772" stroke="black" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
-<text matrix="1 0 0 1 12.5127 -40.0294" transformations="translations" pos="136 776" stroke="black" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
-<path stroke="black" pen="0.8">
+<text layer="alpha" matrix="1 0 0 1 -8 -40" transformations="translations" pos="120 772" stroke="verydarkgray" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
+<text matrix="1 0 0 1 12 -40" transformations="translations" pos="120 772" stroke="verydarkgray" type="label" width="5.266" height="4.289" depth="0" valign="baseline" style="math">a</text>
+<text matrix="1 0 0 1 12.5127 -40.0294" transformations="translations" pos="136 776" stroke="verydarkgray" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
+<path stroke="verydarkgray" pen="0.8">
 160 744 m
 172 744 l
 172 732 l
 </path>
-<text matrix="1 0 0 1 60.5127 -40.0294" transformations="translations" pos="136 776" stroke="black" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
-<path matrix="1 0 0 1 -16 0" stroke="black" pen="0.8">
+<text matrix="1 0 0 1 60.5127 -40.0294" transformations="translations" pos="136 776" stroke="verydarkgray" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
+<path matrix="1 0 0 1 -16 0" stroke="verydarkgray" pen="0.8">
 128 744 m
 140 744 l
 140 732 l
 </path>
-<path stroke="black" pen="0.8">
+<path stroke="verydarkgray" pen="0.8">
 144 732 m
 144 748 l
 112 748 l
 </path>
-<path stroke="black" pen="0.8">
+<path stroke="verydarkgray" pen="0.8">
 192 732 m
 192 748 l
 160 748 l
 </path>
-<path stroke="black" pen="0.8">
+<path stroke="verydarkgray" pen="0.8">
 160 740 m
 168 740 l
 168 732 l
 </path>
-<path stroke="black" pen="0.8">
+<path stroke="verydarkgray" pen="0.8">
 176 744 m
 188 744 l
 188 732 l
 </path>
-<path matrix="1 0 0 1 -4 0" stroke="black" pen="0.8">
+<path matrix="1 0 0 1 -4 0" stroke="verydarkgray" pen="0.8">
 212 748 m
 244 748 l
 244 732 l
 </path>
-<path matrix="1 0 0 1 -4 0" stroke="black" pen="0.8">
+<path matrix="1 0 0 1 -4 0" stroke="verydarkgray" pen="0.8">
 240 732 m
 240 744 l
 228 744 l
 </path>
-<path matrix="1 0 0 1 -4 0" stroke="black" pen="0.8">
+<path matrix="1 0 0 1 -4 0" stroke="verydarkgray" pen="0.8">
 240 732 m
 240 744 l
 228 744 l
 </path>
-<text matrix="1 0 0 1 108.513 -40.0294" transformations="translations" pos="136 776" stroke="black" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
+<text matrix="1 0 0 1 108.513 -40.0294" transformations="translations" pos="136 776" stroke="verydarkgray" type="label" width="10.926" height="5.178" depth="0" valign="baseline" size="14" style="math">=</text>
 </page>
 </ipe>

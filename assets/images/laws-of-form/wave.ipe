@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231119132306" modified="D:20231119140723"/>
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20231119132306" modified="D:20260403135208"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -260,15 +260,15 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 8 0" stroke="black" pen="0.8">
+<path layer="alpha" matrix="1 0 0 1 8 0" stroke="verydarkgray" pen="0.8">
 160 800 m
 176 800 l
 176 784 l
 </path>
-<text matrix="1 0 0 1 -8 -8" transformations="translations" pos="164 792" stroke="black" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
-<text matrix="1 0 0 1 4 -8" transformations="translations" pos="164 792" stroke="black" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
-<text matrix="1 0 0 1 -24 -4" transformations="translations" pos="212 792" stroke="black" type="label" width="7.749" height="3.655" depth="0" valign="baseline" style="math">=</text>
-<path matrix="1 0 0 1 -20 0" stroke="black" pen="0.8">
+<text matrix="1 0 0 1 -8 -8" transformations="translations" pos="164 792" stroke="verydarkgray" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
+<text matrix="1 0 0 1 4 -8" transformations="translations" pos="164 792" stroke="verydarkgray" type="label" width="6.483" height="6.808" depth="0" valign="baseline" style="math">J</text>
+<text matrix="1 0 0 1 -24 -4" transformations="translations" pos="212 792" stroke="verydarkgray" type="label" width="7.749" height="3.655" depth="0" valign="baseline" style="math">=</text>
+<path matrix="1 0 0 1 -20 0" stroke="verydarkgray" pen="0.8">
 220 800 m
 236 800 l
 236 784 l

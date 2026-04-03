@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20231119132306" modified="D:20231119133101"/>
+<ipe version="70218" creator="Ipe 7.2.29">
+<info created="D:20231119132306" modified="D:20260403134945"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -260,21 +260,21 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 -16 0" stroke="black" pen="0.8">
+<path layer="alpha" matrix="1 0 0 1 -16 0" stroke="verydarkgray" pen="0.8">
 144 784 m
 160 784 l
 160 768 l
 </path>
-<path matrix="1 0 0 1 4 0" stroke="black" pen="0.8">
+<path matrix="1 0 0 1 4 0" stroke="verydarkgray" pen="0.8">
 144 784 m
 160 784 l
 160 768 l
 </path>
-<path matrix="1 0 0 1 40 0" stroke="black" pen="0.8">
+<path matrix="1 0 0 1 40 0" stroke="verydarkgray" pen="0.8">
 144 784 m
 160 784 l
 160 768 l
 </path>
-<text matrix="1 0 0 1 32.5127 -4.02935" transformations="translations" pos="136 776" stroke="black" type="label" width="14.047" height="7.172" depth="0" valign="baseline" size="14" style="math">\rightleftharpoons</text>
+<text matrix="1 0 0 1 32.5127 -4.02935" transformations="translations" pos="136 776" stroke="verydarkgray" type="label" width="14.047" height="7.172" depth="0" valign="baseline" size="14" style="math">\rightleftharpoons</text>
 </page>
 </ipe>
