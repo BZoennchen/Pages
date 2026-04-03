@@ -39,7 +39,7 @@ It is as though history were violently recoiling. Where the world had begun to g
 
 Yet beyond the loud grievance of the streets, in the soundless, glass-walled cathedrals of light and silicon, a far quieter, almost clinical cruelty is ripening. It is a faith that bundles itself in seven cold stars into a single radiance---an alliance of those who regard "the human being" as a transitional sketch to be technologically overcome {% cite gebru:2024 %}. In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body.
 
-From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust. The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error. It is an ethics that sacrifices today to tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. We should be well aware of these old dreams of greatness that requires "a downfall of decadence".
+From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust. The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error. It is an ethics that sacrifices today to tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. We should be well aware of these old dreams of greatness that require "a downfall of decadence".
 
 In this worldview, an old dark spirit returns, cloaked in the garb of logic: the conviction that life has a price measured by its utility for the great progress, which could be gauged by its approximation to the absolute.
 Once again it is assumed that everything can be calculated, but in place of Kantian principles stand calculating machines and the theories of probability and expected values.
@@ -49,7 +49,7 @@ The True and the Good coincide.
 
 >Plato thought that morality and politics should be based on principles in the same why that Euclidean geometry is based on axioms. He thought that philosophical inquiry was a matter of nailing down firm immutable principles which could then guide action. [...And] as Plato said, it is if we had known the truth in a pervious existence and simple need to be reminded of it, have it brought back to consciousness.  -- {% cite rorty:1990 %}
 
-But in this purity there is no longer room for breathing, for trembling, for the passion, love and affection for a world that is precious precisely because it can keep reinventing itself. There will be no Gods only the loss of institutions that once balanced the power. 
+But in this purity there is no longer room for breathing, for trembling, for the passion, love and affection for a world that is precious precisely because it can keep reinventing itself. There will be no gods only the loss of institutions that once balanced and distributed power. 
 
 >It seems to me the Platonic notion of absolute truth is a thoroughly misleading slogan and a culturally dangerous shibilith. -- {% cite rorty:1990 %}
 
@@ -79,7 +79,7 @@ As a philosopher of *irony* (in the sense that we should not take our existing v
 
 Meanwhile, he himself wrote quite systematically (as in {% cite rorty:1979 %}) but was more interested in interpreting and reconfiguring philosophical texts than in erecting a new grand system of his own.
 His writing style as well as his philosophical position are American in their simplicity, whereas his admiration squints toward Europe.
-He likely embodies much of what disturbs philosophers when they write about the "decline of culture," for as someone who wants to take neither Kant nor Nietzsche too literally, he refuses answers to cool questions such as: "What **ought** I to do?"---in the sense of a universal duty. The warm question, however, "What can **we** do for one another?", he does answer, but without metaphysical backing: Reduce cruelty, expand your circle of solidarity---not because reason commands it, but because we have learned what it means to be humiliated.
+He likely embodies much of what disturbs philosophers when they write about the "decline of culture," for as someone who wants to take neither Kant nor Nietzsche too literally, he refuses answers to cold questions such as: "What **ought** I to do?"---in the sense of a universal duty. The warm question, however, "What can **we** do for one another?", he does answer, but without metaphysical backing: Reduce cruelty, expand your circle of solidarity---not because reason commands it, but because we have learned what it means to be humiliated.
 
 What Rorty offers me is an admirable description of the liberal and democratic society that unerringly exposes anti-liberal opposites.
 He gives me an answer to the question "What do liberals want and what can they hope for?" with which I can agree.
@@ -172,7 +172,7 @@ In private, the ironist knows that her convictions are contingent (accidental, h
 She knows that her values are not God-given.
 She has doubts, and that is all right.
 She can pursue her striving for self-realization.
-Thus Rorty relocates the impulse toward self-creation---which he takes seriously and regards as important, and which he sees embodied in Nietzsche, Proust, Heidegger, and Derrida---into the private realm.
+Thus Rorty relocates the impulse toward self-creation---which he takes seriously and regards it as important, and which he sees embodied in Nietzsche, Proust, Heidegger, and Derrida---into the private realm.
 
 >But for Proust and Nietzsche, there is nothing more powerful or important than self-redescription. They are not trying to overcome time and chance but to use them. -- {% cite rorty:1989 %}
 
@@ -305,7 +305,7 @@ His move consists in not playing the game at all. Rorty does not claim: "It is o
 That would be self-contradictory.
 Instead he says something like: The concept of "objective truth" is no longer a useful tool.
 We should stop using it---not because we have proved that there is no objective truth, but because a vocabulary without this concept gets us further.
-Rorty does not position himself on a higher level and deliver a verdict about truth from there.
+Rorty does not position himself on a higher level and delivers a verdict about truth from there.
 He recommends a different vocabulary. He says: Try it once without the concept of "absolute truth" and see whether you manage better.
 That is not a thesis about the world, but a suggestion about how we ought to speak.
 
@@ -332,7 +332,7 @@ These are *bread-and-butter questions* of politics, and it is precisely there, n
 And since for Rorty progress is the capacity to allow one's own final vocabulary to be expanded by that of the other, through literature and encounters (*sentimental education*), algorithms that isolate us in echo chambers destroy precisely this capacity for empathy.
 He would probably reject digital surveillance as a new form of cruelty that prevents solidarity.
 
-Rorty's hope for an ever-growing solidarity presupposes that the material conditions still permit this expansion at all.
+Futhermore, his hope for an ever-growing solidarity presupposes that the material conditions still permit this expansion at all.
 That is why he would agree with Han's observation that "depoliticization" is a danger, but he would call for speaking once again about "bread-and-butter issues" rather than philosophically condemning the whole of modernity.
 Here, however, Rorty's approach runs up against a limit that he himself did not see: his concept of solidarity remains *anthropocentric*---he asks who can suffer pain and humiliation and draws the circle of the moral exactly there.
 **The earth does not speak**, so it does not feature in his account.
@@ -382,7 +382,7 @@ This is not a condemnation of technology, but a reminder of what is at stake. Ro
 He would call on us to ask ourselves: When did we last read a book that truly disturbed us, and whose story was it?
 When were we last willing to be truly disturbed by an unfamiliar life?
 
-When I look at my little nieces, I hope that---despite the impending catastrophes as a combination of war against our political as well as environmental ecosystem---they will live in a culture that has managed to sensitize itself to cruelties I cannot yet see.
+When I look at my little nieces, I hope that---despite the impending catastrophes as a combination of a war against our political as well as environmental ecosystem---they will live in a culture that has managed to sensitize itself to cruelties I cannot yet see.
 I hope they live in a culture that has once again made it its goal to be intellectual in the Rortyan sense: a culture that revitalizes the old ideal of "poets and thinkers"---not by hunting for a final, objective truth, but by using the poet's imagination to reshape our world into something more humane.
 I hope they will be merciful toward me, understanding that it was still impossible for me to see so much more, because my language was still bound by the limits of my time.
 I hope the circle of their imagination, in which rationality plays its game, will be larger and not smaller; that they are courageous enough to constantly redescribe themselves and their community, until the "we" of their solidarity reaches far beyond what I am capable of imagining today.
