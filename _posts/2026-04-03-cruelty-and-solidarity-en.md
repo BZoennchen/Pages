@@ -224,7 +224,7 @@ As Nietzsche already pointed out,
 
 and Rorty follows him in this insight:
 
->We should understand concepts like 'gravitation' or *human rights' not as entities whose essence remains mysteriously hidden, but as sounds and marks whose use has made possible more significant and better social practices. Intellectual and moral progress is not an approximation toward a prior goal, but the surpassing of the past. What we call 'improved knowledge' should not be interpreted as better access to the real, but as an enhanced ability to do things. [...] Freedom begins when we can discuss which words better describe a situation. Knowledge and freedom develop simultaneously. -- {% cite rorty:2016 %}
+>We should understand concepts like 'gravitation' or 'human rights' not as entities whose essence remains mysteriously hidden, but as sounds and marks whose use has made possible more significant and better social practices. Intellectual and moral progress is not an approximation toward a prior goal, but the surpassing of the past. What we call 'improved knowledge' should not be interpreted as better access to the real, but as an enhanced ability to do things. [...] Freedom begins when we can discuss which words better describe a situation. Knowledge and freedom develop simultaneously. -- {% cite rorty:2016 %}
 
 There will be no final, conclusive vocabulary.
 Whenever one makes a *distinction* in one's experience or life, one makes this distinction in the domain in which it appears through language.
