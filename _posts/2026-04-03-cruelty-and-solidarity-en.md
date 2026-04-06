@@ -83,6 +83,10 @@ Meanwhile, he himself wrote quite systematically (as in {% cite rorty:1979 %}) b
 His writing style as well as his philosophical position are American in their simplicity, whereas his admiration squints toward Europe.
 He likely embodies much of what disturbs philosophers when they write about the "decline of culture," for as someone who wants to take neither Kant nor Nietzsche too literally, he refuses answers to cold questions such as: "What **ought** I to do?"---in the sense of a universal duty. The warm question, however, "What can **we** do for one another?", he does answer, but without metaphysical backing: Reduce cruelty, expand your circle of solidarity---not because reason commands it, but because we have learned what it means to be humiliated.
 
+His irritating position on "the Truth" and "the really real" is a melting of Pragmatism and Romaticism which can be. summed up by the following quote:
+
+>On the account of human abilities I am suggesting, the use of persuasion rather than force is an innovation comparable to the beaver's dam. Like the beavers' collaboration in getting the dam built, it is a social practice. It was initiated by the noval suggestion that we might use noises rather than physical compulsion to get other humans to cooperate with us. That suggestion gave rise to language. Rationality, thought, and cognition all began when language did. Language gets off the ground not by people giving names to things they were already thinking about but by proto-humans using noises in innovative ways, just as the proto-beavers got the practice of building dams off the ground by using sticks and mud in innovative ways. Language was, over the millenia, enlarged and rendered more flexibel not by adding the names of abstract objects to those of concrete objects but by using marks and noises in ways unconnected with environmental exigencies. The distinction between the concrete and the abstract can be replaced with that between words used in making perceptual reports and those unsuitable for such use. [...W]e need to think of reason not as a truth-tracking faculty but as a social practice---the practice of enforcing social norms on the use of words rather than blows as a way of getting things done. We need to think of imagination not as the faculty that produces visual or auditory images but as a combination of novelty and luck. To be imaginative, as opposed to being merely fantastical, is to do something new and to be lucky enough to have that novelty be adopted by one's fellow humans, incorporated into their social practices. [...] People whose novelties we cannot appropriate and utilize we call foolish, or perhaps insane. Those whose ideas strike us as useful we hail as geniuses. -- {% rorty:2016 %}
+
 What Rorty offers me is an admirable description of the liberal and democratic society that unerringly exposes anti-liberal opposites.
 He gives me an answer to the question "What do liberals want and what can they hope for?" with which I can agree.
 And although---or precisely because---he takes leave of *first principles* and speaks soberly about texts from Wittgenstein to Proust, he can inspire enthusiasm for a liberalism by understanding it as *the art of solidarity*.
@@ -114,6 +118,9 @@ Nietzsche is perhaps the epitome of the *ironic theorist* who unmasks every supp
 
 Nietzsche teaches us that no description of the world is necessary---that we could always tell other stories to understand ourselves and our community differently.
 Kant, on the other hand, reminds us that such new creations have limits where they overlook the suffering of others.
+
+>Rationality is a matter of making allowed moves within a language game. Imagination creates the games reason proceeds to play. Then [...] it keeps modifying those games so that playing them is more interesting and profitable. Reason cannot get outside the latest circle that imagination has drawon. It is in this sense, and only this sense, that imagionation holds the primacy -- {% rorty:2016 %}
+
 Rorty recognizes in this tension the productive condition of a liberal modernity: without Nietzsche, no renewal; without Kant, no consideration. **We need Nietzsche so that life remains interesting, and Kant so that it remains bearable.**
 
 >Rational discussion is not an appeal to eternal standards, but simply an attempt to make our beliefs and desires as coherent with one another as possible while constantly adding new beliefs and desires to the old. -- {% cite rorty:1990 %}
@@ -336,6 +343,10 @@ Futhermore, his hope for an ever-growing solidarity presupposes that the materia
 That is why he would agree with Han's observation that "depoliticization" is a danger, but he would call for speaking once again about "bread-and-butter issues" rather than philosophically condemning the whole of modernity.
 Here, however, Rorty's approach runs up against a limit that he himself did not see: his concept of solidarity remains *anthropocentric*---he asks who can suffer pain and humiliation and draws the circle of the moral exactly there.
 **The earth does not speak**, so it does not feature in his account.
+Yet Rorty seemed open to move beyond human solidarity.
+
+>Imagination, in the sense in which I am using the term, is not a distinctively human capacity. It is [...] the ability to come up with socially useful novelties. This is an abilitiy Newton shared with certain eager and ingenious beavers. But giving and asking for reason **is** distinctively human, and in coextensive with rationality. The more an organism can get what it wants by persuasion rather than force, the more rational it is. -- {% rorty:2016 %}
+
 Yet if we take Rorty's own logic seriously---namely that the circle of solidarity must be drawn ever wider---then the question inevitably arises of whether this circle may stop at the human being.
 A solidarity that applies only among speakers fails to hear the silence of those who have no language.
 Perhaps that is the blind spot that costs us the most dearly today.
