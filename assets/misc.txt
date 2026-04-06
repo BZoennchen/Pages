@@ -1,0 +1,14 @@
+# MISC
+
+There is tension between music compostions and algorithms, between performance and program execution, between emotion and calculation.
+On the one hand, we think of composing, performing and listening to music as a deeply emotional humanistic activity.
+Music evokes feelings, it has psychological effects on the listener but also on its creators.
+When I listen to music at the right moment it has the ability to color my perception of the world; it can be world-defining, be it disturbing and dark, melancholic and yearning, sensible and loving, or live-affirming and innocent.
+On the other hand, algorithms and their execution are attributed with cold and inhumane calculations.
+On the surface, neihter do they evoke feelings nor are they (or their execution) aesthetically pleasing.
+The latter can be disputed easly.
+Similar to mathematical proofs, algorithms can be intelectually aesthetic and their presentation can be beautiful as well.
+The same is true for musical compositions.
+We can look at a piece from Bach and wonder about its elegance and finesse.
+
+The field of algorithmic composition threatens this viewpoint directly.
