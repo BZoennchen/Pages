@@ -56,7 +56,7 @@ Software Developer (Education)<br>
 
 **Systems Theory and AI:** I explore human–AI co-creativity and co-evolution as emergent socio-technical processes, in which AI systems are shaped by feedback loops, develop operational closure, and draw on the contingencies generated through communication.<br>
 
-**AI in Culture, Arts and Education:**I apply this lens to the fields of culture, arts, and education to examine how generative AI transforms creative practices, roles, and learning environments.<br>
+**AI in Culture, Arts and Education:** I apply this lens to the fields of culture, arts, and education to examine how generative AI transforms creative practices, roles, and learning environments.<br>
 
 ## Other Interests
 
