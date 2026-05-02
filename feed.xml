@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-05-02T13:57:55+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Art of Solidarity</title><link href="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html" rel="alternate" type="text/html" title="The Art of Solidarity" /><published>2026-04-03T00:00:00+02:00</published><updated>2026-04-03T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html"><![CDATA[<h2 id="a-new-cruelty--on-the-longing-for-certainty">A New Cruelty — On the Longing for Certainty</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-05-02T14:23:23+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Art of Solidarity</title><link href="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html" rel="alternate" type="text/html" title="The Art of Solidarity" /><published>2026-04-03T00:00:00+02:00</published><updated>2026-04-03T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html"><![CDATA[<h2 id="a-new-cruelty--on-the-longing-for-certainty">A New Cruelty — On the Longing for Certainty</h2>
 
 <blockquote>
   <p>Part of the idea of a democratic society is that social change comes by reform rather than revolution and this in effect means that the people who have the power actually letting go of some of it. – Richard Rorty</p>
@@ -1888,12 +1888,12 @@ Transformers were initially targeted at natural language processing (NLP) proble
 Transformers were introduced in 2017 by the authors of <em>Attention Is All You Need</em> <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> to basically replace <em>recurrency</em> with <em>attention</em>.</p>
 
 <p>One of the problems with RNNs is that they can forget information that is further back in the sequence.
-While more sophisticated architectures, such as LSTMs <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a> and <em>gated recurrent units</em> (GRUs) <a class="citation" href="#chung2014">(Chung et al., 2014)</a> partially, addressed this problem, they still struggle with long term dependencies.
+While more sophisticated architectures, such as LSTMs <a class="citation" href="#hochreiter:1997">(Hochreiter &amp; Schmidhuber, 1997)</a> and <em>gated recurrent units</em> (GRUs) <a class="citation" href="#chung2014">(Chung et al., 2014)</a> partially addressed this problem, they still struggle with long term dependencies.
 The idea that intermediate representations in the RNN should be exploited to produce the output led to the <em>attention mechanism</em> <a class="citation" href="#bahdanau:2014">(Bahdanau et al., 2014)</a> and, in the end, to the transformer architecture <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a>.
 The transformer avoids the problem of vanishing or exploding gradients by avoiding recurrency, that is, by utilizing the whole sequence in parallel.</p>
 
-<p>Today, all successful large language model (LLMs) utilize the transformer architecture.
-It brought us ChatGPT (based on GPT-3 <a class="citation" href="#brown:2020">(Brown et al., 2020)</a> and GPT-4 <a class="citation" href="#openai:2023">(OpenAI, 2023; Bubeck et al., 2023)</a>), LLaMA <a class="citation" href="#touvron:2023">(Touvron et al., 2023)</a>, LLaMA 2 <a class="citation" href="#touvron:2023b">(Touvron et al., 2023)</a>, BERT <a class="citation" href="#devlin:2019">(Devlin et al., 2019)</a> and many fine-tuned derivates such as Codex <a class="citation" href="#chen:2021">(Chen et al., 2021)</a> .
+<p>Today, all successful large language models (LLMs) utilize the transformer architecture.
+It brought us ChatGPT (based on GPT-3 <a class="citation" href="#brown:2020">(Brown et al., 2020)</a> and GPT-4 <a class="citation" href="#openai:2023">(OpenAI, 2023; Bubeck et al., 2023)</a>), LLaMA <a class="citation" href="#touvron:2023">(Touvron et al., 2023)</a>, LLaMA 2 <a class="citation" href="#touvron:2023b">(Touvron et al., 2023)</a>, BERT <a class="citation" href="#devlin:2019">(Devlin et al., 2019)</a> and many fine-tuned derivatives such as Codex <a class="citation" href="#chen:2021">(Chen et al., 2021)</a>.
 In the domain of symbolic music, transformers were also employed.
 Examples are the Music Transformer <a class="citation" href="#huang:2018">(Huang et al., 2018)</a>, the Pop Music Transformer <a class="citation" href="#huang:2020">(Huang &amp; Yang, 2020)</a>, multi-track music generation <a class="citation" href="#ens:2020">(Ens &amp; Pasquier, 2020)</a>, piano inpainting <a class="citation" href="#hadjeres:2021">(Hadjeres &amp; Crestel, 2021)</a>, Theme Transformer <a class="citation" href="#shih:2022">(Shih et al., 2022)</a> and more.
 Furthermore there are transformers, such as MusicGen <a class="citation" href="#copet:2023">(Copet et al., 2023)</a> that generate audio output directly.</p>
@@ -1904,7 +1904,7 @@ One source of their effectiveness is that they relate tokens to other tokens mor
 However, looking at the whole sequence at once comes at a cost: computation and memory complexity!
 Therefore, to train transformers you require GPUs with a lot of memory which is concerning for artists who might want to utilize transformers independently from proprietary cloud services.</p>
 
-<p>Original transformers where introduced for natural language processing.
+<p>Original transformers were introduced for natural language processing.
 However, since language datasets share some of the characteristics of musical notations, transformers achieve good results in learning the structure of symbolic pieces.
 In music as well as in language the number of input variables can be very large, and the statistics are similar at every position; it’s not sensible to re-learn the meaning of the word <em>dog</em> at every possible position in a body of text.
 Language datasets and music datasets have the complication that their sequences vary in length.</p>
@@ -1938,8 +1938,8 @@ The output is a sequence of German words, let’s say</p>
 
 <p>This time however, the <strong>decoder</strong> RNN is unidirectional.
 It can not look into the future and computes each German word strictly from left to right.
-To compute the weights or attenion scores of \(\mathbf{y'}_{i}\), an <strong>alignment model</strong> receives the hidden state \(\mathbf{h'}_{i-1}\) and the outputs of the encoder as input.
-First a simple dot product is comuted:</p>
+To compute the weights or attention scores of \(\mathbf{y'}_{i}\), an <strong>alignment model</strong> receives the hidden state \(\mathbf{h'}_{i-1}\) and the outputs of the encoder as input.
+First a simple dot product is computed:</p>
 
 \[e_{i,j} = \mathbf{h'}_{i}^\top \mathbf{y}_{j} \quad \text{ for } j = 0, \ldots, i-1.\]
 
@@ -1986,10 +1986,10 @@ This is because the decoder should lack the ability to see into the future; it o
 <p>To address this limitation, the decoder employs a masked version of the multi-head attention layer. 
 This mechanism ensures that the decoder focuses on the relevant information without peeking ahead.</p>
 
-<p>Furthermore, the utilization of residual connections and layer normalization over a mini-batch (layer norm) serves as a valuable tool to combat the issue of vanishing gradients in deep neural networks, ensuring the efficient training and optimization of the translation model.</p>
+<p>Furthermore, the utilization of residual connections and layer normalization over the feature dimension within a single sample serves as a valuable tool to combat the issue of vanishing gradients in deep neural networks, ensuring the efficient training and optimization of the translation model.</p>
 
-<p>In our case we do not acutally want to translate a sentence but we want to generate musical notes from a sequence of given notes.
-Therfore, we have no encoded information and there is no encoding involved.
+<p>In our case we do not actually want to translate a sentence but we want to generate musical notes from a sequence of given notes.
+Therefore, we have no encoded information and there is no encoding involved.
 We only need the decoder part.
 Furthermore, I only use one (masked) multi-head attention layer in each block.</p>
 
@@ -2007,7 +2007,7 @@ Well, the key to understand transformers is to understand the self-attention mec
 <p>The idea of the transformer is to just rely on (self-)attention thus remove recurrency.
 This means that the model “sees” \(n\) tokens to generate the \((n+1)^\text{th}\) token.
 Simple RNNs for predicting the next tokens only see the previous token and the hidden state which represents all the tokens before.
-But, as I discussed in previous articles, the information of the hidden state gets washed away over time and without attention there seem to be little control over the importance of certain tokens of the sequence.</p>
+But, as I discussed in previous articles, the information of the hidden state gets washed away over time and without attention there seems to be little control over the importance of certain tokens of the sequence.</p>
 
 <p>The fundamental operation of the transformer, i.e. the attention mechanism, is implemented in its <code class="language-plaintext highlighter-rouge">Head</code>.
 Let \(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1} \in \mathbb{R}^{D \times 1}\) be the \(n\) tokens of a sequence.
@@ -2024,7 +2024,7 @@ First, a set of <strong>values</strong> is computed for each input:</p>
 \[\mathbf{v}_i = \mathbf{b}_v + \mathbf{W}_v \mathbf{x}_i, \quad \text{ (value)}\]
 
 <p>where \(\mathbf{b}_v \in \mathbb{R}^D \text{ and } \mathbf{W}_v \in \mathbb{R}^{D \times D}\) represent biases and weights, respectively (<strong>for all inputs</strong>). 
-The \(j^\text{th}\) output \(\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})\) is a weighted sum of all the values \(\mathbf{v}_i, i = 0, \ldots n-1\) where the weight each weight depends on \(\mathbf{x}_j\):</p>
+The \(j^\text{th}\) output \(\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1})\) is a weighted sum of all the values \(\mathbf{v}_i, i = 0, \ldots n-1\) where each weight depends on \(\mathbf{x}_j\):</p>
 
 \[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.\]
 
@@ -2047,8 +2047,8 @@ Hence, self-attention can be thought of as <em>routing</em> the values in differ
 
 <p>The <strong>dot product</strong> of two vectors \(\mathbf{q}_j\), \(\mathbf{k}_i\) is a measurement of their similarity.
 The matrices \(\mathbf{W}_q, \mathbf{W}_k\) and the respective bias are learned such that similarity of \(\mathbf{q}_j\), \(\mathbf{k}_i\) can be interpreted as how “important” \(\mathbf{x}_i\) is for \(\mathbf{x}_j\).
-Thus, the “magic” happens via a very simple linear transformation and one might ask if this operation is powerful enough to relate <strong>all</strong> words/tokens in a desireable way.
-The answer is most certainly “no” thus one adds feed forward layers which introduces non-linearity in between multiple attention layers.</p>
+Thus, the “magic” happens via a very simple linear transformation and one might ask if this operation is powerful enough to relate <strong>all</strong> words/tokens in a desirable way.
+The answer is most certainly “no” thus one adds feed forward layers which introduce non-linearity in between multiple attention layers.</p>
 
 <p>In the special case where both vectors are unit vectors, the dot product is the cosine of the angle between the two.
 In general, this relationship is expressed by the following equation:</p>
@@ -2059,10 +2059,10 @@ In general, this relationship is expressed by the following equation:</p>
 Computing the <em>dot product</em> between queries and keys gives us the similarities we desire.
 To normalize, we then pass the result through a <em>softmax</em> function:</p>
 
-\[\alpha(\mathbf{x}_i, \mathbf{x}_j) = \frac{\exp(\mathbf{q}_j^\top \mathbf{k}_i \sqrt{D_q})}{\sum\limits_{r=0}^{n-1} \exp(\mathbf{q}_j^\top \mathbf{k}_r \sqrt{D_q})},\]
+\[\alpha(\mathbf{x}_i, \mathbf{x}_j) = \frac{\exp(\mathbf{q}_j^\top \mathbf{k}_i / \sqrt{D_q})}{\sum\limits_{r=0}^{n-1} \exp(\mathbf{q}_j^\top \mathbf{k}_r / \sqrt{D_q})},\]
 
 <p>where \(D_q\) is the dimension of the queries and keys (i.e., the number of rows in \(\mathbf{W}_q\) and \(\mathbf{W}_k\), which must be the same).
-You can think of the <em>key</em> of what is offered and the <em>query</em> of what is searched.
+You can think of the <em>key</em> as what is offered and the <em>query</em> as what is searched for.
 If \(\mathbf{X}\), \(\mathbf{K}\), \(\mathbf{Q}\), and \(\mathbf{V}\) contain all the inputs, keys, queries and values then we can compute the self-attention by</p>
 
 \[\mathbf{Sa}(\mathbf{X}) = \mathbf{V} \cdot \text{Softmax}\left( \frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D_q} }\right).\]
@@ -2079,9 +2079,9 @@ If \(\mathbf{X}\), \(\mathbf{K}\), \(\mathbf{Q}\), and \(\mathbf{V}\) contain al
 
 <p>Since our transformer should not look into the future, because when we use it in the prediction mode it also can not look ahead of the token it predicts, we have to mask entries in</p>
 
-\[\text{Softmax}\left(\frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D}_q}\right).\]
+\[\text{Softmax}\left(\frac{\mathbf{K}^\top \mathbf{Q}}{\sqrt{D_q}}\right).\]
 
-<p>If you look into the code, I did this by setting the respective values in \(\mathbf{K}^\top \mathbf{Q}\) to negative infinite before computing the softmax.</p>
+<p>If you look into the code, I did this by setting the respective values in \(\mathbf{K}^\top \mathbf{Q}\) to negative infinity before computing the softmax.</p>
 
 <p><br /></p>
 <div><img style="display:block; margin-left:auto; margin-right:auto; width:60%;" src="/Pages/assets/images/transformer-head.png" alt="Transformer head" />
@@ -2121,13 +2121,13 @@ If \(\mathbf{X}\), \(\mathbf{K}\), \(\mathbf{Q}\), and \(\mathbf{V}\) contain al
 </code></pre></div></div>
 
 <p>The multi-head attention layer consists of multiple heads.
-Note that apart from <strong>masked</strong> <strong>self-attention</strong>, the head also applys a <strong>dropout</strong> which helps with regularization.</p>
+Note that apart from <strong>masked</strong> <strong>self-attention</strong>, the head also applies a <strong>dropout</strong> which helps with regularization.</p>
 
 <h2 id="stacked-multi-head-attention">Stacked Multi-Head Attention</h2>
 
 <p>Instead of using only one <code class="language-plaintext highlighter-rouge">Head</code> it is usually a good idea to use multiple ones.
 To do this we transform the input into a <code class="language-plaintext highlighter-rouge">head_size</code>-dimensional space.
-Suppose we use 4 heads than <code class="language-plaintext highlighter-rouge">head_size * 4</code> should be equal to the rows of \(\mathbf{W}_0\) (compare Fig. 7) of the multi-head attention layer.
+Suppose we use 4 heads then <code class="language-plaintext highlighter-rouge">head_size * 4</code> should be equal to the rows of \(\mathbf{W}_0\) (compare Fig. 7) of the multi-head attention layer.
 Since I add the input to the output of <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code> (via residual connections), the columns of \(\mathbf{W}_0\) should be equal to the dimension of the input of the <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>.
 In my case this is <code class="language-plaintext highlighter-rouge">n_embd</code>, i.e. the dimension of our embedded tokens.</p>
 
@@ -2168,7 +2168,7 @@ The output of <code class="language-plaintext highlighter-rouge">Block</code> \(
 
 <h2 id="transformer-block">Transformer Block</h2>
 
-<p>A <code class="language-plaintext highlighter-rouge">Block</code> consists of a <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>-layer and a relatively simple FFN-layer followed by two <code class="language-plaintext highlighter-rouge">LayerNorm</code> which applies <em>layer normalization</em> over a mini-batch of inputs.
+<p>A <code class="language-plaintext highlighter-rouge">Block</code> consists of a <code class="language-plaintext highlighter-rouge">MultiHeadAttention</code>-layer and a relatively simple FFN-layer followed by two <code class="language-plaintext highlighter-rouge">LayerNorm</code> which applies <em>layer normalization</em> over the feature dimension within a single sample.
 This helps the gradients to stay in a “good” range.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Block</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
@@ -2211,11 +2211,11 @@ This helps the gradients to stay in a “good” range.</p>
 <h2 id="positional-encoding">Positional Encoding</h2>
 
 <p>The Transformer has no more hidden state.
-Therefore, instead of processing token by token trying to memorize important information via the hidden state, it processes all \(n\) tokens at in parallel, which is good for parallel computation but increases the time and space complexity from \(\mathcal{O}(n)\) (LSTM) to \(\mathcal{O}(n^2)\).</p>
+Therefore, instead of processing token by token trying to memorize important information via the hidden state, it processes all \(n\) tokens in parallel, which is good for parallel computation but increases the time and space complexity from \(\mathcal{O}(n)\) (LSTM) to \(\mathcal{O}(n^2)\).</p>
 
 <p>Furthermore, we have to encode the position of the tokens into \(\mathbf{x}\) because we lost the implicit order of computation.
-In the original paper <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> the authors utilized a embdding that involved sine and cosine functions.
-Their embedding is a very clever use of peridoic functions but I will not go into details here.
+In the original paper <a class="citation" href="#vaswani:2017">(Vaswani et al., 2017)</a> the authors utilized an embedding that involved sine and cosine functions.
+Their embedding is a very clever use of periodic functions but I will not go into details here.
 Instead of using a fixed embedding, I let the transformer learn the positional embedding.</p>
 
 <p>Therefore, I transform the input <code class="language-plaintext highlighter-rouge">idx</code> into two vectors <strong>positional embedding</strong> and <strong>token embedding</strong>, which are <strong>added</strong> together.
@@ -2264,21 +2264,21 @@ However, this will rapidly increase the memory requirements and training time.</
 </div>
 <p><br /></p>
 
-<p>Futhermore, it is very important to understand that what really matters is a <strong>high-quality training dataset</strong>!
-Of course, your model achitecture matters too, but your model can not learn what is not there.
+<p>Furthermore, it is very important to understand that what really matters is a <strong>high-quality training dataset</strong>!
+Of course, your model architecture matters too, but your model can not learn what is not there.
 Additionally, the <strong>musical representation</strong> you feed into the transformer matters as well.
 In our case this representation, using basically piano rolls, is very simple.
 It does not contain any high level information such as the end of a bar, section, phrase or musical theme.
 We just hope that the transformer will eventually learn all these concepts.
-It is a active research question what impact a good musical representation has on the result the trained transformer generates.</p>
+It is an active research question what impact a good musical representation has on the result the trained transformer generates.</p>
 
 <h2 id="relative-positional-self-attention">Relative Positional Self-Attention</h2>
 
-<p>So far our positional encoding was just a sequence of natural numbers \(0, 1, \ldots, n-1\) and we used an embbedding which was added to the input, that is, the embedding of \(i\) was added to the embedding of \(\mathbf{x}_i\) of the input sequence.
-However, this encoding might not be optimal in the context of music where we tones, phrases, musical ideas and themes reapeat frequently.
+<p>So far our positional encoding was just a sequence of natural numbers \(0, 1, \ldots, n-1\) and we used an embedding which was added to the input, that is, the embedding of \(i\) was added to the embedding of \(\mathbf{x}_i\) of the input sequence.
+However, this encoding might not be optimal in the context of music where tones, phrases, musical ideas and themes repeat frequently.
 A relative position representation to allow attention to be informed by how far two positions are apart in a sequence might be much more effective.</p>
 
-<p>So, instead of learning the index of a token within a sequence we want the mode to learn relative distances between tokens.
+<p>So, instead of learning the index of a token within a sequence we want the model to learn relative distances between tokens.
 In other words, instead of learning the attention spent by token with index \(j\) on \(i\), that is, \(\alpha(\mathbf{x}_i, \mathbf{x}_j)\) we want to compute an attention score based on the (directed) distance \(i-j\).
 This concept was introduced by <a class="citation" href="#shaw:2018">(Shaw et al., 2018)</a>.</p>
 
@@ -2299,7 +2299,7 @@ They introduce the relative position between \(\mathbf{x}_i\) and \(\mathbf{x}_j
 
 <p>Thus there are \(\mathcal{O}(n^2)\) different such vectors but many share the same value.
 Of course, they drop the absolute positional encoding.
-And they adapt the <strong>self-attention comuputation</strong> from</p>
+And they adapt the <strong>self-attention computation</strong> from</p>
 
 \[\mathbf{sa}_j(\mathbf{x}_0, \ldots, \mathbf{x}_{n-1}) = \sum_{i=0}^{n-1} \alpha(\mathbf{x}_i, \mathbf{x}_j) \mathbf{v}_i.\]
 
@@ -2309,21 +2309,21 @@ And they adapt the <strong>self-attention comuputation</strong> from</p>
 
 <p>and the computation of the similarity between <strong>query</strong> and <strong>key</strong> from</p>
 
-\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j)}{\sqrt{D_q}}\]
+\[\frac{(\mathbf{W}_q \mathbf{x}_j)^\top (\mathbf{W}_k \mathbf{x}_i)}{\sqrt{D_q}}\]
 
 <p>to</p>
 
-\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}}.\]
+\[\frac{(\mathbf{W}_q \mathbf{x}_j)^\top (\mathbf{W}_k \mathbf{x}_i + \mathbf{a}^K_{ij})}{\sqrt{D_q}}.\]
 
-<p>Computation-wise the first manipulation can be easily achieved by adding a matrx \(\mathbf{A}\) to \(\mathbf{V}\).
+<p>Computation-wise the first manipulation can be easily achieved by adding a matrix \(\mathbf{A}\) to \(\mathbf{V}\).
 However, the second manipulation destroys parallelism, i.e. the possibility to compute everything by matrix-matrix multiplications.
 This can be mitigated by splitting the computation into two parts:</p>
 
-\[\frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j + \mathbf{a}^K_{ij})}{\sqrt{D_q}} = \frac{(\mathbf{W}_q \mathbf{x}_i)^\top (\mathbf{W}_k \mathbf{x}_j) + (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij}}{\sqrt{D_q}}\]
+\[\frac{(\mathbf{W}_q \mathbf{x}_j)^\top (\mathbf{W}_k \mathbf{x}_i + \mathbf{a}^K_{ij})}{\sqrt{D_q}} = \frac{(\mathbf{W}_q \mathbf{x}_j)^\top (\mathbf{W}_k \mathbf{x}_i) + (\mathbf{W}_q \mathbf{x}_j)^\top \mathbf{a}^K_{ij}}{\sqrt{D_q}}\]
 
 <p>Assuming that \(\mathbf{S}\) contains all the relative attention scores, that is,</p>
 
-\[\mathbf{S}_{ij} = (\mathbf{W}_q \mathbf{x}_i)^\top \mathbf{a}^K_{ij},\]
+\[\mathbf{S}_{ij} = (\mathbf{W}_q \mathbf{x}_j)^\top \mathbf{a}^K_{ij},\]
 
 <p>then we can go back to the matrix form which gives us</p>
 
@@ -2351,28 +2351,28 @@ With such a large number of token, one question arises: How did they manage to p
 <p>The authors correctly identify the space complexity of \(\mathcal{O}(k^2 D_q)\) to be problematic for GPU computation and they reduce the complexity to \(\mathcal{O}(k D_q)\) by exchanging space for re-computation.
 This is possible due to the structure of the tensor \(\mathbf{R}\) which contains many equal values.</p>
 
-<p>To handly very long sequences, the authors use local attention <a class="citation" href="#liu:2018">(Liu et al., 2018)</a> by chunking the input sequence into non-overlapping blocks.
+<p>To handle very long sequences, the authors use local attention <a class="citation" href="#liu:2018">(Liu et al., 2018)</a> by chunking the input sequence into non-overlapping blocks.
 Each block then attends to itself and the one before.</p>
 
 <h2 id="attention-free-transformer">Attention-Free Transformer</h2>
 
-<p>Basically, the attention mechanism, regardless of the specifics, solves a routing problem, that it, which information is transported to the next layer of the neural network.
+<p>Basically, the attention mechanism, regardless of the specifics, solves a routing problem, that is, which information is transported to the next layer of the neural network.
 Thus, it has a quadratic time and space complexity of \(\mathcal{O}(n^2)\) where \(n\) is our sequence length.
-Therefore, if you have limited ressources, it is hard to scale it to larger sequences.
-As with the local attention and other techniques, like the Linformer <a class="citation" href="#wang:2020">(Wang et al., 2020)</a>, Longformer <a class="citation" href="#"></a>, Reformer <a class="citation" href="#kitaev:2020">(Kitaev et al., 2020)</a>, and Synthesizer <a class="citation" href="#tay:2021">(Tay et al., 2021)</a>, and Performer <a class="citation" href="#choromanski:2022">(Choromanski et al., 2022)</a> there are ways to improve this but in principle the complexity will bite us eventually.</p>
+Therefore, if you have limited resources, it is hard to scale it to larger sequences.
+As with the local attention and other techniques, like the Linformer <a class="citation" href="#wang:2020">(Wang et al., 2020)</a>, Longformer <a class="citation" href="#beltagy:2020">(Beltagy et al., 2020)</a>, Reformer <a class="citation" href="#kitaev:2020">(Kitaev et al., 2020)</a>, and Synthesizer <a class="citation" href="#tay:2021">(Tay et al., 2021)</a>, and Performer <a class="citation" href="#choromanski:2022">(Choromanski et al., 2022)</a> there are ways to improve this but in principle the complexity will bite us eventually.</p>
 
 <p>Now we enter in an era in deep learning where we question if we actually need the attention layers in the transformer!
 This was proposed in 2022.
 Instead of computing attention, <em>FNet</em> <a class="citation" href="#leethorp:2022">(Lee-Thorp et al., 2022)</a> just mixes tokens according to the discrete Fourier transformation (DFT).
 First, a 1D transformation is computed with respect to the embedding and then another with respect to time.
-Amazingly even though there is no parameter to learn within the <code class="language-plaintext highlighter-rouge">Fourier</code>-layer (which replaces the <code class="language-plaintext highlighter-rouge">Head</code>) this strategy seems to work almost as good as the far more computational expensive task of learning all the required attention scores.</p>
+Amazingly even though there is no parameter to learn within the <code class="language-plaintext highlighter-rouge">Fourier</code>-layer (which replaces the <code class="language-plaintext highlighter-rouge">Head</code>) this strategy seems to work almost as good as the far more computationally expensive task of learning all the required attention scores.</p>
 
 <p>The Fourier transform decomposes a function (in our case a discrete signal) into its constituent frequencies.
 Given a sequence \(x_0, \ldots, x_{N-1}\), the discrete Fourier transform (DFT) is defined by</p>
 
 \[X_k = \sum\limits_{n=0}^{N-1} x_n \exp\left( - \frac{2\pi i}{N} nk \right), \quad 0 \leq k \leq N-1.\]
 
-<p>\(X_k\) encodes the <strong>phase</strong> and <strong>power</strong> of frequency \(k\) within the signal.</p>
+<p>\(X_k\) encodes the <strong>phase</strong> and <strong>amplitude</strong> of frequency \(k\) within the signal.</p>
 
 <p><em>FNet</em> consists of a Fourier <strong>mixing sublayer</strong> followed by a feed-forward sublayer.
 Essentially, the self-attention sublayer of each transformer decoder layer is replaced with a <strong>Fourier sublayer</strong> which applies a 2D DFT to its</p>
@@ -2388,8 +2388,8 @@ This can be achieved using two 1D DFTs—one 1D DFT along the sequence dimension
 
 <p>Now, as emphasized by the title of their paper, the Fourier transform is probably not the important part.
 It is just a special case of how you can mix tokens.
-Important is the mixing itself which allows information to flow from one token to all the other tokens and the Fourier transform happens to be a nice why of mixing.
-The paper indicate that it might not be so important to let the model learn how exaclty information flows around.
+Important is the mixing itself which allows information to flow from one token to all the other tokens and the Fourier transform happens to be a nice way of mixing.
+The paper indicates that it might not be so important to let the model learn how exactly information flows around.
 It might be just enough if information flows at all (to all tokens).
 In other words, the exact routing might be less important than we thought.</p>
 
@@ -2397,8 +2397,8 @@ In other words, the exact routing might be less important than we thought.</p>
 But one trades accuracy for resources thus longer sequence length and a faster computation.</p>
 
 <p>To the best of my knowledge, I have not seen this tried out for symbolic music generation.
-But when I have time, I play around with it.
-Futhermore, one might think about a special mixing which is effective for our specific task.</p>
+But when I have time, I’ll play around with it.
+Furthermore, one might think about a special mixing which is effective for our specific task.</p>
 
 <h2 id="references">References</h2>
 
@@ -2422,6 +2422,7 @@ Futhermore, one might think about a special mixing which is effective for our sp
 <li><span id="shaw:2018">Shaw, P., Uszkoreit, J., &amp; Vaswani, A. (2018). Self-attention with relative position representations. <i>CoRR</i>, <i>abs/1803.02155</i>. http://arxiv.org/abs/1803.02155</span></li>
 <li><span id="liu:2018">Liu, P. J., Saleh, M., Pot, E., Goodrich, B., Sepassi, R., Kaiser, L., &amp; Shazeer, N. (2018). Generating Wikipedia by summarizing long sequences. <i>International Conference on Learning Representations</i>. https://openreview.net/forum?id=Hyg0vbWC-</span></li>
 <li><span id="wang:2020">Wang, S., Li, B. Z., Khabsa, M., Fang, H., &amp; Ma, H. (2020). <i>Linformer: Self-Attention with linear complexity</i>.</span></li>
+<li><span id="beltagy:2020">Beltagy, I., Peters, M. E., &amp; Cohan, A. (2020). <i>Longformer: The long-document transformer</i>.</span></li>
 <li><span id="kitaev:2020">Kitaev, N., Kaiser, Ł., &amp; Levskaya, A. (2020). <i>Reformer: The Efficient Transformer</i>.</span></li>
 <li><span id="tay:2021">Tay, Y., Bahri, D., Metzler, D., Juan, D.-C., Zhao, Z., &amp; Zheng, C. (2021). <i>Synthesizer: Rethinking self-attention in transformer models</i>.</span></li>
 <li><span id="choromanski:2022">Choromanski, K., Likhosherstov, V., Dohan, D., Song, X., Gane, A., Sarlos, T., Hawkins, P., Davis, J., Mohiuddin, A., Kaiser, L., Belanger, D., Colwell, L., &amp; Weller, A. (2022). <i>Rethinking Attention with Performers</i>. https://arxiv.org/abs/2009.14794</span></li>
