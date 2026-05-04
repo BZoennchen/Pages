@@ -18,6 +18,7 @@ In other words, why are we, in some instances, so stubborn to see what is not th
 The so‑called *free energy principle* (FEP) {% cite friston:2006 %} is a neat mathematical principle that offers answers to these questions.
 According to the FEP, brains or nervous systems make use of *variational inference* on hidden causes of sensory data.
 In this view, the goal of an organism, including ours, is to **minimize surprise** within their respective environment.
+Strictly, FEP says systems minimize an *upper bound* on surprise---variational free energy---because exact surprise is intractable
 Researchers working towards finding evidence to apply the FEP claim that perceptual processes are just one aspect of emergent behaviours of systems that conform to a *free energy principle*.
 Thus, it is a principle on which the brain might operate.
 
@@ -25,7 +26,7 @@ Thus, it is a principle on which the brain might operate.
 >The system can minimise free energy by changing its configuration to affect the way it samples the environment or change the distribution it encodes. These changes correspond to action and perception respectively and lead to an adaptive exchange with the environment that is characteristic of biological systems.
 >This treatment assumes that the system's state and structure encode an implicit and probabilistic model of the environment. -- {% cite friston:2006 %}
 
-As a consequence, the FEP depatures from the classical reward-based explanations of behaviour and evolutional progress in general.
+As a consequence, the FEP departures from the classical reward-based explanations of behaviour and evolutional progress in general.
 Instead of starting with an *a priori* *goal* or *reward* that the organism has to find, it starts with *what kinds of states the organism expects to be in*, and assumes the organism to act in a way that *confirms those expectations* and keeps it in familiar, low-surprise situations.
 
 Friston and others also believe that the use of *hierarchical models*, such as layered neural networks, enable the brain to construct prior expectations in a dynamic and context-sensitive fashion.
@@ -36,7 +37,7 @@ He provides a unifying framework for perception, action, attention, learning, an
 
 However, the term *prediction machine* should not be confused with a depreciation of organisms or the human brain.
 There is nothing magical or mystical that we will lose if we stick to the naturalization of ourselves as long as we do not mistaken an explanation as final answer.
-Existential questions remain but stay outside the public sphare of science but those questions are necessarily informed by our (scientific) knowledge about ourselves and our environment.
+Existential questions remain but stay outside the public sphere of science but those questions are necessarily informed by our (scientific) knowledge about ourselves and our environment.
 In accordance to the FEP, we drift towards explanations of our being---we drift towards self-creation and our own evidence.
 Therefore, what could be more magical, more fascinating than our contingent existence that emerged through a process of exactly such *self-creation* and *self-evidencing*.
 
@@ -92,7 +93,7 @@ Its *qualitative identity* can change but its *individual identity* is maintaine
 
 Some argue that autopoiesis is an intrinsic purpose of an organism from which all other goals derive {% cite virenque:2024 barandiaran:2017 %}.
 
->Importantly, sense-making is intentional because it implies an organismic perspective from which meaning is brought forth. Because of the organism's precariousness, certain interactions with the environment are either positive or negative from the perspective of the organism. Consider a bacterium swimming up a gradient of glucose. The glucose is meaningful for the bacterium because it provides nutrients that are necessary for maintaining its metabolic processes (i.e., its autopoiesis). The meaning of the glucose gradient only makes sense from the perspective of the bacterium. Take away the bacterium from the situation and the glucose stops having its meaning. What brings forth such meaning is the organism’s adaptive and autopoietic organisation. Such bringing forth of meaning is what enactivists call sense-making. -- {% cite bogota:2024 %} (expample taken from {% cite varela:1997 %})
+>Importantly, sense-making is intentional because it implies an organismic perspective from which meaning is brought forth. Because of the organism's precariousness, certain interactions with the environment are either positive or negative from the perspective of the organism. Consider a bacterium swimming up a gradient of glucose. The glucose is meaningful for the bacterium because it provides nutrients that are necessary for maintaining its metabolic processes (i.e., its autopoiesis). The meaning of the glucose gradient only makes sense from the perspective of the bacterium. Take away the bacterium from the situation and the glucose stops having its meaning. What brings forth such meaning is the organism’s adaptive and autopoietic organisation. Such bringing forth of meaning is what enactivists call sense-making. -- {% cite bogota:2024 %} (example taken from {% cite varela:1997 %})
 
 Others suspect that we, as external observers, project purposiveness onto the organism {% cite cummins:2014 %} and anti-naturalists like Markus Gabriel see meaning as ontological primary {% cite gabriel:2018 %}.
 For the FEP, it is not important if purposiveness is a projection or intrinsically given (if meaning is ontologically primary the whole story changes).
@@ -115,12 +116,12 @@ We can be angry with ourselves, talking to ourselves and judging ourselves as if
 Recognizing a predator in the forest already requires more than just pattern matching.
 Simple template‑matching reflexes may not work.
 In such complex environments, organisms have to temper their reflexes, plan, and evaluate different action sequences before actualizing one action plan.
-But a much more complex situation arrives if we have to deal with social systems that are beyond our control but which also provides us with the needs for survival.
+But a much more complex situation arrives if we have to deal with social systems that are beyond our control but which also provide us with the needs for survival.
 
-Tomasello points out that these abilities result from natures inability to build organisms that can cope with everything (reactively) that nature throws at them.
+Tomasello points out that these abilities result from nature's inability to build organisms that can cope with everything (reactively) that nature throws at them.
 Instead, nature can build psychological actors:
 
->It brings forth organisms that function as feedback control systems persuing goals, selecting profound actions and monitoring the process of acting them out. -- {% cite tomasello:2024 %}
+>It brings forth organisms that function as feedback control systems pursuing goals, selecting profound actions and monitoring the process of acting them out. -- {% cite tomasello:2024 %}
 
 He also reminds us that the importance of acting is not defined of how *many* things an organism can do but *how* these actions are realized.
 Maybe we can learn from his emphasis when discussing AI systems where the focus is often on the capabilities, i.e. on the "how many things" AI systems can do (better) neglecting the question of *(self-)control* and *agency*.
@@ -196,8 +197,7 @@ and
 $$\lim\limits_{p_s \rightarrow 1}\ln\left( \frac{1}{p_s} \right) = 0.$$
 
 While we multiply probabilities to figure out the probability of independent events happening together, surprise works differently---it adds up.
-Meaning rolling 5 times 1 and then again 5 times 1 makes us two times surprised comparing rolling 5 times in a row.
-This is because 
+Meaning ten 1s in a row is twice as surprising as five 1s in a row, because
 
 $$\ln{\frac{1}{a \cdot b}} = \ln\frac{1}{a} + \ln\frac{1}{b}.$$
 
@@ -205,7 +205,7 @@ Now, to figure out how much we could be surprised by an event---assuming a perfe
 
 $$H(P) = \sum_s p(s) \ln\left( \frac{1}{p(s)} \right) = - \sum_s p(s) \ln p(s).$$
 
-We multiply the surprise of the event $$s$$ by its probability because more liekly events occur more often.
+We multiply the surprise of the event $$s$$ by its probability because more likely events occur more often.
 Therefore, they will contribute more to our overall surprise, if we would repeat rolling the die over and over again.
 The corresponding **differential entropy** for a continuous random variable $$X$$ with the probability density function $$p(x)$$ can be written as:
 
@@ -250,7 +250,7 @@ Furthermore, if our beliefs are prefect, i.e. $$P=Q$$ the cross-entropy is equal
 $$H(P,P) = H(P)$$
 
 holds.
-Also note that the cross-entropy is **assymetric**, that is, $$H(P,Q)$$ is usually not equal to $$H(Q,P)$$.
+Also note that the cross-entropy is **asymmetric**, that is, $$H(P,Q)$$ is usually not equal to $$H(Q,P)$$.
 For example, take the case from before.
 In this situation we are less surprised believing in a fair coin while it is rigged  than believing in $$P$$ while it is fair, that is,
 
@@ -276,7 +276,7 @@ $$\min D_{\text{KL}}(P \Vert Q).$$
 
 However, in machine learning you will usually hear about only minimizing the cross-entropy $$H(P,Q)$$.
 This is because we can not change the entropy of "reality", that is, we can not change $$H(P)$$---we can not change reality (without acting) but our beliefs about it.
-Thus, mimimizing $$H(P,Q)$$ achives the same goal as minimizing $$D_{\text{KL}}(P \Vert Q)$$.
+Thus, minimizing $$H(P,Q)$$ achieves the same goal as minimizing $$D_{\text{KL}}(P \Vert Q)$$.
 
 Of course, the big problem is that we don't know $$P$$!
 
@@ -327,7 +327,7 @@ Furthermore, I will use $$\theta$$ as the parameters of the involved neural netw
 It can also mean the parameters of the Gaussian distribution that are computed by the network.
 Friston also differentiate between parameters that can change quickly, slowly and very slowly.
 
->Factorization of the ensemble density to cover quantities that change with different timescales provides an ontology of processes thatm map nicely onto perceptual inference, attention and learning. -- {% cite friston:2006 %}
+>Factorization of the ensemble density to cover quantities that change with different timescales provides an ontology of processes that map nicely onto perceptual inference, attention and learning. -- {% cite friston:2006 %}
 
 Using a probabilistic modeling framework, we can say that, given our beliefs $$z$$ (about how the world works), we should be able to predict the sensory data $$x$$ using our internal model that approximates the true probability distribution $$p$$, meaning that
 
@@ -348,7 +348,7 @@ $$p(z \vert x)$$
 accurately.
 This is called *inference* because the system *infers* causes from *observations*---$$x$$ is given while the brain **searches** for $$z$$.
 
-However, this is a hard problem because, unlike generation, there is no function that directly computes $$z$$ given $$x$$---the generative model is not invertable.
+However, this is a hard problem because, unlike generation, there is no function that directly computes $$z$$ given $$x$$---the generative model is not invertible.
 One could generate a lot of candidates of sensory data $$x'$$ using the generative model and compare these candidates to the true observation $$x$$.
 However, this is not feasible because, even though $$z$$ is of lower dimensionality than $$x$$, there are still too many possibilities.
 We say that the problem is *intractable*.
@@ -376,7 +376,7 @@ Perception basically solves for
 
 $$\text{minimize } \left[ \text{complexity - accuracy} \right] = \min F.$$
 
-It rapidly adjust the activity of latent neurons.
+It rapidly adjusts the activity of latent neurons.
 
 Long‑term learning via experience is required to gradually refine both models---i.e. neural networks---to align them better with each other and to construct better world models.
 Both *learning* and *perception* serve the same goal: reducing uncertainty in the environment the organism at least partly constructs by building optimal models of it and finding useful explanations for sensory data within those models.
@@ -489,11 +489,11 @@ We basically follow five steps:
 
 $$p_{\theta}(x \vert z_k) \sim \exp\left(\frac{-\Vert x-\mu_k \Vert^2}{2} \right).$$
 
-**(5)** Compute the average log-likelihood 
+**(5)** Compute the log marginal likelihood estimate
 
 $$\ln\left[\sum_{z}^{\{z_k\}} p_{\theta}(z)  p_{\theta}(x \vert z) \right].$$
 
-We iteratively update $$\theta$$ to maximize our log-likelihood across the dataset, usually using thetaopagation and gradient descent with stochastic sampling.
+We iteratively update $$\theta$$ to maximize our log-likelihood across the dataset, usually using backpropagation and gradient descent with stochastic sampling.
 
 **Remark:** The brain does not use backpropagating or gradient decent, consequently, Friston relies on *predictive coding* which is neurally plausible: It mirrors cortical feedback and feedforward loops, with ascending prediction errors and descending predictions.
 
@@ -594,6 +594,8 @@ To an external observer, this looks like as if the insect has learned that darkn
 
 Consequently, **value** is not the interpretation of an external signal (*reward*) but is constructed by a prior belief about what states minimize surprise---what states are "normal" or "preferred" and since experience and prior belief influence each other in a feedback loop, we can hardly observe direct causal relation between the two.
 Value is basically the inverse of surprise and instead of figuring out which states are good based on reward, the FEP says: Organisms are already biased to expect to be in certain types of states (like being alive, warm, safe, fed).
+Preferences are encoded as priors over observations/states, so log-preference shows up as negative expected surprise in the expected free energy.
+Note however that *action-selection version of FEP* uses expected free energy (forward-looking), which decomposes into a *pragmatic* term (preference satisfaction) and an *epistemic* term (information gain / curiosity) to account for exploration!
 These are **low-surprise states**---what the organism is used to.
 Therefore, organisms act not to find new rewards, but to stay within those expected (familiar) states {% cite friston:2011 %}.
 One can still include costs or punishments in the model---but they are treated as part of the prior beliefs about what kinds of states should be avoided.
@@ -620,7 +622,7 @@ Thus, *itinerant policies* arise because staying in a single state forever would
 >To minimize surprise, organisms must move through a predictable sequence of diverse but familiar states.
 
 Learning, perception, and action then is about **adjusting expectations** and **updating generative models** on different time scales. 
-To the best of my knowledege, it is unclear in which way one dominates over the others but it seems as if all three are highly depend on each other.
+To the best of my knowledge, it is unclear in which way one dominates over the others but it seems as if all three are highly depend on each other.
 From this I conclude that it is important to dwell on problems, to think, to do the hard work to adjust long-term causes to be able to construct a reality/environment that makes sense consistently.
 But it is also important to act in such a way that one is exposed to surprise, at least from time to time.
 
@@ -630,10 +632,10 @@ A realist will argue that the survival of an organism is bound to the accuracy o
 
 >Because the free energy is low, the inferred causes approximate the real environmental conditions. This means the systems physical state must be sustainable under these environmental forces, because each system is its own existence proof. -- {% cite friston:2006 %}
 
-A construcitivst will point out that our beliefs (latents, causes) only tend to generate sensory data and that we can not jump from this to an objective reality or "the truth" which is "out there".
+A constructivist will point out that our beliefs (latents, causes) only tend to generate sensory data and that we can not jump from this to an objective reality or "the truth" which is "out there".
 The causes we believe in may have little or nothing to do with the "real" causes---if such causes even exist.
 This challenges my earlier assumption of *indirect realism*.
-Causes are just effective in generating sensory data---data that is already constructed by the very same system which trys to reconstruct them.
+Causes are just effective in generating sensory data---data that is already constructed by the very same system which tries to reconstruct them.
 While I don't see constructivism as an anti-realism, constructivist might doubt any sort of realism that rejects constructivist elements and that assumes that we can reach an observer-independent "objective turth".
 Constructions are contingent and constrained---they work in the context of a history of evolution but they are not "the truth" and, in my opinion, they can not be separated from the observing system that construct them. 
 
@@ -657,7 +659,7 @@ This creates a sense of incoherence or alienation---a **loss of identity**; a li
 So in modern systems that demand rapid flexibility, we're often forced to dissolve stable models faster than we can reconstruct them.
 The result? Anxiety, burnout, and a background hum of ontological instability.
 
-The FEP suggest that there is a balance to be found: exposure to surprise and a certain "willingness" to adapt without loosing ones identity and purpose.
+The FEP suggest that there is a balance to be found: exposure to surprise and a certain "willingness" to adapt without losing ones identity and purpose.
 I find it desirable to recognize, or at least consider that emotional pain may not reflect maladaptation but the cost of updating one's expectations in the face of an unstable world.
 Flexibility, when demanded too often or too rapidly, erodes the very models that minimize surprise over the long term.
 Thus, while adaptability is vital, stability is sacred.
@@ -679,7 +681,7 @@ Yes, action and cognition are deeply intertwined (Maturana, Varela), and yes, th
 
 If we want to go full Heideggerian, we probably need a different interpretation where free energy minimization becomes about maintaining practical grip on the world, not constructing a picture of it and where prediction errors don't refer to "incorrect beliefs" but breakdowns in coping (e.g., when the tool "refuses" to function).
 We would have to move to a life-mind continuity thesis (LMCT) (see e.g. {% cite bogota:2024 %}).
-It would be interesting and maybe refreshing to depature from the representation-driven approaches (it is unsurprising that one of the most famous AI conferences is called "International Conference on Learning Representations").
+It would be interesting and maybe refreshing to departure from the representation-driven approaches (it is unsurprising that one of the most famous AI conferences is called "International Conference on Learning Representations").
 But this would be another topic for another time.
 
 ---------------
@@ -701,13 +703,13 @@ The Gaussion has a very simple functional form:
 
 $$q(z) = \mathcal{N}(z \vert \mu, \Sigma)$$
 
-It is fully escribed by just two parameters: mean $$\mu$$ and covariance $$\Sigma$$.
+It is fully described by just two parameters: mean $$\mu$$ and covariance $$\Sigma$$.
 This makes optimization tractable because:
 
 + Expectations like $$\mathbb{E}_q[\ln p(x,z)]$$ can often be computed in closed form or with low-variance Monte Carlo estimates.
 + (Differential) entropy $$H(P)$$ is known analytically for a Gaussian. It is $$H(\mathcal{N}) = \frac{1}{2} \ln((2\pi e)^d \vert \Sigma \vert)$$, which simplifies the so-called evidence lower bound (ELBO):
 
-$$\text{ELMBO} = \mathbb{E}_q[\ln p(x,z)] - \mathbb{E}_q[\ln q(z)].$$
+$$\text{ELBO} = \mathbb{E}_q[\ln p(x,z)] - \mathbb{E}_q[\ln q(z)].$$
 
 Secondly, the Gaussian is reparameterizable.
 Instead of sampling $$z \sim \mathcal{N}(\mu, \sigma^2)$$ directly, we can rewrite it as: 
