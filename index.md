@@ -6,7 +6,7 @@ title: About
 <div><img style="float: right;height:205px;border-radius: 50%;" src="{% link /assets/images/BZoennchenMUCDAI.JPG %}" alt="Photo"></div>
 
 Welcome, everyone! 
-I'm Benedikt, a postdoctoral researcher in applied machine learning at the at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/), part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
+I'm Benedikt, a postdoctoral researcher in applied machine learning at the [Munich Center for Digital Science and AI](https://sites.hm.edu/mucdai/), part of the [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html).
 My current research explores the societal impact of artificial intelligence, particularly in the domains of education, art, and communication.
 
 My academic journey began with a strong foundation in theoretical computer science during my master's studies, where I focused on automata theory, logic, complexity theory, and approximation and online algorithms. 
@@ -30,7 +30,7 @@ Computer science, at its best, opens the door to autonomy and agency, creativity
 
 >"a world open for play."  -- Robin Williams
 
-Teaching, in this light, should be an invitation into that playful world---a path to self-discovery, agancy, autonomy and individuation.
+Teaching, in this light, should be an invitation into that playful world---a path to self-discovery, agency, autonomy and individuation.
 While it is widely accepted that computational thinking is an important skill, I believe computer science has the potential to offer far more than utility. 
 It can---and should---be meaningful.
 As a scientific discipline, it should remain open to critique and mature enough to engage with other fields, learning from their perspectives.

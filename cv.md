@@ -15,13 +15,13 @@ Head of Research (Research Scientist)<br>
 
 ## Academic Education
 
-**03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany & <br>
+**03/2016 - 07/2020** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/), Garching, Germany & <br>
 [Hochschule München University of Applied Sciences (HM)](https://www.cs.hm.edu/en/home/index.en.html), Munich, Germany<br> 
 Computer Science (Dr. rer. nat.)<br>
 *Thesis:* Efficient Parallel Algorithms for Pedestrian Simulation ([link](https://mediatum.ub.tum.de/1593965?style=full_standard))<br>
 *Supervisor:* Prof. Dr. Hans-Joachim Bungartz and Prof. Dr. Gerta Köster
 
-**10/2013 - 02/2016** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/) Garching, Germany<br>
+**10/2013 - 02/2016** | [Technical University of Munich (TUM)](https://www.in.tum.de/en/cover-page/), Garching, Germany<br>
 Computer Science (M. Sc.)<br>
 *Thesis:* Implementation of an Efficient Equivalence Test for Sequential and Linear Tree-to-Word Transducers ([pdf]({% link /assets/files/master-thesis.pdf %}))
 
@@ -60,7 +60,7 @@ Software Developer (Education)<br>
 
 ## Other Interests
 
-+ **Open Eduction:** Free and open education, schooling and education in the digital era
++ **Open Education:** Free and open education, schooling and education in the digital era
 + **Complex Systems:** How do complex system interact? What is the relation of entropy and complexity?
 + **Philosophy:** Constructivism, Philosophy of Mind, Phenomenology, Existentialism, Philosophy of Language
 + **Creative Coding:** Live Programming, Algorithmic Composition, Sound Design, Generative Design
@@ -109,6 +109,9 @@ See [Selected Works](/Pages/works/).
 
 
 ## Teaching
+
+**Summer 2026** | [HM](https://www.hm.edu/en/) & [HMTM](https://hmtm.de/), Munich, Germany<br>
+*[Artificial Intelligence in Culture and Arts](https://www.wavelab.io/aica/)*, Workshop, Lecturer<br>
 
 **Winter 2025/26** | [HM](https://www.hm.edu/en/), Munich, Germany<br>
 *Sustainable AI* (Bachelor), Lecturer<br>
