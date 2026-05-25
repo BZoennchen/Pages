@@ -18,20 +18,24 @@ Behind the visible trembling of our institutions, a quieter yet far deeper freez
 
 The language that once bound us has turned to stone. It knows only the absolute: sharp edges of "facts" and "enemies", a vocabulary cast as though from ore, leaving no room for what lies between. Attention is directed either toward distraction---the flight from a society one no longer wishes or is able to care about---or toward the destruction of what seems no longer to function. In part patience has run out, and in part curiosity is suffocating in restlessness.
 
-In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. What had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people.
+In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. What had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people. {% cite baudrillard:1976 %} was right in assuming the West couldn't handle the symbolic gift it received on 9/11 and by trying in giving it back, the system turned inward hide its powerlessness by a spectacle of power. Now every act of disobedience can be declared *terrorism* and everyone can be a terrorist.
 
-This spirit manifests vividly in the image of a solitary wanderer in the eternal ice. The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains. It is a thoroughly extraordinary march against the penguin's own environment, against the instinct for survival, and against every community of interdependent beings.
+>However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and a came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress that voted aginst the war in Afghanistan (518/1), Republician) 
 
-There, in the desolation of the peaks, the wanderer hopes to open up a new realm of winners. He wants to be certain of his cause. Doubt---his own as much as that of his companions---is what gnaws at him. From the perspective of his colony, which is setting out toward the ocean, it is a mission without tomorrow, driven by a dark longing for the end---a final act of retribution against a disappointing world that one can no longer imagine made better. And in this departure, the cruelty directed against curiosity and doubt becomes the pleasure of satisfaction in being right, at least with the prophecy of downfall. In our ears Herzog's voice resonates:
+A destructive spirit manifests vividly in the image of a solitary wanderer in the eternal ice. The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains. It is a thoroughly extraordinary march against the penguin's own environment, against the instinct for survival, and against every community of interdependent beings.
+
+There, in the desolation of the peaks, the wanderer hopes to open up a new realm of winners. In his eye it shall be a purifying reincarnation. And, like many Italian futurists, he looks ahead, towards speed, violence, technology, industry and war. But he has to be certain of his cause. Doubt---his own as much as that of his companions---is what gnaws at him. From the perspective of his colony, which is setting out toward the ocean, it is a mission without tomorrow, driven by a dark longing for the end---a final act of retribution against a disappointing world that one can no longer imagine made better. And in this departure, the cruelty directed against curiosity and doubt becomes the pleasure of satisfaction in being right, at least with the prophecy of downfall. In our ears Herzog's voice resonates:
 
 >But why? -- Werner Herzog
 
-And we applaud the courage of the wanderer and try to re-interpret the nihilistic impuls as a call to save Europe {% cite gundlach:2026 %}.
+And we applaud the courage of the wanderer and try to re-interpret the seemingly nihilistic impuls as a call to save Europe {% cite gundlach:2026 %}.
 But this wanderer does not follow life; he follows a myth of freedom that leads him irresistibly into the white void. He is dead. He won against his environment---against a *careless* nature:
 
 >With five thousand kilometer ahead of him, he's heading towards certain death. -- Werner Herzog
 
 In the shadow zones of our digital world, a brotherhood of grievance has formed, a loose network of voices that find their identity only in the echo of hatred. They need a face they can despise, and because sensitization has taken something from them, solidarity itself has become the enemy. The call for a return to the "true mask" of man is more than mere nostalgia; it is the desperate longing for an old, heavy armor that admits no cracks and thus no vulnerability. It is an anarchic armor that no longer requires solidarity at all, because it is its own ecosystem---self-sufficient, independent, and closed in on itself. At the same time, behind the facade lies deep suffering, because man has lost something that once made his world simple and secure.
+
+>Destructive attitudes develop predominantly in people who perceive themselves as marginalized, yet are status-ambitious and dominance-oriented. Individuals with a destructive mindset are convinced that they are being denied a social position to which they have a legitimate claim. -- Oliver Nachtwey
 
 He could no longer reconfigure his identity through the new vocabulary. He was *humiliated* and sought another language, so that everything that had seemed particularly important to him might once again become true and good.
 What he found is the language of dominance.
@@ -39,6 +43,8 @@ What he found is the language of dominance.
 >The *will to dominate* was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
 
 It is as though history were violently recoiling. Where the world had begun to grow quieter and more sensitive to the pain of the "other," a part of it responds with a new, steely coldness.
+
+>Tonight, a whole civilization will die and never return. [...] There might something revolutionarily wonderful happening, who knows. -- Trump
 
 Yet beyond the loud grievance of the streets, in the soundless, glass-walled cathedrals of light and silicon, a far quieter, almost clinical cruelty is ripening. It is a faith that bundles itself in seven cold stars into a single radiance---an alliance of those who regard "the human being" as a transitional sketch to be technologically overcome {% cite gebru:2024 %}. In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body.
 
@@ -164,7 +170,7 @@ Because through experience, through stories, through listening, we have learned 
 Because we have built a culture that cultivates this sensitivity.
 And because the attempt to provide a deeper justification for this leads us astray: it suggests that someone not convinced by the argument could be rationally refuted.
 But the *liberal ironist* cannot accomplish this.
-The sadist, to whom the suffering of others is indifferent, lacks not an argument according to Rorty---he lacks a certain capacity for empathy that cannot be logically derived, but can only be cultivated.
+The sadist, to whom the suffering of others is not only indifferent but who seeks elevation and a *destructive vitality* by humiliating others, lacks not an argument according to Rorty---he lacks a certain capacity for empathy that cannot be logically derived, but can only be cultivated.
 
 >The development of civilization on this view is not the triumph of reason over passion but **the triumph of tolerance over distrust**. Therefore, democratic society is not founded on a sense of obligations, but on a sense of sympathy. [...] The increasing egalitarianism of the democracies is not a matter of recognizing that illiterate laborers, blacks, women, and gays are as rational beings as middle-class straight white males, but rather of those males themselves---the people who have a monopoly on power---coming to realize that these people have the same hopes and fears and the same susceptibility to pain and humiliation as they do. -- {% cite rorty:1990 %}
 
@@ -345,6 +351,7 @@ And since for Rorty progress is the capacity to allow one's own final vocabulary
 He would probably reject digital surveillance as a new form of cruelty that prevents solidarity.
 
 Futhermore, his hope for an ever-growing solidarity presupposes that the material conditions still permit this expansion at all.
+Here, Carolin Amlinger reports: "the resentful feel fundamentally bocked in their progress as if ones life is overlaid by mud".
 That is why he would agree with Han's observation that "depoliticization" is a danger, but he would call for speaking once again about "bread-and-butter issues" rather than philosophically condemning the whole of modernity.
 Here, however, Rorty's approach runs up against a limit that he himself did not see: his concept of solidarity remains *anthropocentric*---he asks who can suffer pain and humiliation and draws the circle of the moral exactly there.
 **The earth does not speak**, so it does not feature in his account.
@@ -365,13 +372,22 @@ Perhaps that is the blind spot that costs us the most dearly today.
 The *urge toward new hardness*, toward strong men, clear images of the enemy, and national self-assertion, is not a sign of strength.
 It is a sign that the circle of solidarity is shrinking. Rorty would not have been surprised.
 He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness.
+Because of the political development of the past, we are in the unfortunate position that moral progress correlates with material inequality such that the emontional path from correlation to causation is short and easy to take which leads to a sort of alienation from society {% cite amlinger:2025 %}
+
+>You could earn a lot of money **and then** feminists came in. -- Interviewee
+
+The core promises of modern society, namely social integration and individual emancipation, seem no longer to function effectively.
+Simultaneously, the modern individual experiences institutions as a restrictive barrier to their self-realization thus society becomes itself a source of cruelty and humiliation.
 The disappointed then find their voice not among those who advocate solidarity, but among those who name enemies.
+
+>Destructiveness is the result of unlived life. -- {% cite fromm:1973 %}
 
 What liberals can learn from Rorty is first of all an attitude of humility: those who stand up for liberal democracy should stop transfiguring it as the *genuinely superior*, the *historically necessary*, or the *rationally only possible*, for this rhetoric acts on those who do not share it as *humiliation*.
 Rorty proposed defending liberalism not as truth but as habit---as a way of living together that we have laboriously acquired and that is worth continuing to narrate.
 
 The resistance to new hardness cannot be primarily argumentative.
-One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated.
+In fact, **cruelty is the point**!
+One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
 That is not a weakness of the liberal project but its actual strength: not persuasion through logic, but expansion of the imagination.
 
 Third, and this is perhaps Rorty's most uncomfortable lesson: liberals must stop overlooking their own cruelty.
@@ -398,11 +414,20 @@ This is not a condemnation of technology, but a reminder of what is at stake. Ro
 He would call on us to ask ourselves: When did we last read a book that truly disturbed us, and whose story was it?
 When were we last willing to be truly disturbed by an unfamiliar life?
 
+Our historical pathways to self-realization are no longer sustainable. It is increasingly obvious that material progress in the West will slow down or perhaps even come to a halt. Although the transition toward renewable energy has only just begun, and many still deny the necessity of it, the pervasive feeling that the era of endless growth is over continues to spread. While self-realization was previously achieved through a surplus of wealth, a new, likely subconscious ideology is emerging: that one can only achieve self-realization by denying others the means to do the same.
+The idea of the state then changes from an entity that is protecting its citizen from cruelty to a distributor and enabler of cruelty such that everyone, especially the self-proclaimed "silenced majority", "get what they deserve" {% cite amlinger:2025 %}.
+This zero-sum battle over distribution will inevitably intensify unless we develop alternative frameworks for personal fulfillment.
+
 When I look at my little nieces, I hope that---despite the impending catastrophes as a combination of a war against our political, scientific as well as environmental ecosystem---they will live in a culture that has managed to sensitize itself to cruelties I cannot yet see.
-I hope they live in a culture that has once again made it its goal to be intellectual in the Rortyan sense: a culture that revitalizes the old ideal of "poets and thinkers"---not by hunting for a final, objective truth, but by using the poet's imagination to reshape our world into something more humane.
-I hope they will be merciful toward me, understanding that it was still impossible for me to see so much more, because my language was still bound by the limits of my time.
+Even if we fail over and over again, I hope they live in a culture that has once again made it its goal to be intellectual in the Rortyan sense: a culture that revitalizes the old ideal of "poets and thinkers"---not by hunting for a final, objective truth, but by using the poet's imagination to reshape our world into something more humane.
+I hope that, if they fail, they *fail in dignity* and *self-respect*.
+And I hope that they will be merciful toward me, understanding that it was still impossible for me to see so much more, because my language was still bound by the limits of my time.
 I hope the circle of their imagination, in which rationality plays its game, will be larger and not smaller; that they are courageous enough to constantly redescribe themselves and their community, until the "we" of their solidarity reaches far beyond what I am capable of imagining today.
 
 ## References
 
 {% bibliography --cited_in_order %}
+
+<!--
+Interessanterweise sehr nah an: https://www.youtube.com/watch?v=yM_or9mYaXM
+-->
