@@ -421,8 +421,8 @@ The idea of the state then changes from an entity that is protecting its citizen
 This zero-sum battle over distribution will inevitably intensify unless we develop alternative frameworks for personal fulfillment.
 
 When I look at my little nieces, I hope that---despite the impending catastrophes as a combination of a war against our political, scientific as well as environmental ecosystem---they will live in a culture that has managed to sensitize itself to cruelties I cannot yet see.
-Even if we fail over and over again, I hope they live in a culture that has once again made it its goal to be intellectual in the Rortyan sense: a culture that revitalizes the old ideal of "poets and thinkers"---not by hunting for a final, objective truth, but by using the poet's imagination to reshape our world into something more humane.
-I hope that, if they fail, they *fail in dignity* and *self-respect*.
+I hope they live in a culture that has once again made it its goal to be intellectual in the Rortyan sense: a culture that revitalizes the old ideal of "poets and thinkers"---not by hunting for a final, objective truth, but by using the poet's imagination to reshape our world into something more humane.
+I hope that, if they fail, they *fail in dignity* and *self-respect* {% cite metzinger:2023 %}.
 And I hope that they will be merciful toward me, understanding that it was still impossible for me to see so much more, because my language was still bound by the limits of my time.
 I hope the circle of their imagination, in which rationality plays its game, will be larger and not smaller; that they are courageous enough to constantly redescribe themselves and their community, until the "we" of their solidarity reaches far beyond what I am capable of imagining today.
 
