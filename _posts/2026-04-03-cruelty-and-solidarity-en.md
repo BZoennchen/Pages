@@ -386,6 +386,7 @@ What liberals can learn from Rorty is first of all an attitude of humility: thos
 Rorty proposed defending liberalism not as truth but as habit---as a way of living together that we have laboriously acquired and that is worth continuing to narrate.
 
 The resistance to new hardness cannot be primarily argumentative.
+Trump, the German AfD, and others do not convince people via rational arguments but through emotions.
 In fact, **cruelty is the point**!
 One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
 That is not a weakness of the liberal project but its actual strength: not persuasion through logic, but expansion of the imagination.
