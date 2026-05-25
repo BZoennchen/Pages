@@ -372,6 +372,7 @@ Perhaps that is the blind spot that costs us the most dearly today.
 The *urge toward new hardness*, toward strong men, clear images of the enemy, and national self-assertion, is not a sign of strength.
 It is a sign that the circle of solidarity is shrinking. Rorty would not have been surprised.
 He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness.
+
 Because of the political development of the past, we are in the unfortunate position that moral progress correlates with material inequality such that the emontional path from correlation to causation is short and easy to take which leads to a sort of alienation from society {% cite amlinger:2025 %}
 
 >You could earn a lot of money **and then** feminists came in. -- Interviewee
@@ -380,14 +381,14 @@ The core promises of modern society, namely social integration and individual em
 Simultaneously, the modern individual experiences institutions as a restrictive barrier to their self-realization thus society becomes itself a source of cruelty and humiliation.
 The disappointed then find their voice not among those who advocate solidarity, but among those who name enemies.
 
->Destructiveness is the result of unlived life. -- {% cite fromm:1973 %}
+>Destructiveness is the result of an unlived life. -- {% cite fromm:1973 %}
 
 What liberals can learn from Rorty is first of all an attitude of humility: those who stand up for liberal democracy should stop transfiguring it as the *genuinely superior*, the *historically necessary*, or the *rationally only possible*, for this rhetoric acts on those who do not share it as *humiliation*.
 Rorty proposed defending liberalism not as truth but as habit---as a way of living together that we have laboriously acquired and that is worth continuing to narrate.
 
-The resistance to new hardness cannot be primarily argumentative.
+Furthermore, the resistance to new hardness cannot be primarily argumentative.
 Trump, the German AfD, and others do not convince people via rational arguments but through emotions.
-In fact, **cruelty is the point**!
+In fact, **cruelty is the point**; it is a desired feature of their politics and behaviour to humiliate their perceived enemies even if their actions go against their base.
 One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
 That is not a weakness of the liberal project but its actual strength: not persuasion through logic, but expansion of the imagination.
 
