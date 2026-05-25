@@ -373,7 +373,7 @@ The *urge toward new hardness*, toward strong men, clear images of the enemy, an
 It is a sign that the circle of solidarity is shrinking. Rorty would not have been surprised.
 He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness.
 
-Because of the political development of the past, we are in the unfortunate position that moral progress correlates with material inequality such that the emontional path from correlation to causation is short and easy to take which leads to a sort of alienation from society {% cite amlinger:2025 %}
+Because of the political development of the past, we are in the unfortunate position that moral progress correlates with material inequality such that the emontional path from correlation to causation is short and easy to take which leads to a sort of alienation from society {% cite amlinger:2025 %}.
 
 >You could earn a lot of money **and then** feminists came in. -- Interviewee
 
