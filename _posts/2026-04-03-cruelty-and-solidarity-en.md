@@ -20,7 +20,7 @@ The language that once bound us has turned to stone. It knows only the absolute:
 
 In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. What had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people. {% cite baudrillard:1976 %} was right in assuming that the West could not handle the symbolic gift it received on 9/11; by trying to give it back, the system turned inward to hide its powerlessness behind a spectacle of power. Consequently, every act of disobedience can now be declared *terrorism*, and everyone can be branded a terrorist.
 
->However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and a came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress that voted aginst the war in Afghanistan (518 to 1 vote)) 
+>However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and I came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress that voted aginst the war in Afghanistan (518 to 1 vote)) 
 
 A destructive spirit manifests vividly in the image of a solitary wanderer in the eternal ice. The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains. It is a thoroughly extraordinary march against the penguin's own environment, against the instinct for survival, and against every community of interdependent beings.
 
@@ -41,6 +41,14 @@ He could no longer reconfigure his identity through the new vocabulary. He was *
 What he found is the language of dominance.
 
 >The *will to dominate* was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
+
+<!--
+
+In the words of Palantir's manifesto:
+
+>The limits of soft power, of soaring rhetoric alone, have been exposed. The ability of free and democratic societies to prevail requires something more than moral appeal. It requires hard power, and hard power in this century will be built on software. [...] We must resist the shallow temptation of a vacant and hollow pluralism. We, in America and more broadly the West, have for the past half century resisted defining national cultures in the name of inclusivity. But inclusion into what? 
+
+-->
 
 It is as though history were violently recoiling. Where the world had begun to grow quieter and more sensitive to the pain of the "other," a part of it responds with a new, steely coldness.
 
