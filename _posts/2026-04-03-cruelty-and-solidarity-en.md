@@ -18,9 +18,9 @@ Behind the visible trembling of our institutions, a quieter yet far deeper freez
 
 The language that once bound us has turned to stone. It knows only the absolute: sharp edges of "facts" and "enemies", a vocabulary cast as though from ore, leaving no room for what lies between. Attention is directed either toward distraction---the flight from a society one no longer wishes or is able to care about---or toward the destruction of what seems no longer to function. In part patience has run out, and in part curiosity is suffocating in restlessness.
 
-In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. What had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people. 
+In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. And what had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people. 
 
-{% cite baudrillard:1976 %} was right in assuming that the West could not handle the brutal symbolic gift it received on 9/11; by trying to give it back, the system turned inward to give its humiliated power food it could process. Some of this cruelty is old and well accepted if experienced by "the right people" because out of fear we opened the box of exceptions; of treating people marked by some features quite different in front of the law. "We" failed the test and what could have been a time for self-reflexion became the years of the beast.
+{% cite baudrillard:1976 %} was right in assuming that the West could not handle the brutal symbolic gift it received on 9/11; by trying to give it back, the system turned inward to give its humiliated power food it could process. Some of this cruelty is old and well accepted if experienced by "the right people" because out of fear we opened the box of exceptions; of treating people marked by some features quite different in front of the law. "We" failed the test, unable to realize our self-description. And what could have been a time for self-reflexion became the years of the beast.
 
 >However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and I came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress that voted aginst the war in Afghanistan (518 to 1 vote)) 
 
@@ -69,7 +69,7 @@ Yet beyond the loud grievance of the streets, in the soundless, glass-walled cat
 From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust. The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error. It is an ethics that sacrifices today to a speculative singularity of tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. 
 These ideas are neither interesting nor imaginative but ancient and we should be well aware of these old dreams of greatness that require "a downfall of decadence".
 
->We should try to create autonomous countrys on oceans, under water, all sorts of other spaces. Technology is the vehicle to escape and move beyond politics as we find it today. -- Peter Thiel
+>We should try to create autonomous countrys on oceans, under water, and all sorts of other spaces. Technology is the vehicle to escape and move beyond politics as we find it today. -- Peter Thiel
 
 In this worldview, an old dark spirit returns, cloaked in the garb of logic: the conviction that life has a price measured by its utility for the great progress, which could be gauged by its approximation to the absolute; that the immaterial disguised as weightless information is real and the material---bodies and trees, flowers and animals, mountains and oceans---can be overcome.
 Once again it is assumed that everything can be calculated, but in place of Kantian principles stand calculating machines and the theories of probability and expected values.
@@ -135,7 +135,7 @@ In the age of "fake news" this may sound irritating, for is it not "the Truth" w
 In place of principles that we might yet discover, Rorty stakes everything on new, persuasive vocabularies that are to be invented.
 For if one wants to say something new, one must create a new language {% cite maturana:1991 %}.
 Freedom and solidarity arise where we find words, metaphors, and descriptions that allow us to see ourselves, others, and the world differently.
-The power of language lies not in mirroring reality, but in reconfiguring it.
+**The power of language lies not in mirroring reality, but in reconfiguring it.**
 
 Kant provided some good reasons to prevent cruelty, and Nietzsche shattered their *claim to universality*---he shattered the idea that there is any entity, whether God or Reason, that could decide outside a historical-evolutionary context: "Who I am", "What I should do", "What I can know" and "What I may hope for."
 Kant undertook the attempt to formulate principles that should hold for everyone, thereby creating the basis for solidarity, human rights, and democracy.
@@ -150,13 +150,13 @@ Nietzsche is perhaps the epitome of the *ironic theorist* who unmasks every supp
 Nietzsche teaches us that no description of the world is necessary---that we could always tell other stories to understand ourselves and our community differently.
 Kant, on the other hand, reminds us that such new creations have limits where they overlook the suffering of others.
 
->Rationality is a matter of making allowed moves within a language game. Imagination creates the games reason proceeds to play. Then [...] it keeps modifying those games so that playing them is more interesting and profitable. Reason cannot get outside the latest circle that imagination has drawn. It is in this sense, and only this sense, that imagination holds the primacy -- {% cite rorty:2016 %}
+>Rationality is a matter of making allowed moves within a language game. Imagination creates the games reason proceeds to play. Then [...] it keeps modifying those games so that playing them is more interesting and profitable. Reason cannot get outside the latest circle that imagination has drawn. It is in this sense, and **only** this sense, that imagination holds the primacy -- {% cite rorty:2016 %}
 
 Rorty recognizes in this tension the productive condition of a liberal modernity: without Nietzsche, no renewal; without Kant, no consideration. **We need Nietzsche so that life remains interesting, and Kant so that it remains bearable.**
 
 >Rational discussion is not an appeal to eternal standards, but simply an attempt to make our beliefs and desires as coherent with one another as possible while constantly adding new beliefs and desires to the old. -- {% cite rorty:1990 %}
 
-Rorty emphatically reminds us that most people do not want to be redescribed, and that an imposed redescription is usually cruel.
+However, Rorty emphatically reminds us that most people do not want to be redescribed, and that an imposed redescription is usually cruel.
 People generally want to be taken as they speak.
 
 >There is something potentially very cruel about the claim that [the language people speak is, for the ironist, a matter of chance]. For the most effective way of causing people enduring pain is to humiliate them by making the things that seemed most important to them look futile, obsolete, and powerless. - {% cite rorty:1989 %}
@@ -275,7 +275,7 @@ Analogously, an explanation functions as a "peacemaker" in human relationships {
 In the moment we accept an explanation, questioning ceases.
 I therefore see a genuine compatibility between these two schools of thought.
 
->The contrasting view [of getting at a certain answer to questions like "What is really good?", "What is really just". "What is really real?", "What is really true?", "What is really human?"], which I share with people like William James, Dewey, [and] Satre is that the point of Socrates' life was not to discover a permanent absolute truth but rather just to keep people thinking, to keep them inventing, to open up their imaginations to alternatives to present convictions. -- {% cite rorty:1990 %}
+>The contrasting view [of getting at a certain answer to questions like "What is really good?", "What is really just?", "What is really real?", "What is really true?", "What is really human?"], which I share with people like William James, Dewey, [and] Satre is that the point of Socrates' life was not to discover a permanent absolute truth but rather just to keep people thinking, to keep them inventing, to open up their imaginations to alternatives to present convictions. -- {% cite rorty:1990 %}
 
 Once liberal society has become distrustful of its "inner core," it can no longer appeal to that core.
 What society has learned about itself it will not easily be able to forget.
@@ -362,16 +362,19 @@ So, what would Rorty propose to us today? Certainly no grand promises or revolut
 Authors such as Han {% cite han:2021 %} describe the achievement society as a place of *friendly violence* in which self-creation degenerates into self-optimization and the human being becomes mere *standing-reserve*---a concept that Han borrows from Heidegger's critique of technology (cf. {% cite heidegger:1954 %}).
 Here Rorty would react with skepticism, and not only toward the diagnoses, but above all toward the vocabulary.
 He fundamentally distrusted Heidegger's metaphysics of *forgetfulness of Being*: it runs the risk of **condemning modernity as a whole** rather than naming and addressing concrete grievances.
-For Rorty this is a philosophical luxury that a left that actually wants to change something cannot afford.
+For Rorty this is a philosophical luxury neither progressives nor conservatives who actually wants to change something cannot afford.
 This does not mean that Rorty would simply dismiss Han's observations. The empirical description that people suffer from exhaustion, that the pressure of self-optimization destroys social solidarity, that depoliticization is a danger---these he would share.
-But his answer would be pragmatic and reformist, not cultural-critical: shorten working hours, guarantee social security, create spaces for purposeless exchange, so that people once again have the leisure to redescribe themselves rather than optimizing themselves for the market.
+But his answer would be pragmatic and reformist, not cultural-critical: improve working conditions and educational possibilities, guarantee social security, create spaces for purposeless exchanges, so that people once again have the leisure to redescribe themselves rather than optimizing themselves for the market.
 These are *bread-and-butter questions* of politics, and it is precisely there, not in the *deep diagnosis of the occidental history of Being*, that Rorty would begin.
 
 And since for Rorty progress is the capacity to allow one's own final vocabulary to be expanded by that of the other, through literature and encounters (*sentimental education*), algorithms that isolate us in echo chambers destroy precisely this capacity for empathy.
 He would probably reject digital surveillance as a new form of cruelty that prevents solidarity.
 
 Futhermore, his hope for an ever-growing solidarity presupposes that the material conditions still permit this expansion at all.
-Here, Carolin Amlinger reports: "the resentful feel fundamentally bocked in their progress as if ones life is overlaid by mud".
+Here, Carolin Amlinger reports: 
+
+>the resentful feel fundamentally blocked in their progress as if ones life is overlaid by mud.
+
 That is why he would agree with Han's observation that "depoliticization" is a danger, but he would call for speaking once again about "bread-and-butter issues" rather than philosophically condemning the whole of modernity.
 Here, however, Rorty's approach runs up against a limit that he himself did not see: his concept of solidarity remains *anthropocentric*---he asks who can suffer pain and humiliation and draws the circle of the moral exactly there.
 **The earth does not speak**, so it does not feature in his account.
@@ -411,23 +414,24 @@ But if we no longer cultivate ourselves to desire the reduction of cruelty, libe
 
 The resistance to new hardness cannot be primarily argumentative.
 Trump, the German AfD, and others do not convince people via rational arguments but through emotions.
-In fact, **cruelty is the point**; it is a necessity; it is a desired feature of their politics and behaviour to humiliate their perceived enemies even if their actions go against their base because it is cruelty that can be employed to get back what one never owned and will never own: a nation, a race, a country, a planet, a superintelligence. 
+In fact, **cruelty is the point**; it is a necessity. It is a desired feature of their politics to humiliate their perceived enemies even if their actions go against their base because it is cruelty that can be employed to get back what can never be owned: a nation, a race, a country, a planet, a superintelligence.
+
 One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
 That is not a weakness of the liberal project but its actual strength: not persuasion through logic, but expansion of the imagination.
 
 Third, and this is perhaps Rorty's most uncomfortable lesson: liberals must stop overlooking their own cruelty.
 New hardness thrives where people feel that their vocabulary---their way of describing their life, giving dignity to their work, and meaning to their community---is being ridiculed by those who advocate openness and tolerance.
-A solidarity that applies only among the educated, excludes any recognition of the sufferings of a racist, is blind to the struggle of the worker is no solidarity.
+A solidarity that applies only among the educated, excludes any recognition of the sufferings of a racist, is blind to the struggle of workers is no solidarity.
 
 We easily fall into the trap of forcing a description of the world onto someone else that makes them powerless, or ignoring their capacity to suffer. A racist acts with immense cruelty by denying the humanity and suffering of others based on their race.
 However, Rorty warns that if liberals turn around and treat the racist as a subhuman monster who is inherently evil, the liberals are also slipping into a form of cruelty. They are closing their eyes to the racist's humanity, treating them as an irredeemable object rather than a person who has been poorly socialized.
 It is a new form of humiliation, and Rorty would have insisted that liberals look for this first in themselves before pointing a finger at others.
 
-There is no absolute moral laws that resolves this *paradox of tolerance* but a pragmatic response: your tribe's way of living which does not tolerate racism is better to reduce cruelty and we will therfore enforce it with the use of political power. We recognize that the racist is a human being capable of suffering but this will not paralyze us.
+There is no absolute moral laws that resolves this *paradox of tolerance* but a pragmatic response: our tribe's way of living which does not tolerate racism is better to reduce cruelty and we will therfore enforce it with the use of political power. We recognize that the racist is a human being capable of suffering but this will not paralyze us.
 
 Yet Rorty knew how easily this pragmatic enforcement of power can warp into state-sponsored paranoia. His immediate, visceral opposition to the post-9/11 "War on Terror" and the invasion of Iraq was driven by this exact anxiety. He recognized that the moment a democracy prioritizes absolute safety over civil liberties, it surrenders its moral authority. He viewed the weaponization of fear after 9/11 as a disastrous distraction from building a more just, equal, and inclusive society. He called this manifestation "simple-minded militaristic chauvinism". To Rorty, trading freedom for security was a cynical political maneuver that exported violence abroad while bleeding away the resources needed to fix internal failures like poverty and systemic racism. A society terrified of an invisible enemy inevitably stops listening to its citizens and starts listening to a "strongman".
 
-In short: Today, Rorty would not call on us to save democracy by philosophically refuting its enemies. He would call on us to narrate it---again and again, in new words, for people who do not yet recognize themselves in it.
+In short: Today, Rorty would not call on us to save democracy by philosophically refuting its enemies. He would call on us to narrate it---again and again, in new words, for people who do not yet recognize themselves in it. Instead of giving up on cultivating the art of solidarity, he would call on us to reconfigure our social reality in such a way that it fits our description of a liberal democracy; to go so far to say: it is more important to be sensible to cruelty than to find "the truth".
 
 But that requires time.
 Not the time of rapid consumption, but the slow time of reading.
@@ -435,9 +439,9 @@ It requires that patience which allows one to immerse oneself in an unfamiliar f
 Rorty knew that solidarity does not arise in seconds.
 It grows in the hours spent with *Raskolnikov*, *Dorothea Brooke*, or the *Invisible Man*---with people one will never meet and whom one nonetheless begins to know.
 
-As a new communication medium participating in communication for the first time (cf. {% cite esposito:2022 %}), *(Generative) AI* transforms precisely this process, and in a way that would have troubled Rorty.
+Here, as a new communication medium participating in communication for the first time (cf. {% cite esposito:2022 %}), *(Generative) AI* transforms precisely this process, and in a way that would have troubled Rorty.
 Not because the technology is evil, but because it accelerates, compresses, and smooths encounters with the unfamiliar.
-What a novel laboriously builds over two hundred pages---for example, trust in an unfamiliar voice, the capacity to endure contradictions, the slow understanding of another world---an AI can summarize in a few paragraphs.
+What a novel laboriously builds over two hundred pages---for example, trust in an unfamiliar voice, the capacity to endure contradictions, the slow understanding of another world---an LLM can summarize in a few paragraphs.
 But whether the expansion of the imagination that Rorty had in mind still arises in the process is questionable.
 Summaries do not sensitize; they inform.
 And the difference between the two is, for Rorty, the **difference between knowledge and solidarity**.
