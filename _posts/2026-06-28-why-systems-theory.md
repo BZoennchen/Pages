@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Case for Systems Theory"
+title:  "A Case for Systems Theory in Computer Science Education"
 tags: 
   - Opinion 
   - Education 
