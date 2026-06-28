@@ -1,4 +1,227 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-06-20T02:23:03+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">The Art of Solidarity</title><link href="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html" rel="alternate" type="text/html" title="The Art of Solidarity" /><published>2026-04-03T00:00:00+02:00</published><updated>2026-04-03T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html"><![CDATA[<h2 id="a-new-cruelty--on-the-longing-for-certainty">A New Cruelty — On the Longing for Certainty</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-06-28T14:02:24+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">A Case for Systems Theory</title><link href="https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory.html" rel="alternate" type="text/html" title="A Case for Systems Theory" /><published>2026-06-28T00:00:00+02:00</published><updated>2026-06-28T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory.html"><![CDATA[<p>Imagine we are given the task of building a recommendation system. The requirements are clear: the system should suggest content to users that they are highly likely to click on. We define a metric. Let’s say, time spent on the platform. Then we optimize toward it. We test, iterate, deploy. The system works. The metric rises.</p>
+
+<p>And then something happens that was in no specification document: people do not merely spend more time on the platform but they change. Their worldview radicalizes gradually, because the system systematically favors polarizing content, since that generates stronger emotional reactions and therefore longer engagement. Social groups fracture. Adolescents develop anxiety disorders. Democratic discourse erodes, and in a distant country people are suddenly being hunted.</p>
+
+<p>The story is real and well-documented. The system fulfilled its specification and still failed. One cannot even necessarily say it was misaligned, because it realized precisely the values its developers had put into it.
+This discrepancy between technical success and systemic harm is therefore not an operational accident. It is not a case of “AI” acting autonomously or exerting influence on its own. The problem reveals itself as an epistemological one, that is, one that computer science as a discipline has so far addressed only inadequately. This text aims to explore why that is, and what a nearly forgotten intellectual program called <em>cybernetics</em> might have to contribute.</p>
+
+<p>First we have to recognize that even though humans have always been technological, something has changed over the last decades.
+The products of computer science are no longer confined to data centers. They have grown deep into the structures of social life.
+Algorithms, and increasingly, learning algorithms, co-determine which news people read, which candidates they see in job applications, what creditworthiness is assigned to them, what therapy options they are offered, and what ideas they develop. Software controls infrastructure that millions of people depend on every day.</p>
+
+<p>This is no exaggeration and no dystopian narrative but the sober observation of a development that has taken place over the last three decades. Technical systems have become constitutive parts of social, psychological, and biological systems. They are part of a co-evolutionary <em>drift</em> neither in control nor controllable in the strong sense.
+Here <a class="citation" href="#luhmann:1998">(Luhmann, 1998)</a> points away from a critique of technology that sees it as dominating force and instead insists that society becomes dependent on technology in an unplanned manner by engaging with it (die Gesellschaft lässt sich auf Technik ein).</p>
+
+<p>Of course, in some sense this was always the case since even a simple automatic door opener influences social life but today’s systems differ in kind, not merely in degree: they are recursive, adaptive, and operate at a scale and speed that outpaces human observation and reaction.
+They irritate our thinking, suggest how we communicate, how we organize ourselves, how we sleep, how we eat, how and whom we love.
+What also changed is the classification of organisms and technical systems with respect to their coupling strategy.
+At the time of his writing, Luhmann argued that technology can be identified as realizing <em>strict couplings</em> whereas organisms and ecosystems avoid this form of coupling and tend towards a <em>loose coupling</em>.
+Technology takes a messy, unpredictable world and forces a tight, invariant relationship between cause and effect.
+Thus, for Luhmann, technology’s entire purpose is to exclude contingency (the possibility of things being otherwise) to guarantee a specific output.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>
+We argued in <a class="citation" href="#zoennchen:2025">(Zönnchen et al., 2025)</a> that especially with the advances in the development of large language models this might no longer be the case.
+But even a recommender system can be seen as a realizing a <em>loose coupling</em>: The technical system relies on social feedback to reduce its own algorithmic complexity, while the social system relies on the technical system to sort through the overwhelming noise of the digital world. And because the technical system is structurally coupled to the unpredictable, loose nature of social communication, the strictly coupled outputs change second-by-second.</p>
+
+<p>And yet, when we design (and use) technical systems, we mostly treat them as if they were self-contained machines—simple tools that cannot really alter our <em>autonomy</em> and <em>agency</em>, even though we know that this is not the case.
+We specify inputs and outputs. 
+Confidently, we define clear causal chains such that A leads to B and B leads to C.
+Rather implicitly, we use system boundaries that separate the technical from the rest of the world; 
+We optimize within those boundaries.
+And whatever happens beyond them does not belong to our responsibility.</p>
+
+<p>Rather than describing this as an individual failure of developers and engineers it might be healthier to think of it as a structural consequence of the way we have learned to think as a discipline.
+It is an effective way to solve a certain problem since a certain amount of ignorance is necessary to transform uncertainty into something we can manage, such that we are not paralyzed and can move on.
+As Luhmann puts it: <strong>Technology constitutes an evolutionary achievement that operationalizes complexity reduction.</strong></p>
+
+<h2 id="a-repressed-inheritance">A Repressed Inheritance</h2>
+
+<p>Things were once different. In the decades following the Second World War, there was an intellectual movement that refused to accept precisely these boundaries. <em>Cybernetics</em> which was founded by Norbert Wiener, Gregory Bateson, Heinz von Foerster, and others asked what control, feedback, information, and self-regulation mean, regardless of whether the system in question is a machine, an organism, a brain, or a society.
+The early cyberneticians sat together at the same table. This included mathematicians, neurologists, anthropologists, economists, and engineers. The famous Macy Conferences (1946–1953) brought these disciplines into a conversation.</p>
+
+<p>What became of this program? It did not fail. Instead, it was absorbed institutionally. The successor disciplines, such as control engineering, computer science, cognitive science, organizational theory, and operations research, each inherited and developed a part of the cybernetic legacy. But in this process of specialization, what had held it together was abandoned. The shared conversation became a series of monologues.</p>
+
+<p>This is no criticism of specialization as such. <em>Functional differentiation</em>, i.e. the division into independent disciplines with their own methods, concepts, and communities of communication, was historically extraordinarily productive. It allowed for complexity reduction, sharper questions, cumulative knowledge. The computer science we know today would be unthinkable without this differentiation.
+But every reduction of complexity comes at a price. What disappears from view does not cease to exist.</p>
+
+<p>So should we go back in time?
+Anyone who argues today for a return of cybernetics into the syllabus of computer science education must face a question: Is cybernetics not fundamentally compromised, particularly by its military history, by a vocabulary that turns the human being into a machine, by a proximity to control and steering that seems irreconcilable with a liberal, humanist conception of society? (We should also ask if this conception of society is still fruitful e.g. for the <a href="/Pages/2026/04/03/cruelty-and-solidarity-en.html">liberal project to reduce cruelty</a>.)</p>
+
+<p>However we think of this conception, the discomfort is real and should not be dismissed lightly.
+Cybernetics did not emerge in a vacuum. Norbert Wiener developed his ideas about feedback loops and control circuits initially in the context of military anti-aircraft defense. The word “cybernetics” itself (from the Greek <em>kybernetes</em>, the helmsman) means guidance, mastery, control. And the program of describing biological organisms and technical machines under the same concepts provoked, and continues to provoke, an unease rooted deep in humanist tradition: if human beings and thermostats operate according to the same principles, what remains of freedom, dignity, and meaning?</p>
+
+<p>This critique left its mark on the humanities academy. Cybernetics is still regarded by many there as an intellectually dubious enterprise. It is seen as an attempt at a scientific annexation of the human being, a precursor to precisely those algorithmic regimes against which people argue so passionately today.</p>
+
+<p>Yet here, I believe, lies a consequential misunderstanding or rather, a fatal confusion. In my interpretation of what I read, the cybernetics about which this discomfort exists is largely the <em>first-order cybernetics</em> of the 1940s and 50s, that is, the cybernetics of control, of feedback loops, of the behaviorist model that describes organisms through their input and output behavior without taking their inner life into account. And in fact, Wiener himself recognized early on what this program could bring about if placed in the wrong hands. In <em>The Human Use of Human Beings</em> <a class="citation" href="#wiener:1954">(Wiener, 1954)</a>, he warned emphatically against the possibility of using cybernetic principles to manipulate and control people. Wiener is in this sense a tragic figure—not because he opened a Pandora’s box without knowing it, but because he knew what he was doing, issued warnings, and was nonetheless remembered primarily as the inventor of an apparatus of control that he himself feared.</p>
+
+<blockquote>
+  <p>[Regarding the topic of job destruction,] Wiener notes in the [Cybernetics] that he’d attempted to alert the labor unions of the threats posed by automation to their membership. […] The potentially ruinous impact of communication technologies on democracy is another issue that Wiener anticipated with uncanny accuracy. […] As the scale, scope, and speed of information technologies have increased, so has the potential for corruption. Certainly Mark Zuckerberg failed to appreciate that Facebook’s “global community” of two billion users would inevitably produce countless messages that were antithetical to homeostasis, and thus to genuine community. […] That the routine operation of computer technologies can lead to disaster was a point Wiener stressed repeatedly. “Thinking” machines are relentlessly literal-minded, he said. […] Speed is another routine feature of automation that Wiener frequently warned could thwart our intentions. […] He regularly railed against the “hucksters” in commerce and “gadget worshippers” in science whose cupidity leads irrevocably, he believed, to “no homeostasis whatever.” Readers will find piquant examples of Wiener’s disdain for the captains of capitalist industry in [Cybernetics]. […] Wiener [in contrast to Shannon] set out to explain how information is the lingua franca of both animal and machine, a mission that consciously involved exploring, as he put it, “the boundary regions of science.” Thus, cybernetics as Wiener conceived it is <strong>physically embodied—understanding</strong> […]. – From the Foreword of <a class="citation" href="#wiener:2019">(Wiener, 2019)</a> by Doug Hill</p>
+</blockquote>
+
+<p>What has been almost entirely forgotten is <em>second-order cybernetics</em> <a class="citation" href="#foerster:2003">(von Foerster, 2003)</a>, which formed from the 1960s onward primarily around Heinz von Foerster and Humberto Maturana. This movement drew precisely the opposite conclusion from the cybernetic foundations. Its central argument was: <strong>living systems are autonomous</strong>. They are operationally closed. They cannot be steered from outside. They respond to perturbations from the environment according to their own inner logic. Maturana’s concept of <em>autopoiesis</em> <a class="citation" href="#barry:2012">(Razeto-Barry, 2012; Maturana &amp; Varela, 1987)</a> describes living systems as those that produce and maintain themselves and are therefore, in principle, inaccessible to external control.</p>
+
+<blockquote>
+  <p>I mention this matter because of the considerable, and I think false, hopes which some of my friends have built for the social efficacy of whatever new ways of thinking this book may contain. They are certain that our control over our material environment has far outgrown our control over our social environment and our understanding thereof. Therefore, they consider that the main task of the immediate future is to extend to the fields of anthropology, of sociology, of economics, the methods of the natural sciences, in the hope of achieving a like measure of success in the social fields. From believing this necessary, they come to believe it possible. In this, I maintain, they show an excessive optimism, and a misunderstanding of the nature of all scientific achievement – <a class="citation" href="#wiener:2019">(Wiener, 2019)</a></p>
+</blockquote>
+
+<p>This is not an apology for control but its critique in a Kantian sense, by nullifying the very conditions of possibility for purposive steering. The core ambition of second-order cybernetics was to show that control over nature and human beings is not only ethically problematic but epistemically impossible. It is a theory of the limits of steering. This insight was taken up by the ecology movement, i.e. by thinkers such as Gregory Bateson, who in <em>Steps to an Ecology of Mind</em> <a class="citation" href="#bateson:1972">(Bateson, 1972)</a> described the fatal consequences of a mode of thinking that treats nature as a steerable system. One might say: second-order cybernetics is the intellectual resource we would need in order to understand the mistakes we make when we think in the terms of first-order cybernetics.</p>
+
+<p>Why is this part of the legacy so little known?
+It seems to me that the emerging artificial intelligence research of the 1960s and 70s turned away from cybernetics—partly for substantive reasons, partly because competition for third-party funding sharpens disciplinary boundaries.
+AI and cybernetics became rivals for resources and interpretive authority, not partners. Computer science, which was constituting itself as an independent discipline at that time, oriented itself toward AI research, not toward cybernetics and the emerging <em>systems theor</em>y. One might say, somewhat pointedly, that <strong>computer science chose <a class="citation" href="#shannon:1948">(Shannon, 1948)</a> over <a class="citation" href="#wiener:2019">(Wiener, 2019)</a></strong>. The cybernetic legacy remained in control engineering, in parts of biology and sociology but not in the discipline that today builds the most consequential technical systems.</p>
+
+<p>It is therefore no coincidence but the result of concrete institutional history that computer scientists and software engineers today are mostly unfamiliar with Wiener’s warnings or von Foerster’s critique of steerability. The burdened legacy of cybernetics is to a considerable degree a repressed legacy and the repressed, as we know, returns. Only often in a form we did not choose.</p>
+
+<p>Of course, the gains of specialization are tangible. Computer science as an independent discipline was able to concentrate on its core questions: computability, algorithms, data structures, architectures, formal verification. This focus produced extraordinary depth. We understand today with remarkable precision how systems function within defined boundaries.</p>
+
+<p>The loss is subtler and therefore harder to grasp. It does not lie in having forgotten certain facts, but in certain questions never being asked in the first place. When the system boundary ends at the technical artifact, everything beyond that boundary, that is, the social, the psychological, the biological lies by definition outside the domain of responsibility. One is not blind to these areas out of indifference, but because the disciplinary toolkit simply cannot grasp them.</p>
+
+<p>A physicist who knows only mechanics will not overlook thermodynamic phenomena because he dislikes them, but because his conceptual apparatus has no place for them. The same applies to computer scientists and software engineers who have never encountered psychological and social systems as objects of their discipline.</p>
+
+<p>These <em>blind spots</em> become costly in a hypercomplex and hyperconnected world. The recommendation algorithm is only one example among many. Automation systems that transform labor markets and reshuffle social strata; systems that learn statistically, that intervene in decision-making processes, that determine life chances; surveillance infrastructures that shift the conditions of psychological and social autonomy are further cases. In all of them, we have built systems that function correctly (most of the time) at the technical level and produce effects at the systemic level that we did not anticipate, precisely because we never learned to think in these categories.</p>
+
+<p>One might attribute a certain malice or greed to the builders of such systems. I prefer to speak of a certain <em>arrogance of ignorance</em>, of missing signals that would enable appropriate regulation, and of a system logic to which operators find themselves exposed. There are regulations against the contamination of drinking water, but we are only now beginning to think about how to limit the “contamination” of psychological systems. Part of the reason is certainly the distinction between physical and psychological injury, and the <strong>problem of paternalism</strong>. In the latter case, we are also dealing with effects that are difficult to observe. It would nonetheless be desirable if technical systems were kept under continuous observation and their operators were subject to a certain pressure of justification through systemic analysis. Operators should be answerable to the concerns of a systemic perspective. They should be confronted with the question of under what system logic the system operates, whether this leads to the wellbeing of citizens, and what plans exist to ensure it does. A systemic analysis could draw attention to <em>positive feedback loops</em> and call for the introduction of <em>negative</em> ones.</p>
+
+<h2 id="redrawing-the-boundary">Redrawing the Boundary</h2>
+
+<p>Here lies the core of the problem, and it is epistemological in nature: every systems analysis begins with a decision about what belongs to the <strong>system</strong> and what belongs to the <strong>environment</strong>. This decision is never neutral. It determines what counts as a relevant variable, what counts as noise, what counts as an effect of the system, and what counts as an external influence.</p>
+
+<p>When we design a recommendation system and draw the system boundary to include only the algorithm, the database, and user interactions, we have by definition relegated psychological and social dynamics to the environment. They do not appear in the system model. Their feedback loops are invisible.</p>
+
+<p>Importantly, this boundary-drawing occurs even when we do not consciously undertake it. It is built into our methods, how requirements analyses are conducted, how architectures are described, how tests are specified, and how success metrics are defined. <strong>The system boundary is not the result of a decision but the result of a tradition.</strong></p>
+
+<p>And that is perhaps the strongest argument for a renewal of <em>systems-theoretical thinking</em> in computer science: not that we drew the wrong system boundaries, but that we mostly did not draw them at all. They emerged from disciplinary habit. A conscious, reflective practice of system modeling would mean making these boundaries explicit, and thus making them open to negotiation.</p>
+
+<p>The goal is not to restore the cybernetics of the 1950s. Knowledge develops, and that is as it should be. But the systems-theoretical traditions of second-order cybernetics—embodied in Heinz von Foerster <a class="citation" href="#foerster:2003">(von Foerster, 2003)</a>, Stafford Beer’s Viable System Model <a class="citation" href="#beer:1995">(Beer, 1995)</a>, and the sociological systems theory of Niklas Luhmann <a class="citation" href="#luhmann:1984">(Luhmann, 1984; Luhmann, 1998)</a>—have, in the decades since the cybernetic breakthrough, developed a vocabulary that could be extraordinarily relevant for computer science today.</p>
+
+<p>Some core concepts that would be worth introducing into <em>computational thinking</em>:</p>
+
+<p><strong>Operational closure and structural coupling.</strong> Luhmann describes social and psychological systems as operationally closed, meaning they operate according to their own inner logic and cannot be steered directly from outside. A social system does not respond to inputs the way a technical system does; it is perturbed by impulses from the environment and processes these according to its own criteria. This has immediate consequences for any technology that seeks to “shape” social behavior. It can disturb, provoke, make offers, nudge but it cannot directly control or command.</p>
+
+<p><strong>Emergence.</strong> Complex systems exhibit properties that do not exist at the level of individual components and cannot be predicted from them. This is no longer an unfamiliar concept in computer science but it is usually applied to technical systems. Systems-theoretical thinking would suggest expecting and analyzing emergence also at the interface between technical and social systems. What arises when an algorithm and a social community come into contact? This question cannot be answered with technical means alone but it can at least be posed precisely with systems-theoretical concepts.</p>
+
+<p><strong>Recursive self-description.</strong> Second-order cybernetics pointed out that every description of a system is part of the system it describes. Whoever models social systems alters the system through the model. The actors know the model, react to it, habituate themselves or are estranged from it, subvert or confirm it. This is a fundamental problem of all social technology: it does not operate on a neutral substrate but on self-interpreting systems. A creditworthiness algorithm, once known, changes the behavior of the people it evaluates. Those who know that language models analyze CVs will formulate their CV differently.</p>
+
+<p><strong>Feedback and system dynamics.</strong> This is the oldest cybernetic concept and simultaneously the one that has penetrated furthest into computer science, for instance in control engineering. But the systems-theoretical perspective would invite us to consider feedback loops not only within technical systems, but also between technical, social, and psychological systems. The changes that a technical system triggers in its social environment return to the technical system as altered usage and altered expectations. Modeling or at least anticipating these loops is difficult but ignoring them is dangerous.</p>
+
+<p>At this point an objection might arise: should computer science now pursue sociology and psychology? Do we not lose precisely the sharpness that makes us productive when we expand into such breadth?
+The objection deserves to be taken seriously but it rests on a misunderstanding. The goal is not to replace computer science with systems theory or to retrain programmers as sociologists. The goal, in my mind, is something more modest: computer scientists should learn to consciously perceive the limits of our models.</p>
+
+<p>An architect need not be a structural engineer in order to know that they need one and when they need one. A software engineer need not be a social scientist in order to know that their system intervenes in social systems with their own dynamics that she does not fully understand. Systems-theoretical thinking gives her the vocabulary to name these boundaries, and might provoke her to ask the right questions, to bring in the right expertise.
+This would be, I think, no weakening of the discipline, but a consistent maturation that is long overdue given present circumstances.</p>
+
+<p>Compare it with the development of software quality over recent decades. It was once not a self-evident part of <em>computational thinking</em> <a class="citation" href="#wing:2006">(Wing, 2006)</a> to reflect on security, accessibility, data protection, or energy efficiency. These aspects were introduced into the discipline through external demands, for example, through legal regulation, social debate, spectacular failures, and so on. Today they belong, if not yet always ideally, to the canon.</p>
+
+<p>Systemic effects could be the next chapter of this development, especially because the practice of writing code—which is very different from understanding it—seems to be in decline.
+It would be wiser to write this next chapter before the failures become even larger.</p>
+
+<p>For practitioners, “more systems theory” can easily sound like an academic demand without operational consequence. It is therefore worth sketching where systems-theoretical thinking can actually be translated into practice:</p>
+
+<p><strong>In requirements analysis:</strong> The explicit question of which systems, i.e. technical, social, psychological, biological, are touched by the project. Not as a checklist, but as a genuine analytical practice. What feedback loops are to be expected? What properties of these systems are not modelable but nonetheless relevant?</p>
+
+<p><strong>In system design:</strong> The distinction between what the technical system can control and what it can only perturb or offer, that is, the difference between <em>loose</em> and <em>strict</em> <em>couplings</em>. Which systems must we treat as <em>black boxes</em>, and which are <em>white</em> to us? This distinction fundamentally changes design decisions. It suggests making systems more modular, more reversible, and more observable, because the effects on social systems cannot be fully anticipated.</p>
+
+<p><strong>In metrics definition:</strong> The question of whether the metrics being optimized for represent the systemic goals, or only the technically measurable slice of them. This is the most direct consequence of the recommendation algorithm example: time on platform is not the same as user wellbeing.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p><strong>In education:</strong> Systems-theoretical foundations but not, of course, in their full Luhmannian complexity, but potentially as part of the computational canon. What are systems? What is environment? What is (structural) coupling? What is emergence? What does it mean that social systems are operationally closed? These questions could be integrated as a standalone module or as a cross-cutting theme in existing courses. The theory itself must, however, remain open to critique, and it is necessary to also engage with its critics.</p>
+
+<p><strong>In interdisciplinary projects:</strong> Systems theory as a shared language that enables precise communication across disciplinary boundaries. When a computer scientist and a sociologist can both speak about “structural coupling,” they have a common vocabulary for something that is otherwise very difficult to articulate.</p>
+
+<h2 id="when-the-model-becomes-an-actor">When the Model Becomes an Actor</h2>
+
+<p>Let me come to an end by looking at a recent example of a system that should be looked at with a systems theoretical perspective.</p>
+
+<p><em>Prediction markets</em> offer a particularly instructive illustration of dynamics. 
+These are markets on which participants can bet on the outcome of future events, for example, from election results to whether a politician will use a particular word in a speech to whether a new drug will pass clinical trials. 
+Each bet takes the form of a contract that pays out one dollar if the event occurs and nothing otherwise. 
+The current market price therefore directly reflects the collective probability estimate: a price of $0.73 means the market assigns a 73% probability to the event occurring. 
+The promise is that markets aggregate information efficiently, meaning those with superior knowledge can profit, which draws well-informed participants and, ideally, surfaces something close to the truth.</p>
+
+<p>The most obvious problem is one we already know from sports betting: the possibility of corruption. If you can bet on an outcome, you have a financial incentive to influence it.
+Prediction markets extend this temptation to virtually every domain—elections, policy decisions, scientific results, media events.
+The set of potential actors willing to manipulate an outcome grows correspondingly large, and the markets themselves make it easier to identify which events are both consequential and controllable by a small group.
+In Luhmann’s terms, money is being used to <strong>pierce the operational closure of functionally differentiated systems</strong>.
+This could essentially make the political system respond to economic logic, or the scientific system respond to financial incentives (directly, i.e. suddenly the operations of system A operate <strong>in</strong> system B). 
+Functional differentiation emerged precisely to prevent this kind of interference; it makes each system efficient with respect to its own internal code. Aside from obvious moral issues, breaking it down has costs on a functional level.</p>
+
+<p>But the more fundamental problem persists even if we set aside corruption entirely and imagine a world of perfectly honest participants. It is the problem of recursive self-description. 
+A prediction market does not merely observe the probability of an event but it also publishes that observation, and in doing so becomes a participant in the very system it was meant to describe from the outside. 
+This makes <em>second-order observation</em> possible, meaning people can observe how others observe.</p>
+
+<p>In many cases second-order observation is effectively reduces complexity, for example, when you want to buy a house it is not necessary to go to the house and calculate by hand how much it should cost.
+You observe how others observe the house via the housing market.</p>
+
+<p>In the case of prediction markets, second-order observation is part of the signal an individual brings into the prediction and thereby undermines the whole concept of “drawing in individuals with superior knowledge”.
+And worse: a market price of 85% in favor of a particular election outcome influences how voters, campaigns, donors, and media organizations behave, which in turn influences the outcome. 
+The observer has entered the system. 
+The model is no longer a neutral representation; it is an <strong>actor</strong>.
+That media organizations seem highly interested in coupling their operation with these markets could likely amplify these effects.</p>
+
+<p>The possible consequence is that prediction markets are not simply truth-discovery mechanisms that occasionally malfunction. 
+They are an interesting case for systems theorists because, as I hinted at, they make <em>observations</em> of the models of psychic systems, i.e. our beliefs, <em>observable</em>.
+Consequently, at scale, they risk becoming machines that produce self-fulfilling prophecies—not reading the future from a god’s-eye view, but actively shaping it through the feedback loops they generate. 
+Whether this is a net gain depends on a question the markets themselves cannot answer: what value does a prediction that influences its own outcome actually produce? 
+And for whom?
+And, assuming the system works effectively—which is highly questionable—is it a net good to know what an aggregate believes about the future?</p>
+
+<p>Going back to my <a href="/Pages/2026/04/03/cruelty-and-solidarity-en.html">previous post</a>, I pose the question: do we need this kind of certainty?
+Or probably more appropriate: Will society engage in this sort of complexity reduction or will prediction markets fizzle out.
+Maybe prediction markets could lead to less polarization and act as a negative feedback loop of social media outrage.
+However, because of non-linear nature of their dynamic, it is hard to predict what influence such systems have long term but I would advise to closely observe what happens on a time scale that matches the systems operation speed (if this is even possible).</p>
+
+<p>Listening to interviews of the CEOs of these markets could not eliminate my worries.</p>
+
+<blockquote>
+  <p>Prediction markets are the future. I think they are the future not just for traders but also for news and information. – CEO of Robinhood</p>
+</blockquote>
+
+<blockquote>
+  <p>New York City was shut down [during COVID] and I asked myself: when is this going to end? When will the vaccine gonna be ready? When is shelter in place to be over? And prediction markets can take all these disparate opinions that people are pontificating about or that they have really good reasons to believe and distill it down into one probability. […] When I get hit up by people in the Middle East who are saying that “You know we’re looking at Polymarket to decide whether we sleep near the bomb shelter.” And I am like “Oh, it is really that popular over there?” That is very powerful. That is like an undeniable value proposition that did not exist before. The global truth machine is here, powered by the people. – CEO of Polymarket</p>
+</blockquote>
+
+<blockquote>
+  <p>We are a financial market like a stock market but you trade on politics, weather, climate, economics, sports, and so on. This can rival the stock market. – CEO of Kalshi</p>
+</blockquote>
+
+<p>The possibility to bet on whether there will be a Russia-Ukraine ceasefire before a certain video game comes out, feels intuitively ethically wrong and deeply distasteful.
+Fittingly the Kalshi ad read: <strong>The world’s gone mad, trade it.</strong> 
+It is, of course, also very dubious that the son of the President of the U.S. is an adviser of two of these markets.</p>
+
+<h2 id="an-invitation">An Invitation</h2>
+
+<p>This text is an invitation to reflect. I am by no means an expert on the subject and my reading list is long and growing.
+It is an attempt to articulate an intuition about my observation of the development of technical systems that are increasingly socially and psychologically disruptive.</p>
+
+<p>The intuition is this: we build things we do not fully understand—not in the technical sense, but in the systemic one. We know how our algorithms function. We do not know well enough how they function in the world.</p>
+
+<p>This is no reason for paralysis. No engineering endeavor waits until all effects are fully known before it begins. But it is a reason for humility and curiosity. The systems that concern us are larger than the boundaries we have drawn around them.</p>
+
+<p>Perhaps it is time to renegotiate those boundaries. Not in order to leave computer science behind, but to extend it. Cybernetics and systems theory offer for this purpose a vocabulary that has matured over fifty years and remains largely unused and is largely unknown in the very discipline that emerged from it, and yet which might need it most urgently.</p>
+
+<p>Perhaps it is worth attempting to take a look inside.</p>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="luhmann:1998">Luhmann, N. (1998). <i>Die Gesellschaft der Gesellschaft</i> (p. 1164). Suhrkamp.</span></li>
+<li><span id="zoennchen:2025">Zönnchen, B., Dzhimova, M., &amp; Socher, G. (2025). From intelligence to autopoiesis: rethinking artificial intelligence through systems theory. <i>Frontiers in Communication</i>, <i>Volume 10 - 2025</i>. https://doi.org/10.3389/fcomm.2025.1585321</span></li>
+<li><span id="wiener:1954">Wiener, N. (1954). <i>The Human Use of Human Beings: Cybernetics and Society</i>. Garden City, New York : Doubleday.</span></li>
+<li><span id="wiener:2019">Wiener, N. (2019). <i>Cybernetics or Control and Communication in the Animal and the Machine</i>. The MIT Press. https://doi.org/10.7551/mitpress/11810.001.0001</span></li>
+<li><span id="foerster:2003">von Foerster, H. (2003). Cybernetics of Cybernetics. In <i>Understanding understanding: Essays on cybernetics and cognition</i> (pp. 283–286). Springer New York. https://doi.org/10.1007/0-387-21722-3_13</span></li>
+<li><span id="barry:2012">Razeto-Barry, P. (2012). Autopoiesis 40 years later. A review and a reformulation. <i>Origins of Life and Evolution of Biospheres</i>, <i>42</i>(6), 543–567. https://doi.org/10.1007/s11084-012-9297-y</span></li>
+<li><span id="maturana:1987">Maturana, H. R., &amp; Varela, F. J. (1987). <i>The Tree of Knowledge</i>. Shambhala.</span></li>
+<li><span id="bateson:1972">Bateson, G. (1972). <i>Steps to an Ecology of Mind</i>. Chandler Publishing Company.</span></li>
+<li><span id="shannon:1948">Shannon, C. E. (1948). A mathematical theory of communication. <i>Bell Syst. Tech. J.</i>, <i>27</i>(3), 379–423.</span></li>
+<li><span id="beer:1995">Beer, S. (1995). <i>The Heart of Enterprise</i>. Wiley.</span></li>
+<li><span id="luhmann:1984">Luhmann, N. (1984). <i>Soziale Systeme: Grundriß einer allgemeinen Theorie</i>. Suhrkamp.</span></li>
+<li><span id="wing:2006">Wing, J. M. (2006). Computational Thinking. <i>Commun. ACM</i>, <i>49</i>(3), 33–35. https://doi.org/10.1145/1118178.1118215</span></li></ol>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Nobert Wiener probably would have argued against this distinction because for him noise is a problem for any system be it a machine or an organism. The contradiction dissolves when one realizes that Luhmann and Wiener are analyzing technology at two different levels: operational behavior vs. structural programming. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Of course, regulations or other incentive have to be installed to make sure that the desired systemic goals are in fact the goals of the organizations that set them. But this is itself a systemic problem because such an organization is a complex system that can not be steered or controlled directly but can only be irritated. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Opinion" /><category term="Education" /><category term="Systems Theory" /><category term="Cybernetics" /><summary type="html"><![CDATA[Imagine we are given the task of building a recommendation system. The requirements are clear: the system should suggest content to users that they are highly likely to click on. We define a metric. Let’s say, time spent on the platform. Then we optimize toward it. We test, iterate, deploy. The system works. The metric rises.]]></summary></entry><entry><title type="html">The Art of Solidarity</title><link href="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html" rel="alternate" type="text/html" title="The Art of Solidarity" /><published>2026-04-03T00:00:00+02:00</published><updated>2026-04-03T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/04/03/cruelty-and-solidarity-en.html"><![CDATA[<h2 id="a-new-cruelty--on-the-longing-for-certainty">A New Cruelty — On the Longing for Certainty</h2>
 
 <blockquote>
   <p>Part of the idea of a democratic society is that social change comes by reform rather than revolution and this in effect means that the people who have the power actually letting go of some of it. – Richard Rorty</p>
@@ -5103,620 +5326,4 @@ Is social evolution any different?</p>
 <li><span id="tononi:2015">Tononi, G., &amp; Koch, C. (2015). Consciousness: Here, there and everywhere? <i>Philosophical Transactions of the Royal Society B: Biological Sciences</i>, <i>370</i>(1668), 20140167.</span></li>
 <li><span id="nagel:1974">Nagel, T. (1974). What is it like to be a bat? <i>Philosophical Review</i>, <i>83</i>(October), 435–450. https://doi.org/10.2307/2183914</span></li>
 <li><span id="foerster:1988">Foerster, H. (1985). <i>Sicht und Einsicht</i>. Vieweg.</span></li>
-<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry><entry><title type="html">Musical Interrogation II - MC and FFN</title><link href="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html" rel="alternate" type="text/html" title="Musical Interrogation II - MC and FFN" /><published>2023-05-31T00:00:00+02:00</published><updated>2023-05-31T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2023/05/31/musical-interrogation-II.html"><![CDATA[<p>The code shown here can be found in the following GitHub <a href="https://github.com/BZoennchen/musical-interrogation">repository</a>.
-In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. 
-This consists of two approaches: (1) A <strong>first-order Markov chain (MC)</strong> and (2) a <strong>feedforward neural network (FNN)</strong></p>
-
-<p>It’s important to note that I will disregard all forms of dynamics within a notated score (or performance), such as loudness, softness, etc.</p>
-
-<p>Despite these two approaches being significantly outdated, I believe their demonstration serves as a valuable exercise for familiarizing oneself with the inherent challenges of the subject matter. 
-The inspiration for this work comes from the tutorial series made by <a href="https://www.youtube.com/watch?v=FLr0r-QhqH0&amp;list=PL-wATfeyAMNr0KMutwtbeDCmpwvtul-Xz">Valerio Velardo’s</a> and another series made by <a href="https://www.youtube.com/@AndrejKarpathy">Andrej Karpathy’s</a>.</p>
-
-<p>Although I utilize high-level libraries such as <a href="https://pytorch.org/">PyTorch</a> and take advantage of its <em>computational graph</em> and <em>autograd</em> features, I intend to maintain the model code and training process at a relatively low level.</p>
-
-<h2 id="requirements">Requirements</h2>
-
-<p>The necessary software requirements for this project include:</p>
-
-<ul>
-  <li><a href="https://www.python.org/">Python</a></li>
-  <li><a href="https://pytorch.org/">PyTorch</a></li>
-  <li><a href="http://web.mit.edu/music21/">Music21</a></li>
-  <li><a href="https://github.com/BZoennchen/musical-interrogation/blob/main/preprocess.py">preprocessor.py</a> helpler class to deal with <code class="language-plaintext highlighter-rouge">krn</code>-files.</li>
-  <li><a href="https://musescore.org/de">MuseScore</a> (optional)</li>
-  <li><a href="https://jupyter.org/">Jupyter Notebook Environment</a> (optional)</li>
-</ul>
-
-<p>The database required can be found at <a href="http://kern.ccarh.org">EsAC</a>. The specific dataset I utilized is <a href="https://kern.humdrum.org/cgi-bin/ksdata?l=/essen/europa&amp;format=recursive">Folksongs from the continent of Europe</a> and for the purpose of this work, I will exclusively use the 1700 pieces found in the <code class="language-plaintext highlighter-rouge">./deutschl/erk</code> directory.</p>
-
-<p>Let’s listen to one of these pieces:</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/mel0567.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<h2 id="data-representation">Data Representation</h2>
-
-<p>In <a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a> of this series, I alluded to various implementations that utilize different input encodings. Naturally, the information we can leverage depends on the format of our training data. 
-For instance, MIDI provides us with attributes such as pitch, duration, and velocity.
-In my <a href="">implementation</a>, you will notice two distinct, yet straightforward encoding options available.</p>
-
-<ol>
-  <li><code class="language-plaintext highlighter-rouge">GridEncoder</code> used by Valerio Velardo</li>
-  <li><code class="language-plaintext highlighter-rouge">NoteEncoder</code></li>
-</ol>
-
-<p>The <code class="language-plaintext highlighter-rouge">GridEncoder</code> utilizes a fixed metrical grid where (a) output is generated for every timestep, and (b) the step size corresponds to a fixed meter (the shortest duration of any note in any score). For instance, if the shortest duration is a quarter note, a whole note of pitch 65 (in MIDI format) would result in the event series:</p>
-
-<p><strong>65-note-on hold hold hold</strong></p>
-
-<p>On the other hand, the <code class="language-plaintext highlighter-rouge">NoteEncoder</code> employs a larger alphabet and encodes one note directly, i.e.,</p>
-
-<p><strong>65-whole</strong></p>
-
-<p>In comparison to <em>note encoding</em>, <em>equitemporal grid encoding</em> relies on a smaller alphabet but needs more tokens for the same score.
-This disadvantage is magnified if the score contains notes of vastly differing durations or if we wish to introduce micro-dynamics through an increase in resolution, as done by <a class="citation" href="#oore:2018">(Oore et al., 2018)</a>.</p>
-
-<p>Interestingly, Google’s <a href="https://magenta.tensorflow.org/">Magenta project</a> employs <em>equitemporal grid encoding</em>, specifically the <a href="https://github.com/magenta/note-seq/blob/main/note_seq/melody_encoder_decoder.py">MelodyOneHotEncoding</a> class for their <em>BasicRNN</em>, <em>MonoRNN</em>, and <em>LookbackRNN</em>. 
-Since they capture polyphonic scores, they utilize <strong>note-on</strong> and <strong>note-off</strong> events for each MIDI key.</p>
-
-<p>Of course, the chosen representation also depends on the application and the capabilities of the model we use. 
-For instance, one might only want to generate the pitches of the melody and manually adjust the duration of each note in post-processing. 
-Furthermore, a <em>first-order Markov chain</em> only <em>memorizes</em> the most recent event. 
-Therefore, an <em>equitemporal grid encoding</em> would yield unsatisfactory results because the context is lost after a <strong>hold</strong> event occurs.</p>
-
-<p>As a result, in this post, I will focus on the <em>note encoding</em> approach, i.e. <code class="language-plaintext highlighter-rouge">NoteEncoder</code>.</p>
-
-<h2 id="preprocessing">Preprocessing</h2>
-
-<p>The procedure I’m about to present parallels the one detailed in <a href="/Pages/2022/07/09/markov-chains-for-music-generation.html">Probabilistic Melody Modeling</a>. 
-The primary differences are that we’ll now be considering 1700 pieces instead of a single one, and we utilize more sophisticated libraries instead of relying solely on <a href="https://sonic-pi.net/">Sonic Pi</a>.</p>
-
-<p>The <a href="http://web.mit.edu/music21/">Music21</a> library significantly simplifies the handling of symbolically notated music in <code class="language-plaintext highlighter-rouge">Python</code>.
-I am not so familiar with it but it comes in handy when reading and writing symoblic scores.
-It enables us to construct pieces programmatically and to read from or write to various musical score formats.</p>
-
-<p>As an initial step, we need to import all the necessary libraries and functions.
-Here I fix the global seed such that you can reproduce the exact same results.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="kn">import</span> <span class="nn">music21</span> <span class="k">as</span> <span class="n">m21</span>
-<span class="kn">import</span> <span class="nn">torch</span>
-<span class="kn">from</span> <span class="nn">preprocess</span> <span class="kn">import</span> <span class="n">load_songs_in_kern</span><span class="p">,</span> <span class="n">NoteEncoder</span><span class="p">,</span> <span class="n">KERN_DATASET_PATH</span>
-
-<span class="c1"># seed such that we can compare results
-</span><span class="n">torch</span><span class="p">.</span><span class="n">manual_seed</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-</code></pre></div></div>
-
-<p>Then I read all the pieces inside the <code class="language-plaintext highlighter-rouge">./../deutschl/erk</code> directory.
-Furthermore, I introduce a special character <code class="language-plaintext highlighter-rouge">TERM_SYMBOL</code> that I use to indicate the beginning and end of a score.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">TERM_SYMBOL</span> <span class="o">=</span> <span class="s">'.'</span>
-<span class="n">scores</span> <span class="o">=</span> <span class="n">load_songs_in_kern</span><span class="p">(</span><span class="s">'./../deutschl/erk'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Now we have to think about our encoding.
-As discussed above, I use the <code class="language-plaintext highlighter-rouge">NoteEncoder</code>.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">encoder</span> <span class="o">=</span> <span class="n">NoteEncoder</span><span class="p">()</span>
-<span class="n">enc_songs</span> <span class="o">=</span> <span class="n">encoder</span><span class="p">.</span><span class="n">encode_songs</span><span class="p">(</span><span class="n">scores</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">' '</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">enc_songs</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-</code></pre></div></div>
-
-<p>The code above prints out:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>'55/4 60/4 60/4 60/4 60/4 64/4 64/4 r/4 ... 64/4 60/4 62/4 60/8 r/4'
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">'55/4</code> means MIDI note 55 four timesteps long where the timestep is determined by the shortest note within all scores. 
-In our case this means four times 1/4 beat which is one whole beat.</p>
-
-<p>Given that computers cannot process strings directly, I convert these strings into numerical values. 
-The first step is to create a set that includes all possible strings. Subsequently, I assign each string a corresponding natural number in sequential order.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">symbols</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="nb">set</span><span class="p">([</span><span class="n">item</span> <span class="k">for</span> <span class="n">sublist</span> <span class="ow">in</span> 
-                           <span class="n">enc_songs</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">sublist</span><span class="p">])))</span>
-<span class="n">stoi</span> <span class="o">=</span> <span class="p">{</span><span class="n">s</span><span class="p">:</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">symbols</span><span class="p">)}</span>
-<span class="n">stoi</span><span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">itos</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="n">s</span> <span class="k">for</span> <span class="n">s</span><span class="p">,</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">stoi</span><span class="p">.</span><span class="n">items</span><span class="p">()}</span>
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'n_symbols: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">itos</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><code class="language-plaintext highlighter-rouge">stoi</code> maps <strong>s</strong>trings <strong>to</strong> <strong>i</strong>ntegers and <code class="language-plaintext highlighter-rouge">itos</code> is its inverse mapping.</p>
-
-<h2 id="discrete-first-order-markov-chain">Discrete First-Order Markov Chain</h2>
-
-<p>To implement a <em>first-order Markov chain</em>, we aim to construct a Markov matrix</p>
-
-\[\mathbf{P} \in [0;1]^{m \times m}\]
-
-<p>where the element at the \(i^{\text{th}}\) row and \(j^{\text{th}}\) column represents the conditional probability</p>
-
-\[P(e_i\ | \ e_j) = p_{ij}.\]
-
-<p>It describes the (conditional) probability of event \(e_i\) (a note or rest of specific length) immediately following event \(e_j\).
-For this purpose, I construct a matrix \(\mathbf{N}\) that counts these transitions.</p>
-
-<h3 id="markov-matrix-computation">Markov Matrix Computation</h3>
-
-<p>To accomplish this, I iterate over each score, considering every pair of consecutive events. 
-As the first event lacks a predecessor and the last lacks a successor, I append the unique terminal character <code class="language-plaintext highlighter-rouge">TERM_SYMBOL</code> to each score for padding purposes.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">N</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)))</span>
-<span class="k">for</span> <span class="n">enc_song</span> <span class="ow">in</span> <span class="n">enc_songs</span><span class="p">:</span>
-    <span class="n">chs</span> <span class="o">=</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span> <span class="o">+</span> <span class="n">enc_song</span> <span class="o">+</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">ch1</span><span class="p">,</span> <span class="n">ch2</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">chs</span><span class="p">,</span> <span class="n">chs</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
-        <span class="n">ix1</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch1</span><span class="p">]</span>
-        <span class="n">ix2</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch2</span><span class="p">]</span>
-        <span class="n">N</span><span class="p">[</span><span class="n">ix1</span><span class="p">,</span> <span class="n">ix2</span><span class="p">]</span> <span class="o">+=</span> <span class="mi">1</span>
-</code></pre></div></div>
-
-<p>To construct \(\mathbf{P}\) we have to divide each entry \(n_{ij}\) in \(\mathbf{N}\) by the sum over the row \(i\).</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">P</span> <span class="o">=</span> <span class="n">N</span><span class="p">.</span><span class="nb">float</span><span class="p">()</span>
-<span class="n">P</span> <span class="o">=</span> <span class="n">P</span> <span class="o">/</span> <span class="n">P</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>In order to compute the sum over a row (instead of a column), i.e., “summing all columns”, we need to specify <code class="language-plaintext highlighter-rouge">dim=1</code> (the default is <code class="language-plaintext highlighter-rouge">dim=0</code>). 
-Additionally, to properly exploit broadcasting, it’s necessary to set <code class="language-plaintext highlighter-rouge">keepdim=True</code>. 
-This ensures that the sum results in a <code class="language-plaintext highlighter-rouge">(1,m)</code> tensor, as opposed to a <code class="language-plaintext highlighter-rouge">(m,)</code> tensor.</p>
-
-<p>Plotting the probabilities reveals that \(\mathbf{P}\) is a rather sparse matrix containing many zeros.
-In fact, only approximately 7.86 percent of the entries are non-zero.</p>
-
-<div><img style="display:block; margin-left:auto; margin-right:auto; width:70%;" src="/Pages/assets/images/mc-probs.png" alt="Probabilities" />
-<div style="display: table;margin: 0 auto;">Figure 1: Matrix plot of our Markov matrix.</div>
-</div>
-<p><br /></p>
-
-<h3 id="sampling-of-new-melodies">Sampling of New Melodies</h3>
-
-<p>Given the tensor <code class="language-plaintext highlighter-rouge">P</code>, we can generate new melodies using the function <code class="language-plaintext highlighter-rouge">torch.multinomial</code> which expects a probability (discrete) distribution.
-I start with the terminal <code class="language-plaintext highlighter-rouge">TERM_SYMBOL</code> indicating the beginning and, when the second terminal is generated (which indicates the end), I terminate the generation.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">generated_encoded_song</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">char</span> <span class="o">=</span> <span class="n">TERM_SYMBOL</span>
-<span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
-    <span class="n">ix</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">multinomial</span><span class="p">(</span><span class="n">P</span><span class="p">[</span><span class="n">stoi</span><span class="p">[</span><span class="n">char</span><span class="p">]],</span> 
-        <span class="n">num_samples</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> 
-        <span class="n">replacement</span><span class="o">=</span><span class="bp">True</span><span class="p">).</span><span class="n">item</span><span class="p">()</span>
-    <span class="n">char</span> <span class="o">=</span> <span class="n">itos</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span>
-    <span class="k">if</span> <span class="n">char</span> <span class="o">==</span> <span class="n">TERM_SYMBOL</span><span class="p">:</span>
-        <span class="k">break</span>
-    <span class="n">generated_encoded_song</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">char</span><span class="p">)</span>
-<span class="nb">len</span><span class="p">(</span><span class="n">generated_encoded_song</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Let’s listen to some of the generated scores:</p>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/gen0.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/gen1.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/gen2.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/gen3.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<audio controls="">
-  <source src="/Pages/assets/audio/gen4.mp3" type="audio/mp3" />
-  Your browser does not support the audio element.
-</audio>
-
-<h3 id="negative-log-likelihood-loss">Negative Log Likelihood Loss.</h3>
-
-<p>The outcome is not particularly outstanding, but this is unsurprising given our very simple model. 
-To evaluate the quality of our model, we can calculate the likelihood that our generative process produces for a specific training data point \(e_1, e_2, \ldots, e_k\), i.e.,</p>
-
-\[P(e_1) \cdot P(e_2 \ | \ e_1) \cdot \ldots \cdot P(e_{k-1} \ | \ e_k).\]
-
-<p>We can add all the likelihoods (one for each data point) together and divide the sum by the number of data points.
-However, it is more convinient to use the <em>negative log-likelihood</em> since one can use addition.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">log_likelyhood</span> <span class="o">=</span> <span class="mf">0.0</span>
-<span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">enc_songs</span><span class="p">:</span>
-    <span class="n">chs</span> <span class="o">=</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">ch1</span><span class="p">,</span> <span class="n">ch2</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">chs</span><span class="p">,</span> <span class="n">chs</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
-        <span class="n">ix1</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch1</span><span class="p">]</span>
-        <span class="n">ix2</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch2</span><span class="p">]</span>
-        <span class="n">prob</span> <span class="o">=</span> <span class="n">P</span><span class="p">[</span><span class="n">ix1</span><span class="p">,</span> <span class="n">ix2</span><span class="p">]</span>
-        <span class="n">logprob</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">prob</span><span class="p">)</span>
-        <span class="n">log_likelyhood</span> <span class="o">+=</span> <span class="n">logprob</span>
-        <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span>
-
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">log_likelyhood</span><span class="o">=</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-<span class="n">nll</span> <span class="o">=</span> <span class="o">-</span><span class="n">log_likelyhood</span>
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'avg negative log likelyhood: </span><span class="si">{</span><span class="p">(</span><span class="n">nll</span><span class="o">/</span><span class="n">n</span><span class="p">)</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>This gives us a <em>negative log-likelihood</em> of approximately <code class="language-plaintext highlighter-rouge">2.6756</code>.
-The lower this value gets the better it is.
-It can be no smaller than 0.</p>
-
-<h2 id="feedforward-neural-network">Feedforward Neural Network</h2>
-
-<p>One method of generating a melody using a <em>feedforward network (FFN)</em> is by addressing a classification task.
-Well, strictly speaking we do not even build a FFN, since there will be no activation function involved thus it is a <strong>linear model</strong>.
-However, from this starting point we could expand our model into a <em>multi-layer perceptron (MLP)</em>.
-By avoiding the activation function, it is easier for me to explain exactly what is going on.</p>
-
-<p>If we think in terms of classification a sequence of note should be classified as some successor note.
-So let us assume \(t\) consecutive notes are given then our aim is to identify the note that this sequence “represents”.
-For simplicity, I assume we only want to predict the next note given the previous one, that is, \(t=1\) holds.
-This stipulation means we won’t require substantial modifications compared to our previous approach.</p>
-
-<p>Since our training process will be more computationally intensive than merely computing frequencies, it’s advisable to use hardware accelerators, if available. 
-This can result in faster training and inference times and lower energy costs.
-To check if hardware acceleration is available, I employ the following code:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">torch</span><span class="p">.</span><span class="n">cuda</span><span class="p">.</span><span class="n">is_available</span><span class="p">():</span>
-    <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'cuda'</span><span class="p">)</span>
-<span class="k">elif</span> <span class="n">torch</span><span class="p">.</span><span class="n">backends</span><span class="p">.</span><span class="n">mps</span><span class="p">.</span><span class="n">is_available</span><span class="p">():</span>
-    <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'mps'</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">device</span><span class="p">(</span><span class="s">'cpu'</span><span class="p">)</span>
-    
-<span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'</span><span class="si">{</span><span class="n">device</span><span class="o">=</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>What we are going to implement is a <em>fully-visible softmax belief network</em> which only predicts the very next note given the previous note.
-However, instead of multiplying \(x_1\) to predict \(x_2\) via</p>
-
-\[h_{\theta}(x)_{j=1,\ldots,m} = \left(\alpha_0^{(j)} + \alpha_1^{(j)} \cdot x \right)_{j=1,\ldots,m},\]
-
-<p>we do something similar but not quite the same.
-We <em>hot-encode</em> our alphabet \(\mathcal{X}\) of notes into</p>
-
-\[|\mathcal{X}| = m\]
-
-<p>vectors \(\mathbf{x}_j = (x_1, \ldots, x_m)\), \(j=1, \ldots, m\) of length \(m\), such that,</p>
-
-\[h_{\theta}(\mathbf{x}_i)_{j=1,\ldots,m} = \left( w_{1}^{(j)} \cdot x_1 + w_{2}^{(j)} \cdot x_2 + \ldots + w_{m}^{(j)} \cdot x_m \right)_{j=1,\ldots,m} = \left( w_{i}^{(j)} x_i \right)_{j=1,\ldots,m}.\]
-
-<p>In other words, we compute an embedding of our alphabet/domain of notes such that each note is encoded by an \(m\)-dimensional vector.
-This vector represents the probabilities of the next note.
-To transform these embeddings into probabilities we apply the softmax function.
-Our network is depicted in Fig. 2.
-Note that we do not use a bias term, i.e., there is no replacement for \(\alpha_0^{(j)}\).</p>
-
-<p><br /></p>
-<div style="display:block; margin-left:auto; margin-right:auto; width:75%;">
-<img style="display:block; margin-left:auto; margin-right:auto; width:75%;" src="/Pages/assets/images/fvsbn-hot.png" alt="Sketch of an HMM." />
-<div style="display: table;margin: 0 auto;">Figure 2: Fully-visible softmax belief network (multi-class classification with 4 classes) predicting only the next note utilizing hot-encoding. Only one input node fires 1 all the others fire 0. The illustration indicates that the second input is active while all other inptus are inactive.</div>
-</div>
-<p><br /></p>
-
-<p>Similar as before, our loss is the empirical mean of the negative log likelyhood</p>
-
-\[-\frac{1}{M} \sum_{i=1,j=y_i}^M \log(\sigma(\mathbf{o})_j),\]
-
-<p>where \(j\) is the \(j^\text{th}\) note in our alphabet and \(y_i\), that is \((\mathbf{x}, y_j)\) is in our training data set.</p>
-
-<h3 id="training-data-construction">Training Data Construction</h3>
-
-<p>Instead of calculating our probability matrix, I am going to generate labeled training data using the variables <code class="language-plaintext highlighter-rouge">xs</code> and <code class="language-plaintext highlighter-rouge">ys</code> (labels).</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">xs</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">ys</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">enc_songs</span><span class="p">:</span>
-    <span class="n">chs</span> <span class="o">=</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span> <span class="o">+</span> <span class="n">m</span> <span class="o">+</span> <span class="p">[</span><span class="n">TERM_SYMBOL</span><span class="p">]</span>
-    <span class="k">for</span> <span class="n">ch1</span><span class="p">,</span> <span class="n">ch2</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">chs</span><span class="p">,</span> <span class="n">chs</span><span class="p">[</span><span class="mi">1</span><span class="p">:]):</span>
-        <span class="n">ix1</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch1</span><span class="p">]</span>
-        <span class="n">ix2</span> <span class="o">=</span> <span class="n">stoi</span><span class="p">[</span><span class="n">ch2</span><span class="p">]</span>
-        <span class="n">xs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">ix1</span><span class="p">)</span>
-        <span class="n">ys</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">ix2</span><span class="p">)</span>
-
-<span class="n">xs</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">ys</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="n">ys</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-
-<span class="c1"># one-hot-encoding
-</span><span class="n">xenc</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">one_hot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)).</span><span class="nb">float</span><span class="p">()</span>
-</code></pre></div></div>
-
-<p>As mentioned, I employ a <em><a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html">one-hot encoding</a></em> for the input data.
-That is, for encoding \(m\) unique elements one uses \(m\) unique \(m\)-dimensional vectors.
-One component of these vectors is set to 1.0 and all others are 0.0.
-<code class="language-plaintext highlighter-rouge">F.one_hot</code> assumes that our alphabet consists of whole numbers between 0 and \(m-1\), compare the <a href="https://pytorch.org/docs/stable/generated/torch.nn.functional.one_hot.html">documentation</a>.</p>
-
-\[(0, \ldots, 0, 1, 0, \ldots, 0)\]
-
-<p>The \(i^{\text{th}}\) element is represented by a vetor where the \(i^{\text{th}}\) component is 1.0.
-Note that our labels <code class="language-plaintext highlighter-rouge">ys</code> are not one-hot encoded.</p>
-
-<h3 id="training">Training</h3>
-
-<p>Next, I initialize a random matrix \(\mathbf{W} \in [-1;1]^{m \times m}\), or tensor, <code class="language-plaintext highlighter-rouge">W</code> with values ranging from -1.0 to 1.0.
-This tensor includes our trainable parameters, which represent the single layer of our neural network.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">W</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Our network includes \(m\) inputs and outputs, with the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax</a></em> values of the outputs being interpreted as probabilities.
-Essentially, our “network” is just one large matrix!</p>
-
-<p>The operation <code class="language-plaintext highlighter-rouge">xenc @ W</code> represents a matrix multiplication where <code class="language-plaintext highlighter-rouge">xenc</code> is an \(1700 \times m\) matrix and <code class="language-plaintext highlighter-rouge">W</code> is our \(m \times m\) matrix.
-Here I use the power of parallel computation.
-By employing <code class="language-plaintext highlighter-rouge">probs[torch.arange(len(ys), device=device), ys]</code>, I address a single entry for each row.</p>
-
-<p>Please note that <code class="language-plaintext highlighter-rouge">probs[:, ys]</code> does not work; instead of addressing a single entry, it addresses whole columns indexed by <code class="language-plaintext highlighter-rouge">ys</code>!
-Also, be aware that I apply an unusually large learning rate.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># training aka gradient decent
-</span><span class="n">epochs</span> <span class="o">=</span> <span class="mi">2_000</span>
-<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">):</span>
-    <span class="c1"># forward pass
-</span>    <span class="n">logits</span> <span class="o">=</span> <span class="n">xenc</span> <span class="o">@</span> <span class="n">W</span>
-    <span class="n">odds</span> <span class="o">=</span> <span class="n">logits</span><span class="p">.</span><span class="n">exp</span><span class="p">()</span>
-    <span class="n">probs</span> <span class="o">=</span> <span class="n">odds</span> <span class="o">/</span> <span class="n">odds</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">probs</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">),</span> <span class="n">ys</span><span class="p">].</span><span class="n">log</span><span class="p">().</span><span class="n">mean</span><span class="p">()</span>
-
-    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'epoch </span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s">, loss: </span><span class="si">{</span><span class="n">loss</span><span class="p">.</span><span class="n">item</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-    
-    <span class="c1"># backward pass
-</span>    <span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">=</span> <span class="bp">None</span> <span class="c1"># set gradients to zero
-</span>    <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-    
-    <span class="c1"># update
-</span>    <span class="n">W</span><span class="p">.</span><span class="n">data</span> <span class="o">+=</span> <span class="o">-</span><span class="mf">10.0</span> <span class="o">*</span> <span class="n">W</span><span class="p">.</span><span class="n">grad</span>
-</code></pre></div></div>
-
-<p>One iteration of the loop consist of the</p>
-
-<ol>
-  <li><em>forward pass</em></li>
-  <li><em>backward pass</em> (backwardpropagation) done via <code class="language-plaintext highlighter-rouge">loss.backward()</code> and</li>
-  <li>an update of our parameters done via <code class="language-plaintext highlighter-rouge">W.data += -10.0 * W.grad</code>.</li>
-</ol>
-
-<p><code class="language-plaintext highlighter-rouge">loss.backward()</code> applies <a href="https://en.wikipedia.org/wiki/Backpropagation">backpropagation</a> thus computes the gradients and we can update <code class="language-plaintext highlighter-rouge">W</code> by</p>
-
-\[\mathbf{W} \leftarrow \mathbf{W} - \eta \cdot \nabla_\mathbf{W} L\]
-
-<p>where \(\eta = 10\) is the <em>learning rate</em>.</p>
-
-<p>After the initial 2000 epochs the loss is approximately <code class="language-plaintext highlighter-rouge">2.865</code>. 
-This performance is somewhat inferior compared to the results achieved by our <em>Markov chain</em>. 
-However, by prolonging the training period, I managed to reduce the loss to around <code class="language-plaintext highlighter-rouge">2.707</code>.</p>
-
-<h3 id="what-is-going-on">What is going on?</h3>
-
-<p>Let us assume we have only one sample \(\mathbf{x}\).</p>
-
-<h4 id="forward-pass">Forward Pass:</h4>
-
-<p>The <em>forward pass</em> starts with</p>
-
-\[\mathbf{o} = \mathbf{x} \cdot \mathbf{W}\]
-
-<p>where \(\mathbf{x}\) is a <em>one-hot encoded</em> training data point.
-\(\mathbf{o}\) gets interpreted as (component-wise) logarithm of the odds</p>
-
-\[\mathbf{o} = \ln\left(\frac{\mathbf{p}}{\mathbf{1}-\mathbf{p}}\right)\]
-
-<p>which is the <a href="https://en.wikipedia.org/wiki/Logit">logit</a>, i.e., the inverse of the <em>standard logistic function</em> also called <em>sigmoid</em>.
-In fact, each data point in \(\mathbf{x}\) selects one row of \(\mathbf{W}\)</p>
-
-\[\mathbf{o} = \mathbf{x} \cdot \mathbf{W} = \begin{bmatrix} o_1 &amp; o_2 &amp; \ldots &amp; o_m \end{bmatrix}.\]
-
-<p>To compute “probabilities” we compute the <em><a href="https://en.wikipedia.org/wiki/Softmax_function">softmax function</a></em> (<code class="language-plaintext highlighter-rouge">probs</code>) of \(\mathbf{o}\), i.e.,</p>
-
-\[\sigma(\mathbf{o}) = \begin{bmatrix} \sigma(\mathbf{o})_1 &amp; \sigma(\mathbf{o})_2 &amp; \ldots &amp; \sigma(\mathbf{o})_m \end{bmatrix}\]
-
-<p>with</p>
-
-\[\sigma(\mathbf{o})_i = \frac{e^{o_i}}{\sum e^{o_j}}.\]
-
-<p>Luckly the <em>softmax</em> has a simple derivative:</p>
-
-\[\frac{\partial \sigma(\mathbf{o})_i}{\partial o_j} =
-\begin{cases}
-    \sigma(\mathbf{o}_k)_i - \sigma(\mathbf{o})_i^2 &amp; \text{ if } i = j \\
-    -\sigma(\mathbf{o}_k)_i \sigma(\mathbf{o})_j &amp; \text{ otherwise.}
-\end{cases}\]
-
-<p>We can also compute the full Jacobian of the <em>softmax</em> vector-to-vector operation:</p>
-
-\[\nabla_{\mathbf{o}} \sigma = \mathbf{J}_{\mathbf{o}}(\sigma) =
-\begin{bmatrix} 
-    \sigma_1 - \sigma_1^2 &amp; -\sigma_1 \sigma_2 &amp; \ldots &amp; - \sigma_1 \sigma_m  \\
-    -\sigma_2 \sigma_1 &amp; s_2 - \sigma_2^2 &amp; \ldots &amp; -\sigma_2 \sigma_m \\
-    \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\
-    -\sigma_m \sigma_1 &amp; -\sigma_m \sigma_2 &amp; \ldots &amp; \sigma_m - \sigma_m^2
-\end{bmatrix} = \text{diag}\left(\sigma\right) - \sigma^{\top} \sigma\]
-
-<p>Similar then before, our loss $L$ is the mean <em>negative log likelihood</em>.</p>
-
-\[L(\mathbf{y}, \sigma) = -\sum\limits_{i=1}^{m} \log(s_i) = -\mathbf{y} \log(\sigma)^\top\]
-
-<p>where \(\mathbf{y}\) is the one-hot encoded label vector, i.e.,</p>
-
-<p><code class="language-plaintext highlighter-rouge">loss = -probs[torch.arange(len(ys), device=device), ys].log().mean()</code>.</p>
-
-<p>Note that \(\mathbf{y}\) is a one-hot encoded vector, <code class="language-plaintext highlighter-rouge">ys</code> is not.</p>
-
-<h4 id="backword-pass">Backword Pass:</h4>
-
-<p>For the <em><a href="https://en.wikipedia.org/wiki/Backpropagation">backpropagation</a></em> we need</p>
-
-\[\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) = \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o}.\]
-
-<p>Here we employ the <em>chain rule</em>.
-The sensitivity of cost \(L\) to the input to the softmax layer, \(\mathbf{o}\) is given by a gradient-Jacobian product, each of which we’ve already computed:</p>
-
-\[\begin{align}
-    \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) &amp;= -\nabla_{\mathbf{o}} \mathbf{y} \log(\sigma)^\top \\
-    &amp;= -\mathbf{y} \nabla_{\mathbf{o}}\log(\sigma) \\
-    &amp;= -\frac{\mathbf{y}}{\sigma} \nabla_{\mathbf{o}} \sigma \\
-    &amp;= -\frac{\mathbf{y}}{\sigma} \cdot \mathbf{J}_{\mathbf{o}}(\sigma) \\
-    &amp;= -\frac{\mathbf{y}}{\sigma} \cdot \left[ \text{diag}(\sigma) - \sigma^\top \sigma \right] \\
-    &amp;= \frac{\mathbf{y}}{\sigma} \sigma^\top \sigma - \frac{\mathbf{y}}{\sigma} \text{diag}(\sigma) \\
-    &amp;= \sigma - \mathbf{y}.
-\end{align}\]
-
-<p>The \(\log\) and the devision operates component-wise and</p>
-
-\[\text{diag}\left(\sigma\right) =
-\begin{bmatrix} 
-    \sigma(\mathbf{o})_1 &amp; 0 &amp; \ldots &amp; 0  \\
-    0 &amp; \sigma(\mathbf{o})_2 &amp; \ldots &amp; 0 \\
-    \ldots &amp; \ldots &amp; \ldots &amp; \ldots \\
-    0 &amp; 0 &amp; \ldots &amp; \sigma(\mathbf{o})_m
-\end{bmatrix}\]
-
-<p>holds.
-We have to apply the <em>chain rule</em> once again to finally get the desired update values for our weight matrix \(\mathbf{W}\):</p>
-
-\[\begin{align}
-\nabla_{\mathbf{W}} L(\mathbf{y}, \sigma) &amp;= \nabla_{\mathbf{o}} L(\mathbf{y}, \sigma) \cdot \nabla_{\mathbf{W}} \mathbf{o} \\
-&amp;= (\sigma - \mathbf{y}) \cdot \nabla_{\mathbf{W}} (\mathbf{x} \cdot \mathbf{W})\\
-&amp;= (\sigma - \mathbf{y}) \cdot \mathbf{x}^{\top}.
-\end{align}\]
-
-<p>Given that \(\sigma\) represents probabilities, and \(\mathbf{y}\) contains only zeros except for one instance of 1 at the position of the “correct” probability, the entries of the \(j^\text{th}\) row (\(x_j=1\)) of the gradient is \(p_i\) if the \(i^\text{th}\) probability is deemed “incorrect”, and \((p_i-1)\) otherwise. 
-All other entries are zero.
-Note also that \(\mathbf{x}\) is also a one-hot encoded vector.
-Consequently, if a probability is correct, it gets increased by \(1-p_i\) and decreased by \(p_i-1\) otherwise.
-Therefore, probabilities that are more incorrect experience a larger increase or decrease.</p>
-
-<p>We can actually check this result!
-Using the following code:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># use only 1 data point
-</span><span class="n">xs</span> <span class="o">=</span> <span class="n">xs</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>
-<span class="n">ys</span> <span class="o">=</span> <span class="n">ys</span><span class="p">[:</span><span class="mi">1</span><span class="p">]</span>
-
-<span class="c1"># one-hot-encoding
-</span><span class="n">xenc</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">one_hot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)).</span><span class="nb">float</span><span class="p">()</span>
-
-<span class="c1"># reinitiate W
-</span><span class="n">W</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-
-<span class="n">logits</span> <span class="o">=</span> <span class="n">xenc</span> <span class="o">@</span> <span class="n">W</span>
-<span class="n">counts</span> <span class="o">=</span> <span class="n">logits</span><span class="p">.</span><span class="n">exp</span><span class="p">()</span>
-<span class="n">probs</span> <span class="o">=</span> <span class="n">counts</span> <span class="o">/</span> <span class="n">counts</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-<span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">probs</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">),</span> <span class="n">ys</span><span class="p">].</span><span class="n">log</span><span class="p">().</span><span class="n">mean</span><span class="p">()</span>
-    
-<span class="c1"># backward pass
-</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">=</span> <span class="bp">None</span> 
-<span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">y</span><span class="p">[</span><span class="n">ys</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">print</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span><span class="p">)</span> <span class="c1"># same
-</span><span class="k">print</span><span class="p">(</span><span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">))</span> <span class="c1"># same
-</span><span class="k">print</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">==</span> <span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">))</span> <span class="c1"># all true
-</span></code></pre></div></div>
-
-<h4 id="batching">Batching:</h4>
-
-<p>So far we only considered the math using a single data point \(\mathbf{x}\).
-Let us consider a batch of points, i.e.,</p>
-
-\[\mathbf{O} = \mathbf{X}\mathbf{W} = \begin{bmatrix} \mathbf{x}_1 \\ \mathbf{x}_2 \\ \vdots \\ \mathbf{x}_n \end{bmatrix} \mathbf{W}\]
-
-<p>The <em>softmax</em> is still a vector-to-vector transformation, but it’s applied independently to each row of $\mathbf{X}$:</p>
-
-\[\mathbf{S} = \begin{bmatrix} \sigma(\mathbf{o}_1) \\ \sigma(\mathbf{o}_2) \\ \vdots \\ \sigma(\mathbf{o}_n) \end{bmatrix}\]
-
-<p>We can do the exact same steps but I will skip this part.
-For the interested reader I refer to <a href="https://mattpetersen.github.io/softmax-with-cross-entropy"></a></p>
-
-<p>Important is that</p>
-
-\[\mathbf{J}_\mathbf{O}(L) = \mathbf{J}_\mathbf{S}(L) \mathbf{J}_\mathbf{O}(S) = \frac{1}{n} \left( \mathbf{S} - \mathbf{Y} \right)\]
-
-<p>and</p>
-
-\[\mathbf{J}_\mathbf{W}(L) = \mathbf{J}_\mathbf{S}(L) \mathbf{J}_\mathbf{O}(S) \mathbf{J}_\mathbf{W}(O) = \frac{1}{n} \left( \mathbf{S} - \mathbf{Y} \right) \mathbf{X}.\]
-
-<p>We can also check this result:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># one-hot-encoding
-</span><span class="n">xenc</span> <span class="o">=</span> <span class="n">F</span><span class="p">.</span><span class="n">one_hot</span><span class="p">(</span><span class="n">xs</span><span class="p">,</span> <span class="n">num_classes</span><span class="o">=</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)).</span><span class="nb">float</span><span class="p">()</span>
-
-<span class="c1"># reinitiate W
-</span><span class="n">W</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span> 
-
-<span class="n">logits</span> <span class="o">=</span> <span class="n">xenc</span> <span class="o">@</span> <span class="n">W</span>
-<span class="n">counts</span> <span class="o">=</span> <span class="n">logits</span><span class="p">.</span><span class="n">exp</span><span class="p">()</span>
-<span class="n">probs</span> <span class="o">=</span> <span class="n">counts</span> <span class="o">/</span> <span class="n">counts</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-<span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">probs</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">),</span> <span class="n">ys</span><span class="p">].</span><span class="n">log</span><span class="p">().</span><span class="n">mean</span><span class="p">()</span>
-    
-<span class="c1"># backward pass
-</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span> <span class="o">=</span> <span class="bp">None</span> 
-<span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">zeros</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">y</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">),</span><span class="n">ys</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
-
-<span class="k">print</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span><span class="p">)</span> <span class="c1"># same
-</span><span class="k">print</span><span class="p">(</span><span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">))</span> <span class="c1"># same
-</span><span class="k">print</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">allclose</span><span class="p">(</span><span class="n">W</span><span class="p">.</span><span class="n">grad</span><span class="p">,</span> <span class="n">xenc</span><span class="p">.</span><span class="n">T</span> <span class="o">@</span> <span class="p">(</span><span class="n">probs</span><span class="o">-</span><span class="n">y</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">)))</span> <span class="c1"># true
-</span></code></pre></div></div>
-
-<h3 id="further-considerations">Further Considerations</h3>
-
-<p>Now, the natural question is: what is the best possible performance we could achieve? 
-The answer is that we should aim to match the performance of the <em>Markov chain</em>. 
-Indeed, as the process continues, we should expect that the matrix <code class="language-plaintext highlighter-rouge">W</code> will gradually converge towards <code class="language-plaintext highlighter-rouge">P</code>.</p>
-
-<p>Moreover, we should not anticipate surpassing the results achieved by our <em>Markov chain</em> even if we deepen our network, that is, by introducing some <em>hidden layers</em>.
-A very good example of useful informations are described in <a class="citation" href="#johnson:2017">(Johnson, 2017)</a>, I discussed in <a href="/Pages/2023/04/02/musical-interrogation-I.html">Part I</a> of this series.
-For instance, Johnson adds (compare his interesting <a href="https://www.danieldjohnson.com/2015/08/03/composing-music-with-recurrent-neural-networks/">Blog post</a>)</p>
-
-<ul>
-  <li><strong>Positional:</strong> note within the score (that is what we use)</li>
-  <li><strong>Pitchclass:</strong> one of the twelve classes</li>
-  <li><strong>Previous vicinity:</strong> surrounding notes where played or aticulated last timestep (only useful for polyphonic music)</li>
-  <li><strong>Previous context:</strong> the amount of C’s, A’s and so on are played the last timestep (only useful for polyphonic music)</li>
-  <li><strong>Beat:</strong> a binary representation of position within the measure</li>
-</ul>
-
-<p>However, our expectations may shift if we modify the input, referring to the data that the network processes. 
-That being said, we could enhance the training duration.
-For instance, introducing a <em>hidden layer</em> results in a loss of <code class="language-plaintext highlighter-rouge">2.693</code> after 2000 epochs.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">W1</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)</span><span class="o">//</span><span class="mi">4</span><span class="p">),</span> 
-                 <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-<span class="n">W2</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">randn</span><span class="p">((</span><span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)</span><span class="o">//</span><span class="mi">4</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">stoi</span><span class="p">)),</span> 
-                 <span class="n">requires_grad</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">epochs</span> <span class="o">=</span> <span class="mi">2_000</span>
-<span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">):</span>
-    <span class="c1"># forward pass
-</span>    <span class="n">x</span> <span class="o">=</span> <span class="n">xenc</span> <span class="o">@</span> <span class="n">W1</span>
-    <span class="n">logits</span> <span class="o">=</span> <span class="n">x</span> <span class="o">@</span> <span class="n">W2</span>
-    <span class="n">odds</span> <span class="o">=</span> <span class="n">logits</span><span class="p">.</span><span class="n">exp</span><span class="p">()</span>
-    <span class="n">probs</span> <span class="o">=</span> <span class="n">odds</span> <span class="o">/</span> <span class="n">odds</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">dim</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">keepdim</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
-    <span class="n">loss</span> <span class="o">=</span> <span class="o">-</span><span class="n">probs</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">ys</span><span class="p">),</span> <span class="n">device</span><span class="o">=</span><span class="n">device</span><span class="p">),</span> <span class="n">ys</span><span class="p">].</span><span class="n">log</span><span class="p">().</span><span class="n">mean</span><span class="p">()</span>
-
-    <span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">'epoch </span><span class="si">{</span><span class="n">k</span><span class="si">}</span><span class="s">, loss: </span><span class="si">{</span><span class="n">loss</span><span class="p">.</span><span class="n">item</span><span class="p">()</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
-    
-    <span class="c1"># backward pass
-</span>    <span class="n">W1</span><span class="p">.</span><span class="n">grad</span> <span class="o">=</span> <span class="bp">None</span> <span class="c1"># set gradients to zero
-</span>    <span class="n">W2</span><span class="p">.</span><span class="n">grad</span> <span class="o">=</span> <span class="bp">None</span> <span class="c1"># set gradients to zero
-</span>    <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
-    
-    <span class="c1"># update
-</span>    <span class="n">W1</span><span class="p">.</span><span class="n">data</span> <span class="o">+=</span> <span class="o">-</span><span class="mf">10.0</span> <span class="o">*</span> <span class="n">W1</span><span class="p">.</span><span class="n">grad</span>
-    <span class="n">W2</span><span class="p">.</span><span class="n">data</span> <span class="o">+=</span> <span class="o">-</span><span class="mf">10.0</span> <span class="o">*</span> <span class="n">W2</span><span class="p">.</span><span class="n">grad</span>
-</code></pre></div></div>
-
-<h2 id="references">References</h2>
-
-<ol class="bibliography"><li><span id="oore:2018">Oore, S., Simon, I., Dieleman, S., Eck, D., &amp; Simonyan, K. (2018). <i>This time with feeling: Learning expressive musical performance</i>.</span></li>
-<li><span id="johnson:2017">Johnson, D. D. (2017). Generating polyphonic music using tied parallel networks. <i>EvoMUSART</i>.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Music" /><category term="ML" /><category term="FFN" /><category term="MC" /><summary type="html"><![CDATA[The code shown here can be found in the following GitHub repository. In the second installment of this series, I introduce an initial and arguably the most basic method to generate monophonic melodies. This consists of two approaches: (1) A first-order Markov chain (MC) and (2) a feedforward neural network (FNN)]]></summary></entry></feed>
+<li><span id="rorty:2016">Rorty, R. (2016). <i>Philosophy as Poetry</i>. University of Virginia Press.</span></li></ol>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Social Systems Theory" /><category term="AI" /><summary type="html"><![CDATA[Generative AI, especially ChatGPT, brought artificial intelligence into the public sphere and sparked a lot of highly speculative claims about machine intelligence. I’m open for discussions and unafraid of confronting uncomfortable truths. Indeed, our imagination and fearless thinking should pave the way for new possibilities. Dreams and speculations are valuable, as long as they’re presented as such. However, I find it concerning when public figures speak with undue certainty, particularly when making anthropological comparisons between humans and machines.]]></summary></entry></feed>
