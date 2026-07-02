@@ -11,28 +11,28 @@ comments: true
 
 Imagine we are given the task of building a recommendation system. The requirements are clear: the system should suggest content to users that they are highly likely to click on. We define a metric. Let's say, time spent on the platform. Then we optimize toward it. We test, iterate, deploy. The system works. The metric rises.
 
-And then something happens that was in no specification document: people do not merely spend more time on the platform but they change. Their worldview radicalizes gradually, because the system systematically favors polarizing content, since that generates stronger emotional reactions and therefore longer engagement. Social groups fracture. Adolescents develop anxiety disorders. Democratic discourse erodes, and in a distant country people are suddenly being hunted.
+And then something happens that was in no specification document: people do not merely spend more time on the platform, but they change. Their worldview radicalizes gradually, because the system systematically favors polarizing content, since that generates stronger emotional reactions and therefore longer engagement. Social groups fracture. Adolescents develop anxiety disorders. Democratic discourse erodes, and in a distant country people are suddenly being hunted.
 
 The story is real and well-documented. The system fulfilled its specification and still failed. One cannot even necessarily say it was misaligned, because it realized precisely the values its developers had put into it.
 This discrepancy between technical success and systemic harm is therefore not an operational accident. It is not a case of "AI" acting autonomously or exerting influence on its own. The problem reveals itself as an epistemological one, that is, one that computer science as a discipline has so far addressed only inadequately. This text aims to explore why that is, and what a nearly forgotten intellectual program called *cybernetics* might have to contribute.
 
-First we have to recognize that even though humans have always been technological, something has changed over the last decades.
+First we have to recognize that even though humans have always been technological, something has changed over the last few decades.
 The products of computer science are no longer confined to data centers. They have grown deep into the structures of social life.
 Algorithms, and increasingly, learning algorithms, co-determine which news people read, which candidates they see in job applications, what creditworthiness is assigned to them, what therapy options they are offered, and what ideas they develop. Software controls infrastructure that millions of people depend on every day.
 
-This is no exaggeration and no dystopian narrative but the sober observation of a development that has taken place over the last three decades. Technical systems have become constitutive parts of social, psychological, and biological systems. They are part of a co-evolutionary *drift* neither in control nor controllable in the strong sense.
-Here {% cite luhmann:1998 %} points away from a critique of technology that sees it as dominating force and instead insists that society becomes dependent on technology in an unplanned manner by engaging with it (die Gesellschaft lässt sich auf Technik ein).
+This is no exaggeration and no dystopian narrative but the sober observation of a development that has taken place over the last three decades. Technical systems have become constitutive parts of social, psychological, and biological systems. They are part of a co-evolutionary *drift*, neither in control nor controllable in the strong sense.
+Here {% cite luhmann:1998 %} points away from a critique of technology that sees it as a dominating force and instead insists that society becomes dependent on technology in an unplanned manner by engaging with it (die Gesellschaft lässt sich auf Technik ein).
 
 Of course, in some sense this was always the case since even a simple automatic door opener influences social life but today's systems differ in kind, not merely in degree: they are recursive, adaptive, and operate at a scale and speed that outpaces human observation and reaction.
 They irritate our thinking, suggest how we communicate, how we organize ourselves, how we sleep, how we eat, how and whom we love.
-What also changed is the classification of organisms and technical systems with respect to their coupling strategy.
+What has also changed is the classification of organisms and technical systems with respect to their coupling strategy.
 At the time of his writing, Luhmann argued that technology can be identified as realizing *strict couplings* whereas organisms and ecosystems avoid this form of coupling and tend towards a *loose coupling*.
 Technology takes a messy, unpredictable world and forces a tight, invariant relationship between cause and effect.
 Thus, for Luhmann, technology's entire purpose is to exclude contingency (the possibility of things being otherwise) to guarantee a specific output.[^1]
-We argued in {% cite zoennchen:2025 %} that especially with the advances in the development of large language models this might no longer be the case.
-But even a recommender system can be seen as a realizing a *loose coupling*: The technical system relies on social feedback to reduce its own algorithmic complexity, while the social system relies on the technical system to sort through the overwhelming noise of the digital world. And because the technical system is structurally coupled to the unpredictable, loose nature of social communication, the strictly coupled outputs change second-by-second.
+We argued in {% cite zoennchen:2025 %} that, especially with the advances in the development of large language models, this might no longer be the case.
+But even a recommender system can be seen as realizing a *loose coupling*: The technical system relies on social feedback to reduce its own algorithmic complexity, while the social system relies on the technical system to sort through the overwhelming noise of the digital world. And because the technical system is structurally coupled to the unpredictable, loose nature of social communication, the strictly coupled outputs change second-by-second.
 
-[^1]: Nobert Wiener probably would have argued against this distinction because for him noise is a problem for any system be it a machine or an organism. The contradiction dissolves when one realizes that Luhmann and Wiener are analyzing technology at two different levels: operational behavior vs. structural programming.
+[^1]: Norbert Wiener probably would have argued against this distinction because for him noise is a problem for any system be it a machine or an organism. The contradiction dissolves when one realizes that Luhmann and Wiener are analyzing technology at two different levels: operational behavior vs. structural programming.
 
 And yet, when we design (and use) technical systems, we mostly treat them as if they were self-contained machines---simple tools that cannot really alter our *autonomy* and *agency*, even though we know that this is not the case.
 We specify inputs and outputs. 
@@ -41,13 +41,13 @@ Rather implicitly, we use system boundaries that separate the technical from the
 We optimize within those boundaries.
 And whatever happens beyond them does not belong to our responsibility.
 
-Rather than describing this as an individual failure of developers and engineers it might be healthier to think of it as a structural consequence of the way we have learned to think as a discipline.
+Rather than describing this as an individual failure of developers and engineers, it might be healthier to think of it as a structural consequence of the way we have learned to think as a discipline.
 It is an effective way to solve a certain problem since a certain amount of ignorance is necessary to transform uncertainty into something we can manage, such that we are not paralyzed and can move on.
 As Luhmann puts it: **Technology constitutes an evolutionary achievement that operationalizes complexity reduction.**
 
 ## A Repressed Inheritance
 
-Things were once different. In the decades following the Second World War, there was an intellectual movement that refused to accept precisely these boundaries. *Cybernetics* which was founded by Norbert Wiener, Gregory Bateson, Heinz von Foerster, and others asked what control, feedback, information, and self-regulation mean, regardless of whether the system in question is a machine, an organism, a brain, or a society.
+Things were once different. In the decades following the Second World War, there was an intellectual movement that refused to accept precisely these boundaries. *Cybernetics*, which was founded by Norbert Wiener, Gregory Bateson, Heinz von Foerster, and others asked what control, feedback, information, and self-regulation mean, regardless of whether the system in question is a machine, an organism, a brain, or a society.
 The early cyberneticians sat together at the same table. This included mathematicians, neurologists, anthropologists, economists, and engineers. The famous Macy Conferences (1946--1953) brought these disciplines into a conversation.
 
 What became of this program? It did not fail. Instead, it was absorbed institutionally. The successor disciplines, such as control engineering, computer science, cognitive science, organizational theory, and operations research, each inherited and developed a part of the cybernetic legacy. But in this process of specialization, what had held it together was abandoned. The shared conversation became a series of monologues.
@@ -75,7 +75,7 @@ This is not an apology for control but its critique in a Kantian sense, by nulli
 
 Why is this part of the legacy so little known?
 It seems to me that the emerging artificial intelligence research of the 1960s and 70s turned away from cybernetics---partly for substantive reasons, partly because competition for third-party funding sharpens disciplinary boundaries.
-AI and cybernetics became rivals for resources and interpretive authority, not partners. Computer science, which was constituting itself as an independent discipline at that time, oriented itself toward AI research, not toward cybernetics and the emerging *systems theor*y. One might say, somewhat pointedly, that **computer science chose {% cite shannon:1948 %} over {% cite wiener:2019 %}**. The cybernetic legacy remained in control engineering, in parts of biology and sociology but not in the discipline that today builds the most consequential technical systems.
+AI and cybernetics became rivals for resources and interpretive authority, not partners. Computer science, which was constituting itself as an independent discipline at that time, oriented itself toward AI research, not toward cybernetics and the emerging *systems theory*. One might say, somewhat pointedly, that **computer science chose {% cite shannon:1948 %} over {% cite wiener:2019 %}**. The cybernetic legacy remained in control engineering, in parts of biology and sociology but not in the discipline that today builds the most consequential technical systems.
 
 It is therefore no coincidence but the result of concrete institutional history that computer scientists and software engineers today are mostly unfamiliar with Wiener's warnings or von Foerster's critique of steerability. The burdened legacy of cybernetics is to a considerable degree a repressed legacy and the repressed, as we know, returns. Only often in a form we did not choose.
 
@@ -112,9 +112,9 @@ Some core concepts that would be worth introducing into *computational thinking*
 **Feedback and system dynamics.** This is the oldest cybernetic concept and simultaneously the one that has penetrated furthest into computer science, for instance in control engineering. But the systems-theoretical perspective would invite us to consider feedback loops not only within technical systems, but also between technical, social, and psychological systems. The changes that a technical system triggers in its social environment return to the technical system as altered usage and altered expectations. Modeling or at least anticipating these loops is difficult but ignoring them is dangerous.
 
 At this point an objection might arise: should computer science now pursue sociology and psychology? Do we not lose precisely the sharpness that makes us productive when we expand into such breadth?
-The objection deserves to be taken seriously but it rests on a misunderstanding. The goal is not to replace computer science with systems theory or to retrain programmers as sociologists. The goal, in my mind, is something more modest: computer scientists should learn to consciously perceive the limits of our models.
+The objection deserves to be taken seriously but it rests on a misunderstanding. The goal is not to replace computer science with systems theory or to retrain programmers as sociologists. The goal, in my mind, is something more modest: computer scientists should learn to consciously perceive the limits of their models.
 
-An architect need not be a structural engineer in order to know that they need one and when they need one. A software engineer need not be a social scientist in order to know that their system intervenes in social systems with their own dynamics that she does not fully understand. Systems-theoretical thinking gives her the vocabulary to name these boundaries, and might provoke her to ask the right questions, to bring in the right expertise.
+An architect need not be a structural engineer in order to know that they need one and when they need one. A software engineer need not be a social scientist in order to know that their system intervenes in social systems with their own dynamics that they do not fully understand. Systems-theoretical thinking gives her the vocabulary to name these boundaries, and might provoke her to ask the right questions, to bring in the right expertise.
 This would be, I think, no weakening of the discipline, but a consistent maturation that is long overdue given present circumstances.
 
 Compare it with the development of software quality over recent decades. It was once not a self-evident part of *computational thinking* {% cite wing:2006 %} to reflect on security, accessibility, data protection, or energy efficiency. These aspects were introduced into the discipline through external demands, for example, through legal regulation, social debate, spectacular failures, and so on. Today they belong, if not yet always ideally, to the canon.
@@ -130,15 +130,15 @@ For practitioners, "more systems theory" can easily sound like an academic deman
 
 **In metrics definition:** The question of whether the metrics being optimized for represent the systemic goals, or only the technically measurable slice of them. This is the most direct consequence of the recommendation algorithm example: time on platform is not the same as user wellbeing.[^2] 
 
-[^2]: Of course, regulations or other incentive have to be installed to make sure that the desired systemic goals are in fact the goals of the organizations that set them. But this is itself a systemic problem because such an organization is a complex system that can not be steered or controlled directly but can only be irritated.
+[^2]: Of course, regulations or other incentives have to be installed to make sure that the desired systemic goals are in fact the goals of the organizations that set them. But this is itself a systemic problem because such an organization is a complex system that can not be steered or controlled directly but can only be irritated.
 
-**In education:** Systems-theoretical foundations but not, of course, in their full Luhmannian complexity, but potentially as part of the computational canon. What are systems? What is environment? What is (structural) coupling? What is emergence? What does it mean that social systems are operationally closed? These questions could be integrated as a standalone module or as a cross-cutting theme in existing courses. The theory itself must, however, remain open to critique, and it is necessary to also engage with its critics.
+**In education:** Systems-theoretical foundations—not, of course, in their full Luhmannian complexity—but potentially as part of the computational canon. What are systems? What is environment? What is (structural) coupling? What is emergence? What does it mean that social systems are operationally closed? These questions could be integrated as a standalone module or as a cross-cutting theme in existing courses. The theory itself must, however, remain open to critique, and it is necessary to also engage with its critics.
 
 **In interdisciplinary projects:** Systems theory as a shared language that enables precise communication across disciplinary boundaries. When a computer scientist and a sociologist can both speak about "structural coupling," they have a common vocabulary for something that is otherwise very difficult to articulate.
 
 ## When the Model Becomes an Actor
 
-Let me come to an end by looking at a recent example of a system that should be looked at with a systems theoretical perspective.
+Let me come to an end by looking at a recent example of a system that should be looked at with a systems-theoretical perspective.
 
 *Prediction markets* offer a particularly instructive illustration of dynamics. 
 These are markets on which participants can bet on the outcome of future events, for example, from election results to whether a politician will use a particular word in a speech to whether a new drug will pass clinical trials. 
@@ -157,14 +157,14 @@ But the more fundamental problem persists even if we set aside corruption entire
 A prediction market does not merely observe the probability of an event but it also publishes that observation, and in doing so becomes a participant in the very system it was meant to describe from the outside. 
 This makes *second-order observation* possible, meaning people can observe how others observe.
 
-In many cases second-order observation is effectively reduces complexity, for example, when you want to buy a house it is not necessary to go to the house and calculate by hand how much it should cost.
+In many cases second-order observation effectively reduces complexity, for example, when you want to buy a house it is not necessary to go to the house and calculate by hand how much it should cost.
 You observe how others observe the house via the housing market.
 
 In the case of prediction markets, second-order observation is part of the signal an individual brings into the prediction and thereby undermines the whole concept of "drawing in individuals with superior knowledge".
 And worse: a market price of 85% in favor of a particular election outcome influences how voters, campaigns, donors, and media organizations behave, which in turn influences the outcome. 
 The observer has entered the system. 
 The model is no longer a neutral representation; it is an **actor**.
-That media organizations seem highly interested in coupling their operation with these markets could likely amplify these effects.
+That media organizations seem highly interested in coupling their operations with these markets could likely amplify these effects.
 
 The possible consequence is that prediction markets are not simply truth-discovery mechanisms that occasionally malfunction. 
 They are an interesting case for systems theorists because, as I hinted at, they make *observations* of the models of psychic systems, i.e. our beliefs, *observable*.
@@ -174,11 +174,11 @@ And for whom?
 And, assuming the system works effectively---which is highly questionable---is it a net good to know what an aggregate believes about the future?
 
 Going back to my [previous post]({% post_url 2026-04-03-cruelty-and-solidarity-en %}), I pose the question: do we need this kind of certainty?
-Or probably more appropriate: Will society engage in this sort of complexity reduction or will prediction markets fizzle out.
+Or probably more appropriate: Will society engage in this sort of complexity reduction or will prediction markets fizzle out?
 Maybe prediction markets could lead to less polarization and act as a negative feedback loop of social media outrage.
-However, because of non-linear nature of their dynamic, it is hard to predict what influence such systems have long term but I would advise to closely observe what happens on a time scale that matches the systems operation speed (if this is even possible).
+However, because of the non-linear nature of their dynamics, it is hard to predict what influence such systems have long term but I would advise to closely observe what happens on a time scale that matches the systems operation speed (if this is even possible).
 
-Listening to interviews of the CEOs of these markets could not eliminate my worries.
+Listening to interviews with the CEOs of these markets could not eliminate my worries.
 
 >Prediction markets are the future. I think they are the future not just for traders but also for news and information. -- CEO of Robinhood
 
@@ -188,7 +188,7 @@ Listening to interviews of the CEOs of these markets could not eliminate my worr
 
 The possibility to bet on whether there will be a Russia-Ukraine ceasefire before a certain video game comes out, feels intuitively ethically wrong and deeply distasteful.
 Fittingly the Kalshi ad read: **The world's gone mad, trade it.** 
-It is, of course, also very dubious that the son of the President of the U.S. is an adviser of two of these markets.
+It is, of course, also very dubious that the son of the President of the U.S. is an adviser to two of these markets.
 
 ## An Invitation
 
