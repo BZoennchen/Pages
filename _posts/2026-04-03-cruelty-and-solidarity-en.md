@@ -26,28 +26,45 @@ In the narratives of our day, truth has gone astray; a bizarre theater of the ob
 
 Surely this is to simple. But the scares of these days never healed. 
 They left their mark because we disrespected our values and created an inescapable dissonance between what we do and what we imagine ourselves to be.
-We contributed to the possibility that today more and more acts of disobedience can be declared *terrorism*, and that everyone can be branded a terrorist.
+We contributed to a reality where acts of defiance are increasingly labeled as terrorism, and where anyone can be branded a terrorist---especially those whose solidarity is based purely on human suffering, regardless of political or national boundaries.
+Ultimately, this is a direct attack on the core idea of liberalism.
 
 This systemic turning against our own foundational structure mirrors a profound, quiet madness; one that manifests vividly in the cinematic image of a solitary wanderer in the eternal ice.
-The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains. It is a thoroughly extraordinary march against the penguin's own environment, against the instinct for survival, and against every community of interdependent beings.
+The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains.
+It is a thoroughly extraordinary march against the penguin's own environment, against the instinct for survival, and against every community of interdependent beings.
 
-There, in the desolation of the peaks, the wanderer hopes to open up a new realm of winners. In his eye it shall be a purifying reincarnation. And, like many Italian futurists, he looks ahead, towards speed, violence, technology, industry and war. 
-But he has to be certain of his cause. 
-Doubt---his own as much as that of his companions---is what gnaws at him. From the perspective of his colony, which is setting out toward the ocean, it is a mission without tomorrow, driven by a dark longing for the end---a final act of retribution against a disappointing world that one can no longer imagine made better. And in this departure, the cruelty directed against curiosity and doubt becomes the pleasure of satisfaction in being right, at least with the prophecy of downfall. In our ears Herzog's voice resonates:
+There, in the desolation of the peaks, the wanderer hopes to open up a new realm of winners.
+In his eye it shall be a purifying reincarnation.
+And, like many Italian futurists, he looks ahead, towards speed, violence, technology, industry, and war.
+Yet beneath this mechanical zeal runs a deeply religious current--an echo of American end-time mythologies where a disappointing world cannot be redeemed, only consumed by fire.
+
+But he has to be certain of his cause.
+Doubt---his own as much as that of his companions---is what gnaws at him.
+In this apocalyptic logic, doubt is not just a hesitation; it is a temptation by the Antichrist, a betrayal of the absolute faith required for the final days.
+From the perspective of his colony, which is setting out toward the ocean, it is a mission without tomorrow, driven by a dark longing for the end---a final act of retribution against a world one can no longer imagine made better.
+And in this departure, the cruelty directed against curiosity and doubt becomes the perverse satisfaction of being right, at least with the prophecy of downfall. 
+In our ears Herzog's voice resonates:
 
 >But why? -- Werner Herzog
 
-And we applaud the courage of the wanderer and try to re-interpret the seemingly nihilistic impuls as a call to save Europe {% cite gundlach:2026 %}.
-But this wanderer does not follow life; he follows a myth of freedom that leads him irresistibly into the white void. He is dead. He won against his environment---against a *careless* nature:
+And so, we applaud the wanderer's courage, attempting to re-interpret what seems like a mix of nihilism and destructive vitalism as a desperate call to save Europe {% cite gundlach:2026 %}.
+But this wanderer does not follow life; he follows a myth of freedom that leads him irresistibly into the white void.
+He is dead.
+He won against his environment---against a *careless* nature:
 
 >With five thousand kilometer ahead of him, he's heading towards certain death. -- Werner Herzog
 
 A remarkably similar architecture of self-imposed isolation is being constructed today in the shadow zones of our digital world.
-Here, a brotherhood of grievance has formed, a loose network of voices that find their identity only in the echo of hatred. They need a face they can despise, and because sensitization has taken something from them, solidarity itself has become the enemy. The call for a return to the "true mask" of man is more than mere nostalgia; it is the desperate longing for an old, heavy armor that admits no cracks and thus no vulnerability. It is an anarchic armor that no longer requires solidarity at all, because it is its own ecosystem---self-sufficient, optimized, independent, and closed in on itself. At the same time, behind the facade lies deep suffering, because man has lost something that once made his world simple and secure.
+Here, a brotherhood of grievance has formed, a loose network of voices that find their identity only in the echo of hatred.
+They need a face they can despise, and because sensitization has taken something from them, solidarity itself has become the enemy.
+The call for a return to the "true mask" of man is more than mere nostalgia; it is the desperate longing for an old, heavy armor that admits no cracks and thus no vulnerability.
+It is an anarchic armor that no longer requires solidarity at all, because it is its own ecosystem---self-sufficient, optimized, independent, and closed in on itself.
+At the same time, behind the facade lies deep suffering, because man has lost something that once made his world simple and secure.
 
 >Destructive attitudes develop predominantly in people who perceive themselves as marginalized, yet are status-ambitious and dominance-oriented. Individuals with a destructive mindset are convinced that they are being denied a social position to which they have a legitimate claim. -- Oliver Nachtwey
 
-He could no longer reconfigure his identity through the new vocabulary. He was *humiliated* and sought another language, so that everything that had seemed particularly important to him might once again become true and good.
+He could no longer reconfigure his identity through the new vocabulary.
+He was *humiliated* and sought another language, so that everything that had seemed particularly important to him might once again become true and good.
 What he found is the language of dominance.
 
 >The *will to dominate* was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
@@ -60,21 +77,26 @@ In the words of Palantir's manifesto:
 
 -->
 
-It is as though history were violently recoiling. Where the world had begun to grow quieter and more sensitive to the pain of "the other", a part of it responds with a new, steely coldness.
+It is as though history were violently recoiling.
+Where the world had begun to grow quieter and more sensitive to the pain of "the other", a part of it responds with a new, steely coldness.
 
->Tonight, a whole civilization will die and never return. [...] There might something revolutionarily wonderful happening, who knows. -- Trump
+>Tonight, a whole civilization will die and never return. [...] There might something revolutionarily wonderful happening, who knows. -- Donald Trump
 
-Yet beyond the loud grievance of the streets, in the soundless, glass-walled cathedrals of light and silicon, a far quieter, almost clinical cruelty is ripening. It is a faith that bundles itself in seven cold stars into a single radiance---an alliance of those who regard "the human being" as a transitional sketch to be technologically overcome {% cite gebru:2024 %}. In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body.
+Yet beyond the loud grievance of the streets, in the soundless, glass-walled cathedrals of light and silicon, a far quieter, almost clinical cruelty is ripening.
+It is a faith that bundles itself in seven cold stars into a single radiance---an alliance of those who regard "the human being" as a transitional sketch to be technologically overcome {% cite gebru:2024 muehlhoff:2025 %}.
+In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body.
 
-From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust. The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error. It is an ethics that sacrifices today to a speculative singularity of tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. 
-These ideas are neither interesting nor imaginative but ancient and we should be well aware of these old dreams of greatness that require "a downfall of decadence".
+From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust.
+The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error.
+It is an ethics that sacrifices today to a speculative singularity of tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. 
+There is nothing novel or imaginative about these ideas; they are archaic myths, and we must remain acutely aware of these ancient dreams of greatness that demand a catastrophic downfall to purge "decadence".
 
 >We should try to create autonomous countrys on oceans, under water, and all sorts of other spaces. Technology is the vehicle to escape and move beyond politics as we find it today. -- Peter Thiel
 
-In this worldview, an old dark spirit returns, cloaked in the garb of logic: the conviction that life has a price measured by its utility for the great progress, which could be gauged by its approximation to the absolute; that the immaterial disguised as weightless information is real and the material---bodies and trees, flowers and animals, mountains and oceans---can be overcome.
+In this worldview, an old dark spirit returns, cloaked in the garb of logic: the conviction that life has a price measured by its utility for the great progress, which could be gauged by its approximation to the *absolute*; that the immaterial disguised as weightless information is real and the material---bodies and trees, flowers and animals, mountains and oceans---can be overcome.
 Once again it is assumed that everything can be calculated, but in place of Kantian principles stand calculating machines and the theories of probability and expected values.
 Once again we await a god---this time a god made of numbers---a superintelligence that, like an infallible oracle, could end the chaos of our interpersonal stories---as though society could communicate with anything other than itself.
-It is Plato's ancient, stony dream---the hope that pure, incorruptible truth might finally triumph over the tender but imperfect narratives of compassion; that we might remember what has always been out there and within us; that in this awakening the True and the Good coincide.
+It is Plato's ancient, stony dream---the hope that pure, incorruptible truth might finally triumph over the tender but imperfect narratives of compassion; that we might remember what has always been out there and within us; that in this "awakening" the True and the Good coincide.
 
 >Plato thought that morality and politics should be based on principles in the same why that Euclidean geometry is based on axioms. He thought that philosophical inquiry was a matter of nailing down firm immutable principles which could then guide action. [...And] as Plato said, it is if we had known the truth in a pervious existence and simple need to be reminded of it, have it brought back to consciousness.  -- {% cite rorty:1990 %}
 
@@ -159,7 +181,7 @@ Rorty recognizes in this tension the productive condition of a liberal modernity
 However, Rorty emphatically reminds us that most people do not want to be redescribed, and that an imposed redescription is usually cruel.
 People generally want to be taken as they speak.
 
->There is something potentially very cruel about the claim that [the language people speak is, for the ironist, a matter of chance]. For the most effective way of causing people enduring pain is to humiliate them by making the things that seemed most important to them look futile, obsolete, and powerless. - {% cite rorty:1989 %}
+>There is something potentially very cruel about the claim that [the language people speak is, for the ironist, a matter of chance]. For the most effective way of causing people enduring pain is to humiliate them by making the things that seemed most important to them look futile, obsolete, and powerless. -- {% cite rorty:1989 %}
 
 I think this is one of the most remarkable statements, one that emphasizes the dark side of the *ironic attitude*.
 The ironist knows that every vocabulary---every language in which people give meaning to their lives---is contingent, and therefore replaceable, not final, but neither useless nor arbitrary.
@@ -393,7 +415,8 @@ Perhaps that is the blind spot that costs us the most dearly today.
 ## Cultivating Sensitivity
 
 The *urge toward new hardness*, toward strong men, clear images of the enemy, and national self-assertion, is not a sign of strength.
-It is a sign that the circle of solidarity is shrinking. Rorty would not have been surprised.
+It is a sign that the circle of solidarity is shrinking.
+Rorty would not have been surprised.
 He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness.
 
 Because of the political development of the past, we are in the unfortunate position that some of the moral progress correlates with an increase in material inequality such that the emontional path from correlation to causation is short and easy to take. This leads to a sort of alienation from society {% cite amlinger:2025 %}.
@@ -410,28 +433,56 @@ What liberals can learn from Rorty is first of all an attitude of humility: thos
 Rorty proposed defending liberalism not as truth but as habit---as a way of living together that we have laboriously acquired and that is worth continuing to narrate.
 Liberal democracy does not need philosophical justification.
 It is pragmatically justified because, for Rorty, it works better at reducing cruelty and increasing human freedom than anything else we've tried.
-But if we no longer cultivate ourselves to desire the reduction of cruelty, liberal democracy will disappear.
+But **if we cease to cultivate a desire for the reduction of cruelty, liberal democracy will inevitably vanish**.
 
 The resistance to new hardness cannot be primarily argumentative.
-Trump, the German AfD, and others do not convince people via rational arguments but through emotions.
-In fact, **cruelty is the point**; it is a necessity. It is a desired feature of their politics to humiliate their perceived enemies even if their actions go against their base because it is cruelty that can be employed to get back what can never be owned: a nation, a race, a country, a planet, a superintelligence.
+Those who want to draw smaller circles do not convince people via rational arguments but through emotions.
+In fact, **cruelty is the point**; it is a necessity in a zero-sum game.
+It is a desired feature of their politics to humiliate their perceived enemies even if their actions go against their base because it is cruelty that can be employed to get back what can never be owned: a nation, a race, a country, a culture, a planet, a superintelligence.
 
-One does not refute resentments through better arguments; one changes them through better stories---that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
+One does not refute resentments through better arguments; one changes them through better stories, that is, through narratives that give a face to people regarded as foreign, that show what it feels like to be excluded, persecuted, humiliated and by creating the conditions that everyone finds a niche in which they can self-realize themselves.
 That is not a weakness of the liberal project but its actual strength: not persuasion through logic, but expansion of the imagination.
 
-Third, and this is perhaps Rorty's most uncomfortable lesson: liberals must stop overlooking their own cruelty.
-New hardness thrives where people feel that their vocabulary---their way of describing their life, giving dignity to their work, and meaning to their community---is being ridiculed by those who advocate openness and tolerance.
-A solidarity that applies only among the educated, excludes any recognition of the sufferings of a racist, is blind to the struggle of workers is no solidarity.
+Third, and most uncomfortably, Rorty demands that liberals stop overlooking their own capacity for cruelty.
+A dangerous, defensive hardness thrives among those who feel that their "final vocabulary"---their way of describing their life, giving dignity to their work, and finding meaning in their community---is being ridiculed by the architects of openness and tolerance.
+A solidarity that applies only among the educated, while blinding itself to the struggles of workers or flatly refusing to recognize the suffering of a racist, is no solidarity at all.
 
-We easily fall into the trap of forcing a description of the world onto someone else that makes them powerless, or ignoring their capacity to suffer. A racist acts with immense cruelty by denying the humanity and suffering of others based on their race.
-However, Rorty warns that if liberals turn around and treat the racist as a subhuman monster who is inherently evil, the liberals are also slipping into a form of cruelty. They are closing their eyes to the racist's humanity, treating them as an irredeemable object rather than a person who has been poorly socialized.
-It is a new form of humiliation, and Rorty would have insisted that liberals look for this first in themselves before pointing a finger at others.
+When we force our description of the world onto others, we risk committing the ultimate Rortyan sin: stripping them of their agency and ignoring their capacity to suffer.
+A racist acts with immense cruelty by denying the humanity of others.
+Yet, Rorty warns that when liberals respond by treating the racist as an inherently evil, subhuman monster, they slip into a parallel form of cruelty.
+They close their eyes to the racist's humanity, treating them as an irredeemable object rather than a poorly socialized human being.
+This is simply a new mechanism of humiliation, and Rorty insists that liberals root out this sadism in themselves before pointing fingers.
 
-There is no absolute moral laws that resolves this *paradox of tolerance* but a pragmatic response: our tribe's way of living which does not tolerate racism is better to reduce cruelty and we will therfore enforce it with the use of political power. We recognize that the racist is a human being capable of suffering but this will not paralyze us.
+Furthermore, Rorty reserves a distinct scorn for this kind of performative moral high ground.[^3]
+He famously critiqued the "spectatorial left" for transforming politics into a theater of cultural purity testing, where naming vices and maintaining a flawless vocabulary replaces the **heavy lifting of material reform** {% cite rorty:1998 %}.
+For Rorty, a moral posture that exists only to signal its own righteousness does nothing to alleviate pain; instead, it becomes a weapon of exclusion, mocking the very workers and poorly socialized individuals it claims a democratic society should integrate.
 
-Yet Rorty knew how easily this pragmatic enforcement of power can warp into state-sponsored paranoia. His immediate, visceral opposition to the post-9/11 "War on Terror" and the invasion of Iraq was driven by this exact anxiety. He recognized that the moment a democracy prioritizes absolute safety over civil liberties, it surrenders its moral authority. He viewed the weaponization of fear after 9/11 as a disastrous distraction from building a more just, equal, and inclusive society. He called this manifestation "simple-minded militaristic chauvinism". To Rorty, trading freedom for security was a cynical political maneuver that exported violence abroad while bleeding away the resources needed to fix internal failures like poverty and systemic racism. A society terrified of an invisible enemy inevitably stops listening to its citizens and starts listening to a "strongman".
+[^3]: This text can be seen as performative.
 
-In short: Today, Rorty would not call on us to save democracy by philosophically refuting its enemies. He would call on us to narrate it---again and again, in new words, for people who do not yet recognize themselves in it. Instead of giving up on cultivating the art of solidarity, he would call on us to reconfigure our social reality in such a way that it fits our description of a liberal democracy; to go so far to say: it is more important to be sensible to cruelty than to find "the truth".
+No absolute moral law resolves this *paradox of tolerance*.
+It cannot "solve" Gaza and the West Bank. There are only *pragmatic* choices.
+Arguing over theoretical definitions of "genocide" or "apartheid" does nothing to stop a bomb from falling or a family from being displaced because **laws are only binding if people feel like obeying them**.[^4]
+Legal documents themselves are just pieces of paper unless they are backed by a *human rights culture*.
+And in a *liberal culture*, no political goal should justify the torture or starvation of a population.
+We must confidently assert that our tribe's way of living, that is, one that refuses to tolerate racism, is simply better at minimizing cruelty, and we will therefore enforce it through political power.
+We can recognize that the racist is a human being capable of suffering without letting that recognition paralyze our defense of a democratic society.
+Thus, the West has a pragmatic duty to use its political and economic power to enforce a settlement to stop the exertion of cruelty.
+
+[^4]: Arguing matters if these terms are legally binding---but not for the reason most lawyers or human rights activists think it does since international law is a collection of linguistic mechanisms invented by humans to achieve a specific goal: the reduction of cruelty. Thus, in Rorty's eyes, arguing about the law is useful only if it is treated as a tactical weapon to reduce physical pain, not as a philosophical debate to prove your moral superiority. But if we spend months debating the precise semantic definition of "genocide" or "proportionality" in academic journals while people are actively starving, the law has ceased to be a useful tool.
+
+Yet Rorty knew how easily this pragmatic enforcement of power can warp into state-sponsored paranoia. His immediate, visceral opposition to the post-9/11 "War on Terror" and the invasion of Iraq was driven by this exact anxiety.
+He recognized that the moment a democracy prioritizes absolute safety over civil liberties, it surrenders its moral authority.
+He viewed the weaponization of fear after 9/11 as a disastrous distraction from building a more just, equal, and inclusive society. 
+And he called this manifestation "simple-minded militaristic chauvinism". 
+Trading freedom for security was a cynical political maneuver that exported violence abroad while bleeding away the resources needed to fix internal failures like poverty and systemic racism.
+A society terrified of an invisible enemy inevitably stops listening to its citizens and starts listening to a "strongman".
+
+In short: Today, Rorty would not call on us to save democracy by philosophically refuting its enemies.
+He would call on us to narrate it---again and again, in new words, for people who do not yet recognize themselves in it.
+But this requires that our actions converges to the image we have of ourselves.
+Instead of giving up on **cultivating the art of solidarity**, Rorty would call on us to reconfigure our social reality in such a way that it fits our description of a liberal democracy; to go so far to say: it is more important to be sensible to cruelty than to find "the Truth".
+
+>Orwell's main concern is to sensitize an audience to cases of cruelty and humiliation which they had not noticed. [... Moral progress is] a matter of separating the question "Do you believe and desire what I believe and desire?"---a representational question---from the question "Are you suffering?" -- {% cite rorty:1989 %}
 
 But that requires time.
 Not the time of rapid consumption, but the slow time of reading.
