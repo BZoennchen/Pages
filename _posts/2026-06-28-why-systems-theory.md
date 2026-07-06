@@ -206,7 +206,7 @@ This is no reason for paralysis. No engineering endeavor waits until all effects
 
 Perhaps it is time to renegotiate those boundaries. Not in order to leave computer science behind, but to extend it. Cybernetics and systems theory offer for this purpose a vocabulary that has matured over fifty years and remains largely unused and is largely unknown in the very discipline that emerged from it, and yet which might need it most urgently.
 
-Perhaps it is worth attempting to take a look inside---not to eliminate uncertainty or to build systems of total control but to acknowledge our own ignorance and to limits of control.
+Perhaps it is worth attempting to take a look inside---not to eliminate uncertainty or to build systems of total control but to acknowledge our own ignorance and limits of control.
 In other words, to cultivate a *cybernetics* worthy of its philosophical heritage that maintains the knowledge of its own ignorance, rather than boasting of the mechanical reduction of complexity—control as self-control and the fine-tuning of doubt, not as a pretext for the hubris of domination.
 
 ## References
