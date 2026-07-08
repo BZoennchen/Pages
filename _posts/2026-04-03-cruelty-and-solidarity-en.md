@@ -20,14 +20,14 @@ The language that once bound us has turned to stone. It knows only the absolute:
 
 In the narratives of our day, truth has gone astray; a bizarre theater of the obvious reigns, in which the lie is no longer concealed but triumphs as a naked gesture of violence. It is the violence of the unenlightened, in the sense that their centers were never permitted to develop desires. They were not nurtured and could not learn to draw symbolically from their accumulated rage and traumas. And what had previously remained hidden behind etiquette and the effort to maintain decorum now shows itself unveiled: speech is no longer used to be understood, but to humiliate other people. 
 
-{% cite baudrillard:1976 %} was right in assuming that the West could not handle the brutal symbolic gift it received on 9/11; by trying to give it back, the system turned inward to give its humiliated power food it could process. Some of this cruelty is old and well accepted if experienced by "the right people" because out of fear we opened the box of exceptions; of treating people marked by some features quite different in front of the law. "We" failed the test, unable to realize our self-description. And what could have been a time for self-reflexion became the years of the beast.
+{% cite baudrillard:1976 %} was right in assuming that the West could not handle the brutal symbolic gift it received on 9/11; by trying to give it back, the system turned inward to give its humiliated power food it can process. Some of this cruelty is old and well accepted if experienced by "the right people" because again and again we rationalized our way towards exceptions; of treating people marked by some features quite different in front of the law. "We" failed the test, unable to realize our self-description. And what could have been a time for self-reflexion became the years of the beast.
 
->However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and I came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress that voted aginst the war in Afghanistan (518 to 1 vote)) 
+>However difficult this vote may be, some of us must urge the use of restraint. Our country is in a state of mourning. Some of us must say: "Let us step back for a moment and let's just pause for a minute" and think through the implications of our actions today, so that this does not spiral out of control. [...] I came to grips with [my vote] today and I came to grips with opposing this resolution during the very painful, yet very beautiful memorial service. As a member of the clergy so eloquently said: "As we act, let us not become the evil that we deplore." -- Barbara Lee (Single voter of Congress who voted aginst the war in Afghanistan (518 to 1 vote)) 
 
-Surely this is to simple. But the scares of these days never healed. 
+Surely this is too simple; too reductive but still, those scares of these days never healed. 
 They left their mark because we disrespected our values and created an inescapable dissonance between what we do and what we imagine ourselves to be.
 We contributed to a reality where acts of defiance are increasingly labeled as terrorism, and where anyone can be branded a terrorist---especially those whose solidarity is based purely on human suffering, regardless of political or national boundaries.
-Ultimately, this is a direct attack on the core idea of liberalism.
+This *war on terror* exists as a profound paradox: it is at once a direct assault on the foundational tenets of liberalism and the very mechanism deployed to safeguard them.
 
 This systemic turning against our own foundational structure mirrors a profound, quiet madness; one that manifests vividly in the cinematic image of a solitary wanderer in the eternal ice.
 The penguin in Werner Herzog's {% cite herzog:2007 %} narrative becomes a propaganda figure who, for no reason, turns away from the sheltering colony to waddle stubbornly toward distant mountains.
@@ -36,9 +36,9 @@ It is a thoroughly extraordinary march against the penguin's own environment, ag
 There, in the desolation of the peaks, the wanderer hopes to open up a new realm of winners.
 In his eye it shall be a purifying reincarnation.
 And, like many Italian futurists, he looks ahead, towards speed, violence, technology, industry, and war.
-Yet beneath this mechanical zeal runs a deeply religious current--an echo of American end-time mythologies where a disappointing world cannot be redeemed, only consumed by fire.
+Yet beneath this mechanical zeal runs a deeply religious current---an echo of American end-time mythologies where a disappointing world cannot be redeemed, only consumed by fire.
 
-But he has to be certain of his cause.
+But the wanderer has to be certain of his cause.
 Doubt---his own as much as that of his companions---is what gnaws at him.
 In this apocalyptic logic, doubt is not just a hesitation; it is a temptation by the Antichrist, a betrayal of the absolute faith required for the final days.
 From the perspective of his colony, which is setting out toward the ocean, it is a mission without tomorrow, driven by a dark longing for the end---a final act of retribution against a world one can no longer imagine made better.
@@ -65,9 +65,9 @@ At the same time, behind the facade lies deep suffering, because man has lost so
 
 He could no longer reconfigure his identity through the new vocabulary.
 He was *humiliated* and sought another language, so that everything that had seemed particularly important to him might once again become true and good.
-What he found is the language of dominance.
+What he found is **the language of dominance**.
 
->The *will to dominate* was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
+>The will to dominate was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
 
 <!--
 
@@ -84,12 +84,13 @@ Where the world had begun to grow quieter and more sensitive to the pain of "the
 
 Yet beyond the loud grievance of the streets, in the soundless, glass-walled cathedrals of light and silicon, a far quieter, almost clinical cruelty is ripening.
 It is a faith that bundles itself in seven cold stars into a single radiance---an alliance of those who regard "the human being" as a transitional sketch to be technologically overcome {% cite gebru:2024 muehlhoff:2025 %}.
-In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body.
+In this light, the longing for the stars no longer appears as a departure but as a flight; an expansion into the void, driven by the dream of an eternity that no longer needs a body; to become a misremembered Puppet Master---a ghost whithout a shell in a Cartesian fantasy. 
 
 From the heights of their galactic calculations, these architects of the future look down on the here and now as upon an ant colony in the dust.
 The suffering of the present---the exhaustion of the earth, the silencing of diversity---shrinks in their eyes to a negligible rounding error.
 It is an ethics that sacrifices today to a speculative singularity of tomorrow, a morality of arithmetic, a *rule of code* instead of law {% cite rosengruen:2022 %} in which a burning planet weighs less than the mathematical promise of a posthuman world of gods. 
-There is nothing novel or imaginative about these ideas; they are archaic myths, and we must remain acutely aware of these ancient dreams of greatness that demand a catastrophic downfall to purge "decadence".
+There is nothing novel or imaginative about these ideas; they are archaic myths that provide narrow futures.
+We must remain acutely aware of these ancient dreams of greatness that demand a catastrophic downfall to purge "decadence" and to bring a new *technological order* into choas.
 
 >We should try to create autonomous countrys on oceans, under water, and all sorts of other spaces. Technology is the vehicle to escape and move beyond politics as we find it today. -- Peter Thiel
 
@@ -111,7 +112,7 @@ We feel it in the burden of everyday life: the sense that what exists can no lon
 
 As different as these three figures may appear---the ranter on the market square, the calculator in the server room, the exhausted person on the sofa---they share a common root: the inability to live with the contingency of life.
 All three want certainty.
-One fights for it through enemies, another calculates it through machines, the third finds it in the renunciation of all hope.
+One fights for it through enemies, another calculates it through machines, and the third finds it in the renunciation of all hope.
 
 In this darkness we look at ourselves and see only deficiencies.
 The human being no longer appears to us as a continually changing riddle of openness, but as a flawed, inadequate disruptive factor to be optimized away.
@@ -134,7 +135,7 @@ Meanwhile, he himself wrote quite systematically (as in {% cite rorty:1979 %}) b
 His writing style as well as his philosophical position are American in their simplicity, whereas his admiration squints toward Europe.
 He likely embodies much of what disturbs philosophers when they write about the "decline of culture," for as someone who wants to take neither Kant nor Nietzsche too literally, he refuses answers to cold questions such as: "What **ought** I to do?"---in the sense of a universal duty. The warm question, however, "What can **we** do for one another?", he does answer, but without metaphysical backing: Reduce cruelty, expand your circle of solidarity---not because reason commands it, but because we have learned what it means to be humiliated.
 
-His irritating position on "the Truth" and "the really real" is a melting of Pragmatism and Romaticism which can be summed up by the following quote:
+His irritating position on "the Truth" and "the really real" is a melting of pragmatism and romaticism which can be summed up by the following quote:
 
 >On the account of human abilities I am suggesting, the use of persuasion rather than force is an innovation comparable to the beaver's dam. Like the beavers' collaboration in getting the dam built, it is a social practice. It was initiated by the noval suggestion that we might use noises rather than physical compulsion to get other humans to cooperate with us. That suggestion gave rise to language. Rationality, thought, and cognition all began when language did.[^1] Language gets off the ground not by people giving names to things they were already thinking about but by proto-humans using noises in innovative ways, just as the proto-beavers got the practice of building dams off the ground by using sticks and mud in innovative ways. Language was, over the millenia, enlarged and rendered more flexible not by adding the names of abstract objects to those of concrete objects but by using marks and noises in ways unconnected with environmental exigencies. The distinction between the concrete and the abstract can be replaced with that between words used in making perceptual reports and those unsuitable for such use. [...W]e need to think of reason not as a truth-tracking faculty but as a social practice---the practice of enforcing social norms on the use of words rather than blows as a way of getting things done. We need to think of imagination not as the faculty that produces visual or auditory images but as a combination of novelty and luck. To be imaginative, as opposed to being merely fantastical, is to do something new and to be lucky enough to have that novelty be adopted by one's fellow humans, incorporated into their social practices. [...] People whose novelties we cannot appropriate and utilize we call foolish, or perhaps insane. Those whose ideas strike us as useful we hail as geniuses. -- {% cite rorty:2016 %}
 
@@ -142,9 +143,9 @@ His irritating position on "the Truth" and "the really real" is a melting of Pra
 
 What Rorty offers me is an admirable description of the liberal and democratic society that unerringly exposes anti-liberal opposites.
 He gives me an answer to the question "What do liberals want and what can they hope for?" with which I can agree.
-And although---or precisely because---he takes leave of *first principles* and speaks soberly about texts from Wittgenstein to Proust, he can inspire enthusiasm for a liberalism by understanding it as *the art of solidarity*.
+And although---or precisely because---he takes leave of *first principles* and speaks soberly about texts from Wittgenstein to Proust, he can inspire enthusiasm for a liberalism by understanding it as **the art of solidarity**.
 
-Let us begin with a note on why educational institutions in particular are so decisive for *the art of solidarity*:
+Let us begin with a note on why educational institutions in particular are so decisive for it:
 
 >In democratic societies like ours, colleges and universities have a peculiar two-faced role. They get their money by promising to furnish money-making skills to their students and by promising to perform research which will enable society as a whole to get more goods and services more cheaply. The face they present to rich donors, state legislators, and the general public is essentially a commercial one. They suggest that they have certain products which the society as a whole needs and they ask for support on that basis. They usually don't suggest that their function is to disturb the students, make them have doubts about the way they were brought up, force them to ask unanswerable questions. But as you know quite well, that is the function which many faculty members, especially the people who teach in the humanities and social science departments, think that colleges and universities should serve. Such people see the promise of marketable skills as simply the lure which brings students within their reach. Once the student is in their classes, these people assign books which will---they hope---upset her enough to make her want to start for looking for other such books so as to get upset in still more complicated ways. They are not satified unless the students who leave their courses are dissatified with the society in which they live and unless they have at least some doubts about the moral codes in which they were brought up. [...T]he point of encouraging dissatisfaction becomes clear when times are bad and particularly when societies and governments become repressive. Then the colleges and universities come into their own. They begin to function either as sources of social change or as sanctuaries for resistance. [...] I can sum up the two roles of colleges and universities by saying that whereas the society as a whole wants to produce people with skills, the university faculties also want to produce intellectuals. -- {% cite rorty:1990 %}
 
@@ -152,7 +153,7 @@ Rorty's thinking begins where the coldness described above has its deepest origi
 He distrusts this belief---not out of cynicism, but out of a deep *care* for what we lose when we chase after it.
 For Rorty, truth is a property of sentences, and sentences are made by people.
 "The world" cannot make these sentences true, but we can make them useful for ourselves and useful for **us**.
-In the age of "fake news" this may sound irritating, for is it not "the Truth" whose loss we lament?
+In the age of "fake news" this may sound irritating, for is it not "the truth" whose loss we lament?
 
 In place of principles that we might yet discover, Rorty stakes everything on new, persuasive vocabularies that are to be invented.
 For if one wants to say something new, one must create a new language {% cite maturana:1991 %}.
@@ -169,7 +170,7 @@ We are free but also overwhelmed---that is perhaps the dilemma of liberal democr
 Authors such as Nietzsche and Heidegger offer vocabularies for self-creation, for individual meaning-making beyond metaphysical certainties and beyond reason.
 Nietzsche is perhaps the epitome of the *ironic theorist* who unmasks every supposed truth as a contingent product of a historical narrative---except, of course, his own.
 
-Nietzsche teaches us that no description of the world is necessary---that we could always tell other stories to understand ourselves and our community differently.
+He is an artist: playful, contradictory, vital, desperate, brutal and jolly who teaches us that no description of the world is necessary---that we could always tell other stories to understand ourselves and our community differently.
 Kant, on the other hand, reminds us that such new creations have limits where they overlook the suffering of others.
 
 >Rationality is a matter of making allowed moves within a language game. Imagination creates the games reason proceeds to play. Then [...] it keeps modifying those games so that playing them is more interesting and profitable. Reason cannot get outside the latest circle that imagination has drawn. It is in this sense, and **only** this sense, that imagination holds the primacy -- {% cite rorty:2016 %}
@@ -184,15 +185,17 @@ People generally want to be taken as they speak.
 >There is something potentially very cruel about the claim that [the language people speak is, for the ironist, a matter of chance]. For the most effective way of causing people enduring pain is to humiliate them by making the things that seemed most important to them look futile, obsolete, and powerless. -- {% cite rorty:1989 %}
 
 I think this is one of the most remarkable statements, one that emphasizes the dark side of the *ironic attitude*.
-The ironist knows that every vocabulary---every language in which people give meaning to their lives---is contingent, and therefore replaceable, not final, but neither useless nor arbitrary.
-An ironist---such as Nietzsche---can at any moment show that the concepts by which someone lives are merely historical accidents.
+The ironist knows that every vocabulary (the way we talk)---every language in which people give meaning to their lives---is contingent, and therefore replaceable, not final, but neither useless nor arbitrary.
+An ironist---such as Nietzsche---can, at any moment, show that the concepts by which someone lives are merely historical accidents.
 But that is precisely what can be a form of cruelty.
 For if I convincingly demonstrate to someone that everything he believes in, lives for, and that constitutes his identity is only a "matter of chance," I have not simply offered him a better argument.
 I have pulled the ground out from under his feet.
 
+This "ground" is nothing less than the person's *horizon of sense* (Sinn), i.e. a horizon of an inescapable medium; we cannot step outside of it {% cite luhmann:1984 %}. A person's final vocabulary is the precise mechanism they use to select meaning out of a chaotic world and stabilize their mind. When the ironist ruthlessly exposes this vocabulary as a mere accident, they do not open a door to total freedom; instead, they threaten the person with *structural collapse*.
+
 Rorty urges caution when it comes to proposing other vocabularies.
-*Solidarity* itself can cause smaller and smaller circles.
-In the public sphere, in dealings with others, irony is potentially cruel---and yet it is new vocabularies that enable moral progress, while at the same time the replacement of vocabularies can be the worst form of cruelty.
+In the public sphere, in dealings with others, irony is potentially cruel if it redescribe someone's past and make them look foolish or obsolete---and yet it is new vocabularies that enable moral progress, while at the same time the replacement of vocabularies can be the worst form of cruelty. It is the ultimate tragic bind: we must change our vocabularies to progress, but in doing so, we risk inflicting a structural violence that strips others of their very capacity to make sense of the world.
+*Solidarity* itself can cause smaller and smaller circles if it defines its identity through the creation of sharp boundaries, turning solidarity into an internal code that treats everyone outside the group as mere background noise or structural threats.
 
 >All we can do is to compare new customs and institutions with old customs and institutions in the experimental and tentative way in which we compare new friends, new jobs, or new environments with old ones. The only test of truth is that it is the view that wins in a free and open encounter. But the result of that test can only be accepted until somebody comes up with some new proposal, a new scientific theory, a new artistic style, a new political institution. Then discussion will have to be undertaken all over again. There will never be a time when Socratic questioning becomes unnecessary. [...] Kant said, following Plato, that the source of moral obligation must be a distinct faculty---reason rather than emotion---because reason is part of human nature whereas emotions are just contingent features of particular individuals. Even someone like myself, who wants to discard the notion of intrinsic human dignity and unconditional moral obligation has to admit that these Kantian uses have been extremely useful. The **ethics of sensitivity** which I have associated with the figure of the literary critic, may seem to endanger all the gains made in recent times with the help of these Platonic and Kantian notions. [... However] we may find a way to do it without the ladder we climbed. [...] An ethics of sensitivity assumes that morality is not a matter of recognizing unconditional obligations built into every human being simply by virtue of being human, but rather of community obligations---obligations one feels as a member of a group. [...S]uch obligations determine one's identity as a member of a community. It is one thing to treat someone weaker less advantaged than oneself decently because one happens to feel kindly toward him---perhaps because of some unconscious accidental association with one of his features or trades. It's another thing to recognize this person as a fellow citizen, one of **us**, the sort of person to whom **we** are obliged to behave decently. [...] It is a matter of coming to see more and more different sorts of people as us. Seeing an individual who lives quite a different life form as our own as, nontheless, one of us. -- {% cite rorty:1990 %}
 
@@ -218,7 +221,7 @@ The sadist, to whom the suffering of others is not only indifferent but who seek
 
 Heidegger diagnosed in his Spiegel interview {% cite heidegger:1976 %} the powerlessness of all theory and politics before the *forgetfulness of Being* in modernity. Such a diagnosis Rorty would have rejected in its metaphysical depth. And yet both, on very different paths, share the skepticism toward philosophy as savior: Heidegger, because only a god could help; Rorty, because there are no ultimate justifications.
 But Rorty avoids the sort of despair Heidegger seemed to hold.
-Christianity, Kant's *reason*, and the *crisis of the absolute* had their time.
+Christianity, Kant's *Reason*, and the *crisis of the absolute* had their time.
 They told new stories to bring meaning back into descriptions.
 The *liberal and democratic society*, however, cannot be universally grounded---it can only be narrated {% cite rorty:1999 %}.
 It lives as long as we find new words for "the good," "the just," and "the common."
@@ -286,16 +289,10 @@ and Rorty follows him in this insight:
 
 >We should understand concepts like 'gravitation' or 'human rights' not as entities whose essence remains mysteriously hidden, but as sounds and marks whose use has made possible more significant and better social practices. Intellectual and moral progress is not an approximation toward a prior goal, but the surpassing of the past. What we call 'improved knowledge' should not be interpreted as better access to the real, but as an enhanced ability to do things. [...] Freedom begins when we can discuss which words better describe a situation. **Knowledge and freedom develop simultaneously.** -- {% cite rorty:2016 %}
 
-There will be no final, conclusive vocabulary.
-Whenever one makes a *distinction* in one's experience or life, one makes this distinction in the domain in which it appears through language.
+There is no final, conclusive vocabulary; every language in which people give meaning to their lives is fundamentally contingent. Normally, our shared vocabularies function as a vital baseline for peace. They act as the agreed-upon frameworks where questioning ceases and mutual understanding is stabilized {% cite maturana:1991 %}.
 
-Systems theorists such as Maturana regard cognitive statements (on the path of "objectivity") as an *invitation* to participate in and *operate* within a certain domain of distinctions, and as such they can be rejected or accepted.
-"Be objective" is, from the perspective of metaphysical realism, a *demand* to accept my position---to deny oneself to some degree.
-
-Correspondingly, Rorty assumes that we mark sentences as "true" because we thereby express our assent to the actions associated with them {% cite rorty:2016 %}.
-Analogously, an explanation functions as a "peacemaker" in human relationships {% cite maturana:1991 %}.
-In the moment we accept an explanation, questioning ceases.
-I therefore see a genuine compatibility between these two schools of thought.
+"Be objective" is, from the perspective of metaphysical realism, a *demand* to accept my position---to deny oneself to some degree and to accept a shift in once identity. Complying with this demand requires a kind of Buddhist self-emptying: you are asked to detach from your own contingent horizon of meaning and quietly dissolve your ego, not to touch an ultimate truth, but simply to clear away yourself so that the other person's vocabulary can occupy the space.
+Yet, as a society, we do not truly value or appreciate the immense weight of this act. We casually demand objectivity from others as if it were a simple intellectual correction, entirely blind to the fact that we are asking them to perform a deeply painful, ascetic surrender of their very selfhood just to accommodate our view of the world.
 
 >The contrasting view [of getting at a certain answer to questions like "What is really good?", "What is really just?", "What is really real?", "What is really true?", "What is really human?"], which I share with people like William James, Dewey, [and] Satre is that the point of Socrates' life was not to discover a permanent absolute truth but rather just to keep people thinking, to keep them inventing, to open up their imaginations to alternatives to present convictions. -- {% cite rorty:1990 %}
 
@@ -445,15 +442,13 @@ That is not a weakness of the liberal project but its actual strength: not persu
 
 Third, and most uncomfortably, Rorty demands that liberals stop overlooking their own capacity for cruelty.
 A dangerous, defensive hardness thrives among those who feel that their "final vocabulary"---their way of describing their life, giving dignity to their work, and finding meaning in their community---is being ridiculed by the architects of openness and tolerance.
-A solidarity that applies only among the educated, while blinding itself to the struggles of workers or flatly refusing to recognize the suffering of a racist, is no solidarity at all.
+When we demand that others abandon their worldview and adopt our enlightened descriptions, we are casually asking them to perform that same agonizing, unappreciated act of self-emptying. We expect them to dissolve their ego and identity to accommodate our vocabulary, while offering them no social value or grace for that immense sacrifice. And when they resist this spiritual violence, we respond with structural exclusion.
 
-When we force our description of the world onto others, we risk committing the ultimate Rortyan sin: stripping them of their agency and ignoring their capacity to suffer.
-A racist acts with immense cruelty by denying the humanity of others.
-Yet, Rorty warns that when liberals respond by treating the racist as an inherently evil, subhuman monster, they slip into a parallel form of cruelty.
-They close their eyes to the racist's humanity, treating them as an irredeemable object rather than a poorly socialized human being.
-This is simply a new mechanism of humiliation, and Rorty insists that liberals root out this sadism in themselves before pointing fingers.
+A solidarity that applies only among the "educated", while blinding itself to the struggles of workers, is no solidarity at all. When we force our description of the world onto others, we risk committing the ultimate Rortyan sin: stripping them of their agency and ignoring their capacity to suffer. A racist acts with immense cruelty by denying the humanity of others. Yet, Rorty warns that when liberals respond by treating the racist as an inherently evil, subhuman monster, they slip into a parallel form of cruelty.
 
-Furthermore, Rorty reserves a distinct scorn for this kind of performative moral high ground.[^3]
+By excommunicating the racist from the horizon of valid human communication, liberals treat them as an irredeemable object rather than a poorly socialized human being. They turn their own vocabulary of tolerance into a new mechanism of humiliation---a way to make the other look permanently obsolete and futile. Rorty insists that liberals root out this structural sadism in themselves before pointing fingers.
+
+Furthermore, Rorty reserves a distinct scorn for any kind of performative moral high ground.[^3]
 He famously critiqued the "spectatorial left" for transforming politics into a theater of cultural purity testing, where naming vices and maintaining a flawless vocabulary replaces the **heavy lifting of material reform** {% cite rorty:1998 %}.
 For Rorty, a moral posture that exists only to signal its own righteousness does nothing to alleviate pain; instead, it becomes a weapon of exclusion, mocking the very workers and poorly socialized individuals it claims a democratic society should integrate.
 
