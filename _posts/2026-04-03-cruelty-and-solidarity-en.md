@@ -416,7 +416,7 @@ Perhaps that is the blind spot that costs us the most dearly today.
 The *urge toward new hardness*, toward strong men, clear images of the enemy, and national self-assertion, is not a sign of strength.
 It is a sign that the circle of solidarity is shrinking.
 Rorty would not have been surprised.
-He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness.
+He already warned in *Achieving Our Country* {% cite rorty:1998 %} that a left that retreats into cultural and academic distinction and stops speaking about material inequality prepares the ground for precisely those resentments that today call for hardness; that calls on their base to lean into every negative emotion and tells them that anything is exactly as they believe it is; that every perceived enemy, every perceived corruption, every perceived societal weakness is legitimized; that every frustration one has is legitimized and that any act in response is justified, perfectly displayed in the movie *Citizen Vigilante*.
 
 Because of the political development of the past, we are in the unfortunate position that some of the moral progress correlates with an increase in material inequality such that the emontional path from correlation to causation is short and easy to take. This leads to a sort of alienation from society {% cite amlinger:2025 %}.
 
