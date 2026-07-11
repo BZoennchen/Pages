@@ -160,6 +160,8 @@ For if one wants to say something new, one must create a new language {% cite ma
 Freedom and solidarity arise where we find words, metaphors, and descriptions that allow us to see ourselves, others, and the world differently.
 **The power of language lies not in mirroring reality, but in reconfiguring it.**
 
+>I do indeed assert that the explicit or implicit answer to the question of reality determines how we lead our lives and in what way we accept or reject other people within the network of the social and non-social systems we form. -- {% cite maturana:1988 %}
+
 Kant provided some good reasons to prevent cruelty, and Nietzsche shattered their *claim to universality*---he shattered the idea that there is any entity, whether God or Reason, that could decide outside a historical-evolutionary context: "Who I am", "What I should do", "What I can know" and "What I may hope for."
 Kant undertook the attempt to formulate principles that should hold for everyone, thereby creating the basis for solidarity, human rights, and democracy.
 But his Reason could not order the surplus of meaning that arose from the newly won freedom: too many opinions, too many perspectives, too much criticism and deconstruction.
