@@ -457,7 +457,7 @@ For Rorty, a moral posture that exists only to signal its own righteousness does
 [^3]: This text can be seen as performative.
 
 No absolute moral law resolves this *paradox of tolerance*.
-It cannot "solve" Gaza and the West Bank. There are only *pragmatic* choices.
+It cannot "solve" Gaza, the West Bank or mass killings in Sudan. There are only *pragmatic* choices.
 Arguing over theoretical definitions of "genocide" or "apartheid" does nothing to stop a bomb from falling or a family from being displaced because **laws are only binding if people feel like obeying them**.[^4]
 Legal documents themselves are just pieces of paper unless they are backed by a *human rights culture*.
 And in a *liberal culture*, no political goal should justify the torture or starvation of a population.
