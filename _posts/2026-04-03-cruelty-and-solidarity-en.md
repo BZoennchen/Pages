@@ -101,7 +101,7 @@ It is Plato's ancient, stony dream---the hope that pure, incorruptible truth mig
 
 >Plato thought that morality and politics should be based on principles in the same why that Euclidean geometry is based on axioms. He thought that philosophical inquiry was a matter of nailing down firm immutable principles which could then guide action. [...And] as Plato said, it is if we had known the truth in a pervious existence and simple need to be reminded of it, have it brought back to consciousness.  -- {% cite rorty:1990 %}
 
-But in this purity there is no longer room for breathing, for trembling, for the passion, love and affection for a world that is precious precisely because it can keep reinventing itself. There will be no gods only the loss of institutions that once balanced and distributed power. 
+But in this purity there is no longer room for breathing, for trembling, for the passion, love and affection for a world that is precious precisely because it can keep reinventing itself. There will be no gods only the loss of institutions that once balanced and distributed power. And concentrated power, ultimately, devours empathy if you cannot strip yourself of it in time.
 
 >It seems to me the Platonic notion of absolute truth is a thoroughly misleading slogan and a culturally dangerous shibilith. -- {% cite rorty:1990 %}
 
