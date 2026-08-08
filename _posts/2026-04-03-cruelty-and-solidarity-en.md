@@ -494,9 +494,19 @@ But whether the expansion of the imagination that Rorty had in mind still arises
 Summaries do not sensitize; they inform.
 And the difference between the two is, for Rorty, the **difference between knowledge and solidarity**.
 
-This is not a condemnation of technology, but a reminder of what is at stake. Rorty would not call on us to put away the smartphone forever or to ban AI.
+This is not a condemnation of technology, but a reminder of what is at stake.
+Rorty would not call on us to put away the smartphone forever or to ban AI.
 He would call on us to ask ourselves: When did we last read a book that truly disturbed us, and whose story was it?
 When were we last willing to be truly disturbed by an unfamiliar life?
+
+This returns us to the epigraph with which this essay opened: democracy, taken seriously, demands that the power now concentrating in the development, deployment, and governance of AI systems be dispersed back into the many hands it came from. 
+The paternalistic warnings issued by the architects of these systems, i.e., that a super-human intelligence might destroy humanity, deserve our suspicion, not because catastrophe is unthinkable, but because such warnings conveniently justify the very consolidation of power they claim to guard against.
+A more sober formulation might read: a concentration of power will inevitably increase the cruelty exercised by both man and machine.
+History offers a familiar precedent.
+The anxieties now voiced about artificial intelligence echo, almost word for word, the anxieties once voiced about writing, and later about the printing press: that if everyone were permitted to write, everyone would eventually write what those already in power did not wish to see written; that the chaos loosed by universal literacy would corrode the structures on which order rested.
+And they were right. 
+It did corrode them. 
+Yet it was precisely this corrosion that redistributed the power Rorty's liberalism seems, on the whole, to welcome: the slow multiplication of vocabularies, of voices entitled to redescribe themselves and be heard.
 
 Our historical pathways to self-realization are no longer sustainable. It is increasingly obvious that material progress in the West will slow down or perhaps even come to a halt. Although the transition toward renewable energy has only just begun, and many still deny the necessity of it, the pervasive feeling that the era of endless growth is over continues to spread. While self-realization was previously achieved through a surplus of wealth, a new, likely subconscious ideology is emerging: that one can only achieve self-realization by denying others the means to do the same.
 The idea of the state then changes from an entity that is protecting its citizen from cruelty to a distributor and enabler of cruelty such that everyone, especially the self-proclaimed "silenced majority", "get what they deserve" {% cite amlinger:2025 %}.
