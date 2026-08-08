@@ -7,10 +7,10 @@ tags:
 comments: true
 ---
 
-## A New Cruelty — On the Longing for Certainty
-
-
 >Part of the idea of a democratic society is that social change comes by reform rather than revolution and this in effect means that the people who have the power actually letting go of some of it. -- Richard Rorty
+
+
+## A New Cruelty — On the Longing for Certainty
 
 Out on the market squares the voices are clamoring. They lament the swaying of the stone temples we call democracy. But while our gaze clings to the crumbling facades of power, we overlook the quiet fading of tenderness in the corners of our everyday lives. We cling to a scaffolding of institutions and forget in doing so that political freedom is not a foundation on which we stand, but rather follows an improbable story that we must keep telling ourselves in ever different guises.
 
@@ -380,7 +380,7 @@ Whether one finds that convincing ultimately depends on whether one is willing t
 Rorty demands that of his readers and he knew that many would not comply.
 
 So, what would Rorty propose to us today? Certainly no grand promises or revolutions, but decidedly radical changes that in his time still sounded pragmatic.
-Authors such as Han {% cite han:2021 %} describe the achievement society as a place of *friendly violence* in which self-creation degenerates into self-optimization and the human being becomes mere *standing-reserve*---a concept that Han borrows from Heidegger's critique of technology (cf. {% cite heidegger:1954 %}).
+Authors such as {% cite han:2021 %} describe the achievement society as a place of *friendly violence* in which self-creation degenerates into self-optimization and the human being becomes mere *standing-reserve*---a concept that Han borrows from Heidegger's critique of technology (cf. {% cite heidegger:1954 %}).
 Here Rorty would react with skepticism, and not only toward the diagnoses, but above all toward the vocabulary.
 He fundamentally distrusted Heidegger's metaphysics of *forgetfulness of Being*: it runs the risk of **condemning modernity as a whole** rather than naming and addressing concrete grievances.
 For Rorty this is a philosophical luxury neither progressives nor conservatives who actually wants to change something cannot afford.
@@ -500,7 +500,7 @@ He would call on us to ask ourselves: When did we last read a book that truly di
 When were we last willing to be truly disturbed by an unfamiliar life?
 
 This returns us to the epigraph with which this essay opened: democracy, taken seriously, demands that the power now concentrating in the development, deployment, and governance of AI systems be dispersed back into the many hands it came from. 
-The paternalistic warnings issued by the architects of these systems, i.e., that a super-human intelligence might destroy humanity, deserve our suspicion, not because catastrophe is unthinkable, but because such warnings conveniently justify the very consolidation of power they claim to guard against.
+The paternalistic warnings issued by the architects of these systems, i.e., that a super-human intelligence might destroy humanity, deserve our suspicion, not because catastrophe is unthinkable, but because such warnings conveniently justify the very consolidation of power they claim to guard against. 
 A more sober formulation might read: a concentration of power will inevitably increase the cruelty exercised by both man and machine.
 History offers a familiar precedent.
 The anxieties now voiced about artificial intelligence echo, almost word for word, the anxieties once voiced about writing, and later about the printing press: that if everyone were permitted to write, everyone would eventually write what those already in power did not wish to see written; that the chaos loosed by universal literacy would corrode the structures on which order rested.
