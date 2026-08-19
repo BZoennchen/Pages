@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cognition as Construction (EN)"
+title: "Cognition as Construction"
 tags: 
   - Systems Theory
   - Philosophy
