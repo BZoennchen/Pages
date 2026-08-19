@@ -3,6 +3,8 @@ layout: post
 title: "Cognition as Construction (EN)"
 tags: 
   - Systems Theory
+  - Philosophy
+  - AI
 comments: true
 ---
 
