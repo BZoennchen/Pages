@@ -139,7 +139,7 @@ Having delivered this liberating theoretical blow, Luhmann opens up his research
 Previously, theories of the subject were hobbled by the problem of introspection: if my only access to consciousness is my own, how can I know how others experience the world?
 This required inferring another's inner experience from one's own, without any direct access.
 The classical, typically Kantian, way out was to assume that all minds function according to shared principles (e.g., Kant's universal categories and forms of intuition).
-By introspecting, one could ostensibly generalize how every consciousness orders reality and I would argue that in everyday life we operate a Kantian worldview.
+By introspecting, one could ostensibly generalize how every consciousness orders reality and I would argue that in everyday life we operate under a Kantian worldview.
 
 While this secured an understanding of the "other," it came at a steep price: the required presupposition of a shared world (Kant's *thing-in-itself*) to which all subjects relate.
 Without shared categories, perfectly private, internally consistent "worlds" would be possible, and objectivity would collapse.
