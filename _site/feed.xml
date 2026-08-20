@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-08-20T03:07:32+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Cognition as Construction</title><link href="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html" rel="alternate" type="text/html" title="Cognition as Construction" /><published>2026-08-19T00:00:00+02:00</published><updated>2026-08-19T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html"><![CDATA[<h2 id="0-toward-a-new-epistemology">0. Toward a New Epistemology</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-08-21T00:48:36+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Cognition as Construction</title><link href="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html" rel="alternate" type="text/html" title="Cognition as Construction" /><published>2026-08-19T00:00:00+02:00</published><updated>2026-08-19T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html"><![CDATA[<h2 id="0-toward-a-new-epistemology">0. Toward a New Epistemology</h2>
 
 <p>The aim of the following text is to bring clarity to Niklas Luhmann’s essay <em>Erkenntnis als Konstruktion</em> (<em>Cognition as Construction</em>) <a class="citation" href="#luhmann:1988">(Luhmann, 1988)</a>.
 We try to untangle one of modern systems theory’s most radical propositions: that cognition succeeds not despite being completely cut off from an external reality, but precisely <strong>because</strong> of it.
@@ -845,6 +845,87 @@ There is only just enough <strong>structural fit</strong> for the system to asse
 A system is closed with respect to its operations, but it remains structurally coupled, physically embedded, and constantly susceptible to irritation by its environment. 
 This very coupling presupposes a certain ‘fit’.</p>
 
+<h2 id="8-reality-an-inconsistency-solution">8. Reality an Inconsistency Solution</h2>
+
+<p>To summarize Luhmann’s <em>operational constructivism</em>:
+We assume that systems and their environments are real, meaning that they genuinely exist.
+However, this assumption can never be definitively proven from the inside, because there is no direct access to the environment.
+Anything entering cognition is entirely constructed by cognition—it is a self-generated performance (Eigenleistung) of the system.
+Yet the fact that our knowledge—including our observation of living, psychic, and social systems—is constructed, mediated, and fallible does not imply that what we thereby gain knowledge of is unreal.
+Asking about the conditions of possibility for operational closure leads one to highly selective and improbable mechanisms, most notably <em>autopoiesis</em>.
+All existing systems must continuously reproduce their own operations; otherwise, they would dissolve back into their environment.</p>
+
+<p>Assuming (some) systems observe, it seems logical that (some) systems can observe observations.
+For example, my mind can observe itself.
+I can think about my thoughts; second-order observation, in this case, can thus be assumed.
+I might also be able to observe the observations of a social system, that is, of something that lies on the unmarked side of my re-entry.</p>
+
+<p>There is empirical evidence that psychic and social systems use second-order observation but how can I know whether what I deem an observation is, in fact, an observation?
+Strictly speaking, I cannot (<strong>!</strong>) because there is no external reference standard.
+If I indicate something I observe as “observation”, I am applying my own distinction of what counts as an observation.</p>
+
+<p>But if treating such an event as an “observation” allows my own system to successfully continue its autopoiesis, handle irritations, and remain connectable, then the categorization is functionally validated within my system.
+We can ask why (some) systems develop the ability to observe observations.
+But first: not all systems are observing systems.
+While complex systems (like consciousness and communication) utilize second-order observation to manage their boundaries, simpler autopoietic systems—such as biological cells—maintain their closure through blind, structural couplings and biochemical reactions without ever observing observations.
+And Here we departed from Maturana’s claim that life is cognition.</p>
+
+<blockquote>
+  <p>So first the system produces a difference of system and environment, and then it learns to control its own body and not the environment to make a difference in the system. So cognition then becomes a secondary achievement in a sense, tied to a specific operation which, I think, is that of making a distinction and indicating one side and not the other. It’s an explosion of possibilities, if you always have the whole world present in your distinctions. – Luhmann (in <a class="citation" href="#hayles:1995">(Hayles et al., 1995)</a>)</p>
+</blockquote>
+
+<p>Furthermore, we depart from the claim that observation is linguistic—according to Luhmann, it is pre-linguistic.<sup id="fnref:18" role="doc-noteref"><a href="#fn:18" class="footnote" rel="footnote">18</a></sup></p>
+
+<p>Over many years, psychic and social systems irritated each other in a <em>structural drift</em> (evolution).
+In the case of minds, a biological organism reached a level of systemic complexity high enough that an internal, self-referential loop of consciousness emerged.
+While the mind is operationally closed, it is structurally coupled with its biological substrate (the brain/body) and its environment.
+The physical body and nervous system absorb environmental perturbations, which irritate the closed psychic system, prompting it to generate new thoughts.</p>
+
+<p>Social systems and minds became highly dependent on each other, and a structural coupling co-evolved via language.
+This prevented minds from remaining entirely trapped in immediate, momentary perceptions; language acts as a structural coupling mechanism between separate psychic systems and social communication.
+In general, systems decouple from their environment not by stepping outside of it, but by building an internal, recursive network of operations (e.,g. thoughts, communication) so complex that it becomes indifferent to the environment—relying entirely on its own self-reproducing operations to make sense of whatever irritations leak through its boundaries.</p>
+
+<p>No individual operation aims at this decoupling; it is an evolutionary, non-intentional byproduct of autopoiesis.
+For any system this is a highly improbable event.</p>
+
+<p>We can surmise that minds and social systems observe other systems (which themselves are able to observe) in their environment to cope with the unformatted, unstructured complexity of their surroundings.
+Ultimately, advanced systems rely on these observational practices to reproduce their internal structures and prevent themselves from collapsing into their environment.
+Because every leading distinction creates an inherent blind spot (just as an eye cannot see itself seeing), a system that could neither reflect on its own operations nor observe the observations of others would be entirely unable to navigate or compensate for its own blindness.
+In that sense, observation leads to second-order observation.</p>
+
+<p>Systems are able to cope so effectively with their environment precisely because they are closed off.
+The system does not need to know what the environment “truly” is in order to react to it.
+Environmental events act as physical or biological perturbations (irritations) that trigger internal operations within the system.
+The system responds to these triggers using its own internal structures.
+And while the system is operationally closed, it is structurally coupled with its environment.</p>
+
+<p>Again, this means the system and its environment have co-evolved a history of mutual compatibility.
+In that sense, <strong>we as psychic system are deeply at home in our environment!</strong>
+Over time, only those systems whose internal structures remain compatible enough with their environment continue to reproduce; incompatible ones simply cease to exist.</p>
+
+<p>For a system to function well, its operations do not need to “correspond” to objective reality.
+They only need to be functionally successful enough to keep the system alive and reproducing.
+As we discussed, true and false thoughts function equally well to keep a consciousness running—the operational network does not require truth to operate.
+Instead of getting closer to an absolute truth, a successful system builds up massive internal complexity.
+Through second-order observation, error-handling, and language as a coupling mechanism, systems build elaborate internal models that allow them to navigate, anticipate, and manage their environment efficiently—all entirely within their own closed loops.
+There is no mirror of reality required, only a sufficient <em>structural fit</em> for the system to assert and sustain itself as a system against its environment—to keep autopoiesis going.</p>
+
+<p>What systems encounter as resistance, cannot be reality that resists because resistance is internal.
+Luhmann notes:</p>
+
+<blockquote>
+  <p>I think we should not abandon [Kant’s] idea of resistance, but we should relocate it into the system. It is the result of resolving an internal conflict—the result of the system’s operations resisting the operations of the same system. –  <a class="citation" href="#luhmann:1984">(Luhmann, 1984)</a></p>
+</blockquote>
+
+<p>And in a discussion with Katherine Hayles he points out that</p>
+
+<blockquote>
+  <p>[t]hen, if you use for a moment the idea that reality is tested by resistance—that’s Kant—how can you have external resistance if you cannot cross the boundary of the system with your own operations? You cannot touch the environment with your brain, and even if you touch it you feel something here [points to his head] and not there, and you make an external reality just to explain that you feel something here [points again] and not in other places on your body. So, finally, it’s always an internal calculation; otherwise, you should simply refuse the term ‘operational closure’. But if we have operational closure, we have to construct every resistance to the operations of a system against the operations of the same system. And reality then is just a form—or, to say it in other terms, things or objects outside are simply a form in which you take into account the resolution of internal conflicts. – Luhmann (in <a class="citation" href="#hayles:1995">(Hayles et al., 1995)</a>)</p>
+</blockquote>
+
+<p>Reality emerges if you have inconsistency in your operations.
+It is just the acceptance of solutions for inconsistency problems.</p>
+
 <h2 id="literature">Literature</h2>
 
 <ol class="bibliography"><li><span id="luhmann:1988">Luhmann, N. (1988). <i>Erkenntnis als Konstruktion</i>. Bern: Benteli.</span></li>
@@ -863,7 +944,9 @@ This very coupling presupposes a certain ‘fit’.</p>
 <li><span id="kuntze:2009">Schönwälder-Kuntze, T., Wille, K., &amp; Hölscher, T. (2009). <i>George Spencer Brown: Eine Einführung in die "Laws of Form"</i> (2nd ed., pp. X, 314). VS Verlag für Sozialwissenschaften. https://doi.org/10.1007/978-3-531-91964-5</span></li>
 <li><span id="gabriel:2013">Gabriel, M. (2013). <i>Warum es die Welt nicht gibt</i>. Ullstein.</span></li>
 <li><span id="luhmann:1998">Luhmann, N. (1998). <i>Die Gesellschaft der Gesellschaft</i> (p. 1164). Suhrkamp.</span></li>
-<li><span id="zoennchen:2025">Zönnchen, B., Dzhimova, M., &amp; Socher, G. (2025). From intelligence to autopoiesis: rethinking artificial intelligence through systems theory. <i>Frontiers in Communication</i>, <i>Volume 10 - 2025</i>. https://doi.org/10.3389/fcomm.2025.1585321</span></li></ol>
+<li><span id="zoennchen:2025">Zönnchen, B., Dzhimova, M., &amp; Socher, G. (2025). From intelligence to autopoiesis: rethinking artificial intelligence through systems theory. <i>Frontiers in Communication</i>, <i>Volume 10 - 2025</i>. https://doi.org/10.3389/fcomm.2025.1585321</span></li>
+<li><span id="hayles:1995">Hayles, K., Luhmann, N., Rasch, W., Knodt, E., &amp; Wolfe, C. (1995). Theory of a Different Order: A Conversation with Katherine Hayles and Niklas Luhmann. <i>Cultural Critique</i>, <i>31</i>, 7–36. https://doi.org/10.2307/1354443</span></li>
+<li><span id="luhmann:1984">Luhmann, N. (1984). <i>Soziale Systeme: Grundriß einer allgemeinen Theorie</i>. Suhrkamp.</span></li></ol>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
@@ -917,6 +1000,9 @@ This very coupling presupposes a certain ‘fit’.</p>
     </li>
     <li id="fn:17" role="doc-endnote">
       <p>At this point, I would like to point to our discussion—conducted elsewhere—of the loose and tight coupling of technical machines <a class="citation" href="#zoennchen:2025">(Zönnchen et al., 2025)</a>. The core argument is this: large language models appear to enter into a loose coupling with psychic and social systems, whereas ordinary computing machines are strictly and tightly coupled! Here, then, lies a crucial, observable difference. <a href="#fnref:17" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:18" role="doc-endnote">
+      <p>Negation is not built into the act of distinguishing itself; it is a product of language specifically, and it is there for a functional reason: it keeps the system open. Negation, in a Luhmannian sense, is a social technology for preventing communication from being forced toward one predetermined result, and the identity of the reference has to be secured before the yes/no coding can do its work. <a href="#fnref:18" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
 </div>]]></content><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><category term="Systems Theory" /><category term="Philosophy" /><category term="AI" /><summary type="html"><![CDATA[0. Toward a New Epistemology]]></summary></entry><entry><title type="html">A Case for Systems Theory in CS Education</title><link href="https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory.html" rel="alternate" type="text/html" title="A Case for Systems Theory in CS Education" /><published>2026-06-28T00:00:00+02:00</published><updated>2026-06-28T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/06/28/why-systems-theory.html"><![CDATA[<p>Imagine we are given the task of building a recommendation system. The requirements are clear: the system should suggest content to users that they are highly likely to click on. We define a metric. Let’s say, time spent on the platform. Then we optimize toward it. We test, iterate, deploy. The system works. The metric rises.</p>

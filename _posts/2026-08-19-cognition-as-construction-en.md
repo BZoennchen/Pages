@@ -875,6 +875,84 @@ There is only just enough **structural fit** for the system to assert and sustai
 A system is closed with respect to its operations, but it remains structurally coupled, physically embedded, and constantly susceptible to irritation by its environment. 
 This very coupling presupposes a certain 'fit'.
 
+## 8. Reality an Inconsistency Solution
+
+To summarize Luhmann's *operational constructivism*:
+We assume that systems and their environments are real, meaning that they genuinely exist.
+However, this assumption can never be definitively proven from the inside, because there is no direct access to the environment.
+Anything entering cognition is entirely constructed by cognition---it is a self-generated performance (Eigenleistung) of the system.
+Yet the fact that our knowledge---including our observation of living, psychic, and social systems---is constructed, mediated, and fallible does not imply that what we thereby gain knowledge of is unreal.
+Asking about the conditions of possibility for operational closure leads one to highly selective and improbable mechanisms, most notably *autopoiesis*.
+All existing systems must continuously reproduce their own operations; otherwise, they would dissolve back into their environment.
+
+Assuming (some) systems observe, it seems logical that (some) systems can observe observations.
+For example, my mind can observe itself.
+I can think about my thoughts; second-order observation, in this case, can thus be assumed.
+I might also be able to observe the observations of a social system, that is, of something that lies on the unmarked side of my re-entry.
+
+There is empirical evidence that psychic and social systems use second-order observation but how can I know whether what I deem an observation is, in fact, an observation?
+Strictly speaking, I cannot (**!**) because there is no external reference standard.
+If I indicate something I observe as "observation", I am applying my own distinction of what counts as an observation.
+
+But if treating such an event as an "observation" allows my own system to successfully continue its autopoiesis, handle irritations, and remain connectable, then the categorization is functionally validated within my system.
+We can ask why (some) systems develop the ability to observe observations.
+But first: not all systems are observing systems.
+While complex systems (like consciousness and communication) utilize second-order observation to manage their boundaries, simpler autopoietic systems---such as biological cells---maintain their closure through blind, structural couplings and biochemical reactions without ever observing observations.
+And Here we departed from Maturana's claim that life is cognition.
+
+>So first the system produces a difference of system and environment, and then it learns to control its own body and not the environment to make a difference in the system. So cognition then becomes a secondary achievement in a sense, tied to a specific operation which, I think, is that of making a distinction and indicating one side and not the other. It's an explosion of possibilities, if you always have the whole world present in your distinctions. -- Luhmann (in {% cite hayles:1995 %})
+
+Furthermore, we depart from the claim that observation is linguistic---according to Luhmann, it is pre-linguistic.[^18]
+
+[^18]: Negation is not built into the act of distinguishing itself; it is a product of language specifically, and it is there for a functional reason: it keeps the system open. Negation, in a Luhmannian sense, is a social technology for preventing communication from being forced toward one predetermined result, and the identity of the reference has to be secured before the yes/no coding can do its work.
+
+Over many years, psychic and social systems irritated each other in a *structural drift* (evolution).
+In the case of minds, a biological organism reached a level of systemic complexity high enough that an internal, self-referential loop of consciousness emerged.
+While the mind is operationally closed, it is structurally coupled with its biological substrate (the brain/body) and its environment.
+The physical body and nervous system absorb environmental perturbations, which irritate the closed psychic system, prompting it to generate new thoughts.
+
+Social systems and minds became highly dependent on each other, and a structural coupling co-evolved via language.
+This prevented minds from remaining entirely trapped in immediate, momentary perceptions; language acts as a structural coupling mechanism between separate psychic systems and social communication.
+In general, systems decouple from their environment not by stepping outside of it, but by building an internal, recursive network of operations (e.,g. thoughts, communication) so complex that it becomes indifferent to the environment---relying entirely on its own self-reproducing operations to make sense of whatever irritations leak through its boundaries.
+
+No individual operation aims at this decoupling; it is an evolutionary, non-intentional byproduct of autopoiesis.
+For any system this is a highly improbable event.
+
+We can surmise that minds and social systems observe other systems (which themselves are able to observe) in their environment to cope with the unformatted, unstructured complexity of their surroundings.
+Ultimately, advanced systems rely on these observational practices to reproduce their internal structures and prevent themselves from collapsing into their environment.
+Because every leading distinction creates an inherent blind spot (just as an eye cannot see itself seeing), a system that could neither reflect on its own operations nor observe the observations of others would be entirely unable to navigate or compensate for its own blindness.
+In that sense, observation leads to second-order observation.
+
+Systems are able to cope so effectively with their environment precisely because they are closed off.
+The system does not need to know what the environment "truly" is in order to react to it.
+Environmental events act as physical or biological perturbations (irritations) that trigger internal operations within the system.
+The system responds to these triggers using its own internal structures.
+And while the system is operationally closed, it is structurally coupled with its environment.
+
+Again, this means the system and its environment have co-evolved a history of mutual compatibility.
+In that sense, **we as psychic system are deeply at home in our environment!**
+Over time, only those systems whose internal structures remain compatible enough with their environment continue to reproduce; incompatible ones simply cease to exist.
+
+For a system to function well, its operations do not need to "correspond" to objective reality.
+They only need to be functionally successful enough to keep the system alive and reproducing.
+As we discussed, true and false thoughts function equally well to keep a consciousness running---the operational network does not require truth to operate.
+Instead of getting closer to an absolute truth, a successful system builds up massive internal complexity.
+Through second-order observation, error-handling, and language as a coupling mechanism, systems build elaborate internal models that allow them to navigate, anticipate, and manage their environment efficiently---all entirely within their own closed loops.
+There is no mirror of reality required, only a sufficient *structural fit* for the system to assert and sustain itself as a system against its environment---to keep autopoiesis going.
+
+What systems encounter as resistance, cannot be reality that resists because resistance is internal.
+Luhmann notes:
+
+>I think we should not abandon [Kant's] idea of resistance, but we should relocate it into the system. It is the result of resolving an internal conflict---the result of the system's operations resisting the operations of the same system. --  {% cite luhmann:1984 %} 
+
+And in a discussion with Katherine Hayles he points out that
+
+>[t]hen, if you use for a moment the idea that reality is tested by resistance---that's Kant---how can you have external resistance if you cannot cross the boundary of the system with your own operations? You cannot touch the environment with your brain, and even if you touch it you feel something here [points to his head] and not there, and you make an external reality just to explain that you feel something here [points again] and not in other places on your body. So, finally, it's always an internal calculation; otherwise, you should simply refuse the term 'operational closure'. But if we have operational closure, we have to construct every resistance to the operations of a system against the operations of the same system. And reality then is just a form---or, to say it in other terms, things or objects outside are simply a form in which you take into account the resolution of internal conflicts. -- Luhmann (in {% cite hayles:1995 %})
+
+Reality emerges if you have inconsistency in your operations.
+It is just the acceptance of solutions for inconsistency problems.
+
+
 ## Literature
 
 {% bibliography --cited_in_order %}
