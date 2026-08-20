@@ -949,9 +949,9 @@ And in a discussion with Katherine Hayles he points out that
 
 >[t]hen, if you use for a moment the idea that reality is tested by resistance---that's Kant---how can you have external resistance if you cannot cross the boundary of the system with your own operations? You cannot touch the environment with your brain, and even if you touch it you feel something here [points to his head] and not there, and you make an external reality just to explain that you feel something here [points again] and not in other places on your body. So, finally, it's always an internal calculation; otherwise, you should simply refuse the term 'operational closure'. But if we have operational closure, we have to construct every resistance to the operations of a system against the operations of the same system. And reality then is just a form---or, to say it in other terms, things or objects outside are simply a form in which you take into account the resolution of internal conflicts. -- Luhmann (in {% cite hayles:1995 %})
 
-Reality emerges if you have inconsistency in your operations.
+Reality---which, in the old tradition, was the invisible side of a thing (*res*)---now emerges if you have inconsistency in your *operations*.
 It is just the acceptance of solutions for inconsistency problems.
-
+It is just what a system calls it when a contradiction-handling operation succeeds.
 
 ## Literature
 
