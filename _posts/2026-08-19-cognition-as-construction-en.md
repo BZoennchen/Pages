@@ -57,7 +57,7 @@ Cognition must remain exclusively constructive.
 No direct relation to an external reality may be presupposed---which, of course, does not imply that no such reality exists. 
 It is ultimately up to the reader, the audience, and perhaps society at large to "decide" whether Luhmann succeeded in this task.
 
-Returning to Kant, Luhmann accuses him of making precisely this kind of (much-discussed) theoretical retreat.
+Returning to Kant, Luhmann accuses him of making precisely the same kind of (much-discussed) theoretical retreat as many constructivists seem to make.
 In the *Transcendental Aesthetic*, Kant put forward a thesis that, measured against philosophical tradition, was quite radical: space and time are not properties of *things-in-themselves*, but pure, subjective forms of intuition. 
 This has a far-reaching consequence.
 Everything that exists in space, including outer objects---the "outer world" in the common sense---possesses only empirical reality, but transcendental ideality. In other words, spatial things are merely appearances to a subject equipped with our specific sensory apparatus; they are not things-in-themselves.
@@ -119,9 +119,9 @@ Neurons respond only to the electrochemical impulses of other neurons, never dir
 Figuratively speaking, the brain is blind and deaf to its environment, operating exclusively within its own network.
 Strikingly, communication (**!**) operates the same way: it can only connect to further communication, never directly to physical or psychic events
 The environment---whether a consciousness, a brain, or a natural event---cannot "join the conversation."
-It can trigger communication, but it can never become part of it.
-Similarly, Luhmann argues that social systems are operationally closed.
-The same logic applies to consciousness, traditionally viewed as the "subject" of cognition.
+It can trigger communication, but it can never become part of it. (Luhmann famoulsy aruges that social systems are operationally closed and that humans belong to their environment.)
+
+The same logic applies to consciousness {% cite luhmann:1985 %}, traditionally viewed as the "subject" of cognition.
 Psychic systems are closed loops; thoughts connect only to other thoughts, never directly to the world or to another mind.
 Consciousness can produce information (by drawing internal distinctions) only because it is wired to be *environment-indifferent*.
 Again, this succeeds not despite its insulation, but because of it---this closure prevents the environment from constantly interfering.
@@ -182,7 +182,7 @@ Instead, he posits as a starting point that cognizing systems (brains, conscious
 
 This is a **realist profession of faith**, a detail often overlooked when constructivism is crudely equated with the claim that "there is no reality."
 One should note, however, that this assertion does not presuppose direct access to that "reality."
-It must therefore be strictly distinguished from abandoning the concept of operational closure.
+It must therefore be strictly distinguished from abandoning the concept of operational closure---we do not retreat!
 
 Luhmann anticipates the predictable objection: asserting such a claim of existence (without access) simply as an ungrounded presupposition seems philosophically unsatisfying, or even "*naive*," since it is not secured by epistemology.
 Yet Luhmann uses this to highlight the fundamental dilemma of all cognition: the beginning of any theory is necessarily ungrounded, because grounding it would require a theory that does not yet exist.
@@ -882,7 +882,8 @@ We assume that systems and their environments are real, meaning that they genuin
 However, this assumption can never be definitively proven from the inside, because there is no direct access to the environment.
 Anything entering cognition is entirely constructed by cognition---it is a self-generated performance (Eigenleistung) of the system.
 Yet the fact that our knowledge---including our observation of living, psychic, and social systems---is constructed, mediated, and fallible does not imply that what we thereby gain knowledge of is unreal.
-Asking about the conditions of possibility for operational closure leads one to highly selective and improbable mechanisms, most notably *autopoiesis*.
+
+Asking then about the conditions of possibility for operational closure leads one to highly selective and improbable mechanisms, most notably *autopoiesis*.
 All existing systems must continuously reproduce their own operations; otherwise, they would dissolve back into their environment.
 
 Assuming (some) systems observe, it seems logical that (some) systems can observe observations.
@@ -890,18 +891,19 @@ For example, my mind can observe itself.
 I can think about my thoughts; second-order observation, in this case, can thus be assumed.
 I might also be able to observe the observations of a social system, that is, of something that lies on the unmarked side of my re-entry.
 
-There is empirical evidence that psychic and social systems use second-order observation but how can I know whether what I deem an observation is, in fact, an observation?
-Strictly speaking, I cannot (**!**) because there is no external reference standard.
-If I indicate something I observe as "observation", I am applying my own distinction of what counts as an observation.
-
+We can conclude that there is empirical evidence that psychic and social systems use second-order observation, but like any such evidence, it is a already cognition which does not say much about the environment or "the world."
+If I indicate something that I observe as "observatio", I am applying my own distinction of what counts as an observation.
 But if treating such an event as an "observation" allows my own system to successfully continue its autopoiesis, handle irritations, and remain connectable, then the categorization is functionally validated within my system.
+
 We can ask why (some) systems develop the ability to observe observations.
 But first: not all systems are observing systems.
 While complex systems (like consciousness and communication) utilize second-order observation to manage their boundaries, simpler autopoietic systems---such as biological cells---maintain their closure through blind, structural couplings and biochemical reactions without ever observing observations.
 And Here we departed from Maturana's claim that life is cognition.
 
 >So first the system produces a difference of system and environment, and then it learns to control its own body and not the environment to make a difference in the system. So cognition then becomes a secondary achievement in a sense, tied to a specific operation which, I think, is that of making a distinction and indicating one side and not the other. It's an explosion of possibilities, if you always have the whole world present in your distinctions. -- Luhmann (in {% cite hayles:1995 %})
-
+First the system produces its own difference.
+That is autopiesis and operational closure but *not* an act performed by anyone or anything, but an effect.
+It is only after closure that Luhmann wants to locate distinguishing-and-indicating in the Spencer-Brown sense: selecting one side (the body) as the reference point for continuing operations, orienting itself by it, using the distinction rather than merely being its effect.
 Furthermore, we depart from the claim that observation is linguistic---according to Luhmann, it is pre-linguistic.[^18]
 
 [^18]: Negation is not built into the act of distinguishing itself; it is a product of language specifically, and it is there for a functional reason: it keeps the system open. Negation, in a Luhmannian sense, is a social technology for preventing communication from being forced toward one predetermined result, and the identity of the reference has to be secured before the yes/no coding can do its work.
@@ -940,7 +942,7 @@ Instead of getting closer to an absolute truth, a successful system builds up ma
 Through second-order observation, error-handling, and language as a coupling mechanism, systems build elaborate internal models that allow them to navigate, anticipate, and manage their environment efficiently---all entirely within their own closed loops.
 There is no mirror of reality required, only a sufficient *structural fit* for the system to assert and sustain itself as a system against its environment---to keep autopoiesis going.
 
-What systems encounter as resistance, cannot be reality that resists because resistance is internal.
+What systems then encounter as resistance, cannot be reality that resists because resistance is internal.
 Luhmann notes:
 
 >I think we should not abandon [Kant's] idea of resistance, but we should relocate it into the system. It is the result of resolving an internal conflict---the result of the system's operations resisting the operations of the same system. --  {% cite luhmann:1984 %} 
@@ -950,10 +952,8 @@ And in a discussion with Katherine Hayles he points out that
 >[t]hen, if you use for a moment the idea that reality is tested by resistance---that's Kant---how can you have external resistance if you cannot cross the boundary of the system with your own operations? You cannot touch the environment with your brain, and even if you touch it you feel something here [points to his head] and not there, and you make an external reality just to explain that you feel something here [points again] and not in other places on your body. So, finally, it's always an internal calculation; otherwise, you should simply refuse the term 'operational closure'. But if we have operational closure, we have to construct every resistance to the operations of a system against the operations of the same system. And reality then is just a form---or, to say it in other terms, things or objects outside are simply a form in which you take into account the resolution of internal conflicts. -- Luhmann (in {% cite hayles:1995 %})
 
 Reality---which, in the old tradition, was the invisible side of a thing (*res*)---now emerges if you have inconsistency in your *operations*.
-It is just the acceptance of solutions for inconsistency problems.
-It is just what a system calls it when a contradiction-handling operation succeeds.
+It is just the acceptance of solutions for inconsistency problems---just what a system calls "reality" when a contradiction-handling operation succeeds.
 
 ## Literature
 
 {% bibliography --cited_in_order %}
-
