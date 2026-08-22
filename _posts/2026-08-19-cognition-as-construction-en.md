@@ -603,6 +603,17 @@ Cybernetics calls this deviation amplification (*positive feedback*), while ling
 Crucially, this temporal amplification process also presupposes operational closure.
 It requires an "own time" or Eigen-time---an internal temporal rhythm specific to the system's own operations, running parallel to the environment, which undoubtedly continues to exist simultaneously, albeit not in the same rhythm.
 
+It is also possible that only sufficiently complex systems can, over time, amplify minute differences---such as conspicuous fluctuations in their own oscillating movements---into massive effects.
+Cybernetics calls this deviation amplification *(positive feedback*), while linguistics observes a related phenomenon in hypercorrection (when speakers overcorrect to match a perceived norm, thereby overshooting the mark).
+For themselves, operations are timeless.
+They happen and disappear in an instant.
+So it is the recursive linking what turns a sequence of momentary, otherwise-unrelated events into something with duration, expectation, and memory.
+Eigenvalues {% cite foerster:2003b %} can emerge through recursive operations, that is, small, unstable, momentary differences get built up, through recursive self-reference, into stable structures.
+Crucially, this temporal amplification process also presupposes operational closure.
+It requires an "own time"---an internal temporal rhythm specific to the system's own operations, running parallel to the environment, which undoubtedly continues to exist simultaneously, albeit not in the same rhythm.
+A system has its own time (Luhmann sometimes calls this "Eigenzeit") precisely because, and only because, it's operationally closed. (The connection to {% cite husserl:1928 %} seems strong here.)
+
+
 This internal rhythm, in turn, requires memory to perform two distinct functions.
 First, it must conduct an ongoing **consistency check**, evaluating whether new impressions align with currently activated and relevant structures.
 Second, it requires a schema that prevents emerging contradictions from registering as a paralyzing logical scandal.
