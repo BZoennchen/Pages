@@ -886,7 +886,7 @@ There is only just enough **structural fit** for the system to assert and sustai
 A system is closed with respect to its operations, but it remains structurally coupled, physically embedded, and constantly susceptible to irritation by its environment. 
 This very coupling presupposes a certain 'fit'.
 
-## 8. Reality an Inconsistency Solution
+## 8. Reality as Inconsistency Solution
 
 To summarize Luhmann's *operational constructivism*:
 We assume that systems and their environments are real, meaning that they genuinely exist.
