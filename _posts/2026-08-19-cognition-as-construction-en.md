@@ -106,33 +106,33 @@ This is the classic *subject-object problem* in its most acute form.
 Whether one takes Kant's transcendental-philosophical route (where the conditions for the possibility of cognition lie within the subject itself, in its forms of intuition and categories) or Hegel's dialectical route (where subject and object mediate one another through an unfolding historical process)---in both cases, the lack of direct access to reality is treated as an obstacle to be overcome.
 The operative word here is "**although**": the closedness of cognition is viewed as a problem, a structural deficiency that cognition must somehow transcend to achieve its aim.
 
-The decisive turn of radical constructivism---one that Luhmann readily adopts--is a shift from "**although**" to "**because**."
+The decisive turn of radical constructivism---one that Luhmann readily adopts---is a shift from "**although**" to "**because**."
 What Kant and Hegel viewed as a deficit to be overcome becomes the very precondition of cognition.
 The premise is no longer that cognition succeeds despite its closure from the world, but rather that it succeeds only **because** it is closed.
 
-Luhmann calls this an "empirical finding," arguing that when we look at our environment, we observe operationally closed systems.
+Luhmann calls this an "empirical finding," arguing that when we look at our environment, we observe *operationally closed systems*.
 This is a surprising choice of words regarding the topic and our "naiv" starting point.
 These "empirical findings" are heavily laden with presuppositions; they only be thought of as "real" through the very theory they are supposed to ground.
 The logic is undeniably circular, and anyone who finds such circularity inadmissible might as well set the text aside here.
 Furthermore, by claiming an empirical basis, Luhmann makes far less rigorous demands than Kant.
-He offers no necessary, a priori validity.
+He offers no necessary, *a priori* validity.
 Instead, his findings are explicitly fallible and revisable, making no claim to ultimate, independent certainty.
 While this may disappoint anyone seeking the **Absolute**, it underscores that Luhmann's theoretical edifice is built not on pure philosophical speculation, but on the observation of real-world phenomena (like brains or communication).
 
-Drawing on Maturana and Varela (cf. {% cite maturana:1987 %}), Luhmann offers examples of *autopoiesis* and *operational closure*.
+Drawing on {% cite maturana:1987 %}, Luhmann offers examples of *autopoiesis* and *operational closure*.
 A brain, for instance, does not "see" light or "hear" sound directly.
 Neurons respond only to the electrochemical impulses of other neurons, never directly to the outside world.
 Figuratively speaking, the brain is blind and deaf to its environment, operating exclusively within its own network.
-Strikingly, communication (**!**) operates the same way: it can only connect to further communication, never directly to physical or psychic events
+Strikingly, communication (**!**) operates the same way: it can only connect to further communication, never directly to physical or psychic events.
 The environment---whether a consciousness, a brain, or a natural event---cannot "join the conversation."
-It can trigger communication, but it can never become part of it. (Luhmann famoulsy aruges that social systems are operationally closed and that humans belong to their environment.)
+It can trigger communication, but it can never become part of it. (Luhmann famoulsy concludes that humans belong to the environment of social systems.)
 
-The same logic applies to consciousness {% cite luhmann:1985 %}, traditionally viewed as the "subject" of cognition.
+The same logic applies to consciousness, traditionally viewed as the "subject" of cognition {% cite luhmann:1985 %}.
 Psychic systems are closed loops; thoughts connect only to other thoughts, never directly to the world or to another mind.
 Consciousness can produce information (by drawing internal distinctions) only because it is wired to be *environment-indifferent*.
-Again, this succeeds not despite its insulation, but because of it---this closure prevents the environment from constantly interfering.
+Again, it succeeds not despite its insulation, but because of it---closure prevents the environment from constantly interfering.
 
-Through this abstraction---and by admitting communication into the ranks of observing systems---Luhmann entirely recasts the classical metaphor of the subject as the "seat" of cognition.
+Through this abstraction---and by admitting communication into the ranks of *observing systems*---Luhmann entirely recasts the classical metaphor of the subject as the "seat" of cognition.
 He does not refute Kant (which would exceed the ambitions of systems theory) but rather revises him.
 The core of this revision strips consciousness of its privileged status as the transcendental site of cognition, demoting it to just one of several (structural) equal autopoietic systems.
 This shift has far-reaching consequences for what "cognizing" within a consciousness actually means.
@@ -151,11 +151,12 @@ While this secured an understanding of the "other," it came at a steep price: th
 Without shared categories, perfectly private, internally consistent "worlds" would be possible, and objectivity would collapse.
 But holding onto a shared world makes it impossible to seriously claim that every cognizing system constructs its own environment in radical isolation.
 The presupposition of a shared reality fundamentally contradicts the idea of radical closure.
+In other words, there is now way to know how *it is like to be* a social system.
 
 Here, Luhmann indirectly suggests that the radical constructivism of his era was still too idealist, too Kantian, and ultimately not radical enough.
 He insists on following this path to its absolute end; otherwise, the theory will collapse under its own contradictions.
 
-Luhmann then considers the obvious alternative: instead of starting with the subject, one could treat the cognizing being purely as an object of scientific description---as a physical system, a biological organism, a psychological mind, or a sociological unit.
+He then considers the obvious alternative: instead of starting with the subject, one could treat the cognizing being purely as an object of scientific description---as a physical system, a biological organism, a psychological mind, or a sociological unit.
 While sufficient for many empirical projects, this approach fails an epistemology focused on the question of closure.
 Simply describing a cognizing being as an object with internal processes tacitly presupposes its closure rather than explaining it.
 It describes what happens inside the object, but not how or why the object decouples from its environment to begin with.
@@ -164,7 +165,7 @@ The core problem is simply bypassed.
 This leads to the central theoretical move of Luhmann's systems theory: since neither subject-theory nor object-theory works, a new foundational distinction is required.
 He replaces subject/object with **system/environment**.
 This is far more than a mere swap of vocabulary, as the new terms carry entirely different implications
-Drawing on George Spencer-Brown's calculus of forms and the concept of **re-entry**, Luhmann argues that the system/environment split, like subject/object, begins with a distinction.
+Drawing on George Spencer-Brown's calculus of forms and the concept of **re-entry** {% cite brown:1969 %}, Luhmann argues that the system/environment split, like subject/object, begins with a distinction.
 But just as the classical subject held a representation of the object within itself, Luhmann posits that the system/environment distinction "re-enters" one of its own sides (the system).
 The system observes both itself and its environment using a distinction it has drawn itself.
 While this retains a structural similarity to the classical problem, it transcends it.
@@ -176,7 +177,7 @@ Second, the old presupposition of a shared, objective world can be discarded in 
 Following Heinz von Foerster's second-order cybernetics {% cite foerster:2003 %}, a system no longer observes "the world" directly; instead, it observes how other systems observe.
 This allows us to conceptualize closed systems in a radically different way, free from the crutch of a shared reality.
 These systems can mutually observe one another as observers, despite having no direct access to each other. 
-Ultimately, this leaves us with the pressing question: How is observation via closure possible?
+Ultimately, this leaves us with the pressing question: **How is observation via closure possible?**
 
 ## 2. An Environment Without Distinctions
 
@@ -210,7 +211,7 @@ Instead of asking "How does cognition function?", one must now ask, "How does a 
 Von Foerster's play on words, "closure through enclosure," captures the point perfectly: a system becomes closed (relative to its environment) by "enclosing" itself—that is, by drawing its own boundary and recursively referring back into itself.
 
 Merely formulating this question carries an implicit realization: a system cannot decouple arbitrarily or effortlessly, as this requires highly selective, rigorous conditions to be met.
-To frame it in Kantian terms, we are asking about **the conditions of the possibility of decoupling**.
+To frame it in Kantian terms, we are asking know about **the conditions of the possibility of decoupling**.
 Decoupling, therefore, is no trivial matter; it is a highly presupposition-laden achievement!
 
 Luhmann anticipates another central misunderstanding of constructivism: the assumption that if a system is "cut off" from its environment and operates solely upon itself, it can "do whatever it wants."
@@ -223,6 +224,7 @@ The closure itself dictates how the system can proceed, resulting in structural 
 
 In the real world, arbitrariness or randomness in the strict sense simply does not exist.
 Everything that happens is conditioned by preceding states and structures.
+There is no "causal closure"!
 When someone attributes arbitrariness to a system, it is usually a symptom of insufficient observation; look closer, and the hidden regularities and constraints governing the seemingly erratic behavior will reveal themselves.
 Arbitrariness, therefore, is never a property of the observed system itself.
 Instead, it points to a deficit---or a specific standpoint---of the observer, who has not (yet) looked closely enough.
@@ -258,7 +260,7 @@ In simple cells, this domain is small; with the evolutionary development of nerv
 
 For Maturana, it is crucial that this domain of interactions is something an outside observer establishes by describing the correlation between environmental events and the system's reactions.
 The system itself "knows" nothing of this and does not "represent" this domain to itself; it simply reacts blindly within the limits dictated by its structure.
-Following these premises, if one asks where the categorical differences in cognition lie between highly complex and highly simple organisms, Maturana concludes that there are none.
+Following these premises, if one asks where the categorical differences in cognition lie between highly complex and rather simple organisms, Maturana concludes that there are none.
 One must concede that all life is cognition.
 Thus, Maturana defines cognition exceedingly broadly: practically all living activity is "cognitive," leading to the equation **life = cognition**.
 
@@ -268,7 +270,7 @@ While cognition (in Maturana's broad sense) applies to all living beings, the "o
 Luhmann explicitly distances himself from Maturana here, defining both terms differently.
 First, he wants to construe "cognizing" more narrowly, so that not every autopoietic operation automatically qualifies as cognition.
 Second, he defines the "observer" not through language, but through the fundamental operations of distinguishing and indicating[^6].
-Drawing directly on George Spencer-Brown's calculus of forms in *Laws of Form* {% cite brown:1969 %}, Luhmann posits that observing means drawing a *distinction* and *indicating* one of its sides.
+Again drawing directly on George Spencer-Brown's calculus of forms in *Laws of Form* {% cite brown:1969 %}, Luhmann posits that observing means drawing a *distinction* and *indicating* one of its sides.
 This is a deliberately more formal, language-independent definition---one potentially applicable to non-linguistic systems as well (such as cells, the immune system, or perhaps AI systems?[^7]).
 Yet, as the next sentence suggests, this formalization serves to narrow, rather than widen, the concept of cognition.
 
@@ -405,11 +407,12 @@ Observation demands this cut as a prerequisite (one cannot observe without disti
 The cut is simultaneously a *precondition* and a *construction*---or, in short, a **presupposed constructing**.
 The process itself produces the difference.
 
-*Operational epistemology* turns away from the question of what cognition is (its essence or its classical conditions of possibility) and asks instead what kind of operation it is.
+*Operational epistemology* turns away from the question of what cognition is (its essence or its classical conditions of possibility) and asks instead what kind of operation realizes.
 Cognition is treated as just one operation among others---one that can be distinguished from mere metabolism, an unconscious reflex, or arbitrary communication.
 This is a deliberately sober, demystifying approach, even if the concept of an "operation" itself is admittedly maximally empty.
 
-Crucially, the decisive criterion for whether cognition "happens" does not depend on whether it is correct. It depends solely on whether the system can continue its own self-reproduction (*autopoiesis*) by means of this operation.
+The reader then might ask: But what about "the Truth"?
+Crucially, the decisive criterion for whether cognition "happens" does not depend on whether it is correct. It depends solely on whether the system can continue its own self-reproduction (*autopoiesis*) by means of this operation because otherwise it would disappear and we could not observe it.
 At its most fundamental level, then, **cognition has absolutely nothing to do with truth**---nothing to do with "cognizing correctly"!
 For the mere functioning of autopoiesis, it is entirely immaterial whether a cognitive operation is true, false, or produces truth.
 Both true and false operations function equally well to keep the system running.
@@ -459,7 +462,7 @@ The goal is not to logically forbid the paradox, but to temporalize it.
 A system does not have to resolve *self-reference* in a single, timeless logical act (as a formal derivation would require).
 Instead, it can handle it distributed over time, across successive operations.
 The question thus becomes: how do systems keep going despite the fundamental impossibility of marking errors as errors in the exact instant they are produced?
-The theorist, here and elsewhere, turns out to be surprisingly empirical!
+The theorist, here and elsewhere, turns out to be surprisingly empirical.
 
 The solution Luhmann offers---which lays the groundwork for his famous theory of the binary codes of societal function systems (science: true/untrue; law: lawful/unlawful; economy: payment/non-payment)---lies in the concept of binary coding.
 This artificially instituted two-value code (e.g., true/untrue) allows the system to sort its own operations retroactively and systematically, without ever having to solve the fundamental paradox of self-observation. 
@@ -503,16 +506,7 @@ The theorist becomes just another rat in the maze of society and communication t
 They can no longer retreat to an uninvolved observer's standpoint outside the system; they must reflect on the position within the system from which they are observing the other participants.
 The problem is not simply that cognition is described by means of communication, but that this very communication takes place within the cognizing system it is attempting to describe. 
 This description is therefore necessarily **incomplete**, yet the resulting paradox can unfold productively.
-(This is also why Luhmann called magnus opus *The society of society* (*Die Gesellschaft der Gesellschaft*) {% cite luhmann:1998 %} because (1) it is a description or a theory about society, i.e., society as the gramatical object and (2) a theory produced by society as the gramatical subject.)
-
-Luhmann offers us an image: an experimenter who observes rats in a maze normally stands outside the maze.
-For instance, Kant may write about the subject (communication), which he can observe from outside (as a consciousness).
-With the sociological concept of cognition, this is no longer possible.
-Here the theorist himself becomes one of the rats in the maze (of society, of communication) that he is trying to describe.
-He can no longer withdraw to an uninvolved observer's standpoint outside the system, but must reflect on the position, within the system, from which he observes the other participants.
-The problem is not, in principle, that cognition is described by means of communication, but that this very communication takes place within the cognizing system that it (the communication) is describing.
-This description is necessarily **incomplete**.
-The paradox, however, can unfold productively.
+(This is also why Luhmann called his magnus opus *The society of society* (*Die Gesellschaft der Gesellschaft*) {% cite luhmann:1998 %} because (1) it is a description or a theory about society, i.e., society as the gramatical object and (2) a theory produced by society as the gramatical subject.)
 
 Compared to the biological or psychological cases, it is no longer enough to concede a mere commonality of conditions.
 We have now arrived at the *unity* of the system itself: the theorist (or perhaps better, the theory) and the object of investigation are parts of the exact same communication system.
@@ -541,10 +535,10 @@ He is beyond every possible meta-distinction, even the distinction between "bein
 In this sense, theology had long anticipated the *unmarked space*.
 
 Within this theological framework, God cannot simply be designated as "the other" (relative to creation). 
-Doing so would reduce Him to a distinguishable object among others, subjecting Him to the apparatus of distinction.
+Doing so would reduce "him" to a distinguishable object among others, subjecting "him" to the apparatus of distinction.
 Instead, God is the "not-other"---the **very condition of the possibility of all distinguishing**, which cannot itself be positioned as an "other" without contradicting itself.
 In God, all pairs of opposites used in comparative human thought (bigger/smaller, faster/slower) perfectly coincide.
-Because God exists beyond every relative determination, the greatest and the smallest, the fastest and the slowest, are identical in Him.
+Because God exists beyond every relative determination, the greatest and the smallest, the fastest and the slowest, are identical in "him".
 There are simply no standards left by which "bigger" or "smaller" could even be distinguished.
 
 As radical and mystical as this sounds, it had to remain compatible with official, dogmatically binding Christian doctrine.
@@ -553,22 +547,22 @@ Consequently, God had to be definable simultaneously as a person and a Trinity (
 
 For Nicholas of Cusa (Cusanus), the theological solution to the problem of cognition ran as follows: the things of the world are a "contractio" of God.
 They represent a "contraction," or finitization, of the infinite, undivided God into finite, distinguishable, created entities.
-Through this process, God---though entirely unknowable in Himself---makes Himself indirectly knowable through His creation.
+Through this process, God---though entirely unknowable in "himself"---makes "himself" indirectly knowable through "his" creation.
 For human beings, truth consists in the correspondence between our own cognitive distinctions and the (God-created) distinctions inherent in things themselves.
 At its core, this is a theologically grounded correspondence theory of truth.
 
 However, this unleashes a genuine theological dilemma.
 On one hand, Scripture promises the redeemed the "visio Dei"---the beatifying, immediate vision of God in heaven (beatitudo).
 On the other hand, theology must stubbornly maintain that the divine essence remains strictly incomprehensible in itself ("divinam essentiam per se incomprehensibilem esse"); otherwise, God would be reduced to a finite, fully graspable object.
-To salvage both claims, theologians had to attribute a capacity for self-observation to God (without which He would not be a personal, self-conscious being—a theological necessity for the Trinity, where the divine persons know and love one another). 
-Yet, they could not push this capacity for observation so far that it mirrored the devil. In this tradition, the devil was considered the "boldest observer of God," whose ultimate sin was the presumptuous, overreaching attempt to fully grasp God and thereby become His equal.
+To salvage both claims, theologians had to attribute a capacity for self-observation to God (without which he would not be a personal, self-conscious being—a theological necessity for the Trinity, where the divine persons know and love one another). 
+Yet, they could not push this capacity for observation so far that it mirrored the devil. In this tradition, the devil was considered the "boldest observer of God," whose ultimate sin was the presumptuous, overreaching attempt to fully grasp God and thereby become "his" equal.
 
 To solve this dilemma, Luhmann argues, medieval theology effectively had to practice a highly advanced form of *second-order cybernetics*!
-It required a carefully differentiated observing of observers: of the elect (electi, the blessed who are permitted to see God), of the devil (who illegitimately attempts to "observe" God), and of God Himself (who must observe Himself).
+It required a carefully differentiated observing of observers: of the elect (electi, the blessed who are permitted to see God), of the devil (who illegitimately attempts to "observe" God), and of God "himself" (who must observe "himself").
 Structurally, this is the exact same problem Heinz von Foerster would reformulate cybernetically centuries later.
 
-This theological solution, however, drifted into dangerous proximity to a heterodox, almost heretical consequence: it implied that God needs creation, and perhaps even the damnation of the devil, in order to observe Himself and achieve full self-consciousness.
-God would no longer be the classically self-sufficient deity resting entirely within Himself;
+This theological solution, however, drifted into dangerous proximity to a heterodox, almost heretical consequence: it implied that God needs creation, and perhaps even the damnation of the devil, in order to observe "himself" and achieve full self-consciousness.
+God would no longer be the classically self-sufficient deity resting entirely within "himself";
 He would depend on an "other" (creation, the fallen devil) to act as a mirror.
 This implication was so delicate that Cusanus himself, according to Luhmann, warned against putting these writings into the hands of unprepared readers.
 It was simply too dangerous and too easily misunderstood.
@@ -601,13 +595,8 @@ In this sense, acknowledging the operational closure of cognition is not a sente
 Now that we have clarified the formal definition of *observing* (distinguishing + indicating), a pressing empirical question arises: how can these two components fuse into one single, coherent process?
 Luhmann emphasizes once again that **a system must meet very narrow, highly selective conditions to execute this complex double operation**.
 Observing is no trivial achievement.
-One conjecture is that for *sense-making* (Sinn-machende) systems (consciousness, communication), this succeeds because it is just barely possible to perceive two things simultaneously as a unified whole.
+One conjecture is that for *sense-making* (Sinn-machende) systems (consciousness, communication) succeeds because for them it is just barely possible to perceive two things simultaneously as a unified whole.
 Think of figure-ground perception: one sees the figure and the ground simultaneously, as a single coherent image, rather than as two separate acts of perception.
-
-It is also possible that only sufficiently complex systems can, over time, amplify minute differences---such as conspicuous fluctuations in their own oscillating movements---into massive effects.
-Cybernetics calls this deviation amplification (*positive feedback*), while linguistics observes a related phenomenon in hypercorrection (when speakers overcorrect to match a perceived norm, thereby overshooting the mark).
-Crucially, this temporal amplification process also presupposes operational closure.
-It requires an "own time" or Eigen-time---an internal temporal rhythm specific to the system's own operations, running parallel to the environment, which undoubtedly continues to exist simultaneously, albeit not in the same rhythm.
 
 It is also possible that only sufficiently complex systems can, over time, amplify minute differences---such as conspicuous fluctuations in their own oscillating movements---into massive effects.
 Cybernetics calls this deviation amplification *(positive feedback*), while linguistics observes a related phenomenon in hypercorrection (when speakers overcorrect to match a perceived norm, thereby overshooting the mark).
@@ -618,7 +607,6 @@ Eigenvalues {% cite foerster:2003b %} can emerge through recursive operations, t
 Crucially, this temporal amplification process also presupposes operational closure.
 It requires an "own time"---an internal temporal rhythm specific to the system's own operations, running parallel to the environment, which undoubtedly continues to exist simultaneously, albeit not in the same rhythm.
 A system has its own time (Luhmann sometimes calls this "Eigenzeit") precisely because, and only because, it's operationally closed. (The connection to {% cite husserl:1928 %} seems strong here.)
-
 
 This internal rhythm, in turn, requires memory to perform two distinct functions.
 First, it must conduct an ongoing **consistency check**, evaluating whether new impressions align with currently activated and relevant structures.
@@ -707,7 +695,9 @@ Short-wavelength light inevitably carries a great deal of momentum per photon---
 The more one refines the measuring instrument to determine the position more precisely (shorter wavelength), the more strongly and inevitably you disturb the electron's momentum in the process.
 Physics itself is forced to theorize the observation situation as part of its own subject matter; it can no longer return to a neutral, uninvolved standpoint.
 It is a theory existing purely at the level of second-order cybernetics.
-In a sense, *hard sciences* becomes really *hard* when it pushes to its most outer boundary to hit a problem that *soft sciences* have to deal with from beginning.[^15]
+
+>In a sense, *hard sciences* becomes really *hard* when it pushes to its most outer boundary to hit a problem that *soft sciences* have to deal with from the beginning.[^15]
+
 Correspondingly, it describes reality as fundamentally indeterminable (as seen in Heisenberg's uncertainty principle or the collapse of the wave function).
 Luhmann immediately defuses this ontological panic, however: this does not necessarily mean that reality itself is indeterminable!
 It simply means that the observing-of-observing—the measuring and the predicting of measurements—produces new forms that turn into new media.
@@ -730,7 +720,7 @@ For Luhmann, conflating internal systemic complexity with external alignment is 
 
 Science does not converge gently upon a fixed truth; rather, it drifts ever further, and ever more boldly away from any assumed starting point. 
 Cognition projects its own distinctions onto a reality that is itself entirely devoid of distinctions.
-In doing so, it seizes a freedom that is nowhere "provided for" or guaranteed by reality itself---**a radically self-produced, rather than externally legitimated, freedom**.
+In doing so, it seizes a freedom that is nowhere "provided for" or guaranteed by reality itself---**a radically self-produced, rather than externally legitimated freedom**.
 
 Even the attempt to label this freedom as "causeless" (spontaneous or uncaused) would merely be another judgment regarding causation and attribution.
 It would be just one more act of cognition, entirely unable to escape the inescapable loop of its own constructedness.
@@ -821,7 +811,7 @@ At this juncture, it is natural to think of language.
 As discussed, Maturana ties his concept of the observer directly to linguistic capacity.
 Ernst von Glasersfeld (another central figure of radical constructivism) similarly views linguistic research as the empirical proving ground for the entire theory.
 This alliance seems fitting, given that linguistics, ever since Ferdinand de Saussure, has largely abandoned the idea that signs refer directly to external things (outer reference).
-Saussure's structuralism demonstrates---and today's large language models empirically suggest much the same---that the value of a linguistic sign arises purely differentially.
+Saussure's structuralism demonstrates---and today's large language models empirically suggest much of the same---that the value of a linguistic sign arises purely differentially.
 A sign is defined exclusively by its relation to other signs within the closed system of language, not by direct reference to the external world.
 
 This *structuralist* insight acts as a powerful linguistic anticipation of the core constructivist idea.
@@ -832,7 +822,7 @@ To remain theoretically precise, one must strictly distinguish between conscious
 
 All of these systems---consciousness, communication, and perhaps even algorithmic computation---can utilize language.
 They use it for thinking, for communicating, and potentially for computing.
-For all of them, the high degree of complexity we are familiar with only becomes possible through language in the first place.
+For all of them, the high degree of complexity we are familiar with, only becomes possible through language in the first place.
 Nevertheless, they remain operationally closed and entirely separate systems.
 **The shared use of language by no means fuses them into a single system**.
 There is absolutely no operative overlap.
@@ -880,14 +870,17 @@ The central questions shift: Which operations close off a system? (rather than: 
 The old, vague concept of "connection" is not discarded, but made precise.
 It becomes a result of the system's boundary-drawing, no longer its defining precondition.
 This paradigm shift has far-reaching, still barely foreseeable consequences; we are, truly, only at the beginning (bearing in mind that Luhmann wrote this in 1988).
-Cognition is possible if and only because systems operatively close themselves off at the level of their distinguishing and indicating, thereby rendering themselves indifferent to the excluded environment.
+Cognition is possible because systems operatively close themselves off at the level of their distinguishing and indicating, thereby rendering themselves indifferent to the excluded environment.
 
 Finally, Luhmann offers a few closing pointers to guard against ultimate misunderstandings.
 First, the insight into operative closure does not mean that cognition is "unreal" (this is a firm rejection of any nihilistic or illusionist reading of constructivism).
 Second, it does not imply that there can be absolutely no correspondences between a system's differentiating operations and the environment.
 If that were the case, the system would lose all purchase on its environment and continually dissolve into it, rendering cognition impossible from the start.
 
-Luhmann thus deliberately closes the text not with a radical, solipsistic declaration that "there is nothing but construction," but with a finely balanced position: there is no direct correspondence in the classical, mirroring sense, but there is also no complete arbitrariness or detachment from reality. 
+I would even add that we, as living and psychic systems, are so deeply at home in our environment because we are not a mere assembly of parts---not engineered within and for a specific environment.
+We are not only the result of a long process of differentiation from what we call 'home,' but its very identity. To word it a little more mystically: we are a certain cut of the whole we can only observe by cutting it.
+
+Luhmann then deliberately closes the text not with a radical, solipsistic declaration that "there is nothing but construction," but with a finely balanced position: there is no direct correspondence in the classical, mirroring sense, but there is also no complete arbitrariness or detachment from reality. 
 There is only just enough **structural fit** for the system to assert and sustain itself as a system against its environment.
 A system is closed with respect to its operations, but it remains structurally coupled, physically embedded, and constantly susceptible to irritation by its environment. 
 This very coupling presupposes a certain 'fit'.
@@ -895,12 +888,12 @@ This very coupling presupposes a certain 'fit'.
 ## 8. Reality as Inconsistency Solution
 
 To summarize Luhmann's *operational constructivism*:
-We assume that systems and their environments are real, meaning that they genuinely exist.
-However, this assumption can never be definitively proven from the inside, because there is no direct access to the environment.
+We assume that systems and their respective environments are real, meaning that they genuinely exist.
+We concede that this assumption can never be definitively proven from the inside, because there is no direct access to the environment.
 Anything entering cognition is entirely constructed by cognition---it is a self-generated performance (Eigenleistung) of the system.
 Yet the fact that our knowledge---including our observation of living, psychic, and social systems---is constructed, mediated, and fallible does not imply that what we thereby gain knowledge of is unreal.
 
-Asking then about the conditions of possibility for operational closure leads one to highly selective and improbable mechanisms, most notably *autopoiesis*.
+Asking then about the conditions of the possibility for operational closure leads one to highly selective and improbable mechanisms, most notably *autopoiesis*.
 All existing systems must continuously reproduce their own operations; otherwise, they would dissolve back into their environment.
 
 Assuming (some) systems observe, it seems logical that (some) systems can observe observations.
@@ -908,16 +901,17 @@ For example, my mind can observe itself.
 I can think about my thoughts; second-order observation, in this case, can thus be assumed.
 I might also be able to observe the observations of a social system, that is, of something that lies on the unmarked side of my re-entry.
 
-We can conclude that there is empirical evidence that psychic and social systems use second-order observation, but like any such evidence, it is a already cognition which does not say much about the environment or "the world."
-If I indicate something that I observe as "observatio", I am applying my own distinction of what counts as an observation.
+We can conclude that there is empirical evidence that psychic and social systems use second-order observation, but like any such evidence, it is already cognition that comes to such conclusion.
+If I indicate something that I observe as "an observer", I am applying my own distinction of what counts as an observation.
 But if treating such an event as an "observation" allows my own system to successfully continue its autopoiesis, handle irritations, and remain connectable, then the categorization is functionally validated within my system.
 
-We can ask why (some) systems develop the ability to observe observations.
-But first: not all systems are observing systems.
+We can then ask why (some) systems develop the ability to observe observations.
+Before doing that, we should clarify that not all systems are observing systems.
 While complex systems (like consciousness and communication) utilize second-order observation to manage their boundaries, simpler autopoietic systems---such as biological cells---maintain their closure through blind, structural couplings and biochemical reactions without ever observing observations.
-And Here we departed from Maturana's claim that life is cognition.
+Importantly, we departed from Maturana's claim that life is cognition.
 
 >So first the system produces a difference of system and environment, and then it learns to control its own body and not the environment to make a difference in the system. So cognition then becomes a secondary achievement in a sense, tied to a specific operation which, I think, is that of making a distinction and indicating one side and not the other. It's an explosion of possibilities, if you always have the whole world present in your distinctions. -- Luhmann (in {% cite hayles:1995 %})
+
 First the system produces its own difference.
 That is autopiesis and operational closure but *not* an act performed by anyone or anything, but an effect.
 It is only after closure that Luhmann wants to locate distinguishing-and-indicating in the Spencer-Brown sense: selecting one side (the body) as the reference point for continuing operations, orienting itself by it, using the distinction rather than merely being its effect.
@@ -928,14 +922,14 @@ Furthermore, we depart from the claim that observation is linguistic---according
 Over many years, psychic and social systems irritated each other in a *structural drift* (evolution).
 In the case of minds, a biological organism reached a level of systemic complexity high enough that an internal, self-referential loop of consciousness emerged.
 While the mind is operationally closed, it is structurally coupled with its biological substrate (the brain/body) and its environment.
-The physical body and nervous system absorb environmental perturbations, which irritate the closed psychic system, prompting it to generate new thoughts.
+The physical body and its nervous system absorb environmental perturbations, which irritate the closed psychic system, prompting it to generate new thoughts.
 
 Social systems and minds became highly dependent on each other, and a structural coupling co-evolved via language.
 This prevented minds from remaining entirely trapped in immediate, momentary perceptions; language acts as a structural coupling mechanism between separate psychic systems and social communication.
-In general, systems decouple from their environment not by stepping outside of it, but by building an internal, recursive network of operations (e.,g. thoughts, communication) so complex that it becomes indifferent to the environment---relying entirely on its own self-reproducing operations to make sense of whatever irritations leak through its boundaries.
+In general, systems decouple from their environment not by stepping outside of themselves, but by building an internal, recursive network of operations (e.,g. thoughts, communication) so complex that it becomes indifferent to the environment---relying entirely on its own self-reproducing operations to make sense of whatever irritations leak through its boundaries.
 
 No individual operation aims at this decoupling; it is an evolutionary, non-intentional byproduct of autopoiesis.
-For any system this is a highly improbable event.
+Thus, for any system, this is a highly improbable event.
 
 We can surmise that minds and social systems observe other systems (which themselves are able to observe) in their environment to cope with the unformatted, unstructured complexity of their surroundings.
 Ultimately, advanced systems rely on these observational practices to reproduce their internal structures and prevent themselves from collapsing into their environment.
