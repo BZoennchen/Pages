@@ -1,4 +1,5 @@
 ---
+math: true
 layout: post
 title: "Cognition as Construction"
 tags: 
@@ -68,16 +69,16 @@ This has a far-reaching consequence.
 Everything that exists in space, including outer objects---the "outer world" in the common sense---possesses only empirical reality, but transcendental ideality. In other words, spatial things are merely appearances to a subject equipped with our specific sensory apparatus; they are not things-in-themselves.
 Strictly speaking, this already constitutes a form of idealism regarding the outer world, albeit a different and subtler one than Berkeley's. (On Berkeley cf. {% cite downing:2004 %}.)
 
-In the first edition of the *Critique of Pure Reason*, Kant treated this proximity to idealism relatively openly in the "Fourth Paralogism." 
+In the first edition of the *Critique of Pure Reason*, Kant treated this proximity to idealism relatively openly in the *Fourth Paralogism*. 
 There, the existence of outer objects appeared as something that---unlike the immediately certain inner consciousness---first had to be inferred, rendering it ultimately less certain.
 Structurally, this stance aligned closely with Descartes's problematic idealism.
 This formulation, however, earned Kant fierce criticism: the notorious Feder-Garve review of 1782 accused his transcendental idealism of being ultimately indistinguishable from the dogmatic idealism of Berkeley, who denied the existence of matter altogether.
 
 It was precisely this dogmatism that Kant had sought to overcome.
-He aimed to abandon transcendent speculations in favor of investigating the conditions of possibility---meaning, for instance, that rather than attempting to prove God's existence, he asked why we possess or articulate a representation of God in the first place.
+He aimed to abandon transcendent speculations in favor of investigating the conditions of the possibility---meaning, for instance, that rather than attempting to prove God's existence, he asked why we possess or articulate a representation of God in the first place.
 This marks Kant's famous Copernican turn: the shift from the transcendent to the **transcendental**.
 
-Reacting to this backlash in his second edition, Kant largely struck the Fourth Paralogism and inserted a new section, the "Refutation of Idealism."
+Reacting to this backlash in his second edition, Kant largely struck the *Fourth Paralogism* and inserted a new section, the *Refutation of Idealism*.
 In this precise passage, he explicitly distances himself from both Descartes's problematic idealism and Berkeley's dogmatic idealism, arguing instead that the consciousness of my own existence in time already presupposes the perception of something persistent outside of me.
 Outer experience, therefore, is at least as immediately certain as inner experience.
 
