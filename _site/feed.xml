@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-09-04T12:39:13+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Cognition as Construction</title><link href="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html" rel="alternate" type="text/html" title="Cognition as Construction" /><published>2026-08-19T00:00:00+02:00</published><updated>2026-08-19T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html"><![CDATA[<h2 id="0-toward-a-new-epistemology">0. Toward a New Epistemology</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://bzoennchen.github.io/Pages/feed.xml" rel="self" type="application/atom+xml" /><link href="https://bzoennchen.github.io/Pages/" rel="alternate" type="text/html" /><updated>2026-09-04T12:45:49+02:00</updated><id>https://bzoennchen.github.io/Pages/feed.xml</id><title type="html">Bene’s Blog</title><subtitle>A blog dedicated to computer science, education, music, philosophy and technology</subtitle><author><name>Benedikt Zönnchen</name><email>benedikt.zoennchen@web.de</email></author><entry><title type="html">Cognition as Construction</title><link href="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html" rel="alternate" type="text/html" title="Cognition as Construction" /><published>2026-08-19T00:00:00+02:00</published><updated>2026-08-19T00:00:00+02:00</updated><id>https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en</id><content type="html" xml:base="https://bzoennchen.github.io/Pages/2026/08/19/cognition-as-construction-en.html"><![CDATA[<h2 id="0-toward-a-new-epistemology">0. Toward a New Epistemology</h2>
 
 <p>The aim of the following text is to bring clarity to Niklas Luhmann’s essay <em>Erkenntnis als Konstruktion</em> (<em>Cognition as Construction</em>) <a class="citation" href="#luhmann:1988">(Luhmann, 1988)</a>.
 We try to untangle one of modern systems theory’s most radical propositions: that cognition succeeds not despite being completely cut off from an external reality, but precisely <strong>because</strong> of it.
@@ -13,23 +13,25 @@ Each headline of this article (except the last one) corresponds to chapter in th
 
 <p>Naturally, the core intellectual achievement—as we attribute it usually—belongs entirely to Luhmann and the authors whose work he integrated into his theory.
 Apart from relating his work to “artifical systems”, my contribution, if any, lies simply in the attempt to follow his reasoning.
-As a computer scientist familiar with the $\mathcal{P} \stackrel{?}{=} \mathcal{NP}$ problem, I find that tracing a complex thought ($\mathcal{P}$) is considerably easier than originating it ($\mathcal{NP}$).
+As a computer scientist familiar with the \(\mathcal{P} \stackrel{?}{=} \mathcal{NP}\) problem, I find that tracing a complex thought (\(\mathcal{P}\)) is considerably easier than originating it (\(\mathcal{NP}\)).
 As we will see, information is not transmitted to the reader but constructed within “her”.
 Thus, all interpretations are inevitably misinterpretations; they can never perfectly capture an author’s actual thoughts, as even the author is constrained by the limits of communication and thought is not communication.
 Whether my interpretation will, in turn, succeed in stimulating coherent thoughts in the reader’s mind remains to be seen.</p>
 
 <p><em>Erkenntnis als Konstruktion</em> originated as a lecture Luhmann delivered at the Kunstmuseum Bern on October 23, 1988.
 It was published later that same year as a standalone volume by Verlag Benteli, in a series edited by Gerhard J. Lischka.
-It is often said that to understand Luhmann’s “supertheory” of social systems, there is no bypassing this foundational text. It serves as the starting point for a theory aiming to comprehend society <em>as</em> society <em>through</em> society. As the back cover of the small edition aptly puts it:</p>
+It is often said that to understand Luhmann’s “supertheory” of social systems, there is no bypassing this foundational text. It serves as the starting point for a theory aiming to comprehend society <em>as</em> communication <em>through</em> communication. As the back cover of the small edition aptly puts it:</p>
 
 <blockquote>
   <p>Luhmann in a nutshell.</p>
 </blockquote>
 
-<p>My own interest, however, lies less in his broader sociology and more in the novel epistemology he promises—a framework that connects to the idealist tradition (Kant, Fichte, Hegel) while simultaneously threatening to supersede it.
-What I find most compelling is how Luhmann detaches cognition from the human subject.
-This detachment fuels my interest in finding a theory and a “suitable vocabulary” (to borrow from Richard Rorty) for discussing not only what we currently call “artificial intelligence,” but also our ongoing ecological crises and catastrophes.
-As someone without formal training in this philosophical tradition, I leave the final judgment on the success of this undertaking to others.</p>
+<p>Luhmann can be seen as a contiental philosopher who was never taken serious by philosophy departments.
+And therein lies my interest regarding this text, that is, not in his broader sociology and more in the novel epistemology he promises—a framework that connects to the idealist tradition (Kant, Fichte, Hegel) while simultaneously threatening to supersede it.</p>
+
+<p>What I find most compelling is how Luhmann detaches cognition from the human subject.
+This detachment is heartbreaking but also fuels my interest in finding a theory and a “suitable vocabulary” (to borrow from Richard Rorty) for discussing not only what we currently call “artificial intelligence,” but also our ongoing ecological crises and catastrophes.
+As someone without formal training in any philosophical tradition, I leave the final judgment on the success of this undertaking to others.</p>
 
 <h2 id="1-from-retreat-to-radical-closure">1. From Retreat to Radical Closure</h2>
 
