@@ -13,17 +13,20 @@ comments: true
 The aim of the following text is to bring clarity to Niklas Luhmann's essay *Erkenntnis als Konstruktion* (*Cognition as Construction*) {% cite luhmann:1988 %}.
 We try to untangle one of modern systems theory's most radical propositions: that cognition succeeds not despite being completely cut off from an external reality, but precisely **because** of it.
 By doing so, I will do my best to translate Luhmann's dense terminology into an accessible roadmap, exploring how *operationally closed systems*---from minds to social communication---construct their own worlds through *distinctions*, *blind spots*, and *structural couplings* rather than mirroring a pre-given truth.
+
 Since I am interested in applying his theory to questions concerning artificial intelligence, I will sprinkle in my own remarks from time to time.
+
 Whether you are curious about the philosophy of science, artificial intelligence, or simply how systems manage to make sense of an otherwise unstructured environment, this step-by-step breakdown offers hopefully a fresh, humbling perspective on what it actually means to "know", to "*make sense* of the world", and to live in a *structural drift* in an *environment* of interdependet but also autonomous *systems*.
 
 If you want to follow along, I am using the German Reclam edition from the *Great Papers Soziologie* series, working through the chapters step by step.
-Each headline of this article corresponds to chapter in the book.
+Each headline of this article (except the last one) corresponds to chapter in the book.
 
-Naturally, the core intellectual achievement belongs entirely to Luhmann.
-Apart from relating his theory to "artifical systems", my contribution, if any, lies simply in the attempt to follow his reasoning. 
-As a computer scientist familiar with the P versus NP problem, I find that tracing a complex thought (P) is considerably easier than originating it (NP).
-Of course, all interpretations are inevitably misinterpretations; they can never perfectly capture an author's actual thoughts, as even the author is constrained by the limits of communication.
-Whether my interpretation will, in turn, succeed in stimulating coherent thoughts in the reader remains to be seen.
+Naturally, the core intellectual achievement---as we attribute it usually---belongs entirely to Luhmann and the authors whose work he integrated into his theory.
+Apart from relating his work to "artifical systems", my contribution, if any, lies simply in the attempt to follow his reasoning.
+As a computer scientist familiar with the $\mathcal{P} \stackrel{?}{=} \mathcal{NP}$ problem, I find that tracing a complex thought ($\mathcal{P}$) is considerably easier than originating it ($\mathcal{NP}$).
+As we will see, information is not transmitted to the reader but constructed within "her".
+Thus, all interpretations are inevitably misinterpretations; they can never perfectly capture an author's actual thoughts, as even the author is constrained by the limits of communication and thought is not communication.
+Whether my interpretation will, in turn, succeed in stimulating coherent thoughts in the reader's mind remains to be seen.
 
 *Erkenntnis als Konstruktion* originated as a lecture Luhmann delivered at the Kunstmuseum Bern on October 23, 1988.
 It was published later that same year as a standalone volume by Verlag Benteli, in a series edited by Gerhard J. Lischka.

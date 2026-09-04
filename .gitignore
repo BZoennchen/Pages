@@ -25,3 +25,7 @@ libs/
 #bibtex
 *.bib.bak
 *.bib.sav.tmp
+
+#papers
+assets/files/papers/*
+assets/files/research-applications/*
