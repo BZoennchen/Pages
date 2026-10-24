@@ -135,3 +135,9 @@ scholar:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - Rakefile
+  - Claude outputs/
