@@ -74,6 +74,10 @@ What he found is **the language of dominance**.
 
 >The will to dominate was the fundamental law of the life of the universe from its most rudimentary forms to its most elevated ones. That man was driven by a divine bestiality. -- Benito Mussolini
 
+Or in a new version:
+
+>We live in a world that is governed by strength, that is governed by force, that is governed by power. -- Stephen Miller
+
 <!--
 
 In the words of Palantir's manifesto:
